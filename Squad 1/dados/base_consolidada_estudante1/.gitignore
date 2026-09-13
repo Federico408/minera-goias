@@ -1,0 +1,12 @@
+# Dados brutos: não versionados (catálogo com link oficial e sha256 em dados/LEIA-ME.md e na aba 07)
+dados/*
+!dados/LEIA-ME.md
+
+# Gerados a cada execução do pipeline
+outputs/
+documentacao/prototipo_bases_consolidadas_v1_*.xlsx
+documentacao/prototipo_bases_consolidadas_v2_*.xlsx
+documentacao/prototipo_bases_consolidadas_v3.xlsx
+documentacao/prototipo_bases_consolidadas_v4.xlsx
+documentacao/prototipo_bases_consolidadas_v5*.xlsx
+__pycache__/

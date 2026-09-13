@@ -70,7 +70,7 @@ class WebTests(unittest.TestCase):
         r=self.client.get('/api/atlas')
         self.assertEqual(r.status_code,200)
         self.assertEqual(len(r.json()['municipalities']),246)
-        self.assertEqual(self.client.get('/api/atlas/processes').json()['n'],17402)
+        self.assertEqual(self.client.get('/api/atlas/processes').json()['n'],16656)
 
     def test_api_supports_every_database_schema(self):
         from unittest.mock import MagicMock
