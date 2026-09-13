@@ -117,7 +117,7 @@ style_header(ws, "Base 4 — Catálogo de camadas de mapa (v5, real)",
              "Cada camada é um arquivo GeoJSON (WGS 84, RFC 7946 — direto no Leaflet/Mapbox do Squad 3) e uma camada do GeoPackage "
              "outputs/mapas/minera_goias_mapas_v1.gpkg (SIRGAS 2000, resolução total — para QGIS). Todas carregam as mesmas chaves das Bases 1-3. "
              "Seguindo o guia do Squad 3, ocorrência geológica, processo, operação ativa e projeto futuro têm camadas e símbolos separados; "
-             "CAM_05 (RECMIN) e CAM_06 (projetos) ficam reservadas porque ainda não há dado real para elas.",
+             "CAM_05 (ocorrências do RECMIN, aba 06) e CAM_06 (projetos, aba 04) são gravadas por build_mapas_04_06.py, que roda depois dessas abas.",
              len(cols), 66)
 write_table(ws, cols, catalogo, "MapasCamadasV5", wrap=("descricao", "chaves_de_juncao", "observacao"))
 print("13_mapas_camadas:", len(catalogo))

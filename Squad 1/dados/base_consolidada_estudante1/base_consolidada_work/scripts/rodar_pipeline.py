@@ -23,7 +23,7 @@ from caminhos import BASE, TMP  # noqa: E402
 
 ETAPAS = [
     "build_base1_mineral_ano", "build_base2_municipio_ano", "build_base3_empresa_mineral_ano", "build_base4_mapas",
-    "build_fato_08", "build_interface_12", "build_projetos_04", "build_ocorrencias_06",
+    "build_fato_08", "build_interface_12", "build_projetos_04", "build_ocorrencias_06", "build_mapas_04_06",
     "write_base1_into_workbook", "write_base2_into_workbook", "write_base3_into_workbook", "write_base4_into_workbook",
     "write_ocorrencias_06_into_workbook", "write_projetos_04_into_workbook", "write_interface_12_into_workbook",
     "write_fato_08_into_workbook", "write_governanca_into_workbook",

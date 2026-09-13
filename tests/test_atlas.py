@@ -1,4 +1,4 @@
-"""Retrato do atlas gerado por scripts/build_atlas_base.py a partir da base consolidada do Squad 1 (v14)."""
+"""Retrato do atlas gerado por scripts/build_atlas_base.py a partir da base consolidada do Squad 1 (v15)."""
 import base64,json,struct,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -55,3 +55,32 @@ class AtlasTests(unittest.TestCase):
   self.assertTrue(subs)
   self.assertEqual({s['sub'] for s in subs},set(d['production']['dados']))
   self.assertEqual(sorted(d['meta']['retained_from_artifact']['layers']),['dams','energy','energy_months'])
+ def test_project_and_occurrence_points(self):
+  d=atlas();codes={m['code'] for m in d['municipalities']}
+  # uma feição por linha das abas 04 (camada CAM_06) e 06 (camada CAM_05) da base consolidada
+  for key,n,prefix in (('projects',3377,'PRJ_'),('occurrences',1796,'OCC_')):
+   rows=[dict(zip(d[key]['cols'],r)) for r in d[key]['rows']]
+   self.assertEqual(len(rows),n);self.assertEqual(len({r['id'] for r in rows}),n)
+   self.assertTrue(all(r['id'].startswith(prefix) and r['mun'] in codes for r in rows))
+   self.assertTrue(all(-20<r['lat']<-12 and -54<r['lon']<-45 for r in rows))  # alguns projetos cruzam a divisa do estado
+  proj=[dict(zip(d['projects']['cols'],r)) for r in d['projects']['rows']]
+  self.assertEqual({r['classe'] for r in proj},{'provável','possível','sinal'})
+  self.assertFalse(any('***' in str(r['titular'] or '') for r in proj))  # sem CPF mascarado de pessoa física no pacote
+  occ=[dict(zip(d['occurrences']['cols'],r)) for r in d['occurrences']['rows']]
+  self.assertEqual({r['importancia'] for r in occ},{'Depósito','Ocorrência','Indício','Indeterminado'})
+ def test_charts_reconcile_with_the_base(self):
+  d=atlas();c=d['charts']
+  for key,chart in c.items():
+   self.assertIn(chart['type'],('hbar','hstack','stack','group'),key)
+   self.assertEqual(len(chart['values']),len(chart['groups']),key)
+   self.assertTrue(all(len(v)==len(chart['labels']) for v in chart['values']),key)
+  by_year={str(r['Ano']):r['valor']/1e6 for r in d['cfem_years']}
+  years=c['cfem_substance_years'];self.assertEqual(years['labels'],[str(a) for a in ANOS])
+  for j,y in enumerate(years['labels']):self.assertAlmostEqual(sum(v[j] for v in years['values']),by_year[y],places=4)
+  self.assertAlmostEqual(sum(c['cfem_substances']['values'][0]),by_year['2025'],places=4)
+  cover=c['operation_coverage']
+  for j in range(len(cover['labels'])):self.assertAlmostEqual(sum(v[j] for v in cover['values']),100,places=3)
+  self.assertEqual(sum(map(sum,c['projects_minerals']['values'])),3377)
+  self.assertGreaterEqual(sum(map(sum,c['occurrences_substances']['values'])),1796)  # com várias substâncias, conta em cada uma
+  conc=c['cfem_concentration']['values']
+  self.assertTrue(all(0<v<=100 for g in conc for v in g));self.assertTrue(all(a<=b for g in conc for a,b in zip(g,g[1:])))

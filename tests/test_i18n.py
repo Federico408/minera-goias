@@ -44,7 +44,9 @@ class TranslationTests(unittest.TestCase):
 
     def test_series_keys_are_complete_in_both_languages(self):
         pt, en = dictionaries()
-        for series in ('cfem_years', 'cfem_comparable', 'energy_months', 'beneficiated', 'investment'):
+        for series in ('cfem_years', 'cfem_comparable', 'energy_months', 'beneficiated', 'investment', 'cfem_substances',
+                       'cfem_substance_years', 'cfem_concentration', 'rom_minerals', 'operation_coverage',
+                       'projects_minerals', 'occurrences_substances'):
             for part in ('title', 'note', 'unit'):
                 key = f'at.s.{series}.{part}'
                 self.assertIn(key, pt)
@@ -70,7 +72,8 @@ class TranslationTests(unittest.TestCase):
         # The scale under the slider names every step it can stop on.
         self.assertIn("id=\"atlas-year-ticks\"", markup)
         self.assertIn("YEARS.map((y,i)=>", code)
-        for hook in ('function selectMun(', 'function profile(', 'municipalitySubstances', 'municipalityDams'):
+        for hook in ('function selectMun(', 'function profile(', 'municipalitySubstances', 'municipalityDams', 'function chartGeneric(',
+                     'function pointRows('):
             self.assertIn(hook, code)
 
     def test_atlas_is_the_first_panel(self):

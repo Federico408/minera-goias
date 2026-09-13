@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Atualiza o atlas (data/atlas/atlas.json e processes.json) com a base consolidada do Squad 1 / Estudante 1.
 
-Mantém exatamente o formato lido por public/atlas.js. Vêm da base consolidada (v14):
+Mantém exatamente o formato lido por public/atlas.js. Vêm da base consolidada (v15):
   municipalities   malha IBGE 2025 (camada municipios_go da Base 4), processos do SIGMINE que tocam cada município e CFEM 2022–2026
   cfem             CFEM por município e ano para os 246 municípios (aba 08 da planilha; 2026 até o último mês do arquivo)
   production       quantidade comercializada em t e CFEM por substância × município em 2025 — é CFEM declarada, não produção
@@ -10,11 +10,15 @@ Mantém exatamente o formato lido por public/atlas.js. Vêm da base consolidada 
   beneficiated     valor de venda da produção beneficiada de Goiás (Anuário Mineral Brasileiro)
   investment       investimento declarado em pesquisa mineral em Goiás (arquivo da ANM catalogado na aba 07)
   processes.json   os processos do SIGMINE em Goiás (camada processos_minerarios_go), geometria simplificada e quantizada
+  projects         um ponto por projeto que ainda não produz (camada projetos_futuros = aba 04); titular só quando é CNPJ
+  occurrences      um ponto por ocorrência ou depósito do RECMIN (camada ocorrencias_minerais_recmin = aba 06)
+  charts           gráficos das séries: CFEM por substância e ano, concentração da CFEM (abas 10 e 11), produção bruta por
+                   mineral (aba 09), produção atribuída a operações (aba 12), projetos por mineral e ocorrências por substância
 Continuam do retrato anterior (eliel.html), porque a base consolidada não os cobre: energy, energy_months (CCEE) e dams (SIGBM).
 
 Uso, fora da VPS (precisa de geopandas/pyogrio, shapely >= 2.1 e openpyxl):
     python scripts/build_atlas_base.py --base "<pasta do projeto do Squad 1>"
-A pasta do projeto contém outputs/mapas/minera_goias_mapas_v1.gpkg, documentacao/prototipo_bases_consolidadas_v14.xlsx e
+A pasta do projeto contém outputs/mapas/minera_goias_mapas_v1.gpkg, documentacao/prototipo_bases_consolidadas_v15.xlsx e
 dados/ANM/investimento_pesquisa/InvestimentoPesquisaMineralUf.csv — é o que o pipeline de
 Squad 1/dados/base_consolidada_estudante1/ gera e lê.
 """
@@ -64,7 +68,7 @@ def ler_planilha(caminho):
     wb = openpyxl.load_workbook(caminho, read_only=True)
     linhas = wb["08_fato_producao_energia"].iter_rows(min_row=4, values_only=True)
     ix = {c: i for i, c in enumerate(next(linhas))}
-    cfem_mun_ano, cfem_ano, jan_jul = defaultdict(int), defaultdict(int), defaultdict(int)  # centavos: somas exatas
+    cfem_mun_ano, cfem_ano, jan_jul, cfem_sub_ano = defaultdict(int), defaultdict(int), defaultdict(int), defaultdict(int)  # centavos: somas exatas
     registros, muns_ano, titulares_ano = Counter(), defaultdict(set), defaultdict(set)
     producao = defaultdict(lambda: [0.0, 0, set()])  # (SUBSTÂNCIA, município) em 2025 -> [t, centavos, titulares]
     venda, subs_venda, periodos = defaultdict(float), defaultdict(set), set()
@@ -73,11 +77,13 @@ def ler_planilha(caminho):
         if fonte == "SRC_ANM_CFEM":
             ano, mun, periodo = int(r[ix["year"]]), str(r[ix["municipality_id"]]), str(r[ix["periodo_referencia"]])
             substancia = str(r[ix["mineral_name"]] or "NÃO CLASSIFICADO").upper()
+            nome_mineral = r[ix["mineral_name"]] or "Não classificado"
             if metrica == "cfem_recolhido":
                 c = round(float(r[ix["valor_tratado"]] or 0) * 100)
                 periodos.add(periodo)
                 cfem_mun_ano[(mun, ano)] += c
                 cfem_ano[ano] += c
+                cfem_sub_ano[(nome_mineral, ano)] += c
                 registros[ano] += 1
                 muns_ano[ano].add(mun)
                 titulares_ano[ano].add(r[ix["company_id"]])
@@ -96,14 +102,24 @@ def ler_planilha(caminho):
                 subs_venda[ano].add(r[ix["mineral_id"]])
     fontes = wb["07_dim_fontes"].iter_rows(min_row=4, values_only=True)
     cab07 = list(next(fontes))
-    sigmine = next(dict(zip(cab07, r)) for r in fontes if r and r[0] == "SRC_ANM_SIGMINE")
+    fontes07 = {r[0]: dict(zip(cab07, r)) for r in fontes if r and r[0]}
+    sigmine = fontes07["SRC_ANM_SIGMINE"]
     aba10 = wb["10_cons_municipio_ano"].iter_rows(min_row=4, values_only=True)
     cab10 = list(next(aba10))
     total10 = sum(round(float(r[cab10.index("cfem_recolhido_brl")] or 0) * 100) for r in aba10 if r and r[0])
+
+    def aba(nome):
+        it = wb[nome].iter_rows(min_row=4, values_only=True)
+        cab = list(next(it))
+        return [dict(zip(cab, r)) for r in it if r and r[0] is not None]
+
+    abas = {n: aba(n) for n in ("09_cons_mineral_ano", "10_cons_municipio_ano", "11_cons_empresa_ano_mineral",
+                                "12_interface_squad1_squad2", "13_mapas_camadas")}
     wb.close()
-    return dict(cfem_mun_ano=cfem_mun_ano, cfem_ano=cfem_ano, jan_jul=jan_jul, registros=registros, muns_ano=muns_ano,
-                titulares_ano=titulares_ano, producao=producao, venda=venda, subs_venda=subs_venda, periodos=sorted(periodos),
-                data_sigmine=sigmine["data_arquivo_local"], total10=total10)
+    return dict(cfem_mun_ano=cfem_mun_ano, cfem_ano=cfem_ano, jan_jul=jan_jul, cfem_sub_ano=cfem_sub_ano, registros=registros,
+                muns_ano=muns_ano, titulares_ano=titulares_ano, producao=producao, venda=venda, subs_venda=subs_venda,
+                periodos=sorted(periodos), data_sigmine=sigmine["data_arquivo_local"],
+                data_recmin=fontes07.get("SRC_SGB_RECMIN", {}).get("data_arquivo_local"), total10=total10, abas=abas)
 
 
 def investimento(caminho):
@@ -117,6 +133,138 @@ def investimento(caminho):
         if r and r[0].strip() == "GO":
             total[int(r[cab.index("Ano")])] += sum(numero(r[i]) for i in valores)
     return [{"Ano": a, "TOTAL": round(total[a], 2)} for a in sorted(total)]
+
+
+CLASSES = ["provável", "possível", "sinal"]  # classificacao_maturidade da aba 04, na ordem da legenda
+IMPORTANCIA = ["Depósito", "Ocorrência", "Indício", "Indeterminado"]  # importancia do RECMIN (aba 06)
+
+
+def _vazio(v):
+    return v is None or v != v or str(v) in ("", "NaT", "None", "nan")
+
+
+def pontos(gpkg, catalogo13):
+    """Camadas CAM_06 (projetos, aba 04) e CAM_05 (ocorrências, aba 06), gravadas por build_mapas_04_06.py."""
+    n13 = {r["camada_id"]: r["n_feicoes"] for r in catalogo13}
+    pj = pyogrio.read_dataframe(gpkg, layer="projetos_futuros", read_geometry=False, columns=[
+        "project_id", "company_id", "razao_social", "mineral_name", "municipality_id", "latitude", "longitude",
+        "classificacao_maturidade", "estagio", "tipo_projeto", "processo_ancora", "qtd_processos", "area_ha", "data_evidencia"])
+    assert len(pj) == n13["CAM_06"], ("projetos", len(pj), n13["CAM_06"])
+    ordem = {c: i for i, c in enumerate(CLASSES)}
+    linhas = []
+    for _, r in pj.iterrows():
+        # titular só quando é pessoa jurídica identificada pelo CNPJ; pessoa física e nome sem CNPJ ficam fora do pacote
+        titular = r["razao_social"] if str(r["company_id"]).startswith("COM_CNPJ_") and not _vazio(r["razao_social"]) and "***" not in str(r["razao_social"]) else None
+        linhas.append([r["project_id"], r["processo_ancora"], titular, r["mineral_name"] or "Não classificado", str(r["municipality_id"]),
+                       round(float(r["latitude"]), 5), round(float(r["longitude"]), 5), r["classificacao_maturidade"], r["estagio"],
+                       str(r["tipo_projeto"]).startswith("brownfield"), int(r["qtd_processos"]),
+                       None if _vazio(r["area_ha"]) else round(float(r["area_ha"]), 2), None if _vazio(r["data_evidencia"]) else str(r["data_evidencia"])[:10]])
+    linhas.sort(key=lambda x: (ordem.get(x[7], 9), x[3], x[0]))
+    projects = {"cols": ["id", "processo", "titular", "mineral", "mun", "lat", "lon", "classe", "estagio", "brownfield", "processos", "area_ha", "evidencia"],
+                "rows": linhas}
+
+    oc = pyogrio.read_dataframe(gpkg, layer="ocorrencias_minerais_recmin", read_geometry=False, columns=[
+        "occurrence_id", "nome_local", "mineral_names", "substancias_original", "classe_utilitaria", "importancia", "status_economico",
+        "municipality_id", "latitude", "longitude", "metodo_geoposicionamento", "categoria_anm_sobreposta", "data_cadastro"])
+    assert len(oc) == n13["CAM_05"], ("ocorrências", len(oc), n13["CAM_05"])
+    ordem = {c: i for i, c in enumerate(IMPORTANCIA)}
+    texto = lambda v: None if _vazio(v) else str(v)
+    linhas = []
+    for _, r in oc.iterrows():
+        categoria = None if _vazio(r["categoria_anm_sobreposta"]) else str(r["categoria_anm_sobreposta"]).split("_", 1)[-1].replace("_", " ")
+        linhas.append([r["occurrence_id"], texto(r["nome_local"]), texto(r["mineral_names"]) or texto(r["substancias_original"]),
+                       texto(r["classe_utilitaria"]), r["importancia"], texto(r["status_economico"]), str(r["municipality_id"]),
+                       round(float(r["latitude"]), 5), round(float(r["longitude"]), 5), texto(r["metodo_geoposicionamento"]), categoria,
+                       None if _vazio(r["data_cadastro"]) else str(r["data_cadastro"])[:10]])
+    linhas.sort(key=lambda x: (ordem.get(x[4], 9), x[0]))
+    occurrences = {"cols": ["id", "local", "substancias", "classe_util", "importancia", "status", "mun", "lat", "lon", "posicionamento",
+                            "categoria_anm", "cadastro"], "rows": linhas}
+    return projects, occurrences
+
+
+def graficos(dados, projects, occurrences):
+    """Gráficos novos das séries; cada um carrega rótulos, grupos e valores já calculados a partir da planilha."""
+    abas, sub_ano, ch = dados["abas"], dados["cfem_sub_ano"], {}
+    milhoes = lambda centavos: round(centavos / 1e8, 6)
+
+    # 1) CFEM de 2025 por substância: as 12 maiores e o restante
+    s25 = {s: c for (s, a), c in sub_ano.items() if a == 2025 and c}
+    top = sorted(s25, key=lambda s: -s25[s])[:12]
+    resto = sum(c for s, c in s25.items() if s not in top)
+    ch["cfem_substances"] = dict(type="hbar", labels=top + (["outras"] if resto else []), groups=["valor"],
+                                 values=[[milhoes(s25[s]) for s in top] + ([milhoes(resto)] if resto else [])], decimals=1, params={"n": len(top)})
+
+    # 2) CFEM por substância e ano: as 6 maiores no acumulado e o restante
+    anos = sorted({a for _, a in sub_ano})
+    acumulado = Counter()
+    for (sub, _), c in sub_ano.items():
+        acumulado[sub] += c
+    top6 = [sub for sub, _ in sorted(acumulado.items(), key=lambda x: -x[1])[:6]]
+    valores = [[milhoes(sub_ano.get((g, a), 0)) for a in anos] for g in top6]
+    valores.append([milhoes(sum(c for (sub, aa), c in sub_ano.items() if aa == a and sub not in top6)) for a in anos])
+    ch["cfem_substance_years"] = dict(type="stack", labels=[str(a) for a in anos], groups=top6 + ["outras"], values=valores,
+                                      partial=["2026"], decimals=1, params={"n": len(top6)})
+
+    # 3) concentração da CFEM de 2025 nos maiores municípios (aba 10) e titulares (aba 11)
+    mun25 = sorted((float(r["cfem_recolhido_brl"] or 0) for r in abas["10_cons_municipio_ano"] if r["year"] == 2025), reverse=True)
+    emp = defaultdict(float)
+    for r in abas["11_cons_empresa_ano_mineral"]:
+        if r["year"] == 2025:
+            emp[r["company_id"]] += float(r["cfem_recolhido_brl"] or 0)
+    total_emp = sum(emp.values())
+    total25 = dados["cfem_ano"][2025] / 100
+    assert abs(sum(mun25) - total25) < 1 and abs(total_emp - total25) < 1, (sum(mun25), total_emp, total25)
+    sem_titular = emp.pop("COM_NAO_IDENTIFICADO", 0.0)
+    emp25 = sorted(emp.values(), reverse=True)
+    ks = [1, 3, 5, 10, 20]
+    ch["cfem_concentration"] = dict(type="group", labels=[f"top{k}" for k in ks], groups=["municipios", "titulares"],
+                                    values=[[round(100 * sum(mun25[:k]) / total25, 4) for k in ks], [round(100 * sum(emp25[:k]) / total25, 4) for k in ks]],
+                                    decimals=1, params={"pct": round(100 * sem_titular / total25)})
+
+    # 4) produção bruta (ROM) de Goiás por mineral no ano mais recente do AMB (aba 09); co-produtos não se somam
+    go = [r for r in abas["09_cons_mineral_ano"] if r["uf"] == "GO" and (r["production_t_rom"] or 0) > 0]
+    ano_rom = max(r["year"] for r in go)
+    rom = sorted(((r["mineral_name"], float(r["production_t_rom"])) for r in go if r["year"] == ano_rom), key=lambda x: -x[1])[:12]
+    ch["rom_minerals"] = dict(type="hbar", labels=[m for m, _ in rom], groups=["valor"], values=[[round(t / 1e6, 4) for _, t in rom]],
+                              decimals=1, params={"year": str(ano_rom)})  # texto: o JS formata parâmetros numéricos com separador de milhar
+
+    # 5) produção bruta do AMB aberta por operação (aba 12): com coordenadas, sem poligonal e sem CFEM para ratear
+    cob = defaultdict(lambda: [0.0, 0.0, 0.0])
+    for r in abas["12_interface_squad1_squad2"]:
+        if r["production_basis"] != "ROM":
+            continue
+        e, t = cob[r["year"]], float(r["production_t"] or 0)
+        if r["nivel_agregacao"] == "estado":
+            e[2] += t
+        elif not _vazio(r["latitude"]):
+            e[0] += t
+        else:
+            e[1] += t
+    anos12 = sorted(a for a in cob if cob[a][0] + cob[a][1] > 0)
+    partes = [[round(100 * cob[a][0] / cob[a][2], 6) for a in anos12], [round(100 * cob[a][1] / cob[a][2], 6) for a in anos12]]
+    partes.append([round(100 - p0 - p1, 6) for p0, p1 in zip(*partes)])
+    assert all(p >= -1e-4 for p in partes[2]), partes[2]
+    ch["operation_coverage"] = dict(type="stack", labels=[str(a) for a in anos12], groups=["com_coordenadas", "sem_coordenadas", "sem_cfem"],
+                                    values=partes, decimals=1)
+
+    # 6) projetos (aba 04) por mineral e classificação
+    pr = [dict(zip(projects["cols"], r)) for r in projects["rows"]]
+    top_p = [m for m, _ in sorted(Counter(p["mineral"] for p in pr).items(), key=lambda x: -x[1])[:12]]
+    rot = top_p + ["outras"]
+    ch["projects_minerals"] = dict(type="hstack", labels=rot, groups=CLASSES, decimals=0, params={"n": len(pr)},
+                                   values=[[sum(1 for p in pr if p["classe"] == c and (p["mineral"] == m if m != "outras" else p["mineral"] not in top_p))
+                                            for m in rot] for c in CLASSES])
+
+    # 7) ocorrências (aba 06) por substância e importância; ocorrência com várias substâncias conta em cada uma
+    oc = [dict(zip(occurrences["cols"], r)) for r in occurrences["rows"]]
+    subs = {o["id"]: [x.strip() for x in str(o["substancias"] or "Não informada").split(";") if x.strip()] for o in oc}
+    top_o = [x for x, _ in sorted(Counter(x for o in oc for x in subs[o["id"]]).items(), key=lambda x: -x[1])[:12]]
+    rot = top_o + ["outras"]
+    ch["occurrences_substances"] = dict(type="hstack", labels=rot, groups=IMPORTANCIA, decimals=0,
+                                        params={"n": len(oc), "multi": sum(1 for o in oc if len(subs[o["id"]]) > 1)},
+                                        values=[[sum((m in subs[o["id"]]) if m != "outras" else sum(1 for x in subs[o["id"]] if x not in top_o)
+                                                     for o in oc if o["importancia"] == imp) for m in rot] for imp in IMPORTANCIA])
+    return ch
 
 
 def aneis_municipio(geom, casas=5):
@@ -213,12 +361,12 @@ def processos(gpkg, tolerancia):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--base", required=True, help="pasta do projeto do Squad 1 (com outputs/, documentacao/ e dados/)")
-    ap.add_argument("--planilha", help="planilha consolidada (padrão: <base>/documentacao/prototipo_bases_consolidadas_v14.xlsx)")
+    ap.add_argument("--planilha", help="planilha consolidada (padrão: <base>/documentacao/prototipo_bases_consolidadas_v15.xlsx)")
     ap.add_argument("--tolerancia-municipios", type=float, default=0.003, help="graus; padrão 0,003 (~330 m)")
     ap.add_argument("--tolerancia-processos", type=float, default=0.0004, help="graus; padrão 0,0004 (~45 m)")
     args = ap.parse_args()
     base = Path(args.base)
-    planilha = Path(args.planilha) if args.planilha else base / "documentacao" / "prototipo_bases_consolidadas_v14.xlsx"
+    planilha = Path(args.planilha) if args.planilha else base / "documentacao" / "prototipo_bases_consolidadas_v15.xlsx"
     gpkg = base / "outputs" / "mapas" / "minera_goias_mapas_v1.gpkg"
     invest = base / "dados" / "ANM" / "investimento_pesquisa" / "InvestimentoPesquisaMineralUf.csv"
     destino = ROOT / "data" / "atlas"
@@ -228,6 +376,8 @@ def main():
     retido["layers"] = MANTIDAS
 
     dados = ler_planilha(planilha)
+    projects, occurrences = pontos(gpkg, dados["abas"]["13_mapas_camadas"])
+    charts = graficos(dados, projects, occurrences)
     anos = sorted(dados["cfem_ano"])
     assert set(anos) <= set(ANOS), f"anos de CFEM fora do seletor do atlas: {anos}"
     mun = municipios(gpkg, dados, args.tolerancia_municipios)
@@ -255,19 +405,21 @@ def main():
     ultimo = dados["periodos"][-1]
     packet = {
         "meta": {
-            "artifact": "base consolidada do Squad 1 / Estudante 1 — prototipo_bases_consolidadas_v14.xlsx",
+            "artifact": "base consolidada do Squad 1 / Estudante 1 — prototipo_bases_consolidadas_v15.xlsx",
             "sha256": sha256(planilha),
             "integrated_on": date.today().isoformat(),
             "status": "snapshot_unvalidated",
-            "note": ("Retrato da base consolidada do Squad 1 (v14), gerado por scripts/build_atlas_base.py; não é consulta em tempo real à ANM. "
+            "note": ("Retrato da base consolidada do Squad 1 (v15), gerado por scripts/build_atlas_base.py; não é consulta em tempo real à ANM. "
                      "Energia (CCEE) e barragens (SIGBM) seguem do retrato anterior (eliel.html). Geometrias simplificadas e quantizadas para "
                      "o mapa: não usar como limite cadastral."),
-            "sources": ["ANM / CFEM", "Anuário Mineral Brasileiro", "Cadastro Mineiro", "SIGMINE", "IBGE — malha municipal 2025",
+            "sources": ["ANM / CFEM", "Anuário Mineral Brasileiro", "Cadastro Mineiro", "SIGMINE", "SGB — RECMIN", "IBGE — malha municipal 2025",
                         "SIGBM (retrato anterior)", "CCEE (retrato anterior)"],
             "periods": {"cfem": f"{dados['periodos'][0]} a {ultimo}", "production": "2025 — quantidade comercializada declarada na CFEM",
                         "energy": retido["periods"]["energy"], "dams": retido["periods"]["dams"],
-                        "processes": f"arquivo do SIGMINE de {data_sigmine}"},
-            "base": {"planilha": "Squad 1/dados/base_consolidada_estudante1/documentacao/prototipo_bases_consolidadas_v14.xlsx",
+                        "processes": f"arquivo do SIGMINE de {data_sigmine}",
+                        "projects": f"situação dos processos no arquivo do SIGMINE de {data_sigmine} (aba 04)",
+                        "occurrences": "RECMIN do SGB baixado em " + "/".join(reversed(str(dados["data_recmin"] or "")[:10].split("-"))) + " (aba 06)"},
+            "base": {"planilha": "Squad 1/dados/base_consolidada_estudante1/documentacao/prototipo_bases_consolidadas_v15.xlsx",
                      "sha256_planilha": sha256(planilha), "sha256_gpkg": sha256(gpkg), "sha256_investimento": sha256(invest)},
             "retained_from_artifact": retido,
         },
@@ -283,12 +435,16 @@ def main():
         "energy_months": anterior["energy_months"],
         "beneficiated": [{"ano": a, "venda_rs": round(dados["venda"][a], 2), "substancias": len(dados["subs_venda"][a])} for a in sorted(dados["venda"])],
         "investment": investimento(invest),
+        "projects": projects,
+        "occurrences": occurrences,
+        "charts": charts,
     }
     proc = processos(gpkg, args.tolerancia_processos)
     for nome, obj in [("atlas.json", packet), ("processes.json", proc)]:
         (destino / nome).write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"{len(mun)} municípios · CFEM {dados['periodos'][0]} a {ultimo}: R$ {total_ano / 100:,.2f} · {len(subs)} substâncias em 2025 · "
           f"{proc['n']} processos ({len(base64.b64decode(proc['ringPoly'])) // 2} anéis)")
+    print(f"  {len(projects['rows'])} projetos · {len(occurrences['rows'])} ocorrências · gráficos: {', '.join(charts)}")
     for nome in ("atlas.json", "processes.json"):
         print(f"  {nome}: {(destino / nome).stat().st_size / 1e6:.2f} MB")
 

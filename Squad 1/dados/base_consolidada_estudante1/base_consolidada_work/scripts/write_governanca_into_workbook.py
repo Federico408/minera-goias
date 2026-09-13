@@ -24,8 +24,8 @@ warnings.filterwarnings("ignore")
 sys.stdout.reconfigure(encoding="utf-8")
 from caminhos import BASE  # caminhos relativos ao projeto — ver caminhos.py
 SRC = f"{BASE}/documentacao/prototipo_bases_consolidadas_v5d_fato.xlsx"  # v5 + 06/06b + 04/04b + 12 + 08 (write_ocorrencias_06 → write_projetos_04 → write_interface_12 → write_fato_08)
-OUT = f"{BASE}/documentacao/prototipo_bases_consolidadas_v14.xlsx"
-VERSAO = "v14"
+OUT = f"{BASE}/documentacao/prototipo_bases_consolidadas_v15.xlsx"
+VERSAO = "v15"
 NAVY, TEAL, LBLUE, WHITE, AMBER = "17365D", "1F6D7A", "DCE6F1", "FFFFFF", "C65911"
 HDR = 4
 
@@ -711,7 +711,7 @@ DA = {  # (aba, campo) -> descrição específica da aba
     ("05_dim_municipios", "longitude"): "Longitude do representative_point do polígono municipal (dentro do município; não é a sede).",
     ("10_cons_municipio_ano", "latitude"): "Latitude do representative_point do polígono municipal (dentro do município; não é a sede).",
     ("10_cons_municipio_ano", "longitude"): "Longitude do representative_point do polígono municipal (dentro do município; não é a sede).",
-    ("13_mapas_camadas", "source_ids"): "Fontes dos atributos da camada (vazio nas camadas reservadas sem dado).",
+    ("13_mapas_camadas", "source_ids"): "Fontes dos atributos da camada (IDs do catálogo 07).",
     ("13_mapas_camadas", "observacao"): "Observação sobre a camada.",
     ("08_fato_producao_energia", "uf"): "UF da linha na fonte. AMB: todas as UFs (a linha BR da 09 é a soma delas); CFEM: sempre GO.",
     ("08_fato_producao_energia", "year"): "Ano da medida (contrato): ano base no AMB, ano de competência na CFEM.",
@@ -1395,6 +1395,21 @@ try:
 except Exception as _e:
     V("06: recorte refeito do arquivo baixado", 1, f"não executado: {_e}", False)
 
+# --- aba 13 (camadas de mapa): toda camada do catálogo tem arquivo; processos, ocorrências e projetos têm uma feição por linha ---
+import os as _os
+_C13 = DADOS["13_mapas_camadas"][1]
+_ORIGEM13 = {"CAM_02": "03_dim_operacoes", "CAM_05": "06_dim_ocorrencias_geologicas", "CAM_06": "04_dim_projetos"}
+_prob13 = []
+for _c in _C13:
+    _arq = str(_c.get("arquivo") or "")
+    if not _arq or not _os.path.exists(f"{BASE}/{_arq}"):
+        _prob13.append(f"{_c['camada_id']}: arquivo '{_arq or 'vazio'}' não existe")
+    _ab = _ORIGEM13.get(_c["camada_id"])
+    if _ab and _c.get("n_feicoes") != len(DADOS[_ab][1]):
+        _prob13.append(f"{_c['camada_id']}: {_c.get('n_feicoes')} feições × {len(DADOS[_ab][1])} linhas na aba {_ab[:2]}")
+V("13: toda camada do catálogo tem arquivo em outputs/mapas/; processos (CAM_02), ocorrências (CAM_05) e projetos (CAM_06) têm uma feição por linha da aba de origem",
+  len(_prob13), "; ".join(_prob13) or f"{len(_C13)} camadas com arquivo; CAM_02 = aba 03, CAM_05 = aba 06, CAM_06 = aba 04", not _prob13)
+
 
 def _partes06(s):  # mesma regra do build_ocorrencias_06.py
     return list(dict.fromkeys(p.strip() for p in re.split(r";|,(?![^()]*\))", str(s or "")) if p.strip()))
@@ -1624,6 +1639,16 @@ HIST.append(("ATUALIZAÇÃO v14 — regra da 09c corrigida para metais medidos e
     "amb_base e criterio. Nada foi excluído de soma: mudam só os status das linhas de CFEM desses processos na 08 (alerta_processo_09c) e das operações "
     "na 12 (estimativa_com_alerta_09c).")))
 
+_cam15 = {c["camada_id"]: c for c in DADOS["13_mapas_camadas"][1]}
+_n06, _n05 = (f"{_cam15[k]['n_feicoes']:,}".replace(",", ".") for k in ("CAM_06", "CAM_05"))
+HIST.append(("ATUALIZAÇÃO v15 — camadas de mapa dos projetos (04) e das ocorrências (06)", (
+    f"A 13 não tem mais camada reservada: CAM_06 projetos_futuros ({_n06} pontos) e CAM_05 ocorrencias_minerais_recmin "
+    f"({_n05} pontos) passam a ser gravadas por um passo novo do pipeline, build_mapas_04_06.py, que roda depois das abas 04 e 06 "
+    "(a Base 4 roda antes delas). Cada camada sai no GeoPackage (SIRGAS 2000, com todas as colunas da aba) e em GeoJSON para a web (WGS 84, colunas "
+    "principais), com as mesmas chaves da aba de origem; as coordenadas não são recalculadas. A 13b registra se cada ponto cai dentro de Goiás e no mesmo "
+    "município da aba, e a 14b passa a conferir que toda camada do catálogo tem arquivo e que processos, ocorrências e projetos têm uma feição por linha. "
+    "O pipeline passa a ter 18 etapas. Os valores das abas de dados são os mesmos da v14.")))
+
 ABA_DESC = {
     "01_dim_minerais": "dimensão de minerais: as categorias oficiais da ANM mais subitens justificados na 01b",
     "01b_crosswalk_pente_fino": "auditoria: cada grafia de substância nas fontes → mineral_id",
@@ -1645,7 +1670,7 @@ ABA_DESC = {
     "10_cons_municipio_ano": "consulta: município × ano (CFEM, processos, população e PIB)",
     "11_cons_empresa_ano_mineral": "consulta: empresa × mineral × ano (CFEM e títulos)",
     "12_interface_squad1_squad2": "entrega ao Squad 2: produção por mineral e ano, observada no nível estado e estimada por operação — os dois níveis não se somam",
-    "13_mapas_camadas": "catálogo das camadas de mapa em outputs/mapas/ (GeoJSON, GeoPackage e PMTiles)",
+    "13_mapas_camadas": "catálogo das camadas de mapa em outputs/mapas/ (GeoJSON, GeoPackage e PMTiles), inclusive projetos (04) e ocorrências (06)",
     "13b_auditoria_mapas": "auditoria das chaves espaciais: coordenadas, polígonos e junção com municípios",
     "14_dicionario_dados": "dicionário: cada campo de cada aba, com tipo, % vazio e exemplo calculados dos dados",
     "14b_validacoes_governanca": "validações automáticas: nomes, IDs, integridade, conciliações e LGPD",

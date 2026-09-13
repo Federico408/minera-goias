@@ -13,7 +13,7 @@ Recorte territorial: **Goiás**. Onde o arquivo é nacional (Cadastro Mineiro, �
 Investimento em Pesquisa), o filtro `UF = GO` é feito na etapa de processamento, preservando o bruto.
 
 O catálogo **calculado** destes arquivos (sha256, tamanho, período coberto e abas que usam cada fonte)
-é a aba `07_dim_fontes` da planilha `../documentacao/prototipo_bases_consolidadas_v14.xlsx`. Todo arquivo desta pasta tem
+é a aba `07_dim_fontes` da planilha `../documentacao/prototipo_bases_consolidadas_v15.xlsx`. Todo arquivo desta pasta tem
 `source_id` ali, exceto a documentação das fontes (este LEIA-ME, os metadados `.ods`, o dicionário do SCM e os metadados do download do RECMIN).
 
 ---

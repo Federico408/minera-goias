@@ -1,6 +1,6 @@
 # Pipeline da planilha consolidada — MINERA Goiás (Squad 1 / Estudante 1)
 
-Gera `documentacao/prototipo_bases_consolidadas_v14.xlsx` e as camadas de mapa em `outputs/mapas/` a partir dos arquivos
+Gera `documentacao/prototipo_bases_consolidadas_v15.xlsx` e as camadas de mapa em `outputs/mapas/` a partir dos arquivos
 em `dados/`. Nenhum número é digitado: tudo sai destes scripts.
 
 ## O que precisa existir
@@ -57,8 +57,9 @@ O log de cada etapa fica em `<TMP>/logs/`.
 | 6 | `build_interface_12` | entrega ao Squad 2, nos níveis estado e operação |
 | 7 | `build_projetos_04` | projetos: camada ANM do Radar de Projetos |
 | 8 | `build_ocorrencias_06` | ocorrências minerais do RECMIN |
-| 9–16 | `write_base1` … `write_fato_08` | montam a planilha aba por aba a partir do modelo v0, passando pelos arquivos intermediários `v1_base1`, `v3`, `v4`, `v5`, `v5a_ocorrencias`, `v5b_projetos`, `v5c_interface` e `v5d_fato` em `documentacao/` |
-| 17 | `write_governanca_into_workbook` | nomes do Contrato de Dados, catálogo de fontes (07), dicionário (14), validações (14b), 00_LEIA-ME e o arquivo final |
+| 9 | `build_mapas_04_06` | camadas de mapa dos projetos (04) e das ocorrências (06), no GeoPackage e em GeoJSON |
+| 10–17 | `write_base1` … `write_fato_08` | montam a planilha aba por aba a partir do modelo v0, passando pelos arquivos intermediários `v1_base1`, `v3`, `v4`, `v5`, `v5a_ocorrencias`, `v5b_projetos`, `v5c_interface` e `v5d_fato` em `documentacao/` |
+| 18 | `write_governanca_into_workbook` | nomes do Contrato de Dados, catálogo de fontes (07), dicionário (14), validações (14b), 00_LEIA-ME e o arquivo final |
 
 ## Conferir o resultado
 

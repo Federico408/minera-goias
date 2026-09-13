@@ -36,3 +36,12 @@
 .slider-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
 .slider-head output{font:700 12px/1 Manrope,system-ui,sans-serif;color:#07345c;white-space:nowrap}
 .slider-row input[type=range]{width:100%}
+
+/* --- Projetos, ocorrências e legenda dos gráficos / Projects, occurrences and chart keys --- */
+.occ-icon{background:none;border:0}
+.occ-icon span{display:block;width:9px;height:9px;margin:1.5px;transform:rotate(45deg);border:1px solid #fff;box-shadow:0 0 0 .6px #57768b}
+#atlas-cat-wrap select{min-width:190px}
+.chart-key{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:11.5px;color:var(--muted);margin:2px 0 10px}
+.chart-key i{display:inline-block;width:11px;height:11px;margin-right:6px;vertical-align:-1px;border-radius:2px}
+.mun-profile .metrics{grid-template-columns:repeat(3,1fr)}
+@media(max-width:1000px){.mun-profile .metrics{grid-template-columns:repeat(2,1fr)}}

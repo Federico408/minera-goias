@@ -1,6 +1,6 @@
 # Atlas — retrato da base consolidada do Squad 1 (13/09/2026)
 
-Os dados do atlas vêm da base consolidada do Squad 1 / Estudante 1 (v14), em `Squad 1/dados/base_consolidada_estudante1/`.
+Os dados do atlas vêm da base consolidada do Squad 1 / Estudante 1 (v15), em `Squad 1/dados/base_consolidada_estudante1/`.
 O SHA-256 da planilha está em `atlas.json` → `meta.sha256`; os do GeoPackage e do arquivo de investimento, em `meta.base`.
 Para gerar de novo, fora da VPS (precisa de geopandas, shapely ≥ 2.1 e openpyxl):
 
@@ -31,6 +31,19 @@ O script mantém o formato lido por `public/atlas.js` e troca só os dados. Depo
 - **16.656 processos** (`processes.json`): um por processo do SIGMINE em Goiás (camada `processos_minerarios_go`), com os fragmentos de
   cada processo unidos; o retrato anterior tinha 17.402 polígonos. Geometria simplificada (tolerância de ~45 m) e quantizada em UInt16;
   os cinco grupos de fase são os mesmos do retrato anterior. Não há titular, CPF ou CNPJ no pacote.
+- **3.377 projetos** (`projects`): um ponto por projeto que ainda não produz (aba 04, camada `projetos_futuros` do GeoPackage), com
+  classificação (provável, possível, sinal), estágio na ANM e marca de brownfield. O ponto fica dentro dos processos do projeto: 73 caem
+  fora de Goiás porque os processos cruzam a divisa, e o município é o da aba 04. O titular só aparece quando é empresa com CNPJ; pessoa
+  física e titular sem CNPJ ficam de fora (estão na aba 04 da base, com CPF mascarado).
+- **1.796 ocorrências** (`occurrences`): um ponto por ocorrência ou depósito do RECMIN do SGB dentro de Goiás (aba 06, camada
+  `ocorrencias_minerais_recmin`). É evidência geológica, não projeto nem mina: 83% dos pontos foram posicionados em carta 1:250.000 e a
+  situação é a do cadastro, em geral de 2003.
+- **Gráficos das séries** (`charts`), calculados da planilha e conferidos em `tests/test_atlas.py`: CFEM de 2025 por substância e CFEM
+  por substância e ano (aba 08; somam o total da CFEM de cada ano); concentração da CFEM de 2025 nos maiores municípios e titulares
+  (abas 10 e 11; processos sem titular identificado ficam fora do ranking, mas no total); produção bruta de Goiás por mineral no ano mais
+  recente do Anuário (aba 09; as barras não se somam, porque co-produtos repetem a mesma tonelagem); parcela da produção bruta que a aba
+  12 atribui a operações com e sem coordenadas; projetos por mineral e classificação (aba 04); ocorrências por substância e importância
+  (aba 06; ocorrência com mais de uma substância conta em cada uma).
 
 ## O que continua do retrato anterior (`eliel.html`)
 
