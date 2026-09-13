@@ -17,25 +17,37 @@ CREATE TABLE tb_municipios (
 
 CREATE TABLE tb_minerais (
     mineral_id INT AUTO_INCREMENT PRIMARY KEY,
+    -- Identificador do dicionário oficial da ANM (Squad 1/dados/Substancia.txt).
+    id_substancia_anm INT NULL UNIQUE,
     mineral_name VARCHAR(100) NOT NULL,
     sinonimos VARCHAR(300),
     observacao VARCHAR(300)
 );
 
+-- As fontes cadastrais identificam o titular pelo nome; o documento aparece
+-- ausente (shapefile) ou mascarado (rodadas de disponibilidade). Por isso a
+-- chave é o nome normalizado e o documento é opcional.
 CREATE TABLE tb_empresas (
-    documento_cnpj_cpf VARCHAR(20) PRIMARY KEY,
+    empresa_id INT AUTO_INCREMENT PRIMARY KEY,
     nome_empresa VARCHAR(200) NOT NULL,
-    nome_empresa_normalizado VARCHAR(200),
+    nome_empresa_normalizado VARCHAR(200) NOT NULL UNIQUE,
+    documento_cnpj_cpf VARCHAR(20) NULL UNIQUE,
     tipo_pessoa VARCHAR(50)
 );
 
 CREATE TABLE tb_projetos (
     processo_anm VARCHAR(30) PRIMARY KEY,
-    documento_cnpj_cpf VARCHAR(20) NOT NULL,
+    empresa_id INT NULL,
+    titular_nome VARCHAR(200),
+    ultimo_evento VARCHAR(120),
+    uf VARCHAR(2),
+    poligonos INT NOT NULL DEFAULT 0,
     substancia_anm VARCHAR(150),
     mineral_id INT,
     fase VARCHAR(100),
     uso VARCHAR(100),
+    -- Preenchida apenas quando o processo tem um único polígono; com vários, a
+    -- área fica em tb_projeto_poligono e não é somada (os polígonos podem se sobrepor).
     area_ha DECIMAL(12,2),
     categoria VARCHAR(50),
     source_id VARCHAR(30),
@@ -44,9 +56,22 @@ CREATE TABLE tb_projetos (
     valor_observado_estimado ENUM('Real','Projetado') DEFAULT 'Real',
     status_validacao VARCHAR(50),
     responsavel_validacao VARCHAR(100),
-    FOREIGN KEY (documento_cnpj_cpf) REFERENCES tb_empresas(documento_cnpj_cpf),
+    FOREIGN KEY (empresa_id) REFERENCES tb_empresas(empresa_id),
     FOREIGN KEY (mineral_id) REFERENCES tb_minerais(mineral_id),
     FOREIGN KEY (source_id) REFERENCES tb_fontes(source_id)
+);
+
+-- Um processo pode ter vários polígonos (há casos com mais de cem). Guardar a
+-- geometria em tabela própria evita perder linhas ao usar o processo como chave.
+CREATE TABLE tb_projeto_poligono (
+    poligono_id INT AUTO_INCREMENT PRIMARY KEY,
+    processo_anm VARCHAR(30) NOT NULL,
+    -- O identificador do shapefile se repete entre processos e até dentro do
+    -- mesmo processo, então é atributo de origem, nunca chave.
+    id_poligono_origem VARCHAR(40),
+    area_ha DECIMAL(12,2),
+    KEY ix_poligono_processo (processo_anm),
+    FOREIGN KEY (processo_anm) REFERENCES tb_projetos(processo_anm)
 );
 
 CREATE TABLE tb_projeto_municipio (

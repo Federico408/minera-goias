@@ -15,19 +15,39 @@ def get_connection():
         cursorclass=pymysql.cursors.DictCursor
     )
 
-def uses_anm_schema(cursor):
-    """Support both the installed schema and the team's new ANM schema.
-    Deployment never performs database migrations automatically.
+def schema_version(cursor):
+    """Support every shape the database may be in; deployment never migrates by itself.
+    'v2' is the schema that keys the holder by name, 'anm' the one that required a
+    document, 'legacy' the original surrogate-key model still installed on the VPS.
     """
+    cursor.execute("SHOW COLUMNS FROM tb_projetos LIKE 'empresa_id'")
+    if cursor.fetchall():
+        return 'v2'
     cursor.execute("SHOW COLUMNS FROM tb_projetos LIKE 'processo_anm'")
-    return bool(cursor.fetchall())
+    return 'anm' if cursor.fetchall() else 'legacy' 
 
 @app.get("/api/projetos")
 def listar_projetos():
     conn=get_connection()
     try:
         with conn.cursor() as cursor:
-            if uses_anm_schema(cursor):
+            version = schema_version(cursor)
+            if version == 'v2':
+                # The cadastral source names individual people as holders, so this
+                # public endpoint reports the claim without naming anyone. Tax
+                # identifiers and holder names stay out of unauthenticated output.
+                cursor.execute("""
+                    SELECT p.processo_anm, m.mineral_name, p.substancia_anm, p.fase,
+                           p.uso, p.categoria, p.poligonos,
+                           GROUP_CONCAT(mu.nome_municipio SEPARATOR '; ') AS municipios
+                    FROM tb_projetos p
+                    LEFT JOIN tb_minerais m ON p.mineral_id=m.mineral_id
+                    LEFT JOIN tb_projeto_municipio pm ON p.processo_anm=pm.processo_anm
+                    LEFT JOIN tb_municipios mu ON pm.codigo_ibge=mu.codigo_ibge
+                    GROUP BY p.processo_anm,m.mineral_name,p.substancia_anm,p.fase,
+                             p.uso,p.categoria,p.poligonos
+                """)
+            elif version == 'anm':
                 # Personal/company tax identifiers are join keys, not public output.
                 cursor.execute("""
                     SELECT p.processo_anm, e.nome_empresa,
@@ -59,7 +79,7 @@ def listar_projecoes(scenario: str=Query(default="referencia")):
     conn=get_connection()
     try:
         with conn.cursor() as cursor:
-            if uses_anm_schema(cursor):
+            if schema_version(cursor) in ('v2', 'anm'):
                 cursor.execute("""
                     SELECT processo_anm,mineral_id,year,projected_production,unidade_producao,energy_demand_mwh
                     FROM tb_projecoes WHERE scenario=%s ORDER BY year

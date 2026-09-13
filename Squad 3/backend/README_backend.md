@@ -21,8 +21,9 @@ O frontend do Eduardo e o simulador do Henrique não acessam o MySQL diretamente
 Squad 3/
 ├── database/
 │   ├── schema.sql       → cria as tabelas (rodar 1x, ou toda vez que resetar o banco)
-│   ├── seed.sql         → popula com dados fictícios de teste
-│   └── import_data.py   → vai importar os dados REAIS quando chegarem (Fase 4)
+│   ├── seed.sql         → dados fictícios para desenvolvimento local
+│   ├── load_anm.py      → carrega as fontes REAIS da ANM nas tabelas de negócio
+│   └── migrations/      → alterações de estrutura para bancos já instalados
 ├── backend/
 │   ├── main.py          → o código da API (as rotas)
 │   ├── requirements.txt → lista de pacotes Python que o projeto precisa
@@ -186,6 +187,11 @@ Cole isso no final do `main.py`, salve, e o `--reload` do uvicorn recarrega sozi
 ---
 
 ## 7. Variáveis de ambiente — `.env` vs `.env.example`
+
+> **Carga real:** `python3 "Squad 3/database/load_anm.py" --root . --sqlite /tmp/ensaio.sqlite` faz um
+> ensaio completo sem tocar no MySQL. Com `--mysql` ele grava no banco configurado no ambiente.
+> O deploy **não** executa nem `schema.sql`, nem `seed.sql`, nem migrações: aplicar é passo
+> administrativo, com backup antes.
 
 - **`.env`** — tem a senha real do seu MySQL local. Está no `.gitignore`, então **nunca** vai pro GitHub. Cada pessoa do time cria o próprio, com a própria senha.
 - **`.env.example`** — mesmo formato, mas com um valor de exemplo no lugar da senha (`coloque_sua_senha_aqui`). Esse vai pro GitHub, serve de instrução pra quem clonar o projeto saber quais variáveis precisa configurar.

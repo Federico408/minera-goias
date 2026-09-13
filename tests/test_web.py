@@ -72,16 +72,28 @@ class WebTests(unittest.TestCase):
         self.assertEqual(len(r.json()['municipalities']),246)
         self.assertEqual(self.client.get('/api/atlas/processes').json()['n'],17402)
 
-    def test_api_supports_both_database_schemas(self):
+    def test_api_supports_every_database_schema(self):
         from unittest.mock import MagicMock
-        for modern in [False,True]:
+        # schema_version asks for empresa_id first, then processo_anm.
+        probes={'v2':[[{'Field':'empresa_id'}]],
+                'anm':[[],[{'Field':'processo_anm'}]],
+                'legacy':[[],[]]}
+        for version,answers in probes.items():
             conn=MagicMock();cur=conn.cursor.return_value.__enter__.return_value
-            cur.fetchall.side_effect=[[{'Field':'processo_anm'}] if modern else [],[]]
+            cur.fetchall.side_effect=[*answers,[]]
             with patch.object(main,'get_connection',return_value=conn):
                 self.assertEqual(self.client.get('/api/projetos').status_code,200)
             sql=cur.execute.call_args_list[-1].args[0]
-            self.assertIn('processo_anm' if modern else 'project_id',sql)
-            if modern:self.assertNotIn('documento_cnpj_cpf',sql.split('FROM')[0])
+            self.assertIn('project_id' if version=='legacy' else 'processo_anm',sql)
+            # Never an output column; in the 'anm' schema it is still the join key.
+            self.assertNotIn('documento_cnpj_cpf',sql.split('FROM')[0])
+            if version=='v2':
+                self.assertNotIn('documento_cnpj_cpf',sql)
+            if version=='v2':
+                # The cadastral source names individual people; the public list must not.
+                self.assertNotIn('titular_nome',sql)
+                self.assertNotIn('nome_empresa',sql)
+                self.assertIn('poligonos',sql)
             conn.close.assert_called_once()
 
     def test_dashboard_uses_selected_source_and_filter(self):
