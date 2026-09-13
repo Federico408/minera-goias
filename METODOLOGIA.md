@@ -54,7 +54,7 @@ Cada camada tem unidade própria e período próprio; elas **não** se comparam 
 
 | Camada | Unidade | Período |
 |---|---|---|
-| CFEM por município | R$ | Acumulado 2022–2026 (2026 parcial: jan.–início de ago.), ou ano escolhido |
+| CFEM por município | R$ | Intervalo escolhido entre 2022 e 2026, somando os anos cobertos (2026 parcial: jan.–início de ago.) |
 | Quantidade comercializada | t (ou kg, para ouro) | 2025 |
 | Energia da cadeia mineral | GWh | 2025 (artefato recebido) |
 | Intensidade energética | kWh/t (MWh/kg para ouro) | 2025 (artefato recebido) |
@@ -65,7 +65,7 @@ Cada camada tem unidade própria e período próprio; elas **não** se comparam 
 
 **Escala de cores:** faixas de quantis dos valores positivos. Cinza significa **sem registro ou zero** — e são coisas distintas que a fonte não separa.
 
-**A CFEM anual cobre os 246 municípios.** Ao escolher um ano, cinza significa que não houve arrecadação no município naquele ano.
+**A CFEM anual cobre os 246 municípios.** O período é um intervalo com início e fim escolhidos; o valor de cada município é a soma dos anos dentro dele. Cinza significa que não houve arrecadação no intervalo. O intervalo completo reproduz o acumulado: para os 246 municípios, a soma dos cinco anos é idêntica ao total acumulado, sem uma divergência sequer.
 
 **Gráficos das séries.** Além das séries anuais (CFEM, CFEM de janeiro a julho, energia mensal, produção beneficiada e investimento em pesquisa), o atlas traz sete gráficos calculados da base: CFEM de 2025 por substância; CFEM por substância e ano; concentração da CFEM de 2025 nos maiores municípios e titulares; produção bruta por mineral no ano mais recente do Anuário (as barras não se somam: co-produtos repetem a mesma tonelagem); parcela da produção bruta atribuída a operações (aba 12); projetos por mineral e classificação; ocorrências por substância e importância (uma ocorrência com mais de uma substância conta em cada uma). `tests/test_atlas.py` confere que os gráficos de CFEM somam o total de cada ano e que as contagens batem com as abas 04 e 06.
 

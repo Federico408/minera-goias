@@ -36,6 +36,13 @@
 .slider-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
 .slider-head output{font:700 12px/1 Manrope,system-ui,sans-serif;color:#07345c;white-space:nowrap}
 .slider-row input[type=range]{width:100%}
+.range-row{display:flex;align-items:center;gap:8px}
+.range-tag{font:600 10.5px/1 Manrope,system-ui,sans-serif;color:var(--muted);letter-spacing:.3px;flex:none}
+.range-row input[type=range]{flex:1;min-width:0;accent-color:#0f6fb0;height:22px}
+.slider-ticks button.edge{color:#07345c;border-top-width:2px}
+.slider-ticks button.active{color:#2d5872;border-top:2px solid #9dc3da}
+.slider-ticks button.active.edge{color:#07345c;border-top-color:#0f6fb0}
+
 
 /* --- Projetos, ocorrências e legenda dos gráficos / Projects, occurrences and chart keys --- */
 .occ-icon{background:none;border:0}

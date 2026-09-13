@@ -60,18 +60,21 @@ class TranslationTests(unittest.TestCase):
 
     def test_atlas_controls_are_present(self):
         markup = (PUBLIC / 'painel.html').read_text(encoding='utf-8')
-        self.assertIn('<input type="range" id="atlas-year"', markup)
+        self.assertIn('<input type="range" id="atlas-year-from"', markup)
+        self.assertIn('<input type="range" id="atlas-year-to"', markup)
         self.assertIn('id="atlas-mun"', markup)
         self.assertIn('id="mun-profile"', markup)
         self.assertIn('id="mun-evo"', markup)
         code = (PUBLIC / 'atlas.js').read_text(encoding='utf-8')
-        # The slider index must always resolve through the year table, never be read raw.
-        self.assertIn("YEARS[+el('atlas-year').value]", code)
+        # Both ends resolve through the year table, and the span is always ordered.
+        self.assertIn("const YEARS=['2022','2023','2024','2025','2026']", code)
+        self.assertIn("if(a>b)[a,b]=[b,a]", code)
         self.assertNotIn("const year=el('atlas-year').value", code)
-        self.assertIn("const YEARS=['total','2022','2023','2024','2025','2026']", code)
-        # The scale under the slider names every step it can stop on.
+        # The scale under the sliders names every year the span can cover.
         self.assertIn("id=\"atlas-year-ticks\"", markup)
         self.assertIn("YEARS.map((y,i)=>", code)
+        # A partial span is summed from the years it covers, never from the total.
+        self.assertIn("present.reduce((sum,y)=>sum+source[y],0)", code)
         for hook in ('function selectMun(', 'function profile(', 'municipalitySubstances', 'municipalityDams', 'function chartGeneric(',
                      'function pointRows('):
             self.assertIn(hook, code)
