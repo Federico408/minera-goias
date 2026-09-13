@@ -60,7 +60,7 @@ readlink /srv/minera-goias/current
 
 A instalação tem backup pontual pré-ingestão, não uma política recorrente completa. Configurar backups recorrentes do MySQL e do SQLite de autenticação usando backup consistente, armazenamento fora da VPS e teste de restauração. Outros próximos passos: validar unidades e chaves das bases, integrar os modelos científicos e mapas reais, tornar CI requisito do deploy, adicionar testes de navegador ao CI, auditoria administrativa e MFA se o uso exigir. A interface usa Google Fonts com fallback local; não depende de bibliotecas de gráficos externas.
 
-Consulte `deploy/README.md` e `ingestion/README.md`. Não altere outros projetos hospedados na VPS. Configurações e senhas permanecem fora do repositório.
+Consulte `METODOLOGIA.md` para o que cada indicador mede e em que unidade, e `deploy/README.md` e `ingestion/README.md` para publicação e importação. Não altere outros projetos hospedados na VPS. Configurações e senhas permanecem fora do repositório.
 
 ## Integração da atualização ANM da equipe
 
