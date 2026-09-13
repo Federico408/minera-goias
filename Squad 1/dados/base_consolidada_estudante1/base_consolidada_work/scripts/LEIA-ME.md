@@ -1,6 +1,6 @@
 # Pipeline da planilha consolidada — MINERA Goiás (Squad 1 / Estudante 1)
 
-Gera `documentacao/prototipo_bases_consolidadas_v13.xlsx` e as camadas de mapa em `outputs/mapas/` a partir dos arquivos
+Gera `documentacao/prototipo_bases_consolidadas_v14.xlsx` e as camadas de mapa em `outputs/mapas/` a partir dos arquivos
 em `dados/`. Nenhum número é digitado: tudo sai destes scripts.
 
 ## O que precisa existir
@@ -63,7 +63,7 @@ O log de cada etapa fica em `<TMP>/logs/`.
 ## Conferir o resultado
 
 Abra a aba `14b_validacoes_governanca`. Hoje ela tem 3 ALERTAs esperados, que são alertas de dado sinalizados de
-propósito: plausibilidade CFEM × AMB, processos acima do total estadual e produção repetida no AMB. Qualquer outro
+propósito: plausibilidade CFEM × AMB, processos com quantidade implausível na CFEM (09c) e produção repetida no AMB. Qualquer outro
 ALERTA indica problema.
 
 A ANM republica os arquivos com frequência, e um `dados/` diferente gera números diferentes. Para reproduzir exatamente

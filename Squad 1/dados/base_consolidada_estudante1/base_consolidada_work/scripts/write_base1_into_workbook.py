@@ -264,17 +264,20 @@ cols6 = [dict(key="mineral_id", label="mineral_id", width=11), dict(key="mineral
          dict(key="year", label="year", width=7, fmt="0"), dict(key="processo_anm", label="processo_anm", width=13),
          dict(key="substancias", label="substancias", width=24), dict(key="usos", label="usos", width=20),
          dict(key="cfem_t_processo", label="cfem_t_processo", width=16, fmt="#,##0"),
-         dict(key="amb_total_uf_t", label="amb_total_uf_t", width=16, fmt="#,##0"),
-         dict(key="razao", label="razao", width=9, fmt="#,##0.00"), dict(key="severidade", label="severidade", width=10),
+         dict(key="amb_total_uf_t", label="amb_total_uf_t", width=16, fmt="#,##0.000"), dict(key="amb_base", label="amb_base", width=30),
+         dict(key="razao", label="razao", width=9, fmt="#,##0.00"), dict(key="criterio", label="criterio", width=30),
+         dict(key="severidade", label="severidade", width=10),
          dict(key="valor_recolhido_brl", label="valor_recolhido_brl", width=15, fmt="#,##0.00"),
          dict(key="r_por_t", label="r_por_t", width=11, fmt="0.0000"),
          dict(key="mediana_r_por_t_mineral", label="mediana_r_por_t_mineral", width=13, fmt="0.0000"),
          dict(key="observacao", label="observacao", width=70)]
 _n_alta = sum(1 for _e in _al if _e["severidade"] == "alta")
-style_header(ws6, "Alertas — Processo com tonelagem na CFEM acima do total do AMB para o estado (v7)",
-             f"{len(_al)} processo-anos em que UM único processo declara na CFEM mais toneladas comercializadas do que o AMB registra para Goiás inteiro na mesma categoria "
-             f"(maior entre produção bruta e beneficiada em t). Severidade ALTA ({_n_alta}): mais de 2× o total estadual, ou R$/t mais de 10× abaixo da mediana do mineral "
-             f"(indício de tonelagem inflada). MODERADA ({len(_al) - _n_alta}): entre 1 e 2× com R$/t compatível — pode ser venda de estoque, AMB preliminar ou diferença de base. "
+style_header(ws6, "Alertas — Processo com quantidade na CFEM implausível frente ao AMB (v14)",
+             f"{len(_al)} processo-anos em que UM único processo declara na CFEM uma quantidade implausível: (1) mais toneladas comercializadas do que o AMB registra "
+             "para Goiás inteiro na categoria — o limite é o maior entre produção bruta e beneficiada em t, mas nos metais que o AMB mede em kg (como ouro e prata) é a "
+             "produção beneficiada, porque a bruta é tonelagem de minério; ou (2) nesses metais, R$/t mais de 10× abaixo da mediana do mineral ponderada pelo R$ recolhido, típico de minério "
+             f"declarado como metal (colunas amb_base e criterio). Severidade ALTA ({_n_alta}): mais de 2× o total estadual, ou R$/t mais de 10× abaixo da mediana "
+             f"do mineral. MODERADA ({len(_al) - _n_alta}): entre 1 e 2× com R$/t compatível — pode ser venda de estoque, AMB preliminar ou diferença de base. "
              "As linhas NÃO foram excluídas da soma (o AMB também é declaratório): ficam sinalizadas para revisão da declaração ou do tipo de uso.", len(cols6))
 write_table(ws6, cols6, _al, "AlertasCfemProcesso")
 print("09c_alertas_cfem_processo escrita:", len(_al), "linhas")

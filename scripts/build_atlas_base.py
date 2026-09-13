@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Atualiza o atlas (data/atlas/atlas.json e processes.json) com a base consolidada do Squad 1 / Estudante 1.
 
-Mantém exatamente o formato lido por public/atlas.js. Vêm da base consolidada (v13):
+Mantém exatamente o formato lido por public/atlas.js. Vêm da base consolidada (v14):
   municipalities   malha IBGE 2025 (camada municipios_go da Base 4), processos do SIGMINE que tocam cada município e CFEM 2022–2026
   cfem             CFEM por município e ano para os 246 municípios (aba 08 da planilha; 2026 até o último mês do arquivo)
   production       quantidade comercializada em t e CFEM por substância × município em 2025 — é CFEM declarada, não produção
@@ -14,7 +14,7 @@ Continuam do retrato anterior (eliel.html), porque a base consolidada não os co
 
 Uso, fora da VPS (precisa de geopandas/pyogrio, shapely >= 2.1 e openpyxl):
     python scripts/build_atlas_base.py --base "<pasta do projeto do Squad 1>"
-A pasta do projeto contém outputs/mapas/minera_goias_mapas_v1.gpkg, documentacao/prototipo_bases_consolidadas_v13.xlsx e
+A pasta do projeto contém outputs/mapas/minera_goias_mapas_v1.gpkg, documentacao/prototipo_bases_consolidadas_v14.xlsx e
 dados/ANM/investimento_pesquisa/InvestimentoPesquisaMineralUf.csv — é o que o pipeline de
 Squad 1/dados/base_consolidada_estudante1/ gera e lê.
 """
@@ -213,12 +213,12 @@ def processos(gpkg, tolerancia):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--base", required=True, help="pasta do projeto do Squad 1 (com outputs/, documentacao/ e dados/)")
-    ap.add_argument("--planilha", help="planilha consolidada (padrão: <base>/documentacao/prototipo_bases_consolidadas_v13.xlsx)")
+    ap.add_argument("--planilha", help="planilha consolidada (padrão: <base>/documentacao/prototipo_bases_consolidadas_v14.xlsx)")
     ap.add_argument("--tolerancia-municipios", type=float, default=0.003, help="graus; padrão 0,003 (~330 m)")
     ap.add_argument("--tolerancia-processos", type=float, default=0.0004, help="graus; padrão 0,0004 (~45 m)")
     args = ap.parse_args()
     base = Path(args.base)
-    planilha = Path(args.planilha) if args.planilha else base / "documentacao" / "prototipo_bases_consolidadas_v13.xlsx"
+    planilha = Path(args.planilha) if args.planilha else base / "documentacao" / "prototipo_bases_consolidadas_v14.xlsx"
     gpkg = base / "outputs" / "mapas" / "minera_goias_mapas_v1.gpkg"
     invest = base / "dados" / "ANM" / "investimento_pesquisa" / "InvestimentoPesquisaMineralUf.csv"
     destino = ROOT / "data" / "atlas"
@@ -255,11 +255,11 @@ def main():
     ultimo = dados["periodos"][-1]
     packet = {
         "meta": {
-            "artifact": "base consolidada do Squad 1 / Estudante 1 — prototipo_bases_consolidadas_v13.xlsx",
+            "artifact": "base consolidada do Squad 1 / Estudante 1 — prototipo_bases_consolidadas_v14.xlsx",
             "sha256": sha256(planilha),
             "integrated_on": date.today().isoformat(),
             "status": "snapshot_unvalidated",
-            "note": ("Retrato da base consolidada do Squad 1 (v13), gerado por scripts/build_atlas_base.py; não é consulta em tempo real à ANM. "
+            "note": ("Retrato da base consolidada do Squad 1 (v14), gerado por scripts/build_atlas_base.py; não é consulta em tempo real à ANM. "
                      "Energia (CCEE) e barragens (SIGBM) seguem do retrato anterior (eliel.html). Geometrias simplificadas e quantizadas para "
                      "o mapa: não usar como limite cadastral."),
             "sources": ["ANM / CFEM", "Anuário Mineral Brasileiro", "Cadastro Mineiro", "SIGMINE", "IBGE — malha municipal 2025",
@@ -267,7 +267,7 @@ def main():
             "periods": {"cfem": f"{dados['periodos'][0]} a {ultimo}", "production": "2025 — quantidade comercializada declarada na CFEM",
                         "energy": retido["periods"]["energy"], "dams": retido["periods"]["dams"],
                         "processes": f"arquivo do SIGMINE de {data_sigmine}"},
-            "base": {"planilha": "Squad 1/dados/base_consolidada_estudante1/documentacao/prototipo_bases_consolidadas_v13.xlsx",
+            "base": {"planilha": "Squad 1/dados/base_consolidada_estudante1/documentacao/prototipo_bases_consolidadas_v14.xlsx",
                      "sha256_planilha": sha256(planilha), "sha256_gpkg": sha256(gpkg), "sha256_investimento": sha256(invest)},
             "retained_from_artifact": retido,
         },

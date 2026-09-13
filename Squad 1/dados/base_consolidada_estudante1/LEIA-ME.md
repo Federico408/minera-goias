@@ -5,7 +5,7 @@ produção mineral e CFEM de Goiás, com ID estável, fonte e unidade em cada n�
 
 | O quê | Onde |
 |---|---|
-| **Entregável** (25 abas, versão 13) | `documentacao/prototipo_bases_consolidadas_v13.xlsx` — comece pela aba `00_LEIA-ME` |
+| **Entregável** (25 abas, versão 14) | `documentacao/prototipo_bases_consolidadas_v14.xlsx` — comece pela aba `00_LEIA-ME` |
 | Entrega ao Squad 2 | aba `12_interface_squad1_squad2` |
 | Catálogo de fontes (link oficial, sha256, período) | aba `07_dim_fontes` e `dados/LEIA-ME.md` |
 | Dicionário de dados e validações automáticas | abas `14_dicionario_dados` e `14b_validacoes_governanca` |
@@ -23,8 +23,8 @@ produção mineral e CFEM de Goiás, com ID estável, fonte e unidade em cada n�
 
 ## Site e importador
 
-O importador da VPS (`ingestion/`) carrega os CSV e XLSX do `main` no banco do site; a planilha v13 entra como fonte
-`source_unvalidated`. O modelo v0 fica em `modelo_demo/` para não ser carregado: ele só tem dados ilustrativos. O atlas do
+O importador da VPS (`ingestion/`) carrega os CSV e XLSX do `main` no banco do site; a planilha v14 entra como fonte
+`source_unvalidated` (as versões anteriores ficam só no histórico do git, para não serem carregadas em dobro). O modelo v0 fica em `modelo_demo/` para não ser carregado: ele só tem dados ilustrativos. O atlas do
 site (`data/atlas/`) é um retrato separado e não é atualizado por esta pasta.
 
 ## LGPD

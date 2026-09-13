@@ -24,8 +24,8 @@ warnings.filterwarnings("ignore")
 sys.stdout.reconfigure(encoding="utf-8")
 from caminhos import BASE  # caminhos relativos ao projeto — ver caminhos.py
 SRC = f"{BASE}/documentacao/prototipo_bases_consolidadas_v5d_fato.xlsx"  # v5 + 06/06b + 04/04b + 12 + 08 (write_ocorrencias_06 → write_projetos_04 → write_interface_12 → write_fato_08)
-OUT = f"{BASE}/documentacao/prototipo_bases_consolidadas_v13.xlsx"
-VERSAO = "v13"
+OUT = f"{BASE}/documentacao/prototipo_bases_consolidadas_v14.xlsx"
+VERSAO = "v14"
 NAVY, TEAL, LBLUE, WHITE, AMBER = "17365D", "1F6D7A", "DCE6F1", "FFFFFF", "C65911"
 HDR = 4
 
@@ -656,11 +656,13 @@ D = {  # campo -> (descrição, unidade/domínio, fonte ou derivação)
     "substancias": ("Substâncias declaradas pelo processo na CFEM.", "texto separado por ';'", "ANM CFEM (Substância)"),
     "usos": ("Tipos de uso atribuídos às rochas do processo (vazio para não-rochas).", "texto separado por ';'", "Derivado — regra da 01c"),
     "cfem_t_processo": ("Toneladas comercializadas declaradas por esse processo no ano, na categoria.", "t", "ANM CFEM"),
-    "amb_total_uf_t": ("Total do AMB para Goiás na categoria e ano (maior entre produção bruta e beneficiada em t).", "t", "ANM AMB"),
-    "razao": ("cfem_t_processo ÷ amb_total_uf_t. Acima de 1 = um único processo declara mais que o estado inteiro.", "razão", "Derivado"),
+    "amb_total_uf_t": ("Limite do AMB para Goiás na categoria e ano: maior entre produção bruta e beneficiada em t; nos metais que o AMB mede em kg (ouro, prata), a produção beneficiada convertida para t. Vazio = sem AMB no ano.", "t", "ANM AMB"),
+    "amb_base": ("Qual medida do AMB serviu de limite: maior entre bruta e beneficiada em t, ou beneficiada em kg no caso de metal (a bruta desses minerais é tonelagem de minério).", "texto", "Derivado — regra da 09c"),
+    "criterio": ("O que disparou o alerta: tonelagem acima do total estadual e/ou, em metais, R$/t mais de 10× abaixo da mediana do mineral.", "texto", "Derivado — regra da 09c"),
+    "razao": ("cfem_t_processo ÷ amb_total_uf_t. Acima de 1 = um único processo declara mais que o estado inteiro. Vazio = sem AMB no ano.", "razão", "Derivado"),
     "r_por_t": ("R$ recolhido por tonelada declarada pelo processo.", "R$/t", "Derivado"),
-    "severidade": ("alta = mais de 2× o total estadual OU R$/t mais de 10× abaixo da mediana do mineral; moderada = entre 1 e 2× com R$/t compatível.", "", "Derivado — regra da 09c"),
-    "mediana_r_por_t_mineral": ("Mediana do R$ por tonelada nas linhas válidas da CFEM do mesmo mineral (todos os processos e anos), para comparar com r_por_t.", "R$/t", "Derivado — ANM CFEM"),
+    "severidade": ("alta = mais de 2× o total estadual OU R$/t mais de 10× abaixo da mediana do mineral (nos metais medidos em kg, esse R$/t sozinho já gera alerta); moderada = entre 1 e 2× com R$/t compatível.", "", "Derivado — regra da 09c"),
+    "mediana_r_por_t_mineral": ("Mediana do R$ por tonelada nas linhas da CFEM do mesmo mineral (todos os processos e anos), para comparar com r_por_t. Nos metais medidos em kg (ouro, prata) é ponderada pelo R$ recolhido, para não ser puxada pelas próprias declarações erradas.", "R$/t", "Derivado — ANM CFEM"),
     "qtd_titulares_cfem": ("Titulares distintos que recolheram CFEM para o mineral (2022–2026). " + AVISO_CNPJ, "contagem", "ANM CFEM (CPF_CNPJ)"),
     "qtd_titulos_com_esse_mineral": ("Menções do mineral nos títulos do titular no Cadastro Mineiro (ocorrências, não processos distintos).", "contagem", "Cadastro Mineiro"),
     "qtd_processos_total_empresa": ("Processos distintos do titular em Goiás.", "contagem", "Cadastro Mineiro"),
@@ -1106,17 +1108,19 @@ V("Plausibilidade: CFEM comercializada (t) ÷ produção do AMB na base mais pr�
   + f". CONCLUSÃO: com {len(_pl)} mineral-anos fora da faixa, a quantidade comercializada da CFEM NÃO serve como proxy de produção sem validação mineral a mineral. "
     "Causas investigadas: (1) rochas — resolvido na v7 com o mapeamento por tipo de uso (01c); o que sobra são processos isolados listados na 09c "
     "(ex.: basalto declarado como revestimento com volume de brita; granito para brita acima do total estadual); (2) Níquel 2025 — um único processo "
-    "(960146/2003) passa a declarar ~10× mais toneladas a partir de julho, com o mesmo R$; (3) Ouro — CFEM em g/kg, na escala de metal, mas 4–5× o AMB "
-    "beneficiado, sem explicação nos dados. Os demais NÃO foram investigados — valores perto de zero (Amianto, Gemas, Diamante) sugerem unidade ou base "
-    "incomparável; nos valores muito acima, Titânio, Nióbio e Manganês têm processos isolados que sozinhos superam o total estadual "
-    "(ver 09c; causa não investigada) e Prata segue sem explicação (inflação abaixo do limiar de 1.000× ou categoria diferente da do AMB). "
+    "(960146/2003) passa a declarar ~10× mais toneladas a partir de julho, com o mesmo R$; (3) Ouro e Prata — CFEM em g/kg, na escala de metal, acima do AMB "
+    "beneficiado: desde a v14 a 09c compara esses metais com a produção beneficiada (não com o minério) e lista os processos responsáveis (minério declarado "
+    "como metal e declarações acima do estado inteiro). Os demais NÃO foram investigados — valores perto de zero (Amianto, Gemas, Diamante) sugerem unidade "
+    "ou base incomparável; nos valores muito acima, Titânio, Nióbio e Manganês têm processos isolados que sozinhos superam o total estadual "
+    "(ver 09c; causa não investigada). "
     "Afeta só a QUANTIDADE; os valores em R$ não são afetados.",
   not _pl)
 _al9c = DADOS["09c_alertas_cfem_processo"][1]
 _alta9c = [r for r in _al9c if r["severidade"] == "alta"]
-V("Processos cuja tonelagem na CFEM supera o total do AMB do estado na categoria (mantidos na soma, sinalizados na 09c)", len(_al9c),
+V("Processos com quantidade na CFEM implausível frente ao AMB do estado (acima do total ou, em metais, R$/t incompatível; mantidos na soma, sinalizados na 09c)", len(_al9c),
   f"severidade alta: {len(_alta9c)}; moderada: {len(_al9c) - len(_alta9c)}. Alta: "
-  + ("; ".join(f"{r['mineral_name']} {r['year']} proc. {r['processo_anm']}: {r['razao']:,.1f}×" for r in _alta9c) or "nenhum"), not _alta9c)
+  + ("; ".join(f"{r['mineral_name']} {r['year']} proc. {r['processo_anm']}: " + (f"{r['razao']:,.1f}×" if r["razao"] else "R$/t incompatível, sem AMB no ano")
+               for r in _alta9c) or "nenhum"), not _alta9c)
 _ru_cfem = [r for r in DADOS["01c_rochas_por_tipo_de_uso"][1] if r["fonte"] == "CFEM (GO)"]
 _rs_regra = Counter()
 for _r in _ru_cfem:
@@ -1579,7 +1583,7 @@ assert not _com_rotulo, f"título ainda com rótulo de versão: {_com_rotulo}"
 # v12 — 00_LEIA-ME reescrito. O topo ainda era o texto do protótipo v0 ("rascunho de formato", placeholders, IDs sequenciais
 # COM_###/OPE_#####). Agora descreve a planilha como ela é; as notas de cada versão ficam embaixo, como histórico, sem reescrita.
 # ---------------------------------------------------------------------------
-DATA_VERSAO = "2026-09-12"
+DATA_VERSAO = "2026-09-13"
 _lin = list(wb["00_LEIA-ME"].iter_rows(max_col=2, values_only=True))
 HIST = [(b, _lin[i + 1][1] if i + 1 < len(_lin) else "") for i, (_, b) in enumerate(_lin) if isinstance(b, str) and b.startswith("ATUALIZAÇÃO")]
 assert [h[0].split()[1] for h in HIST] == [f"v{i}" for i in range(1, 12)], [h[0][:24] for h in HIST]
@@ -1607,6 +1611,18 @@ HIST.append(("ATUALIZAÇÃO v13 — catálogo de fontes completo e pipeline que 
     "uma). Reprodutibilidade: os scripts não têm mais caminho fixo da máquina do Eliel — base_consolidada_work/scripts/caminhos.py calcula a pasta do projeto "
     "pela posição do arquivo e manda os intermediários para a pasta temporária do sistema (ou MINERA_TMP); rodar_pipeline.py roda as 17 etapas em ordem, com "
     "log por etapa e retomada com --de; requirements.txt fixa as versões usadas. Os valores das abas de dados são os mesmos da v12.")))
+_al14 = DADOS["09c_alertas_cfem_processo"][1]
+_metal14 = [r for r in _al14 if str(r.get("amb_base") or "").startswith("beneficiada")]
+_preco14 = [r for r in _metal14 if "R$/t" in str(r.get("criterio") or "")]
+HIST.append(("ATUALIZAÇÃO v14 — regra da 09c corrigida para metais medidos em kg (ouro e prata)", (
+    "A 09c comparava a tonelagem declarada na CFEM com o maior entre a produção bruta e a beneficiada do AMB, e só aceitava a beneficiada em t. No ouro "
+    "isso deixava como limite a produção bruta de minério (22 a 31 Mt por ano em Goiás), enquanto a CFEM declara metal em kg ou g: nenhum processo de ouro "
+    "era sinalizado. Na prata, sem produção bruta, não havia limite nenhum. Agora, nos minerais cuja produção beneficiada o AMB mede em kg ou g, o limite é "
+    "essa produção beneficiada convertida para t; e, como o preço do metal é bem definido, o alerta também dispara quando o R$/t do processo fica mais de "
+    f"10× abaixo da mediana do mineral ponderada pelo valor recolhido, o que pega minério declarado como metal. Resultado: {len(_al14)} processo-anos na 09c, {len(_metal14)} deles de "
+    f"{' e '.join(sorted({r['mineral_name'] for r in _metal14})) or 'metais'} ({len(_preco14)} só ou também pelo critério de preço). A 09c ganhou as colunas "
+    "amb_base e criterio. Nada foi excluído de soma: mudam só os status das linhas de CFEM desses processos na 08 (alerta_processo_09c) e das operações "
+    "na 12 (estimativa_com_alerta_09c).")))
 
 ABA_DESC = {
     "01_dim_minerais": "dimensão de minerais: as categorias oficiais da ANM mais subitens justificados na 01b",
@@ -1625,7 +1641,7 @@ ABA_DESC = {
     "08_fato_producao_energia": "fato longo: uma linha por célula numérica do AMB (produção bruta e beneficiada) e da CFEM, rastreável até a célula da fonte",
     "09_cons_mineral_ano": "consulta: mineral × ano, Goiás e Brasil (produção AMB, CFEM, processos e titulares)",
     "09b_auditoria_cfem_quantidade": "auditoria: quantidades da CFEM excluídas da soma de toneladas (o R$ continua somado)",
-    "09c_alertas_cfem_processo": "alertas: processo que declara na CFEM mais toneladas que o AMB registra para o estado inteiro",
+    "09c_alertas_cfem_processo": "alertas: processo com quantidade declarada na CFEM implausível frente ao AMB (acima do total estadual ou, em metais como ouro e prata, R$/t incompatível)",
     "10_cons_municipio_ano": "consulta: município × ano (CFEM, processos, população e PIB)",
     "11_cons_empresa_ano_mineral": "consulta: empresa × mineral × ano (CFEM e títulos)",
     "12_interface_squad1_squad2": "entrega ao Squad 2: produção por mineral e ano, observada no nível estado e estimada por operação — os dois níveis não se somam",
@@ -1663,7 +1679,7 @@ SECOES = [
         "que só existe por UF × mineral × ano.",
         "Na 12, o nível estado é produção observada; o nível operação é ESTIMADO (rateio pela participação de cada processo na CFEM em R$) e não deve ser somado ao "
         "estado, usado como produção observada nem como denominador observado de intensidade energética.",
-        "Alertas ficam sinalizados, não corrigidos: produção repetida no AMB (08, alerta_producao_repetida), processo com toneladas acima do total estadual (09c) e "
+        "Alertas ficam sinalizados, não corrigidos: produção repetida no AMB (08, alerta_producao_repetida), processo com quantidade implausível na CFEM (09c) e "
         "mineral-anos com CFEM × AMB fora da faixa plausível (14b).",
         "A 04 usa só evidência da ANM (classe no máximo 'provável'); capacidade, CAPEX e ano previsto ficam vazios até o Radar de Projetos completo (Squad 1 / "
         "Estudante 2). A 06 é potencial geológico: o status 'mina ativa' é do cadastro do SGB (a maioria de 2003), não de hoje.",

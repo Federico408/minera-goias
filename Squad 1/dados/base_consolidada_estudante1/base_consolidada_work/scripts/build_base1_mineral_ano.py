@@ -607,8 +607,42 @@ for l in _linhas_cfem:
         cfem_outras[(l["k"], l["ano"])][l["un"]] += l["conv"]
 print(f"CFEM quantidade: {len(cfem_qtd_excluidas)} linhas excluídas da soma de quantidade (valores em R$ mantidos).")
 
-# alertas (aba 09c): UM processo com tonelagem acima do total do AMB para o estado inteiro na categoria.
+# alertas (aba 09c): UM processo com quantidade declarada na CFEM implausivel frente ao AMB do estado inteiro na categoria.
 # NAO exclui da soma (o AMB tambem e declaratorio) -- sinaliza para revisao da declaracao ou do tipo de uso.
+# CORRECAO (v14): o limite era o maior entre producao bruta e beneficiada, e a beneficiada so entrava se estivesse em t. No ouro o
+# AMB mede a bruta em toneladas de MINERIO (22-31 Mt/ano em GO) e a beneficiada em kg de METAL (3-5 t/ano), enquanto a CFEM declara
+# metal (kg/g): o limite virava o minerio e nenhum processo de ouro era sinalizado; na prata (sem bruta) nao havia limite nenhum.
+# Para minerais cuja beneficiada o AMB mede em kg/g, o limite passa a ser a beneficiada convertida para t. O contido do AMB nao
+# serve de limite: oscila demais (ouro contido no ROM de 2022 = 2.799 t, erro na fonte). E, como o preco do metal e bem definido,
+# nesses minerais o alerta tambem dispara quando o R$/t do processo fica mais de 10x abaixo da mediana do mineral, mesmo abaixo do
+# total estadual -- e o caso de minerio declarado como ouro (860567/2021: 3,2 t em 2025 com R$ 287 mil). A mediana desses metais e
+# PONDERADA PELO R$ RECOLHIDO: a mediana por linha ficava puxada pelas proprias declaracoes erradas (o 860567/2021 tem dezenas de
+# linhas por ano) e caia para R$ 177 mil/t no ouro, contra R$ 6,4 mi/t ponderada -- com ela o minerio declarado como ouro escapava.
+# Metal = beneficiada em kg/g no AMB de GO em pelo menos 3 anos e na maior parte dos anos com producao (ouro e prata: 16 de 16;
+# gemas e estanho tem um unico ano em kg, e o preco por peso das gemas varia demais para servir de referencia).
+_anos_benef, _anos_kg = Counter(), Counter()
+for (_k, _a), _pg in prod["GO"].items():
+    if (_pg.get("beneficiada") or 0) > 0:
+        _anos_benef[_k] += 1
+        _anos_kg[_k] += str(_pg.get("beneficiada_unidade", "")).strip().lower() in ("kg", "g")
+METAL_KG = {k for k, n in _anos_kg.items() if n >= 3 and 2 * n >= _anos_benef[k]}
+
+
+def _mediana_ponderada(pares):
+    """pares (valor, peso): o valor em que o peso acumulado passa da metade do total."""
+    pares = sorted(pares)
+    total, acumulado = sum(p for _, p in pares), 0.0
+    for v, p in pares:
+        acumulado += p
+        if acumulado >= total / 2:
+            return v
+
+
+_rpt_metal = defaultdict(list)
+for l in _linhas_cfem:
+    if l["k"] in METAL_KG and not l.get("excluida") and l["massa"] and l["conv"] and l["conv"] > 0 and l["valor"] and l["valor"] > 0:
+        _rpt_metal[l["k"]].append((l["valor"] / l["conv"], l["valor"]))
+_mediana_metal = {k: _mediana_ponderada(v) for k, v in _rpt_metal.items() if len(v) >= 5}
 _t_proc, _rs_proc = defaultdict(float), defaultdict(float)
 _subs_proc, _usos_proc = defaultdict(set), defaultdict(set)
 for l in _linhas_cfem:
@@ -623,34 +657,50 @@ for l in _linhas_cfem:
 cfem_alertas_processo = []
 for (k, ano, p), t in _t_proc.items():
     pg = prod["GO"].get((k, ano), {})
-    benef_t = pg.get("beneficiada") if str(pg.get("beneficiada_unidade", "")).strip().lower() == "t" else None
-    total = max([v for v in (pg.get("rom_t"), benef_t) if v] or [0.0])
-    if total and t > total:
-        razao = t / total
-        rpt = (_rs_proc[(k, ano, p)] / t) if t else None
-        med = _mediana.get((k, "t"))
-        # severidade: duas evidencias independentes -- volume acima do estado inteiro e tonelagem "barata" demais frente aos pares
-        motivos = []
-        if razao > 2:
-            motivos.append("mais de 2× o total estadual (inconsistência forte)")
-        if rpt is not None and med and rpt < med / 10:
-            motivos.append("R$/t mais de 10× abaixo da mediana do mineral (indício de tonelagem inflada na declaração)")
-        if motivos:
-            sev, obs = "alta", "; ".join(motivos) + ". Revisar a declaração ou o tipo de uso."
-            obs = obs[0].upper() + obs[1:]
-        else:
-            sev = "moderada"
-            obs = ("Entre 1 e 2× o total estadual, com R$/t " + ("compatível com a mediana do mineral" if med else "sem mediana para comparar")
-                   + ": pode ser venda de estoque de anos anteriores, AMB ainda preliminar ou diferença de base (bruta × beneficiada).")
-        cfem_alertas_processo.append(dict(
-            mineral_key=k, year=ano, processo_anm=p, substancias="; ".join(sorted(_subs_proc[(k, ano, p)])),
-            usos="; ".join(sorted(_usos_proc[(k, ano, p)])), cfem_t_processo=t, amb_total_uf_t=total, razao=razao, severidade=sev,
-            valor_recolhido_brl=_rs_proc[(k, ano, p)], r_por_t=rpt, mediana_r_por_t_mineral=med,
-            observacao="Um único processo declara mais toneladas comercializadas do que o AMB registra para o estado inteiro na categoria "
-                       "(maior entre produção bruta e beneficiada em t); mantido na soma. " + obs))
-cfem_alertas_processo.sort(key=lambda a: (a["severidade"] != "alta", -a["razao"]))
-print(f"CFEM: {len(cfem_alertas_processo)} processo-anos com tonelagem acima do total estadual do AMB (sinalizados na 09c; "
-      f"{sum(a['severidade'] == 'alta' for a in cfem_alertas_processo)} de severidade alta).")
+    un_b = str(pg.get("beneficiada_unidade", "")).strip().lower()
+    metal = k in METAL_KG
+    if metal:  # limite = metal beneficiado (a bruta e minerio)
+        total = (pg.get("beneficiada") or 0.0) * PARA_T[un_b] if un_b in ("kg", "g") else 0.0
+        base = "beneficiada do AMB em kg (metal), convertida para t"
+    else:
+        benef_t = pg.get("beneficiada") if un_b == "t" else None
+        total = max([v for v in (pg.get("rom_t"), benef_t) if v] or [0.0])
+        base = "maior entre produção bruta e beneficiada (t)"
+    if not total:
+        base += " — sem AMB no ano"
+    rpt = (_rs_proc[(k, ano, p)] / t) if t else None
+    med = _mediana_metal.get(k) if metal else _mediana.get((k, "t"))
+    acima = bool(total) and t > total
+    barato = rpt is not None and bool(med) and rpt < med / 10
+    if not (acima or (metal and barato)):
+        continue
+    razao = t / total if total else None
+    # severidade: duas evidencias independentes -- volume acima do estado inteiro e tonelagem "barata" demais frente aos pares
+    motivos = []
+    if razao and razao > 2:
+        motivos.append("mais de 2× o total estadual (inconsistência forte)")
+    if barato:
+        motivos.append("R$/t mais de 10× abaixo da mediana do mineral (indício de tonelagem inflada ou de minério declarado como metal)")
+    if motivos:
+        sev, obs = "alta", "; ".join(motivos) + ". Revisar a declaração ou o tipo de uso."
+        obs = obs[0].upper() + obs[1:]
+    else:
+        sev = "moderada"
+        obs = ("Entre 1 e 2× o total estadual, com R$/t " + ("compatível com a mediana do mineral" if med else "sem mediana para comparar")
+               + ": pode ser venda de estoque de anos anteriores, AMB ainda preliminar ou diferença de base (bruta × beneficiada).")
+    criterio = "; ".join(c for c, ok in (("tonelagem acima do total estadual", acima),
+                                          ("R$/t mais de 10× abaixo da mediana do metal", metal and barato)) if ok)
+    abertura = (f"Um único processo declara mais toneladas comercializadas do que o AMB registra para o estado inteiro na categoria ({base}); "
+                "mantido na soma. " if acima else
+                f"Tonelagem abaixo do limite do AMB ({base}), mas incompatível com o valor recolhido para um metal; mantido na soma. ")
+    cfem_alertas_processo.append(dict(
+        mineral_key=k, year=ano, processo_anm=p, substancias="; ".join(sorted(_subs_proc[(k, ano, p)])),
+        usos="; ".join(sorted(_usos_proc[(k, ano, p)])), cfem_t_processo=t, amb_total_uf_t=total or None, amb_base=base, razao=razao,
+        criterio=criterio, severidade=sev, valor_recolhido_brl=_rs_proc[(k, ano, p)], r_por_t=rpt, mediana_r_por_t_mineral=med,
+        observacao=abertura + obs))
+cfem_alertas_processo.sort(key=lambda a: (a["severidade"] != "alta", -(a["razao"] or 0)))
+print(f"CFEM: {len(cfem_alertas_processo)} processo-anos com quantidade implausível (sinalizados na 09c; "
+      f"{sum(a['severidade'] == 'alta' for a in cfem_alertas_processo)} de severidade alta; limite em metal para: {sorted(METAL_KG)}).")
 
 for l in _linhas_cfem:
     sn = norm(l["subst"])

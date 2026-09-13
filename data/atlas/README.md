@@ -1,6 +1,6 @@
 # Atlas — retrato da base consolidada do Squad 1 (13/09/2026)
 
-Os dados do atlas vêm da base consolidada do Squad 1 / Estudante 1 (v13), em `Squad 1/dados/base_consolidada_estudante1/`.
+Os dados do atlas vêm da base consolidada do Squad 1 / Estudante 1 (v14), em `Squad 1/dados/base_consolidada_estudante1/`.
 O SHA-256 da planilha está em `atlas.json` → `meta.sha256`; os do GeoPackage e do arquivo de investimento, em `meta.base`.
 Para gerar de novo, fora da VPS (precisa de geopandas, shapely ≥ 2.1 e openpyxl):
 
@@ -22,8 +22,9 @@ O script mantém o formato lido por `public/atlas.js` e troca só os dados. Depo
   aparecem como um único titular não identificado.
 - **Ouro — quantidade inconsistente na fonte**: em 2025, os processos de Mara Rosa declaram 9,7 t de ouro na CFEM, enquanto o Anuário
   Mineral registra 3,4 t de ouro beneficiado em Goiás inteiro; e o processo 860567/2021 declara 3,2 t com CFEM de R$ 287 mil, valor de
-  minério e não de metal. O atlas mostra o que foi declarado, sem corrigir, com a unidade "kg declarados". A aba 09c da base não pega
-  esses casos porque, no ouro, compara com a produção bruta de minério.
+  minério e não de metal. O atlas mostra o que foi declarado, sem corrigir, com a unidade "kg declarados". Desde a v14 da base, a aba
+  09c sinaliza esses casos: em ouro e prata compara com a produção beneficiada do Anuário (metal, em kg) e também acusa R$/t mais de 10×
+  abaixo da mediana do metal — 861241/1980 (Mara Rosa) em 2025, com 8,8 t contra 3,4 t do estado, e 860567/2021 de 2023 a 2026.
 - **Séries**: CFEM por ano e de janeiro a julho (`cfem_years`, `cfem_comparable`); valor de venda da produção beneficiada de Goiás no
   Anuário Mineral Brasileiro (`beneficiated`); investimento declarado em pesquisa mineral em Goiás (`investment`, arquivo
   `InvestimentoPesquisaMineralUf.csv` da ANM, que reproduz exatamente a série do retrato anterior).

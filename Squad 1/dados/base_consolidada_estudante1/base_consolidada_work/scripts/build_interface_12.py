@@ -180,7 +180,7 @@ for k in sorted(tot, key=lambda kk: (NOME[kk[0]], kk[1], kk[2])):
         if comp == "COM_NAO_IDENTIFICADO":
             obs.append("titular não identificado nas bases de título")
         if kp in cf_alerta:
-            obs.append("processo na 09c (quantidade da CFEM acima do total do AMB): o rateio por R$ não usa a quantidade, mas a alternativa em t fica distorcida")
+            obs.append("processo na 09c (quantidade da CFEM implausível frente ao AMB): o rateio por R$ não usa a quantidade, mas a alternativa em t fica distorcida")
         if flags[k]:
             obs.append("o total do estado tem produção repetida entre linhas do AMB (ver linha de nível estado)")
         nova(mineral_id=mid, mineral_name=NOME[mid], company_id=comp, operation_id=o["operation_id"] if o else None, municipality_id=mun, year=ano,
