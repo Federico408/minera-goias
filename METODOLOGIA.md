@@ -29,7 +29,7 @@ Atualizado em 13/09/2026. Ao mudar uma regra de cálculo, atualize este arquivo 
 | Cadastro mineiro (shapefile) | Um polígono de um processo minerário | 17.428 polígonos em 16.656 processos | Data de extração não informada |
 | Rodadas de disponibilidade | Uma área oferecida em uma rodada | 31.841 no Brasil · **3.632 em Goiás** | Rodadas 1 a 8 |
 | Dicionário de substâncias | Uma substância da ANM | 862 | Sem data declarada |
-| Atlas (artefato recebido) | Retrato consolidado de terceiros | 246 municípios · 17.402 polígonos · 23 barragens | Ver §5 |
+| Atlas (base consolidada do Squad 1, v15) | Retrato gerado da planilha por `scripts/build_atlas_base.py`; energia e barragens seguem do artefato recebido | 246 municípios · 16.656 processos · 3.377 projetos · 1.796 ocorrências · 23 barragens | Ver §3.2 e `data/atlas/README.md` |
 
 O acervo importado hoje soma **189.785 linhas em 14 arquivos**, cada uma rastreável até arquivo, aba, linha de origem e commit.
 
@@ -54,27 +54,32 @@ Cada camada tem unidade própria e período próprio; elas **não** se comparam 
 
 | Camada | Unidade | Período |
 |---|---|---|
-| CFEM por município | R$ | Acumulado 2022–jul/2026, ou ano escolhido |
+| CFEM por município | R$ | Acumulado 2022–2026 (2026 parcial: jan.–início de ago.), ou ano escolhido |
 | Quantidade comercializada | t (ou kg, para ouro) | 2025 |
-| Energia da cadeia mineral | GWh | 2025 |
-| Intensidade energética | kWh/t (MWh/kg para ouro) | 2025 |
-| Polígonos de processos | ha declarados | Extração sem data |
-| Barragens | Classificação categórica | Extração sem data |
+| Energia da cadeia mineral | GWh | 2025 (artefato recebido) |
+| Intensidade energética | kWh/t (MWh/kg para ouro) | 2025 (artefato recebido) |
+| Polígonos de processos | ha declarados (calculados quando a declaração falta) | Arquivo do SIGMINE de 10/09/2026 |
+| Projetos que ainda não produzem (aba 04) | Contagem, por classificação (provável, possível, sinal) | Situação no SIGMINE de 10/09/2026 |
+| Ocorrências minerais (aba 06, RECMIN) | Contagem, por importância | RECMIN baixado em 12/09/2026 |
+| Barragens | Classificação categórica | Extração sem data (artefato recebido) |
 
 **Escala de cores:** faixas de quantis dos valores positivos. Cinza significa **sem registro ou zero** — e são coisas distintas que a fonte não separa.
 
-**A CFEM anual só existe para 8 municípios.** Ao escolher um ano, os outros 238 ficam cinza por ausência de detalhamento, não por arrecadação zero. O acumulado cobre os 246.
+**A CFEM anual cobre os 246 municípios.** Ao escolher um ano, cinza significa que não houve arrecadação no município naquele ano.
+
+**Gráficos das séries.** Além das séries anuais (CFEM, CFEM de janeiro a julho, energia mensal, produção beneficiada e investimento em pesquisa), o atlas traz sete gráficos calculados da base: CFEM de 2025 por substância; CFEM por substância e ano; concentração da CFEM de 2025 nos maiores municípios e titulares; produção bruta por mineral no ano mais recente do Anuário (as barras não se somam: co-produtos repetem a mesma tonelagem); parcela da produção bruta atribuída a operações (aba 12); projetos por mineral e classificação; ocorrências por substância e importância (uma ocorrência com mais de uma substância conta em cada uma). `tests/test_atlas.py` confere que os gráficos de CFEM somam o total de cada ano e que as contagens batem com as abas 04 e 06.
 
 **Reconciliação feita:** a soma dos acumulados municipais bate com o total dos cinco anos em R$ 867.578.398,91.
 
 ### 3.3 Perfil do município
 
-- **Processos minerários** — contagem de polígonos do artefato naquele município.
-- **CFEM acumulada** — valor do artefato, 2022 a julho de 2026.
+- **Processos minerários** — processos do SIGMINE que tocam o município (base consolidada).
+- **CFEM acumulada** — CFEM da base consolidada, 2022 a 2026 (2026 parcial).
 - **Participação no estado** — CFEM acumulada do município ÷ soma dos 246 municípios, em %.
 - **Energia · 2025** — MWh do artefato convertidos para GWh (divisão por 1.000, única operação aritmética aplicada).
-- **Substâncias declaradas · 2025** — quantidade, CFEM e número de empresas por substância, como no artefato.
-- **Evolução ao longo do tempo** — CFEM por ano **apenas** para os 8 municípios detalhados. Para os outros 238 o painel declara a ausência em vez de desenhar série.
+- **Substâncias declaradas · 2025** — quantidade comercializada (t), CFEM e titulares distintos por substância, da base consolidada, sem as quantidades excluídas na aba 09b.
+- **Projetos (ANM)** e **Ocorrências (RECMIN)** — contagem dos pontos das abas 04 e 06 com o município.
+- **Evolução ao longo do tempo** — CFEM por ano para qualquer um dos 246 municípios; 2026 aparece como parcial.
 
 ### 3.4 Carga das tabelas de negócio (`load_anm.py`)
 
@@ -101,14 +106,14 @@ Declarar isto é parte da metodologia.
 - **Consumo de energia da mineração em MWh.** Depende de um critério revisado para separar carga mineral das demais na base CCEE (§3.1).
 - **Intensidade energética por operação.** Os coeficientes do atlas são razões municipais — energia do município ÷ produção do município —, não medidas de planta.
 - **Projeções.** `tb_projecoes` está vazia. O motor da Squad 2 roda sobre dados sintéticos identificados como `estimated_demo` e não alimenta o portal.
-- **Série temporal municipal fora dos 8 municípios.** A base CCEE do banco é mensal e cobre todos os municípios; ligá-la ao perfil municipal é o caminho natural, e ainda não foi feito.
+- **Série de energia no perfil municipal.** A base CCEE do banco é mensal e cobre todos os municípios; ligá-la ao perfil municipal é o caminho natural, e ainda não foi feito.
 - **Produção mineral física por empresa.** As fontes dão quantidade comercializada declarada para fins de CFEM, que não equivale a produção.
 
 ---
 
 ## 5. Precisão e incerteza declaradas
 
-- **Geometrias do atlas** vêm de caminhos SVG convertidos por transformação linear e de matrizes quantizadas em UInt16, com coordenadas arredondadas a seis casas. Servem para localizar e comparar; **não são limites cadastrais**.
+- **Geometrias do atlas:** municípios da malha IBGE 2025 simplificados como cobertura (tolerância de 0,003°); processos do SIGMINE simplificados (~45 m) e quantizados em UInt16. Projetos são o ponto representativo dos seus processos (73 caem fora de Goiás porque os processos cruzam a divisa); ocorrências usam a coordenada do RECMIN, 83% posicionada em carta 1:250.000. Servem para localizar e comparar; **não são limites cadastrais**.
 - **Identificadores em notação científica:** 34.212 registros da CFEM trazem CPF/CNPJ como número em notação científica. Dígitos perdidos na origem não são recuperados por aproximação — são sinalizados como alerta.
 - **CPF de pessoa física** vem mascarado da ANM (`***370285**`). CNPJ de pessoa jurídica vem íntegro, e é dado público.
 - **Fórmulas de planilha** não são recalculadas: 2.358 células da base consolidada estão sem valor em cache e aparecem como alerta, não como zero.
@@ -118,9 +123,9 @@ Declarar isto é parte da metodologia.
 
 ## 6. Divergência aberta
 
-**Período da CFEM de 2026.** O arquivo `CFEM_Arrecadacao_2022_2026_GO.csv` contém registros nos meses 1 a **8** de 2026. O artefato do atlas rotula o mesmo conjunto — 9.569 registros — como "janeiro a julho". As duas coisas não podem estar certas ao mesmo tempo.
+**Período da CFEM de 2026.** O arquivo `CFEM_Arrecadacao_2022_2026_GO.csv` contém registros nos meses 1 a **8** de 2026. O artefato recebido rotulava o mesmo conjunto — 9.569 registros — como "janeiro a julho". Desde 13/09/2026 o atlas é gerado da base consolidada, que usa o `Mês` do arquivo (2026-01 a 2026-08) e a maior `DataCriacao` (04/08/2026): 2026 aparece como parcial, "jan.–início de ago.".
 
-Hipótese a verificar: o campo `Mês` pode ser o mês do recolhimento, e não o da competência, o que deslocaria o rótulo em um mês. Até que alguém confirme na ANM, **o portal exibe "2022–jul/2026" por ser o rótulo mais conservador**, e este item fica registrado como pendência. Quem for verificar: comparar `Mês` com `DataCriacao` em uma amostra e confrontar com a documentação da CFEM.
+Hipótese a verificar: o campo `Mês` pode ser o mês do recolhimento, e não o da competência, o que deslocaria o rótulo em um mês. A pendência continua aberta até alguém confirmar na ANM se o `Mês` é de competência ou de recolhimento. Quem for verificar: comparar `Mês` com `DataCriacao` em uma amostra e confrontar com a documentação da CFEM.
 
 ---
 
@@ -135,8 +140,8 @@ python3 ingestion/import_repository.py --root . --sqlite /tmp/acervo.sqlite --re
 # Tabelas de negócio: carga direta das fontes da ANM, sem tocar no MySQL
 python3 "Squad 3/database/load_anm.py" --root . --sqlite /tmp/negocio.sqlite
 
-# Atlas: reextrai o pacote a partir do artefato recebido
-python3 scripts/extract_atlas.py /caminho/do/artefato.html
+# Atlas: gera o pacote a partir da base consolidada do Squad 1 (planilha, GeoPackage e dados/ locais do Squad 1)
+python3 scripts/build_atlas_base.py --base "<pasta do projeto do Squad 1>"
 
 # Radar: executa sem rede, sobre as fixtures
 python3 news/radar.py --db /tmp/radar.sqlite --offline-dir tests/fixtures/news
@@ -160,3 +165,4 @@ Uma regra de cálculo só muda junto com três coisas: o código que a implement
 | Preço citado preserva moeda, unidade e escala | `tests/test_news.py` |
 | Demos e mocks ficam fora da carga | `tests/test_ingestion.py` |
 | Versão anterior sobrevive a uma importação que falha | `tests/test_ingestion.py` |
+| Gráficos do atlas somam a CFEM de cada ano; projetos e ocorrências batem com as abas 04 e 06 | `tests/test_atlas.py` |
