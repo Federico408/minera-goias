@@ -77,8 +77,3 @@ uma planilha, os arquivos precisam ter o sha256 registrado na aba 07 dela.
   de texto e o `hash()` mudam a cada execução.
 - Nome de aba do Excel tem no máximo 31 caracteres. Ao renomear um cabeçalho, renomeie também a coluna da Tabela do Excel.
 - Aba nova precisa de descrição em `ABA_DESC` (governança) e as colunas novas, em `D`/`DA`: a governança acusa o que faltar.
-
-## Arquivos antigos (só na pasta local original, fora do GitHub)
-
-`build_consolidated_data.py`, `build_workbook.mjs`, `validate_workbook.mjs`, `inspect_sources.py`, `inspect_extract/`,
-`intermediate/`, `node_modules/` e `previews/` são da base v1 anterior; nenhum script deste pipeline os usa.
