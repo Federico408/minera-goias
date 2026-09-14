@@ -60,6 +60,10 @@ class PanoramaTests(unittest.TestCase):
         for script in ('panorama-charts.js', 'panorama-cards1.js', 'panorama-cards2.js', 'panorama-cards3.js', 'panorama.js'):
             self.assertIn(f'src="/{script}"', markup)
         self.assertLess(markup.index('/panorama-cards3.js'), markup.index('/panorama.js"'))
+        # The category tabs sit above the filters.
+        self.assertIn('id="pn-tabs"', markup)
+        self.assertLess(markup.index('id="pn-tabs"'), markup.index('class="pn-filters"'))
+        self.assertNotIn('id="pn-nav"', markup)
         self.assertIn("api('/panorama')", (ROOT / 'public' / 'panorama.js').read_text(encoding='utf-8'))
 
 

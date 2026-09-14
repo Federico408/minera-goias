@@ -3,6 +3,11 @@
 const el=id=>document.getElementById(id),C=window.PNC,E=C.E;
 const SECTIONS=['resumo','cfem','geo','subs','prod','usos','terr','pesq','rod','emp','energia','barr','nr'];
 const FILTERS=['ano','mes','mun','min','emp','fase','rub','ramo'];
+// Tabs group the sections of the same kind of analysis; only the cards of the active tab are drawn.
+const TABS=[['resumo',['resumo']],['arrecadacao',['cfem','subs']],['territorio',['geo','usos','terr']],['producao',['prod']],['pesquisa',['pesq','rod']],
+ ['empresas',['emp']],['energia',['energia']],['barragens',['barr']],['notas',['nr']]];
+const FILTER_IDS={ano:['pn-y0','pn-y1'],mes:['pn-mes'],mun:['pn-mun'],min:['pn-min'],emp:['pn-emp'],fase:['pn-fase'],rub:['pn-rub'],ramo:['pn-ramo']};
+let tab='resumo';try{const saved=localStorage.getItem('minera-pn-tab');if(TABS.some(([id])=>id===saved))tab=saved}catch{}
 const F={y0:2010,y1:2026,mes:0,mun:-1,min:-1,emp:'',fase:-1,rub:-1,ramo:-1};
 let P=null,loading=null,cards=[];
 const norm=s=>String(s??'').normalize('NFD').replace(/[̀-ͯ]/g,'').toUpperCase();
@@ -53,7 +58,16 @@ function describe(){const parts=[X.period(1900,2100)];
  if(F.mun>=0)parts.push(X.mun(F.mun));if(F.min>=0)parts.push(X.min(F.min));if(F.emp)parts.push('“'+el('pn-emp').value.trim()+'”');
  if(F.fase>=0)parts.push(P.dims.fase[F.fase]);if(F.rub>=0)parts.push(t(`pn.rub.${P.dims.rubrica[F.rub]}`));if(F.ramo>=0)parts.push(P.dims.ramo[F.ramo]);
  return t('pn.cut')+' '+parts.join(' · ')}
-function render(){X.cache={};readFilters();cards.forEach(draw);el('pn-context').textContent=describe()}
+const visible=()=>{const secs=TABS.find(([id])=>id===tab)[1];return cards.filter(d=>secs.includes(d.sec))};
+function render(){X.cache={};readFilters();visible().forEach(draw);el('pn-context').textContent=describe()}
+function showTab(id){tab=id;try{localStorage.setItem('minera-pn-tab',id)}catch{}
+ const secs=TABS.find(([k])=>k===id)[1];
+ el('pn-tabs').querySelectorAll('[data-tab]').forEach(b=>{const on=b.dataset.tab===id;b.classList.toggle('active',on);b.setAttribute('aria-selected',String(on));b.tabIndex=on?0:-1});
+ SECTIONS.forEach(s=>{el('pn-s-'+s).hidden=!secs.includes(s)});
+ // Filters that no card of this tab reads stay usable but faded, with a tooltip saying so.
+ const used=new Set(visible().flatMap(d=>d.filters));
+ for(const [k,ids] of Object.entries(FILTER_IDS))ids.forEach(i=>{const w=el(i).closest('div');w.classList.toggle('pn-off',!used.has(k));w.title=used.has(k)?'':t('pn.filterNotUsed')});
+ render()}
 function options(select,items,all){select.innerHTML=(all?`<option value="-1">${E(all)}</option>`:'')+items.map(([v,l])=>`<option value="${E(v)}">${E(l)}</option>`).join('')}
 function fillFilters(){const years=[];for(let y=2001;y<=2026;y++)years.push([y,y]);
  options(el('pn-y0'),years);options(el('pn-y1'),years);el('pn-y0').value=F.y0;el('pn-y1').value=F.y1;
@@ -63,18 +77,20 @@ function fillFilters(){const years=[];for(let y=2001;y<=2026;y++)years.push([y,y
  options(el('pn-fase'),byName(P.dims.fase,f=>f),t('pn.allFase'));options(el('pn-rub'),byName(P.dims.rubrica,r=>t(`pn.rub.${r}`)),t('pn.allRub'));
  options(el('pn-ramo'),byName(P.dims.ramo,r=>r),t('pn.allRamo'))}
 function build(){cards=window.PN_CARDS||[];
- el('pn-nav').innerHTML=SECTIONS.map(s=>`<button type="button" class="pn-jump" data-sec="${s}">${E(t(`pn.s.${s}`))}</button>`).join('');
+ el('pn-tabs').innerHTML=TABS.map(([id])=>`<button type="button" role="tab" class="pn-tab" data-tab="${id}" aria-controls="pn-body">${E(t(`pn.tab.${id}`))}</button>`).join('');
  el('pn-body').innerHTML=SECTIONS.map(s=>`<section class="pn-section" id="pn-s-${s}"><div class="pn-section-head"><h2>${E(t(`pn.s.${s}`))}</h2><p class="subtitle">${E(t(`pn.s.${s}.lead`))}</p></div><div class="pn-grid">`
   +cards.filter(d=>d.sec===s).map(d=>`<article class="panel pn-card${d.wide?' wide':''}" id="pn-c-${d.id}"><h3>${E(t(`pn.c.${d.id}`))}</h3><p class="subtitle">${E(t(`pn.c.${d.id}.n`))}</p>`
    +(d.filters.length?`<div class="pn-chips"><span>${E(t('pn.appliedFilters'))}</span>${d.filters.map(k=>`<span class="pill">${E(t(`pn.f.${k}`))}</span>`).join('')}</div>`:'')
    +'<div class="pn-out"></div></article>').join('')+'</div></section>').join('');
- el('pn-nav').querySelectorAll('[data-sec]').forEach(b=>b.onclick=()=>el('pn-s-'+b.dataset.sec).scrollIntoView({behavior:'smooth',block:'start'}))}
+ el('pn-tabs').querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
+ el('pn-tabs').onkeydown=e=>{if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;const i=TABS.findIndex(([id])=>id===tab),
+  n=TABS[(i+(e.key==='ArrowRight'?1:-1)+TABS.length)%TABS.length][0];showTab(n);el('pn-tabs').querySelector(`[data-tab="${n}"]`).focus()}}
 function bind(){for(const id of ['pn-y0','pn-y1','pn-mes','pn-mun','pn-min','pn-fase','pn-rub','pn-ramo'])el(id).onchange=render;
  let timer;el('pn-emp').oninput=()=>{clearTimeout(timer);timer=setTimeout(render,350)};
  el('pn-reset').onclick=()=>{el('pn-y0').value=2010;el('pn-y1').value=2026;for(const id of ['pn-mes'])el(id).value=0;
   for(const id of ['pn-mun','pn-min','pn-fase','pn-rub','pn-ramo'])el(id).value=-1;el('pn-emp').value='';render()}}
 async function init(){const [p,a]=await Promise.all([api('/panorama'),api('/atlas').catch(()=>null)]);P=p;X.A=a;
- fillFilters();build();bind();el('pn-content').hidden=false;render();
+ fillFilters();build();bind();el('pn-content').hidden=false;showTab(tab);
  el('pn-source').textContent=t('pn.source',{v:P.meta.versao_base,d:P.meta.built_on})}
 window.showPanorama=async()=>{el('pn-error').textContent='';try{if(!loading)loading=init().catch(e=>{loading=null;throw e});await loading}
  catch(e){el('pn-error').textContent=e.message}finally{el('pn-loading').hidden=true}};
