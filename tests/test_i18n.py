@@ -63,6 +63,7 @@ class TranslationTests(unittest.TestCase):
         self.assertIn('<input type="range" id="atlas-year-from"', markup)
         self.assertIn('<input type="range" id="atlas-year-to"', markup)
         self.assertIn('id="atlas-mun"', markup)
+        self.assertIn('id="atlas-minfilter"', markup)
         self.assertIn('id="mun-profile"', markup)
         self.assertIn('id="mun-evo"', markup)
         code = (PUBLIC / 'atlas.js').read_text(encoding='utf-8')
@@ -76,7 +77,7 @@ class TranslationTests(unittest.TestCase):
         # A partial span is summed from the years it covers, never from the total.
         self.assertIn("present.reduce((sum,y)=>sum+source[y],0)", code)
         for hook in ('function selectMun(', 'function profile(', 'municipalitySubstances', 'municipalityDams', 'function chartGeneric(',
-                     'function pointRows('):
+                     'function pointRows(', 'function mineralOptions(', 'MINERAL_LAYERS'):
             self.assertIn(hook, code)
 
     def test_atlas_is_the_first_panel(self):
