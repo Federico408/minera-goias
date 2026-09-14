@@ -1,6 +1,6 @@
 # Dados brutos — Squad 1 / Estudante 1
 
-Arquivos originais usados para gerar a base consolidada do Squad 1 (pasta [`../Bases consolidadas/`](../Bases%20consolidadas/)), uma pasta por fonte, no formato em que a fonte publica. O catálogo completo de cada fonte — URL oficial, metadados, período, sha256 e as abas que usam cada uma — está na aba `07_dim_fontes` da planilha v16.
+Arquivos originais usados para gerar a base consolidada do Squad 1 (pasta [`../Bases consolidadas/`](../Bases%20consolidadas/)), uma pasta por fonte, no formato em que a fonte publica. O catálogo completo de cada fonte — URL oficial, metadados, período, sha256 e as abas que usam cada uma — está na aba `07_dim_fontes` da planilha v17.
 
 - **Nada foi corrigido aqui.** Tratamento, padronização e divergências ficam no pipeline e nas abas de auditoria da planilha.
 - **Cadastro Mineiro recortado para Goiás.** Os 13 arquivos da ANM são nacionais (309.950 linhas, 71,6 MB). Aqui ficam só as linhas de Goiás (21.048 linhas, 4,9 MB): município de Goiás pela mesma regra que o pipeline usa, ou processo com poligonal em Goiás no SIGMINE (processos de divisa podem ter só município de outro estado no Cadastro); as linhas de cada arquivo continuam exatamente como a ANM publica. `Guia_de_Utilizacao_Autorizada.csv` não tem município e é recortado só pelo processo. A regra, o sha256 do arquivo nacional e as contagens estão em `ANM - Cadastro Mineiro/recorte_goias.json`. O pipeline rodado sobre o recorte gera a mesma planilha que o arquivo nacional.
@@ -24,6 +24,7 @@ Arquivos originais usados para gerar a base consolidada do Squad 1 (pasta [`../B
 | `IBGE - População e PIB (SIDRA)` | **SRC_IBGE_POP** — IBGE — Estimativas de população (SIDRA, tabela 6579, variável 9324) | oficial | 2025 (5571 municípios do Brasil no arquivo; mais 1 linha(s) de nível Unidade da Federação) | 2026-08-27 | 10_cons_municipio_ano; 13_mapas_camadas |
 | `IBGE - População e PIB (SIDRA)` | **SRC_IBGE_PIB** — IBGE — PIB dos Municípios (SIDRA, tabela 5938, variável 37) | oficial | 2023 (5570 municípios do Brasil no arquivo; mais 1 linha(s) de nível Unidade da Federação) | 2026-08-27 | 10_cons_municipio_ano; 13_mapas_camadas |
 | `IBGE - População e PIB (SIDRA)` | **SRC_IBGE_POP_UF** — IBGE — Estimativa de população de Goiás (SIDRA, tabela 6579, variável 9324, nível UF) | oficial | 2025 (Goiás: 7.423.629 pessoas) | 2026-08-27 | disponível em dados/, ainda não usada |
+| `IMB - Goiás em Dados` | **SRC_IMB_GOIAS_EM_DADOS** — IMB — Goiás em Dados (4 consultas: energia elétrica e produção mineral estadual) | oficial | consulta (1).csv: colunas 2005–2025, último ano com valor 2025 / consulta (2).csv: colunas 2005–2025, último ano com valor 2025 / consulta (3).csv: colunas 2005–2025, último ano com valor 2016 / consulta.csv: colunas 2005–2025, último ano com valor 2025 | 2026-09-10 | usada só como validação cruzada (14b: produção do estado × AMB) |
 | `SGB - GeoSGB geoquímica` | **SRC_SGB_GEOSGB** — SGB — GeoSGB: pacotes de geoquímica (Oeste de Goiás, Noroeste de Goiás/Bonópolis, Folha Goiás PLGB) | oficial | Folha Goiás - PLGB (1991): coleta 1991–1997; Geologia e Metalogenia do Oeste de Goiás (2017): coleta 1916–2017; Noroeste de Goiás - Folha Bonópolis (2007): coleta 2007–2008 | 2026-09-10 | 13_mapas_camadas |
 | `SGB - RECMIN` | **SRC_SGB_RECMIN** — SGB — GeoSGB: Ocorrências de Recursos Minerais (RECMIN), recorte de Goiás pelo WFS oficial | oficial | cadastros no GeoSGB de 2001-10-21 a 2020-02-03 (68% em 2003, carga do banco); baixado em 2026-09-12 | 2026-09-12 | 01_dim_minerais; 06_dim_ocorrencias_geologicas; 13_mapas_camadas |
 
@@ -41,6 +42,7 @@ Links oficiais:
 - **SRC_IBGE_POP**: https://apisidra.ibge.gov.br/values/t/6579/n6/all/v/9324/p/2025 (consulta equivalente ao arquivo local) (metadados: https://apisidra.ibge.gov.br/desctabapi.aspx?c=6579)
 - **SRC_IBGE_PIB**: https://apisidra.ibge.gov.br/values/t/5938/n6/all/v/37/p/2023 (consulta equivalente ao arquivo local) (metadados: https://apisidra.ibge.gov.br/desctabapi.aspx?c=5938)
 - **SRC_IBGE_POP_UF**: https://apisidra.ibge.gov.br/values/t/6579/n3/52/v/9324/p/2025 (consulta conferida em 12/09/2026: mesmo valor do arquivo local) (metadados: https://apisidra.ibge.gov.br/desctabapi.aspx?c=6579)
+- **SRC_IMB_GOIAS_EM_DADOS**: exportação manual do Goiás em Dados (parâmetros da consulta não registrados)
 - **SRC_SGB_GEOSGB**: não verificável automaticamente (o portal é uma aplicação JavaScript) — registrar o link de download à mão
 - **SRC_SGB_RECMIN**: https://geoservicos.sgb.gov.br/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=geosgb:ocorrencias_recursos_minerais&outputFormat=application/json&bbox=-19.7,-53.4,-12.2,-45.8,urn:ogc:def:crs:EPSG::4326 (metadados: DescribeFeatureType do WFS (geosgb:ocorrencias_recursos_minerais); ArcGIS REST: https://geoportal.sgb.gov.br/server/rest/services/geologia/ocorrencias/MapServer/0)
 
@@ -134,6 +136,15 @@ Recorte de Goiás (linhas no arquivo nacional → aqui):
 | `populacao_goias_ultimo_ano.json` | 0,0 MB | `283a2e45946d943ee3d977452c06de8d78b5d3998f045e180daebe67dbb533db` |
 | `populacao_municipal_goias_ultimo_ano.json` | 1,5 MB | `70dd0b961e2eaa28932bd74b4763f396d32e8fa2508cd1df66491aff0d833653` |
 
+### IMB - Goiás em Dados
+
+| Arquivo | Tamanho | sha256 |
+|---|---:|---|
+| `consulta (1).csv` | 0,3 MB | `34d29a7c9e131136081913ce9af395e400a6a3d1cedf72582afbff034cc43963` |
+| `consulta (2).csv` | 0,2 MB | `22d65b3e0c9b66ad84ffc986098343fabd01bf5bb854e11d60a6f267c761e10a` |
+| `consulta (3).csv` | 0,4 MB | `39e69b432f429cc624d8bf30e64556fb7654adb40873438fdf1915a3c848ae82` |
+| `consulta.csv` | 0,6 MB | `af6261768442d2a8b53b52b481d3f0cec1a1e931a87fef60c0edf7fdcdfeaac8` |
+
 ### SGB - GeoSGB geoquímica
 
 | Arquivo | Tamanho | sha256 |
@@ -154,7 +165,6 @@ Recorte de Goiás (linhas no arquivo nacional → aqui):
 Não alimentam as abas de dados da base consolidada; ficam só na cópia de trabalho do Estudante 1, com link e sha256 na aba 07.
 
 - **SRC_ANM_AGUA_MINERAL** — ANM — AMB: produção de água mineral (disponível em dados/, ainda não usada).
-- **SRC_IMB_GOIAS_EM_DADOS** — IMB — Goiás em Dados (4 consultas: energia elétrica e produção mineral estadual) (disponível em dados/, ainda não usada).
 - **SRC_IBGE_MALHA_2024** — IBGE — Malha Municipal Digital 2024 (Goiás) (disponível em dados/, não usada (o pipeline usa a malha 2025)).
 - **SRC_SGB_GEOQUIMICA_NAZARIO** — SGB — Geoquímica do Projeto Sudeste de Goiás, Folha Nazário (resultados analíticos em planilha) (disponível em dados/, ainda não usada).
 - **SRC_SGB_SIG_GEOLOGIA** — SGB — SIG geológicos 1:250.000 (ARIM Centro-Norte da Faixa Brasília, Oeste de Goiás integrado, Folha Barro Alto) (disponível em dados/, ainda não usada).

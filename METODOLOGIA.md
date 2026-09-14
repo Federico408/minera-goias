@@ -29,7 +29,7 @@ Atualizado em 13/09/2026. Ao mudar uma regra de cálculo, atualize este arquivo 
 | Cadastro mineiro (shapefile) | Um polígono de um processo minerário | 17.428 polígonos em 16.656 processos | Data de extração não informada |
 | Rodadas de disponibilidade | Uma área oferecida em uma rodada | 31.841 no Brasil · **3.632 em Goiás** | Rodadas 1 a 8 |
 | Dicionário de substâncias | Uma substância da ANM | 862 | Sem data declarada |
-| Atlas (base consolidada do Squad 1, v16) | Retrato gerado da planilha por `scripts/build_atlas_base.py`; energia e barragens seguem do artefato recebido | 246 municípios · 16.656 processos · 3.377 projetos · 1.796 ocorrências · 23 barragens | Ver §3.2 e `data/atlas/README.md` |
+| Atlas (base consolidada do Squad 1, v17) | Retrato gerado da planilha por `scripts/build_atlas_base.py`; energia e barragens seguem do artefato recebido | 246 municípios · 16.656 processos · 3.377 projetos · 1.796 ocorrências · 23 barragens | Ver §3.2 e `data/atlas/README.md` |
 
 O acervo importado hoje soma **189.785 linhas em 14 arquivos**, cada uma rastreável até arquivo, aba, linha de origem e commit.
 

@@ -11,7 +11,7 @@ trabalho do Estudante 1. O trabalho dos Estudantes 2 e 3 foi avaliado pelo que e
 
 | Componente | Responsável | Produto esperado (guia) | Situação em 14/09 |
 |---|---|---|---|
-| S1-E1 — Bases públicas e diagnóstico mineral | Eliel Pelegrino | Base Mineral de Goiás — versão 1 | **Completa.** Planilha v16, dados brutos no GitHub, pipeline que gera a mesma planilha a partir do repositório, relatório de qualidade e atlas no site. Restam uma checagem com o IMB e duas confirmações com o grupo (seção 3.1). |
+| S1-E1 — Bases públicas e diagnóstico mineral | Eliel Pelegrino | Base Mineral de Goiás — versão 1 | **Completa.** Planilha v17, dados brutos no GitHub, pipeline que gera a mesma planilha a partir do repositório, relatório de qualidade e atlas no site. Restam duas confirmações com o grupo (seção 3.1). |
 | S1-E2 — Projetos minerais e inteligência de mercado | Lucas Maia (a divisão do squad cita também Gabriel Gonçalves em "projetos já existentes") | Radar de Projetos Minerais de Goiás — versão 1 | **Parcial.** No GitHub há três planilhas "CORRIGIDA LUCAS V1" (AMB e CFEM); o radar estruturado com evidências ainda não está no repositório. A camada ANM do radar (aba 04 do E1) já existe. |
 | S1-E3 — Dados faltantes e estimativas | Não nomeado na seção do guia (a lista do squad inclui Gabriel Gonçalves e Giovana Dodero) | Método de Tratamento e Estimação de Dados Faltantes — versão 1 | **Não encontrado no GitHub.** Os insumos estão prontos: dicionário com % de vazio, flags de estimativa na aba 12 e arquivos da CCEE. |
 
@@ -35,7 +35,7 @@ como estimativa, com método, erro e status observado/estimado.
 
 ### 2.1 Estudante 1 — Base Mineral de Goiás (Eliel)
 
-**Produto:** `prototipo_bases_consolidadas_v16.xlsx`, com 25 abas, gerado por um pipeline de 18 etapas em Python.
+**Produto:** `prototipo_bases_consolidadas_v17.xlsx`, com 25 abas, gerado por um pipeline de 18 etapas em Python.
 - **No GitHub:** `Squad 1/Bases consolidadas/` (planilha, código e documentação) e `Squad 1/Dados brutos/` (arquivos das fontes).
 - **Localmente:** a pasta de trabalho, com todas as fontes catalogadas e as camadas de mapa.
 
@@ -43,7 +43,7 @@ como estimativa, com método, erro e status observado/estimado.
 
 | Exigência do guia | Situação | Evidência |
 |---|---|---|
-| Base bruta preservada e base tratada versão 1 | ✅ | `Squad 1/Dados brutos/`: 10 pastas, uma por fonte, cerca de 50 MB, como as fontes publicam, com sha256 e data de acesso de cada arquivo. O Cadastro Mineiro vai recortado para Goiás (21.048 das 309.950 linhas), com o sha256 do arquivo nacional registrado. A base tratada é a v16. |
+| Base bruta preservada e base tratada versão 1 | ✅ | `Squad 1/Dados brutos/`: 11 pastas, uma por fonte, cerca de 50 MB, byte a byte como as fontes publicam (o `.gitattributes` da pasta impede a conversão de fim de linha pelo git), com sha256 e data de acesso de cada arquivo. O Cadastro Mineiro vai recortado para Goiás (21.048 das 309.950 linhas), com o sha256 do arquivo nacional registrado. A base tratada é a v17. |
 | Principais operações e substâncias de Goiás identificadas | ✅ | 16.656 processos do SIGMINE, 807 operações ativas, 67 minerais, produção do AMB 2010–2025 e CFEM de jan/2022 a ago/2026 |
 | Campos mínimos: mineral, titular, operação/processo, município, produção, unidade, ano, coordenadas/geometria e fonte | ✅ | Abas 01–06, 08, 09 e 12; geometria no GeoPackage e no GeoJSON (aba 13) |
 | Dicionário de dados e relatório de qualidade | ✅ | Dicionário na aba 14 (439 campos). Relatório de qualidade em `Bases consolidadas/documentacao/relatorio_qualidade.md`: faltantes, duplicidades, divergências e unidades, gerado da planilha. |
@@ -56,13 +56,13 @@ como estimativa, com método, erro e status observado/estimado.
 | ANM — AMB/RAL, Cadastro Mineiro, SIGMINE | obrigatórias | ✅ em uso e publicadas em `Dados brutos/` |
 | SGB — GeoSGB / RECMIN | obrigatória | ✅ em uso e publicada |
 | ANM — CFEM · IBGE — Malhas Municipais | complementares | ✅ em uso e publicadas |
-| IMB — Goiás em Dados | complementar | ⚠️ catalogada, ainda não usada. Análise feita (seção 3.1-e). |
+| IMB — Goiás em Dados | complementar | ✅ usada como checagem cruzada da produção do AMB (validação na 14b) e publicada |
 
 #### Contrato de Dados e governança (seção 3 do guia)
 
 - **Campos por linha em todas as abas de dados (01 a 06 e 08 a 13):** fonte, `source_url`, `data_acesso`, `periodo_referencia`,
   `tipo_fonte`, `valor_observado_estimado`, `metodo_estimacao` (quando não observado), `status_validacao` e `responsavel_validacao`, além de
-  `operation_id` e `project_id` onde há operação ou projeto. A aba 14b confere isso a cada geração: 35 validações, 32 OK e 3 alertas de dado.
+  `operation_id` e `project_id` onde há operação ou projeto. A aba 14b confere isso a cada geração: 36 validações, 33 OK e 3 alertas de dado.
 - **IDs estáveis:** `MIN_###`, `COM_CNPJ_<raiz>`, `OPE_<processo>`, `PRJ_<processo-âncora>`, `OCC_<id do SGB>`, `municipality_id` = código IBGE.
 - **Divergências registradas, não corrigidas:** 164 linhas do AMB com tonelagem repetida, 89 quantidades da CFEM fora da soma de toneladas,
   45 processos na 09c e 33 mineral-anos em que a CFEM não bate com o AMB.
@@ -104,6 +104,7 @@ como estimativa, com método, erro e status observado/estimado.
 | v14 | regra da 09c corrigida para ouro e prata |
 | v15 | camadas de mapa dos projetos (04) e das ocorrências (06); atlas com essas camadas e 7 gráficos novos |
 | v16 | campos de governança em todas as abas de dados; dados brutos no GitHub e pipeline que roda a partir deles |
+| v17 | IMB como checagem cruzada da produção do estado no AMB (aba 14b); abas de dados iguais às da v16 |
 
 ### 2.2 Estudante 2 — Projetos minerais (Lucas Maia)
 
@@ -143,9 +144,10 @@ As cópias idênticas de brutos que estavam ali (AMB, CFEM, investimento, SIGMIN
 - [x] **b.** Entrada e saída de integração declaradas no LEIA-ME de `Bases consolidadas` (14/09).
 - [x] **c.** Base bruta acessível: `Squad 1/Dados brutos/` (14/09).
 - [x] **d.** Relatório de qualidade num documento único (14/09).
-- [ ] **e. IMB — Goiás em Dados:** usar como checagem cruzada. A produção mineral do IMB vai só até 2016 e, em 2010–2016, bate com o AMB em
-  amianto, fosfato e prata (razão 1,00); difere em cobre, níquel e nióbio, onde o IMB parece publicar metal contido, e no ouro de 2010–2012.
-  Falta incluir a validação na 14b e publicar os quatro CSVs em `Dados brutos/`.
+- [x] **e.** IMB — Goiás em Dados como checagem cruzada (v17, 14/09). A 14b compara a produção do estado com a produção beneficiada do
+  AMB em 14 minerais, 2010–2016; o IMB não traz produção mineral depois de 2016. Iguais em todos os anos só amianto e saibro; fosfato,
+  manganês, ouro e prata são iguais em parte dos anos; cobre, nióbio e níquel ficam sempre abaixo (o IMB parece publicar metal contido).
+  A divergência fica registrada e a base segue o AMB. Os quatro CSVs estão em `Dados brutos/IMB - Goiás em Dados/`.
 - [x] **f.** Nota ao Squad 2 sobre as operações sem coordenadas (14/09). Enviar ao Squad 2 fica com o Eliel.
 - [ ] **g. Basaltos:** nota de decisão publicada (`nota_decisao_basaltos.md`); falta a decisão do grupo.
 - [x] **h.** LGPD dos brutos: publicar como a ANM divulga (decisão do Eliel, 13/09).
@@ -194,7 +196,7 @@ consulta da base pelo Squad 3 via banco e API.
 
 - **AMB/RAL é declaratório;** as divergências estão registradas (09c, 14b, relatório de qualidade), não corrigidas.
 - **A ANM republica os arquivos com frequência:** reproduzir uma versão exige os arquivos com o sha256 da aba 07 (os publicados em
-  `Dados brutos/` são os usados na v16).
+  `Dados brutos/` são os usados na v17).
 - **CFEM:** a quantidade comercializada não serve como proxy de produção; o `CPF_CNPJ` veio em notação científica; 2026 é parcial.
 - **Produção sem coordenadas:** 457 linhas da aba 12 (112 processos, sobretudo ouro em Crixás) não têm localização — ver a nota ao Squad 2.
 - **RECMIN** é evidência geológica, não projeto nem mina. **Processo não é mina em operação.**
@@ -208,7 +210,7 @@ consulta da base pelo Squad 3 via banco e API.
 
 | O quê | Local |
 |---|---|
-| Planilha entregável | `Squad 1/Bases consolidadas/documentacao/prototipo_bases_consolidadas_v16.xlsx` (comece pela aba `00_LEIA-ME`) |
+| Planilha entregável | `Squad 1/Bases consolidadas/documentacao/prototipo_bases_consolidadas_v17.xlsx` (comece pela aba `00_LEIA-ME`) |
 | Dados brutos, por fonte | `Squad 1/Dados brutos/` (catálogo no `LEIA-ME.md` de lá) |
 | Código do pipeline | `Squad 1/Bases consolidadas/base_consolidada_work/scripts/` |
 | Relatório de qualidade | `Squad 1/Bases consolidadas/documentacao/relatorio_qualidade.md` |

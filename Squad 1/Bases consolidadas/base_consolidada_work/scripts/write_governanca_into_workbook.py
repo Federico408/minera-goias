@@ -24,8 +24,8 @@ warnings.filterwarnings("ignore")
 sys.stdout.reconfigure(encoding="utf-8")
 from caminhos import ARRANJO, BASE, arquivo, arquivos_brutos, data_acesso  # caminhos relativos ao projeto — ver caminhos.py
 SRC = f"{BASE}/documentacao/prototipo_bases_consolidadas_v5d_fato.xlsx"  # v5 + 06/06b + 04/04b + 12 + 08 (write_ocorrencias_06 → write_projetos_04 → write_interface_12 → write_fato_08)
-OUT = f"{BASE}/documentacao/prototipo_bases_consolidadas_v16.xlsx"
-VERSAO = "v16"
+OUT = f"{BASE}/documentacao/prototipo_bases_consolidadas_v17.xlsx"
+VERSAO = "v17"
 NAVY, TEAL, LBLUE, WHITE, AMBER = "17365D", "1F6D7A", "DCE6F1", "FFFFFF", "C65911"
 HDR = 4
 
@@ -522,7 +522,9 @@ FONTES = [
          formato_declarado="não declarado (exportação do portal)", formato_local="CSV separado por ponto e vírgula, com aspas, milhar '.'; Windows-1252",
          frequencia_atualizacao="anual",
          periodo=periodo_imb, confiabilidade="média (secundária para produção)",
-         limitacoes="Útil só como checagem cruzada do AMB; reprodutibilidade limitada (consulta não registrada).", status_padrao="disponível em dados/, ainda não usada"),
+         limitacoes="A produção mineral (estado e municípios) só tem valor até 2016; a energia elétrica por setor vai até 2025. Usada só como checagem "
+                    "cruzada do AMB (14b); reprodutibilidade limitada (parâmetros da consulta não registrados).",
+         status_padrao="usada só como validação cruzada (14b: produção do estado × AMB)"),
     dict(source_id="SRC_ANM_PANORAMA_DERIVADO", nome_fonte="Panorama da Mineração em Goiás (análise derivada de dados ANM, extração de 04/08/2026)", orgao="interno (base ANM)", tipo_fonte="derivada",
          url_catalogo="—", url_recurso="—", metadados_oficiais="", padroes=["dados/ANM_derivados_analises/Panorama_Mineracao_Goias_ANM.xlsx"],
          granularidade=f"várias ({len(openpyxl.load_workbook(arquivo('dados/ANM_derivados_analises/Panorama_Mineracao_Goias_ANM.xlsx'), read_only=True).sheetnames)} abas)", formato_declarado="XLSX", frequencia_atualizacao="—", periodo=lambda: "2007–2026 conforme a aba",
@@ -1302,6 +1304,48 @@ for _r in _ru_cfem:
 _tot_ru = sum(_rs_regra.values()) or 1.0
 V("Rochas na CFEM: de onde veio a categoria (% do R$ de CFEM de rochas)", len(_ru_cfem),
   "; ".join(f"{k}: {100 * v / _tot_ru:.1f}%" for k, v in _rs_regra.most_common()), True)
+
+# v17: IMB (Goiás em Dados) como checagem cruzada da produção do estado no AMB, nos anos em que as duas fontes têm valor
+import unicodedata as _ud
+
+
+def _chave_mineral(t):
+    return _ud.normalize("NFD", str(t)).encode("ascii", "ignore").decode().upper().strip()
+
+
+_imb = {}
+for _p in sorted(glob.glob(arquivo("dados/IMB/consulta*.csv"))):
+    _di = pd.read_csv(_p, sep=";", encoding="cp1252", encoding_errors="replace", dtype=str, keep_default_na=False)
+    _anos_imb = [c for c in _di.columns if re.fullmatch(r"\d{4}", str(c).strip())]
+    for _, _r in _di[_di["Localidade"].str.upper().str.contains("ESTADO DE GOI")].iterrows():
+        _m = re.match(r"Produção de (.+?) \((.*)\)\s*$", str(_r["Variável"]))
+        if not _m:
+            continue
+        for _a in _anos_imb:
+            _txt = str(_r[_a]).strip()
+            if re.fullmatch(r"-?[\d.]+(,\d+)?", _txt) and float(_txt.replace(".", "").replace(",", ".")) > 0:
+                _imb[(_chave_mineral(_m.group(1)), int(_a))] = (float(_txt.replace(".", "").replace(",", ".")), _m.group(2))
+_amb_go = {(_chave_mineral(r["mineral_name"]), int(r["year"])): r for r in DADOS["09_cons_mineral_ano"][1] if r.get("uf") == "GO" and r.get("year")}
+_razoes = defaultdict(list)
+for (_nome, _ano), (_v, _un) in sorted(_imb.items()):
+    _r = _amb_go.get((_nome, _ano))
+    if _r and _r.get("production_beneficiada"):
+        _razoes[(_r["mineral_name"], _un, _r.get("production_beneficiada_unit") or "")].append((_ano, _v / _r["production_beneficiada"]))
+_iguais = sorted(k[0] for k, l in _razoes.items() if all(0.99 <= x <= 1.01 for _, x in l))
+_difer = [k for k in sorted(_razoes) if not all(0.99 <= x <= 1.01 for _, x in _razoes[k])]
+if _razoes:
+    _anos_cmp = sorted({a for l in _razoes.values() for a, _ in l})
+    _res_imb = (f"{len(_razoes)} minerais comparados em {_anos_cmp[0]}–{_anos_cmp[-1]}; o IMB não traz produção mineral depois de "
+                f"{max(a for _, a in _imb)}. Iguais à produção beneficiada do AMB em todos os anos (razão 0,99–1,01): {', '.join(_iguais) or 'nenhum'}. "
+                "Diferentes em algum ano (razão IMB ÷ AMB): "
+                + "; ".join(f"{m} (IMB em {u or 'unidade não informada'}, AMB em {ua}): " + ", ".join(f"{a} {x:.2f}×" for a, x in _razoes[(m, u, ua)])
+                            for m, u, ua in _difer)
+                + ". O IMB republica parte do AMB; onde difere, pode informar outra base (por exemplo, metal contido). A divergência fica registrada e a "
+                  "base segue o AMB.")
+else:
+    _res_imb = "sem anos em comum entre o IMB e o AMB nos arquivos desta cópia"
+V("IMB (Goiás em Dados) × AMB: produção do estado por mineral nos anos em que as duas fontes têm valor (checagem cruzada, informativa)",
+  sum(len(l) for l in _razoes.values()), _res_imb, True)
 # --- aba 08 (fato longo): cobertura das fontes, conciliação com 09–11 e governança por linha ---
 _F = DADOS["08_fato_producao_energia"][1]
 _PT = {"t": 1.0, "kg": 1e-3, "g": 1e-6, "ct": 2e-7}
@@ -1853,6 +1897,12 @@ HIST.append(("ATUALIZAÇÃO v16 — campos de governança em todas as abas de da
     "Squad 1/Dados brutos/, uma pasta por fonte (Cadastro Mineiro recortado para Goiás com a mesma regra de município do pipeline), e o pipeline acha "
     "os arquivos tanto nesse arranjo quanto na cópia de trabalho (caminhos.py), sem mudar o caminho citado nas abas. Os valores das abas de dados são "
     "os mesmos da v15.")))
+
+HIST.append(("ATUALIZAÇÃO v17 — IMB (Goiás em Dados) como checagem cruzada do AMB", (
+    "A 14b ganhou a comparação da produção do estado publicada pelo IMB com a produção beneficiada do AMB (aba 09), mineral a mineral, nos anos em "
+    "que as duas fontes têm valor. O IMB só traz produção mineral até 2016; em parte dos minerais repete o AMB e, em outros, informa outra base. "
+    "A divergência fica registrada e a base continua usando o AMB. Na 07, a fonte passa a constar como usada só em validação cruzada, e as quatro "
+    "consultas foram publicadas em Squad 1/Dados brutos/IMB - Goiás em Dados/. Os valores das abas de dados são os mesmos da v16.")))
 
 ABA_DESC = {
     "01_dim_minerais": "dimensão de minerais: as categorias oficiais da ANM mais subitens justificados na 01b",

@@ -1,10 +1,10 @@
-# Relatório de qualidade — Base Mineral de Goiás (v16)
+# Relatório de qualidade — Base Mineral de Goiás (v17)
 
-Gerado por `gerar_relatorio_qualidade.py` a partir de `prototipo_bases_consolidadas_v16.xlsx`. Todos os números saem da planilha; o detalhe de cada item está na aba citada. Regra do projeto: **divergências são registradas, não corrigidas** — nada aqui foi apagado ou ajustado na fonte.
+Gerado por `gerar_relatorio_qualidade.py` a partir de `prototipo_bases_consolidadas_v17.xlsx`. Todos os números saem da planilha; o detalhe de cada item está na aba citada. Regra do projeto: **divergências são registradas, não corrigidas** — nada aqui foi apagado ou ajustado na fonte.
 
 ## 1. Resumo
 
-- **Validações automáticas (aba 14b):** 35 checagens — 32 OK e 3 ALERTA. Os alertas são de dado, sinalizados de propósito; a lista completa está na seção 7.
+- **Validações automáticas (aba 14b):** 36 checagens — 33 OK e 3 ALERTA. Os alertas são de dado, sinalizados de propósito; a lista completa está na seção 7.
 - **Fato longo (aba 08):** 153.855 linhas, uma por célula numérica da fonte; status: valido 152.904; alerta_processo_09c 698; alerta_producao_repetida 164; quantidade_excluida_da_soma_09b 89.
 - **Quantidades da CFEM fora da soma de toneladas (aba 09b):** 89 linhas (o R$ continua somado).
 - **Processos com quantidade implausível na CFEM (aba 09c):** 45 processo-anos, mantidos na soma e sinalizados.
@@ -187,7 +187,7 @@ Quantidades da CFEM excluídas da soma de toneladas (aba 09b): 89 linhas — qua
 | OK | Colunas sem descrição no dicionário | 0 | nenhuma |
 | OK | Valores em source_ids que não são ID de fonte (texto livre) | 0 | nenhum |
 | OK | Fontes citadas em source_ids sem registro no catálogo 07 | 0 | nenhuma |
-| OK | Fontes catalogadas que nenhuma aba real cita | 10 | SRC_ANM_AGUA_MINERAL (disponível em dados/, ainda não usada); SRC_ANM_INVEST_PESQUISA (disponível em dados/, ainda não usada); SRC_IMB_GOIAS_EM_DADOS (disponível em dados/, ainda não usada); SRC_ANM_PANORAMA_DERIVADO (usada só como validação cruzada); SRC_ANM… |
+| OK | Fontes catalogadas que nenhuma aba real cita | 10 | SRC_ANM_AGUA_MINERAL (disponível em dados/, ainda não usada); SRC_ANM_INVEST_PESQUISA (disponível em dados/, ainda não usada); SRC_IMB_GOIAS_EM_DADOS (usada só como validação cruzada (14b: produção do estado × AMB)); SRC_ANM_PANORAMA_DERIVADO (usada só como v… |
 | OK | Arquivos de dados/ sem source_id no catálogo 07 (fora a documentação: LEIA-ME, metadados .ods, dicionário do SCM, metadados do download do RECMIN) | 0 | nenhum (46 arquivos catalogados, 8 de documentação) |
 | OK | IDs fora do padrão | 0 | nenhum |
 | OK | LGPD: CPF completo em campo de texto (11 dígitos com dígito verificador válido) | 0 | nenhum. Titulares da 02 com CPF dentro do nome, mascarado na exibição (***456789**): 17; o company_id não muda. |
@@ -197,6 +197,7 @@ Quantidades da CFEM excluídas da soma de toneladas (aba 09b): 89 linhas — qua
 | ALERTA | Plausibilidade: CFEM comercializada (t) ÷ produção do AMB na base mais próxima (bruta ou beneficiada), por mineral e ano em GO, fora de 0,05–2× | 33 | Diamante 2024: 0.00× (bruta); Amianto 2024: 0.00× (bruta); Gemas 2024: 0.00× (bruta); Amianto 2025: 0.00× (beneficiada); Amianto 2022: 0.00× (beneficiada); Amianto 2023: 0.00× (beneficiada); Gemas 2023: 0.00× (bruta); Monazita e Terras-Raras 2024: 0.00× (bene… |
 | ALERTA | Processos com quantidade na CFEM implausível frente ao AMB do estado (acima do total ou, em metais, R$/t incompatível; mantidos na soma, sinalizados … | 45 | severidade alta: 27; moderada: 18. Alta: Prata 2025 proc. 960658/1987: 1,488.4×; Titânio 2025 proc. 861559/2021: 410.7×; Rochas Ornamentais - Outras 2024 proc. 860633/2014: 305.1×; Rochas Ornamentais - Outras 2025 proc. 860633/2014: 54.4×; Titânio 2024 proc. … |
 | OK | Rochas na CFEM: de onde veio a categoria (% do R$ de CFEM de rochas) | 41 | uso_declarado: 75.7%; uso_majoritario_da_rocha_em_GO: 23.1%; rocha_fixa: 1.2% |
+| OK | IMB (Goiás em Dados) × AMB: produção do estado por mineral nos anos em que as duas fontes têm valor (checagem cruzada, informativa) | 75 | 14 minerais comparados em 2010–2016; o IMB não traz produção mineral depois de 2016. Iguais à produção beneficiada do AMB em todos os anos (razão 0,99–1,01): Amianto, Saibro. Diferentes em algum ano (razão IMB ÷ AMB): Areia (IMB em m³, AMB em t): 2010 3.59×, … |
 | OK | 08: cada célula numérica das fontes (AMB bruta, AMB beneficiada, CFEM) vira exatamente uma linha — contado de novo nos arquivos | 153855 | SRC_ANM_CFEM: 77,701 linhas × 77,701 células; SRC_ANM_PROD_BENEF: 29,679 linhas × 29,679 células; SRC_ANM_PROD_BRUTA: 46,475 linhas × 46,475 células. Fora: 6,206 células de contido com unidade '-' (não se aplica). Divergências: nenhuma |
 | OK | 08 → 09/10/11: as abas consolidadas são somas de valor_tratado da 08 (produção bruta/beneficiada, venda e CFEM por mineral×UF×ano; CFEM por município… | 0 | 09: 0 divergências em 6,680 comparações; 10: 0 em 956; 11: 0 em 2,059 |
 | OK | 08: campos de governança por linha — source_url, data_acesso e tipo_fonte iguais à 07; não observado sem método; mesma célula da fonte em duas linhas | 0 | divergentes da 07: 0; não observado sem metodo_estimacao: 0; células repetidas: 0. valor_observado_estimado: {'observado': 153855}; status_validacao: {'valido': 152904, 'alerta_producao_repetida': 164, 'alerta_processo_09c': 698, 'quantidade_excluida_da_soma_… |
