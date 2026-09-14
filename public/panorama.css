@@ -16,16 +16,16 @@
 .pn-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
 .pn-card.wide{grid-column:1/-1}
 .pn-card h3{margin:0 0 4px}
-.pn-card svg{width:100%;height:auto;display:block}
+.pn-card svg{display:block;max-width:100%;height:auto}
 .pn-chips{display:flex;flex-wrap:wrap;gap:4px;align-items:center;margin:-12px 0 12px;font-size:10px;color:var(--muted)}
-.pn-legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:11px;color:#4a6070;margin-top:8px}
+.pn-legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:#4a6070;margin-top:8px}
 .pn-legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
 .pn-table{width:100%;border-collapse:collapse;font-size:12px}
 .pn-table th,.pn-table td{padding:6px 8px;border-bottom:1px solid #edf1f4;text-align:left;vertical-align:top}
 .pn-table th{font-size:11px;color:var(--muted);font-weight:600}
 .pn-table .num{text-align:right;white-space:nowrap}
 .pn-map-tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:8px;font-size:12px}
-.pn-map-box svg{max-width:640px;margin:0 auto}
+.pn-map-box svg{width:100%;max-width:640px;margin:0 auto}
 .pn-tip{position:fixed;z-index:60;pointer-events:none;background:#07345c;color:#fff;font-size:12px;line-height:1.45;padding:7px 10px;border-radius:4px;box-shadow:0 6px 18px rgba(7,52,92,.25);max-width:300px;white-space:pre-line}
 .pn-tip::first-line{font-weight:700}
 #pn-body .pn-mark{transition:opacity .12s}

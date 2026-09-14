@@ -47,7 +47,7 @@ const X={F,C,E,t:(k,v)=>t(k,v),norm,cache:{},mapMetric:'cfem',
  pickMun(code){const i=P.dims.mun.findIndex(m=>m[0]===code);el('pn-mun').value=String(i);render()},
  renderCard(id){const d=cards.find(c=>c.id===id);if(d)draw(d)}
 };
-function draw(d){const box=el('pn-c-'+d.id).querySelector('.pn-out');
+function draw(d){const box=el('pn-c-'+d.id).querySelector('.pn-out');C.setWidth(box.clientWidth);
  try{const out=d.render(X,box);if(typeof out==='string')box.innerHTML=out}
  catch(e){box.innerHTML=`<p class="error">${E(e.message)}</p>`;console.error(e)}}
 function readFilters(){let a=+el('pn-y0').value,b=+el('pn-y1').value;if(a>b)[a,b]=[b,a];
@@ -87,6 +87,9 @@ function build(){cards=window.PN_CARDS||[];
   n=TABS[(i+(e.key==='ArrowRight'?1:-1)+TABS.length)%TABS.length][0];showTab(n);el('pn-tabs').querySelector(`[data-tab="${n}"]`).focus()}}
 function bind(){for(const id of ['pn-y0','pn-y1','pn-mes','pn-mun','pn-min','pn-fase','pn-rub','pn-ramo'])el(id).onchange=render;
  let timer;el('pn-emp').oninput=()=>{clearTimeout(timer);timer=setTimeout(render,350)};
+ // Charts follow the card width at a fixed font size, so they are redrawn when the window changes size.
+ let resize,lastWidth=innerWidth;addEventListener('resize',()=>{clearTimeout(resize);resize=setTimeout(()=>{
+  if(innerWidth===lastWidth||el('panorama-view').hidden)return;lastWidth=innerWidth;visible().forEach(draw)},250)});
  el('pn-reset').onclick=()=>{el('pn-y0').value=2010;el('pn-y1').value=2026;for(const id of ['pn-mes'])el(id).value=0;
   for(const id of ['pn-mun','pn-min','pn-fase','pn-rub','pn-ramo'])el(id).value=-1;el('pn-emp').value='';render()}}
 async function init(){const [p,a]=await Promise.all([api('/panorama'),api('/atlas').catch(()=>null)]);P=p;X.A=a;
