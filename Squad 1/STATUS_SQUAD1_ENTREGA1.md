@@ -73,7 +73,8 @@ como estimativa, com método, erro e status observado/estimado.
 
 - **Entrada e saída declaradas** no `LEIA-ME.md` de `Squad 1/Bases consolidadas/`.
 - **Squad 2:** aba 12 (produção por mineral e ano, observada no estado e estimada por operação) e a nota
-  `nota_squad2_operacoes_sem_coordenadas.md`, com a lista dos 112 processos sem poligonal.
+  `nota_squad2_operacoes_sem_coordenadas.md`, com a lista dos 112 processos sem poligonal. O pacote `pacote_squad2/` traz a aba em CSV no
+  formato dos exemplos do Squad 2, o dicionário dos campos e a correspondência com o `production_history` do motor.
 - **Squad 3:** a planilha e os brutos em CSV/XLSX entram no banco do site pelo importador; o atlas é gerado da planilha.
 - **Squad 1:** `Squad 1/QUADRO_ENTRADAS_SAIDAS.md` com as chaves compartilhadas e as entradas e saídas do E1, E2 e E3.
 
@@ -86,6 +87,8 @@ como estimativa, com método, erro e status observado/estimado.
 | `66b4f69`, `3bb85da` | v15, camadas de projetos e ocorrências, atlas com novos gráficos, METODOLOGIA |
 | `99048e8` | `Dados brutos` por fonte, `Bases consolidadas`, v16 com governança em todas as abas, `load_anm.py` do Squad 3 com o caminho novo |
 | `b6e3e3b` | relatório de qualidade, nota ao Squad 2, nota de decisão sobre os basaltos, quadro de entradas e saídas |
+| `fead9d0` | este documento de situação |
+| `56df030` | v17 (IMB como checagem cruzada na 14b) e dados brutos guardados byte a byte |
 
 #### Versões da planilha
 
@@ -134,6 +137,8 @@ As cópias idênticas de brutos que estavam ali (AMB, CFEM, investimento, SIGMIN
 | planilhas "CORRIGIDA LUCAS V1" | do Estudante 2 |
 | `Base_Mineracao_Goias_Producao_Energia_2023_2026.xlsx`, `Panorama Mineracao Goias.html`, `GO.kmz`, `SQUAD1_PLANEJAMENTO.md` | versões exploratórias e planejamento |
 
+O que é cada um, quem usa e o que propomos está em `Squad 1/PROPOSTA_ORGANIZACAO_DADOS.md` (nada foi movido).
+
 ---
 
 ## 3. O que falta para a Entrega 1 (até 21/09)
@@ -151,7 +156,9 @@ As cópias idênticas de brutos que estavam ali (AMB, CFEM, investimento, SIGMIN
 - [x] **f.** Nota ao Squad 2 sobre as operações sem coordenadas (14/09). Enviar ao Squad 2 fica com o Eliel.
 - [ ] **g. Basaltos:** nota de decisão publicada (`nota_decisao_basaltos.md`); falta a decisão do grupo.
 - [x] **h.** LGPD dos brutos: publicar como a ANM divulga (decisão do Eliel, 13/09).
-- [ ] **i. Confirmar com o Squad 2** que a aba 12 atende a intensidade e o motor. Falta preparar o pacote da aba 12 e o rascunho de mensagem.
+- [ ] **i. Confirmar com o Squad 2** que a aba 12 atende a intensidade e o motor. O pacote está em `Bases consolidadas/documentacao/pacote_squad2/`
+  (14/09): aba 12 em CSV no formato do motor, dicionário, correspondência com o `production_history` e cinco pontos a confirmar. Falta o
+  Eliel enviar o rascunho de mensagem e o Squad 2 responder.
 - [x] **j.** Campos de governança em todas as abas de dados (v16, 14/09).
 
 ### 3.2 Estudante 2 — Radar de Projetos v1 (exigências do guia)
@@ -178,7 +185,8 @@ As cópias idênticas de brutos que estavam ali (AMB, CFEM, investimento, SIGMIN
 
 - [x] Quadro de entradas e saídas (`Squad 1/QUADRO_ENTRADAS_SAIDAS.md`, 14/09).
 - [ ] Mesmas chaves em todas as entregas (depende do E2 e do E3 usarem as chaves da base do E1).
-- [ ] Organizar o que sobrou em `Squad 1/dados/` com o Lucas, sem mover os arquivos que o código do Squad 3 lê (seção 2.4).
+- [ ] Organizar o que sobrou em `Squad 1/dados/`. Proposta publicada em `Squad 1/PROPOSTA_ORGANIZACAO_DADOS.md` (14/09), sem mover nada;
+  faltam a decisão do Lucas sobre as planilhas "LUCAS V1", a confirmação do Squad 3 sobre a base exploratória e a origem do `GO.kmz`.
 - [ ] Insumos para o E2 (modelo do radar a partir da aba 04) e o E3 (matriz de completude): script pronto na cópia local, aguardando o ok do
   Eliel para gerar e publicar.
 
@@ -215,8 +223,10 @@ consulta da base pelo Squad 3 via banco e API.
 | Código do pipeline | `Squad 1/Bases consolidadas/base_consolidada_work/scripts/` |
 | Relatório de qualidade | `Squad 1/Bases consolidadas/documentacao/relatorio_qualidade.md` |
 | Nota ao Squad 2 e lista de processos sem coordenadas | `Squad 1/Bases consolidadas/documentacao/nota_squad2_operacoes_sem_coordenadas.md` e `operacoes_sem_coordenadas.csv` |
+| Pacote da aba 12 para o Squad 2 | `Squad 1/Bases consolidadas/documentacao/pacote_squad2/` |
 | Nota de decisão sobre os basaltos | `Squad 1/Bases consolidadas/documentacao/nota_decisao_basaltos.md` |
 | Quadro de entradas e saídas | `Squad 1/QUADRO_ENTRADAS_SAIDAS.md` |
+| Proposta de organização de `Squad 1/dados/` | `Squad 1/PROPOSTA_ORGANIZACAO_DADOS.md` |
 | Entrega ao Squad 2 | aba `12_interface_squad1_squad2` |
 | Atlas do site | `data/atlas/` (README com as limitações) |
 | Guias | `Squads (1).docx`, `📄 MINERA Goiás — Contrato de Dados.txt` e `SQUAD1_PLANEJAMENTO.md` |

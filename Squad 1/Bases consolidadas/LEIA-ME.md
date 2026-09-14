@@ -11,6 +11,7 @@ produção mineral e CFEM de Goiás, com ID estável, fonte e unidade em cada n�
 | Dicionário de dados e validações automáticas | abas `14_dicionario_dados` e `14b_validacoes_governanca` |
 | Relatório de qualidade (faltantes, duplicidades, divergências e unidades) | `documentacao/relatorio_qualidade.md` |
 | Nota ao Squad 2 sobre a produção estimada sem coordenadas | `documentacao/nota_squad2_operacoes_sem_coordenadas.md` e `operacoes_sem_coordenadas.csv` |
+| Pacote da aba 12 para o Squad 2 (CSV, dicionário, correspondência com o contrato do motor e rascunho de mensagem) | `documentacao/pacote_squad2/` |
 | Decisão pendente do grupo (basaltos declarados como revestimento) | `documentacao/nota_decisao_basaltos.md` |
 | Quadro de entradas e saídas do Squad 1 | [`../QUADRO_ENTRADAS_SAIDAS.md`](../QUADRO_ENTRADAS_SAIDAS.md) |
 | Código que gera a planilha e os mapas | `base_consolidada_work/scripts/` (instruções no `LEIA-ME.md` de lá) |

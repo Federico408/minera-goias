@@ -54,7 +54,8 @@ aba `14_dicionario_dados`.
 ## O que ainda precisa ser combinado
 
 1. **Squad 2 × aba 12:** confirmar que o formato atende a intensidade e o motor — base física (`production_basis`), unidades e o
-   tratamento da parte sem coordenadas (ver `nota_squad2_operacoes_sem_coordenadas.md`).
+   tratamento da parte sem coordenadas (ver `nota_squad2_operacoes_sem_coordenadas.md`). O pacote `Bases consolidadas/documentacao/pacote_squad2/` traz a aba em CSV,
+   o dicionário, a correspondência com o `production_history` do motor e os cinco pontos a confirmar.
 2. **S1-E2 × aba 04:** usar `project_id` da 04 como chave do radar, para não criar outro identificador para o mesmo projeto.
 3. **S1-E3:** escolher a variável material a estimar (produção sem coordenadas, capacidade dos projetos ou intensidade por operação) e
    registrar o método com erro.

@@ -76,12 +76,14 @@ ALERTA indica problema.
 A ANM republica os arquivos com frequência, e um `dados/` diferente gera números diferentes. Para reproduzir exatamente
 uma planilha, os arquivos precisam ter o sha256 registrado na aba 07 dela.
 
-Dois scripts resumem a planilha em documentos, sem digitar número (rode depois de gerar uma versão nova):
+Três scripts resumem a planilha em documentos, sem digitar número (rode depois de gerar uma versão nova):
 
 - `gerar_relatorio_qualidade.py` grava `documentacao/relatorio_qualidade.md`: faltantes, duplicidades, divergências entre fontes e
   unidades, a partir das abas 14b, 14, 08, 09b, 09c, 13b e dos crosswalks;
 - `gerar_nota_sem_coordenadas.py` grava `documentacao/nota_squad2_operacoes_sem_coordenadas.md` e `operacoes_sem_coordenadas.csv`:
-  a produção estimada por operação que não tem coordenadas na aba 12.
+  a produção estimada por operação que não tem coordenadas na aba 12;
+- `gerar_pacote_squad2.py` grava `documentacao/pacote_squad2/`: a aba 12 em CSV no formato dos exemplos do Squad 2, o dicionário dos
+  campos com a correspondência para o contrato do motor, um LEIA-ME e o rascunho da mensagem pedindo a confirmação do formato.
 
 ## Cuidados ao mexer nos scripts
 
