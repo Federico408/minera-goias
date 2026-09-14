@@ -6,14 +6,6 @@ const lastYear=rows=>rows.reduce((m,r)=>Math.max(m,r[0]),0);
 // A caption line above a table; returns the element the table goes into.
 const tableIn=(X,box,caption)=>{box.innerHTML=`<p class="small muted">${X.E(caption)}</p><div></div>`;return box.lastElementChild};
 cards.push(
-{id:'tiles',sec:'resumo',wide:true,filters:['ano','mes','mun','min','emp'],render(X){const C=X.C,amb=X.amb(),last=lastYear(amb),pr=X.proc(),muns=new Set(pr.map(r=>r[2]).filter(i=>i>=0)).size;
- return '<div class="metrics pn-tiles">'+C.tiles([
-  ['tone-a',X.t('pn.k.cfem'),'R$ '+C.short(sum(X.cfem(),5)),X.t('pn.k.cfemSub',{p:X.period(2022,2026)})],
-  ['tone-b',X.t('pn.k.benef'),last?'R$ '+C.short(sum(amb.filter(r=>r[0]===last),5)):'—',X.t('pn.k.benefSub',{y:last||'—'})],
-  ['tone-c',X.t('pn.k.proc'),C.fmt(pr.length),X.t('pn.k.procSub',{ha:C.short(sum(pr,4)),m:C.fmt(muns)})],
-  ['tone-d',X.t('pn.k.inv'),'R$ '+C.short(sum(X.inv(),3)),X.t('pn.k.invSub',{p:X.period(2001,2025)})],
-  ['tone-a',X.t('pn.k.ee'),C.fmt(sum(X.ccee(),6)/1000,1)+' GWh',X.t('pn.k.eeSub',{p:X.period(2024,2026)})]])+'</div>'}},
-
 {id:'cfem_ano',sec:'cfem',filters:['ano','mes','mun','min','emp'],render(X){const C=X.C,years=X.years(2022,2026),by=X.sumBy(X.cfem(),r=>r[0],r=>r[5]);
  return C.vbar(years.map(String),[{name:'CFEM',values:years.map(y=>by.get(y)||0)}],{fmt:v=>C.money(v),partial:new Set(['2026']),aria:X.t('pn.c.cfem_ano')})}},
 {id:'cfem_janjul',sec:'cfem',filters:['ano','mun','min','emp'],render(X){const C=X.C,years=X.years(2022,2026),by=X.sumBy(X.cfem(['mes']).filter(r=>r[1]<=7),r=>r[0],r=>r[5]);

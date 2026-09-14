@@ -26,7 +26,13 @@
 .pn-table .num{text-align:right;white-space:nowrap}
 .pn-map-tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:8px;font-size:12px}
 .pn-map-box svg{max-width:640px;margin:0 auto}
-.pn-map path:hover{opacity:.78}
+.pn-tip{position:fixed;z-index:60;pointer-events:none;background:#07345c;color:#fff;font-size:12px;line-height:1.45;padding:7px 10px;border-radius:4px;box-shadow:0 6px 18px rgba(7,52,92,.25);max-width:300px;white-space:pre-line}
+.pn-tip::first-line{font-weight:700}
+#pn-body .pn-mark{transition:opacity .12s}
+#pn-body rect.pn-mark[data-tip]:hover,#pn-body path.pn-mark:hover,#pn-body .pn-row:hover .pn-mark,#pn-body .pn-col:hover .pn-mark{opacity:.72}
+#pn-body .pn-row:hover>rect:first-child{fill:#f1f6f9}
+#pn-body .pn-guide{stroke:#8fa6b6;stroke-dasharray:3 3;opacity:0}
+#pn-body .pn-col:hover .pn-guide{opacity:1}
 .pn-tiles{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
 .pn-nr{margin:0;padding-left:18px}
 .pn-nr li{margin:0 0 10px;font-size:13px;line-height:1.5}

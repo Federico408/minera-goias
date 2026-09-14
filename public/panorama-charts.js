@@ -1,4 +1,4 @@
-/* Panorama: small SVG charts, tables and a municipality map shared by the Panorama cards. */
+/* Panorama: small SVG charts, tables and a municipality map shared by the Panorama cards, with a hover tooltip. */
 (()=>{'use strict';
 const PALETTE=['#0f6fb0','#c2681b','#0d9488','#b03a55','#8250c4','#d7a43a','#57768b','#5aa9d6'],OTHER='#c3ccd3',RAMP=['#d7e9f6','#a8cde9','#6fa9d4','#3684b9','#07588b'];
 const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -11,48 +11,59 @@ const niceStep=v=>{if(!(v>0))return 1;const p=Math.pow(10,Math.floor(Math.log10(
 const niceTop=v=>niceStep(Math.max(v,1e-9)/4)*4;
 const empty=()=>`<p class="empty">${E(t('pn.empty'))}</p>`;
 const color=(s,j)=>s.color||PALETTE[j%PALETTE.length];
+// Tooltip text for data-tip: one line per part, the first one in bold.
+const tip=(...parts)=>parts.filter(p=>p!=null&&p!=='').map(E).join('&#10;');
 function legend(series){return `<div class="pn-legend">${series.map((s,j)=>`<span><i style="background:${color(s,j)}"></i>${E(s.name)}</span>`).join('')}</div>`}
 
-// Horizontal bars: rows [{label,value,color}].
+// Horizontal bars: rows [{label,value,color}]; the whole row answers the hover.
 function hbar(rows,o={}){
  rows=rows.filter(r=>r.value>0);if(!rows.length)return empty();
  const f=o.fmt||(v=>fmt(v,1)),rowH=24,left=o.left||230,W=860,w=W-left-120,h=rows.length*rowH+8,max=niceTop(Math.max(...rows.map(r=>r.value)));
  let s=`<svg viewBox="0 0 ${W} ${h}" role="img" aria-label="${E(o.aria||'')}">`;
- rows.forEach((r,i)=>{const y=4+i*rowH,bw=r.value/max*w;
-  s+=`<text x="${left-8}" y="${y+15}" text-anchor="end" font-size="11" fill="#34495a">${E(clip(r.label,36))}<title>${E(r.label)}</title></text>`
-   +`<rect x="${left}" y="${y+4}" width="${bw}" height="${rowH-9}" rx="3" fill="${r.color||o.color||PALETTE[0]}"><title>${E(r.label)}: ${E(f(r.value))}</title></rect>`
-   +`<text x="${left+bw+6}" y="${y+15}" font-size="10.5" fill="#4a6070" font-weight="600">${E(f(r.value))}</text>`});
+ rows.forEach((r,i)=>{const y=4+i*rowH,bw=r.value/max*w,v=f(r.value);
+  s+=`<g class="pn-row" data-tip="${tip(r.label,v)}"><rect x="0" y="${y}" width="${W}" height="${rowH}" fill="transparent"/>`
+   +`<text x="${left-8}" y="${y+15}" text-anchor="end" font-size="11" fill="#34495a">${E(clip(r.label,36))}</text>`
+   +`<rect class="pn-mark" x="${left}" y="${y+4}" width="${bw}" height="${rowH-9}" rx="3" fill="${r.color||o.color||PALETTE[0]}"/>`
+   +`<text x="${left+bw+6}" y="${y+15}" font-size="10.5" fill="#4a6070" font-weight="600">${E(v)}</text></g>`});
  return s+'</svg>'}
 
 function axes(left,right,top,bottom,W,max,axisFmt){let s='';
  for(let k=0;k<=4;k++){const y=bottom-(bottom-top)*k/4;s+=`<line x1="${left}" x2="${W-right}" y1="${y}" y2="${y}" stroke="#e8eef3"/><text x="${left-6}" y="${y+4}" text-anchor="end" font-size="10" fill="#8395a3">${E(axisFmt(max*k/4))}</text>`}
  return s}
 
-// Vertical bars, grouped or stacked: series [{name,values,color}]; o.partial marks labels drawn lighter.
+// Vertical bars. Stacked: each segment answers the hover with its own value only. Grouped: each bar with its series and value.
 function vbar(labels,series,o={}){
  if(!labels.length||!series.length||!series.some(x=>x.values.some(v=>v>0)))return empty();
  const f=o.fmt||(v=>fmt(v,1)),W=860,H=280,left=70,right=10,top=14,bottom=248,n=labels.length,step=(W-left-right)/n,stacked=!!o.stacked;
  const tot=i=>stacked?series.reduce((a,x)=>a+(x.values[i]||0),0):Math.max(...series.map(x=>x.values[i]||0));
  const max=niceTop(Math.max(...labels.map((_,i)=>tot(i))));
  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${E(o.aria||'')}">`+axes(left,right,top,bottom,W,max,o.axis||short);
- const every=Math.ceil(n/18);
+ const every=Math.ceil(n/18),single=series.length===1;
  labels.forEach((lab,i)=>{const x0=left+i*step,op=o.partial&&o.partial.has(lab)?.55:1;
-  if(stacked){let base=bottom;series.forEach((se,j)=>{const v=se.values[i]||0,hh=v/max*(bottom-top);if(hh>0){s+=`<rect x="${x0+step*.18}" y="${base-hh}" width="${step*.64}" height="${hh}" fill="${color(se,j)}" opacity="${op}"><title>${E(lab)} · ${E(se.name)}: ${E(f(v))}</title></rect>`;base-=hh}})}
-  else{const bw=step*.7/series.length;series.forEach((se,j)=>{const v=se.values[i]||0,hh=Math.max(v,0)/max*(bottom-top);s+=`<rect x="${x0+step*.15+j*bw}" y="${bottom-hh}" width="${bw*.9}" height="${hh}" rx="2" fill="${color(se,j)}" opacity="${op}"><title>${E(lab)}${series.length>1?' · '+E(se.name):''}: ${E(f(v))}</title></rect>`})}
-  if((stacked||series.length===1)&&n<=20){const v=tot(i);if(v>0)s+=`<text x="${x0+step/2}" y="${bottom-v/max*(bottom-top)-5}" text-anchor="middle" font-size="9.5" fill="#4a6070" font-weight="600">${E(short(v))}</text>`}
+  if(stacked){let base=bottom;series.forEach((se,j)=>{const v=se.values[i]||0,hh=v/max*(bottom-top);
+   if(hh>0){s+=`<rect class="pn-mark" x="${x0+step*.18}" y="${base-hh}" width="${step*.64}" height="${hh}" fill="${color(se,j)}" opacity="${op}" data-tip="${tip(lab,se.name+': '+f(v))}"/>`;base-=hh}})}
+  else if(single){const v=series[0].values[i]||0,hh=Math.max(v,0)/max*(bottom-top);
+   s+=`<g class="pn-col" data-tip="${tip(lab,f(v))}"><rect x="${x0}" y="${top}" width="${step}" height="${bottom-top}" fill="transparent"/>`
+    +`<rect class="pn-mark" x="${x0+step*.15}" y="${bottom-hh}" width="${step*.7}" height="${hh}" rx="2" fill="${color(series[0],0)}" opacity="${op}"/></g>`;
+   if(n<=20&&v>0)s+=`<text x="${x0+step/2}" y="${bottom-hh-5}" text-anchor="middle" font-size="9.5" fill="#4a6070" font-weight="600">${E(short(v))}</text>`}
+  else{const bw=step*.7/series.length;series.forEach((se,j)=>{const v=se.values[i]||0,hh=Math.max(v,0)/max*(bottom-top);
+   s+=`<rect class="pn-mark" x="${x0+step*.15+j*bw}" y="${bottom-hh}" width="${bw*.9}" height="${hh}" rx="2" fill="${color(se,j)}" opacity="${op}" data-tip="${tip(lab,se.name+': '+f(v))}"/>`})}
   if(i%every===0)s+=`<text x="${x0+step/2}" y="${bottom+16}" text-anchor="middle" font-size="10" fill="#8395a3">${E(lab)}</text>`});
  return s+'</svg>'+(series.length>1?legend(series):'')}
 
-// Lines: null values break the line.
+// Lines: null values break the line; hovering a column shows every series at that point.
 function line(labels,series,o={}){
  const all=series.flatMap(x=>x.values).filter(v=>v!=null&&Number.isFinite(v));if(!labels.length||!all.length)return empty();
- const f=o.fmt||(v=>fmt(v,1)),W=860,H=280,left=70,right=14,top=14,bottom=248,n=labels.length,step=n>1?(W-left-right-20)/(n-1):0,max=niceTop(Math.max(...all,0));
+ const f=o.fmt||(v=>fmt(v,1)),W=860,H=280,left=70,right=14,top=14,bottom=248,n=labels.length,step=n>1?(W-left-right-20)/(n-1):40,max=niceTop(Math.max(...all,0));
  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${E(o.aria||'')}">`+axes(left,right,top,bottom,W,max,o.axis||short);
- const X=i=>left+10+i*step,Y=v=>bottom-v/max*(bottom-top),every=Math.ceil(n/14);
- series.forEach((se,j)=>{let d='';se.values.forEach((v,i)=>{if(v==null||!Number.isFinite(v)){d+=' ';return}d+=(d===''||d.endsWith(' ')?'M':'L')+X(i).toFixed(1)+' '+Y(v).toFixed(1)});
-  s+=`<path d="${d.replace(/ M/g,'M').trim()}" fill="none" stroke="${color(se,j)}" stroke-width="2.2"/>`;
-  se.values.forEach((v,i)=>{if(v!=null&&Number.isFinite(v))s+=`<circle cx="${X(i)}" cy="${Y(v)}" r="${n>30?1.8:3}" fill="${color(se,j)}"><title>${E(labels[i])}${series.length>1?' · '+E(se.name):''}: ${E(f(v))}</title></circle>`})});
- labels.forEach((lab,i)=>{if(i%every===0)s+=`<text x="${X(i)}" y="${bottom+16}" text-anchor="middle" font-size="10" fill="#8395a3">${E(lab)}</text>`});
+ const X=i=>left+10+i*step,Y=v=>bottom-v/max*(bottom-top),ok=v=>v!=null&&Number.isFinite(v),every=Math.ceil(n/14);
+ series.forEach((se,j)=>{let d='',pen=false;se.values.forEach((v,i)=>{if(!ok(v)){pen=false;return}d+=(pen?'L':'M')+X(i).toFixed(1)+' '+Y(v).toFixed(1);pen=true});
+  s+=`<path d="${d}" fill="none" stroke="${color(se,j)}" stroke-width="2.2"/>`;
+  se.values.forEach((v,i)=>{if(ok(v))s+=`<circle cx="${X(i)}" cy="${Y(v)}" r="${n>30?1.8:3}" fill="${color(se,j)}"/>`})});
+ labels.forEach((lab,i)=>{
+  s+=`<g class="pn-col" data-tip="${tip(lab,...series.map(se=>(series.length>1?se.name+': ':'')+(ok(se.values[i])?f(se.values[i]):'—')))}">`
+   +`<rect x="${X(i)-step/2}" y="${top}" width="${step}" height="${bottom-top}" fill="transparent"/><line class="pn-guide" x1="${X(i)}" x2="${X(i)}" y1="${top}" y2="${bottom}"/></g>`;
+  if(i%every===0)s+=`<text x="${X(i)}" y="${bottom+16}" text-anchor="middle" font-size="10" fill="#8395a3">${E(lab)}</text>`});
  return s+'</svg>'+(series.length>1?legend(series):'')}
 
 // Table with "show all": cols [{label,key|get,fmt,num}], rows of objects.
@@ -74,7 +85,7 @@ function map(box,muns,values,o={}){
  const paint=v=>!(v>0)?'#edf1f4':RAMP[cuts.filter(c=>v>=c).length];
  let s=`<svg viewBox="0 0 ${W} ${H}" class="pn-map" role="img" aria-label="${E(o.aria||'')}">`,sel='';
  muns.forEach(m=>{const v=values.get(m.code),d=m.rings.map(r=>'M'+r.map(([la,lo])=>X(lo).toFixed(1)+' '+Y(la).toFixed(1)).join('L')+'Z').join('');
-  const p=`<path d="${d}" fill="${paint(v)}" stroke="${m.code===o.selected?'#07345c':'#ffffff'}" stroke-width="${m.code===o.selected?2:.5}" fill-rule="evenodd" data-code="${E(m.code)}"><title>${E(m.name)}: ${E(v>0?f(v):t('pn.noRecord'))}</title></path>`;
+  const p=`<path class="pn-mark" d="${d}" fill="${paint(v)}" stroke="${m.code===o.selected?'#07345c':'#ffffff'}" stroke-width="${m.code===o.selected?2:.5}" fill-rule="evenodd" data-code="${E(m.code)}" data-tip="${tip(m.name,v>0?f(v):t('pn.noRecord'))}"/>`;
   if(m.code===o.selected)sel=p;else s+=p});
  s+=sel+'</svg>';
  const steps=vals.length?[vals[0],...cuts]:[];
@@ -82,6 +93,17 @@ function map(box,muns,values,o={}){
  if(o.onPick)box.querySelectorAll('path[data-code]').forEach(p=>{p.style.cursor='pointer';p.onclick=()=>o.onPick(p.dataset.code)})}
 
 const tiles=items=>items.map(([tone,label,value,note])=>`<div class="metric ${tone}"><span>${E(label)}</span><strong>${E(value)}</strong><small>${E(note)}</small></div>`).join('');
+
+// One tooltip for the whole Panorama: follows the pointer over any [data-tip] mark; a tap shows it on touch screens.
+function tooltip(){const box=document.createElement('div');box.className='pn-tip';box.setAttribute('role','tooltip');box.hidden=true;document.body.append(box);
+ const target=e=>e.target&&e.target.closest?e.target.closest('#panorama-view [data-tip]'):null;
+ const show=(node,x,y)=>{const text=node.getAttribute('data-tip');if(box.textContent!==text)box.textContent=text;box.hidden=false;
+  const r=box.getBoundingClientRect();let left=x+14,top=y+16;if(left+r.width>innerWidth-8)left=x-r.width-14;if(top+r.height>innerHeight-8)top=y-r.height-12;
+  box.style.left=Math.max(8,left)+'px';box.style.top=Math.max(8,top)+'px'};
+ document.addEventListener('mousemove',e=>{const n=target(e);if(n)show(n,e.clientX,e.clientY);else if(!box.hidden)box.hidden=true});
+ document.addEventListener('click',e=>{const n=target(e);if(n)show(n,e.clientX,e.clientY);else box.hidden=true},true);
+ addEventListener('scroll',()=>{box.hidden=true},true)}
+tooltip();
 
 window.PNC={E,fmt,money,short,clip,hbar,vbar,line,table,map,tiles,empty,PALETTE,OTHER};
 })();

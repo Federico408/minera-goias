@@ -58,7 +58,7 @@ cards.push(
  return C.hbar(X.topRows(by,12,i=>X.mun(i)),{fmt:v=>C.fmt(v,1)+' GWh',aria:X.t('pn.c.ee_mun')})}},
 {id:'ee_mes',sec:'energia',wide:true,filters:['ano','mes','mun','ramo','emp'],render(X){const C=X.C,rows=X.ccee(),keys=[...new Set(rows.map(r=>r[0]))].sort((a,b)=>a-b),
   l=X.sumBy(rows,r=>r[0],r=>r[4]/1000),c=X.sumBy(rows,r=>r[0],r=>r[5]/1000);
- return C.vbar(keys.map(k=>Math.floor(k/100)+'-'+String(k%100).padStart(2,'0')),[{name:X.t('pn.h.acl'),values:keys.map(k=>l.get(k)||0)},{name:X.t('pn.h.cativo'),values:keys.map(k=>c.get(k)||0)}],
+ return C.vbar(keys.map(k=>Math.floor(k/100)+'-'+String(k%100).padStart(2,'0')),[{name:X.t('pn.aclShort'),values:keys.map(k=>l.get(k)||0)},{name:X.t('pn.cativoShort'),values:keys.map(k=>c.get(k)||0)}],
   {stacked:true,fmt:v=>C.fmt(v,1)+' GWh',axis:v=>C.fmt(v,0),aria:X.t('pn.c.ee_mes')})}},
 {id:'ee_ano',sec:'energia',filters:['ano','mun','ramo','emp'],render(X,box){const C=X.C,g=new Map();
  X.ccee(['mes']).forEach(r=>{const y=Math.floor(r[0]/100);let a=g.get(y);if(!a)g.set(y,a={t:0,l:0,c:0,m:new Set(),e:new Set()});a.t+=r[6];a.l+=r[4];a.c+=r[5];a.m.add(r[0]);a.e.add(r[3])});

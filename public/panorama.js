@@ -1,13 +1,13 @@
 /* Panorama tab: the charts and tables of the "Panorama da Mineração de Goiás", rebuilt from the Squad 1 base and filtered in the browser. */
 (()=>{'use strict';
 const el=id=>document.getElementById(id),C=window.PNC,E=C.E;
-const SECTIONS=['resumo','cfem','geo','subs','prod','usos','terr','pesq','rod','emp','energia','barr','nr'];
+const SECTIONS=['cfem','geo','subs','prod','usos','terr','pesq','rod','emp','energia','barr','nr'];
 const FILTERS=['ano','mes','mun','min','emp','fase','rub','ramo'];
 // Tabs group the sections of the same kind of analysis; only the cards of the active tab are drawn.
-const TABS=[['resumo',['resumo']],['arrecadacao',['cfem','subs']],['territorio',['geo','usos','terr']],['producao',['prod']],['pesquisa',['pesq','rod']],
+const TABS=[['arrecadacao',['cfem','subs']],['territorio',['geo','usos','terr']],['producao',['prod']],['pesquisa',['pesq','rod']],
  ['empresas',['emp']],['energia',['energia']],['barragens',['barr']],['notas',['nr']]];
 const FILTER_IDS={ano:['pn-y0','pn-y1'],mes:['pn-mes'],mun:['pn-mun'],min:['pn-min'],emp:['pn-emp'],fase:['pn-fase'],rub:['pn-rub'],ramo:['pn-ramo']};
-let tab='resumo';try{const saved=localStorage.getItem('minera-pn-tab');if(TABS.some(([id])=>id===saved))tab=saved}catch{}
+let tab='arrecadacao';try{const saved=localStorage.getItem('minera-pn-tab');if(TABS.some(([id])=>id===saved))tab=saved}catch{}
 const F={y0:2010,y1:2026,mes:0,mun:-1,min:-1,emp:'',fase:-1,rub:-1,ramo:-1};
 let P=null,loading=null,cards=[];
 const norm=s=>String(s??'').normalize('NFD').replace(/[̀-ͯ]/g,'').toUpperCase();
@@ -17,7 +17,7 @@ const X={F,C,E,t:(k,v)=>t(k,v),norm,cache:{},mapMetric:'cfem',
  MINING_RAMOS:['EXTRAÇÃO DE MINERAIS METÁLICOS','MINERAIS NÃO-METÁLICOS','METALURGIA E PRODUTOS DE METAL'],
  mun:i=>i>=0?P.dims.mun[i][1]:t('pn.notInformed'),munCode:i=>i>=0?P.dims.mun[i][0]:'',
  min:i=>i>=0?P.dims.min[i][1]:t('pn.noMineral'),
- emp:i=>{const e=P.dims.emp[i];return !e?t('pn.notInformed'):e[1]||t(e[3]==='ni'?'pn.empNi':'pn.empHidden')},
+ emp:i=>{const e=P.dims.emp[i];return !e?t('pn.notInformed'):e[1]||(e[3]==='ni'?t('pn.empNi'):t('pn.empHidden'))},
  empOk:i=>F.emp===''||(i>=0&&!!P.dims.emp[i][1]&&norm(P.dims.emp[i][1]).includes(F.emp)),
  years:(a,b)=>{const out=[];for(let y=Math.max(a,F.y0);y<=Math.min(b,F.y1);y++)out.push(y);return out},
  period:(a,b)=>{const y=X.years(a,b);return y.length?(y[0]===y[y.length-1]?String(y[0]):y[0]+'–'+y[y.length-1]):'—'},
