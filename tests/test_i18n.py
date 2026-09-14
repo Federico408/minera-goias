@@ -72,6 +72,9 @@ class TranslationTests(unittest.TestCase):
         self.assertIn("if(a>b)[a,b]=[b,a]", code)
         # The mouse wheel zooms the map while the pointer is over it.
         self.assertIn("scrollWheelZoom:true", code)
+        # Mineral layers keep the municipality selector, which also narrows projects and occurrences.
+        self.assertNotIn("el('atlas-mun-wrap').hidden=byMineral", code)
+        self.assertIn("String(x.mun)===selectedCode", code)
         self.assertNotIn("const year=el('atlas-year').value", code)
         # The scale under the sliders names every year the span can cover.
         self.assertIn("id=\"atlas-year-ticks\"", markup)
