@@ -9,6 +9,10 @@ produção mineral e CFEM de Goiás, com ID estável, fonte e unidade em cada n�
 | Dados brutos usados, uma pasta por fonte | [`../Dados brutos/`](../Dados%20brutos/) — catálogo em `Dados brutos/LEIA-ME.md` e na aba `07_dim_fontes` |
 | Entrega ao Squad 2 | aba `12_interface_squad1_squad2` |
 | Dicionário de dados e validações automáticas | abas `14_dicionario_dados` e `14b_validacoes_governanca` |
+| Relatório de qualidade (faltantes, duplicidades, divergências e unidades) | `documentacao/relatorio_qualidade.md` |
+| Nota ao Squad 2 sobre a produção estimada sem coordenadas | `documentacao/nota_squad2_operacoes_sem_coordenadas.md` e `operacoes_sem_coordenadas.csv` |
+| Decisão pendente do grupo (basaltos declarados como revestimento) | `documentacao/nota_decisao_basaltos.md` |
+| Quadro de entradas e saídas do Squad 1 | [`../QUADRO_ENTRADAS_SAIDAS.md`](../QUADRO_ENTRADAS_SAIDAS.md) |
 | Código que gera a planilha e os mapas | `base_consolidada_work/scripts/` (instruções no `LEIA-ME.md` de lá) |
 | Modelo da planilha (entrada do pipeline) | `documentacao/modelo_demo/prototipo_bases_consolidadas_v0.xlsx` |
 
