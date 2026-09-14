@@ -1,0 +1,12 @@
+{
+ "fonte": "SGB/CPRM — WFS GeoSGB, camada geosgb:ocorrencias_recursos_minerais (Ocorrências de Recursos Minerais)",
+ "url_requisicao": "https://geoservicos.sgb.gov.br/geoserver/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=geosgb:ocorrencias_recursos_minerais&outputFormat=application/json&bbox=-19.7,-53.4,-12.2,-45.8,urn:ogc:def:crs:EPSG::4326",
+ "recorte": "caixa envolvente de Goiás com folga (lat -19,7 a -12,2; lon -53,4 a -45,8); recorte exato pela malha do IBGE no pipeline",
+ "data_download_utc": "2026-09-12T19:19:14Z",
+ "bytes": 2934157,
+ "sha256": "9449760936e4ed8477840da7fe8036a41d932e7eae4ae9d876057997e868bc35",
+ "feicoes": 2586,
+ "totalFeatures": 2586,
+ "numberMatched": 2586,
+ "autorizado_por": "Eliel (Squad 1 / Estudante 1), 12/09/2026: baixar só Goiás"
+}

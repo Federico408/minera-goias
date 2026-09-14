@@ -1,4 +1,4 @@
-"""Retrato do atlas gerado por scripts/build_atlas_base.py a partir da base consolidada do Squad 1 (v15)."""
+"""Retrato do atlas gerado por scripts/build_atlas_base.py a partir da base consolidada do Squad 1 (v16)."""
 import base64,json,struct,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]

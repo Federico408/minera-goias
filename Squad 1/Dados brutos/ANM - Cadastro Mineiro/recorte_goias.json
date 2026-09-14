@@ -1,0 +1,165 @@
+{
+ "regras": {
+  "municipio_ou_processo": "linha mantida quando algum município do campo 'Município(s)' é de Goiás (go_municipio_id do pipeline: token com sufixo de UF diferente de GO é rejeitado sem casar pelo nome) ou quando o processo tem poligonal em Goiás no SIGMINE (GO.zip)",
+  "processo": "arquivo sem coluna de município: linha mantida quando o processo tem poligonal em Goiás no SIGMINE (o pipeline não usa linhas deste arquivo)",
+  "sem_filtro": "arquivo sem coluna de município nem de processo: mantido inteiro"
+ },
+ "arquivos": [
+  {
+   "arquivo": "Alvara_de_Pesquisa.csv",
+   "regra": "municipio_ou_processo",
+   "linhas_nacional": 111614,
+   "linhas_goias": 8130,
+   "linhas_com_municipio_de_goias": 8119,
+   "processos_do_sigmine_go": 8116,
+   "mb_nacional": 26.03,
+   "mb_goias": 1.9,
+   "sha256_nacional": "2c3bd1bae003ec47dd91c55dab949c4781df7c15638fcd71f4daa81ee35efaf1",
+   "sha256_goias": "c4360a30ce9bb1ee3933914a733153e025bffd6ec68f1ef0dfde416728b90423"
+  },
+  {
+   "arquivo": "Cessoes_de_Direitos.csv",
+   "regra": "municipio_ou_processo",
+   "linhas_nacional": 55081,
+   "linhas_goias": 4022,
+   "linhas_com_municipio_de_goias": 4015,
+   "processos_do_sigmine_go": 2836,
+   "mb_nacional": 13.61,
+   "mb_goias": 1.0,
+   "sha256_nacional": "59d9482213b73ea9966820761cea1602c49a95ddeb86e972d0ab607461a1ebe2",
+   "sha256_goias": "5a893a7ec26130421930380541742208815dfcc78221ef338bd9b662cbe31228"
+  },
+  {
+   "arquivo": "Guia_de_Utilizacao_Autorizada.csv",
+   "regra": "processo",
+   "linhas_nacional": 12260,
+   "linhas_goias": 652,
+   "linhas_com_municipio_de_goias": 0,
+   "processos_do_sigmine_go": 448,
+   "mb_nacional": 1.87,
+   "mb_goias": 0.1,
+   "sha256_nacional": "35ca5577cef7a14dde44f0bc8c80c9b7a81fe63a9d0cd03d1b53f843041d4ff6",
+   "sha256_goias": "1d5a1d82b95282c032f8708e862f9acb1ee8cb46dbb3ee39e85d99e804f68e10"
+  },
+  {
+   "arquivo": "Licenciamento.csv",
+   "regra": "municipio_ou_processo",
+   "linhas_nacional": 21553,
+   "linhas_goias": 1652,
+   "linhas_com_municipio_de_goias": 1641,
+   "processos_do_sigmine_go": 1651,
+   "mb_nacional": 4.59,
+   "mb_goias": 0.34,
+   "sha256_nacional": "40058091fc646e6bd14e49800c51ccc431cf48adc6751a437cda3ef44910a2ce",
+   "sha256_goias": "ee47e23b9e7dbf442f879cf5175657e91f8f212dca89d9abe1f7c90f626a7abd"
+  },
+  {
+   "arquivo": "PLG.csv",
+   "regra": "municipio_ou_processo",
+   "linhas_nacional": 3244,
+   "linhas_goias": 103,
+   "linhas_com_municipio_de_goias": 103,
+   "processos_do_sigmine_go": 103,
+   "mb_nacional": 0.72,
+   "mb_goias": 0.02,
+   "sha256_nacional": "6ad95b893823ea20a3efd44f4a4404c870d250d2f5fbf75044975a32e5ad5e88",
+   "sha256_goias": "cc7dc11802bceb26373fccecb476ec83aa1e53baae87772c1e03aa7c4de6e18a"
+  },
+  {
+   "arquivo": "Portaria_de_Lavra.csv",
+   "regra": "municipio_ou_processo",
+   "linhas_nacional": 15493,
+   "linhas_goias": 1136,
+   "linhas_com_municipio_de_goias": 1134,
+   "processos_do_sigmine_go": 1132,
+   "mb_nacional": 3.57,
+   "mb_goias": 0.26,
+   "sha256_nacional": "382c0e28fd1df469ea8646f103c57dccc14d6c90621210b5f91f17328a933cd9",
+   "sha256_goias": "f5805f5addd0e77f560a8f1943387169e9d1014f066dbb74509e9643a491f1be"
+  },
+  {
+   "arquivo": "Registro_de_Extracao_Publicado.csv",
+   "regra": "municipio_ou_processo",
+   "linhas_nacional": 3968,
+   "linhas_goias": 43,
+   "linhas_com_municipio_de_goias": 43,
+   "processos_do_sigmine_go": 43,
+   "mb_nacional": 0.84,
+   "mb_goias": 0.01,
+   "sha256_nacional": "1f58d82f59c7cd5c36dde5decad34e2a7f62288139cb2d5db22ced5bb2718f60",
+   "sha256_goias": "a44cf6559887b35db73a09b639d9d85c85392821cf9c75610ed8801dd22eb8b9"
+  },
+  {
+   "arquivo": "Relatorio_de_Pesquisa_Aprovado.csv",
+   "regra": "municipio_ou_processo",
+   "linhas_nacional": 15695,
+   "linhas_goias": 1179,
+   "linhas_com_municipio_de_goias": 1177,
+   "processos_do_sigmine_go": 1176,
+   "mb_nacional": 3.66,
+   "mb_goias": 0.28,
+   "sha256_nacional": "bb69c04de5d69d07308cfb2317a3ac6460fa10f3d8d3f234b60a814db30be3fd",
+   "sha256_goias": "fbfaec42ef30e61885cf4a14cc1365beff2cd68ae9aaec07e673b0cb799fbc1f"
+  },
+  {
+   "arquivo": "Requerimento_de_Lavra.csv",
+   "regra": "municipio_ou_processo",
+   "linhas_nacional": 21371,
+   "linhas_goias": 1237,
+   "linhas_com_municipio_de_goias": 1236,
+   "processos_do_sigmine_go": 1230,
+   "mb_nacional": 4.99,
+   "mb_goias": 0.29,
+   "sha256_nacional": "bbfa50fe50f2361b2ad5fb7b0c2423ecae06136cb03002a9609f171bb678d7dc",
+   "sha256_goias": "c1add5e59592c033a4792dca47861d51bb295c870ef43329c2f956804f1d08a5"
+  },
+  {
+   "arquivo": "Requerimento_de_Licenciamento.csv",
+   "regra": "municipio_ou_processo",
+   "linhas_nacional": 9136,
+   "linhas_goias": 916,
+   "linhas_com_municipio_de_goias": 916,
+   "processos_do_sigmine_go": 913,
+   "mb_nacional": 2.1,
+   "mb_goias": 0.21,
+   "sha256_nacional": "7fff5438a2d9c0fe4aa897c6d5819c8d4c386b615df1f243e372bf66832c011f",
+   "sha256_goias": "f867df3a64f9a16ad821f7e56e4d8cb5e6f4e92c09c7a31fe9e78aaffd61abaa"
+  },
+  {
+   "arquivo": "Requerimento_de_PLG.csv",
+   "regra": "municipio_ou_processo",
+   "linhas_nacional": 19317,
+   "linhas_goias": 1000,
+   "linhas_com_municipio_de_goias": 998,
+   "processos_do_sigmine_go": 1000,
+   "mb_nacional": 4.62,
+   "mb_goias": 0.24,
+   "sha256_nacional": "1cbb63b6967a135856fd97191f4b834f373b11d3c3d9e1a7715e258964bd9390",
+   "sha256_goias": "6d017c4784a84d39f118e603ca605b5e0f7b770dfe0c0d1892d1a940876e5aa3"
+  },
+  {
+   "arquivo": "Requerimento_de_Pesquisa.csv",
+   "regra": "municipio_ou_processo",
+   "linhas_nacional": 18916,
+   "linhas_goias": 954,
+   "linhas_com_municipio_de_goias": 954,
+   "processos_do_sigmine_go": 946,
+   "mb_nacional": 4.48,
+   "mb_goias": 0.23,
+   "sha256_nacional": "0d8e3c1bc45d00eb2e656070b2f4db868ea3338ddb6449387128e2f343eada64",
+   "sha256_goias": "5bdc41cf3def3771a64bea62ea515e02e4509a672b3e825a3517bc2c24e1e4c9"
+  },
+  {
+   "arquivo": "Requerimento_de_Registro_de_Extracao_Protocolizado.csv",
+   "regra": "municipio_ou_processo",
+   "linhas_nacional": 2302,
+   "linhas_goias": 24,
+   "linhas_com_municipio_de_goias": 24,
+   "processos_do_sigmine_go": 24,
+   "mb_nacional": 0.53,
+   "mb_goias": 0.01,
+   "sha256_nacional": "bb1fc4347a4510121ac520d87a6a181d814bb273254460b388ff600e36189dfe",
+   "sha256_goias": "040335d8a42993beee7b76d8b130af275aa45d9a7b06b4ff542e9c044fc7da3d"
+  }
+ ]
+}

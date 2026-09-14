@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Atualiza o atlas (data/atlas/atlas.json e processes.json) com a base consolidada do Squad 1 / Estudante 1.
 
-Mantém exatamente o formato lido por public/atlas.js. Vêm da base consolidada (v15):
+Mantém exatamente o formato lido por public/atlas.js. Vêm da base consolidada (v16):
   municipalities   malha IBGE 2025 (camada municipios_go da Base 4), processos do SIGMINE que tocam cada município e CFEM 2022–2026
   cfem             CFEM por município e ano para os 246 municípios (aba 08 da planilha; 2026 até o último mês do arquivo)
   production       quantidade comercializada em t e CFEM por substância × município em 2025 — é CFEM declarada, não produção
@@ -18,9 +18,9 @@ Continuam do retrato anterior (eliel.html), porque a base consolidada não os co
 
 Uso, fora da VPS (precisa de geopandas/pyogrio, shapely >= 2.1 e openpyxl):
     python scripts/build_atlas_base.py --base "<pasta do projeto do Squad 1>"
-A pasta do projeto contém outputs/mapas/minera_goias_mapas_v1.gpkg, documentacao/prototipo_bases_consolidadas_v15.xlsx e
+A pasta do projeto contém outputs/mapas/minera_goias_mapas_v1.gpkg, documentacao/prototipo_bases_consolidadas_v16.xlsx e
 dados/ANM/investimento_pesquisa/InvestimentoPesquisaMineralUf.csv — é o que o pipeline de
-Squad 1/dados/base_consolidada_estudante1/ gera e lê.
+Squad 1/Bases consolidadas/ gera e lê.
 """
 import argparse
 import base64
@@ -361,14 +361,16 @@ def processos(gpkg, tolerancia):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--base", required=True, help="pasta do projeto do Squad 1 (com outputs/, documentacao/ e dados/)")
-    ap.add_argument("--planilha", help="planilha consolidada (padrão: <base>/documentacao/prototipo_bases_consolidadas_v15.xlsx)")
+    ap.add_argument("--planilha", help="planilha consolidada (padrão: <base>/documentacao/prototipo_bases_consolidadas_v16.xlsx)")
     ap.add_argument("--tolerancia-municipios", type=float, default=0.003, help="graus; padrão 0,003 (~330 m)")
     ap.add_argument("--tolerancia-processos", type=float, default=0.0004, help="graus; padrão 0,0004 (~45 m)")
     args = ap.parse_args()
     base = Path(args.base)
-    planilha = Path(args.planilha) if args.planilha else base / "documentacao" / "prototipo_bases_consolidadas_v15.xlsx"
+    planilha = Path(args.planilha) if args.planilha else base / "documentacao" / "prototipo_bases_consolidadas_v16.xlsx"
     gpkg = base / "outputs" / "mapas" / "minera_goias_mapas_v1.gpkg"
     invest = base / "dados" / "ANM" / "investimento_pesquisa" / "InvestimentoPesquisaMineralUf.csv"
+    if not invest.exists():  # arranjo do GitHub: Squad 1/Dados brutos/<fonte>/, ao lado de Squad 1/Bases consolidadas/
+        invest = base.parent / "Dados brutos" / "ANM - Investimento em pesquisa mineral" / "InvestimentoPesquisaMineralUf.csv"
     destino = ROOT / "data" / "atlas"
     anterior = json.loads((destino / "atlas.json").read_text(encoding="utf-8"))
     retido = anterior["meta"].get("retained_from_artifact") or {"artifact": anterior["meta"]["artifact"], "sha256": anterior["meta"]["sha256"],
@@ -405,11 +407,11 @@ def main():
     ultimo = dados["periodos"][-1]
     packet = {
         "meta": {
-            "artifact": "base consolidada do Squad 1 / Estudante 1 — prototipo_bases_consolidadas_v15.xlsx",
+            "artifact": "base consolidada do Squad 1 / Estudante 1 — prototipo_bases_consolidadas_v16.xlsx",
             "sha256": sha256(planilha),
             "integrated_on": date.today().isoformat(),
             "status": "snapshot_unvalidated",
-            "note": ("Retrato da base consolidada do Squad 1 (v15), gerado por scripts/build_atlas_base.py; não é consulta em tempo real à ANM. "
+            "note": ("Retrato da base consolidada do Squad 1 (v16), gerado por scripts/build_atlas_base.py; não é consulta em tempo real à ANM. "
                      "Energia (CCEE) e barragens (SIGBM) seguem do retrato anterior (eliel.html). Geometrias simplificadas e quantizadas para "
                      "o mapa: não usar como limite cadastral."),
             "sources": ["ANM / CFEM", "Anuário Mineral Brasileiro", "Cadastro Mineiro", "SIGMINE", "SGB — RECMIN", "IBGE — malha municipal 2025",
@@ -419,7 +421,7 @@ def main():
                         "processes": f"arquivo do SIGMINE de {data_sigmine}",
                         "projects": f"situação dos processos no arquivo do SIGMINE de {data_sigmine} (aba 04)",
                         "occurrences": "RECMIN do SGB baixado em " + "/".join(reversed(str(dados["data_recmin"] or "")[:10].split("-"))) + " (aba 06)"},
-            "base": {"planilha": "Squad 1/dados/base_consolidada_estudante1/documentacao/prototipo_bases_consolidadas_v15.xlsx",
+            "base": {"planilha": "Squad 1/Bases consolidadas/documentacao/prototipo_bases_consolidadas_v16.xlsx",
                      "sha256_planilha": sha256(planilha), "sha256_gpkg": sha256(gpkg), "sha256_investimento": sha256(invest)},
             "retained_from_artifact": retido,
         },

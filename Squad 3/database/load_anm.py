@@ -22,7 +22,7 @@ from pathlib import Path
 
 SOURCE_ID = 'ANM_CADASTRO'
 SUBSTANCES = 'Squad 1/dados/Substancia.txt'
-SHAPEFILE = 'Squad 1/dados/GO.zip'
+SHAPEFILE = 'Squad 1/Dados brutos/ANM - SIGMINE/GO.zip'
 ATLAS = 'data/atlas/atlas.json'
 
 
