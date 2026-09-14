@@ -1,0 +1,30 @@
+/* Panorama tab: filter bar, section grid, cards, SVG charts and tables. */
+.pn-filters{display:flex;flex-wrap:wrap;gap:12px;align-items:end;margin:20px 0 6px;padding:14px 16px;background:white;border:1px solid var(--line);position:sticky;top:0;z-index:5}
+.pn-filters>div{display:flex;flex-direction:column;gap:4px;min-width:130px;flex:1}
+.pn-filters label{font-size:11px;font-weight:600;color:var(--muted)}
+.pn-filters select,.pn-filters input{width:100%}
+.pn-filters .btn{margin:0;flex:0 0 auto}
+.pn-context{font-size:12px;color:var(--muted);margin:6px 0 4px}
+.pn-nav{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 6px}
+.pn-jump{border:1px solid var(--line);background:white;border-radius:14px;padding:4px 11px;font-size:11px;color:#34617e;cursor:pointer}
+.pn-jump:hover{border-color:var(--blue)}
+.pn-section{margin:34px 0 0;scroll-margin-top:110px}
+.pn-section-head h2{margin:0 0 4px;font-size:20px}
+.pn-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.pn-card.wide{grid-column:1/-1}
+.pn-card h3{margin:0 0 4px}
+.pn-card svg{width:100%;height:auto;display:block}
+.pn-chips{display:flex;flex-wrap:wrap;gap:4px;align-items:center;margin:-12px 0 12px;font-size:10px;color:var(--muted)}
+.pn-legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:11px;color:#4a6070;margin-top:8px}
+.pn-legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.pn-table{width:100%;border-collapse:collapse;font-size:12px}
+.pn-table th,.pn-table td{padding:6px 8px;border-bottom:1px solid #edf1f4;text-align:left;vertical-align:top}
+.pn-table th{font-size:11px;color:var(--muted);font-weight:600}
+.pn-table .num{text-align:right;white-space:nowrap}
+.pn-map-tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:8px;font-size:12px}
+.pn-map-box svg{max-width:640px;margin:0 auto}
+.pn-map path:hover{opacity:.78}
+.pn-tiles{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
+.pn-nr{margin:0;padding-left:18px}
+.pn-nr li{margin:0 0 10px;font-size:13px;line-height:1.5}
+@media (max-width:900px){.pn-grid{grid-template-columns:1fr}.pn-filters{position:static}}

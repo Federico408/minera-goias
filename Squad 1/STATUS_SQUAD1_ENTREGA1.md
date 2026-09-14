@@ -75,7 +75,7 @@ como estimativa, com método, erro e status observado/estimado.
 - **Squad 2:** aba 12 (produção por mineral e ano, observada no estado e estimada por operação) e a nota
   `nota_squad2_operacoes_sem_coordenadas.md`, com a lista dos 112 processos sem poligonal. O pacote `pacote_squad2/` traz a aba em CSV no
   formato dos exemplos do Squad 2, o dicionário dos campos e a correspondência com o `production_history` do motor.
-- **Squad 3:** a planilha e os brutos em CSV/XLSX entram no banco do site pelo importador; o atlas é gerado da planilha.
+- **Squad 3:** a planilha e os brutos em CSV/XLSX entram no banco do site pelo importador; o atlas é gerado da planilha. A aba Panorama do painel (`data/panorama/`) refaz os gráficos e tabelas do Panorama da Mineração de Goiás com a base e os brutos do repositório.
 - **Squad 1:** `Squad 1/QUADRO_ENTRADAS_SAIDAS.md` com as chaves compartilhadas e as entradas e saídas do E1, E2 e E3.
 
 #### GitHub

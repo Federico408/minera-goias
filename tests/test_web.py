@@ -30,6 +30,7 @@ class WebTests(unittest.TestCase):
         self.assertEqual(self.client.get('/api/dashboard').status_code,401)
         self.assertEqual(self.client.get('/api/atlas').status_code,401)
         self.assertEqual(self.client.get('/api/atlas/processes').status_code,401)
+        self.assertEqual(self.client.get('/api/panorama').status_code,401)
         self.assertEqual(self.client.get('/api/admin/users').status_code,401)
         self.login('reader')
         self.assertEqual(self.client.get('/api/admin/users').status_code,403)
@@ -71,6 +72,7 @@ class WebTests(unittest.TestCase):
         self.assertEqual(r.status_code,200)
         self.assertEqual(len(r.json()['municipalities']),246)
         self.assertEqual(self.client.get('/api/atlas/processes').json()['n'],16656)
+        self.assertEqual(len(self.client.get('/api/panorama').json()['dims']['mun']),246)
 
     def test_api_supports_every_database_schema(self):
         from unittest.mock import MagicMock

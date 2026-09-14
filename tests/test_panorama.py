@@ -1,0 +1,67 @@
+"""Pacote da aba Panorama (data/panorama/panorama.json), gerado das bases do Squad 1 por scripts/build_panorama_base.py."""
+import json
+import re
+import unittest
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / 'data' / 'panorama' / 'panorama.json'
+
+
+class PanoramaTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.d = json.loads(DATA.read_text(encoding='utf-8'))
+
+    def test_tables_are_rectangular_and_indexes_resolve(self):
+        d, dims = self.d, self.d['dims']
+        for key in ('cfem', 'amb_go', 'amb_br', 'amb_uf', 'proc', 'inv_go', 'inv_br', 'rod', 'ccee'):
+            cols = d[key]['cols']
+            self.assertTrue(d[key]['rows'], key)
+            self.assertTrue(all(len(r) == len(cols) for r in d[key]['rows']), key)
+        self.assertEqual(len(dims['mun']), 246)
+        self.assertEqual(len(dims['rubrica']), 12)
+        for r in d['cfem']['rows']:
+            self.assertTrue(r[2] < len(dims['mun']) and r[3] < len(dims['min']) and r[4] < len(dims['emp']))
+        for r in d['ccee']['rows']:
+            self.assertTrue(r[2] < len(dims['ramo']) and r[3] < len(dims['ce']))
+
+    def test_cfem_matches_the_consolidated_base(self):
+        rows = self.d['cfem']['rows']
+        self.assertAlmostEqual(sum(r[5] for r in rows), 867578398.91, places=1)
+        self.assertEqual(sum(r[6] for r in rows), 38854)
+        self.assertAlmostEqual(sum(r[5] for r in rows if r[0] == 2025), 229924046.03, places=1)
+        self.assertTrue(all(1 <= r[1] <= 12 for r in rows))
+
+    def test_production_research_claims_and_rounds(self):
+        d = self.d
+        self.assertAlmostEqual(sum(r[5] for r in d['amb_go']['rows'] if r[0] == 2010), 2823902658.66, places=0)
+        self.assertAlmostEqual(sum(r[3] for r in d['inv_go']['rows'] if r[0] == 2003), 16175609.20, places=1)
+        self.assertEqual(len(d['proc']['rows']), 16656)
+        situacao = d['dims']['sit']
+        self.assertEqual(len(d['rod']['rows']), 3632)
+        self.assertEqual(sum(1 for r in d['rod']['rows'] if situacao[r[1]] == 'Arrematada'), 942)
+
+    def test_only_companies_are_named(self):
+        for cid, nome, raiz, tipo in self.d['dims']['emp']:
+            if nome is not None:
+                self.assertTrue(cid.startswith('COM_CNPJ_'), cid)
+                self.assertNotIn('***', nome)
+                self.assertEqual(tipo, 'pj')
+        self.assertIn(None, self.d['dims']['venc'])
+        cpf = re.compile(r'(?<!\d)\d{3}\.?\d{3}\.?\d{3}-?\d{2}(?!\d)')
+        dims = self.d['dims']
+        for nome in [e[1] for e in dims['emp'] if e[1]] + [v for v in dims['venc'] if v] + [c[1] for c in dims['ce']]:
+            self.assertIsNone(cpf.search(nome), nome)
+
+    def test_page_wires_the_tab(self):
+        markup = (ROOT / 'public' / 'painel.html').read_text(encoding='utf-8')
+        self.assertEqual(re.findall(r'data-view="(\w+)"', markup)[:3], ['atlas', 'panorama', 'radar'])
+        for script in ('panorama-charts.js', 'panorama-cards1.js', 'panorama-cards2.js', 'panorama-cards3.js', 'panorama.js'):
+            self.assertIn(f'src="/{script}"', markup)
+        self.assertLess(markup.index('/panorama-cards3.js'), markup.index('/panorama.js"'))
+        self.assertIn("api('/panorama')", (ROOT / 'public' / 'panorama.js').read_text(encoding='utf-8'))
+
+
+if __name__ == '__main__':
+    unittest.main()

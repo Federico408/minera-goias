@@ -118,6 +118,8 @@ async def security_headers(request,call_next):
 
 from atlas import router as atlas_router
 app.include_router(atlas_router)
+from panorama import router as panorama_router
+app.include_router(panorama_router)
 
 import radar_api
 radar_api.connection_factory=get_connection
