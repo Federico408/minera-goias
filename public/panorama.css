@@ -1,5 +1,5 @@
 /* Panorama tab: filter bar, section grid, cards, SVG charts and tables. */
-.pn-sticky{position:sticky;top:0;z-index:5;margin:18px 0 0}
+.pn-head{margin:18px 0 0}
 .pn-tabs{display:flex;flex-wrap:wrap;gap:2px;background:white;border:1px solid var(--line);border-bottom:0;padding:8px 10px 0}
 .pn-tab{border:0;background:transparent;padding:9px 14px;font-size:13px;color:#34617e;cursor:pointer;border-radius:4px 4px 0 0}
 .pn-tab:hover{background:#edf4f8}
@@ -36,4 +36,4 @@
 .pn-tiles{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}
 .pn-nr{margin:0;padding-left:18px}
 .pn-nr li{margin:0 0 10px;font-size:13px;line-height:1.5}
-@media (max-width:900px){.pn-grid{grid-template-columns:1fr}.pn-sticky{position:static}}
+@media (max-width:900px){.pn-grid{grid-template-columns:1fr}}
