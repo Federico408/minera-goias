@@ -70,6 +70,8 @@ class TranslationTests(unittest.TestCase):
         # Both ends resolve through the year table, and the span is always ordered.
         self.assertIn("const YEARS=['2022','2023','2024','2025','2026']", code)
         self.assertIn("if(a>b)[a,b]=[b,a]", code)
+        # The mouse wheel zooms the map while the pointer is over it.
+        self.assertIn("scrollWheelZoom:true", code)
         self.assertNotIn("const year=el('atlas-year').value", code)
         # The scale under the sliders names every year the span can cover.
         self.assertIn("id=\"atlas-year-ticks\"", markup)
