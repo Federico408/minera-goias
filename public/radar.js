@@ -28,12 +28,15 @@ function newsBlock(noticias){
  const items=noticias.itens.length
   ? '<ul class="rd-news">'+noticias.itens.map(i=>{
       const quando=(i.published_at||i.first_seen||'').slice(0,10);
-      return `<li><a href="${escape(i.link)}" target="_blank" rel="noopener noreferrer">${escape(i.title)}</a>`
+      const marca=i.regional?`<b class="rd-tag-go">${escape(t('rd.regional'))}</b>`:'';
+      return `<li>${marca}<a href="${escape(i.link)}" target="_blank" rel="noopener noreferrer">${escape(i.title)}</a>`
        +`<span class="muted">${escape(i.fonte||'')}${quando?' · '+escape(quando):''}</span></li>`}).join('')+'</ul>'
   : `<div class="empty">${escape(t('ov.empty'))}</div>`;
+ const contagem=noticias.total!=null
+  ? `<p class="small muted">${escape(t('rd.contagem',{regionais:n(noticias.regionais||0),total:n(noticias.total)}))}</p>`:'';
  const atualizado=noticias.atualizado_em
   ? `<p class="small muted">${escape(t('rd.atualizado'))} ${escape(noticias.atualizado_em.slice(0,16).replace('T',' '))}</p>`:'';
- return atualizado+items}
+ return contagem+atualizado+items}
 
 function trendBlock(noticias){
  if(!noticias.disponivel)return '';

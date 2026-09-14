@@ -1,13 +1,42 @@
 {
-  "comment": "Fontes e léxicos do radar. Editar aqui não exige mexer no código.",
+  "comment": "Fontes e léxicos do radar. Editar aqui não exige mexer no código. 'tipo' distingue feed do próprio veículo ('editor') de busca agregada ('busca'). Rode 'python3 news/radar.py --check' para ver quais respondem.",
   "min_items_for_trend": 3,
   "sources": [
-    {"name": "Google Notícias · terras raras", "url": "https://news.google.com/rss/search?q=%22terras+raras%22&hl=pt-BR&gl=BR&ceid=BR:pt-419", "lang": "pt"},
-    {"name": "Google Notícias · preço energia elétrica", "url": "https://news.google.com/rss/search?q=%22energia+el%C3%A9trica%22+pre%C3%A7o&hl=pt-BR&gl=BR&ceid=BR:pt-419", "lang": "pt"},
-    {"name": "Google Notícias · mineração Goiás", "url": "https://news.google.com/rss/search?q=minera%C3%A7%C3%A3o+Goi%C3%A1s&hl=pt-BR&gl=BR&ceid=BR:pt-419", "lang": "pt"},
-    {"name": "Google News · rare earth prices", "url": "https://news.google.com/rss/search?q=%22rare+earth%22+price&hl=en-US&gl=US&ceid=US:en", "lang": "en"},
-    {"name": "Mining.com", "url": "https://www.mining.com/feed/", "lang": "en"}
+    {"name": "Agência Brasil · economia", "url": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml", "lang": "pt", "tipo": "editor", "escopo": "nacional"},
+    {"name": "Agência Brasil · últimas", "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml", "lang": "pt", "tipo": "editor", "escopo": "nacional"},
+    {"name": "ANM · notícias", "url": "https://www.gov.br/anm/pt-br/assuntos/noticias/RSS", "lang": "pt", "tipo": "editor", "escopo": "setorial"},
+    {"name": "Ministério de Minas e Energia", "url": "https://www.gov.br/mme/pt-br/assuntos/noticias/RSS", "lang": "pt", "tipo": "editor", "escopo": "setorial"},
+    {"name": "IBRAM · indústria mineral", "url": "https://ibram.org.br/feed/", "lang": "pt", "tipo": "editor", "escopo": "setorial"},
+    {"name": "Brasil Mineral", "url": "https://www.brasilmineral.com.br/feed", "lang": "pt", "tipo": "editor", "escopo": "setorial"},
+    {"name": "InfoMoney", "url": "https://www.infomoney.com.br/feed/", "lang": "pt", "tipo": "editor", "escopo": "nacional"},
+    {"name": "Poder360", "url": "https://www.poder360.com.br/feed/", "lang": "pt", "tipo": "editor", "escopo": "nacional"},
+    {"name": "Jornal Opção · Goiás", "url": "https://www.jornalopcao.com.br/feed/", "lang": "pt", "tipo": "editor", "escopo": "regional"},
+    {"name": "Mais Goiás", "url": "https://www.maisgoias.com.br/feed/", "lang": "pt", "tipo": "editor", "escopo": "regional"},
+    {"name": "Mining.com", "url": "https://www.mining.com/feed/", "lang": "en", "tipo": "editor", "escopo": "internacional"},
+    {"name": "Mining Weekly", "url": "https://www.miningweekly.com/rss", "lang": "en", "tipo": "editor", "escopo": "internacional"},
+    {"name": "The Northern Miner", "url": "https://www.northernminer.com/feed/", "lang": "en", "tipo": "editor", "escopo": "internacional"},
+    {"name": "Mining Technology", "url": "https://www.mining-technology.com/feed/", "lang": "en", "tipo": "editor", "escopo": "internacional"},
+    {"name": "Power Technology", "url": "https://www.power-technology.com/feed/", "lang": "en", "tipo": "editor", "escopo": "internacional"},
+
+    {"name": "Busca · terras raras", "url": "https://news.google.com/rss/search?q=%22terras+raras%22&hl=pt-BR&gl=BR&ceid=BR:pt-419", "lang": "pt", "tipo": "busca", "escopo": "nacional"},
+    {"name": "Busca · mineração em Goiás", "url": "https://news.google.com/rss/search?q=minera%C3%A7%C3%A3o+Goi%C3%A1s&hl=pt-BR&gl=BR&ceid=BR:pt-419", "lang": "pt", "tipo": "busca", "escopo": "regional"},
+    {"name": "Busca · níquel e nióbio em Goiás", "url": "https://news.google.com/rss/search?q=(n%C3%ADquel+OR+ni%C3%B3bio)+Goi%C3%A1s&hl=pt-BR&gl=BR&ceid=BR:pt-419", "lang": "pt", "tipo": "busca", "escopo": "regional"},
+    {"name": "Busca · preço da energia elétrica", "url": "https://news.google.com/rss/search?q=%22energia+el%C3%A9trica%22+pre%C3%A7o&hl=pt-BR&gl=BR&ceid=BR:pt-419", "lang": "pt", "tipo": "busca", "escopo": "nacional"},
+    {"name": "Busca · rare earth prices", "url": "https://news.google.com/rss/search?q=%22rare+earth%22+price&hl=en-US&gl=US&ceid=US:en", "lang": "en", "tipo": "busca", "escopo": "internacional"},
+    {"name": "Busca · Brazil mining investment", "url": "https://news.google.com/rss/search?q=Brazil+mining+investment&hl=en-US&gl=US&ceid=US:en", "lang": "en", "tipo": "busca", "escopo": "internacional"},
+    {"name": "Busca · nickel and niobium prices", "url": "https://news.google.com/rss/search?q=(nickel+OR+niobium)+price&hl=en-US&gl=US&ceid=US:en", "lang": "en", "tipo": "busca", "escopo": "internacional"}
   ],
+  "region": {
+    "comment": "Uma matéria é regional se cita o estado, ou se cita um destes municípios junto de um termo mineral/energético. Os municípios foram escolhidos entre os de maior CFEM de Goiás, descartando nomes que se repetem em outros estados.",
+    "estado": ["goias", "goiano", "goiana", "goianos", "goianas", "goiania"],
+    "municipios": ["alto horizonte", "barro alto", "catalao", "ouvidor", "crixas", "minacu",
+                   "mara rosa", "vila propicio", "indiara", "niquelandia", "campos verdes",
+                   "americano do brasil", "cavalcante", "uruacu", "porangatu", "itapaci",
+                   "sao luis de montes belos", "goianesia", "itumbiara", "quirinopolis"],
+    "contexto": ["mineracao", "mineradora", "minerio", "mina", "lavra", "jazida", "cfem", "anm",
+                 "energia", "eletrica", "usina", "linha de transmissao", "subestacao",
+                 "mining", "mine", "ore", "smelter", "refinery", "power plant", "grid"]
+  },
   "commodities": {
     "terras_raras": ["terras raras", "terra rara", "rare earth", "neodimio", "neodímio", "praseodimio", "praseodímio", "disprosio", "disprósio", "terbio", "térbio", "samario", "samário", "ndpr", "lantanio", "lantânio", "cerio", "cério"],
     "energia_eletrica": ["energia eletrica", "energia elétrica", "electricity", "power price", "megawatt", "mwh", "pld", "tarifa de energia", "conta de luz", "bandeira tarifaria", "bandeira tarifária"],
@@ -16,6 +45,7 @@
     "niobio": ["niobio", "nióbio", "niobium"],
     "cobre": ["cobre", "copper"],
     "ouro": ["ouro", "gold"],
+    "fosfato": ["fosfato", "phosphate", "fertilizante", "fertiliser", "fertilizer"],
     "uranio": ["uranio", "urânio", "uranium"],
     "gas_natural": ["gas natural", "gás natural", "natural gas", "lng", "gnl"]
   },

@@ -8,6 +8,33 @@ O radar **não produz série de preços**. Ele não cota commodity, não consult
 
 Isso é um indício antecedente, não um dado de preço. Uma semana com muita notícia de alta pode refletir repercussão de um mesmo fato. Use como alerta para investigar, nunca como número para relatório.
 
+## Fontes
+
+`feeds.json` traz 22 fontes, divididas em dois tipos:
+
+- **`editor`** — feed do próprio veículo. Agências oficiais (Agência Brasil, ANM, MME), setoriais (IBRAM, Brasil Mineral), imprensa nacional (InfoMoney, Poder360), regional de Goiás (Jornal Opção, Mais Goiás) e internacional (Mining.com, Mining Weekly, The Northern Miner, Mining Technology, Power Technology).
+- **`busca`** — consulta agregada do Google Notícias, que alcança veículos sem RSS próprio: terras raras, mineração em Goiás, níquel e nióbio em Goiás, preço da energia, *rare earth prices*, *Brazil mining investment*, *nickel and niobium prices*.
+
+Cada fonte declara também um `escopo`: regional, nacional, setorial ou internacional.
+
+> **Estes endereços não foram testados contra a rede.** Foram montados a partir dos padrões de RSS de cada veículo, mas nenhum foi confirmado daqui. Rode o comando abaixo na primeira instalação e remova do `feeds.json` os que não responderem:
+>
+> ```sh
+> python3 news/radar.py --check
+> ```
+>
+> Ele imprime uma linha por fonte com status e quantidade de itens, e não grava nada no banco.
+
+## Relevância para a região
+
+Cada matéria é marcada como regional ou não, e a marca aparece no painel.
+
+Uma matéria é **regional** quando cita o estado (Goiás, goiano, Goiânia…) **ou** quando cita um dos vinte municípios mineradores da lista **junto de** um termo mineral ou energético. Município sozinho não basta: "Barro Alto" também existe na Bahia e "Indiara sedia festival de música" não é notícia do setor.
+
+A comparação é por palavra inteira. Sem isso, o termo em inglês `mine` casaria dentro de "**mine**ral" e `mina` dentro de "ter**mina**r", marcando como regional matéria que não é.
+
+Os municípios da lista saíram dos de maior CFEM de Goiás, descartando nomes que se repetem em outros estados.
+
 ## Como funciona
 
 1. **Coleta** — lê os feeds RSS/Atom de `feeds.json`. Cada matéria é identificada pelo hash do link, então reexecutar no mesmo dia não duplica nada. Um feed fora do ar não derruba os outros: a execução termina como `partial` e registra o erro na fonte.
@@ -28,7 +55,7 @@ Isso é um indício antecedente, não um dado de preço. Uma semana com muita no
 |---|---|
 | `news_runs` | Histórico das execuções, versão do radar e relatório completo |
 | `news_sources` | Feeds configurados, último status e última leitura |
-| `news_items` | Matérias com título, link, resumo, data de publicação e execução de origem |
+| `news_items` | Matérias com título, link, resumo, data de publicação, execução de origem e marca de relevância regional |
 | `news_signals` | Um sinal por substância e frase: direção, confiança, evidência e preço citado |
 | `news_trends` | Balanço semanal por substância, com score e veredito |
 
@@ -61,6 +88,6 @@ A instalação segue o padrão dos outros serviços: o programa e o `feeds.json`
 - **Título e resumo apenas.** O radar não abre a matéria; o RSS do Google News costuma trazer resumo curto, o que reduz o material analisado.
 - **Uma matéria replicada por vários veículos** conta como várias, inflando o score. O mínimo de matérias reduz o efeito, mas não elimina.
 - **Preço citado não é preço de mercado.** Pode ser valor de contrato, de projeção ou de outro período. Nada é convertido entre moedas ou unidades.
-- **Sem recorte de Goiás.** As fontes são nacionais e internacionais; o radar não filtra por estado.
+- **A marca regional é lexical.** Ela não lê negação nem contexto: uma matéria que diga "sem relação com a mineração em Catalão" ainda seria marcada. Ela ordena a leitura, não decide relevância.
 
 Para virar produção, o caminho é: rotular uma amostra à mão para medir acerto do léxico, deduplicar matérias por similaridade de título, e só então comparar os sinais com uma série de preço de verdade para ver se antecipam alguma coisa.

@@ -48,10 +48,11 @@ def schema(connection):
     CREATE TABLE IF NOT EXISTS news_runs(run_id TEXT PRIMARY KEY, started_at TEXT NOT NULL,
       finished_at TEXT, status TEXT NOT NULL, radar_version TEXT NOT NULL, summary_json TEXT);
     CREATE TABLE IF NOT EXISTS news_sources(source_id TEXT PRIMARY KEY, name TEXT NOT NULL,
-      url TEXT NOT NULL, lang TEXT, last_status TEXT, last_seen TEXT);
+      url TEXT NOT NULL, lang TEXT, last_status TEXT, last_seen TEXT, tipo TEXT, escopo TEXT);
     CREATE TABLE IF NOT EXISTS news_items(item_id TEXT PRIMARY KEY, source_id TEXT NOT NULL,
       title TEXT NOT NULL, link TEXT NOT NULL, summary TEXT, published_at TEXT,
-      first_seen TEXT NOT NULL, run_id TEXT NOT NULL);
+      first_seen TEXT NOT NULL, run_id TEXT NOT NULL, regional INTEGER NOT NULL DEFAULT 0,
+      regiao_termo TEXT);
     CREATE TABLE IF NOT EXISTS news_signals(item_id TEXT NOT NULL, commodity TEXT NOT NULL,
       direction TEXT NOT NULL, confidence REAL NOT NULL, evidence TEXT NOT NULL,
       price_currency TEXT, price_amount REAL, price_unit TEXT,
@@ -135,6 +136,31 @@ def read_price(sentence):
             'unit': re.sub(r'\s+', '', unit).lower() if unit else None}
 
 
+def mentions(folded, term):
+    """Whole-word match: short terms like 'mine' or 'mina' would otherwise hit inside
+    'mineral' or 'terminar' and make unrelated stories look regional.
+    """
+    return re.search(rf'\b{re.escape(fold(term))}\b', folded) is not None
+
+
+def region_hit(text, config):
+    """Regional when the state is named, or when a Goias mining municipality appears
+    next to a mining or energy term. A municipality alone is not enough: several of
+    these names exist in other states too.
+    """
+    region = config.get('region') or {}
+    folded = fold(text)
+    for term in region.get('estado', []):
+        if mentions(folded, term):
+            return term
+    if not any(mentions(folded, word) for word in region.get('contexto', [])):
+        return None
+    for town in region.get('municipios', []):
+        if mentions(folded, town):
+            return town
+    return None
+
+
 def analyse(item, config):
     """One signal per commodity per sentence that also carries a direction word."""
     text = f"{item['title']}. {item.get('summary') or ''}"
@@ -172,26 +198,30 @@ def period_of(item):
 
 
 def collect(connection, config, fetcher, run_id):
-    report = {'sources': [], 'new_items': 0, 'signals': 0, 'errors': 0}
+    report = {'sources': [], 'new_items': 0, 'signals': 0, 'errors': 0, 'regional': 0}
     for source in config['sources']:
         source_id = hashlib.sha256(source['url'].encode()).hexdigest()[:32]
-        entry = {'name': source['name'], 'items': 0, 'new': 0}
+        entry = {'name': source['name'], 'tipo': source.get('tipo'), 'escopo': source.get('escopo'), 'items': 0, 'new': 0}
         try:
             payload = fetcher(source['url'])
             entries = parse_feed(payload)
             entry['items'] = len(entries)
             connection.execute(
-                'INSERT INTO news_sources VALUES(?,?,?,?,?,?) ON CONFLICT(source_id) DO UPDATE '
+                'INSERT INTO news_sources VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(source_id) DO UPDATE '
                 'SET last_status=excluded.last_status,last_seen=excluded.last_seen',
-                (source_id, source['name'], source['url'], source.get('lang'), 'ok', timestamp()))
+                (source_id, source['name'], source['url'], source.get('lang'), 'ok', timestamp(),
+                 source.get('tipo'), source.get('escopo')))
             for found in entries:
                 item_id = hashlib.sha256(found['link'].encode()).hexdigest()
                 if connection.execute('SELECT 1 FROM news_items WHERE item_id=?', (item_id,)).fetchone():
                     continue
                 item = {**found, 'first_seen': timestamp()}
-                connection.execute('INSERT INTO news_items VALUES(?,?,?,?,?,?,?,?)',
+                term = region_hit(f"{item['title']}. {item.get('summary') or ''}", config)
+                connection.execute('INSERT INTO news_items VALUES(?,?,?,?,?,?,?,?,?,?)',
                                    (item_id, source_id, item['title'], item['link'], item['summary'],
-                                    item['published_at'], item['first_seen'], run_id))
+                                    item['published_at'], item['first_seen'], run_id,
+                                    1 if term else 0, term))
+                report['regional'] += 1 if term else 0
                 for signal in analyse(item, config):
                     price = signal['price'] or {}
                     connection.execute(
@@ -206,9 +236,10 @@ def collect(connection, config, fetcher, run_id):
             entry['error'] = f'{type(error).__name__}: {error}'
             report['errors'] += 1
             connection.execute(
-                'INSERT INTO news_sources VALUES(?,?,?,?,?,?) ON CONFLICT(source_id) DO UPDATE '
+                'INSERT INTO news_sources VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(source_id) DO UPDATE '
                 'SET last_status=excluded.last_status,last_seen=excluded.last_seen',
-                (source_id, source['name'], source['url'], source.get('lang'), entry['error'][:200], timestamp()))
+                (source_id, source['name'], source['url'], source.get('lang'), entry['error'][:200],
+                 timestamp(), source.get('tipo'), source.get('escopo')))
         report['sources'].append(entry)
         connection.commit()
     return report
@@ -287,15 +318,41 @@ def offline_fetcher(directory):
     return fetcher
 
 
+def check(config, fetcher=fetch):
+    """Report which feeds actually answer, so dead ones can be pruned in one run."""
+    results = []
+    for source in config['sources']:
+        entry = {'name': source['name'], 'tipo': source.get('tipo'), 'escopo': source.get('escopo')}
+        try:
+            entries = parse_feed(fetcher(source['url']))
+            entry.update(status='ok', items=len(entries))
+        except (urllib.error.URLError, ET.ParseError, OSError, ValueError) as error:
+            entry.update(status='falhou', items=0, error=f'{type(error).__name__}: {error}'[:120])
+        results.append(entry)
+    return results
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description='Prototype news radar for energy and rare earths.')
     parser.add_argument('--db', default='/var/lib/minera-goias-news/radar.sqlite')
     parser.add_argument('--config', default=str(Path(__file__).with_name('feeds.json')))
     parser.add_argument('--report', help='write the run report as JSON to this path')
     parser.add_argument('--offline-dir', help='read feeds from .xml fixtures instead of the network')
+    parser.add_argument('--check', action='store_true',
+                        help='only test whether each feed answers, without storing anything')
     args = parser.parse_args(argv)
 
     config = json.loads(Path(args.config).read_text(encoding='utf-8'))
+    if args.check:
+        fetcher = offline_fetcher(args.offline_dir) if args.offline_dir else fetch
+        working = 0
+        for entry in check(config, fetcher):
+            mark = 'ok  ' if entry['status'] == 'ok' else 'FALHA'
+            working += entry['status'] == 'ok'
+            detail = f"{entry['items']:>3} itens" if entry['status'] == 'ok' else entry.get('error', '')
+            print(f"  {mark} [{entry.get('escopo') or '-':<13}] {entry['name']:<34} {detail}")
+        print(f'{working}/{len(config["sources"])} fontes responderam')
+        return 0 if working else 1
     Path(args.db).parent.mkdir(parents=True, exist_ok=True)
     fetcher = offline_fetcher(args.offline_dir) if args.offline_dir else fetch
     report = run(args.db, config, fetcher)

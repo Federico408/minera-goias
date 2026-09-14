@@ -34,7 +34,7 @@ header .lang-switch button.active{background:rgba(255,255,255,.14);color:inherit
 .rd-news{list-style:none;margin:14px 0 0;padding:0}
 .rd-news li{border-top:1px solid var(--line);padding:11px 0}
 .rd-news li:first-child{border-top:0}
-.rd-news a{display:block;font-weight:600;font-size:13px;line-height:1.45}
+.rd-news a{font-weight:600;font-size:13px;line-height:1.45}
 .rd-news span{display:block;font-size:11px;margin-top:3px}
 #radar-view table{width:100%;border-collapse:collapse;font-size:12px}
 #radar-view .table-wrap{max-height:420px;overflow-y:auto}

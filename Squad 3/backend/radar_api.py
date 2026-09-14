@@ -92,9 +92,14 @@ def news(limit=12):
     conn = sqlite3.connect(f'file:{path}?mode=ro', uri=True, timeout=10)
     conn.row_factory = sqlite3.Row
     try:
-        items = conn.execute('''SELECT i.title, i.link, i.published_at, i.first_seen, s.name AS fonte
+        # Regional stories first: they are the ones that bear on Goias.
+        items = conn.execute('''SELECT i.title, i.link, i.published_at, i.first_seen, i.regional,
+            i.regiao_termo, s.name AS fonte, s.escopo
             FROM news_items i LEFT JOIN news_sources s ON s.source_id=i.source_id
-            ORDER BY COALESCE(i.published_at, i.first_seen) DESC LIMIT ?''', (limit,)).fetchall()
+            ORDER BY i.regional DESC, COALESCE(i.published_at, i.first_seen) DESC LIMIT ?''',
+            (limit,)).fetchall()
+        regional_total = conn.execute('SELECT COUNT(*) FROM news_items WHERE regional=1').fetchone()[0]
+        total = conn.execute('SELECT COUNT(*) FROM news_items').fetchone()[0]
         trends = conn.execute('''SELECT period, commodity, items, up, down, price_points, score, verdict
             FROM news_trends ORDER BY period DESC, commodity LIMIT 40''').fetchall()
         run = conn.execute("SELECT finished_at, status FROM news_runs WHERE finished_at IS NOT NULL "
@@ -109,6 +114,8 @@ def news(limit=12):
         'ultima_execucao': run['status'] if run else None,
         'itens': [dict(row) for row in items],
         'tendencias': [dict(row) for row in trends],
+        'regionais': regional_total,
+        'total': total,
     }
 
 
