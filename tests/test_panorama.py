@@ -72,6 +72,8 @@ class PanoramaTests(unittest.TestCase):
         # Every chart text uses the one FONT size set on the svg root, never a size of its own.
         charts = (ROOT / 'public' / 'panorama-charts.js').read_text(encoding='utf-8')
         self.assertIn('const FONT=12', charts)
+        # Stacked columns print the column total on top.
+        self.assertIn('const all=tot(i),txt=short(all)', charts)
         self.assertEqual(re.findall(r'font-size="\d', charts), [])
 
 

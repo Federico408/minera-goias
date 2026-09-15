@@ -50,7 +50,9 @@ function vbar(labels,series,o={}){
  const k=every(labels,step),single=series.length===1;
  labels.forEach((lab,i)=>{const x0=left+i*step,op=o.partial&&o.partial.has(lab)?.55:1;
   if(stacked){let base=bottom;series.forEach((se,j)=>{const v=se.values[i]||0,hh=v/max*(bottom-top);
-   if(hh>0){s+=`<rect class="pn-mark" x="${x0+step*.18}" y="${base-hh}" width="${step*.64}" height="${hh}" fill="${color(se,j)}" opacity="${op}" data-tip="${tip(lab,se.name+': '+f(v))}"/>`;base-=hh}})}
+   if(hh>0){s+=`<rect class="pn-mark" x="${x0+step*.18}" y="${base-hh}" width="${step*.64}" height="${hh}" fill="${color(se,j)}" opacity="${op}" data-tip="${tip(lab,se.name+': '+f(v))}"/>`;base-=hh}});
+   // The column total sits above the stack; hovering a segment still shows only that segment.
+   const all=tot(i),txt=short(all);if(all>0&&step>=txt.length*CHAR+4)s+=`<text x="${x0+step/2}" y="${base-6}" text-anchor="middle" fill="#4a6070" font-weight="600">${E(txt)}</text>`}
   else if(single){const v=series[0].values[i]||0,hh=Math.max(v,0)/max*(bottom-top),txt=short(v);
    s+=`<g class="pn-col" data-tip="${tip(lab,f(v))}"><rect x="${x0}" y="${top}" width="${step}" height="${bottom-top}" fill="transparent"/>`
     +`<rect class="pn-mark" x="${x0+step*.15}" y="${bottom-hh}" width="${step*.7}" height="${hh}" rx="2" fill="${color(series[0],0)}" opacity="${op}"/></g>`;
