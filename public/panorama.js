@@ -53,20 +53,22 @@ function draw(d){const box=el('pn-c-'+d.id).querySelector('.pn-out');C.setWidth(
 function readFilters(){let a=+el('pn-y0').value,b=+el('pn-y1').value;if(a>b)[a,b]=[b,a];
  Object.assign(F,{y0:a,y1:b,mes:+el('pn-mes').value,mun:+el('pn-mun').value,min:+el('pn-min').value,emp:norm(el('pn-emp').value.trim()),
   fase:+el('pn-fase').value,rub:+el('pn-rub').value,ramo:+el('pn-ramo').value})}
-function describe(){const parts=[X.period(1900,2100)];
- if(F.mes)parts.push(new Date(2020,F.mes-1,1).toLocaleString(I18N.locale(),{month:'long'}));
- if(F.mun>=0)parts.push(X.mun(F.mun));if(F.min>=0)parts.push(X.min(F.min));if(F.emp)parts.push('“'+el('pn-emp').value.trim()+'”');
- if(F.fase>=0)parts.push(P.dims.fase[F.fase]);if(F.rub>=0)parts.push(t(`pn.rub.${P.dims.rubrica[F.rub]}`));if(F.ramo>=0)parts.push(P.dims.ramo[F.ramo]);
- return t('pn.cut')+' '+parts.join(' · ')}
+// The cut line only names the filters shown in the active tab.
+function describe(){const u=X.used||new Set(FILTERS),parts=[];if(u.has('ano'))parts.push(X.period(1900,2100));
+ if(u.has('mes')&&F.mes)parts.push(new Date(2020,F.mes-1,1).toLocaleString(I18N.locale(),{month:'long'}));
+ if(u.has('mun')&&F.mun>=0)parts.push(X.mun(F.mun));if(u.has('min')&&F.min>=0)parts.push(X.min(F.min));if(u.has('emp')&&F.emp)parts.push('“'+el('pn-emp').value.trim()+'”');
+ if(u.has('fase')&&F.fase>=0)parts.push(P.dims.fase[F.fase]);if(u.has('rub')&&F.rub>=0)parts.push(t(`pn.rub.${P.dims.rubrica[F.rub]}`));if(u.has('ramo')&&F.ramo>=0)parts.push(P.dims.ramo[F.ramo]);
+ return parts.length?t('pn.cut')+' '+parts.join(' · '):''}
 const visible=()=>{const secs=TABS.find(([id])=>id===tab)[1];return cards.filter(d=>secs.includes(d.sec))};
-function render(){X.cache={};readFilters();visible().forEach(draw);el('pn-context').textContent=describe()}
+function render(){X.cache={};readFilters();visible().forEach(draw);const cut=describe();el('pn-context').textContent=cut;el('pn-context').hidden=!cut}
 function showTab(id){tab=id;try{localStorage.setItem('minera-pn-tab',id)}catch{}
  const secs=TABS.find(([k])=>k===id)[1];
  el('pn-tabs').querySelectorAll('[data-tab]').forEach(b=>{const on=b.dataset.tab===id;b.classList.toggle('active',on);b.setAttribute('aria-selected',String(on));b.tabIndex=on?0:-1});
  SECTIONS.forEach(s=>{el('pn-s-'+s).hidden=!secs.includes(s)});
- // Filters that no card of this tab reads stay usable but faded, with a tooltip saying so.
- const used=new Set(visible().flatMap(d=>d.filters));
- for(const [k,ids] of Object.entries(FILTER_IDS))ids.forEach(i=>{const w=el(i).closest('div');w.classList.toggle('pn-off',!used.has(k));w.title=used.has(k)?'':t('pn.filterNotUsed')});
+ // Only the filters read by some card of this tab are shown; the others keep their value for the tabs that use them.
+ const used=X.used=new Set(visible().flatMap(d=>d.filters));
+ for(const [k,ids] of Object.entries(FILTER_IDS))ids.forEach(i=>{el(i).closest('div').hidden=!used.has(k)});
+ document.querySelector('#panorama-view .pn-filters').hidden=!used.size;el('pn-context').hidden=!used.size;
  render()}
 function options(select,items,all){select.innerHTML=(all?`<option value="-1">${E(all)}</option>`:'')+items.map(([v,l])=>`<option value="${E(v)}">${E(l)}</option>`).join('')}
 function fillFilters(){const years=[];for(let y=2001;y<=2026;y++)years.push([y,y]);

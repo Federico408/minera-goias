@@ -64,6 +64,10 @@ class PanoramaTests(unittest.TestCase):
         self.assertIn('id="pn-tabs"', markup)
         self.assertLess(markup.index('id="pn-tabs"'), markup.index('class="pn-filters"'))
         self.assertNotIn('id="pn-nav"', markup)
+        # Each tab shows only the filters its cards read.
+        panorama = (ROOT / 'public' / 'panorama.js').read_text(encoding='utf-8')
+        self.assertIn("closest('div').hidden=!used.has(k)", panorama)
+        self.assertNotIn('pn-off', panorama)
         self.assertIn("api('/panorama')", (ROOT / 'public' / 'panorama.js').read_text(encoding='utf-8'))
         # Every chart text uses the one FONT size set on the svg root, never a size of its own.
         charts = (ROOT / 'public' / 'panorama-charts.js').read_text(encoding='utf-8')
