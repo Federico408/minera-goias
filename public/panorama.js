@@ -1,11 +1,11 @@
 /* Panorama tab: the charts and tables of the "Panorama da Mineração de Goiás", rebuilt from the Squad 1 base and filtered in the browser. */
 (()=>{'use strict';
 const el=id=>document.getElementById(id),C=window.PNC,E=C.E;
-const SECTIONS=['cfem','geo','subs','prod','usos','terr','pesq','rod','emp','energia','barr','nr'];
+const SECTIONS=['cfem','geo','subs','prod','usos','terr','pesq','proj','rod','emp','energia','intens','barr','nr'];
 const FILTERS=['ano','mes','mun','min','emp','fase','rub','ramo'];
 // Tabs group the sections of the same kind of analysis; only the cards of the active tab are drawn.
-const TABS=[['arrecadacao',['cfem','subs']],['territorio',['geo','usos','terr']],['producao',['prod']],['pesquisa',['pesq','rod']],
- ['empresas',['emp']],['energia',['energia']],['barragens',['barr']],['notas',['nr']]];
+const TABS=[['arrecadacao',['cfem','subs']],['territorio',['geo','usos','terr']],['producao',['prod']],['pesquisa',['pesq','proj','rod']],
+ ['empresas',['emp']],['energia',['energia','intens']],['barragens',['barr']],['notas',['nr']]];
 const FILTER_IDS={ano:['pn-y0','pn-y1'],mes:['pn-mes'],mun:['pn-mun'],min:['pn-min'],emp:['pn-emp'],fase:['pn-fase'],rub:['pn-rub'],ramo:['pn-ramo']};
 let tab='arrecadacao';try{const saved=localStorage.getItem('minera-pn-tab');if(TABS.some(([id])=>id===saved))tab=saved}catch{}
 const F={y0:2010,y1:2026,mes:0,mun:-1,min:-1,emp:'',fase:-1,rub:-1,ramo:-1};
@@ -41,7 +41,7 @@ const X={F,C,E,t:(k,v)=>t(k,v),norm,cache:{},mapMetric:'cfem',
   &&(skip.includes('rub')||F.rub<0||r[2]===F.rub)))},
  invBr(){return X.memo('invBr',()=>P.inv_br.rows.filter(r=>r[0]>=F.y0&&r[0]<=F.y1&&(F.rub<0||r[1]===F.rub)))},
  rod(skip=[]){return X.memo('rod'+skip,()=>P.rod.rows.filter(r=>(skip.includes('mun')||F.mun<0||r[4]===F.mun)&&(F.min<0||r[9]===F.min)))},
- ceName:i=>P.dims.ce[i][1],
+ ceName:i=>P.dims.ce[i][1],distRamo:-1,isDist:i=>i===X.distRamo,
  ccee(skip=[]){return X.memo('ccee'+skip,()=>P.ccee.rows.filter(r=>{const y=Math.floor(r[0]/100);return y>=F.y0&&y<=F.y1&&(skip.includes('mes')||!F.mes||r[0]%100===F.mes)
   &&(skip.includes('mun')||F.mun<0||r[1]===F.mun)&&(skip.includes('ramo')||F.ramo<0||r[2]===F.ramo)&&(F.emp===''||norm(P.dims.ce[r[3]][1]).includes(F.emp))}))},
  pickMun(code){const i=P.dims.mun.findIndex(m=>m[0]===code);el('pn-mun').value=String(i);render()},
@@ -94,7 +94,7 @@ function bind(){for(const id of ['pn-y0','pn-y1','pn-mes','pn-mun','pn-min','pn-
   if(innerWidth===lastWidth||el('panorama-view').hidden)return;lastWidth=innerWidth;visible().forEach(draw)},250)});
  el('pn-reset').onclick=()=>{el('pn-y0').value=2010;el('pn-y1').value=2026;for(const id of ['pn-mes'])el(id).value=0;
   for(const id of ['pn-mun','pn-min','pn-fase','pn-rub','pn-ramo'])el(id).value=-1;el('pn-emp').value='';render()}}
-async function init(){const [p,a]=await Promise.all([api('/panorama'),api('/atlas').catch(()=>null)]);P=p;X.A=a;
+async function init(){const [p,a]=await Promise.all([api('/panorama'),api('/atlas').catch(()=>null)]);P=p;X.A=a;X.distRamo=P.dims.ramo.indexOf(P.meta.ccee_distribuidora);
  fillFilters();build();bind();el('pn-content').hidden=false;showTab(tab);
  el('pn-source').textContent=t('pn.source',{v:P.meta.versao_base,d:P.meta.built_on})}
 window.showPanorama=async()=>{el('pn-error').textContent='';try{if(!loading)loading=init().catch(e=>{loading=null;throw e});await loading}

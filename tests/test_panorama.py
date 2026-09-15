@@ -42,6 +42,12 @@ class PanoramaTests(unittest.TestCase):
         self.assertEqual(len(d['rod']['rows']), 3632)
         self.assertEqual(sum(1 for r in d['rod']['rows'] if situacao[r[1]] == 'Arrematada'), 942)
 
+    def test_ccee_distributors_are_their_own_group(self):
+        # Loads without a sector are the distributors (captive market), kept apart from the free-market sectors.
+        ramo = self.d['dims']['ramo']
+        self.assertIn(self.d['meta']['ccee_distribuidora'], ramo)
+        self.assertNotIn('—', ramo)
+
     def test_only_companies_are_named(self):
         for cid, nome, raiz, tipo in self.d['dims']['emp']:
             if nome is not None:
@@ -57,9 +63,10 @@ class PanoramaTests(unittest.TestCase):
     def test_page_wires_the_tab(self):
         markup = (ROOT / 'public' / 'painel.html').read_text(encoding='utf-8')
         self.assertEqual(re.findall(r'data-view="(\w+)"', markup)[:3], ['atlas', 'panorama', 'radar'])
-        for script in ('panorama-charts.js', 'panorama-cards1.js', 'panorama-cards2.js', 'panorama-cards3.js', 'panorama.js'):
+        for script in ('panorama-charts.js', 'panorama-cards1.js', 'panorama-cards2.js', 'panorama-cards3.js', 'panorama-analises.js', 'panorama.js'):
             self.assertIn(f'src="/{script}"', markup)
         self.assertLess(markup.index('/panorama-cards3.js'), markup.index('/panorama.js"'))
+        self.assertLess(markup.index('/panorama-analises.js'), markup.index('/panorama.js"'))
         # The category tabs sit above the filters.
         self.assertIn('id="pn-tabs"', markup)
         self.assertLess(markup.index('id="pn-tabs"'), markup.index('class="pn-filters"'))

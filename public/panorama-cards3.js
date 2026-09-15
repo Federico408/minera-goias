@@ -45,23 +45,23 @@ cards.push(
  C.table(box,[{label:'#',key:'pos',num:1},{label:X.t('pn.h.holder'),key:'emp'},{label:X.t('pn.h.alvaras'),key:'n',num:1,fmt:v=>C.fmt(v)},{label:X.t('pn.h.area'),key:'ha',num:1,fmt:v=>C.fmt(v,0)},
   {label:X.t('pn.h.mins'),key:'mins'},{label:X.t('pn.h.muns'),key:'muns',num:1,fmt:v=>C.fmt(v)}],holders(X,[X.PESQUISA]),{limit:12})}},
 
-{id:'ee_tiles',sec:'energia',wide:true,filters:['ano','mes','mun','ramo','emp'],render(X){const C=X.C,P=X.P,rows=X.ccee(),s=i=>rows.reduce((a,r)=>a+r[i],0),tot=s(6),acl=s(4),
-  min=rows.filter(r=>X.MINING_RAMOS.includes(P.dims.ramo[r[2]])).reduce((a,r)=>a+r[6],0),emps=new Set(rows.map(r=>r[3]));
+{id:'ee_tiles',sec:'energia',wide:true,filters:['ano','mes','mun','ramo','emp'],render(X){const C=X.C,P=X.P,rows=X.ccee(),free=rows.filter(r=>!X.isDist(r[2])),tot=rows.reduce((a,r)=>a+r[6],0),acl=free.reduce((a,r)=>a+r[6],0),
+  min=free.filter(r=>X.MINING_RAMOS.includes(P.dims.ramo[r[2]])).reduce((a,r)=>a+r[6],0),emps=new Set(free.map(r=>r[3]));
  return '<div class="metrics pn-tiles">'+C.tiles([
   ['tone-a',X.t('pn.k.eeTotal'),C.fmt(tot/1000,1)+' GWh',X.t('pn.k.eeTotalSub',{p:X.period(2024,2026)})],
-  ['tone-b',X.t('pn.k.eeAcl'),C.fmt(acl/1000,1)+' GWh',X.t('pn.k.eeAclSub',{v:C.fmt(tot?acl/tot*100:0,1),c:C.fmt(s(5)/1000,1)})],
-  ['tone-c',X.t('pn.k.eeMin'),C.fmt(min/1000,1)+' GWh',X.t('pn.k.eeMinSub',{v:C.fmt(tot?min/tot*100:0,1)})],
+  ['tone-b',X.t('pn.k.eeAcl'),C.fmt(acl/1000,1)+' GWh',X.t('pn.k.eeAclSub',{v:C.fmt(tot?acl/tot*100:0,1),c:C.fmt((tot-acl)/1000,1)})],
+  ['tone-c',X.t('pn.k.eeMin'),C.fmt(min/1000,1)+' GWh',X.t('pn.k.eeMinSub',{v:C.fmt(acl?min/acl*100:0,1)})],
   ['tone-d',X.t('pn.k.eeEmp'),C.fmt(emps.size),X.t('pn.k.eeEmpSub',{n:C.fmt([...emps].filter(i=>P.dims.ce[i][2]>=0).length)})]])+'</div>'}},
-{id:'ee_ramo',sec:'energia',filters:['ano','mes','mun','emp'],render(X){const C=X.C,by=X.sumBy(X.ccee(['ramo']),r=>r[2],r=>r[6]/1000);
+{id:'ee_ramo',sec:'energia',filters:['ano','mes','mun','emp'],render(X){const C=X.C,by=X.sumBy(X.ccee(['ramo']).filter(r=>!X.isDist(r[2])),r=>r[2],r=>r[6]/1000);
  return C.hbar(X.topRows(by,16,i=>X.P.dims.ramo[i]),{fmt:v=>C.fmt(v,1)+' GWh',aria:X.t('pn.c.ee_ramo')})}},
-{id:'ee_mun',sec:'energia',filters:['ano','mes','ramo','emp'],render(X){const C=X.C,by=X.sumBy(X.ccee(['mun']),r=>r[1],r=>r[6]/1000);
+{id:'ee_mun',sec:'energia',filters:['ano','mes','ramo','emp'],render(X){const C=X.C,by=X.sumBy(X.ccee(['mun']).filter(r=>!X.isDist(r[2])),r=>r[1],r=>r[6]/1000);
  return C.hbar(X.topRows(by,12,i=>X.mun(i)),{fmt:v=>C.fmt(v,1)+' GWh',aria:X.t('pn.c.ee_mun')})}},
 {id:'ee_mes',sec:'energia',wide:true,filters:['ano','mes','mun','ramo','emp'],render(X){const C=X.C,rows=X.ccee(),keys=[...new Set(rows.map(r=>r[0]))].sort((a,b)=>a-b),
-  l=X.sumBy(rows,r=>r[0],r=>r[4]/1000),c=X.sumBy(rows,r=>r[0],r=>r[5]/1000);
+  l=X.sumBy(rows.filter(r=>!X.isDist(r[2])),r=>r[0],r=>r[6]/1000),c=X.sumBy(rows.filter(r=>X.isDist(r[2])),r=>r[0],r=>r[6]/1000);
  return C.vbar(keys.map(k=>Math.floor(k/100)+'-'+String(k%100).padStart(2,'0')),[{name:X.t('pn.aclShort'),values:keys.map(k=>l.get(k)||0)},{name:X.t('pn.cativoShort'),values:keys.map(k=>c.get(k)||0)}],
   {stacked:true,fmt:v=>C.fmt(v,1)+' GWh',axis:v=>C.fmt(v,0),aria:X.t('pn.c.ee_mes')})}},
 {id:'ee_ano',sec:'energia',filters:['ano','mun','ramo','emp'],render(X,box){const C=X.C,g=new Map();
- X.ccee(['mes']).forEach(r=>{const y=Math.floor(r[0]/100);let a=g.get(y);if(!a)g.set(y,a={t:0,l:0,c:0,m:new Set(),e:new Set()});a.t+=r[6];a.l+=r[4];a.c+=r[5];a.m.add(r[0]);a.e.add(r[3])});
+ X.ccee(['mes']).forEach(r=>{const y=Math.floor(r[0]/100);let a=g.get(y);if(!a)g.set(y,a={t:0,l:0,c:0,m:new Set(),e:new Set()});a.t+=r[6];if(X.isDist(r[2]))a.c+=r[6];else{a.l+=r[6];a.e.add(r[3])}a.m.add(r[0])});
  C.table(box,[{label:X.t('pn.h.year'),get:e=>e[0]},{label:X.t('pn.h.mwh'),get:e=>e[1].t,num:1,fmt:v=>C.fmt(v,0)},{label:X.t('pn.h.acl'),get:e=>e[1].l,num:1,fmt:v=>C.fmt(v,0)},
   {label:X.t('pn.h.cativo'),get:e=>e[1].c,num:1,fmt:v=>C.fmt(v,0)},{label:X.t('pn.h.livrePct'),get:e=>e[1].t?e[1].l/e[1].t*100:0,num:1,fmt:v=>C.fmt(v,1)},
   {label:X.t('pn.h.months'),get:e=>e[1].m.size,num:1},{label:X.t('pn.h.emps'),get:e=>e[1].e.size,num:1,fmt:v=>C.fmt(v)}],[...g.entries()].sort((a,b)=>a[0]-b[0]))}},

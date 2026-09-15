@@ -36,6 +36,20 @@ function hbar(rows,o={}){
    +`<text x="${left+bw+6}" y="${y+17}" fill="#4a6070" font-weight="600">${E(vals[i])}</text></g>`});
  return s+'</svg>'}
 
+// Diverging horizontal bars, positive to the right and negative to the left of a centre line: rows [{label,value}].
+function hdiv(rows,o={}){
+ rows=rows.filter(r=>r.value);if(!rows.length)return empty();
+ const f=o.fmt||(v=>fmt(v,1)),W=WIDTH,rowH=26,vals=rows.map(r=>f(r.value)),pad=Math.min(160,Math.max(...vals.map(v=>v.length))*CHAR+12);
+ const left=Math.round(Math.min(260,Math.max(110,W*.26))),half=Math.max(20,(W-left-2*pad)/2),mid=left+pad+half,h=rows.length*rowH+8;
+ const max=niceTop(Math.max(...rows.map(r=>Math.abs(r.value)))),chars=Math.floor((left-14)/CHAR);
+ let s=svg(W,h,o.aria)+`<line x1="${mid}" x2="${mid}" y1="0" y2="${h}" stroke="#b9cad6"/>`;
+ rows.forEach((r,i)=>{const y=4+i*rowH,len=Math.abs(r.value)/max*half,pos=r.value>0;
+  s+=`<g class="pn-row" data-tip="${tip(r.label,vals[i])}"><rect x="0" y="${y}" width="${W}" height="${rowH}" fill="transparent"/>`
+   +`<text x="${left-10}" y="${y+17}" text-anchor="end" fill="#34495a">${E(clip(r.label,chars))}</text>`
+   +`<rect class="pn-mark" x="${pos?mid:mid-len}" y="${y+5}" width="${len}" height="${rowH-10}" rx="3" fill="${pos?(o.pos||'#0d9488'):(o.neg||'#b03a55')}"/>`
+   +`<text x="${pos?mid+len+6:mid-len-6}" y="${y+17}" text-anchor="${pos?'start':'end'}" fill="#4a6070" font-weight="600">${E(vals[i])}</text></g>`});
+ return s+'</svg>'}
+
 function axes(left,right,top,bottom,W,max,axisFmt){let s='';
  for(let k=0;k<=4;k++){const y=bottom-(bottom-top)*k/4;s+=`<line x1="${left}" x2="${W-right}" y1="${y}" y2="${y}" stroke="#e8eef3"/><text x="${left-8}" y="${y+4}" text-anchor="end" fill="#8395a3">${E(axisFmt(max*k/4))}</text>`}
  return s}
@@ -117,5 +131,5 @@ function tooltip(){const box=document.createElement('div');box.className='pn-tip
  addEventListener('scroll',()=>{box.hidden=true},true)}
 tooltip();
 
-window.PNC={E,fmt,money,short,clip,hbar,vbar,line,table,map,tiles,empty,setWidth,FONT,PALETTE,OTHER};
+window.PNC={E,fmt,money,short,clip,hbar,hdiv,vbar,line,table,map,tiles,empty,setWidth,FONT,PALETTE,OTHER};
 })();

@@ -106,6 +106,20 @@ for r in ler("05_dim_municipios", ["municipality_id", "municipality_name"]):
     mun_idx[c] = len(MUN)
     mun_nome[norm(r["municipality_name"])] = len(MUN)
     MUN.append([c, r["municipality_name"]])
+# População e PIB do último ano de cada município (aba 10): MUN vira [código, nome, população, PIB em R$].
+for m in MUN:
+    m += [None, None]
+ANOS_POP, ANOS_PIB = Counter(), Counter()
+for r in ler("10_cons_municipio_ano", ["municipality_id", "populacao", "populacao_ano", "pib_total_brl", "pib_ano"]):
+    i = mun_idx.get(codigo(r["municipality_id"]))
+    if i is None:
+        continue
+    if MUN[i][2] is None and r["populacao"] not in (None, ""):
+        MUN[i][2] = int(float(r["populacao"]))
+        ANOS_POP[r["populacao_ano"]] += 1
+    if MUN[i][3] is None and r["pib_total_brl"] not in (None, ""):
+        MUN[i][3] = round(float(r["pib_total_brl"]), 2)
+        ANOS_PIB[r["pib_ano"]] += 1
 ALIAS_MUN = {"AGUA LINDAS DE GOIAS": "AGUAS LINDAS DE GOIAS"}  # grafia da CCEE
 
 
@@ -234,6 +248,9 @@ with open(S1 / "dados" / "ResultadoRodadaDisponibilidade (1).csv", encoding="utf
 
 # ----------------------------------------------------------------------------------------------------------------- CCEE
 RAMO = Dim()
+# Cargas sem ramo de atividade são das distribuidoras (Equatorial Goiás, CHESP): o mercado cativo, não um setor.
+DISTRIBUIDORA = "DISTRIBUIDORA (MERCADO CATIVO)"
+nomes_distribuidora = Counter()
 ccee = defaultdict(lambda: [0.0, 0.0, 0.0, 0.0])
 nomes_ccee = defaultdict(Counter)
 arquivos_ccee = sorted(glob.glob(str(S1 / "dados" / "CCEE" / "parcela_carga_consumo_*_GO.csv")))
@@ -242,7 +259,9 @@ for arq in arquivos_ccee:
         for r in csv.DictReader(f, delimiter=";"):
             raiz = re.sub(r"\D", "", r["CNPJ_CARGA"]).zfill(14)[:8]
             nomes_ccee[raiz][r["NOME_EMPRESARIAL"].strip()] += 1
-            k = (int(r["MES_REFERENCIA"]), mun_de_nome(r["CIDADE"]), RAMO.idx(r["RAMO_ATIVIDADE"].strip() or "—"), raiz)
+            if not r["RAMO_ATIVIDADE"].strip():
+                nomes_distribuidora[r["NOME_EMPRESARIAL"].strip()] += 1
+            k = (int(r["MES_REFERENCIA"]), mun_de_nome(r["CIDADE"]), RAMO.idx(r["RAMO_ATIVIDADE"].strip() or DISTRIBUIDORA), raiz)
             a = ccee[k]
             a[0] += num(r["CONSUMO_ACL"])
             a[1] += num(r["CONSUMO_CATIVO_PARC_LIVRE"])
@@ -262,6 +281,7 @@ dados = {
         "built_on": date.today().isoformat(),
         "versao_base": VERSAO,
         "planilha": f"Squad 1/Bases consolidadas/documentacao/{PLANILHA.name}",
+        "ccee_distribuidora": DISTRIBUIDORA,
         "sources": {
             "cfem": "aba 08 (cfem_recolhido) — ANM CFEM de Goiás",
             "amb": "aba 08 (produção bruta e beneficiada, todas as UFs) — ANM Anuário Mineral Brasileiro",
@@ -276,6 +296,7 @@ dados = {
             "amb": [min(k[0] for k in go), max(k[0] for k in go)],
             "inv": [min(r[0] for r in inv_go), max(r[0] for r in inv_go)],
             "ccee": [min(k[0] for k in ccee), max(k[0] for k in ccee)],
+            "pop": ANOS_POP.most_common(1)[0][0], "pib": ANOS_PIB.most_common(1)[0][0],
         },
         # Blocos do Panorama original que as bases do repositório não permitem refazer (explicados na própria aba).
         "not_reproduced": ["cfem_nacional", "repasse", "agua", "tah", "repem", "inativos", "coef_empresas"],
@@ -314,5 +335,7 @@ print(f"rodadas GO: {len(rod)} áreas; {Counter(SIT.items[r[1]] for r in rod).mo
 print(f"CCEE: {len(arquivos_ccee)} arquivos, meses {min(k[0] for k in ccee)}–{max(k[0] for k in ccee)}, {len(ccee)} linhas agregadas; "
       f"consumo total 2025 {soma(v[2] for k, v in ccee.items() if 202501 <= k[0] <= 202512):,.0f} MWh; empresas {len(CE)} "
       f"(com título minerário na base: {sum(1 for c in CE if c[2] >= 0)}); sem município {sum(1 for k in ccee if k[1] < 0)}")
+print(f"população e PIB: {sum(1 for m in MUN if m[2])} municípios; anos {dict(ANOS_POP)} / {dict(ANOS_PIB)}; Goiânia {[m for m in MUN if m[0] == '5208707']}; Alto Horizonte {[m for m in MUN if m[0] == '5200555']}")
+print(f"CCEE sem ramo (distribuidoras): {dict(nomes_distribuidora)}")
 print(f"dims: {len(MUN)} municípios, {len(MIN)} minerais, {len(EMP)} titulares ({sum(1 for e in EMP if e[1])} com nome)")
 print(f"SALVO: {SAIDA} ({SAIDA.stat().st_size / 1e6:.2f} MB)")

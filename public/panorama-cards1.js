@@ -18,7 +18,7 @@ cards.push(
  const metric=X.mapMetric,vals=new Map(),add=(i,v)=>{if(i>=0){const c=X.munCode(i);vals.set(c,(vals.get(c)||0)+v)}};
  if(metric==='cfem')X.cfem().forEach(r=>add(r[2],r[5]));
  else if(metric==='proc'||metric==='area')X.proc().forEach(r=>add(r[2],metric==='proc'?1:r[4]));
- else X.ccee().forEach(r=>add(r[1],r[6]/1000));
+ else X.ccee().forEach(r=>{if(!X.isDist(r[2]))add(r[1],r[6]/1000)});
  const f={cfem:v=>C.money(v,0),proc:v=>C.fmt(v),area:v=>C.fmt(v,0)+' ha',ee:v=>C.fmt(v,1)+' GWh'}[metric];
  box.innerHTML=`<div class="pn-map-tools"><label>${X.E(X.t('pn.mapMetric'))} <select class="pn-map-metric">`
   +['cfem','proc','area','ee'].map(m=>`<option value="${m}"${m===metric?' selected':''}>${X.E(X.t(`pn.map.${m}`))}</option>`).join('')
