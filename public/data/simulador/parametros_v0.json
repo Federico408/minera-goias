@@ -1,0 +1,204 @@
+{
+  "versao": "0.1.0",
+  "data_versao": "2026-09-16",
+  "responsavel": "Squad 3 — Henrique Falci (simulador e rastreabilidade)",
+  "modelo": "produção física × intensidade energética",
+  "ano_base": 2025,
+  "ano_base_nota": "O material-base não informa o ano de referência da tabela. Adotado 2025 por coerência com o baseline do motor do Squad 2, que usa 2025.",
+  "horizonte": {
+    "inicio": 2027,
+    "fim": 2040
+  },
+  "unidades": {
+    "production_t": "toneladas por ano",
+    "energy_intensity_mwh_t": "MWh por tonelada",
+    "energia": "TWh por ano"
+  },
+  "aviso": "Os fatores de produção por cenário e os ganhos de eficiência são ilustrativos e existem apenas para demonstrar o recálculo. Só o baseline das sete operações vem do material da FGV Energia.",
+  "conferencia_baseline": {
+    "energia_calculada_twh": 4.4904,
+    "energia_publicada_twh": 4.6,
+    "divergencia_percentual": -2.38,
+    "nota": "Produção × intensidade não reproduz exatamente a energia publicada porque a produção aparece no material-base arredondada em Mt (duas ou três casas). A divergência fica registrada, não corrigida."
+  },
+  "cenarios": [
+    {
+      "scenario": "conservador",
+      "rotulo": "Conservador",
+      "cor": "#5B8DB8",
+      "fator_producao": 0.9,
+      "fator_producao_source_id": "SRC_S3_ILUSTRATIVO_001",
+      "ganho_eficiencia_anual_padrao": 0.004,
+      "ganho_eficiencia_source_id": "SRC_S2_MOTOR_DEMO_001",
+      "valor_observado_estimado": "ilustrativo"
+    },
+    {
+      "scenario": "referencia",
+      "rotulo": "Referência",
+      "cor": "#123B66",
+      "fator_producao": 1.0,
+      "fator_producao_source_id": "SRC_S3_ILUSTRATIVO_001",
+      "ganho_eficiencia_anual_padrao": 0.009,
+      "ganho_eficiencia_source_id": "SRC_S2_MOTOR_DEMO_001",
+      "valor_observado_estimado": "ilustrativo"
+    },
+    {
+      "scenario": "expansao",
+      "rotulo": "Expansão",
+      "cor": "#C6A15B",
+      "fator_producao": 1.15,
+      "fator_producao_source_id": "SRC_S3_ILUSTRATIVO_001",
+      "ganho_eficiencia_anual_padrao": 0.014,
+      "ganho_eficiencia_source_id": "SRC_S2_MOTOR_DEMO_001",
+      "valor_observado_estimado": "ilustrativo"
+    }
+  ],
+  "operacoes": [
+    {
+      "operation_id": "OP_GO_001",
+      "mineral_id": "MIN_001",
+      "mineral_name": "Níquel",
+      "company_name": "Anglo American — Barro Alto",
+      "municipality_name": "Barro Alto",
+      "production_t": 30000.0,
+      "production_mt_publicado": 0.03,
+      "production_basis": "beneficiada",
+      "energy_intensity_mwh_t": 45.4,
+      "energy_twh_publicado": 1.47,
+      "valor_observado_estimado": "observado",
+      "data_nature": "publicado_material_base",
+      "source_id": "SRC_FGV_EPGE_001"
+    },
+    {
+      "operation_id": "OP_GO_002",
+      "mineral_id": "MIN_002",
+      "mineral_name": "Cobre",
+      "company_name": "Maraca (Ludin Mining)",
+      "municipality_name": "Alto Horizonte",
+      "production_t": 23000.0,
+      "production_mt_publicado": 0.023,
+      "production_basis": "conteudo_mineral",
+      "energy_intensity_mwh_t": 11.2,
+      "energy_twh_publicado": 0.26,
+      "valor_observado_estimado": "observado",
+      "data_nature": "publicado_material_base",
+      "source_id": "SRC_FGV_EPGE_001"
+    },
+    {
+      "operation_id": "OP_GO_003",
+      "mineral_id": "MIN_001",
+      "mineral_name": "Níquel",
+      "company_name": "Anglo American — Níquel Minas",
+      "municipality_name": "Niquelândia",
+      "production_t": 7000.0,
+      "production_mt_publicado": 0.007,
+      "production_basis": "beneficiada",
+      "energy_intensity_mwh_t": 46.2,
+      "energy_twh_publicado": 0.33,
+      "valor_observado_estimado": "observado",
+      "data_nature": "publicado_material_base",
+      "source_id": "SRC_FGV_EPGE_001"
+    },
+    {
+      "operation_id": "OP_GO_004",
+      "mineral_id": "MIN_004",
+      "mineral_name": "Fosfato",
+      "company_name": "CMOC",
+      "municipality_name": "Ouvidor",
+      "production_t": 1180000.0,
+      "production_mt_publicado": 1.18,
+      "production_basis": "beneficiada",
+      "energy_intensity_mwh_t": 0.15,
+      "energy_twh_publicado": 0.18,
+      "valor_observado_estimado": "observado",
+      "data_nature": "publicado_material_base",
+      "source_id": "SRC_FGV_EPGE_001"
+    },
+    {
+      "operation_id": "OP_GO_005",
+      "mineral_id": "MIN_003",
+      "mineral_name": "Nióbio",
+      "company_name": "CMOC",
+      "municipality_name": "Ouvidor",
+      "production_t": 10000.0,
+      "production_mt_publicado": 0.01,
+      "production_basis": "beneficiada",
+      "energy_intensity_mwh_t": 10.4,
+      "energy_twh_publicado": 0.1,
+      "valor_observado_estimado": "observado",
+      "data_nature": "publicado_material_base",
+      "source_id": "SRC_FGV_EPGE_001"
+    },
+    {
+      "operation_id": "OP_GO_006",
+      "mineral_id": "MIN_007",
+      "mineral_name": "Amianto",
+      "company_name": "Sama",
+      "municipality_name": "Minaçu",
+      "production_t": 170000.0,
+      "production_mt_publicado": 0.17,
+      "production_basis": "beneficiada",
+      "energy_intensity_mwh_t": 0.32,
+      "energy_twh_publicado": 0.05,
+      "valor_observado_estimado": "observado",
+      "data_nature": "publicado_material_base",
+      "source_id": "SRC_FGV_EPGE_001"
+    },
+    {
+      "operation_id": "OP_GO_007",
+      "mineral_id": "MIN_005",
+      "mineral_name": "Minério de alumínio",
+      "company_name": "CBA",
+      "municipality_name": "Barro Alto",
+      "production_t": 1580000.0,
+      "production_mt_publicado": 1.58,
+      "production_basis": "beneficiada",
+      "energy_intensity_mwh_t": 1.4,
+      "energy_twh_publicado": 2.21,
+      "valor_observado_estimado": "observado",
+      "data_nature": "publicado_material_base",
+      "source_id": "SRC_FGV_EPGE_001"
+    }
+  ],
+  "fontes": [
+    {
+      "source_id": "SRC_FGV_EPGE_001",
+      "source_name": "Apresentação FGV Energia-EPGE — baseline energético do setor mineral de Goiás",
+      "source_url": null,
+      "data_acesso": "2026-09-16",
+      "periodo_referencia": "não informado no material-base",
+      "tipo_fonte": "institucional",
+      "valor_observado_estimado": "observado",
+      "metodo_estimacao": null,
+      "status_validacao": "pendente_validacao",
+      "responsavel_validacao": "Squad 2 — intensidade energética",
+      "notas": "Produção, energia e intensidade das sete operações, transcritas da tabela 'Baseline energético já existente no material da FGV Energia'. O material indica ANM e CCEE como origem dos dados e não é distribuído por URL pública."
+    },
+    {
+      "source_id": "SRC_S2_MOTOR_DEMO_001",
+      "source_name": "Motor Econômico-Energético do Squad 2 — versão demo",
+      "source_url": "Squad 2/notebooks/Motor_Economico_Energetico_MINERA_Goias.ipynb",
+      "data_acesso": "2026-09-16",
+      "periodo_referencia": "2027–2040",
+      "tipo_fonte": "interna_projeto",
+      "valor_observado_estimado": "ilustrativo",
+      "metodo_estimacao": "Taxas anuais de ganho de eficiência copiadas de scenario_parameters_demo.csv (annual_efficiency_improvement_rate). O próprio Squad 2 marca esses valores como estimated_demo, isto é, sintéticos.",
+      "status_validacao": "nao_validado",
+      "responsavel_validacao": "Squad 2 — modelo de projeção",
+      "notas": "Serve para o simulador partir dos mesmos números do motor. Deve ser substituído quando o Squad 2 publicar parâmetros com dados reais."
+    },
+    {
+      "source_id": "SRC_S3_ILUSTRATIVO_001",
+      "source_name": "Fator de produção por cenário — arbitrado pelo Squad 3 para testar a interface",
+      "source_url": null,
+      "data_acesso": "2026-09-16",
+      "periodo_referencia": "2027–2040",
+      "tipo_fonte": "interna_projeto",
+      "valor_observado_estimado": "ilustrativo",
+      "metodo_estimacao": "Valores arbitrados (0,90 / 1,00 / 1,15) apenas para demonstrar o recálculo. Não há base empírica, nem estimativa econômica por trás deles.",
+      "status_validacao": "nao_validado",
+      "responsavel_validacao": "Squad 3 — simulador",
+      "notas": "Substituir pela trajetória de produção do motor do Squad 2, que combina crescimento da produção existente com a entrada de projetos."
+    }
+  ]
+}
