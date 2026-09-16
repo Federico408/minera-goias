@@ -6,3 +6,4 @@ __pycache__/
 !.env.example
 *.sqlite
 *.sqlite-journal
+node_modules/
