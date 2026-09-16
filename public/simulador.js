@@ -107,6 +107,112 @@
       + '<tbody>' + linhas + '</tbody></table>';
   }
 
+  function selo(natureza) {
+    return '<span class="selo ' + (natureza === 'observado' ? 'observado' : 'ilustrativo') + '">'
+      + esc(natureza) + '</span>';
+  }
+
+  function indiceFontes() {
+    var mapa = {};
+    estado.parametros.fontes.forEach(function (f) { mapa[f.source_id] = f; });
+    return mapa;
+  }
+
+  function linhaParametro(nome, valor, fonte, natureza) {
+    return '<tr><td>' + esc(nome) + '</td><td class="num">' + esc(valor) + '</td>'
+      + '<td>' + esc(fonte.source_name) + '</td><td>' + esc(data(fonte.data_acesso)) + '</td>'
+      + '<td>' + selo(natureza) + '</td></tr>';
+  }
+
+  function blocoParametros() {
+    var p = estado.parametros, fontes = indiceFontes();
+    var cen = window.SimuladorEngine.cenarioPorId(p, estado.scenario);
+    var padrao = estado.ganho === cen.ganho_eficiencia_anual_padrao;
+    var linhas = [
+      linhaParametro('Fator de produção do cenário', num(cen.fator_producao, 2) + '×',
+        fontes[cen.fator_producao_source_id], 'ilustrativo'),
+      linhaParametro('Ganho de eficiência em uso (g)', num(estado.ganho * 100, 1) + '% ao ano',
+        fontes[cen.ganho_eficiencia_source_id],
+        padrao ? 'ilustrativo' : 'definido pelo usuário nesta simulação'),
+      linhaParametro('Ganho padrão deste cenário', num(cen.ganho_eficiencia_anual_padrao * 100, 1) + '% ao ano',
+        fontes[cen.ganho_eficiencia_source_id], 'ilustrativo')
+    ].join('');
+    return '<table><thead><tr><th>Parâmetro</th><th>Valor</th><th>Fonte</th>'
+      + '<th>Data de acesso</th><th>Natureza</th></tr></thead><tbody>' + linhas + '</tbody></table>';
+  }
+
+  function blocoOperacoes() {
+    var fontes = indiceFontes();
+    var linhas = estado.parametros.operacoes.map(function (op) {
+      var f = fontes[op.source_id];
+      return '<tr><td>' + esc(op.company_name) + '</td><td>' + esc(op.mineral_name) + '</td>'
+        + '<td>' + esc(op.municipality_name) + '</td>'
+        + '<td class="num">' + esc(num(op.production_mt_publicado, 3)) + '</td>'
+        + '<td class="num">' + esc(num(op.energy_intensity_mwh_t, 2)) + '</td>'
+        + '<td class="num">' + esc(num(op.energy_twh_publicado, 2)) + '</td>'
+        + '<td>' + esc(data(f.data_acesso)) + '</td>'
+        + '<td>' + selo(op.valor_observado_estimado) + '</td></tr>';
+    }).join('');
+    return '<table><thead><tr><th>Empresa</th><th>Mineral</th><th>Município</th>'
+      + '<th>Produção · Mt</th><th>IE · MWh/t</th><th>Energia · TWh</th>'
+      + '<th>Data de acesso</th><th>Natureza</th></tr></thead><tbody>' + linhas + '</tbody></table>';
+  }
+
+  function blocoCatalogo() {
+    return estado.parametros.fontes.map(function (f) {
+      var campos = [
+        ['Identificador', f.source_id],
+        ['Origem', f.source_url || 'sem URL pública'],
+        ['Período de referência', f.periodo_referencia],
+        ['Tipo de fonte', f.tipo_fonte],
+        ['Data de acesso', data(f.data_acesso)],
+        ['Método de estimação', f.metodo_estimacao || 'não se aplica'],
+        ['Status de validação', f.status_validacao],
+        ['Responsável pela validação', f.responsavel_validacao]
+      ].map(function (c) {
+        return '<tr><td>' + esc(c[0]) + '</td><td>' + esc(c[1]) + '</td></tr>';
+      }).join('');
+      return '<h3>' + esc(f.source_name) + ' ' + selo(f.valor_observado_estimado) + '</h3>'
+        + '<p>' + esc(f.notas) + '</p>'
+        + '<div class="tabela-wrap"><table><tbody>' + campos + '</tbody></table></div>';
+    }).join('');
+  }
+
+  function abrirModal() {
+    var p = estado.parametros, cen = window.SimuladorEngine.cenarioPorId(p, estado.scenario);
+    var conf = p.conferencia_baseline;
+    $('modal-sub').textContent = 'Cenário ' + cen.rotulo.toLowerCase() + ' · arquivo de parâmetros v'
+      + p.versao + ', de ' + data(p.data_versao) + '.';
+    $('modal-corpo').innerHTML =
+      '<h3>Como o resultado é calculado</h3>'
+      + '<p>Energia(t) = produção(t) × intensidade(t). A intensidade evolui por '
+      + 'IE(t) = IE<sub>base</sub> × (1 − g)<sup>t − ' + p.ano_base + '</sup> e a produção é o baseline '
+      + 'multiplicado pelo fator do cenário. Não há modelo estatístico intermediário: os números da tela '
+      + 'saem apenas dos parâmetros listados abaixo.</p>'
+      + '<p>' + esc(p.ano_base_nota) + '</p>'
+
+      + '<h3>Parâmetros do cenário selecionado</h3>'
+      + '<div class="tabela-wrap">' + blocoParametros() + '</div>'
+
+      + '<h3>Baseline por operação</h3>'
+      + '<p>Sete operações transcritas da tabela do material FGV Energia-EPGE. '
+      + 'A coluna de energia é o valor publicado, guardado para conferência; o simulador calcula a energia '
+      + 'a partir de produção × intensidade.</p>'
+      + '<div class="tabela-wrap">' + blocoOperacoes() + '</div>'
+
+      + '<h3>Conferência do baseline</h3>'
+      + '<p>Produção × intensidade soma <b>' + esc(num(conf.energia_calculada_twh, 4)) + ' TWh</b>, '
+      + 'contra <b>' + esc(num(conf.energia_publicada_twh, 2)) + ' TWh</b> publicados — diferença de '
+      + esc(num(conf.divergencia_percentual, 2)) + '%. ' + esc(conf.nota) + '</p>'
+
+      + '<h3>Catálogo de fontes</h3>'
+      + blocoCatalogo();
+    $('modal').hidden = false;
+    $('modal-fechar').focus();
+  }
+
+  function fecharModal() { $('modal').hidden = true; }
+
   function kpis(resumo, cenario) {
     var itens = [
       ['Energia em 2040', num(resumo.energiaFinalTwh, 2) + ' TWh',
@@ -177,6 +283,11 @@
       estado.ganho = window.SimuladorEngine.cenarioPorId(estado.parametros, estado.scenario).ganho_eficiencia_anual_padrao;
       desenhar();
     };
+    $('btn-fontes').hidden = false;
+    $('btn-fontes').onclick = abrirModal;
+    $('modal-fechar').onclick = fecharModal;
+    $('modal').onclick = function (e) { if (e.target === $('modal')) fecharModal(); };
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') fecharModal(); });
 
     desenhar();
     $('carregando').hidden = true;
