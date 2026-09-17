@@ -16,22 +16,37 @@
     throw new Error('Cenário desconhecido nos parâmetros: ' + scenario);
   }
 
-  // IE(t) = IE_base x (1 - g)^(t - ano_base)
-  function intensidade(intensidadeBase, ganho, ano, anoBase) {
-    return intensidadeBase * Math.pow(1 - ganho, ano - anoBase);
+  // Produção do Squad 2: último ano observado composto pelo crescimento histórico
+  // do mineral, ajustado em pontos percentuais pelo cenário.
+  function producao(mineral, crescimentoAjustado, ano) {
+    return mineral.producao_base_t * Math.pow(1 + crescimentoAjustado, ano - mineral.ano_base);
+  }
+
+  // IE(t) = IE_base x (1 + ajuste_pct/100) x (1 - g)^(t - ano_base)
+  function intensidade(mineral, ganho, ajustePct, ano) {
+    return mineral.energy_intensity_mwh_t
+      * (1 + (ajustePct || 0) / 100)
+      * Math.pow(1 - ganho, ano - mineral.ano_base);
   }
 
   function validar(parametros) {
     if (!parametros || typeof parametros !== 'object') throw new Error('Parâmetros ausentes.');
-    ['versao', 'ano_base', 'horizonte', 'cenarios', 'operacoes', 'fontes'].forEach(function (campo) {
+    ['versao', 'horizonte', 'cenarios', 'minerais', 'fontes', 'sensibilidade_intensidade'].forEach(function (campo) {
       if (!(campo in parametros)) throw new Error('Parâmetros sem o campo obrigatório: ' + campo);
     });
-    if (!parametros.operacoes.length) throw new Error('Parâmetros sem nenhuma operação.');
-    parametros.operacoes.forEach(function (op) {
-      if (!(op.production_t >= 0)) throw new Error('Produção inválida em ' + op.operation_id);
-      if (!(op.energy_intensity_mwh_t >= 0)) throw new Error('Intensidade inválida em ' + op.operation_id);
+    if (!parametros.minerais.length) throw new Error('Parâmetros sem nenhum mineral.');
+    parametros.minerais.forEach(function (m) {
+      if (!(m.producao_base_t >= 0)) throw new Error('Produção base inválida em ' + m.mineral_id);
+      if (!(m.energy_intensity_mwh_t >= 0)) throw new Error('Intensidade inválida em ' + m.mineral_id);
+      if (typeof m.crescimento_historico !== 'number') throw new Error('Crescimento ausente em ' + m.mineral_id);
+      if (typeof m.ano_base !== 'number') throw new Error('Ano base ausente em ' + m.mineral_id);
     });
     return parametros;
+  }
+
+  function faixaSensibilidade(parametros) {
+    var s = parametros.sensibilidade_intensidade;
+    return { minimo: s.minimo_pct, maximo: s.maximo_pct, passo: s.passo_pct };
   }
 
   function simular(parametros, opcoes) {
@@ -43,23 +58,34 @@
       : cenario.ganho_eficiencia_anual_padrao;
     if (!(ganho >= 0 && ganho < 1)) throw new Error('Ganho de eficiência fora da faixa 0–1: ' + ganho);
 
-    var anoBase = parametros.ano_base;
+    var ajustes = opcoes.ajustesIntensidade || {};
+    var faixa = faixaSensibilidade(parametros);
+    Object.keys(ajustes).forEach(function (id) {
+      var v = ajustes[id];
+      if (!(v >= faixa.minimo && v <= faixa.maximo)) {
+        throw new Error('Ajuste de intensidade fora da faixa permitida em ' + id + ': ' + v);
+      }
+    });
+
     var anos = anosDoHorizonte(parametros);
     var detalhe = [];
 
-    parametros.operacoes.forEach(function (op) {
+    parametros.minerais.forEach(function (mineral) {
+      var crescimento = mineral.crescimento_historico + cenario.growth_adjustment;
+      var ajuste = ajustes[mineral.mineral_id] || 0;
       anos.forEach(function (ano) {
-        var producao = op.production_t * cenario.fator_producao;
-        var ie = intensidade(op.energy_intensity_mwh_t, ganho, ano, anoBase);
+        var q = producao(mineral, crescimento, ano);
+        var ie = intensidade(mineral, ganho, ajuste, ano);
         detalhe.push({
-          operation_id: op.operation_id,
-          mineral_id: op.mineral_id,
-          mineral_name: op.mineral_name,
-          company_name: op.company_name,
+          mineral_id: mineral.mineral_id,
+          mineral_name: mineral.mineral_name,
+          production_basis: mineral.production_basis,
           ano: ano,
-          producao_t: producao,
+          producao_t: q,
           intensidade_mwh_t: ie,
-          energia_mwh: producao * ie
+          ajuste_intensidade_pct: ajuste,
+          crescimento_aplicado: crescimento,
+          energia_mwh: q * ie
         });
       });
     });
@@ -68,9 +94,9 @@
       scenario: cenario.scenario,
       rotulo: cenario.rotulo,
       cor: cenario.cor,
-      fatorProducao: cenario.fator_producao,
+      crescimentoAjuste: cenario.growth_adjustment,
       ganhoEficiencia: ganho,
-      anoBase: anoBase,
+      ajustesIntensidade: ajustes,
       anos: anos,
       detalhe: detalhe,
       serie: agregarPorAno(detalhe, anos),
@@ -78,44 +104,33 @@
     };
   }
 
+  // Só a energia é agregada. As toneladas não somam entre minerais porque o cobre
+  // usa conteúdo mineral e os demais usam produção beneficiada.
   function agregarPorAno(detalhe, anos) {
     var mapa = {};
-    anos.forEach(function (ano) { mapa[ano] = { ano: ano, producao_t: 0, energia_mwh: 0 }; });
-    detalhe.forEach(function (linha) {
-      mapa[linha.ano].producao_t += linha.producao_t;
-      mapa[linha.ano].energia_mwh += linha.energia_mwh;
-    });
+    anos.forEach(function (ano) { mapa[ano] = { ano: ano, energia_mwh: 0 }; });
+    detalhe.forEach(function (linha) { mapa[linha.ano].energia_mwh += linha.energia_mwh; });
     return anos.map(function (ano) {
       var r = mapa[ano];
       r.energia_twh = r.energia_mwh / MWH_POR_TWH;
-      r.intensidade_media_mwh_t = r.producao_t ? r.energia_mwh / r.producao_t : 0;
       return r;
     });
   }
 
   function energiaPorMineral(resultado, ano) {
-    var mapa = {}, ordem = [];
-    resultado.detalhe.forEach(function (linha) {
-      if (linha.ano !== ano) return;
-      if (!mapa[linha.mineral_id]) {
-        mapa[linha.mineral_id] = {
-          mineral_id: linha.mineral_id,
-          mineral_name: linha.mineral_name,
-          producao_t: 0,
-          energia_mwh: 0,
-          operacoes: []
-        };
-        ordem.push(linha.mineral_id);
-      }
-      var m = mapa[linha.mineral_id];
-      m.producao_t += linha.producao_t;
-      m.energia_mwh += linha.energia_mwh;
-      m.operacoes.push(linha.operation_id);
-    });
-    return ordem.map(function (id) {
-      var m = mapa[id];
-      m.energia_twh = m.energia_mwh / MWH_POR_TWH;
-      return m;
+    return resultado.detalhe.filter(function (linha) {
+      return linha.ano === ano;
+    }).map(function (linha) {
+      return {
+        mineral_id: linha.mineral_id,
+        mineral_name: linha.mineral_name,
+        production_basis: linha.production_basis,
+        producao_t: linha.producao_t,
+        intensidade_mwh_t: linha.intensidade_mwh_t,
+        ajuste_intensidade_pct: linha.ajuste_intensidade_pct,
+        energia_mwh: linha.energia_mwh,
+        energia_twh: linha.energia_mwh / MWH_POR_TWH
+      };
     }).sort(function (a, b) { return b.energia_mwh - a.energia_mwh; });
   }
 
@@ -127,32 +142,36 @@
       energiaInicialTwh: primeiro.energia_twh,
       energiaFinalTwh: ultimo.energia_twh,
       energiaAcumuladaTwh: acumulado / MWH_POR_TWH,
-      producaoFinalMt: ultimo.producao_t / 1e6,
-      intensidadeFinalMwhT: ultimo.intensidade_media_mwh_t,
       variacaoPercentual: primeiro.energia_mwh
         ? (ultimo.energia_mwh - primeiro.energia_mwh) / primeiro.energia_mwh * 100
         : 0
     };
   }
 
-  // As três curvas são calculadas sob a mesma hipótese de eficiência, para que a
-  // comparação isole o efeito do cenário de produção.
-  function simularCenarios(parametros, ganhoEficiencia) {
+  // As três curvas usam as mesmas hipóteses de eficiência e sensibilidade, para que a
+  // comparação isole o efeito do cenário de crescimento.
+  function simularCenarios(parametros, ganhoEficiencia, ajustesIntensidade) {
     return parametros.cenarios.map(function (c) {
-      return simular(parametros, { scenario: c.scenario, ganhoEficiencia: ganhoEficiencia });
+      return simular(parametros, {
+        scenario: c.scenario,
+        ganhoEficiencia: ganhoEficiencia,
+        ajustesIntensidade: ajustesIntensidade
+      });
     });
   }
 
   var api = {
     MWH_POR_TWH: MWH_POR_TWH,
     validar: validar,
+    producao: producao,
     intensidade: intensidade,
     simular: simular,
     simularCenarios: simularCenarios,
     energiaPorMineral: energiaPorMineral,
     resumo: resumo,
     anosDoHorizonte: anosDoHorizonte,
-    cenarioPorId: cenarioPorId
+    cenarioPorId: cenarioPorId,
+    faixaSensibilidade: faixaSensibilidade
   };
 
   if (typeof module === 'object' && module.exports) module.exports = api;
