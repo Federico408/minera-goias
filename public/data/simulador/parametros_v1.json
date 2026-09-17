@@ -1,0 +1,186 @@
+{
+  "versao": "1.0.0",
+  "data_versao": "2026-09-17",
+  "responsavel": "Squad 3 — Henrique Falci (simulador e rastreabilidade)",
+  "modelo": "produção projetada × intensidade energética",
+  "origem_modelo": {
+    "squad": "Squad 2 — Federico Castro",
+    "diretorio": "Squad 2/modello_reale",
+    "gerado_por": "scripts/build_simulador_base.py",
+    "metodo_projecao": "historical_compound_growth_rate_with_scenario_adjustment"
+  },
+  "horizonte": {
+    "inicio": 2027,
+    "fim": 2040
+  },
+  "equacoes": {
+    "producao": "producao_base_t × (1 + crescimento_historico + growth_adjustment)^(t − ano_base)",
+    "intensidade": "energy_intensity_mwh_t × (1 + ajuste_pct/100) × (1 − g)^(t − ano_base)",
+    "energia": "producao × intensidade"
+  },
+  "cobertura": {
+    "minerais": 5,
+    "nota": "Cinco minerais cujas séries de produção e parâmetros energéticos o Squad 2 conseguiu conciliar. O nióbio ficou de fora: as unidades e o conceito de produção disponíveis não puderam ser conciliados com segurança com o coeficiente energético.",
+    "toneladas_agregaveis": false,
+    "nota_toneladas": "As toneladas não são somadas entre minerais: o cobre usa conteúdo mineral e os demais usam produção beneficiada. Só a energia, em MWh, é agregada."
+  },
+  "sensibilidade_intensidade": {
+    "minimo_pct": -10,
+    "maximo_pct": 10,
+    "passo_pct": 1,
+    "formula": "adjusted_energy_mwh = base_energy_mwh * (1 + adjustment_pct / 100)",
+    "contrato_versao": "1.0.0",
+    "nota": "Faixa e fórmula definidas pelo contrato de sensibilidade do Squad 2, intensity_sensitivity_contract.json."
+  },
+  "aviso": "As intensidades energéticas são benchmarks, não medições do consumo observado de cada operação. As hipóteses de crescimento e eficiência dos cenários são ilustrativas. Os resultados são cenários condicionais, não previsão oficial.",
+  "conferencia_modelo": {
+    "referencia_2027_twh": 10.868128,
+    "referencia_2040_twh": 19.299992,
+    "conservador_2040_twh": 15.655399,
+    "expansao_2040_twh": 23.660503,
+    "maior_diferenca_mwh": 2e-09,
+    "nota": "Diferença máxima entre a fórmula que o navegador executa e a energia publicada pelo modelo do Squad 2, em todos os minerais, anos e cenários."
+  },
+  "cenarios": [
+    {
+      "scenario": "conservador",
+      "rotulo": "Conservador",
+      "cor": "#5B8DB8",
+      "growth_adjustment": -0.02,
+      "ganho_eficiencia_anual_padrao": 0.004,
+      "valor_observado_estimado": "ilustrativo",
+      "source_id": "SRC_S2_ASSUMPTION_001"
+    },
+    {
+      "scenario": "referencia",
+      "rotulo": "Referência",
+      "cor": "#123B66",
+      "growth_adjustment": 0.0,
+      "ganho_eficiencia_anual_padrao": 0.009,
+      "valor_observado_estimado": "ilustrativo",
+      "source_id": "SRC_S2_ASSUMPTION_001"
+    },
+    {
+      "scenario": "expansao",
+      "rotulo": "Expansão",
+      "cor": "#C6A15B",
+      "growth_adjustment": 0.02,
+      "ganho_eficiencia_anual_padrao": 0.014,
+      "valor_observado_estimado": "ilustrativo",
+      "source_id": "SRC_S2_ASSUMPTION_001"
+    }
+  ],
+  "minerais": [
+    {
+      "mineral_id": "MIN_005",
+      "mineral_name": "Alumínio (Bauxita)",
+      "production_basis": "beneficiada",
+      "ano_base": 2025,
+      "producao_base_t": 1478868.18,
+      "crescimento_historico": 0.1084746391603306,
+      "energy_intensity_mwh_t": 1.4,
+      "mape_backtest": 0.4427584583141193,
+      "anos_testados_backtest": 2,
+      "valor_observado_estimado": "estimado",
+      "data_nature": "benchmark_proxy",
+      "source_id": "SRC_FGV_EPGE_001"
+    },
+    {
+      "mineral_id": "MIN_011",
+      "mineral_name": "Cobre",
+      "production_basis": "conteudo_mineral",
+      "ano_base": 2025,
+      "producao_base_t": 43983.54999999999,
+      "crescimento_historico": -0.0301911572045376,
+      "energy_intensity_mwh_t": 11.2,
+      "mape_backtest": 0.0298797493248945,
+      "anos_testados_backtest": 2,
+      "valor_observado_estimado": "estimado",
+      "data_nature": "benchmark_proxy",
+      "source_id": "SRC_FGV_EPGE_001"
+    },
+    {
+      "mineral_id": "MIN_022",
+      "mineral_name": "Níquel",
+      "production_basis": "beneficiada",
+      "ano_base": 2025,
+      "producao_base_t": 156885.63,
+      "crescimento_historico": 0.0333902442547546,
+      "energy_intensity_mwh_t": 45.551351,
+      "mape_backtest": 0.0779186694745528,
+      "anos_testados_backtest": 2,
+      "valor_observado_estimado": "estimado",
+      "data_nature": "benchmark_proxy",
+      "source_id": "SRC_FGV_EPGE_001"
+    },
+    {
+      "mineral_id": "MIN_033",
+      "mineral_name": "Amianto",
+      "production_basis": "beneficiada",
+      "ano_base": 2025,
+      "producao_base_t": 179184.29999999993,
+      "crescimento_historico": -0.0342569921483285,
+      "energy_intensity_mwh_t": 0.32,
+      "mape_backtest": 0.0862924685044787,
+      "anos_testados_backtest": 2,
+      "valor_observado_estimado": "estimado",
+      "data_nature": "benchmark_proxy",
+      "source_id": "SRC_FGV_EPGE_001"
+    },
+    {
+      "mineral_id": "MIN_049",
+      "mineral_name": "Fosfato",
+      "production_basis": "beneficiada",
+      "ano_base": 2025,
+      "producao_base_t": 2511254.38,
+      "crescimento_historico": -0.0034137435303356,
+      "energy_intensity_mwh_t": 0.15,
+      "mape_backtest": 0.0231439532305456,
+      "anos_testados_backtest": 2,
+      "valor_observado_estimado": "estimado",
+      "data_nature": "benchmark_proxy",
+      "source_id": "SRC_FGV_EPGE_001"
+    }
+  ],
+  "fontes": [
+    {
+      "source_id": "SRC_FGV_EPGE_001",
+      "source_name": "Apresentação FGV Energia-EPGE — intensidades energéticas de referência",
+      "source_url": null,
+      "data_acesso": "2026-09-17",
+      "periodo_referencia": "não informado no material-base",
+      "tipo_fonte": "institucional",
+      "valor_observado_estimado": "estimado",
+      "metodo_estimacao": "Coeficientes usados pelo Squad 2 como benchmark ou proxy operacional por mineral, em Squad 2/modello_reale/parameters/energy_intensity.csv. Não são medição do consumo observado de cada operação.",
+      "status_validacao": "pendente_validacao",
+      "responsavel_validacao": "Squad 2 — intensidade energética",
+      "notas": "A intensidade do níquel é a média ponderada pela produção das duas operações da tabela original."
+    },
+    {
+      "source_id": "SRC_SQUAD1_PRODUCAO_001",
+      "source_name": "Squad 1 — produção mineral histórica consolidada de Goiás",
+      "source_url": "Squad 1/Bases consolidadas/documentacao/pacote_squad2/interface_squad1_squad2.csv",
+      "data_acesso": "2026-09-17",
+      "periodo_referencia": "2010–2025 (2014–2025 para a bauxita)",
+      "tipo_fonte": "oficial",
+      "valor_observado_estimado": "observado",
+      "metodo_estimacao": null,
+      "status_validacao": "validado_squad1",
+      "responsavel_validacao": "Squad 1 — bases públicas e diagnóstico mineral",
+      "notas": "Séries lidas pelo modelo do Squad 2 apenas nas linhas de nível estadual marcadas como observadas. O cobre vem da aba 08_fato_producao_energia da planilha consolidada v17, porque a métrica contido_beneficiada não está no arquivo de interface."
+    },
+    {
+      "source_id": "SRC_S2_ASSUMPTION_001",
+      "source_name": "Squad 2 — hipóteses de cenário do modelo real",
+      "source_url": "Squad 2/modello_reale/parameters/scenarios.csv",
+      "data_acesso": "2026-09-17",
+      "periodo_referencia": "2027–2040",
+      "tipo_fonte": "interna_projeto",
+      "valor_observado_estimado": "ilustrativo",
+      "metodo_estimacao": "Ajuste em pontos percentuais sobre o crescimento histórico de cada mineral (−2, 0 e +2) e melhoria anual de eficiência energética (0,4%, 0,9% e 1,4%). O próprio Squad 2 identifica essas hipóteses como ilustrativas.",
+      "status_validacao": "nao_validado",
+      "responsavel_validacao": "Squad 2 — modelo de projeção",
+      "notas": "A projeção é de tendência histórica. O modelo ainda não inclui carteira física de projetos: não há, nas bases atuais, capacidade, ano de entrada e grau de certeza estruturados."
+    }
+  ]
+}
