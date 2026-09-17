@@ -23,7 +23,7 @@ def referenced():
         keys.update(re.findall(r'data-i18n(?:-html)?="([^"]+)"', markup))
         for group in re.findall(r'data-i18n-attr="([^"]+)"', markup):
             keys.update(pair.split(':', 1)[1].strip() for pair in group.split(','))
-    for script in ('painel.js', 'atlas.js', 'login.js', 'landing.js', 'panorama.js', 'panorama-charts.js', 'panorama-cards1.js',
+    for script in ('painel.js', 'atlas.js', 'login.js', 'landing.js', 'processes.js', 'panorama.js', 'panorama-charts.js', 'panorama-cards1.js',
                        'panorama-cards2.js', 'panorama-cards3.js', 'panorama-analises.js'):
         code = (PUBLIC / script).read_text(encoding='utf-8')
         keys.update(re.findall(r"(?<![A-Za-z0-9_])t\('([A-Za-z0-9._]+)'", code))
@@ -39,19 +39,9 @@ class TranslationTests(unittest.TestCase):
 
     def test_every_key_used_by_the_pages_exists(self):
         pt, en = dictionaries()
-        missing = {k for k in referenced() if not k.startswith('at.s.')} - pt
+        missing = referenced() - pt
         self.assertEqual(missing, set(), 'chaves usadas mas não traduzidas')
-        self.assertEqual({k for k in referenced() if not k.startswith('at.s.')} - en, set())
-
-    def test_series_keys_are_complete_in_both_languages(self):
-        pt, en = dictionaries()
-        for series in ('cfem_years', 'cfem_comparable', 'energy_months', 'beneficiated', 'investment', 'cfem_substances',
-                       'cfem_substance_years', 'cfem_concentration', 'rom_minerals', 'operation_coverage',
-                       'projects_minerals', 'occurrences_substances'):
-            for part in ('title', 'note', 'unit'):
-                key = f'at.s.{series}.{part}'
-                self.assertIn(key, pt)
-                self.assertIn(key, en)
+        self.assertEqual(referenced() - en, set())
 
     def test_pages_load_the_translation_layer_first(self):
         for page, follower in (('index.html', 'landing.js'), ('login.html', 'login.js'),
@@ -66,7 +56,8 @@ class TranslationTests(unittest.TestCase):
         self.assertIn('id="atlas-mun"', markup)
         self.assertIn('id="atlas-minfilter"', markup)
         self.assertIn('id="mun-profile"', markup)
-        self.assertIn('id="mun-evo"', markup)
+        # The municipal CFEM-by-year chart is gone: cfem_min_ano covers it, broken down by mineral.
+        self.assertNotIn('id="mun-evo"', markup)
         code = (PUBLIC / 'atlas.js').read_text(encoding='utf-8')
         # Both ends resolve through the year table, and the span is always ordered.
         self.assertIn("const YEARS=['2022','2023','2024','2025','2026']", code)
@@ -82,17 +73,23 @@ class TranslationTests(unittest.TestCase):
         self.assertIn("YEARS.map((y,i)=>", code)
         # A partial span is summed from the years it covers, never from the total.
         self.assertIn("present.reduce((sum,y)=>sum+source[y],0)", code)
-        for hook in ('function selectMun(', 'function profile(', 'municipalitySubstances', 'municipalityDams', 'function chartGeneric(',
+        for hook in ('function selectMun(', 'function profile(', 'municipalitySubstances', 'municipalityDams',
                      'function pointRows(', 'function mineralOptions(', 'MINERAL_LAYERS'):
             self.assertIn(hook, code)
+        # The state-wide series block left the atlas; the panorama covers it and honours the filters.
+        for gone in ('function chartGeneric(', 'function series(', 'function chartBars('):
+            self.assertNotIn(gone, code)
 
     def test_atlas_is_the_first_panel(self):
         markup = (PUBLIC / 'painel.html').read_text(encoding='utf-8')
         buttons = re.findall(r'data-view="(\w+)"', markup)
         self.assertEqual(buttons[0], 'atlas')
         self.assertIn('<button class="active" data-view="atlas"', markup)
-        self.assertIn("location.hash==='#visao'?'overview':'atlas'",
-                      (PUBLIC / 'painel.js').read_text(encoding='utf-8'))
+        code = (PUBLIC / 'painel.js').read_text(encoding='utf-8')
+        # The retired overview and source-catalogue screens no longer have a route.
+        self.assertIn("view('atlas')", code)
+        self.assertNotIn("'#visao'", code)
+        self.assertNotIn("'#fontes'", code)
 
 
 if __name__ == '__main__':

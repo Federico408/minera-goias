@@ -42,7 +42,7 @@ const DICT={pt:{
 'login.setTitle':'Defina sua senha.','login.setDesc':'Escolha uma senha pessoal para proteger seu acesso.',
 'login.updatedTitle':'Senha atualizada.','login.updatedDesc':'Entre novamente com sua nova senha.','login.mismatch':'As senhas não coincidem.',
 'app.loading':'Carregando seu ambiente…','app.loadingUser':'Carregando','app.logout':'Sair ↗','app.nav':'Navegação do painel','app.env':'AMBIENTE DE PESQUISA',
-'nav.overview':'Visão geral','nav.atlas':'Atlas mineral','nav.sourcescat':'Catálogo de fontes','nav.admin':'Gerenciar acessos','nav.changepw':'Alterar minha senha',
+'nav.overview':'Visão geral','nav.atlas':'Atlas e panorama','nav.sourcescat':'Catálogo de fontes','nav.admin':'Gerenciar acessos','nav.changepw':'Alterar minha senha',
 'app.footer':'MINERA GOIÁS<br>Dados com origem.<br>Conhecimento em construção.','role.admin':'Administrador','role.user':'Usuário',
 'ov.eyebrow':'Energia e território','ov.title':'Visão geral dos dados','ov.lead':'Explore a cobertura das parcelas de carga da CCEE em Goiás.','ov.tag':'BASE IMPORTADA',
 'ov.year':'Ano da fonte','ov.activity':'Ramo de atividade','ov.allActivities':'Todas as atividades','ov.apply':'Aplicar filtros ↗','ov.export':'Exportar resumo ↓',
@@ -57,15 +57,15 @@ const DICT={pt:{
 'ov.csvSource':'fonte','ov.csvYear':'ano','ov.csvActivity':'atividade','ov.csvMonth':'mes','ov.csvRecords':'registros','ov.csvName':'minera-goias-ccee-{year}-resumo.csv',
 'at.eyebrow':'Mineração · Energia · Território','at.title':'Atlas mineral de Goiás','at.lead':'Explore municípios, processos minerários e barragens em um mapa integrado.',
 'at.tag':'BASE CONSOLIDADA · RETRATO',
-'at.loading':'Preparando o atlas…','at.layer':'Camada temática','at.layer.cfem':'CFEM por município','at.layer.production':'Quantidade comercializada por mineral',
+'at.loading':'Preparando o atlas…','at.layer':'Camada temática','at.mapView':'Visão do mapa','nav.themeAria':'Temas do painel','at.layer.cfem':'CFEM por município','at.layer.production':'Quantidade comercializada por mineral',
 'at.layer.energy':'Energia da cadeia mineral','at.layer.coefficient':'Intensidade energética','at.layer.processes':'Polígonos dos processos minerários','at.layer.dams':'Barragens de mineração',
 'at.period':'Período da CFEM','at.accum':'2022–2026 · acumulado','at.rangeFrom':'Ano inicial','at.rangeFromShort':'De','at.rangeToShort':'até','at.rangeTo':'Ano final','at.rangeJoin':'–','at.accumShortLabel':'Acum.','at.substance':'Substância','at.group':'Grupo de fase','at.allGroups':'Todos os grupos','at.reset':'Enquadrar Goiás ↗',
 'at.mapAria':'Mapa interativo de Goiás','at.geoRef':'Geometrias de referência · Leaflet','at.readTerritory':'Leitura do território','at.selectMun':'Selecione um município',
 'at.selectRecord':'Selecione um registro','at.detailHint':'Clique no mapa ou em uma linha da tabela para ver os detalhes.','at.legend':'Legenda',
 'at.tableTitle':'Dados da camada','at.searchPh':'Buscar município, processo ou substância','at.searchAria':'Buscar no mapa e tabela','at.exportCut':'Exportar recorte ↓','at.more':'Mostrar mais 50 registros',
-'at.seriesEyebrow':'Séries da base consolidada','at.seriesTitle':'Perspectivas de mineração e energia','at.indicator':'Indicador',
-'at.series.cfem_years':'CFEM anual · R$ milhões','at.series.cfem_comparable':'CFEM janeiro–julho · R$ milhões','at.series.energy_months':'Energia mensal · GWh',
-'at.series.beneficiated':'Produção beneficiada · R$ bilhões','at.series.investment':'Pesquisa mineral · R$ milhões','at.seriesTableToggle':'Consultar valores da série',
+
+
+
 'at.footSources':'Fontes: base consolidada do Squad 1 (v17) — ANM/CFEM, Anuário Mineral Brasileiro, Cadastro Mineiro, SIGMINE, RECMIN do SGB e malha municipal do IBGE 2025. Energia (CCEE) e barragens (SIGBM) seguem do retrato recebido anteriormente. Geometrias simplificadas para o mapa; limites não cadastrais. Dados demonstrativos e cenários fictícios não foram importados.',
 'at.noRecord':'Sem registro','at.notInformed':'Não informado','at.leafletFail':'Não foi possível carregar o Leaflet. Atualize a página.',
 'at.tileFail':'Mapa-base indisponível. Os limites e dados locais continuam disponíveis.','at.loadingPolys':'Carregando polígonos…',
@@ -84,13 +84,13 @@ const DICT={pt:{
 'at.munIndicators':'Indicadores por município','at.thValue':'Valor','at.thRefClass':'Referência / classe','at.thSubstance':'Substância','at.thArea':'Área declarada',
 'at.recordsHint':'{n} registros · clique em uma linha para localizar no mapa','at.noneInCut':'Nenhum registro no recorte.','at.locate':'Localizar {name}',
 'at.unitGold':'kg declarados','at.unitTons':'t comercializadas','at.from':'A partir de','at.noneZero':'Sem registro / zero','at.cfemPrefix':'CFEM · ',
-'at.allMunicipalities':' · 246 municípios','at.ref2025':'Referência 2025 · ','at.chartAria':'{title}. Valores disponíveis na tabela abaixo.',
+'at.allMunicipalities':' · 246 municípios','at.ref2025':'Referência 2025 · ',
 'at.csvSource':'Fonte','at.csvArtefact':'Base consolidada do Squad 1 (v17)','at.csvLayer':'Camada','at.csvRef':'Referência','at.thPeriod':'Período',
-'at.s.cfem_years.title':'CFEM arrecadada por ano','at.s.cfem_years.note':'2026 é parcial: janeiro a julho e registros criados até o início de agosto. Use a série comparável (janeiro–julho) para avaliar o mesmo período.','at.s.cfem_years.unit':'R$ milhões',
-'at.s.cfem_comparable.title':'CFEM de janeiro a julho','at.s.cfem_comparable.note':'Mesmo recorte de meses em todos os anos; valores da base consolidada.','at.s.cfem_comparable.unit':'R$ milhões',
-'at.s.energy_months.title':'Energia mensal de empresas com título minerário','at.s.energy_months.note':'Universo definido no artefato. 2024 começa em abril; 2026 termina em junho. Não misturar com a base da visão geral.','at.s.energy_months.unit':'GWh',
-'at.s.beneficiated.title':'Valor da produção beneficiada','at.s.beneficiated.note':'Valor de venda nominal do Anuário Mineral Brasileiro (Goiás), sem correção monetária.','at.s.beneficiated.unit':'R$ bilhões',
-'at.s.investment.title':'Investimento declarado em pesquisa mineral','at.s.investment.note':'Investimento declarado à ANM em Goiás; série nominal, sem correção monetária.','at.s.investment.unit':'R$ milhões',
+
+
+
+
+
 'at.layer.projects':'Projetos que ainda não produzem (ANM)','at.layer.occurrences':'Ocorrências minerais (RECMIN/SGB)',
 'at.filterClass':'Classificação do projeto','at.filterImportance':'Importância da ocorrência','at.allCategories':'Todas',
 'at.class.probable':'Provável','at.class.possible':'Possível','at.class.signal':'Sinal',
@@ -103,17 +103,17 @@ const DICT={pt:{
 'at.project':'Projeto','at.holder':'Titular','at.holderHidden':'Pessoa física ou titular sem CNPJ (ver aba 04 da base)','at.maturity':'Classificação','at.stage':'Estágio na ANM',
 'at.brownfield':'Brownfield','at.yes':'Sim','at.no':'Não','at.claims':'Processos','at.areaHa':'Área dos processos','at.evidence':'Data do último evento na ANM',
 'at.occurrence':'Ocorrência','at.substances':'Substâncias','at.importance':'Importância','at.economicStatus':'Status econômico','at.utilityClass':'Classe utilitária','at.positioning':'Posicionamento','at.anmOverlap':'Categoria do processo da ANM no local','at.none':'Nenhum','at.registered':'Cadastro no SGB',
-'at.thCategory':'Categoria','at.thTotal':'Total',
-'at.g.others':'Outras','at.g.value':'Valor','at.g.municipalities':'Municípios','at.g.holders':'Titulares identificados','at.g.top':'{n} maiores','at.g.withCoords':'Operação com coordenadas','at.g.withoutCoords':'Operação sem poligonal','at.g.noCfem':'Sem CFEM para ratear',
-'at.series.cfem_substances':'CFEM por substância · 2025','at.series.cfem_substance_years':'CFEM por substância e ano · R$ milhões','at.series.cfem_concentration':'Concentração da CFEM · 2025',
-'at.series.rom_minerals':'Produção bruta por mineral · Mt','at.series.operation_coverage':'Produção atribuída a operações · %','at.series.projects_minerals':'Projetos por mineral e classificação','at.series.occurrences_substances':'Ocorrências por substância e importância',
-'at.s.cfem_substances.title':'CFEM arrecadada por substância em 2025','at.s.cfem_substances.note':'As {n} substâncias com maior arrecadação; o restante soma em Outras. Categoria de mineral da base consolidada (rochas pelo tipo de uso).','at.s.cfem_substances.unit':'R$ milhões',
-'at.s.cfem_substance_years.title':'CFEM por substância ao longo dos anos','at.s.cfem_substance_years.note':'As {n} substâncias com maior CFEM acumulada desde 2022 e o restante em Outras. 2026 é parcial (barra mais clara).','at.s.cfem_substance_years.unit':'R$ milhões',
-'at.s.cfem_concentration.title':'Quanto da CFEM de 2025 fica com os maiores municípios e titulares','at.s.cfem_concentration.note':'Participação acumulada na CFEM de Goiás em 2025. Titulares pelo company_id da base; {pct}% da CFEM vem de processos sem titular identificado e fica fora do ranking de titulares, mas entra no total.','at.s.cfem_concentration.unit':'% da CFEM',
-'at.s.rom_minerals.title':'Produção bruta (ROM) de Goiás por mineral em {year}','at.s.rom_minerals.note':'Anuário Mineral Brasileiro: minério movimentado por mineral. Não some as barras: co-produtos repetem a mesma tonelagem (ouro e cobre saem do mesmo minério).','at.s.rom_minerals.unit':'milhões de t',
-'at.s.operation_coverage.title':'Quanto da produção bruta a base atribui a operações','at.s.operation_coverage.note':'Produção do AMB aberta por operação pela participação na CFEM (aba 12). Sem poligonal: processos fora do SIGMINE, como a série 96xxxx do ouro em Crixás. Percentual da soma entre minerais.','at.s.operation_coverage.unit':'% da produção bruta',
-'at.s.projects_minerals.title':'Projetos que ainda não produzem, por mineral','at.s.projects_minerals.note':'{n} projetos da camada ANM (aba 04), por classificação. Provável: lavra autorizada sem CFEM e com evento recente; sinal: parado há mais de 3 anos ou em disputa.','at.s.projects_minerals.unit':'projetos',
-'at.s.occurrences_substances.title':'Ocorrências e depósitos minerais por substância','at.s.occurrences_substances.note':'{n} pontos do RECMIN em Goiás. Uma ocorrência com mais de uma substância conta em cada uma ({multi} casos).','at.s.occurrences_substances.unit':'ocorrências',
+
+
+
+
+
+
+
+
+
+
+
 'mun.projects':'Projetos (ANM)','mun.projectsSub':'Pontos da camada de projetos no município','mun.occurrences':'Ocorrências (RECMIN)','mun.occurrencesSub':'Depósitos e ocorrências do SGB',
 'sv.eyebrow':'Rastreabilidade','sv.title':'Catálogo de fontes','sv.lead':'Abas e tabelas das versões atuais do acervo. Independente dos filtros da CCEE.',
 'sv.notice':'Bases originais e corrigidas podem se sobrepor. A soma das linhas do acervo não equivale a observações independentes. Alertas indicam pontos para revisão técnica.',
@@ -129,7 +129,7 @@ const DICT={pt:{
 'c.sessionEnded':'Sessão encerrada.','at.mineral':'Mineral','at.allMinerals':'Todos os minerais','at.energyMineralNote':'A energia não é separada por mineral: com um mineral escolhido, o mapa mostra só os municípios em que ele é a principal substância.','at.municipality':'Município','at.selectMunicipality':'— Selecione o município —',
 'mun.eyebrow':'Perfil do município','mun.clear':'Limpar seleção','mun.subsTitle':'Substâncias declaradas · 2025',
 'mun.subsNote':'Quantidade comercializada (t) e CFEM de 2025 da base consolidada, por substância.','mun.damsTitle':'Barragens no município',
-'mun.damsNote':'Classificação registrada no artefato recebido.','mun.evoTitle':'Evolução ao longo do tempo',
+'mun.damsNote':'Classificação registrada no artefato recebido.',
 'mun.tag':'IBGE {code}','mun.processes':'Processos minerários','mun.processesSub':'Processos do SIGMINE que tocam o município',
 'mun.cfemTotal':'CFEM acumulada','mun.cfemTotalSub':'2022 a 2026 (2026 parcial)','mun.share':'Participação no estado',
 'mun.shareSub':'Da CFEM acumulada de Goiás','mun.production':'Quantidade comercializada · 2025',
@@ -137,15 +137,15 @@ const DICT={pt:{
 'mun.cfemYear':'CFEM em {year}','mun.noSubs':'Sem CFEM declarada neste município em 2025.',
 'mun.noDams':'Nenhuma barragem registrada neste município.','mun.thSub':'Substância','mun.thQty':'Quantidade',
 'mun.thCfem':'CFEM','mun.thCompanies':'Titulares','mun.damRisk':'Risco: {risk} · dano potencial: {damage}',
-'mun.evoAvailable':'CFEM arrecadada por ano, em R$ milhões. 2026 é parcial (até o início de agosto).',
-'mun.evoMissing':'Sem série anual de CFEM para {name}.',
-'mun.evoUnit':'R$ milhões','mun.hint':'Selecione um município na lista ou clique no mapa.',
+
+
+'mun.hint':'Selecione um município na lista ou clique no mapa.',
 'mun.classe':'Classificação do artefato','mun.mainSub':'Substância principal',
 'nav.radar':'Radar','rd.eyebrow':'Cadastro e editais','rd.title':'Radar do que vem','rd.tag':'CADASTRO ANM',
 'rd.lead':'O que já está autorizado, o que ainda está em análise e quais áreas a ANM pode reabrir.',
 'rd.loading':'Consultando o cadastro…','rd.confirmado':'Autorizado a extrair','rd.confirmadoSub':'Lavra, licenciamento ou registro de extração',
 'rd.analise':'Em análise','rd.analiseSub':'Pesquisa autorizada e requerimentos em curso','rd.abrindo':'Pode reabrir',
-'rd.abrindoSub':'Em disponibilidade ou apto a entrar','rd.fases':'Processos por fase','rd.fasesSub':'A cor indica o grupo: autorizado, em análise ou pode reabrir.','rd.thFase':'Fase','rd.thProcessos':'Processos',
+'rd.abrindoSub':'Em disponibilidade ou apto a entrar','rd.fases':'Processos por fase','rd.fasesSub':'Clique em uma fase para explorar os processos. A cor indica o grupo: autorizado, em análise ou pode reabrir.','rd.thFase':'Fase','rd.thProcessos':'Processos',
 'rd.rodadas':'Rodadas de disponibilidade','rd.rodadasSub':'Situação das áreas ofertadas em Goiás',
 'rd.futuras':'Áreas ainda em aberto','rd.futurasSub':'Aguardando leilão ou sem arrematante','rd.munAbertas':'Municípios com área em aberto',
 'rd.topMun':'Onde há mais área em aberto','rd.regimes':'Regime da área em aberto','rd.thSituacao':'Situação','rd.thAreas':'Áreas',
@@ -156,7 +156,19 @@ const DICT={pt:{
 'rd.v.pressao_de_alta':'Pressão de alta','rd.v.pressao_de_baixa':'Pressão de baixa','rd.v.sem_direcao_clara':'Sem direção clara',
 'rd.v.evidencia_insuficiente':'Evidência insuficiente','rd.semTendencia':'Nenhum sinal com matérias suficientes ainda.',
 'rd.aviso':'Sinal de notícia não é preço. Mede o que a imprensa publicou, não o mercado.',
+'rd.abrirFase':'Abrir os processos da fase {fase}','rd.exploreEyebrow':'Processos da fase','rd.close':'Fechar ✕',
+'rd.carregandoProcessos':'Carregando os processos do cadastro…','rd.exploreSub':'{n} processos nesta fase.',
+'rd.mostrando':'Mostrando {n} de {total}.','rd.nenhumProcesso':'Nenhum processo encontrado nesta busca.',
+'rd.searchAria':'Buscar processo ou substância','rd.searchPh':'Buscar processo ou substância','rd.more':'Mostrar mais 30 processos',
+'rd.detailEyebrow':'Detalhe do processo','rd.pickProcess':'Selecione um processo','rd.processo':'Processo {id}',
+'rd.detailHint':'Clique em um processo da lista para ver o que o cadastro registra sobre ele.','rd.seeOnMap':'Ver no mapa ↗',
+'rd.dFase':'Fase','rd.dGrupo':'Grupo no mapa','rd.dSubstancia':'Substância','rd.dArea':'Área declarada','rd.dPoligonos':'Polígonos',
+'rd.semArea':'Sem área declarada','rd.naoInformado':'Não informado',
 'c.failed':'Não foi possível concluir. Confira os campos.','c.checkFields':'Confira os campos informados.',
+'pn.titleMun':'Panorama de {mun}','pn.scopeState':'Âmbito: Goiás','pn.h.sub':'Substância',
+'pn.imp.Depósito':'Depósito','pn.imp.Ocorrência':'Ocorrência','pn.imp.Indício':'Indício','pn.imp.Indeterminado':'Indeterminado',
+'pn.cov.com_coordenadas':'Com coordenada','pn.cov.sem_coordenadas':'Sem coordenada','pn.cov.sem_cfem':'Sem CFEM',
+'pn.c.cobertura':'Quanto da produção a base atribui a operações','pn.c.cobertura.n':'Parcela da produção bruta ligada a uma operação com coordenada. Diz o quanto os números de produção podem ser lidos no território.',
 'nav.panorama':"Panorama",'pn.eyebrow':"Base consolidada · Squad 1",'pn.title':"Panorama da mineração de Goiás",'pn.lead':"Os gráficos e tabelas do Panorama, refeitos com as bases do Squad 1 no GitHub e recortáveis por período, município, mineral, titular e outros filtros.",
 'pn.tag':"BASE CONSOLIDADA · RETRATO",'pn.loading':"Preparando o panorama…",'pn.f.y0':"Ano inicial",'pn.f.y1':"Ano final",
 'pn.f.ano':"Ano",'pn.f.mes':"Mês",'pn.f.mun':"Município",'pn.f.min':"Mineral",
@@ -165,10 +177,10 @@ const DICT={pt:{
 'pn.allMin':"Todos os minerais",'pn.allFase':"Todas as fases",'pn.allRub':"Todos os gastos",'pn.allRamo':"Todos os ramos",
 'pn.cut':"Recorte:",'pn.appliedFilters':"Filtros que valem aqui:",'pn.source':"Fonte: base consolidada do Squad 1 ({v}), dados brutos do repositório (investimento em pesquisa, CCEE e rodadas da ANM) e retrato do atlas para energia por município e barragens. Pacote gerado em {d} por scripts/build_panorama_base.py.",'pn.notInformed':"Não informado",
 'pn.noMineral':"Sem mineral",'pn.pf':"Pessoa física (nome oculto)",'pn.others':"Outros",'pn.empty':"Sem dados neste recorte.",
-'pn.noRecord':"sem registro",'pn.from':"a partir de",'pn.showAll':"Mostrar todos ({n})",'pn.showLess':"Mostrar menos",
+'pn.showAll':"Mostrar todos ({n})",'pn.showLess':"Mostrar menos",
 'pn.u.bi':"bi",'pn.u.mi':"mi",'pn.u.k':"mil",'pn.refYear':"Ano de referência: {y} (último ano do recorte com dado).",
-'pn.decade':"anos {d}",'pn.noAtlas':"O retrato do atlas não carregou; este quadro depende dele.",'pn.mapMetric':"Indicador",'pn.map.cfem':"CFEM recolhida (R$)",
-'pn.map.proc':"Processos minerários",'pn.map.area':"Área dos processos (ha)",'pn.map.ee':"Consumo no mercado livre (GWh)",'pn.mapHint':"Clique num município para usá-lo como filtro.",
+'pn.decade':"anos {d}",'pn.noAtlas':"O retrato do atlas não carregou; este quadro depende dele.",
+
 'pn.invShareMin':"A participação no Brasil só é calculada sem filtro de mineral: o arquivo nacional é somado por ano e gasto.",'pn.lavraPagou.sim':"Detém lavra e recolheu CFEM em 2022–2026",'pn.lavraPagou.nao':"Detém lavra e não recolheu CFEM",'pn.lv.0':"Alta",
 'pn.lv.1':"Média",'pn.lv.2':"Baixa",'pn.rub.analise_fisica':"Análise física",'pn.rub.analise_quimica':"Análise química",
 'pn.rub.ensaio_beneficiamento':"Ensaio de beneficiamento",'pn.rub.galeria_shaft':"Galeria e shaft",'pn.rub.geologia':"Geologia",'pn.rub.infraestrutura':"Infraestrutura",
@@ -199,9 +211,9 @@ const DICT={pt:{
 'pn.h.gwh':"Energia (GWh)",'pn.h.massa':"Massa (t)",'pn.h.coef':"Coeficiente",'pn.h.mainSub':"Principal substância",
 'pn.h.dam':"Barragem",'pn.h.ore':"Minério",'pn.h.risk':"Risco (CRI)",'pn.h.damage':"Dano (DPA)",
 'pn.h.operation':"Situação",'pn.h.emergency':"Emergência",'pn.h.coords':"Coordenadas",'pn.h.riskDamage':"Risco × dano",
-'pn.h.total':"Total",'pn.c.cfem_ano':"CFEM arrecadada em Goiás, por ano",'pn.c.cfem_ano.n':"R$ recolhidos (aba 08). 2026 vai até o início de agosto e aparece mais claro.",'pn.c.cfem_janjul':"CFEM de janeiro a julho",
-'pn.c.cfem_janjul.n':"Os mesmos sete meses em todos os anos, para comparar 2026 com os anteriores.",'pn.c.cfem_mes':"CFEM mês a mês",'pn.c.cfem_mes.n':"Soma mensal do valor recolhido no recorte.",'pn.c.mapa':"Mapa por município",
-'pn.c.mapa.n':"Faixas de quantis dos valores positivos; cinza é sem registro. Processos de divisa contam no município principal.",'pn.c.mun_cfem':"Municípios que mais arrecadam",'pn.c.mun_cfem.n':"Ranking da CFEM no recorte, com participação e acumulado.",'pn.c.mun_proc':"Municípios com mais processos",
+'pn.h.total':"Total",'pn.c.cfem_janjul':"CFEM de janeiro a julho",
+'pn.c.cfem_janjul.n':"Os mesmos sete meses em todos os anos, para comparar 2026 com os anteriores.",'pn.c.cfem_mes':"CFEM mês a mês",'pn.c.cfem_mes.n':"Soma mensal do valor recolhido no recorte.",
+'pn.c.mun_cfem':"Municípios que mais arrecadam",'pn.c.mun_cfem.n':"Ranking da CFEM no recorte, com participação e acumulado.",'pn.c.mun_proc':"Municípios com mais processos",
 'pn.c.mun_proc.n':"Processos ativos do SIGMINE e área declarada, pelo município principal do polígono.",'pn.c.cfem_min':"CFEM por mineral",'pn.c.cfem_min.n':"Os 15 maiores no recorte; o resto em outros.",'pn.c.cfem_min_ano':"CFEM por mineral e ano",
 'pn.c.cfem_min_ano.n':"Os seis minerais que mais arrecadam no recorte e os demais somados.",'pn.c.benef_ano':"Valor de venda da produção beneficiada",'pn.c.benef_ano.n':"Anuário Mineral Brasileiro, R$ nominais, por mineral.",'pn.c.benef_share':"Participação de Goiás no valor nacional",
 'pn.c.benef_share.n':"Valor da beneficiada de Goiás dividido pela soma de todas as UFs.",'pn.c.rom_ano':"Produção bruta (ROM)",'pn.c.rom_ano.n':"Milhões de toneladas de minério. Somar minerais conta duas vezes os co-produtos do mesmo minério.",'pn.c.prod_ultimo':"O que Goiás produziu",
@@ -293,7 +305,7 @@ const DICT={pt:{
 'login.setTitle':'Set your password.','login.setDesc':'Choose a personal password to protect your access.',
 'login.updatedTitle':'Password updated.','login.updatedDesc':'Sign in again with your new password.','login.mismatch':'The passwords do not match.',
 'app.loading':'Loading your workspace…','app.loadingUser':'Loading','app.logout':'Sign out ↗','app.nav':'Dashboard navigation','app.env':'RESEARCH WORKSPACE',
-'nav.overview':'Overview','nav.atlas':'Mineral atlas','nav.sourcescat':'Source catalogue','nav.admin':'Manage access','nav.changepw':'Change my password',
+'nav.overview':'Overview','nav.atlas':'Atlas and panorama','nav.sourcescat':'Source catalogue','nav.admin':'Manage access','nav.changepw':'Change my password',
 'app.footer':'MINERA GOIÁS<br>Data with provenance.<br>Knowledge under construction.','role.admin':'Administrator','role.user':'User',
 'ov.eyebrow':'Energy and territory','ov.title':'Data overview','ov.lead':'Explore the coverage of CCEE load records in Goiás.','ov.tag':'IMPORTED DATASET',
 'ov.year':'Source year','ov.activity':'Activity sector','ov.allActivities':'All sectors','ov.apply':'Apply filters ↗','ov.export':'Export summary ↓',
@@ -308,15 +320,15 @@ const DICT={pt:{
 'ov.csvSource':'source','ov.csvYear':'year','ov.csvActivity':'sector','ov.csvMonth':'month','ov.csvRecords':'records','ov.csvName':'minera-goias-ccee-{year}-summary.csv',
 'at.eyebrow':'Mining · Energy · Territory','at.title':'Mineral atlas of Goiás','at.lead':'Explore municipalities, mining claims and tailings dams on one integrated map.',
 'at.tag':'CONSOLIDATED BASE · SNAPSHOT',
-'at.loading':'Preparing the atlas…','at.layer':'Thematic layer','at.layer.cfem':'CFEM royalties by municipality','at.layer.production':'Quantity sold by mineral',
+'at.loading':'Preparing the atlas…','at.layer':'Thematic layer','at.mapView':'Map view','nav.themeAria':'Panel themes','at.layer.cfem':'CFEM royalties by municipality','at.layer.production':'Quantity sold by mineral',
 'at.layer.energy':'Mineral chain energy','at.layer.coefficient':'Energy intensity','at.layer.processes':'Mining claim polygons','at.layer.dams':'Mining tailings dams',
 'at.period':'CFEM period','at.accum':'2022–2026 · cumulative','at.rangeFrom':'First year','at.rangeFromShort':'From','at.rangeToShort':'to','at.rangeTo':'Last year','at.rangeJoin':'–','at.accumShortLabel':'All','at.substance':'Substance','at.group':'Phase group','at.allGroups':'All groups','at.reset':'Fit Goiás ↗',
 'at.mapAria':'Interactive map of Goiás','at.geoRef':'Reference geometries · Leaflet','at.readTerritory':'Reading the territory','at.selectMun':'Select a municipality',
 'at.selectRecord':'Select a record','at.detailHint':'Click the map or a table row to see the details.','at.legend':'Legend',
 'at.tableTitle':'Layer data','at.searchPh':'Search municipality, claim or substance','at.searchAria':'Search the map and table','at.exportCut':'Export selection ↓','at.more':'Show 50 more records',
-'at.seriesEyebrow':'Consolidated base series','at.seriesTitle':'Mining and energy perspectives','at.indicator':'Indicator',
-'at.series.cfem_years':'CFEM per year · R$ millions','at.series.cfem_comparable':'CFEM January–July · R$ millions','at.series.energy_months':'Monthly energy · GWh',
-'at.series.beneficiated':'Processed output · R$ billions','at.series.investment':'Mineral exploration · R$ millions','at.seriesTableToggle':'View the series values',
+
+
+
 'at.footSources':'Sources: Squad 1 consolidated base (v17) — ANM/CFEM, Brazilian Mineral Yearbook, Mining Register, SIGMINE, SGB RECMIN and the IBGE 2025 municipal grid. Energy (CCEE) and dams (SIGBM) still come from the artefact received earlier. Geometries simplified for the map; boundaries are not cadastral. Demonstration data and fictional scenarios were not imported.',
 'at.noRecord':'No record','at.notInformed':'Not informed','at.leafletFail':'Leaflet could not be loaded. Please refresh the page.',
 'at.tileFail':'Base map unavailable. Boundaries and local data remain available.','at.loadingPolys':'Loading polygons…',
@@ -335,13 +347,13 @@ const DICT={pt:{
 'at.munIndicators':'Indicators by municipality','at.thValue':'Value','at.thRefClass':'Reference / class','at.thSubstance':'Substance','at.thArea':'Declared area',
 'at.recordsHint':'{n} records · click a row to locate it on the map','at.noneInCut':'No records in this selection.','at.locate':'Locate {name}',
 'at.unitGold':'kg declared','at.unitTons':'t sold','at.from':'From','at.noneZero':'No record / zero','at.cfemPrefix':'CFEM · ',
-'at.allMunicipalities':' · 246 municipalities','at.ref2025':'2025 reference · ','at.chartAria':'{title}. Values available in the table below.',
+'at.allMunicipalities':' · 246 municipalities','at.ref2025':'2025 reference · ',
 'at.csvSource':'Source','at.csvArtefact':'Squad 1 consolidated base (v17)','at.csvLayer':'Layer','at.csvRef':'Reference','at.thPeriod':'Period',
-'at.s.cfem_years.title':'CFEM collected per year','at.s.cfem_years.note':'2026 is partial: January to July plus records created by early August. Use the comparable series (January–July) to assess the same period.','at.s.cfem_years.unit':'R$ millions',
-'at.s.cfem_comparable.title':'CFEM from January to July','at.s.cfem_comparable.note':'The same months in every year; values from the consolidated base.','at.s.cfem_comparable.unit':'R$ millions',
-'at.s.energy_months.title':'Monthly energy of companies holding mining titles','at.s.energy_months.note':'Universe defined in the artefact. 2024 starts in April; 2026 ends in June. Do not mix with the overview dataset.','at.s.energy_months.unit':'GWh',
-'at.s.beneficiated.title':'Value of processed output','at.s.beneficiated.note':'Nominal sales value from the Brazilian Mineral Yearbook (Goiás), not inflation-adjusted.','at.s.beneficiated.unit':'R$ billions',
-'at.s.investment.title':'Declared investment in mineral exploration','at.s.investment.note':'Investment declared to ANM in Goiás; nominal series, not inflation-adjusted.','at.s.investment.unit':'R$ millions',
+
+
+
+
+
 'at.layer.projects':'Projects not yet producing (ANM)','at.layer.occurrences':'Mineral occurrences (RECMIN/SGB)',
 'at.filterClass':'Project classification','at.filterImportance':'Occurrence importance','at.allCategories':'All',
 'at.class.probable':'Probable','at.class.possible':'Possible','at.class.signal':'Signal',
@@ -354,17 +366,17 @@ const DICT={pt:{
 'at.project':'Project','at.holder':'Holder','at.holderHidden':'Individual or holder without CNPJ (see sheet 04 of the base)','at.maturity':'Classification','at.stage':'Stage at ANM',
 'at.brownfield':'Brownfield','at.yes':'Yes','at.no':'No','at.claims':'Claims','at.areaHa':'Claim area','at.evidence':'Date of the latest ANM event',
 'at.occurrence':'Occurrence','at.substances':'Substances','at.importance':'Importance','at.economicStatus':'Economic status','at.utilityClass':'Utility class','at.positioning':'Positioning','at.anmOverlap':'ANM claim category at the site','at.none':'None','at.registered':'Registered at SGB',
-'at.thCategory':'Category','at.thTotal':'Total',
-'at.g.others':'Others','at.g.value':'Value','at.g.municipalities':'Municipalities','at.g.holders':'Identified holders','at.g.top':'Top {n}','at.g.withCoords':'Operation with coordinates','at.g.withoutCoords':'Operation without polygon','at.g.noCfem':'No CFEM to allocate',
-'at.series.cfem_substances':'CFEM by substance · 2025','at.series.cfem_substance_years':'CFEM by substance and year · R$ millions','at.series.cfem_concentration':'CFEM concentration · 2025',
-'at.series.rom_minerals':'Run-of-mine output by mineral · Mt','at.series.operation_coverage':'Output allocated to operations · %','at.series.projects_minerals':'Projects by mineral and classification','at.series.occurrences_substances':'Occurrences by substance and importance',
-'at.s.cfem_substances.title':'CFEM collected by substance in 2025','at.s.cfem_substances.note':'The {n} substances with the highest collection; the rest adds up in Others. Mineral category of the consolidated base (rocks by type of use).','at.s.cfem_substances.unit':'R$ millions',
-'at.s.cfem_substance_years.title':'CFEM by substance over the years','at.s.cfem_substance_years.note':'The {n} substances with the highest CFEM since 2022 and the rest in Others. 2026 is partial (lighter bar).','at.s.cfem_substance_years.unit':'R$ millions',
-'at.s.cfem_concentration.title':'How much of the 2025 CFEM goes to the largest municipalities and holders','at.s.cfem_concentration.note':'Cumulative share of the CFEM of Goiás in 2025. Holders by the company_id of the base; {pct}% of the CFEM comes from claims without an identified holder and is left out of the holder ranking, but kept in the total.','at.s.cfem_concentration.unit':'% of CFEM',
-'at.s.rom_minerals.title':'Run-of-mine (ROM) output of Goiás by mineral in {year}','at.s.rom_minerals.note':'Brazilian Mineral Yearbook: ore moved by mineral. Do not add up the bars: co-products repeat the same tonnage (gold and copper come from the same ore).','at.s.rom_minerals.unit':'million t',
-'at.s.operation_coverage.title':'How much of the run-of-mine output the base allocates to operations','at.s.operation_coverage.note':'AMB output split by operation using the share of CFEM (sheet 12). Without polygon: claims missing from SIGMINE, such as the 96xxxx gold series in Crixás. Share of the sum across minerals.','at.s.operation_coverage.unit':'% of ROM output',
-'at.s.projects_minerals.title':'Projects not yet producing, by mineral','at.s.projects_minerals.note':'{n} projects in the ANM layer (sheet 04), by classification. Probable: mining authorised without CFEM and with a recent event; signal: stalled for more than 3 years or in dispute.','at.s.projects_minerals.unit':'projects',
-'at.s.occurrences_substances.title':'Mineral occurrences and deposits by substance','at.s.occurrences_substances.note':'{n} RECMIN points in Goiás. An occurrence with more than one substance counts in each ({multi} cases).','at.s.occurrences_substances.unit':'occurrences',
+
+
+
+
+
+
+
+
+
+
+
 'mun.projects':'Projects (ANM)','mun.projectsSub':'Points of the project layer in the municipality','mun.occurrences':'Occurrences (RECMIN)','mun.occurrencesSub':'SGB deposits and occurrences',
 'sv.eyebrow':'Traceability','sv.title':'Source catalogue','sv.lead':'Sheets and tables of the current versions in the collection. Independent of the CCEE filters.',
 'sv.notice':'Original and corrected datasets may overlap. Summing the rows of the collection does not yield independent observations. Alerts point to items for technical review.',
@@ -380,7 +392,7 @@ const DICT={pt:{
 'c.sessionEnded':'Session ended.','at.mineral':'Mineral','at.allMinerals':'All minerals','at.energyMineralNote':'Energy is not split by mineral: with a mineral selected, the map shows only the municipalities where it is the main substance.','at.municipality':'Municipality','at.selectMunicipality':'— Select a municipality —',
 'mun.eyebrow':'Municipality profile','mun.clear':'Clear selection','mun.subsTitle':'Substances declared · 2025',
 'mun.subsNote':'Quantity sold (t) and CFEM royalties for 2025 from the consolidated base, by substance.','mun.damsTitle':'Dams in the municipality',
-'mun.damsNote':'Classification as recorded in the artefact received.','mun.evoTitle':'Change over time',
+'mun.damsNote':'Classification as recorded in the artefact received.',
 'mun.tag':'IBGE {code}','mun.processes':'Mining claims','mun.processesSub':'SIGMINE claims touching the municipality',
 'mun.cfemTotal':'CFEM accumulated','mun.cfemTotalSub':'2022 to 2026 (2026 partial)','mun.share':'Share of the state',
 'mun.shareSub':'Of the accumulated CFEM of Goiás','mun.production':'Quantity sold · 2025',
@@ -388,15 +400,15 @@ const DICT={pt:{
 'mun.cfemYear':'CFEM in {year}','mun.noSubs':'No CFEM declared in this municipality in 2025.',
 'mun.noDams':'No dam recorded in this municipality.','mun.thSub':'Substance','mun.thQty':'Quantity',
 'mun.thCfem':'CFEM','mun.thCompanies':'Holders','mun.damRisk':'Risk: {risk} · potential damage: {damage}',
-'mun.evoAvailable':'CFEM collected per year, in R$ millions. 2026 is partial (up to early August).',
-'mun.evoMissing':'No yearly CFEM series for {name}.',
-'mun.evoUnit':'R$ millions','mun.hint':'Select a municipality from the list or click the map.',
+
+
+'mun.hint':'Select a municipality from the list or click the map.',
 'mun.classe':'Artefact classification','mun.mainSub':'Main substance',
 'nav.radar':'Radar','rd.eyebrow':'Register and tenders','rd.title':'Radar of what is coming','rd.tag':'ANM REGISTER',
 'rd.lead':'What is already authorised, what is still under analysis, and which areas the ANM may reopen.',
 'rd.loading':'Querying the register…','rd.confirmado':'Cleared to extract','rd.confirmadoSub':'Mining, licensing or extraction registry',
 'rd.analise':'Under analysis','rd.analiseSub':'Authorised exploration and pending applications','rd.abrindo':'May reopen',
-'rd.abrindoSub':'On offer or ready to be offered','rd.fases':'Claims by phase','rd.fasesSub':'Colour marks the group: cleared, under analysis, or may reopen.','rd.thFase':'Phase','rd.thProcessos':'Claims',
+'rd.abrindoSub':'On offer or ready to be offered','rd.fases':'Claims by phase','rd.fasesSub':'Click a phase to explore its claims. Colour marks the group: cleared, under analysis, or may reopen.','rd.thFase':'Phase','rd.thProcessos':'Claims',
 'rd.rodadas':'Availability rounds','rd.rodadasSub':'Status of the areas offered in Goiás',
 'rd.futuras':'Areas still open','rd.futurasSub':'Awaiting auction or with no winner','rd.munAbertas':'Municipalities with open areas',
 'rd.topMun':'Where most open area sits','rd.regimes':'Regime of the open areas','rd.thSituacao':'Status','rd.thAreas':'Areas',
@@ -407,7 +419,19 @@ const DICT={pt:{
 'rd.v.pressao_de_alta':'Upward pressure','rd.v.pressao_de_baixa':'Downward pressure','rd.v.sem_direcao_clara':'No clear direction',
 'rd.v.evidencia_insuficiente':'Not enough evidence','rd.semTendencia':'No signal backed by enough stories yet.',
 'rd.aviso':'A news signal is not a price. It measures what the press published, not the market.',
+'rd.abrirFase':'Open the claims in the {fase} phase','rd.exploreEyebrow':'Claims in this phase','rd.close':'Close ✕',
+'rd.carregandoProcessos':'Loading the claims from the register…','rd.exploreSub':'{n} claims in this phase.',
+'rd.mostrando':'Showing {n} of {total}.','rd.nenhumProcesso':'No claim matches this search.',
+'rd.searchAria':'Search claim or substance','rd.searchPh':'Search claim or substance','rd.more':'Show 30 more claims',
+'rd.detailEyebrow':'Claim detail','rd.pickProcess':'Select a claim','rd.processo':'Claim {id}',
+'rd.detailHint':'Click a claim in the list to see what the register holds on it.','rd.seeOnMap':'See on the map ↗',
+'rd.dFase':'Phase','rd.dGrupo':'Group on the map','rd.dSubstancia':'Substance','rd.dArea':'Declared area','rd.dPoligonos':'Polygons',
+'rd.semArea':'No declared area','rd.naoInformado':'Not informed',
 'c.failed':'Could not complete the request. Check the fields.','c.checkFields':'Check the fields you entered.',
+'pn.titleMun':'Panorama of {mun}','pn.scopeState':'Scope: Goiás','pn.h.sub':'Substance',
+'pn.imp.Depósito':'Deposit','pn.imp.Ocorrência':'Occurrence','pn.imp.Indício':'Showing','pn.imp.Indeterminado':'Undetermined',
+'pn.cov.com_coordenadas':'With coordinates','pn.cov.sem_coordenadas':'Without coordinates','pn.cov.sem_cfem':'No CFEM',
+'pn.c.cobertura':'How much production the base ties to operations','pn.c.cobertura.n':'Share of run-of-mine production linked to an operation with coordinates. It says how far the production figures can be read on the ground.',
 'nav.panorama':"Panorama",'pn.eyebrow':"Consolidated base · Squad 1",'pn.title':"Panorama of mining in Goiás",'pn.lead':"The charts and tables of the Panorama, rebuilt from the Squad 1 bases on GitHub and filterable by period, municipality, mineral, holder and more.",
 'pn.tag':"CONSOLIDATED BASE · SNAPSHOT",'pn.loading':"Preparing the panorama…",'pn.f.y0':"From year",'pn.f.y1':"To year",
 'pn.f.ano':"Year",'pn.f.mes':"Month",'pn.f.mun':"Municipality",'pn.f.min':"Mineral",
@@ -416,10 +440,10 @@ const DICT={pt:{
 'pn.allMin':"All minerals",'pn.allFase':"All phases",'pn.allRub':"All spending",'pn.allRamo':"All sectors",
 'pn.cut':"Cut:",'pn.appliedFilters':"Filters used here:",'pn.source':"Source: Squad 1 consolidated base ({v}), raw files in the repository (research investment, CCEE and ANM rounds) and the atlas snapshot for energy by municipality and dams. Package built on {d} by scripts/build_panorama_base.py.",'pn.notInformed':"Not informed",
 'pn.noMineral':"No mineral",'pn.pf':"Individual (name hidden)",'pn.others':"Others",'pn.empty':"No data in this cut.",
-'pn.noRecord':"no record",'pn.from':"from",'pn.showAll':"Show all ({n})",'pn.showLess':"Show less",
+'pn.showAll':"Show all ({n})",'pn.showLess':"Show less",
 'pn.u.bi':"bn",'pn.u.mi':"M",'pn.u.k':"k",'pn.refYear':"Reference year: {y} (latest year with data in the cut).",
-'pn.decade':"{d}s",'pn.noAtlas':"The atlas snapshot did not load; this panel depends on it.",'pn.mapMetric':"Indicator",'pn.map.cfem':"CFEM collected (R$)",
-'pn.map.proc':"Mining claims",'pn.map.area':"Claim area (ha)",'pn.map.ee':"Free-market consumption (GWh)",'pn.mapHint':"Click a municipality to use it as a filter.",
+'pn.decade':"{d}s",'pn.noAtlas':"The atlas snapshot did not load; this panel depends on it.",
+
 'pn.invShareMin':"The share of Brazil is only computed without a mineral filter: the national file is summed by year and spending type.",'pn.lavraPagou.sim':"Holds mining titles and paid CFEM in 2022–2026",'pn.lavraPagou.nao':"Holds mining titles and paid no CFEM",'pn.lv.0':"High",
 'pn.lv.1':"Medium",'pn.lv.2':"Low",'pn.rub.analise_fisica':"Physical analysis",'pn.rub.analise_quimica':"Chemical analysis",
 'pn.rub.ensaio_beneficiamento':"Processing tests",'pn.rub.galeria_shaft':"Galleries and shafts",'pn.rub.geologia':"Geology",'pn.rub.infraestrutura':"Infrastructure",
@@ -450,9 +474,9 @@ const DICT={pt:{
 'pn.h.gwh':"Energy (GWh)",'pn.h.massa':"Mass (t)",'pn.h.coef':"Coefficient",'pn.h.mainSub':"Main substance",
 'pn.h.dam':"Dam",'pn.h.ore':"Ore",'pn.h.risk':"Risk (CRI)",'pn.h.damage':"Damage (DPA)",
 'pn.h.operation':"Status",'pn.h.emergency':"Emergency",'pn.h.coords':"Coordinates",'pn.h.riskDamage':"Risk × damage",
-'pn.h.total':"Total",'pn.c.cfem_ano':"CFEM collected in Goiás, by year",'pn.c.cfem_ano.n':"R$ collected (sheet 08). 2026 runs to early August and is drawn lighter.",'pn.c.cfem_janjul':"CFEM from January to July",
-'pn.c.cfem_janjul.n':"The same seven months in every year, to compare 2026 with earlier years.",'pn.c.cfem_mes':"CFEM month by month",'pn.c.cfem_mes.n':"Monthly sum of the amount collected in the cut.",'pn.c.mapa':"Map by municipality",
-'pn.c.mapa.n':"Quantile bands of the positive values; grey means no record. Claims crossing borders count in their main municipality.",'pn.c.mun_cfem':"Municipalities collecting the most",'pn.c.mun_cfem.n':"CFEM ranking in the cut, with share and cumulative share.",'pn.c.mun_proc':"Municipalities with the most claims",
+'pn.h.total':"Total",'pn.c.cfem_janjul':"CFEM from January to July",
+'pn.c.cfem_janjul.n':"The same seven months in every year, to compare 2026 with earlier years.",'pn.c.cfem_mes':"CFEM month by month",'pn.c.cfem_mes.n':"Monthly sum of the amount collected in the cut.",
+'pn.c.mun_cfem':"Municipalities collecting the most",'pn.c.mun_cfem.n':"CFEM ranking in the cut, with share and cumulative share.",'pn.c.mun_proc':"Municipalities with the most claims",
 'pn.c.mun_proc.n':"Active SIGMINE claims and declared area, by the polygon's main municipality.",'pn.c.cfem_min':"CFEM by mineral",'pn.c.cfem_min.n':"The top 15 in the cut; the rest as others.",'pn.c.cfem_min_ano':"CFEM by mineral and year",
 'pn.c.cfem_min_ano.n':"The six minerals collecting the most in the cut and the rest combined.",'pn.c.benef_ano':"Sales value of beneficiated production",'pn.c.benef_ano.n':"Brazilian Mineral Yearbook, nominal R$, by mineral.",'pn.c.benef_share':"Goiás share of the national value",
 'pn.c.benef_share.n':"Beneficiated value of Goiás divided by the sum of all states.",'pn.c.rom_ano':"Run-of-mine production (ROM)",'pn.c.rom_ano.n':"Million tonnes of ore. Summing minerals counts co-products of the same ore twice.",'pn.c.prod_ultimo':"What Goiás produced",
