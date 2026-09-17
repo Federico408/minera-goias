@@ -1,0 +1,4 @@
+scenario,growth_adjustment,annual_efficiency_improvement,source_id,data_nature
+conservador,-0.02,0.004,SRC_S2_ASSUMPTION_001,illustrative
+referencia,0.00,0.009,SRC_S2_ASSUMPTION_001,illustrative
+expansao,0.02,0.014,SRC_S2_ASSUMPTION_001,illustrative
