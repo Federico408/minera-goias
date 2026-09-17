@@ -7,3 +7,4 @@ __pycache__/
 *.sqlite
 *.sqlite-journal
 node_modules/
+Squad 2/modello_reale/outputs/
