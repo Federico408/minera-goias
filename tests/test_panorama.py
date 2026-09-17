@@ -62,9 +62,10 @@ class PanoramaTests(unittest.TestCase):
 
     def test_page_wires_the_tab(self):
         markup = (ROOT / 'public' / 'painel.html').read_text(encoding='utf-8')
-        self.assertEqual(re.findall(r'data-view="(\w+)"', markup)[:3], ['atlas', 'radar', 'admin'])
-        # Panorama is the lower half of the atlas page now, not a tab of its own.
-        self.assertNotIn('data-view="panorama"', markup)
+        views = re.findall(r'data-view="(\w+)"', markup)
+        # Atlas swallowed the panorama; Mercado keeps the place it took next to it.
+        self.assertEqual(views[:3], ['atlas', 'mercado', 'radar'])
+        self.assertNotIn('panorama', views)
         self.assertLess(markup.index('id="atlas-view"'), markup.index('id="panorama-view"'))
         self.assertLess(markup.index('id="atlas-map"'), markup.index('id="panorama-view"'))
         self.assertLess(markup.index('id="panorama-view"'), markup.index('id="radar-view"'))
