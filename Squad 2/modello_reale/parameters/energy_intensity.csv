@@ -1,0 +1,6 @@
+mineral_id,mineral_name,production_basis,energy_intensity_mwh_t,source_id,data_nature
+MIN_011,Cobre,conteudo_mineral,11.2,SRC_FGV_EPGE_001,benchmark_proxy
+MIN_005,Alumínio (Bauxita),beneficiada,1.4,SRC_FGV_EPGE_001,benchmark_proxy
+MIN_022,Níquel,beneficiada,45.551351,SRC_FGV_EPGE_001,benchmark_proxy
+MIN_049,Fosfato,beneficiada,0.15,SRC_FGV_EPGE_001,benchmark_proxy
+MIN_033,Amianto,beneficiada,0.32,SRC_FGV_EPGE_001,benchmark_proxy
