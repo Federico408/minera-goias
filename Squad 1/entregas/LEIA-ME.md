@@ -7,8 +7,8 @@ Painéis e produtos finais dos estudantes do Squad 1.
 Central de inteligência de mercado sobre minerais críticos em Goiás (painel HTML
 estático, abre direto no navegador, sem dependências além das fontes do Google Fonts).
 
-- **Autor:** Gabriel Gonçalves — Estudante 2 do Squad 1
-- **Entrega relacionada:** S1-E2 — Projetos minerais e inteligência de mercado
+- **Autor:** Gabriel Gonçalves — Estudante 3 do Squad 1
+- **Tema:** inteligência de mercado de minerais críticos
 - **Data dos dados:** setembro de 2026
 
 ### Conteúdo
@@ -23,3 +23,7 @@ estático, abre direto no navegador, sem dependências além das fontes do Googl
 | Riscos | Oportunidades e riscos para quem for constituir operação no estado |
 
 As fontes consultadas estão listadas no rodapé do próprio painel.
+
+O conteúdo deste painel também alimenta a aba **Mercado** da plataforma
+(`public/mercado.js` e `public/data/mercado/mercado_v1.json`), lá em português e inglês
+e com a estética do site.
