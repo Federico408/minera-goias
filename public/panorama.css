@@ -37,3 +37,13 @@
 .pn-nr{margin:0;padding-left:18px}
 .pn-nr li{margin:0 0 10px;font-size:13px;line-height:1.5}
 @media (max-width:900px){.pn-grid{grid-template-columns:1fr}}
+
+/* --- Costura entre o Atlas e o Panorama na página única / Atlas-to-Panorama seam --- */
+.view-split{border:0;border-top:1px solid var(--line);margin:46px 0 30px}
+
+/* --- Barra de temas no topo: navegação única da página / Single theme bar at the top --- */
+.pn-tabs.page-nav{margin:18px 0 0;border-bottom:1px solid var(--line);padding-bottom:0}
+.pn-head{margin:0}
+
+/* --- Selo de âmbito: o card não lê o município selecionado / State-scope seal --- */
+.pill.scope{background:#fdf2e3;color:#8a4b12;border:1px solid #e8c89a;font-weight:600}

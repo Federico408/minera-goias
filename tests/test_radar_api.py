@@ -100,6 +100,22 @@ class RadarTests(unittest.TestCase):
         self.assertIn('não de previsão', payload['nota'])
         self.assertIn('não um projeto anunciado', payload['nota'])
 
+    def test_page_wires_the_claim_explorer(self):
+        """Opening a phase lists the claims behind the count, decoded from the snapshot the atlas already serves."""
+        markup = (ROOT / 'public' / 'painel.html').read_text(encoding='utf-8')
+        for anchor in ('id="rd-explorer"', 'id="rd-search"', 'id="rd-list"', 'id="rd-detail-body"', 'id="rd-detail-map"'):
+            self.assertIn(anchor, markup)
+        self.assertLess(markup.index('src="/processes.js"'), markup.index('src="/radar.js"'))
+        self.assertLess(markup.index('src="/processes.js"'), markup.index('src="/atlas.js"'))
+        radar_js = (ROOT / 'public' / 'radar.js').read_text(encoding='utf-8')
+        atlas_js = (ROOT / 'public' / 'atlas.js').read_text(encoding='utf-8')
+        # One decoder for the 2.6 MB packet, fetched only once a phase is opened.
+        for script in (radar_js, atlas_js):
+            self.assertIn('window.loadProcesses()', script)
+            self.assertNotIn("api('/atlas/processes')", script)
+        self.assertIn('data-fase', radar_js)
+        self.assertIn('window.atlasShowProcess', atlas_js)
+
 
 if __name__ == '__main__':
     unittest.main()

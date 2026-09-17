@@ -6,25 +6,11 @@ const lastYear=rows=>rows.reduce((m,r)=>Math.max(m,r[0]),0);
 // A caption line above a table; returns the element the table goes into.
 const tableIn=(X,box,caption)=>{box.innerHTML=`<p class="small muted">${X.E(caption)}</p><div></div>`;return box.lastElementChild};
 cards.push(
-{id:'cfem_ano',sec:'cfem',filters:['ano','mes','mun','min','emp'],render(X){const C=X.C,years=X.years(2022,2026),by=X.sumBy(X.cfem(),r=>r[0],r=>r[5]);
- return C.vbar(years.map(String),[{name:'CFEM',values:years.map(y=>by.get(y)||0)}],{fmt:v=>C.money(v),partial:new Set(['2026']),aria:X.t('pn.c.cfem_ano')})}},
 {id:'cfem_janjul',sec:'cfem',filters:['ano','mun','min','emp'],render(X){const C=X.C,years=X.years(2022,2026),by=X.sumBy(X.cfem(['mes']).filter(r=>r[1]<=7),r=>r[0],r=>r[5]);
  return C.vbar(years.map(String),[{name:'CFEM',values:years.map(y=>by.get(y)||0)}],{fmt:v=>C.money(v),aria:X.t('pn.c.cfem_janjul')})}},
 {id:'cfem_mes',sec:'cfem',wide:true,filters:['ano','mes','mun','min','emp'],render(X){const C=X.C,by=X.sumBy(X.cfem(),r=>r[0]*100+r[1],r=>r[5]),keys=[...by.keys()].sort((a,b)=>a-b);
  return C.line(keys.map(k=>Math.floor(k/100)+'-'+String(k%100).padStart(2,'0')),[{name:'CFEM',values:keys.map(k=>by.get(k))}],{fmt:v=>C.money(v),aria:X.t('pn.c.cfem_mes')})}},
 
-{id:'mapa',sec:'geo',wide:true,filters:['ano','mes','mun','min','emp','fase','ramo'],render(X,box){const C=X.C,F=X.F;
- if(!X.A)return `<p class="empty">${X.E(X.t('pn.noAtlas'))}</p>`;
- const metric=X.mapMetric,vals=new Map(),add=(i,v)=>{if(i>=0){const c=X.munCode(i);vals.set(c,(vals.get(c)||0)+v)}};
- if(metric==='cfem')X.cfem().forEach(r=>add(r[2],r[5]));
- else if(metric==='proc'||metric==='area')X.proc().forEach(r=>add(r[2],metric==='proc'?1:r[4]));
- else X.ccee().forEach(r=>{if(!X.isDist(r[2]))add(r[1],r[6]/1000)});
- const f={cfem:v=>C.money(v,0),proc:v=>C.fmt(v),area:v=>C.fmt(v,0)+' ha',ee:v=>C.fmt(v,1)+' GWh'}[metric];
- box.innerHTML=`<div class="pn-map-tools"><label>${X.E(X.t('pn.mapMetric'))} <select class="pn-map-metric">`
-  +['cfem','proc','area','ee'].map(m=>`<option value="${m}"${m===metric?' selected':''}>${X.E(X.t(`pn.map.${m}`))}</option>`).join('')
-  +`</select></label><span class="small muted">${X.E(X.t('pn.mapHint'))}</span></div><div class="pn-map-box"></div>`;
- box.querySelector('.pn-map-metric').onchange=e=>{X.mapMetric=e.target.value;X.renderCard('mapa')};
- C.map(box.querySelector('.pn-map-box'),X.A.municipalities,vals,{fmt:f,selected:F.mun>=0?X.munCode(F.mun):'',onPick:X.pickMun,aria:X.t('pn.c.mapa')})}},
 {id:'mun_cfem',sec:'geo',filters:['ano','mes','min','emp'],render(X,box){const C=X.C,by=X.sumBy(X.cfem(['mun']),r=>r[2],r=>r[5]),tot=[...by.values()].reduce((s,v)=>s+v,0);let acc=0;
  const list=[...by.entries()].sort((a,b)=>b[1]-a[1]).map(([m,v],i)=>{acc+=v;return {pos:i+1,mun:X.mun(m),v,p:tot?v/tot*100:0,a:tot?acc/tot*100:0}});
  C.table(box,[{label:'#',key:'pos',num:1},{label:X.t('pn.h.mun'),key:'mun'},{label:X.t('pn.h.cfem'),key:'v',num:1,fmt:v=>C.money(v)},{label:'%',key:'p',num:1,fmt:v=>C.fmt(v,1)},{label:X.t('pn.h.acum'),key:'a',num:1,fmt:v=>C.fmt(v,1)}],list,{limit:12})}},

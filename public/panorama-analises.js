@@ -81,10 +81,21 @@ cards.push(
 {id:'proj_mun',sec:'proj',filters:['min'],render(X){if(!X.A)return noAtlas(X);const C=X.C,name=X.F.min>=0?X.min(X.F.min):'',nome=new Map(X.A.municipalities.map(m=>[m.code,m.name]));
  const by=X.sumBy(atlasRows(X,'projects').filter(p=>p.classe!=='sinal'&&(!name||p.mineral===name)),p=>String(p.mun),()=>1);
  return C.hbar(X.topRows(by,12,c=>nome.get(c)||X.t('pn.notInformed')),{fmt:v=>C.fmt(v),aria:X.t('pn.c.proj_mun')})}},
-{id:'occ_sub',sec:'proj',filters:['mun'],render(X){if(!X.A)return noAtlas(X);const C=X.C,code=X.F.mun>=0?X.munCode(X.F.mun):'',by=new Map();
- atlasRows(X,'occurrences').filter(o=>o.importancia==='Depósito'&&(!code||String(o.mun)===code))
-  .forEach(o=>String(o.substancias||'').split(';').map(s=>s.trim()).filter(Boolean).forEach(s=>by.set(s,(by.get(s)||0)+1)));
- return C.hbar(X.topRows(by,12,k=>k),{fmt:v=>C.fmt(v),aria:X.t('pn.c.occ_sub')})}},
+{id:'occ_sub',sec:'proj',filters:['mun'],render(X,box){if(!X.A)return noAtlas(X);
+ const C=X.C,code=X.F.mun>=0?X.munCode(X.F.mun):'',IMP=['Depósito','Ocorrência','Indício','Indeterminado'],by=new Map();
+ atlasRows(X,'occurrences').filter(o=>!code||String(o.mun)===code)
+  .forEach(o=>String(o.substancias||'').split(';').map(x=>x.trim()).filter(Boolean).forEach(x=>{
+   const r=by.get(x)||{sub:x,total:0};r[o.importancia]=(r[o.importancia]||0)+1;r.total++;by.set(x,r)}));
+ const rows=[...by.values()].sort((a,b)=>b.total-a.total);
+ C.table(box,[{label:X.t('pn.h.sub'),key:'sub'},...IMP.map(k=>({label:X.t(`pn.imp.${k}`),key:k,num:1,fmt:v=>C.fmt(v||0)})),
+  {label:X.t('pn.h.total'),key:'total',num:1,fmt:v=>C.fmt(v)}],rows,{limit:12})}},
+// A unica serie do bloco removido do Atlas sem equivalente aqui: diz quanto da producao bruta a base
+// consegue atribuir a operacoes com coordenada, que e o quanto se pode confiar nos numeros de producao.
+{id:'cobertura',sec:'prod',filters:[],render(X){if(!X.A)return noAtlas(X);
+ const C=X.C,c=X.A.charts&&X.A.charts.operation_coverage;
+ if(!c)return noAtlas(X);
+ return C.vbar(c.labels.map(String),c.groups.map((g,i)=>({name:X.t(`pn.cov.${g}`),color:C.PALETTE[i%C.PALETTE.length],values:c.values[i]})),
+  {stacked:true,fmt:v=>C.fmt(v,1)+' %',aria:X.t('pn.c.cobertura')})}},
 
 {id:'emp_pareto',sec:'emp',filters:['ano','mes','mun','min'],render(X){const C=X.C,v=[...X.sumBy(X.cfem(['emp']),r=>r[4],r=>r[5]).values()].filter(x=>x>0).sort((a,b)=>b-a),t=v.reduce((s,x)=>s+x,0);
  if(!t)return C.empty();let acc=0;const vals=v.slice(0,Math.min(50,v.length)).map(x=>(acc+=x)/t*100);
