@@ -3,9 +3,12 @@
 const el=id=>document.getElementById(id),C=window.PNC,E=C.E;
 const SECTIONS=['cfem','geo','subs','prod','usos','terr','pesq','proj','rod','emp','energia','intens','barr','nr'];
 const FILTERS=['ano','mes','mun','min','emp','fase','rub','ramo'];
-// Tabs group the sections of the same kind of analysis; only the cards of the active tab are drawn.
-const TABS=[['arrecadacao',['cfem','subs']],['territorio',['geo','usos','terr']],['producao',['prod']],['pesquisa',['pesq','proj','rod']],
- ['empresas',['emp']],['energia',['energia','intens']],['barragens',['barr']],['notas',['nr']]];
+// [id, seções do Panorama, camadas do mapa]. The tab bar is the whole page's navigation, so a theme
+// picks at once what the atlas map draws and which panels appear below it; [] means the theme has no map.
+const TABS=[['arrecadacao',['cfem','subs'],['cfem']],['territorio',['geo','usos','terr'],['cfem','occurrences']],
+ ['producao',['prod'],['production']],['pesquisa',['pesq','proj','rod'],['projects','processes']],
+ ['empresas',['emp'],[]],['energia',['energia','intens'],['energy','coefficient']],
+ ['barragens',['barr'],['dams']],['notas',['nr'],[]]];
 const FILTER_IDS={ano:['pn-y0','pn-y1'],mes:['pn-mes'],mun:['pn-mun'],min:['pn-min'],emp:['pn-emp'],fase:['pn-fase'],rub:['pn-rub'],ramo:['pn-ramo']};
 let tab='arrecadacao';try{const saved=localStorage.getItem('minera-pn-tab');if(TABS.some(([id])=>id===saved))tab=saved}catch{}
 const F={y0:2010,y1:2026,mes:0,mun:-1,min:-1,emp:'',fase:-1,rub:-1,ramo:-1};
@@ -44,7 +47,6 @@ const X={F,C,E,t:(k,v)=>t(k,v),norm,cache:{},mapMetric:'cfem',
  ceName:i=>P.dims.ce[i][1],distRamo:-1,isDist:i=>i===X.distRamo,
  ccee(skip=[]){return X.memo('ccee'+skip,()=>P.ccee.rows.filter(r=>{const y=Math.floor(r[0]/100);return y>=F.y0&&y<=F.y1&&(skip.includes('mes')||!F.mes||r[0]%100===F.mes)
   &&(skip.includes('mun')||F.mun<0||r[1]===F.mun)&&(skip.includes('ramo')||F.ramo<0||r[2]===F.ramo)&&(F.emp===''||norm(P.dims.ce[r[3]][1]).includes(F.emp))}))},
- pickMun(code){const i=P.dims.mun.findIndex(m=>m[0]===code);el('pn-mun').value=String(i);render()},
  renderCard(id){const d=cards.find(c=>c.id===id);if(d)draw(d)}
 };
 function draw(d){const box=el('pn-c-'+d.id).querySelector('.pn-out');C.setWidth(box.clientWidth);
@@ -60,7 +62,15 @@ function describe(){const u=X.used||new Set(FILTERS),parts=[];if(u.has('ano'))pa
  if(u.has('fase')&&F.fase>=0)parts.push(P.dims.fase[F.fase]);if(u.has('rub')&&F.rub>=0)parts.push(t(`pn.rub.${P.dims.rubrica[F.rub]}`));if(u.has('ramo')&&F.ramo>=0)parts.push(P.dims.ramo[F.ramo]);
  return parts.length?t('pn.cut')+' '+parts.join(' · '):''}
 const visible=()=>{const secs=TABS.find(([id])=>id===tab)[1];return cards.filter(d=>secs.includes(d.sec))};
-function render(){X.cache={};readFilters();visible().forEach(draw);const cut=describe();el('pn-context').textContent=cut;el('pn-context').hidden=!cut}
+function scopeTitle(){const i=+el('pn-mun').value;
+ el('pn-title').textContent=i>=0?t('pn.titleMun',{mun:X.mun(i)}):t('pn.title')}
+// A card that cannot read the municipality filter keeps showing the state: say so on the card
+// itself, otherwise a municipal cut and a state number sit side by side looking alike.
+function markScope(){const on=+el('pn-mun').value>=0;
+ el('pn-body').querySelectorAll('.pn-chips').forEach(box=>{const seal=box.querySelector('.pill.scope');
+  if(seal)seal.hidden=!on;
+  box.hidden=!box.querySelector('span:not([hidden])')})}
+function render(){X.cache={};readFilters();visible().forEach(draw);markScope();const cut=describe();el('pn-context').textContent=cut;el('pn-context').hidden=!cut}
 function showTab(id){tab=id;try{localStorage.setItem('minera-pn-tab',id)}catch{}
  const secs=TABS.find(([k])=>k===id)[1];
  el('pn-tabs').querySelectorAll('[data-tab]').forEach(b=>{const on=b.dataset.tab===id;b.classList.toggle('active',on);b.setAttribute('aria-selected',String(on));b.tabIndex=on?0:-1});
@@ -69,6 +79,7 @@ function showTab(id){tab=id;try{localStorage.setItem('minera-pn-tab',id)}catch{}
  const used=X.used=new Set(visible().flatMap(d=>d.filters));
  for(const [k,ids] of Object.entries(FILTER_IDS))ids.forEach(i=>{el(i).closest('div').hidden=!used.has(k)});
  document.querySelector('#panorama-view .pn-filters').hidden=!used.size;el('pn-context').hidden=!used.size;
+ if(window.atlasSetLayer)window.atlasSetLayer(TABS.find(([k])=>k===id)[2]);
  render()}
 function options(select,items,all){select.innerHTML=(all?`<option value="-1">${E(all)}</option>`:'')+items.map(([v,l])=>`<option value="${E(v)}">${E(l)}</option>`).join('')}
 function fillFilters(){const years=[];for(let y=2001;y<=2026;y++)years.push([y,y]);
@@ -82,16 +93,21 @@ function build(){cards=window.PN_CARDS||[];
  el('pn-tabs').innerHTML=TABS.map(([id])=>`<button type="button" role="tab" class="pn-tab" data-tab="${id}" aria-controls="pn-body">${E(t(`pn.tab.${id}`))}</button>`).join('');
  el('pn-body').innerHTML=SECTIONS.map(s=>`<section class="pn-section" id="pn-s-${s}"><div class="pn-section-head"><h2>${E(t(`pn.s.${s}`))}</h2><p class="subtitle">${E(t(`pn.s.${s}.lead`))}</p></div><div class="pn-grid">`
   +cards.filter(d=>d.sec===s).map(d=>`<article class="panel pn-card${d.wide?' wide':''}" id="pn-c-${d.id}"><h3>${E(t(`pn.c.${d.id}`))}</h3><p class="subtitle">${E(t(`pn.c.${d.id}.n`))}</p>`
-   +(d.filters.length?`<div class="pn-chips"><span>${E(t('pn.appliedFilters'))}</span>${d.filters.map(k=>`<span class="pill">${E(t(`pn.f.${k}`))}</span>`).join('')}</div>`:'')
+   +`<div class="pn-chips">${d.filters.length?`<span>${E(t('pn.appliedFilters'))}</span>`+d.filters.map(k=>`<span class="pill">${E(t(`pn.f.${k}`))}</span>`).join(''):''}`
+   +(d.filters.includes('mun')?'':`<span class="pill scope" hidden>${E(t('pn.scopeState'))}</span>`)+'</div>'
    +'<div class="pn-out"></div></article>').join('')+'</div></section>').join('');
  el('pn-tabs').querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
  el('pn-tabs').onkeydown=e=>{if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;const i=TABS.findIndex(([id])=>id===tab),
   n=TABS[(i+(e.key==='ArrowRight'?1:-1)+TABS.length)%TABS.length][0];showTab(n);el('pn-tabs').querySelector(`[data-tab="${n}"]`).focus()}}
-function bind(){for(const id of ['pn-y0','pn-y1','pn-mes','pn-mun','pn-min','pn-fase','pn-rub','pn-ramo'])el(id).onchange=render;
+function bind(){for(const id of ['pn-y0','pn-y1','pn-mes','pn-min','pn-fase','pn-rub','pn-ramo'])el(id).onchange=render;
+ el('pn-mun').onchange=()=>{const i=+el('pn-mun').value;scopeTitle();
+  if(window.atlasSelectMun)window.atlasSelectMun(i>=0?X.munCode(i):'');
+  render()};
  let timer;el('pn-emp').oninput=()=>{clearTimeout(timer);timer=setTimeout(render,350)};
  // Charts follow the card width at a fixed font size, so they are redrawn when the window changes size.
  let resize,lastWidth=innerWidth;addEventListener('resize',()=>{clearTimeout(resize);resize=setTimeout(()=>{
-  if(innerWidth===lastWidth||el('panorama-view').hidden)return;lastWidth=innerWidth;visible().forEach(draw)},250)});
+  // Panorama sits inside the atlas page, so visibility is decided by its ancestors too.
+  if(innerWidth===lastWidth||el('panorama-view').offsetParent===null)return;lastWidth=innerWidth;visible().forEach(draw)},250)});
  el('pn-reset').onclick=()=>{el('pn-y0').value=2010;el('pn-y1').value=2026;for(const id of ['pn-mes'])el(id).value=0;
   for(const id of ['pn-mun','pn-min','pn-fase','pn-rub','pn-ramo'])el(id).value=-1;el('pn-emp').value='';render()}}
 async function init(){const [p,a]=await Promise.all([api('/panorama'),api('/atlas').catch(()=>null)]);P=p;X.A=a;X.distRamo=P.dims.ramo.indexOf(P.meta.ccee_distribuidora);
@@ -99,5 +115,18 @@ async function init(){const [p,a]=await Promise.all([api('/panorama'),api('/atla
  el('pn-source').textContent=t('pn.source',{v:P.meta.versao_base,d:P.meta.built_on})}
 window.showPanorama=async()=>{el('pn-error').textContent='';try{if(!loading)loading=init().catch(e=>{loading=null;throw e});await loading}
  catch(e){el('pn-error').textContent=e.message}finally{el('pn-loading').hidden=true}};
+window.panoramaPickMun=code=>{
+ if(!P)return;
+ const wanted=String(code??'');
+ if(!wanted){el('pn-mun').value='-1';scopeTitle();render();return}
+ const i=P.dims.mun.findIndex(m=>m[0]===wanted);
+ // findIndex gives -1 for an unknown code, and -1 is the "every municipality" value: clearing the
+ // cut on a lookup miss would silently widen it instead of leaving the current scope alone.
+ if(i<0)return;
+ el('pn-mun').value=String(i);
+ scopeTitle();
+ render()};
+// The radar opens a claim on the map, which means switching the page to the theme that owns it.
+window.showPanoramaTab=async id=>{await window.showPanorama();if(P)showTab(id)};
 window.PN_FILTER_KEYS=FILTERS;
 })();

@@ -63,8 +63,12 @@ class PanoramaTests(unittest.TestCase):
     def test_page_wires_the_tab(self):
         markup = (ROOT / 'public' / 'painel.html').read_text(encoding='utf-8')
         views = re.findall(r'data-view="(\w+)"', markup)
-        self.assertEqual(views[:3], ['atlas', 'panorama', 'mercado'])
-        self.assertIn('radar', views)
+        # Atlas swallowed the panorama; Mercado keeps the place it took next to it.
+        self.assertEqual(views[:3], ['atlas', 'mercado', 'radar'])
+        self.assertNotIn('panorama', views)
+        self.assertLess(markup.index('id="atlas-view"'), markup.index('id="panorama-view"'))
+        self.assertLess(markup.index('id="atlas-map"'), markup.index('id="panorama-view"'))
+        self.assertLess(markup.index('id="panorama-view"'), markup.index('id="radar-view"'))
         for script in ('panorama-charts.js', 'panorama-cards1.js', 'panorama-cards2.js', 'panorama-cards3.js', 'panorama-analises.js', 'panorama.js'):
             self.assertIn(f'src="/{script}"', markup)
         self.assertLess(markup.index('/panorama-cards3.js'), markup.index('/panorama.js"'))
@@ -73,8 +77,28 @@ class PanoramaTests(unittest.TestCase):
         self.assertIn('id="pn-tabs"', markup)
         self.assertLess(markup.index('id="pn-tabs"'), markup.index('class="pn-filters"'))
         self.assertNotIn('id="pn-nav"', markup)
+        # One theme bar is the whole page's navigation: above the map, with the map view select demoted.
+        self.assertLess(markup.index('id="pn-tabs"'), markup.index('id="atlas-map"'))
+        self.assertIn('id="atlas-layer-wrap"', markup)
         # Each tab shows only the filters its cards read.
         panorama = (ROOT / 'public' / 'panorama.js').read_text(encoding='utf-8')
+        # Picking a theme moves the map and the panels together.
+        self.assertIn('window.atlasSetLayer', panorama)
+        # The map selection is the page's geographic scope, and it travels both ways.
+        atlas = (ROOT / 'public' / 'atlas.js').read_text(encoding='utf-8')
+        self.assertIn('window.panoramaPickMun', panorama)
+        self.assertIn('window.panoramaPickMun', atlas)
+        self.assertIn('window.atlasSelectMun', atlas)
+        # Coming from the panorama filter, the map reframes but the reader stays put.
+        self.assertIn('selectMun(code,false)', atlas)
+        self.assertIn('window.atlasSelectMun', panorama)
+        # An unknown code must not fall through to -1, which means "every municipality".
+        self.assertIn('if(i<0)return', panorama)
+        # The state-wide series of the atlas are gone: the panorama covers them, with filters.
+        self.assertNotIn('id="atlas-series"', markup)
+        self.assertNotIn('id="mun-evo"', markup)
+        self.assertNotIn("id:'mapa'", (ROOT / 'public' / 'panorama-cards1.js').read_text(encoding='utf-8'))
+        self.assertIn('window.atlasSetLayer', atlas)
         self.assertIn("closest('div').hidden=!used.has(k)", panorama)
         self.assertNotIn('pn-off', panorama)
         self.assertIn("api('/panorama')", (ROOT / 'public' / 'panorama.js').read_text(encoding='utf-8'))

@@ -1,7 +1,7 @@
 /* Panorama: small SVG charts, tables and a municipality map shared by the Panorama cards, with a hover tooltip.
    Charts are drawn at the real pixel width of their card (setWidth), so every text keeps the same FONT size on every chart. */
 (()=>{'use strict';
-const PALETTE=['#0f6fb0','#c2681b','#0d9488','#b03a55','#8250c4','#d7a43a','#57768b','#5aa9d6'],OTHER='#c3ccd3',RAMP=['#d7e9f6','#a8cde9','#6fa9d4','#3684b9','#07588b'];
+const PALETTE=['#0f6fb0','#c2681b','#0d9488','#b03a55','#8250c4','#d7a43a','#57768b','#5aa9d6'],OTHER='#c3ccd3';
 const FONT=12,CHAR=FONT*.58,H=290;
 let WIDTH=860;
 const setWidth=w=>{WIDTH=Math.max(200,Math.round(w||860))};
@@ -102,22 +102,6 @@ function table(box,cols,rows,o={}){const base=o.limit||10;let limit=base;
  draw()}
 
 // Municipality choropleth drawn from the atlas rings ([lat,lon]); quantile colours of the positive values. No text inside: the legend is HTML.
-function map(box,muns,values,o={}){
- let lon0=Infinity,lon1=-Infinity,lat0=Infinity,lat1=-Infinity;
- muns.forEach(m=>m.rings.forEach(r=>r.forEach(([la,lo])=>{if(lo<lon0)lon0=lo;if(lo>lon1)lon1=lo;if(la<lat0)lat0=la;if(la>lat1)lat1=la})));
- const W=560,MH=500,k=Math.cos((lat0+lat1)/2*Math.PI/180),sc=Math.min((W-20)/((lon1-lon0)*k),(MH-20)/(lat1-lat0)),X=lo=>10+(lo-lon0)*k*sc,Y=la=>10+(lat1-la)*sc;
- const f=o.fmt||(v=>fmt(v,1)),vals=[...values.values()].filter(v=>v>0).sort((a,b)=>a-b);
- const cuts=[...new Set([1,2,3,4].map(i=>vals[Math.floor(vals.length*i/5)]).filter(v=>v!=null&&v>vals[0]))];
- const paint=v=>!(v>0)?'#edf1f4':RAMP[cuts.filter(c=>v>=c).length];
- let s=`<svg viewBox="0 0 ${W} ${MH}" class="pn-map" role="img" aria-label="${E(o.aria||'')}">`,sel='';
- muns.forEach(m=>{const v=values.get(m.code),d=m.rings.map(r=>'M'+r.map(([la,lo])=>X(lo).toFixed(1)+' '+Y(la).toFixed(1)).join('L')+'Z').join('');
-  const p=`<path class="pn-mark" d="${d}" fill="${paint(v)}" stroke="${m.code===o.selected?'#07345c':'#ffffff'}" stroke-width="${m.code===o.selected?2:.5}" fill-rule="evenodd" data-code="${E(m.code)}" data-tip="${tip(m.name,v>0?f(v):t('pn.noRecord'))}"/>`;
-  if(m.code===o.selected)sel=p;else s+=p});
- s+=sel+'</svg>';
- const steps=vals.length?[vals[0],...cuts]:[];
- box.innerHTML=s+`<div class="pn-legend">`+[['#edf1f4',t('pn.noRecord')],...steps.map((c,i)=>[RAMP[i],t('pn.from')+' '+f(c)])].map(([c,l])=>`<span><i style="background:${c}"></i>${E(l)}</span>`).join('')+'</div>';
- if(o.onPick)box.querySelectorAll('path[data-code]').forEach(p=>{p.style.cursor='pointer';p.onclick=()=>o.onPick(p.dataset.code)})}
-
 const tiles=items=>items.map(([tone,label,value,note])=>`<div class="metric ${tone}"><span>${E(label)}</span><strong>${E(value)}</strong><small>${E(note)}</small></div>`).join('');
 
 // One tooltip for the whole Panorama: follows the pointer over any [data-tip] mark; a tap shows it on touch screens.
@@ -131,5 +115,5 @@ function tooltip(){const box=document.createElement('div');box.className='pn-tip
  addEventListener('scroll',()=>{box.hidden=true},true)}
 tooltip();
 
-window.PNC={E,fmt,money,short,clip,hbar,hdiv,vbar,line,table,map,tiles,empty,setWidth,FONT,PALETTE,OTHER};
+window.PNC={E,fmt,money,short,clip,hbar,hdiv,vbar,line,table,tiles,empty,setWidth,FONT,PALETTE,OTHER};
 })();
