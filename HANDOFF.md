@@ -13,7 +13,7 @@ O site https://labfgv.com.br tem identidade própria em azul e branco, landing p
 
 ## Publicação automática
 
-A VPS consulta `main` a cada **2 minutos**. Instala dependências, testa a API na porta 18142 e troca `current` somente após sucesso. O importador consulta a versão publicada a cada **5 minutos**. Acrescente o tempo de processamento a esses intervalos. GitHub Actions executa os testes, mas **o deploy atual não espera pelo Actions**; revise e rode os testes antes de enviar para `main`.
+A VPS consulta `main` a cada **2 minutos**. Instala dependências, testa a API na porta 18143 e troca `current` somente após sucesso. O importador consulta a versão publicada a cada **5 minutos**. Acrescente o tempo de processamento a esses intervalos. GitHub Actions executa os testes, mas **o deploy atual não espera pelo Actions**; revise e rode os testes antes de enviar para `main`.
 
 ```sh
 python -m pip install -r deploy/requirements-vps.txt httpx==0.28.1

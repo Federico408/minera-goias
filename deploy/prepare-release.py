@@ -53,7 +53,7 @@ run(str(venv / 'bin/python'), '-m', 'compileall', '-q', str(backend))
 log = BASE / 'shared' / 'candidate.log'
 with log.open('w') as output:
     proc = subprocess.Popen([str(venv / 'bin/python'), '-m', 'uvicorn', 'main:app',
-                             '--host', '127.0.0.1', '--port', '18142'],
+                             '--host', '127.0.0.1', '--port', '18143'],
                             cwd=backend, stdout=output, stderr=subprocess.STDOUT)
     try:
         for _ in range(45):
@@ -61,7 +61,7 @@ with log.open('w') as output:
                 raise RuntimeError('Candidate API exited; see candidate.log')
             try:
                 for route in ['projetos', 'projecoes', 'fontes']:
-                    with urllib.request.urlopen('http://127.0.0.1:18142/api/' + route, timeout=5) as response:
+                    with urllib.request.urlopen('http://127.0.0.1:18143/api/' + route, timeout=5) as response:
                         if not isinstance(json.load(response), list):
                             raise RuntimeError('Invalid API response')
                 break

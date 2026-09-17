@@ -30,7 +30,7 @@ systemctl stop minera-goias-deploy.timer # pausar atualizações
 readlink /srv/minera-goias/current
 ```
 
-As versões ficam em `/srv/minera-goias/releases/`; arquivos persistentes ficam em `/srv/minera-goias/shared/`. A API escuta apenas em `127.0.0.1:18141`; a porta `18142` serve exclusivamente para testar versões candidatas localmente.
+As versões ficam em `/srv/minera-goias/releases/`; arquivos persistentes ficam em `/srv/minera-goias/shared/`. A API escuta apenas em `127.0.0.1:18141`; a porta `18143` serve exclusivamente para testar versões candidatas localmente.
 
 Os scripts e units deste diretório são instalados como arquivos de administração pertencentes a root. Mudá-los no GitHub **não** altera automaticamente a infraestrutura. Apenas código da aplicação, interface e dependências de execução acompanham a publicação.
 
