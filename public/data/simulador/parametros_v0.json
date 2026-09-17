@@ -1,6 +1,9 @@
 {
   "versao": "0.1.0",
   "data_versao": "2026-09-16",
+  "situacao": "substituido",
+  "substituido_por": "parametros_v1.json",
+  "nota_substituicao": "Versão inicial, anterior à entrega do modelo real do Squad 2. Usava o baseline da tabela da proposta FGV Energia-EPGE com produção constante e fator de produção por cenário arbitrado pelo Squad 3. Mantida no repositório como registro da primeira versão; o simulador carrega o v1.",
   "responsavel": "Squad 3 — Henrique Falci (simulador e rastreabilidade)",
   "modelo": "produção física × intensidade energética",
   "ano_base": 2025,
