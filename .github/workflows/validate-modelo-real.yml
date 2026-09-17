@@ -19,8 +19,8 @@ permissions:
   contents: read
 
 jobs:
-  validate-input:
-    name: Validate real model data loader
+  validate-real-model:
+    name: Validate real model data and backtest
     runs-on: ubuntu-latest
 
     steps:
