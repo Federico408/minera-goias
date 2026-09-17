@@ -1,0 +1,557 @@
+{
+  "versao": "v1",
+  "atualizado_em": "2026-09-17",
+  "autoria": {
+    "pt": "Squad 1 · Estudante 3 (Gabriel Gonçalves)",
+    "en": "Squad 1 · Student 3 (Gabriel Gonçalves)"
+  },
+  "nota": {
+    "pt": "Leitura de mercado montada com imprensa especializada, resultados divulgados por empresas de capital aberto e estudos setoriais. Não vem da base consolidada do Squad 1: serve para contextualizar o que os dados da ANM e da CCEE mostram, não para substituí-los. Valores financeiros são os últimos publicados até setembro de 2026 e podem já ter sido revisados.",
+    "en": "Market reading assembled from trade press, results disclosed by listed companies and sector studies. It does not come from the Squad 1 consolidated base: it contextualises what the ANM and CCEE data show, it does not replace them. Financial figures are the latest published up to September 2026 and may already have been revised."
+  },
+  "indicadores": [
+    {
+      "tom": "a",
+      "valor": {
+        "pt": "33",
+        "en": "33"
+      },
+      "rotulo": {
+        "pt": "Empresas com pesquisa mineral ativa",
+        "en": "Companies with active exploration"
+      },
+      "detalhe": {
+        "pt": "Programas em andamento em Goiás",
+        "en": "Programmes under way in Goiás"
+      }
+    },
+    {
+      "tom": "b",
+      "valor": {
+        "pt": "609 mil ha",
+        "en": "609k ha"
+      },
+      "rotulo": {
+        "pt": "Área sob requerimento na ANM",
+        "en": "Area under application at the ANM"
+      },
+      "detalhe": {
+        "pt": "392 requerimentos protocolados",
+        "en": "392 applications filed"
+      }
+    },
+    {
+      "tom": "c",
+      "valor": {
+        "pt": "10%",
+        "en": "10%"
+      },
+      "rotulo": {
+        "pt": "Fatia de Goiás no PIB da cadeia até 2050",
+        "en": "Goiás share of the chain's GDP by 2050"
+      },
+      "detalhe": {
+        "pt": "Estudo Amcham · 3º no país",
+        "en": "Amcham study · 3rd in the country"
+      }
+    },
+    {
+      "tom": "d",
+      "valor": {
+        "pt": "0,82%",
+        "en": "0.82%"
+      },
+      "rotulo": {
+        "pt": "CFEM de terras raras na arrecadação mineral do estado",
+        "en": "Rare-earth CFEM in the state's mining royalties"
+      },
+      "detalhe": {
+        "pt": "Ano-base 2025",
+        "en": "2025 base year"
+      }
+    }
+  ],
+  "operacoes": [
+    {
+      "mineral": {
+        "pt": "Terras raras · argila iônica",
+        "en": "Rare earths · ionic clay"
+      },
+      "local": {
+        "pt": "Minaçu — Serra Verde / mina Pela Ema",
+        "en": "Minaçu — Serra Verde / Pela Ema mine"
+      },
+      "situacao": {
+        "pt": "Em produção",
+        "en": "Producing"
+      },
+      "nota": {
+        "pt": "Única mina comercial de terras raras do Brasil e a única fora da Ásia a produzir em escala neodímio, praseodímio, disprósio e térbio, além de ítrio. Levou 16 anos entre descoberta e produção comercial.",
+        "en": "Brazil's only commercial rare-earth mine and the only one outside Asia producing neodymium, praseodymium, dysprosium and terbium at scale, plus yttrium. Sixteen years from discovery to commercial output."
+      }
+    },
+    {
+      "mineral": {
+        "pt": "Níquel laterítico",
+        "en": "Lateritic nickel"
+      },
+      "local": {
+        "pt": "Niquelândia e Barro Alto — Codemin / Barro Alto",
+        "en": "Niquelândia and Barro Alto — Codemin / Barro Alto"
+      },
+      "situacao": {
+        "pt": "Em produção",
+        "en": "Producing"
+      },
+      "nota": {
+        "pt": "39,4 mil toneladas de níquel contido em 2024. Barro Alto é a única mina de níquel do mundo certificada no padrão IRMA 75. Ativos em processo de venda da Anglo American para a chinesa MMG.",
+        "en": "39.4 thousand tonnes of contained nickel in 2024. Barro Alto is the world's only nickel mine certified to the IRMA 75 standard. The assets are being sold by Anglo American to China's MMG."
+      }
+    },
+    {
+      "mineral": {
+        "pt": "Nióbio e fosfato · carbonatito",
+        "en": "Niobium and phosphate · carbonatite"
+      },
+      "local": {
+        "pt": "Catalão e Ouvidor — CMOC",
+        "en": "Catalão and Ouvidor — CMOC"
+      },
+      "situacao": {
+        "pt": "Em produção",
+        "en": "Producing"
+      },
+      "nota": {
+        "pt": "Cerca de 10 mil toneladas por ano de ferronióbio, o que faz da operação a segunda maior do mundo, atrás apenas da CBMM em Araxá. O complexo também produz fosfato, pela Copebrás.",
+        "en": "Around 10 thousand tonnes of ferroniobium a year, making it the world's second largest operation, behind only CBMM in Araxá. The complex also produces phosphate, through Copebrás."
+      }
+    },
+    {
+      "mineral": {
+        "pt": "Terras raras associadas",
+        "en": "Associated rare earths"
+      },
+      "local": {
+        "pt": "Complexos alcalino-carbonatíticos do estado",
+        "en": "Alkaline-carbonatite complexes in the state"
+      },
+      "situacao": {
+        "pt": "Não recuperadas",
+        "en": "Not recovered"
+      },
+      "nota": {
+        "pt": "As rochas hospedeiras de fosfato e nióbio carregam terras raras que hoje não são recuperadas comercialmente — expansão possível sobre infraestrutura já instalada.",
+        "en": "The host rocks of phosphate and niobium carry rare earths that are not commercially recovered today — a possible expansion on top of installed infrastructure."
+      }
+    },
+    {
+      "mineral": {
+        "pt": "Cobre e titânio",
+        "en": "Copper and titanium"
+      },
+      "local": {
+        "pt": "Alvos em avaliação, vários municípios",
+        "en": "Targets under assessment, several municipalities"
+      },
+      "situacao": {
+        "pt": "Sem operação declarada",
+        "en": "No declared operation"
+      },
+      "nota": {
+        "pt": "Incluídos como minerais críticos no marco estadual e presentes em parte relevante dos 392 requerimentos em tramitação na ANM, ainda sem produção comercial em escala.",
+        "en": "Listed as critical minerals in the state framework and present in a relevant share of the 392 applications pending at the ANM, still without commercial output at scale."
+      }
+    },
+    {
+      "mineral": {
+        "pt": "Separação de terras raras pesadas",
+        "en": "Heavy rare-earth separation"
+      },
+      "local": {
+        "pt": "Etapa ausente no estado",
+        "en": "Stage missing in the state"
+      },
+      "situacao": {
+        "pt": "Lacuna tecnológica",
+        "en": "Technology gap"
+      },
+      "nota": {
+        "pt": "Goiás não tem tecnologia própria para separar disprósio, térbio, neodímio e ítrio: a etapa é feita hoje na China. Acordos com EUA e Japão buscam trazê-la para o estado.",
+        "en": "Goiás has no technology of its own to separate dysprosium, terbium, neodymium and yttrium: the step is carried out in China today. Agreements with the US and Japan aim to bring it to the state."
+      }
+    }
+  ],
+  "transacoes": [
+    {
+      "ativo": {
+        "pt": "Serra Verde · terras raras (Minaçu)",
+        "en": "Serra Verde · rare earths (Minaçu)"
+      },
+      "comprador": "USA Rare Earth",
+      "ano": 2026,
+      "valor_usd_milhoes": 2800,
+      "rotulo": {
+        "pt": "US$ 2,8 bi",
+        "en": "US$2.8bn"
+      }
+    },
+    {
+      "ativo": {
+        "pt": "Nióbio e fosfato · Catalão e Ouvidor",
+        "en": "Niobium and phosphate · Catalão and Ouvidor"
+      },
+      "comprador": "CMOC",
+      "ano": 2016,
+      "valor_usd_milhoes": 1500,
+      "rotulo": {
+        "pt": "US$ 1,5 bi",
+        "en": "US$1.5bn"
+      }
+    },
+    {
+      "ativo": {
+        "pt": "Níquel · Barro Alto e Codemin",
+        "en": "Nickel · Barro Alto and Codemin"
+      },
+      "comprador": "MMG",
+      "ano": 2025,
+      "valor_usd_milhoes": 500,
+      "rotulo": {
+        "pt": "até US$ 500 mi",
+        "en": "up to US$500m"
+      }
+    }
+  ],
+  "preco_referencia": {
+    "rotulo": {
+      "pt": "Preço do NdPr · US$/kg",
+      "en": "NdPr price · US$/kg"
+    },
+    "pontos": [
+      {
+        "quando": {
+          "pt": "jun/2025",
+          "en": "Jun 2025"
+        },
+        "valor": 55.0,
+        "rotulo": {
+          "pt": "US$ 55,0",
+          "en": "US$55.0"
+        }
+      },
+      {
+        "quando": {
+          "pt": "jun/2026",
+          "en": "Jun 2026"
+        },
+        "valor": 100.8,
+        "rotulo": {
+          "pt": "US$ 100,8",
+          "en": "US$100.8"
+        }
+      }
+    ],
+    "nota": {
+      "pt": "O óxido de neodímio-praseodímio é o que puxa a receita das minas de terras raras: quase dobrou em doze meses, e é o que explica o salto de lucro da Lynas e o preço pago pela Serra Verde.",
+      "en": "Neodymium-praseodymium oxide is what drives rare-earth mine revenue: it nearly doubled in twelve months, and it explains both the Lynas profit jump and the price paid for Serra Verde."
+    }
+  },
+  "referencias": [
+    {
+      "empresa": "Lynas Rare Earths",
+      "praca": "ASX: LYC",
+      "mineral": {
+        "pt": "Terras raras",
+        "en": "Rare earths"
+      },
+      "onde": {
+        "pt": "Austrália (mina) · Malásia (processamento)",
+        "en": "Australia (mine) · Malaysia (processing)"
+      },
+      "receita": {
+        "pt": "A$ 977,9 mi · FY26 (+76%)",
+        "en": "A$977.9m · FY26 (+76%)"
+      },
+      "resultado": {
+        "pt": "Lucro A$ 222,4 mi (era A$ 8 mi)",
+        "en": "Profit A$222.4m (was A$8m)"
+      },
+      "nota": {
+        "pt": "Maior produtora fora da China e primeira a entregar óxidos de disprósio e térbio fora do país. Opera com acordos de preço-piso com os governos dos EUA e do Japão, o que estabiliza a receita.",
+        "en": "The largest producer outside China and the first to deliver dysprosium and terbium oxides outside the country. It operates under price-floor agreements with the US and Japanese governments, which stabilises revenue."
+      }
+    },
+    {
+      "empresa": "MP Materials",
+      "praca": "NYSE: MP",
+      "mineral": {
+        "pt": "Terras raras",
+        "en": "Rare earths"
+      },
+      "onde": {
+        "pt": "Mountain Pass, Califórnia (EUA)",
+        "en": "Mountain Pass, California (US)"
+      },
+      "receita": {
+        "pt": "US$ 199 mi · 1S26 (+68%)",
+        "en": "US$199m · H1 26 (+68%)"
+      },
+      "resultado": {
+        "pt": "EBITDA do segmento US$ 69,2 mi (era −US$ 8,9 mi)",
+        "en": "Segment EBITDA US$69.2m (was −US$8.9m)"
+      },
+      "nota": {
+        "pt": "Único produtor integrado dos EUA, da mina ao ímã. Recebe pagamentos de um acordo de proteção de preço com o Departamento de Defesa americano — modelo de receita replicável em contratos com governos ocidentais.",
+        "en": "The only integrated US producer, from mine to magnet. It receives payments under a price-protection agreement with the US Department of Defense — a revenue model that can be replicated in contracts with Western governments."
+      }
+    },
+    {
+      "empresa": "CBMM",
+      "praca": {
+        "pt": "Capital fechado",
+        "en": "Privately held"
+      },
+      "mineral": {
+        "pt": "Nióbio",
+        "en": "Niobium"
+      },
+      "onde": {
+        "pt": "Araxá, Minas Gerais (Brasil)",
+        "en": "Araxá, Minas Gerais (Brazil)"
+      },
+      "receita": {
+        "pt": "R$ 14,5 bi · 2025 (+8,3%)",
+        "en": "R$14.5bn · 2025 (+8.3%)"
+      },
+      "resultado": {
+        "pt": "Lucro R$ 6,4 bi · EBITDA R$ 10,2 bi",
+        "en": "Profit R$6.4bn · EBITDA R$10.2bn"
+      },
+      "nota": {
+        "pt": "Controla de 70% a 80% do mercado mundial a partir de uma única mina e investe R$ 250–300 milhões por ano em P&D para criar novos usos do metal. Mostra que domínio geológico sustenta margem alta em metal pouco líquido.",
+        "en": "It controls 70% to 80% of the world market from a single mine and invests R$250–300m a year in R&D to create new uses for the metal. It shows that geological dominance sustains high margins in an illiquid metal."
+      }
+    },
+    {
+      "empresa": "CMOC Group",
+      "praca": "HKEX / SSE",
+      "mineral": {
+        "pt": "Nióbio e fosfato",
+        "en": "Niobium and phosphate"
+      },
+      "onde": {
+        "pt": "Catalão (GO) e operações globais",
+        "en": "Catalão (GO) and global operations"
+      },
+      "receita": {
+        "pt": "~10 mil t/ano de ferronióbio em Goiás",
+        "en": "~10k t/yr of ferroniobium in Goiás"
+      },
+      "resultado": {
+        "pt": "2ª maior produtora mundial de nióbio",
+        "en": "World's 2nd largest niobium producer"
+      },
+      "nota": {
+        "pt": "Prova de que um ativo comprado de uma major diversificada e operado por grupo especializado consolida posição global — e é o caso comparável mais próximo, porque a operação fica em Goiás.",
+        "en": "Proof that an asset bought from a diversified major and run by a specialised group can consolidate a global position — and the closest comparable case, because the operation sits in Goiás."
+      }
+    }
+  ],
+  "regulacao": [
+    {
+      "sigla": "AMIC-GO",
+      "nome": {
+        "pt": "Autoridade Estadual de Minerais Críticos",
+        "en": "State Critical Minerals Authority"
+      },
+      "descricao": {
+        "pt": "Coordena a política estadual do setor: interlocução com investidores, articulação com a ANM e negociação dos acordos de tecnologia já firmados com EUA e Japão.",
+        "en": "Coordinates the state policy for the sector: dealing with investors, liaison with the ANM and negotiation of the technology agreements already signed with the US and Japan."
+      }
+    },
+    {
+      "sigla": "ZEMC",
+      "nome": {
+        "pt": "Zonas Especiais de Minerais Críticos",
+        "en": "Special Critical Mineral Zones"
+      },
+      "descricao": {
+        "pt": "Delimitação territorial que prioriza áreas de alto potencial geológico, com efeito esperado sobre o licenciamento e o uso do solo em regiões como Minaçu, Niquelândia e Catalão.",
+        "en": "Territorial delimitation prioritising areas of high geological potential, with an expected effect on licensing and land use in regions such as Minaçu, Niquelândia and Catalão."
+      }
+    },
+    {
+      "sigla": "FEDMC",
+      "nome": {
+        "pt": "Fundo Estadual de Desenvolvimento dos Minerais Críticos",
+        "en": "State Critical Minerals Development Fund"
+      },
+      "descricao": {
+        "pt": "Mecanismo para reter parte do valor gerado pela cadeia e reinvestir em infraestrutura e tecnologia de processamento — resposta ao fato de as terras raras responderem por 0,82% da arrecadação mineral do estado.",
+        "en": "A mechanism to retain part of the value generated by the chain and reinvest it in infrastructure and processing technology — a response to rare earths accounting for 0.82% of the state's mining royalties."
+      }
+    }
+  ],
+  "noticias": [
+    {
+      "data": "2026-08",
+      "titulo": {
+        "pt": "Acionistas da USA Rare Earth aprovam capital para comprar a Serra Verde por R$ 14,5 bilhões",
+        "en": "USA Rare Earth shareholders approve capital to buy Serra Verde for R$14.5bn"
+      },
+      "resumo": {
+        "pt": "A emissão de 126,8 milhões de ações viabiliza a maior aquisição já registrada na indústria de terras raras e põe a mina Pela Ema, em Minaçu, no centro da estratégia americana de reduzir a dependência da China.",
+        "en": "The issue of 126.8 million shares enables the largest acquisition ever recorded in the rare-earth industry and puts the Pela Ema mine, in Minaçu, at the centre of the US strategy to reduce dependence on China."
+      },
+      "fonte": "InvestNews",
+      "link": "https://investnews.com.br/negocios/acionistas-da-usa-rare-earth-aprovam-capital-para-comprar-serra-verde-por-r-145-bilhoes/"
+    },
+    {
+      "data": "2026-08",
+      "titulo": {
+        "pt": "Lynas Rare Earths registra lucro recorde no FY26, 27 vezes maior",
+        "en": "Lynas Rare Earths posts record FY26 profit, 27 times higher"
+      },
+      "resumo": {
+        "pt": "Receita anual de A$ 977,9 milhões (+76%) e lucro líquido de A$ 8 milhões para A$ 222,4 milhões, puxados pelo preço recorde do NdPr — referência direta de valuation para qualquer novo entrante.",
+        "en": "Annual revenue of A$977.9m (+76%) and net profit from A$8m to A$222.4m, driven by record NdPr prices — a direct valuation reference for any new entrant."
+      },
+      "fonte": "Investing.com",
+      "link": "https://www.investing.com/news/company-news/lynas-fy26-slides-profit-surges-27x-as-rare-earth-prices-climb-93CH-4876205"
+    },
+    {
+      "data": "2026-08",
+      "titulo": {
+        "pt": "Estudo da Amcham projeta R$ 192,1 bilhões de PIB adicional até 2050 com minerais críticos",
+        "en": "Amcham study projects R$192.1bn in additional GDP by 2050 from critical minerals"
+      },
+      "resumo": {
+        "pt": "Goiás aparece em terceiro no ranking nacional de potencial (10%), atrás de Pará (16%) e Bahia (10,3%). O estudo aponta que o Brasil captura pouco do valor por se concentrar na extração bruta.",
+        "en": "Goiás ranks third nationally in potential (10%), behind Pará (16%) and Bahia (10.3%). The study notes that Brazil captures little of the value by concentrating on raw extraction."
+      },
+      "fonte": "Empreender em Goiás",
+      "link": "https://empreenderemgoias.com.br/2026/08/06/minerais-criticos-podem-transformar-a-economia-de-goias/"
+    },
+    {
+      "data": "2026-03",
+      "titulo": {
+        "pt": "CBMM registra lucro líquido de R$ 6,4 bilhões em 2025",
+        "en": "CBMM reports net profit of R$6.4bn in 2025"
+      },
+      "resumo": {
+        "pt": "A maior produtora mundial de nióbio passou pela primeira vez de 100 mil toneladas de ferronióbio vendidas, com EBITDA de R$ 10,2 bilhões e 95% da produção exportada.",
+        "en": "The world's largest niobium producer passed 100 thousand tonnes of ferroniobium sold for the first time, with EBITDA of R$10.2bn and 95% of output exported."
+      },
+      "fonte": "Revista Mineração",
+      "link": "https://revistamineracao.com.br/2026/03/25/cbmm-registra-lucro-de-r-64-bilhoes-em-2025-e-avanca-em-novos-mercados/"
+    },
+    {
+      "data": "2025-11",
+      "titulo": {
+        "pt": "Comissão Europeia abre investigação aprofundada sobre a venda do níquel da Anglo American à MMG",
+        "en": "European Commission opens in-depth investigation into the sale of Anglo American's nickel to MMG"
+      },
+      "resumo": {
+        "pt": "Bruxelas teme concentração no mercado de ferroníquel de baixo carbono e risco de desabastecimento da siderurgia europeia. O prazo do acordo foi prorrogado para 30 de junho de 2026.",
+        "en": "Brussels fears concentration in the low-carbon ferronickel market and supply risk for European steelmakers. The deadline for the deal was extended to 30 June 2026."
+      },
+      "fonte": "Minera Brasil",
+      "link": "https://minerabrasil.com.br/ue-paralisa-analise-da-compra-dos-ativos-de-niquel-da-anglo-american-em-goias-pela-mmg/2025/11/26/"
+    },
+    {
+      "data": "2025-02",
+      "titulo": {
+        "pt": "Anglo American assina a venda do níquel no Brasil à MMG por até US$ 500 milhões",
+        "en": "Anglo American signs the sale of its Brazilian nickel business to MMG for up to US$500m"
+      },
+      "resumo": {
+        "pt": "Barro Alto e Codemin mudam de mãos em operação que dá à chinesa China Minmetals cerca de 60% da produção nacional de níquel.",
+        "en": "Barro Alto and Codemin change hands in a deal that gives China Minmetals around 60% of Brazil's nickel output."
+      },
+      "fonte": "NeoFeed",
+      "link": "https://neofeed.com.br/negocios/anglo-american-vende-ativos-por-ate-us-500-milhoes-e-insere-o-brasil-em-seu-mapa-de-reestruturacao/"
+    }
+  ],
+  "oportunidades": [
+    {
+      "pt": "A separação de terras raras pesadas não existe no estado. Quem instalar essa etapa captura a margem que hoje fica na China.",
+      "en": "Heavy rare-earth separation does not exist in the state. Whoever installs that stage captures the margin that stays in China today."
+    },
+    {
+      "pt": "As rochas de fosfato e nióbio já em operação carregam terras raras associadas: expansão possível sobre infraestrutura instalada.",
+      "en": "The phosphate and niobium rocks already in operation carry associated rare earths: expansion is possible on installed infrastructure."
+    },
+    {
+      "pt": "FEDMC e ZEMC criam um ambiente estadual mais previsível, menos dependente da tramitação federal do tema.",
+      "en": "The FEDMC and ZEMC create a more predictable state environment, less dependent on the federal bill still in Congress."
+    },
+    {
+      "pt": "Os acordos com EUA e Japão abrem porta de financiamento e de contratos de longo prazo, como o que a Serra Verde obteve junto à DFC americana.",
+      "en": "The agreements with the US and Japan open the door to financing and long-term offtake, as Serra Verde obtained from the US DFC."
+    },
+    {
+      "pt": "O NdPr saiu de US$ 55/kg em junho de 2025 para US$ 100,8/kg em junho de 2026, o que melhora a viabilidade de projetos novos.",
+      "en": "NdPr went from US$55/kg in June 2025 to US$100.8/kg in June 2026, improving the viability of new projects."
+    }
+  ],
+  "riscos": [
+    {
+      "pt": "Captura de valor local baixa: a CFEM de terras raras foi 0,82% da arrecadação mineral de Goiás em 2025, o que pressiona a legitimidade social do setor.",
+      "en": "Low local value capture: rare-earth CFEM was 0.82% of Goiás mining royalties in 2025, which strains the sector's social licence."
+    },
+    {
+      "pt": "Concorrência por área: 392 requerimentos de pesquisa de 33 empresas cobrem 609 mil hectares.",
+      "en": "Competition for ground: 392 exploration applications from 33 companies cover 609 thousand hectares."
+    },
+    {
+      "pt": "Geopolítica em qualquer transação relevante — a compra do níquel goiano pela MMG segue sob investigação da Comissão Europeia desde novembro de 2025.",
+      "en": "Geopolitics in any relevant transaction — MMG's purchase of the Goiás nickel assets has been under European Commission investigation since November 2025."
+    },
+    {
+      "pt": "Dependência tecnológica nas etapas de maior valor (separação e ímãs) mantém a operação na ponta de menor margem.",
+      "en": "Technological dependence in the higher-value stages (separation and magnets) keeps the operation at the lower-margin end."
+    },
+    {
+      "pt": "Maturação longa: a Serra Verde levou 16 anos entre a descoberta e a produção comercial.",
+      "en": "Long maturation: Serra Verde took 16 years between discovery and commercial production."
+    }
+  ],
+  "fontes": [
+    {
+      "nome": "Portal da Alego — Minerais estratégicos e terras raras",
+      "link": "https://portal.al.go.leg.br/noticias/157683/minerais-estrategicos-e-terras-raras"
+    },
+    {
+      "nome": "Agência Pública — Terras raras em Goiás viram negócio bilionário",
+      "link": "https://apublica.org/2026/04/terras-raras-mineradora-em-goias-vira-negocio-bilionario/"
+    },
+    {
+      "nome": "SEC EDGAR — USA Rare Earth, Form 8-K",
+      "link": "https://www.sec.gov/Archives/edgar/data/0001970622/000121390026045339/ea028691001ex99-2.htm"
+    },
+    {
+      "nome": "Kalkine — Lynas Rare Earths FY26 results",
+      "link": "https://kalkine.com.au/stock-analysis/mining/lynas-rare-earths-ltd-asxlyc-posts-record-fy26-revenue-of-9779m"
+    },
+    {
+      "nome": "Yahoo Finance / Zacks — MP Materials 1H26",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mps-materials-segment-1h26-revenues-165800037.html"
+    },
+    {
+      "nome": "Revista Mineração — CBMM 2025",
+      "link": "https://revistamineracao.com.br/2026/03/25/cbmm-registra-lucro-de-r-64-bilhoes-em-2025-e-avanca-em-novos-mercados/"
+    },
+    {
+      "nome": "NeoFeed — Anglo American vende o níquel brasileiro à MMG",
+      "link": "https://neofeed.com.br/negocios/anglo-american-vende-ativos-por-ate-us-500-milhoes-e-insere-o-brasil-em-seu-mapa-de-reestruturacao/"
+    },
+    {
+      "nome": "Empreender em Goiás — Estudo Amcham",
+      "link": "https://empreenderemgoias.com.br/2026/08/06/minerais-criticos-podem-transformar-a-economia-de-goias/"
+    },
+    {
+      "nome": "Axia Mineração — Goiás mira protagonismo global",
+      "link": "https://axiaresources.com.br/goias-mira-protagonismo-global-com-minerais-criticos-2/"
+    }
+  ]
+}

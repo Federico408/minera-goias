@@ -38,3 +38,24 @@ header .lang-switch button.active{background:rgba(255,255,255,.14);color:inherit
 .rd-news span{display:block;font-size:11px;margin-top:3px}
 #radar-view table{width:100%;border-collapse:collapse;font-size:12px}
 #radar-view .table-wrap{max-height:420px;overflow-y:auto}
+
+/* --- Mercado --- */
+.mk-two{grid-template-columns:1fr 1fr}
+.mk-note{font-size:11px;line-height:1.55;color:var(--muted);margin:5px 0 0}
+#mk-transacoes .mk-note{margin:-4px 0 14px}
+#mk-transacoes .bar-row{grid-template-columns:minmax(80px,1fr) 1.15fr 78px;margin-bottom:4px}
+.mk-list,.mk-bullets{list-style:none;margin:0;padding:0}
+.mk-list li{border-top:1px solid var(--line);padding:13px 0}
+.mk-list li:first-child{border-top:0}
+.mk-list b{display:block;font-size:13px}
+.mk-list .mk-code{font:12px monospace;color:var(--blue);letter-spacing:.5px}
+.mk-list span{display:block;font-size:12px;margin-top:4px}
+.mk-bullets li{position:relative;padding:0 0 0 20px;margin:13px 0;font-size:12.5px;color:var(--muted)}
+.mk-bullets li:before{content:'↗';position:absolute;left:0;color:var(--blue)}
+#mercado-view .rd-news span{font-size:11px}
+#mercado-view .rd-news .mk-note{margin-top:5px}
+#mercado-view td b{font-size:12.5px}
+#mk-fontes a{color:var(--blue)}
+@media(max-width:1000px){.mk-two{grid-template-columns:1fr}}
+.mk-sub{font-size:12px;color:var(--muted);margin:26px 0 12px;border-top:1px solid var(--line);padding-top:18px}
+#mk-preco .bar-row{grid-template-columns:minmax(60px,.6fr) 1.15fr 78px}
