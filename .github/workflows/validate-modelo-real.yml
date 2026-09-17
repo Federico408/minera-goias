@@ -1,4 +1,4 @@
-name: Validate real model input
+name: Validate real model prototype
 
 on:
   push:
@@ -20,7 +20,7 @@ permissions:
 
 jobs:
   validate-real-model:
-    name: Validate real model data and backtest
+    name: Validate real model prototype
     runs-on: ubuntu-latest
 
     steps:
@@ -45,10 +45,22 @@ jobs:
         run: |
           python "Squad 2/modello_reale/src/run_backtest.py"
 
+      - name: Run future scenarios
+        run: |
+          python "Squad 2/modello_reale/src/run_future_scenarios.py"
+
       - name: Publish backtest results
         uses: actions/upload-artifact@v6
         with:
           name: real-model-backtest
           path: Squad 2/modello_reale/outputs/backtest/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Publish future scenario results
+        uses: actions/upload-artifact@v6
+        with:
+          name: real-model-future-scenarios
+          path: Squad 2/modello_reale/outputs/future/
           if-no-files-found: error
           retention-days: 30
