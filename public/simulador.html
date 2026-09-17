@@ -27,6 +27,7 @@
   </div>
 
   <div class="aviso" id="aviso-ilustrativo" role="note"></div>
+  <div class="nota-cobertura" id="nota-cobertura"></div>
 
   <div id="erro" class="erro" role="alert" hidden></div>
   <div id="carregando" class="carregando" role="status">Carregando parâmetros…</div>
@@ -52,6 +53,12 @@
         Em 0%, a intensidade fica constante.</p>
       </div>
 
+      <div class="controle controle-largo">
+        <span class="rotulo" id="rot-sens">Ajuste da intensidade energética por mineral</span>
+        <div class="sensibilidade" id="sensibilidade" role="group" aria-labelledby="rot-sens"></div>
+        <p class="ajuda" id="ajuda-sens"></p>
+      </div>
+
       <div class="acoes">
         <button type="button" class="btn" id="btn-fontes" hidden>Fontes e premissas</button>
         <button type="button" class="btn secundario" id="btn-padrao">Restaurar padrão do cenário</button>
@@ -73,7 +80,7 @@
 
     <article class="card">
       <h2>Demanda de energia por mineral · <span id="ano-final-1">2040</span></h2>
-      <p class="subtitulo">Cenário selecionado, no último ano do horizonte.</p>
+      <p class="subtitulo" id="sub-minerais">Cenário selecionado, no último ano do horizonte.</p>
       <div class="grafico" id="grafico-minerais"></div>
       <details>
         <summary>Consultar valores por mineral</summary>
