@@ -1,11 +1,14 @@
-# Simulador de Demanda Energética e Rastreabilidade — versão 1
+# Simulador de Demanda Energética e Rastreabilidade
 
-Squad 3 · Henrique Falci · entrega de 21/09
+Squad 3 · Henrique Falci
 
 Página web que recalcula a demanda de energia do setor mineral de Goiás entre 2027 e 2040
-conforme o cenário e a hipótese de eficiência energética escolhidos, mostrando a origem de
-cada parâmetro usado. O simulador não consulta nenhuma fonte externa: ele lê um único
+conforme o cenário, a hipótese de eficiência e o ajuste de intensidade escolhidos, mostrando
+a origem de cada parâmetro. O simulador não consulta nenhuma fonte externa: lê um único
 arquivo de parâmetros versionado do repositório.
+
+Desde a versão 1.0.0 dos parâmetros, os números vêm do modelo econômico-energético do
+Squad 2 (`Squad 2/modello_reale`), que projeta a produção histórica consolidada pelo Squad 1.
 
 ## Arquivos
 
@@ -15,13 +18,11 @@ arquivo de parâmetros versionado do repositório.
 | `public/simulador.css` | Estilo, seguindo o guia visual azul/dourado |
 | `public/simulador-engine.js` | Cálculo, isolado da interface e sem acesso à tela |
 | `public/simulador.js` | Controles, gráficos e painel de fontes |
-| `public/data/simulador/parametros_v0.json` | Parâmetros de entrada, com campo `versao` |
-| `tests/simulador.test.js` | 28 verificações do cálculo |
+| `public/data/simulador/parametros_v1.json` | Parâmetros em uso, com campo `versao` |
+| `public/data/simulador/parametros_v0.json` | Primeira versão, marcada como substituída |
+| `scripts/build_simulador_base.py` | Gera o pacote v1 a partir do modelo do Squad 2 |
+| `tests/simulador.test.js` | 55 verificações do cálculo |
 | `tests/test_simulador.py` | Contrato dos parâmetros, rastreabilidade e ausência de segredos |
-
-O cálculo fica separado da interface de propósito: quando o motor do Squad 2 estiver com
-dados reais, basta trocar `simulador-engine.js` (ou fazê-lo ler a saída do motor) sem
-mexer na tela.
 
 ## Como rodar
 
@@ -32,10 +33,8 @@ cd public
 python3 -m http.server 8000
 ```
 
-Abra `localhost:8000/simulador.html` no navegador.
-
-Em produção a página já é servida pelo Nginx junto com o resto de `public/`, no caminho
-`/simulador.html`.
+Abra `localhost:8000/simulador.html` no navegador. Em produção o Nginx já serve a página em
+`/simulador.html`, junto com o resto de `public/`.
 
 ## Como testar
 
@@ -44,85 +43,108 @@ python3 -m unittest discover -s tests -p test_simulador.py -v
 node tests/simulador.test.js
 ```
 
-Ambos rodam também no GitHub Actions, pelo workflow `validate-web.yml`.
+Ambos rodam no GitHub Actions, pelo workflow `validate-web.yml`.
 
-## As fórmulas
+## As equações
 
-O núcleo é o método do projeto — produção física × intensidade energética — sem nenhuma
-camada estatística intermediária:
+O núcleo é o método do projeto — produção física × intensidade energética — sem camada
+estatística intermediária. São as mesmas equações do modelo do Squad 2:
 
 ```
-Energia(t)       = Produção(t) × Intensidade(t)
-Intensidade(t)   = Intensidade_base × (1 − g)^(t − ano_base)
-Produção(t)      = produção_baseline × fator_producao(cenário)
+Produção(m,t)    = producao_base_t(m) × (1 + crescimento_historico(m) + growth_adjustment(s))^(t − ano_base)
+Intensidade(m,t) = energy_intensity_mwh_t(m) × (1 + ajuste_pct(m)/100) × (1 − g)^(t − ano_base)
+Energia(m,t)     = Produção(m,t) × Intensidade(m,t)
 ```
 
-- `ano_base` = 2025, `t` vai de 2027 a 2040.
+- `ano_base` é 2025, o último ano observado pelo Squad 1; `t` vai de 2027 a 2040.
+- `crescimento_historico` é a taxa composta da série histórica de cada mineral, calculada
+  pelo modelo do Squad 2.
+- `growth_adjustment` é o ajuste do cenário, em pontos percentuais: −2, 0 e +2.
 - `g` é o ganho anual de eficiência, controlado pelo usuário entre 0% e 3%.
-- Como o horizonte começa dois anos depois do ano base, em 2027 o ganho já se aplica duas
-  vezes. É a mesma convenção do notebook do Squad 2.
-- As três curvas comparadas usam a **mesma** hipótese de eficiência, para que a diferença
-  entre elas isole o efeito do cenário de produção.
+- `ajuste_pct` é o ajuste de sensibilidade por mineral, entre −10% e +10%.
+- As três curvas comparadas usam a **mesma** hipótese de eficiência e o mesmo ajuste de
+  intensidade, para que a diferença entre elas isole o efeito do cenário de crescimento.
+
+**Só a energia é agregada.** As toneladas não são somadas entre minerais: o cobre usa
+conteúdo mineral e os demais usam produção beneficiada.
 
 ## De onde vêm os dados
 
-**Baseline (observado).** As sete operações vêm da tabela "Baseline energético já existente
-no material da FGV Energia", da proposta MINERA Goiás, que indica ANM e CCEE como origem:
-Anglo Barro Alto, Maraca, Anglo Níquel Minas, CMOC Fosfato, CMOC Nióbio, Sama e CBA.
+| Camada | Origem | Natureza |
+|---|---|---|
+| Produção histórica | Squad 1, séries consolidadas 2010–2025 (bauxita desde 2014) | observado |
+| Intensidade energética | Benchmarks da apresentação FGV Energia-EPGE, em `Squad 2/modello_reale/parameters/energy_intensity.csv` | estimado |
+| Crescimento e eficiência dos cenários | Hipóteses do Squad 2, em `scenarios.csv` | ilustrativo |
+| Faixa de sensibilidade | Contrato `intensity_sensitivity_contract.json` do Squad 2 | — |
 
-**Conferência.** Produção × intensidade resulta em 4,4904 TWh, contra 4,60 TWh publicados
-na mesma tabela — diferença de −2,38%, porque a produção aparece arredondada em Mt na
-origem. A divergência fica registrada em `conferencia_baseline` e aparece no painel de
-fontes. Ela não foi corrigida em silêncio.
+As intensidades são **benchmarks ou proxies operacionais**, não medição do consumo observado
+de cada operação. Os resultados são cenários condicionais, não previsão oficial.
 
-**Ilustrativo.** Os fatores de produção por cenário (0,90 / 1,00 / 1,15) foram arbitrados
-pelo Squad 3 apenas para demonstrar o recálculo. Os ganhos de eficiência padrão
-(0,4% / 0,9% / 1,4%) vêm de `scenario_parameters_demo.csv` do Squad 2, que são sintéticos
-(`estimated_demo`). Tudo isso está marcado como `ilustrativo` no arquivo e sinalizado na
-tela.
+### Cobertura e limites
 
-## Integração
+Cinco minerais: cobre, bauxita, níquel, fosfato e amianto. O **nióbio ficou de fora** porque
+o Squad 2 não conseguiu conciliar com segurança as unidades e o conceito de produção
+disponíveis com o coeficiente energético.
 
-**Entrada recebida.** Do Squad 2 (Federico Castro): o contrato de dados descrito no
-`Squad 2/README (1).md`, os identificadores `mineral_id` de `minerals_demo.csv` e as taxas
-de eficiência por cenário do motor demo. O simulador reusa esses identificadores, e
-`tests/test_simulador.py` falha se eles divergirem do catálogo do Squad 2.
+O erro do backtest do Squad 2 aparece no painel de fontes, por mineral. A **bauxita** tem
+44,3%: a produção caiu em 2024 depois de anos de crescimento, e uma projeção de tendência não
+antecipa interrupções operacionais nem decisões de mercado. Como a bauxita é o segundo maior
+consumidor projetado, esse número merece atenção ao interpretar o total.
 
-**Saída entregue.** `public/data/simulador/parametros_v0.json` é o formato que o Squad 2
-precisa preencher para que o simulador passe a mostrar números reais, e o registro de
-fontes que o Squad 3 (Kayo) pode servir por API no lugar do arquivo estático. O motor de
-cálculo é uma função pura e pode ser chamado por qualquer outra tela do painel.
+O modelo ainda **não inclui carteira física de projetos**. As bases atuais não trazem
+capacidade, ano de entrada e grau de certeza de forma estruturada e validada.
 
 ## Como atualizar e versionar os parâmetros
 
-O arquivo de parâmetros é a única entrada do simulador. Para publicar uma versão nova:
-
-1. Edite `public/data/simulador/parametros_v0.json` mantendo a estrutura.
-2. Suba o campo `versao` e ajuste `data_versao`.
-3. Toda medida nova precisa de um `source_id` que exista em `fontes`, com
-   `valor_observado_estimado` igual a `observado`, `estimado` ou `ilustrativo`. Quando for
-   estimado, preencha `metodo_estimacao`. Os testes recusam a alteração se faltar fonte.
-4. Rode os dois comandos de teste da seção acima.
-5. Faça o commit e marque a versão no GitHub:
+O pacote v1 é gerado, não escrito à mão. Os outputs do modelo do Squad 2 saem apenas como
+artefato do GitHub Actions, que não fica versionado; por isso o simulador precisa de um
+pacote próprio no repositório.
 
 ```sh
-git tag params-v0.1 -m "Parâmetros do simulador v0.1.0"
-git push origin params-v0.1
+python3 -m venv .venv
+.venv/bin/pip install -r "Squad 2/modello_reale/requirements.txt"
+.venv/bin/python scripts/build_simulador_base.py
+```
+
+O script executa os três scripts do modelo do Squad 2, lê os outputs e extrai as primitivas
+de cada mineral. Antes de gravar, ele confere que a fórmula que o navegador executa devolve a
+mesma energia do modelo em todos os minerais, anos e cenários, e falha se a diferença passar
+de 10⁻⁶ MWh. A diferença encontrada fica registrada em `conferencia_modelo`.
+
+Para publicar uma versão nova:
+
+1. Rode o build acima depois que o Squad 2 atualizar o modelo ou os parâmetros.
+2. Confira o campo `versao` e ajuste `data_versao`.
+3. Rode os dois comandos de teste. Eles falham se o pacote divergir dos arquivos de
+   parâmetros do Squad 2, se faltar fonte em alguma medida ou se algum valor estimado não
+   declarar o método.
+4. Faça o commit e marque a versão no GitHub:
+
+```sh
+git tag params-v1.0 -m "Parâmetros do simulador v1.0.0"
+git push origin params-v1.0
 ```
 
 A tag congela o par arquivo + código que produziu um resultado, então qualquer número
 apresentado pode ser reproduzido depois. A página mostra a versão carregada no canto
 superior direito e no painel de fontes.
 
-Quando o Squad 2 entregar parâmetros com dados reais, o arquivo passa a `versao` 1.0.0, o
-aviso de dado ilustrativo sai da tela e os `valor_observado_estimado` mudam conforme a
-natureza de cada medida.
+Versões anteriores permanecem no repositório com `situacao: substituido` e um ponteiro para
+a versão que as substituiu.
 
-## Limitações desta versão
+## Integração
 
-- A produção é constante ao longo do horizonte: não há crescimento da produção existente
-  nem entrada de projetos novos. Essas duas coisas são do motor do Squad 2 e entram quando
-  ele publicar parâmetros reais.
-- Os fatores de cenário não têm base empírica.
-- O baseline não traz o ano de referência; 2025 foi adotado por coerência com o Squad 2.
-- Sem exportação, log de execução ou API — fora do escopo desta entrega.
+**Entrada recebida.** Do Squad 2 (Federico Castro): o modelo `modello_reale`, os parâmetros de
+intensidade e cenário, o backtest e o contrato de sensibilidade. Do Squad 1, por meio do
+modelo do Squad 2: as séries de produção consolidadas.
+
+**Saída entregue.** `public/data/simulador/parametros_v1.json` — o pacote que a página lê,
+com as primitivas do modelo, os campos de governança e a conferência contra o modelo de
+origem. O Squad 3 (Kayo) pode servi-lo por API no lugar do arquivo estático: é um ponto único
+de troca, em `CAMINHO_PARAMETROS` no início de `simulador.js`. O motor de cálculo é um módulo
+de funções puras e pode ser chamado por qualquer outra tela do painel.
+
+**O que ainda depende de terceiros.** Quando o Squad 1 estruturar capacidade, ano de entrada e
+grau de certeza dos projetos, o Squad 2 poderá acrescentar a camada física de oferta; o
+simulador então ganha um controle de ano de entrada de projeto. O nióbio volta quando as
+unidades forem conciliadas.
