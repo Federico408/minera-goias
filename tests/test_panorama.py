@@ -62,7 +62,9 @@ class PanoramaTests(unittest.TestCase):
 
     def test_page_wires_the_tab(self):
         markup = (ROOT / 'public' / 'painel.html').read_text(encoding='utf-8')
-        self.assertEqual(re.findall(r'data-view="(\w+)"', markup)[:3], ['atlas', 'panorama', 'radar'])
+        views = re.findall(r'data-view="(\w+)"', markup)
+        self.assertEqual(views[:3], ['atlas', 'panorama', 'mercado'])
+        self.assertIn('radar', views)
         for script in ('panorama-charts.js', 'panorama-cards1.js', 'panorama-cards2.js', 'panorama-cards3.js', 'panorama-analises.js', 'panorama.js'):
             self.assertIn(f'src="/{script}"', markup)
         self.assertLess(markup.index('/panorama-cards3.js'), markup.index('/panorama.js"'))
