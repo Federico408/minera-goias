@@ -47,3 +47,8 @@
 
 /* --- Selo de âmbito: o card não lê o município selecionado / State-scope seal --- */
 .pill.scope{background:#fdf2e3;color:#8a4b12;border:1px solid #e8c89a;font-weight:600}
+
+/* --- Confiança declarada de cada coeficiente curado / Stated confidence --- */
+.pill.conf-alta{background:#e6f4ec;color:#1c6b43;border:1px solid #a8d5bd}
+.pill.conf-media{background:#fdf2e3;color:#8a4b12;border:1px solid #e8c89a}
+.pill.conf-baixa{background:#fbeaec;color:#8f2637;border:1px solid #e3b2ba}

@@ -33,7 +33,8 @@ def extract(source,target):
       'municipalities':municipalities,'cfem':d['cfem_mun_ano'],'production':d['mapa_prod'],
       'energy':[{k:v for k,v in c.items() if k!='empresas_ee'} for c in d['mapa_coef']],
       'dams':d['barragens'],'cfem_years':d['cfem_ano'],'cfem_comparable':d['cfem_jan_jul'],
-      'energy_months':d['ee_mensal'],'beneficiated':d['prod_benef'],'investment':d['invest_ano']}
+      'energy_months':d['ee_mensal'],'beneficiated':d['prod_benef'],'investment':d['invest_ano'],
+      'coef':d['coef']}
     target=Path(target);target.mkdir(parents=True,exist_ok=True)
     for name,obj in [('atlas.json',packet),('processes.json',proc)]:
         (target/name).write_text(json.dumps(obj,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
