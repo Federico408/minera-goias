@@ -120,6 +120,28 @@ cards.push(
  const list=[...mwh.entries()].filter(([,v])=>v>=1000).map(([ce,v])=>({label:X.ceName(ce),value:(cf.get(P.dims.ce[ce][2])||0)/v})).filter(r=>r.value>0).sort((a,b)=>b.value-a.value).slice(0,15);
  return C.hbar(list,{fmt:v=>C.money(v,2),aria:X.t('pn.c.ee_rs_mwh')})}},
 
+// A unica medida de energia por unidade extraida que existe no acervo: producao vinda dos relatorios
+// das proprias empresas, curada no artefato do Squad 1. Tudo mais em `energy` e razao municipal.
+{id:'coef_emp',sec:'intens',wide:true,filters:[],render(X,box){if(!X.A)return noAtlas(X);
+ const C=X.C,E=X.E,rows=X.A.coef||[];
+ if(!rows.length)return `<p class="empty">${E(X.t('pn.empty'))}</p>`;
+ const BASE={'metal contido':'metal','produto':'produto','capacidade':'capacidade','exportação':'exportacao'};
+ const CONF={'alta':'alta','média':'media','baixa':'baixa'};
+ const cols=[['pn.h.emp',0],['pn.h.operacao',0],['pn.h.ore',0],['pn.h.qtd',1],['pn.h.coef',1],['pn.h.base',0],['pn.h.conf',0],['pn.h.fonte',0]];
+ box.innerHTML=`<p class="small muted">${E(X.t('pn.coefNote'))}</p><div class="table-wrap"><table class="pn-table"><thead><tr>`
+  +cols.map(([k,n])=>`<th${n?' class="num"':''}>${E(X.t(k))}</th>`).join('')+'</tr></thead><tbody>'
+  +rows.map(r=>{const cf=CONF[r.conf]||'baixa';
+   return '<tr>'
+    +`<td>${E(r.empresa)}</td>`
+    +`<td>${E(r.operacao)}<br><span class="small muted">${E(r.detalhe||'')}</span></td>`
+    +`<td>${E(r.produto)}</td>`
+    +`<td class="num">${E(C.fmt(r.qtd,String(r.un).startsWith('kg')?2:0))} ${E(r.un)}</td>`
+    +`<td class="num"><b>${E(C.fmt(r.coef,r.coef<1?4:2))}</b> ${E(r.coef_un)}</td>`
+    +`<td>${E(X.t(`pn.base.${BASE[r.base]||'produto'}`))} · ${E(r.ano)}</td>`
+    +`<td><span class="pill conf-${cf}">${E(X.t(`pn.conf.${cf}`))}</span></td>`
+    +`<td><a href="${E(r.url)}" target="_blank" rel="noopener noreferrer">${E(r.fonte)}</a></td>`
+    +'</tr>'}).join('')
+  +'</tbody></table></div>'}},
 {id:'ee_kwh_t',sec:'intens',filters:['mun'],render(X){if(!X.A)return noAtlas(X);const C=X.C,code=X.F.mun>=0?X.munCode(X.F.mun):'',nome=new Map(X.A.municipalities.map(m=>[m.code,m.name]));
  const list=X.A.energy.filter(e=>e.classe==='comparavel'&&e.kwh_t>0&&(!code||e.cod===code)).map(e=>({label:(nome.get(e.cod)||e.mun)+' · '+e.sub,value:e.kwh_t})).sort((a,b)=>b.value-a.value).slice(0,15);
  return C.hbar(list,{fmt:v=>C.fmt(v,1)+' kWh/t',aria:X.t('pn.c.ee_kwh_t')})}},

@@ -48,7 +48,7 @@ GRUPO_DA_FASE = {  # a mesma divisão do retrato anterior; public/atlas.js tem u
     "REQUERIMENTO DE LICENCIAMENTO": 2, "REQUERIMENTO DE PESQUISA": 2, "REQUERIMENTO DE REGISTRO DE EXTRAÇÃO": 2,
     "APTO PARA DISPONIBILIDADE": 3, "DISPONIBILIDADE": 3,
 }
-MANTIDAS = ["energy", "energy_months", "dams"]
+MANTIDAS = ["energy", "energy_months", "dams", "coef"]
 
 
 def sha256(path):
@@ -430,6 +430,7 @@ def main():
                                           for m in mun]},
         "production": {"subs": subs, "dados": {s["sub"]: prod[s["sub"]] for s in subs}},
         "energy": anterior["energy"],
+        "coef": anterior["coef"],
         "dams": anterior["dams"],
         "cfem_years": [{"Ano": a, "valor": dados["cfem_ano"][a] / 100, "registros": dados["registros"][a],
                         "municipios": len(dados["muns_ano"][a]), "empresas": len(dados["titulares_ano"][a])} for a in anos],
