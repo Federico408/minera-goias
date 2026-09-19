@@ -442,6 +442,64 @@ def run(database, config, fetcher=fetch):
         connection.close()
 
 
+def export_payload(connection, limit=120):
+    """Build exactly the packet /api/radar already serves under 'noticias'.
+
+    This is how the collection reaches the site without anyone touching the VPS: the
+    file is committed to the repository, the deploy carries the whole commit to the
+    server every two minutes, and the API reads it - the same route data/atlas/
+    processes.json already takes. A SQLite under /var/lib never leaves the machine
+    it was written on, which is why the older module needed a manual install.
+
+    Regional sector stories come first: they are the ones that bear on Goias.
+    """
+    connection.row_factory = sqlite3.Row
+    itens = connection.execute('''
+        SELECT i.title, i.link, i.published_at, i.first_seen, i.regional, i.regiao_termo,
+               i.setorial, s.name AS fonte, s.escopo, s.tema
+        FROM news_items i LEFT JOIN news_sources s ON s.source_id = i.source_id
+        ORDER BY (i.regional AND i.setorial) DESC, i.setorial DESC, i.regional DESC,
+                 COALESCE(i.published_at, i.first_seen) DESC
+        LIMIT ?''', (limit,)).fetchall()
+    conta = lambda sql: connection.execute(sql).fetchone()[0]
+    run = connection.execute("SELECT finished_at, status FROM news_runs "
+                             "WHERE finished_at IS NOT NULL ORDER BY started_at DESC "
+                             "LIMIT 1").fetchone()
+    substancias = {}
+    for row in connection.execute('SELECT commodity, COUNT(*) n FROM news_item_commodities '
+                                  'GROUP BY 1 ORDER BY 2 DESC'):
+        substancias[row['commodity']] = row['n']
+    return {
+        'disponivel': True,
+        'gerado_por': f'radar-noticias {RADAR_VERSION}',
+        'atualizado_em': run['finished_at'] if run else None,
+        'ultima_execucao': run['status'] if run else None,
+        'itens': [dict(row) for row in itens],
+        # Empty while sinais_de_direcao is false. The page renders an empty state.
+        'tendencias': [],
+        'total': conta('SELECT COUNT(*) FROM news_items'),
+        'regionais': conta('SELECT COUNT(*) FROM news_items WHERE regional=1'),
+        'setoriais': conta('SELECT COUNT(*) FROM news_items WHERE setorial=1'),
+        'regionais_setoriais': conta('SELECT COUNT(*) FROM news_items '
+                                     'WHERE regional=1 AND setorial=1'),
+        'fontes_vivas': conta("SELECT COUNT(*) FROM news_sources WHERE last_status='ok'"),
+        'fontes': conta('SELECT COUNT(*) FROM news_sources'),
+        'substancias': substancias,
+    }
+
+
+def export_json(database, destination, limit=120):
+    connection = sqlite3.connect(f'file:{Path(database)}?mode=ro', uri=True, timeout=10)
+    try:
+        payload = export_payload(connection, limit)
+    finally:
+        connection.close()
+    destino = Path(destination)
+    destino.parent.mkdir(parents=True, exist_ok=True)
+    destino.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    return payload
+
+
 def offline_fetcher(directory):
     """Reads .xml fixtures in order, so the radar can be exercised without network."""
     files = sorted(Path(directory).glob('*.xml'))
@@ -478,6 +536,10 @@ def main(argv=None):
     parser.add_argument('--db', default='/var/lib/minera-goias-radar/radar.sqlite')
     parser.add_argument('--config', default=str(Path(__file__).with_name('feeds.json')))
     parser.add_argument('--report', help='write the run report as JSON to this path')
+    parser.add_argument('--export', metavar='PATH',
+                        help='write the packet the site reads (data/noticias/latest.json)')
+    parser.add_argument('--export-limit', type=int, default=120,
+                        help='how many stories go into --export (default 120)')
     parser.add_argument('--offline-dir', help='read feeds from .xml fixtures instead of the network')
     parser.add_argument('--check', action='store_true',
                         help='only test whether each feed answers, without storing anything')
@@ -512,6 +574,10 @@ def main(argv=None):
     if direction_enabled(config):
         campos.insert(-1, 'signals')
     print(json.dumps({k: report[k] for k in campos}, ensure_ascii=False))
+    if args.export:
+        pacote = export_json(args.db, args.export, args.export_limit)
+        print(f"  exportado para {args.export}: {len(pacote['itens'])} materias, "
+              f"{pacote['regionais_setoriais']} de Goias e do setor")
     for trend in report['trends']:
         if trend['verdict'] in ('pressao_de_alta', 'pressao_de_baixa'):
             print(f"  {trend['period']}  {trend['commodity']:<18} {trend['verdict']:<18}"

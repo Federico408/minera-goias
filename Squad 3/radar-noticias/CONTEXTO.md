@@ -94,6 +94,29 @@ Energia ficou de fora da marca `setorial` por medição, não por gosto: `energi
 
 O resultado virou coluna `setorial` em `news_items`, calculada na coleta, para a API e a página poderem filtrar sem refazer conta.
 
+## Decisão 7 — publicar por arquivo no repositório, não por instalação na VPS
+
+O desenho inicial copiava o módulo antigo: SQLite em `/var/lib/`, serviço systemd, instalação manual como root. Isso estava errado para este projeto, e o motivo é simples: **ninguém da equipe tem acesso à VPS.**
+
+O mecanismo certo já existia e estava à vista. A VPS baixa o **commit inteiro** de `main` a cada dois minutos para uma pasta de versão, e a API já lê um arquivo do repositório — `phase_counts()`, em `radar_api.py`, carrega `data/atlas/processes.json`, 2,6 MB commitados, recacheando quando o `mtime` muda.
+
+Ou seja: para o dado subir, basta ele ser um arquivo no Git.
+
+O fluxo passou a ser:
+
+```
+GitHub Actions roda o radar  →  commita data/noticias/latest.json
+      →  VPS baixa o commit  →  API lê  →  aba Radar
+```
+
+Três mudanças:
+
+1. `radar.py --export` monta o pacote no formato que a API já serve.
+2. `.github/workflows/coletar-noticias.yml` roda a coleta diariamente e commita o arquivo.
+3. `Squad 3/backend/radar_api.py` lê o arquivo quando existe — **este é arquivo de outra pessoa**, e foram ~25 linhas, com fallback para o comportamento antigo quando o arquivo falta ou está ilegível.
+
+O risco de mexer no `radar_api.py` é contido pelo próprio deploy: ele testa as rotas antes de trocar a versão e restaura a anterior se falhar, conforme `deploy/README.md`. Os três casos foram testados à mão — arquivo ausente, presente e corrompido — e em nenhum a rota quebra.
+
 ## O que foi feito nesta sessão
 
 - Validação das 22 fontes antigas e de ~130 candidatas.
@@ -111,10 +134,11 @@ Nada em `news/` foi alterado. O diretório está como estava.
 
 ## O que ficou pendente
 
-- **Instalar na VPS.** Ainda não foi feito. O timer que roda hoje aponta para o módulo antigo. A instalação é passo administrativo manual, como nos outros serviços do projeto — ver README.
-- **Expor `tema` na API.** O `Squad 3/backend/radar_api.py` devolve `escopo` por matéria, mas ainda não devolve `tema`. Sem isso o filtro chega ao banco, mas não à página. **Esse arquivo não foi tocado nesta sessão.**
+- **Instalar na VPS** — descartado pela decisão 7. A publicação é por arquivo commitado, sem acesso ao servidor.
+- **Confirmar a primeira execução do workflow.** Ele só roda sozinho às 04:00 UTC. Até lá, dá para disparar à mão pela aba Actions. Se o repositório tiver proteção de branch na `main`, o push do robô falha e é preciso liberar o `github-actions[bot]`.
 - **Remover o `news/`** depois que este módulo rodar em produção.
-- **Expor a substância na API.** A tabela `news_item_commodities` é nova e a API ainda não a consulta. É o filtro por níquel, terras raras etc. na página.
+- **O texto da contagem na página** vem de `public/radar.js`, que não foi tocado: ele exibe "486 de 2.564 matérias citam Goiás". A frase está correta, mas não é o número de mineração — esse é 176, e está no arquivo exportado como `regionais_setoriais`, ainda sem uso na tela.
+- **Filtro por substância e por tema na tela.** O arquivo exportado já leva `tema`, `setorial` e a contagem por substância; falta a página usar.
 
 Deixaram de ser pendência com a decisão 5, e só voltam a ser se a direção for religada: medir o acerto do léxico e deduplicar matéria replicada. A duplicação medida foi de 1,8%, que não atrapalha contagem de acervo.
 

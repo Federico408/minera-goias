@@ -18,9 +18,14 @@ router = APIRouter(prefix='/api/radar')
 DATA = Path(__file__).resolve().parents[2] / 'data' / 'atlas'
 ROUNDS_PATH = 'Squad 1/dados/ResultadoRodadaDisponibilidade (1).csv'
 NEWS_DB = os.getenv('NEWS_DB_PATH', '/var/lib/minera-goias-news/radar.sqlite')
+# The collector publishes its result as a file in the repository, so the deploy carries
+# it here on its own - the same route data/atlas/processes.json already takes. The
+# SQLite below stays as a fallback for a collector installed on this machine.
+NEWS_JSON = Path(__file__).resolve().parents[2] / 'data' / 'noticias' / 'latest.json'
 
 connection_factory = None
 _phases = {'mtime': None, 'value': None}
+_news_file = {'mtime': None, 'value': None}
 
 # Which phases mean the holder may already extract, which are still being decided,
 # and which are areas the ANM has put back on the table.
@@ -84,8 +89,35 @@ def rounds():
     }
 
 
+def news_from_repo():
+    """Read the packet the collector committed, cached until the file changes.
+
+    Returns None when the file is absent or unreadable, so the caller falls back to a
+    locally installed collector instead of reporting the section as broken.
+    """
+    try:
+        mtime = NEWS_JSON.stat().st_mtime
+    except OSError:
+        return None
+    if _news_file['mtime'] == mtime:
+        return _news_file['value']
+    try:
+        value = json.loads(NEWS_JSON.read_text(encoding='utf-8'))
+    except (OSError, ValueError):
+        return None
+    if not isinstance(value, dict) or not isinstance(value.get('itens'), list):
+        return None
+    value.setdefault('disponivel', True)
+    value.setdefault('tendencias', [])
+    _news_file.update(mtime=mtime, value=value)
+    return value
+
+
 def news(limit=12):
     """The collector is a separate service; report plainly when it is not installed."""
+    packet = news_from_repo()
+    if packet is not None:
+        return {**packet, 'itens': packet['itens'][:limit]}
     path = Path(NEWS_DB)
     if not path.exists():
         return {'disponivel': False, 'motivo': 'coletor_nao_instalado', 'itens': [], 'tendencias': []}

@@ -141,13 +141,26 @@ Roda sem rede, com as fixtures dos testes.
 
 Só biblioteca padrão do Python — nenhuma dependência para instalar.
 
-## Na VPS
+## Como isso chega ao site
 
-**Ainda não está instalado.** O `minera-goias-news.timer` que existe hoje na VPS aponta para o módulo antigo, em `/usr/local/lib/minera-goias-news/`.
+**Sem ninguém entrar na VPS.** O caminho é o mesmo que `data/atlas/processes.json` já percorre:
 
-A instalação deste segue o mesmo padrão dos outros serviços e é **passo administrativo manual**: o programa e o `feeds.json` vão para `/usr/local/lib/minera-goias-radar/` como arquivos de root, e o banco para `/var/lib/minera-goias-radar/`. O caminho padrão do `--db` já é esse, de propósito, para os dois nunca dividirem arquivo enquanto ambos existirem.
+```
+GitHub Actions roda o radar  →  commita data/noticias/latest.json na main
+      →  a VPS baixa o commit em até 2 min  →  a API lê o arquivo  →  aba Radar
+```
 
-Como nos outros serviços do projeto, **mudar este diretório no GitHub não altera a VPS sozinho**.
+Três peças, e nenhuma precisa de acesso ao servidor:
+
+1. **`radar.py --export data/noticias/latest.json`** monta o pacote no formato que a API já serve em `/api/radar`, na chave `noticias`.
+2. **`.github/workflows/coletar-noticias.yml`** roda a coleta todo dia às 04:00 UTC (01:00 em Brasília) e commita o arquivo. Dá para disparar à mão pela aba Actions, e há a opção de recomeçar o acervo do zero.
+3. **`Squad 3/backend/radar_api.py`** lê esse arquivo quando ele existe. Quando não existe, ou está ilegível, cai no comportamento antigo — o coletor instalado na própria máquina — e a aba mostra "coletor não instalado" em vez de quebrar.
+
+O acervo é cumulativo: matéria já vista não entra de novo. O banco viaja entre execuções pelo cache do Actions. Se o cache sumir, a coleta recomeça do zero e o site continua funcionando — só perde o histórico.
+
+**Por que não é instalação na VPS.** O módulo antigo grava SQLite em `/var/lib/`, que não vem do Git, e por isso exigia instalação manual como root. Arquivo no repositório não exige: o deploy carrega o commit inteiro. Era o mecanismo errado para este projeto.
+
+O `--db` continua existindo para rodar na mão, e o padrão é `/var/lib/minera-goias-radar/`, separado do módulo antigo.
 
 ## Limites conhecidos
 
