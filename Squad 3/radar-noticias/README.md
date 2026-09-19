@@ -42,7 +42,7 @@ O radar **não produz série de preços**. Ele não cota commodity, não consult
 
 O arquivo também guarda um bloco `fontes_descartadas`, com 10 entradas e o motivo de cada uma. É para ninguém reinserir daqui a três meses achando que faltou.
 
-## Os três eixos de filtro
+## Os eixos de filtro
 
 Cada fonte declara três campos. Eles existem para a página poder filtrar sem precisar de nova coleta.
 
@@ -56,13 +56,38 @@ Os três chegam ao banco, na tabela `news_sources`, e são atualizados a cada ro
 
 **Para tirar energia do ar**, é `tema != 'energia'`. São 5 fontes: MegaWhat, Power Technology e três buscas. Nada mais depende delas.
 
-Há ainda um quarto eixo, que não vem da fonte e sim da matéria: a **substância**, em `news_item_commodities`. Serve para a página mostrar só as notícias de níquel, ou só as de terras raras.
+Há ainda dois eixos que não vêm da fonte e sim da matéria: a **substância**, em `news_item_commodities`, e o **município**, no campo `regiao_termo` de `news_items`, que guarda qual nome casou.
 
 Na linha de comando dá para restringir a rodada:
 
 ```sh
 py radar.py --check --tema mineracao --tema geral
 ```
+
+## O que a página mostra
+
+A aba **Radar** do painel abre com quatro números do acervo, no mesmo estilo dos cartões que já existem ali:
+
+| | |
+|---|---|
+| Matérias guardadas | o acervo inteiro |
+| Do setor mineral | quantas são de mineração |
+| Citam Goiás | quantas citam o estado ou um município |
+| Goiás e setor | o cruzamento — **é este o número defensável** |
+
+Abaixo, a lista das mais relevantes, com quatro controles:
+
+- **Busca no título**
+- **Mês** — traz o arquivo daquele mês sob demanda, sem recarregar a página
+- **Município** — Catalão, Alto Horizonte, Barro Alto, Mara Rosa, Ouvidor e os demais que aparecerem
+- **Substância** — níquel, terras raras, lítio…
+- **Só Goiás**
+
+Cada matéria mostra o município (ou "GOIÁS", quando casou só o estado), as substâncias citadas, a data, o veículo e um aviso **via busca** quando o link passa por uma tela do Google antes de chegar ao veículo.
+
+A lista desenha 40 linhas por vez. O resto sai pelos filtros — cento e oitenta linhas dentro de um painel viram rolagem sem fim.
+
+**O que a página deliberadamente não mostra:** gráfico de matérias por mês. Chegou a ser construído e foi descartado — todo o acervo foi coletado de uma vez em setembro de 2026, então um gráfico temporal seria lido como volume de notícia quando é artefato de coleta. Ver a decisão 10 em [CONTEXTO.md](CONTEXTO.md). Só faz sentido depois de alguns meses de coleta diária de verdade.
 
 ## Como funciona
 
@@ -104,7 +129,7 @@ A comparação é sempre por palavra inteira, e hífen conta como espaço — se
 |---|---|---|
 | `news_runs` | Histórico das execuções, versão do radar e relatório completo | em uso |
 | `news_sources` | Feeds configurados, último status, última leitura e os três campos de filtro | em uso |
-| `news_items` | Matérias com título, link, resumo, data, execução de origem e as marcas `regional` e `setorial` | em uso |
+| `news_items` | Matérias com título, link, resumo, data, execução de origem, as marcas `regional` e `setorial`, e `regiao_termo` com o município que casou | em uso |
 | `news_item_commodities` | Uma linha por matéria e substância citada | em uso |
 | `news_signals` | Um sinal por substância e frase: direção, confiança, evidência e preço citado | **vazia** |
 | `news_trends` | Balanço semanal por substância, com score e veredito | **vazia** |
@@ -193,7 +218,7 @@ Da camada que está ligada:
 - **Título e resumo apenas.** O radar não abre a matéria. O RSS do Google News traz resumo curto, o que reduz o texto disponível.
 - **A marca regional é lexical.** Não lê negação nem contexto: "sem relação com a mineração em Catalão" ainda seria marcada como regional. Ela ordena a leitura, não decide relevância.
 - **Metade dos links passa pelo Google.** As 17 fontes do tipo `busca` guardam endereço do Google News, que redireciona por JavaScript. Quem clica chega na matéria, mas passa por uma tela antes. O endereço original do veículo não é recuperável: o token do link é opaco. As 46 fontes `editor` têm link direto.
-- **Matéria replicada conta mais de uma vez.** Medido na coleta de 19/09/2026: 45 repetidas em 2.562, ou 1,8%.
+- **Matéria replicada conta mais de uma vez,** e filtro nenhum resolve isso. Medido: 45 repetidas em 2.562, ou 1,8%. Resolver exige comparar títulos por similaridade.
 
 Da camada desligada, se alguém pensar em ligar:
 
