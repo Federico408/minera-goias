@@ -144,6 +144,20 @@ A seção de tendências deixou de ser desenhada quando não há tendência — 
 
 **Sobre não quebrar nada:** a mudança em `radar_api.py` fazia dois testes existentes falharem, porque eles verificam o comportamento quando não há coletor e agora existe o arquivo publicado. Os testes foram ajustados para apontar o arquivo para um caminho vazio, que é o que eles de fato querem testar, e ganharam dois casos novos: pacote publicado tem prioridade, e pacote corrompido cai na reserva sem quebrar. A bateria inteira do CI foi executada localmente num ambiente isolado — 55 testes, todos passando.
 
+## Decisão 9 — o acervo passa a ser os arquivos, e a página navega por mês
+
+O desenho da decisão 7 tinha um furo que só apareceu quando o Kayo perguntou se dava para ver as notícias antigas: **o histórico não estava guardado em lugar nenhum durável.** O `latest.json` era sobrescrito a cada coleta, e o banco com as 2.562 matérias vivia só no cache do GitHub Actions, que expira.
+
+Isso importa porque feed RSS é janela rolante. A matéria que sai do feed **não pode ser recoletada** — se o cache sumisse, aquele histórico estaria perdido para sempre.
+
+A correção inverte quem manda: **os arquivos commitados são o acervo**. Cada execução lê o que está lá, funde pelo link e grava de volta. O banco virou só otimização. Testado com banco vazio: as 2.562 sobreviveram.
+
+**Sobre não poluir o repositório.** A primeira tentativa agrupou por mês e gerou **113 arquivos**, a maioria com menos de 1 KB, voltando até 1970 — os feeds carregam material arquivado de décadas atrás. A solução foi uma janela rolante de doze meses: cada um desses tem arquivo próprio, todo o resto se consolida em `anteriores.json`. A pasta nunca passa de treze arquivos, e quando a janela anda o mês que saiu se funde sozinho.
+
+Os arquivos ficam em `public/data/noticias/` porque **só `public/` é servido pelo Nginx**. Isso foi verificado contra o site: caminho fora de `public/` devolve a landing page, não o arquivo. É o que permite a página buscar `/data/noticias/meses/2026-04.json` direto quando alguém escolhe um mês antigo, sem passar pela API.
+
+**Uma regressão apanhada no caminho:** ao reorganizar, o pacote de abertura passou a ser "as 180 mais recentes por data" — e como o G1 Goiás publica de tudo, só **6** delas eram do setor. A abertura voltou a ordenar por Goiás + setor primeiro; os arquivos de mês é que ficam em ordem cronológica.
+
 ## O que foi feito nesta sessão
 
 - Validação das 22 fontes antigas e de ~130 candidatas.

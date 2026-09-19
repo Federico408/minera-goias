@@ -505,16 +505,119 @@ def export_payload(connection, limit=180):
     }
 
 
-def export_json(database, destination, limit=180):
+ANTERIORES = 'anteriores'
+MESES_ABERTOS = 12
+
+
+def janela(hoje=None):
+    """The oldest month that still gets a file of its own - a rolling window.
+
+    Twelve months stay browsable one by one; everything older is folded into a single
+    'anteriores' file. Without this the archive sprawled to 113 files, most under a
+    kilobyte, because the feeds carry material going back decades. With it the folder
+    never holds more than thirteen files, however long the radar runs.
+    """
+    hoje = hoje or datetime.now(timezone.utc)
+    total = hoje.year * 12 + (hoje.month - 1) - (MESES_ABERTOS - 1)
+    return f'{total // 12:04d}-{total % 12 + 1:02d}'
+
+
+def month_of(item, desde):
+    """Which file a story belongs to, from its own date - never from the run date."""
+    stamp = (item.get('published_at') or item.get('first_seen') or '')[:7]
+    if not re.fullmatch(r'\d{4}-\d{2}', stamp):
+        return ANTERIORES
+    return stamp if stamp >= desde else ANTERIORES
+
+
+def write_json(path, payload):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+
+
+def read_month(path):
+    """Whatever is already committed for this month, or nothing."""
+    try:
+        packet = json.loads(path.read_text(encoding='utf-8'))
+    except (OSError, ValueError):
+        return []
+    itens = packet.get('itens')
+    return itens if isinstance(itens, list) else []
+
+
+def export_archive(database, destination, recent=180, desde=None):
+    """Write the monthly archive and the packet the page opens with.
+
+    The committed files are the archive, not the SQLite. Each run merges what it
+    collected into the month files that are already there, keyed by link, so nothing
+    is dropped - which matters because an RSS feed is a rolling window: a story that
+    leaves the feed cannot be collected again. The database is only a speed-up; if it
+    is lost, the archive on disk survives and the next run adds to it.
+    """
+    destino = Path(destination)
+    desde = desde or janela()
     connection = sqlite3.connect(f'file:{Path(database)}?mode=ro', uri=True, timeout=10)
     try:
-        payload = export_payload(connection, limit)
+        pacote = export_payload(connection, limit=10 ** 9)
     finally:
         connection.close()
-    destino = Path(destination)
-    destino.parent.mkdir(parents=True, exist_ok=True)
-    destino.write_text(json.dumps(payload, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
-    return payload
+
+    # Tudo é relido e reagrupado a cada execução: assim, quando a janela anda, o mês
+    # que saiu dela se funde em 'anteriores' sozinho, sem migração manual.
+    pasta = destino / 'meses'
+    guardadas = {}
+    for arquivo in sorted(pasta.glob('*.json')):
+        for item in read_month(arquivo):
+            guardadas[item['link']] = item
+    antes = set(guardadas)
+    # A matéria recoletada é atualizada; a que saiu do feed permanece onde está.
+    for item in pacote['itens']:
+        guardadas[item['link']] = item
+    novas_por_mes = {}
+    for link, item in guardadas.items():
+        if link not in antes:
+            novas_por_mes[month_of(item, desde)] = novas_por_mes.get(month_of(item, desde), 0) + 1
+
+    baldes = {}
+    for item in guardadas.values():
+        baldes.setdefault(month_of(item, desde), []).append(item)
+    for obsoleto in pasta.glob('*.json'):
+        if obsoleto.stem not in baldes:
+            obsoleto.unlink()
+
+    indice, todas = [], []
+    # 'anteriores' fecha a lista: é material de arquivo dos feeds, não coleta nossa.
+    for mes in sorted(baldes, key=lambda m: ('', m) if m == ANTERIORES else ('z', m), reverse=True):
+        itens = sorted(baldes[mes],
+                       key=lambda i: (i.get('published_at') or i.get('first_seen') or ''), reverse=True)
+        write_json(pasta / f'{mes}.json', {'mes': mes, 'materias': len(itens), 'itens': itens})
+        indice.append({'mes': mes, 'materias': len(itens), 'novas': novas_por_mes.get(mes, 0),
+                       'regionais': sum(1 for i in itens if i.get('regional')),
+                       'setoriais': sum(1 for i in itens if i.get('setorial')),
+                       'regionais_setoriais': sum(1 for i in itens
+                                                  if i.get('regional') and i.get('setorial'))})
+        todas.extend(itens)
+
+    # Os arquivos de mês ficam em ordem de data; a abertura, não. O painel é de
+    # mineração, e por data pura ela encheria de concurso público e futebol do dia -
+    # medido: das 180 mais recentes, 6 eram do setor. Setor e Goiás vêm primeiro.
+    todas.sort(key=lambda i: (bool(i.get('regional')) and bool(i.get('setorial')),
+                              bool(i.get('setorial')), bool(i.get('regional')),
+                              i.get('published_at') or i.get('first_seen') or ''), reverse=True)
+    # Os contadores descrevem o acervo guardado, não a última coleta.
+    pacote.update(
+        itens=todas[:recent], meses=indice,
+        total=len(todas),
+        regionais=sum(m['regionais'] for m in indice),
+        setoriais=sum(m['setoriais'] for m in indice),
+        regionais_setoriais=sum(m['regionais_setoriais'] for m in indice),
+        substancias=dict(sorted(
+            ((s, sum(1 for i in todas if s in (i.get('substancias') or [])))
+             for s in {s for i in todas for s in (i.get('substancias') or [])}),
+            key=lambda par: -par[1])))
+    pacote['janela'] = desde
+    write_json(destino / 'latest.json', pacote)
+    return pacote
 
 
 def offline_fetcher(directory):
@@ -553,10 +656,10 @@ def main(argv=None):
     parser.add_argument('--db', default='/var/lib/minera-goias-radar/radar.sqlite')
     parser.add_argument('--config', default=str(Path(__file__).with_name('feeds.json')))
     parser.add_argument('--report', help='write the run report as JSON to this path')
-    parser.add_argument('--export', metavar='PATH',
-                        help='write the packet the site reads (data/noticias/latest.json)')
+    parser.add_argument('--export-dir', metavar='DIR',
+                        help='write the archive the site reads (public/data/noticias)')
     parser.add_argument('--export-limit', type=int, default=180,
-                        help='how many stories go into --export (default 180)')
+                        help='how many stories the opening packet carries (default 180)')
     parser.add_argument('--offline-dir', help='read feeds from .xml fixtures instead of the network')
     parser.add_argument('--check', action='store_true',
                         help='only test whether each feed answers, without storing anything')
@@ -591,9 +694,11 @@ def main(argv=None):
     if direction_enabled(config):
         campos.insert(-1, 'signals')
     print(json.dumps({k: report[k] for k in campos}, ensure_ascii=False))
-    if args.export:
-        pacote = export_json(args.db, args.export, args.export_limit)
-        print(f"  exportado para {args.export}: {len(pacote['itens'])} materias, "
+    if args.export_dir:
+        pacote = export_archive(args.db, args.export_dir, args.export_limit)
+        novas = sum(m['novas'] for m in pacote['meses'])
+        print(f"  acervo em {args.export_dir}: {pacote['total']} materias em "
+              f"{len(pacote['meses'])} meses, {novas} novas nesta coleta, "
               f"{pacote['regionais_setoriais']} de Goias e do setor")
     for trend in report['trends']:
         if trend['verdict'] in ('pressao_de_alta', 'pressao_de_baixa'):

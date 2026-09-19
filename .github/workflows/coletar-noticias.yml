@@ -1,10 +1,14 @@
 name: Coletar notícias do setor
 
 # Como a coleta chega ao site sem ninguém tocar na VPS:
-#   1. este job roda o radar e grava data/noticias/latest.json
+#   1. este job roda o radar e grava public/data/noticias/
 #   2. o commit vai para a main
 #   3. a VPS baixa o commit em até 2 minutos e a API lê o arquivo
 # É o mesmo caminho que data/atlas/processes.json já percorre.
+#
+# O acervo são os arquivos commitados, não o banco: cada coleta funde o que achou
+# com o que já está lá. Feed RSS é janela rolante, e matéria que saiu dele não pode
+# ser recoletada - por isso nada é sobrescrito. O cache abaixo só acelera.
 
 on:
   schedule:
@@ -13,7 +17,7 @@ on:
   workflow_dispatch:
     inputs:
       zerar_banco:
-        description: 'Recomeçar o acervo do zero, ignorando o cache'
+        description: 'Ignorar o cache do banco (o acervo commitado é preservado de todo jeito)'
         type: boolean
         default: false
 
@@ -37,10 +41,10 @@ jobs:
         with:
           python-version: '3.10'
 
-      # O acervo é cumulativo: matéria já vista não entra de novo. O cache carrega
-      # o banco de um dia para o outro. Se ele sumir, a coleta recomeça do zero e
-      # o site continua funcionando - só perde o histórico anterior.
-      - name: Recuperar o acervo da última coleta
+      # O cache guarda o banco de um dia para o outro, o que evita reprocessar. Se
+      # ele sumir, nada se perde: o acervo está nos arquivos commitados e a coleta
+      # seguinte funde com eles.
+      - name: Recuperar o banco da última coleta (só otimização)
         if: ${{ !inputs.zerar_banco }}
         uses: actions/cache/restore@v4
         with:
@@ -59,7 +63,7 @@ jobs:
             --config "Squad 3/radar-noticias/feeds.json" \
             --db acervo/radar.sqlite \
             --report acervo/relatorio.json \
-            --export data/noticias/latest.json
+            --export-dir public/data/noticias
           codigo=$?
           set -e
           if [ "$codigo" -gt 1 ]; then
@@ -75,9 +79,9 @@ jobs:
         run: |
           python - <<'PY'
           import json, pathlib, sys
-          p = json.loads(pathlib.Path('data/noticias/latest.json').read_text(encoding='utf-8'))
+          p = json.loads(pathlib.Path('public/data/noticias/latest.json').read_text(encoding='utf-8'))
           itens = p.get('itens') or []
-          print(f"{len(itens)} matérias no arquivo, {p.get('total')} no acervo, "
+          print(f"{len(itens)} matérias na abertura, {p.get('total')} no acervo, "
                 f"{p.get('regionais_setoriais')} de Goiás e do setor, "
                 f"{p.get('fontes_vivas')}/{p.get('fontes')} fontes vivas")
           if not itens:
@@ -94,17 +98,18 @@ jobs:
 
       - name: Publicar na main
         run: |
-          if git diff --quiet -- data/noticias/latest.json; then
+          if git diff --quiet -- public/data/noticias; then
             echo 'Nada mudou desde a última coleta.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/noticias/latest.json
+          git add public/data/noticias
           git commit -m 'chore(noticias): coleta de '"$(date -u +%d/%m/%Y)"'
 
-          Gerado por .github/workflows/coletar-noticias.yml. A VPS lê este arquivo
-          pela API; ninguém precisa entrar no servidor.'
+          Gerado por .github/workflows/coletar-noticias.yml. O acervo fica nos
+          arquivos de mês e nunca é sobrescrito: cada coleta funde o que achou com
+          o que já estava lá. A VPS lê pela API; ninguém entra no servidor.'
           # Outra pessoa pode ter empurrado enquanto a coleta rodava.
           git pull --rebase origin main
           git push origin HEAD:main

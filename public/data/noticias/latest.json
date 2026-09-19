@@ -2562,7 +2562,114 @@
   "cobre": 43,
   "uranio": 25,
   "niobio": 15,
-  "fosfato": 8,
-  "gas_natural": 8
- }
+  "gas_natural": 8,
+  "fosfato": 8
+ },
+ "meses": [
+  {
+   "mes": "2026-09",
+   "materias": 1150,
+   "novas": 0,
+   "regionais": 172,
+   "setoriais": 397,
+   "regionais_setoriais": 14
+  },
+  {
+   "mes": "2026-08",
+   "materias": 301,
+   "novas": 0,
+   "regionais": 39,
+   "setoriais": 168,
+   "regionais_setoriais": 23
+  },
+  {
+   "mes": "2026-07",
+   "materias": 148,
+   "novas": 0,
+   "regionais": 27,
+   "setoriais": 74,
+   "regionais_setoriais": 13
+  },
+  {
+   "mes": "2026-06",
+   "materias": 90,
+   "novas": 0,
+   "regionais": 25,
+   "setoriais": 48,
+   "regionais_setoriais": 12
+  },
+  {
+   "mes": "2026-05",
+   "materias": 112,
+   "novas": 0,
+   "regionais": 41,
+   "setoriais": 58,
+   "regionais_setoriais": 23
+  },
+  {
+   "mes": "2026-04",
+   "materias": 101,
+   "novas": 0,
+   "regionais": 47,
+   "setoriais": 61,
+   "regionais_setoriais": 35
+  },
+  {
+   "mes": "2026-03",
+   "materias": 43,
+   "novas": 0,
+   "regionais": 12,
+   "setoriais": 20,
+   "regionais_setoriais": 1
+  },
+  {
+   "mes": "2026-02",
+   "materias": 30,
+   "novas": 0,
+   "regionais": 6,
+   "setoriais": 17,
+   "regionais_setoriais": 0
+  },
+  {
+   "mes": "2026-01",
+   "materias": 27,
+   "novas": 0,
+   "regionais": 4,
+   "setoriais": 19,
+   "regionais_setoriais": 1
+  },
+  {
+   "mes": "2025-12",
+   "materias": 22,
+   "novas": 0,
+   "regionais": 0,
+   "setoriais": 10,
+   "regionais_setoriais": 0
+  },
+  {
+   "mes": "2025-11",
+   "materias": 17,
+   "novas": 0,
+   "regionais": 6,
+   "setoriais": 7,
+   "regionais_setoriais": 2
+  },
+  {
+   "mes": "2025-10",
+   "materias": 28,
+   "novas": 0,
+   "regionais": 8,
+   "setoriais": 11,
+   "regionais_setoriais": 1
+  },
+  {
+   "mes": "anteriores",
+   "materias": 493,
+   "novas": 0,
+   "regionais": 100,
+   "setoriais": 202,
+   "regionais_setoriais": 49
+  }
+ ],
+ "janela": "2025-10"
 }

@@ -148,21 +148,42 @@ Só biblioteca padrão do Python — nenhuma dependência para instalar.
 **Sem ninguém entrar na VPS.** O caminho é o mesmo que `data/atlas/processes.json` já percorre:
 
 ```
-GitHub Actions roda o radar  →  commita data/noticias/latest.json na main
-      →  a VPS baixa o commit em até 2 min  →  a API lê o arquivo  →  aba Radar
+GitHub Actions roda o radar  →  commita public/data/noticias/  →  a VPS baixa
+o commit em até 2 min  →  a API lê  →  aba Radar do painel
 ```
 
-Três peças, e nenhuma precisa de acesso ao servidor:
+### O acervo são os arquivos, não o banco
 
-1. **`radar.py --export data/noticias/latest.json`** monta o pacote no formato que a API já serve em `/api/radar`, na chave `noticias`.
-2. **`.github/workflows/coletar-noticias.yml`** roda a coleta todo dia às 04:00 UTC (01:00 em Brasília) e commita o arquivo. Dá para disparar à mão pela aba Actions, e há a opção de recomeçar o acervo do zero.
-3. **`Squad 3/backend/radar_api.py`** lê esse arquivo quando ele existe. Quando não existe, ou está ilegível, cai no comportamento antigo — o coletor instalado na própria máquina — e a aba mostra "coletor não instalado" em vez de quebrar.
+Feed RSS é janela rolante: a matéria que sai dele **não pode ser recoletada**. Por isso nada é sobrescrito — cada execução lê os arquivos já commitados, funde o que coletou pelo link e grava de volta. O banco SQLite é só aceleração; se o cache do Actions sumir, o acervo sobrevive e a coleta seguinte soma a ele.
 
-O acervo é cumulativo: matéria já vista não entra de novo. O banco viaja entre execuções pelo cache do Actions. Se o cache sumir, a coleta recomeça do zero e o site continua funcionando — só perde o histórico.
+Isso foi testado: exportando com um banco vazio, as 2.562 matérias continuaram lá.
 
-**Por que não é instalação na VPS.** O módulo antigo grava SQLite em `/var/lib/`, que não vem do Git, e por isso exigia instalação manual como root. Arquivo no repositório não exige: o deploy carrega o commit inteiro. Era o mecanismo errado para este projeto.
+### Como os arquivos são organizados
 
-O `--db` continua existindo para rodar na mão, e o padrão é `/var/lib/minera-goias-radar/`, separado do módulo antigo.
+```
+public/data/noticias/
+  latest.json              o que a API serve na abertura: 180 matérias + índice
+  meses/2026-09.json       um arquivo por mês
+  meses/2026-08.json
+  …
+  meses/anteriores.json    tudo mais antigo que a janela, num arquivo só
+```
+
+**A janela é rolante: doze meses individuais, o resto consolidado.** Sem isso o acervo virava 113 arquivos, a maioria com menos de um kilobyte, porque os feeds carregam material de décadas atrás. Com a janela, a pasta nunca passa de treze arquivos, por mais tempo que o radar rode — e quando a janela anda, o mês que saiu dela se funde em `anteriores` sozinho, sem migração manual.
+
+Os arquivos ficam em `public/` porque é o único diretório servido pelo Nginx: o navegador busca `/data/noticias/meses/2026-04.json` direto quando alguém escolhe um mês antigo na tela.
+
+### A abertura não é por data
+
+Os arquivos de mês ficam em ordem cronológica, mas o pacote de abertura não. O painel é de mineração, e por data pura ele encheria de concurso público e futebol do dia — medido: das 180 matérias mais recentes, **6** eram do setor. A abertura ordena por Goiás + setor primeiro.
+
+### As três peças
+
+1. **`radar.py --export-dir public/data/noticias`** monta o acervo e o pacote de abertura, no formato que a API já serve em `/api/radar`.
+2. **`.github/workflows/coletar-noticias.yml`** roda a coleta todo dia às 04:00 UTC (01:00 em Brasília) e commita. Dá para disparar à mão pela aba Actions.
+3. **`Squad 3/backend/radar_api.py`** lê `latest.json` quando ele existe. Quando não existe, ou está ilegível, cai no comportamento antigo e a aba mostra "coletor não instalado" em vez de quebrar.
+
+O `--db` continua existindo para rodar na mão, com padrão em `/var/lib/minera-goias-radar/`.
 
 ## Limites conhecidos
 

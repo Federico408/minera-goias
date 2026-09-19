@@ -1,0 +1,413 @@
+{
+ "mes": "2026-02",
+ "materias": 30,
+ "itens": [
+  {
+   "title": "Outlook CUIDADO: E-mail externo. Não clique em links ou abra anexos, a menos que reconheça o remetente e saiba que o conteúdo - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQV0dBM2JuZ1pmQ3pVaDNBOWxmY3c2dUtCcUdqVHhzRmFCVmdfUDA5N01aeC1JWURaNXNra1V5Q3RrZG1qOXBKT1o5aDNPelQyMWhHaXVyOTFwSWtJVlRQYUF0MUllOU42UHdZMnZxcUlaeGQxYktGX19zOTNyaHRsREZySVF0NFE4VmdMV2k4VXhvcks3X2Y5Ukc0VGVJYmFxZHBQa0VxMW5wUEhEZEYyUG91c0JjeEROSEVSYmxINVJCdjZjbXFyaGJIcnNQeGo4YXBjbUYxeTM1SXJDbnFFQmlZY3hmYUlZRElJYXo2VEVncEFkSzdQUUNqOVNzOEE4blJsUkVrTmpYLUVtc1liaVlWTzhwLVBhTWR5MU82eVdPUQ?oc=5",
+   "published_at": "2026-02-28T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:52.257715+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Goiás terá baixas para o duelo diante da Anapolina que vale vaga na final do Goianão - Esporte Goiano",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTUNpM1RCYTVaOUd4c2VjaDk1dXY4dTJ6TXMxVG5NYjRoQUk0YlJ3a3FKMEl1OWZQeWlVbXZiaE0yTGlKS0ZPSDZ1VE9CTl9tR1NLR0cyNDhka3QxSVNhSXVMZ0w4bXE5VGRESUZKZDRwank1Ty01Qy0tNkNUa3JyYmVVQlRNX0J6SmtlMmNxSlRIR0FqcmlHc053?oc=5",
+   "published_at": "2026-02-27T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:46.934371+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 0,
+   "fonte": "Busca · mineradoras em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Contas de luz seguem com bandeira tarifária verde em março - Agencia Brasil",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMk5DTHlobXVKaURVZkRSeVBjZ0Izb0x2RjVVb3pBZ1pTTXg2VHJoNkNXMS04MXNTdTVucTBBTUdrQWhaQWJXOGJBdVVsNG42bTJqa1BFVWRDbXdIR1ZwQ01naV93N3pOOWVhODNWS2RpaWtNTGlnMkctUjdhYzNlLVdtQi1TQS11OHJ2SFpmNlAzc09GaktDZGNQRzdLSkE5S3NLRDExY3VBWXl2VXk2YUpWTUU5dzQ?oc=5",
+   "published_at": "2026-02-27T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:55.284255+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · preço da energia elétrica",
+   "escopo": "nacional",
+   "tema": "energia",
+   "substancias": [
+    "energia_eletrica"
+   ]
+  },
+  {
+   "title": "Agência distribui mais de R$ 108 milhões em royalties da mineração a municípios afetados e limítrofes - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQ2MyNU9BWkYzTWRsaEtkSThvRVVUVzFHZEFsQ0RtT2NRbndfcnRwbmJFdVozU21jOVFSNjR3NGpQQmxjRHVrVkNVY1p4SVZZWFozVWUwSWZGMmVabElNc3o0c2Rxblp0cDc0N2gwaC1NZDB1cXpGNjRPS2dNOFJDel9xUG1udnVrU2JLajlBM2czR2ctYW9UanJ1RnpjNlNFcXBhdE92RS1BeG5lRTk2bjlPWEN3WVFKc1J1Qzc5ZkhkcE0yX2JheThaeW1UUzFRSWJ3WlRLTGhEcXpWajR6eg?oc=5",
+   "published_at": "2026-02-26T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:50.591578+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "ANM averba penhora sobre concessão de lavra da Cooperativa de Mineração dos Garimpeiros de Serra Pelada - ZÉ DUDU",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNM00wLTA3OEtUQVVEZzNIc0RZTGxCTTBQek51bWJRVlZ2a0tHLXh1QVBrbC1jYTBRY2FPWVhiSTJieXJnbDBFbmFqTkEtSFBkQUVIbzZOLVR1UFRxelVTLTdYWmNSM1RfNWZzUnp5bUU5OFlhY0ZGZl84djFIcmlOaHFNMTFpVk9KcWQ5VW82eVZHRHNGQl9MLVp5U3FvakZ2M0pwSnhRX0hJRVp0Q2ZaaXZsSjZROXZ5dnVCamd1dW91T0lpM3MwWHBn?oc=5",
+   "published_at": "2026-02-25T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:51.188860+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Engie eyes bitcoin mine and storage system at huge new Brazil solar plant - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbEF6T3FzaW55NUtxaVFSUUt4NjFHMzBoWWd1dEtGRzFNQ0ZRRTc5MzJoUGo5dVJwTjhXUTAyeEdrcXZGM25rU1RxXzdGRzNjUXBPc2Izck9FcVg3SVlJT1NoVC1OZjJzR3B5azkzYldTSXNXQ0JvYXdia1U3bVh0OWFRcGlXOGRtTGFUa1hvTndGRjdMY0dLT0RYaEhMM3ZEX2xkNGJoenpRbkZINlNGNEZ0ajZfZmxEUzFCSldiUHA1aXB4NWJIRWZ1MUI?oc=5",
+   "published_at": "2026-02-23T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:54.381610+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Conta de luz vai disparar em 2026, com clima seco e aumento de subsídios; entenda - O GLOBO",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZnNwVVZ0WkJhQkhyVXphRXJUMk9GVzE4YzRINjhpelU5VU1PNWc4UFBKS1NSUUZzVzlQSGZQWEFUYVBibGpBRk5hSVFISUs2SUN0aUY0dF9xYXlna1FMMFUxUmxTdV9PSXByUkRCRk83YXpIUGZ2ZkxQYXRiYlBhanBrNGlmc3g1VEFUNXlmTG1nWjF0cmNJekw2a3BZSDZKNWFOY05jZV9jaHhISGN1LWQyNVVGV01EVThMajZSX181RTRPWTVYZzBweFIzekprSFFjU9IB4wFBVV95cUxQYk1DeHcxNlJVU1Rpd2RLRUY3cEEtU3JSb2p0V2FzQ0p6OXlOdldpOFNqd282TkRKZjVBSVdpQmQtVHhWOU9hZWU0cGU5VVItWTlVMDc1b1ZQMEUwR1pzX2F5cmgxZGtudWRLQnpSZUtGXzBxdFUwOW92blhPeUhTYXFKUXloRDZYb0Q0S2ktN2NfbEx0WFV5OS0tTjU2QjRzZzVtdF9lUTB6aVlXTWRwMVBaVEVzM05ZLVNMd1AwQTFIMlo2YWtFMnVNaGtSa3IxY2V0SXM1d3pSYXJicU03Z0hPcw?oc=5",
+   "published_at": "2026-02-23T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:55.289724+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · preço da energia elétrica",
+   "escopo": "nacional",
+   "tema": "energia",
+   "substancias": [
+    "energia_eletrica"
+   ]
+  },
+  {
+   "title": "India, Brazil sign mining pact as Modi targets $20 billion trade in five years - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSHp0eFBJVy1JYUJSWmlkejNXZ3Q1VXNWUXhIbFdxd3doRE9ORWpTbnRNWmVkWlM3OFJEUXpfeVR0bmVhQmM0LXZrdWl5Rk9oTjJPeU5CZzU2dzdmOUxLVkczRXdOVUs3eXlTclhhVjhFTTRJNFhiRlNkQ3ZWWnJfUHlhMUN6aFo5dkxOUVQyTTBRakE0dzdTVUUyeFRxS1F2NS03bURRR3REbkpLSmtTdEc4NTNMbUludldEQTlB?oc=5",
+   "published_at": "2026-02-22T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:54.379610+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Alerta: mensagens que simulam cobranças a regulados são tentativa de golpe — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdXRTRFBUOUpHNkhZSzh0eE1IN0VLWUdTV3JXV0VOX3ZrRC1adWdnOWJfeEhTb2dRc3BJc1VoTDM4MzdHNTRjYXdSTXZfbUNjWWpVVkNnU09DaHRUdEJVbTBhbDNVZW1Tbkkyd01yd2xQUXlieE83OGU2aFFPal9Kc2V5NDFDZk5wS2hWd2ZxLXFmV3J5OTc2TzZvUEJQbHZjRmhtOEJRNFFIVVE4U1NKRG1TWWw1a0RTbUVhTw?oc=5",
+   "published_at": "2026-02-20T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:52.268715+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Royalties da mineração injetam mais de R$ 546 milhões em estados e municípios produtores - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONzY2NmlOQXBJUlkwdHFnaVpBZ1FFdndHS3dpdlR2WGxkcmxXSkRBMjVzNUZUdmpoQ3lURGZvVk5uWWtBLS1UVXFhN2UzVWRaUkY0bkFMRVNtMlF5VGs3YUc2bFl4NFRlNExlZG1fdWF4YVoxM3hMdElBbUc1WEd3aDVPeFFPTzVQRGtncDRoTmxPVVc0Y1hpb1FsWjU3RTcySC1EdlpFMHg5a3Y1NFZDbUhaSlE2MnNJdlQwLTF4X0taSjUzTVFyTWJ1R2c5ZEU?oc=5",
+   "published_at": "2026-02-13T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:50.597630+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "CAPACITAÇÃO | Anglo American lança programa para trabalhadores de Barro Alto - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSFFqUnA5MFFNMGUtWHQ1Z3MyN3JFNnhhNEFHb0NiWjAxZHVBa0VnTG9ZSVBFOTltell0UXR1akJPNGRETU1lM2IxOVFvd3N3STkxMHFfSDZVTGR0VVotRldmcTJ3YU1GNEd4MzZhT0owUWlDY1lucmg4S0Y5S29tV3pfWGs1amdBNU1sR29BV2N6SmFuejJuejBCUUdpSlhObmc?oc=5",
+   "published_at": "2026-02-13T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:46.898372+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · mineradoras em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "LÍTIO | Lithium Ionic indica avanços na engenharia do projeto Bandeira - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMjJlb1Qyd1VxZWVoOXpkQmU5a2tXa3I2eGFjNkhhNEJDaG43VDZHNzVLNllycF81RGlqNlhWMFRZb2tyaElXSzV3TnVKemVPcDNLTGJzcUJuNEN6cmFyd2RJM0tCeFI0cEFjTXVkSjlrMHpLektFdF9GQnV4aWx4WTIzWjZlY3RVTGVsaDVaMkV5VTBQTFZBajlnN19SR0JfUVE?oc=5",
+   "published_at": "2026-02-12T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:49.433046+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "LÍTIO | Indiana Altmin aporta US$ 40 milhões para ampliação da CBL - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR3ZpcHlKdGVtbENOSEU1RzlNOXRBd0NOU1J2MzJHaHNWWHE1U0VpVWNWWngzVU9ycV9FR0M0NEVZcVFtUnUwdjg4Sy10aUpXZ19ZNnFmUWxQb0w2cFRhUFlieVlpcGt3akFGdGRzdlVDM25QZWJOcW1ZZmNMaERrZjkxdW82M0NZQVR1blg4TExQbFNIUENCUkQwbw?oc=5",
+   "published_at": "2026-02-12T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:49.440044+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Vale-Creche em Aparecida de Goiânia: veja como conseguir benefício - folhaz.com.br",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUDd6bHBsYnlsRUFFOGhENWhjV19JZ1lnVGg2bW1lMk5lTmZJNS0xSmI5TGpZM2pSeWlYOVlHb3VuV0FHUWdjbWFDTWJkRVhuLVA3OXV0OHR4X3hhYUcwUW5yanV3Tk01c3F4aEt3bEdCUzEzX1Y3SUdwNVVZQmlIMzZVN2JHQmVSZVE?oc=5",
+   "published_at": "2026-02-12T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:46.941431+00:00",
+   "regional": 1,
+   "regiao_termo": "goiania",
+   "setorial": 0,
+   "fonte": "Busca · mineradoras em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "ANM, AGU e obras públicas: quando falta de registro de extração não gera indenização - jota.info",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLTlWbk55NFowVDhxNzV5cVBJQVl3ZVlIQjVpMWJXY21KWFVySVNWd0JqamtuR3dDQk1WRV83Vk1qa3UwR2UzMjY5WFVKQVgzOTJLOEhha19kbWZvMnJ4WllBcVVNWHpva0hEYnFDcFpucXIyckt6aUZsMElFZHItTjhJSy1oUzY5RDFJZXZIRDZpZkdRYU5BYm93VkRfdURqSDhGZUo4UzloUHZ1aEh4dU1tLTMwOFdHUl9EVGJjcmJ2SkNrbGEtNWdn?oc=5",
+   "published_at": "2026-02-11T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:51.185390+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Anglo American lança programa de capacitação profissional em Goiás - brasil.angloamerican.com",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByYW1JN3k0bjE2UThTMWdqRG9GUE12blhMNTJocUNnSG1hRXpEcmRoZ0I3anVLeUNVelVfeF82dUF0NXlzbDdWR181c1pqY3FrdzF5MEZyMTNOV2FMS1pGT2tCcm9iZ0ttRzRmd1I5dXROVkNYeWNVUWhCNDI?oc=5",
+   "published_at": "2026-02-11T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:46.876376+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 0,
+   "fonte": "Busca · mineradoras em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Webinar RAL 2026: ANM tira dúvidas sobre a Campanha do RAL 2026 — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZ2VMbHlQZmJFYlBpaEhCcnVHYWJrc0FiUzZxd1JWRFBhMEE1SHNjZkNOaTlYQ3dQcjQzMXp2YlkteXp3Q0F1RmF3XzR6c0RndHFzcEVNb1lxRWh4RjNnV1BnUkZMWnV1bG1MV25Qa0Z2YzM5aTI0bjNmYWhlenFvVzRpMTVFOGhDOGdaQ2VHMmdvY3lob3c?oc=5",
+   "published_at": "2026-02-10T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:51.194868+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Preço da energia sobe e desafia operação do sistema elétrico - Valor Econômico",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbFNPRC1ldnkzUHFEcHRkTkdXc2lUQmF0MzRjME5GdVowdW5Lay1KX2tZaXFKS3BwTmdIWEVMQXAtQkxVOVlVdjVUUmROZDVad0pYVDRCTWlmc0FDSjY0ZlIyQlpzOUczcUlUN0pVek93eDFHbjBxQl90V3AtUG1meHJibTd0eWV3LWFkUzRBVlhkQ3NnRVdqVHhhNWQtZmpjM3E4akZGOEhuRTdndEIzVmF4NmlSSlXSAcYBQVVfeXFMTVFzYkpXdVN4NW01UThtSXVfQnlQY19nRFZYRUFqMWlnMnJWU0JSU09FWndtS1RGOC1YcXFyZ2Q4eU5XeVo3UGJCWTlEWUtrUElGU2VYaGstb1JxUVJyWnVPLWc5OXBPVTBKZUNTS0tkOW9YaTBTNlVBNnd3T3dOcTlJUkNJblJUa3dvendQdjh0U3FIMjRFbDBIQ1pwUXlFdkVlRk0tZnpGS1ZfV1FhSVU2N3ZhVV9DRmNTUms5MzdsRzFfVEdB?oc=5",
+   "published_at": "2026-02-10T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:55.322464+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · preço da energia elétrica",
+   "escopo": "nacional",
+   "tema": "energia",
+   "substancias": []
+  },
+  {
+   "title": "India in talks over critical minerals deals with Brazil, Canada, France, Netherlands, sources say - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObXpjaWJPdGM3TnB5UEFHUHlsdnU4M2JzdzlTeC1zazRlSzh1ckphaUZmcWluWlphdmtOanN4ZElzLU9ienVLa05iWnBzVkM2VVBRQ3hUeklMWG5TVlhPRHBPRmlHZFFFX3B6Q05xNjVKZjl5THJpcGhlb1dhUDhKdzRJR0k1WTFRV18xa0ZIS2U1RVVPZU40WTZwSEV2MVBtWlQxbVZXNjU3eUR5czN0d2cyQVNRUFdzRnBZakt3WEtJYWhF?oc=5",
+   "published_at": "2026-02-09T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:54.373612+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Carnaval é feriado ou dia normal de trabalho? Veja o que realmente vale no Brasil e em Goiás - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ1ctSUFIdkFxWlBMbVVGVDBlR0ktdVphcVZVWE1UTFJVa21HaXZGYjc3T3lXTlBHWXdFZmVzTWQ4RDBvNS1FSVFiN1d5TDRQT0p5dFNxanFOb1lfdGN1MW4ySFlKVWtiOUJIRE1KTjdkNVpvSjZodFdfX1RFNFJfWU53M0tnV1pBX0l1Z0QzVWpJY1R1blVZSUxMODUtaGhrclE1WjdLWE40NWdpY3NlUUJoNlNiU3RESFUzTW8zOGlZNjRaUDFQRTExUnlEQy05d2c?oc=5",
+   "published_at": "2026-02-09T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:46.951441+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 0,
+   "fonte": "Busca · mineradoras em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Produção de substâncias metálicas soma R$ 220,5 bilhões e mantém Brasil entre os grandes exportadores globais - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOOEYwZ2FHTjUzYjh3MENXbHYtNkVFTVNVclhIVDJfZUVldTNxYTN6U3NaRHUwamlpR050dzlPd3oyMHNlanFpXy14U2o4bEFfTjN2b1RJM2MwbnZUVjlmUU5JZmJoclljdjY4YWpsMWJHdm9OcTFLcW5hZXdtbmRicUdVdDNpbkFtdFZWZ1hGV0RneVdLSVlNdjNsQVhBaDhhZFBqc0ZLVWRhTlJ5WGlldXpGZ1l0bkRMTFU2ZWc3VkVHTDFwRTN3TVRaZ2ZoOF93UF9HdE1BS0JwQmFqTGRjVy1vMWN0MnplUDRF?oc=5",
+   "published_at": "2026-02-09T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:52.235348+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "ANGLO AMERICAN | Resultados positivos em minério de ferro e níquel no Brasil - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMzJSYmwzeEtVVmFYTXkzODM0Y3JhRGxWeHJXSDR0YWJlXzRyb0FZajhKaTlWRjFDQ1Foa2ptV2ZMZXZROWpKckxPMjZoUXRvVTZFZm5ZLUQ1dkNRRWRZMGFfR1RURVZzR19aSzV3LW1wdWw0QlNGUkMwb05teEttb0MySTJjZ3NvN1lkTWN5UmFxa3FOSzhzOGtwUkZ2UQ?oc=5",
+   "published_at": "2026-02-06T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.653748+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "Ministério de Minas e Energia - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRlduMmNsbk1CRm5jVnM2c1hGVzlOemRiUl8wQ09LanpjTHlCUVd4bm03Umh1bnMtWFFpVU9jMkFhdm5nUmNPakRqbHFWVXpDTzB1eVdWUUJHcnFkNWh4ZlJoNnJZN1RyUldYZlEtY3d2NWlsZWxOVFdXRG1md1dGLUdRYjhfcHVJTTJ6OTh5WkZyYkxKMVgydzk0RnRKcVVBbjJvd3RTWQ?oc=5",
+   "published_at": "2026-02-05T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:56.733181+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · MME (site oficial)",
+   "escopo": "setorial",
+   "tema": "energia",
+   "substancias": []
+  },
+  {
+   "title": "Manuais e Procedimentos — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12ckZwMUhDeUxzeC1vdF9XQ283SFZWT1U0WHJ2cEtCeFFSMW1oS1M5clkzRzg4RXk4a2c3YVZ2d1Awb3hlV3FldlNmeWpRNXZXMkVHaUxnSmNaSU5pZ3Fma1l1YklWMS1yMWRneTljMGpkcWVMRGxPSlItNnNrOTg?oc=5",
+   "published_at": "2026-02-04T20:13:29+00:00",
+   "first_seen": "2026-09-19T18:32:52.255607+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Biblioteca — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fU01Ic19BQkthem0wOFJUTTFndV9BcjZyUTNmRW1WQzgxcVVLRmc4OXZrMHRlbjhMT1l6cTlIanFha29xTWU4aUY3VlVkRXZ5M1pHX2Y1ZFRnMjlxVnZEbjZTYzF0dE84Y3ZSb0RB?oc=5",
+   "published_at": "2026-02-04T20:13:27+00:00",
+   "first_seen": "2026-09-19T18:32:52.245606+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Bolsa Estudo Goiás: saldo dos cartões vale até 31 de março - Portal PaNoRaMa",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaTlWei1ickJpWnUxSlBFOEE2WnVyV3lkc0F3ZGFsZnBpNVA5M2tqdjhBWThEWk51R3h4TFNwdVZFS2lWNFpnWlQydHBQUmhOVlFxSVQ3bjRqWWYzMXFEM3ZyZmFvNUEwRm9CVUxQS19KZkVzTmtxcjFncVBSZlhORy0xQQ?oc=5",
+   "published_at": "2026-02-03T10:22:06+00:00",
+   "first_seen": "2026-09-19T18:32:46.939432+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 0,
+   "fonte": "Busca · mineradoras em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Reserva de minerais de Trump pode incluir lítio e terras raras do Brasil - CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLUFYVmJZcDFuUkhxeXp6LXg2aFkxcUQxQklGaFpXOVlTMk5ZMjdQUi1yUy1PWWI4NHBjd1hIanVZRGNyaEZrN0YxTDVMdWxzazNERTYzcnV6eVZ4Qnl2OW9vOTBSYklwVnM0OHZ5RFhHVjN6OHFBVDNsYy05XzBMaVFGRlJMbk9FMVlKMmFLdEJOTXl1aXRfLVFSeUFTWTA0RjE5OEFXTWRjNXVYWHdOb3dNSHgtN1NrTjg5QXp6cTRYZWRoZ20yZEU1TzFnNkk?oc=5",
+   "published_at": "2026-02-03T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:49.360641+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio",
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Pilhas da Sigma Lithium não oferecem ‘risco iminente’, diz Agência Nacional de Mineração - Valor Econômico",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMm1CWkhmOVNfQmlLVERTSGI4UmdoZ3JjRzYwTU1ZdWlrMWpObi05N3FIc0ZiWjVON3luYXdrS2JtLVFUWmxxZ3ZUVlJGVmNLMFRaQnRuZnQ2NmpUem5oclNVZndaRFBKbHY5VlByZUVlbnFMNmtqNTVqeTZITVhHdnRFbTVzTTd6d2NiLWJ2YlBrNWtNWGtXcTAxb1FnRVlvWS1vclZ0UTBXS0pLMFVXRmYyREJWVXJ4Rkk2OWhvVWxsdWVDZXJXZ1kxajN1aVd3RzN1c29PcXFzVEnSAeoBQVVfeXFMT2l1TDNRYzAxeXpUTnROamVqWm00SmZuNksyYkM4c19JRFpqa3ptR0I3T05JUXltOXpKRl9HNkU2c29mT2ZRSVh4QUY2M25NVUtpTUh5OVh1Sl9JX0g5TW9jRFRpSEpaQlA4WjB3ZkxOWDBBVmxVNGdsRXRmRUh4cFNxZGVwaTlLbm40VTg3a29XZ0Q3OV9oM25YczZjeUJkNzh5S1MtMUFLM2tueHJBQ2xOMkJfbElaczRObDI2SzhqbnhhSUpmTkJYVmpNMnJyRlYyblgxY2lpUGs2RXcyYVhmWGt1eGNRRUR3?oc=5",
+   "published_at": "2026-02-03T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:49.439043+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Sigma Lithium's waste piles offer no 'imminent risk,' Brazil mining regulator says. - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWGFYelN3UjFUbXFZZ1hydjZCNU10TWx1UXFJNTJROE1SSEwwWmtEemozTkkybVFKcWM3UTF1bnV1OHdjMUM4YWZ2cFpGMGItYXI2akYtdVVoNXRyTkFoTTFPOFNTX3RGMWI3bFhNM0lmQUlnUmdHRzJvdHViZU9TRkhGUmJ1OXg0TkxCRktlQnlvbzB6S2dCRHBUdkJBcFNqLUE3VkhtV3J2MmRFa0laWWZyOXhOaGROYjQzVml3MC05Zw?oc=5",
+   "published_at": "2026-02-03T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:54.402609+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Goiás x Vila Nova: prováveis escalações e tudo sobre o clássico que vale a liderança do Goianão - Mais Goiás",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaDhiZmp5MjRsaTJwOG8zUDlMS2o1TnBUSDY1VVBObUk0UUVlZG9GSzNBTzM4ajV1clNwLTJpT0FwdUtMQXNHRjRJRVNkQkxZbDV3eEtFSmtZTkVRX0pTYnNaTV8tNTJFSkFYVkJYZGJKWHJqd1M2NF8tZjVrcElkcno2VUFjczkzU0ZtSkd2aWd6NFlGY1A0OUJGYzZ1amdtZXhqSEtvcFdtNzJFWEZXRzl2amRjSGxoMTNJN3RSd2xiQ2lUWDV2ZzlNR0hKQQ?oc=5",
+   "published_at": "2026-02-01T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:46.942431+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 0,
+   "fonte": "Busca · mineradoras em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  }
+ ]
+}

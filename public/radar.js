@@ -104,8 +104,36 @@ function wireExplorer(){
   if(tab)tab.click();
   if(window.atlasShowProcess)window.atlasShowProcess(selected.id)}}
 
-/* As matérias ficam aqui para os filtros trabalharem sem nova chamada à API. */
-let NEWS=[];
+/* As matérias ficam aqui para os filtros trabalharem sem nova chamada à API. A
+   abertura traz as mais recentes; os meses anteriores são buscados quando pedidos,
+   um arquivo por vez, em /data/noticias/meses/. */
+let NEWS=[],JANELA='',CARREGADOS=new Set();
+const ANTERIORES='anteriores';
+
+const mesDe=i=>{const s=(i.published_at||i.first_seen||'').slice(0,7);
+ return /^\d{4}-\d{2}$/.test(s)&&s>=JANELA?s:ANTERIORES};
+
+const mesNome=m=>m===ANTERIORES?t('rd.anteriores')
+ :new Date(m+'-02T00:00:00Z').toLocaleDateString(I18N.locale(),
+   {month:'long',year:'numeric',timeZone:'UTC'});
+
+async function carregarMes(mes){
+ if(!mes||CARREGADOS.has(mes))return;
+ const r=await fetch(`/data/noticias/meses/${encodeURIComponent(mes)}.json`,{cache:'no-store'});
+ if(!r.ok)throw Error(t('rd.mesFalhou',{mes:mesNome(mes)}));
+ const pacote=await r.json(),vistos=new Set(NEWS.map(i=>i.link));
+ for(const i of pacote.itens||[])if(!vistos.has(i.link))NEWS.push(i);
+ CARREGADOS.add(mes)}
+
+async function trocarMes(){
+ const mes=el('rd-mes').value;
+ if(mes&&!CARREGADOS.has(mes)){
+  el('rd-conta').textContent=t('rd.carregandoMes');
+  el('rd-mes').disabled=true;
+  try{await carregarMes(mes)}
+  catch(e){el('rd-conta').textContent=e.message;el('rd-mes').disabled=false;return}
+  el('rd-mes').disabled=false}
+ drawNews()}
 const subName=s=>t('rd.s.'+s);
 const viaBusca=link=>/news\.google\.com|bing\.com/.test(link||'');
 
@@ -129,9 +157,11 @@ function drawNews(){
  const valor=id=>{const e=el(id);return e?e.value:''};
  const marcado=id=>{const e=el(id);return e?e.checked:false};
  const busca=(valor('rd-busca')||'').toLowerCase().trim(),sub=valor('rd-substancia');
+ const mes=valor('rd-mes');
  const soSetor=marcado('rd-so-setor'),soGoias=marcado('rd-so-go');
  const vis=NEWS.filter(i=>(!busca||(i.title||'').toLowerCase().includes(busca))
   &&(!sub||(i.substancias||[]).includes(sub))
+  &&(!mes||mesDe(i)===mes)
   &&(!soSetor||i.setorial)&&(!soGoias||i.regional));
  el('rd-conta').textContent=vis.length>NEWS_MAX
   ? t('rd.newsParcial',{mostradas:n(NEWS_MAX),filtradas:n(vis.length),total:n(NEWS.length)})
@@ -144,7 +174,10 @@ function newsBlock(noticias){
   const motivo=noticias.motivo==='banco_ilegivel'?'rd.bancoIlegivel':'rd.semColetor';
   return `<div class="notice">${escape(t(motivo))}</div>`}
  NEWS=noticias.itens||[];
+ JANELA=noticias.janela||'';CARREGADOS=new Set();
  if(!NEWS.length)return `<div class="empty">${escape(t('ov.empty'))}</div>`;
+ const meses=(noticias.meses||[]).map(m=>`<option value="${escape(m.mes)}">`
+  +`${escape(mesNome(m.mes))} · ${escape(n(m.materias))}</option>`).join('');
  const nomes=[...new Set(NEWS.flatMap(i=>i.substancias||[]))]
    .sort((a,b)=>subName(a).localeCompare(subName(b)));
  const opcoes=nomes.map(s=>`<option value="${escape(s)}">${escape(subName(s))}</option>`).join('');
@@ -159,6 +192,9 @@ function newsBlock(noticias){
   ? `<p class="rd-conta">${escape(t('rd.atualizado'))} ${escape(noticias.atualizado_em.slice(0,16).replace('T',' '))}</p>`:'';
  return acervo+atualizado+'<div class="rd-filtros">'
   +`<input type="search" id="rd-busca" placeholder="${escape(t('rd.buscaPh'))}" aria-label="${escape(t('rd.buscaPh'))}">`
+  +(meses?`<select id="rd-mes" aria-label="${escape(t('rd.todosMeses'))}">`
+    +`<option value="">${escape(t('rd.todosMeses'))}</option>${meses}</select>`
+    :'<select id="rd-mes" hidden></select>')
   +(nomes.length?`<select id="rd-substancia" aria-label="${escape(t('rd.todasSubstancias'))}">`
     +`<option value="">${escape(t('rd.todasSubstancias'))}</option>${opcoes}</select>`
     :'<select id="rd-substancia" hidden></select>')
@@ -170,6 +206,8 @@ function wireNews(){
  if(!el('rd-lista'))return;
  for(const id of ['rd-busca','rd-substancia','rd-so-setor','rd-so-go'])
   if(el(id))el(id).addEventListener('input',drawNews);
+ // O mês pode precisar buscar um arquivo antes de filtrar.
+ if(el('rd-mes'))el('rd-mes').addEventListener('change',trocarMes);
  drawNews()}
 
 function trendBlock(noticias){

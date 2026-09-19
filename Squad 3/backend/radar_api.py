@@ -18,10 +18,12 @@ router = APIRouter(prefix='/api/radar')
 DATA = Path(__file__).resolve().parents[2] / 'data' / 'atlas'
 ROUNDS_PATH = 'Squad 1/dados/ResultadoRodadaDisponibilidade (1).csv'
 NEWS_DB = os.getenv('NEWS_DB_PATH', '/var/lib/minera-goias-news/radar.sqlite')
-# The collector publishes its result as a file in the repository, so the deploy carries
-# it here on its own - the same route data/atlas/processes.json already takes. The
-# SQLite below stays as a fallback for a collector installed on this machine.
-NEWS_JSON = Path(__file__).resolve().parents[2] / 'data' / 'noticias' / 'latest.json'
+# The collector publishes its result as files in the repository, so the deploy carries
+# them here on its own. They sit under public/ because the browser fetches the monthly
+# archives straight from /data/noticias/meses/ when someone asks for older news, and
+# only public/ is served by Nginx. The SQLite below stays as a fallback for a
+# collector installed on this machine.
+NEWS_JSON = Path(__file__).resolve().parents[2] / 'public' / 'data' / 'noticias' / 'latest.json'
 
 connection_factory = None
 _phases = {'mtime': None, 'value': None}
