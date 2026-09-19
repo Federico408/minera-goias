@@ -96,10 +96,12 @@ def news_from_repo():
     locally installed collector instead of reporting the section as broken.
     """
     try:
-        mtime = NEWS_JSON.stat().st_mtime
+        # The path is part of the key: the module constant can be pointed elsewhere,
+        # and two different files can share a modification time.
+        key = (str(NEWS_JSON), NEWS_JSON.stat().st_mtime)
     except OSError:
         return None
-    if _news_file['mtime'] == mtime:
+    if _news_file['mtime'] == key:
         return _news_file['value']
     try:
         value = json.loads(NEWS_JSON.read_text(encoding='utf-8'))
@@ -109,7 +111,7 @@ def news_from_repo():
         return None
     value.setdefault('disponivel', True)
     value.setdefault('tendencias', [])
-    _news_file.update(mtime=mtime, value=value)
+    _news_file.update(mtime=key, value=value)
     return value
 
 
@@ -156,7 +158,9 @@ def radar(u=Depends(reader)):
     return {
         'fases': phase_counts(),
         'rodadas': rounds(),
-        'noticias': news(),
+        # Enough stories for the panel to filter by substance and by region on the
+        # client. Twelve only ever filled the list, leaving nothing to narrow.
+        'noticias': news(180),
         'nota': 'Fases e rodadas vêm do cadastro e dos editais da ANM, não de previsão. '
                 'Uma área em disponibilidade é uma área que pode ser requerida, não um projeto anunciado.',
     }

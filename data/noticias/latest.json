@@ -14,7 +14,10 @@
    "setorial": 1,
    "fonte": "Busca · terras raras",
    "escopo": "nacional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Ministro da Indústria apoia proposta de Luis Cesar de industrializar terras raras em Goiás - A Redação",
@@ -26,7 +29,10 @@
    "setorial": 1,
    "fonte": "Busca · terras raras",
    "escopo": "nacional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Marconi Perillo defende industrialização de terras raras em Goiás e rejeita entrega de minério ao exterior - Tribuna do Planalto",
@@ -38,7 +44,10 @@
    "setorial": 1,
    "fonte": "Busca · terras raras",
    "escopo": "nacional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Goiás e Mato Grosso criam políticas para mineração em meio ao avanço da lei de minerais críticos - Estadão Blue Studio",
@@ -50,7 +59,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Goiás e Mato Grosso criam políticas para mineração em meio ao avanço da lei de minerais críticos",
@@ -62,7 +72,10 @@
    "setorial": 1,
    "fonte": "Minera Brasil",
    "escopo": "setorial",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Bolsa de Toronto e Braminvest selecionam ativos minerários brasileiros para investidores da TSX",
@@ -74,7 +87,8 @@
    "setorial": 1,
    "fonte": "Brasil Mineral",
    "escopo": "setorial",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Moradores de Catalão terão 450 vagas exclusivas quando empresa chinesa iniciar operações de mineração no dia 21 de setembro - clickpetroleoegas.com.br",
@@ -86,7 +100,8 @@
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Porto da Flórida pode abrir nova rota para minerais críticos de Goiás e do Brasil aos EUA - Jornal Opção",
@@ -98,7 +113,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Corrida pelas terras raras: políticos de Goiás lideram ranking nacional de processos minerários na ANM; veja quem são os citados - Goiás 246",
@@ -110,7 +126,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Empresa dos EUA conclui aquisição de mina de terras raras em Goiás antes de lei entrar em vigor - Agência eixos",
@@ -122,7 +141,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "USA Rare Earth conclui compra da Serra Verde, em Goiás - Poder360",
@@ -134,7 +156,10 @@
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Goiás e União terão papéis distintos no marco dos minerais críticos: “São etapas diferentes”; entenda as diferenças - Jornal Opção",
@@ -146,7 +171,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Mina de terras raras em Goiás é vendida aos EUA por R$ 14 bilhões - Daqui",
@@ -158,7 +184,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Já é lei: Goiás terá incentivos para mineração de terras raras - Tribuna do Planalto",
@@ -170,7 +199,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Mina em Goiás ganha destaque, mas refino de terras raras fica fora do país - UOL Economia",
@@ -182,7 +214,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Governo Lula é contrário à exploração de terras raras em Goiás por empresa dos EUA e avalia rever negócio",
@@ -194,7 +229,10 @@
    "setorial": 1,
    "fonte": "Busca · Bing · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Terras raras: saiba como cidade goiana saiu da exploração de amianto para o centro da disputa internacional de minérios - G1",
@@ -206,7 +244,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Governo é contra a exploração de terras raras em Goiás por empresa americana e avalia como rever negócio - G1",
@@ -218,7 +259,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "União estuda reverter contrato de terras raras em Goiás - SpaceMoney",
@@ -230,7 +274,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Acordo de terras raras em Goiás enfrenta o Planalto - SpaceMoney",
@@ -242,7 +289,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Governo contesta mineração de terras raras em Goiás - boca.com.br",
@@ -254,7 +304,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Governo Lula é contrário à exploração de terras raras em Goiás por empresa dos EUA e avalia rever negócio - Brasil 247",
@@ -266,7 +319,10 @@
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Governo avalia rever exploração de terras raras em Goiás por empresa dos EUA - Agenda do Poder",
@@ -278,7 +334,10 @@
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Cidade de Goiás que viveu do amianto agora está no centro da corrida por terras raras - Folha de S.Paulo",
@@ -290,7 +349,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "EUA elevam aporte e avançam para controlar mineradora brasileira de terras raras",
@@ -302,7 +364,10 @@
    "setorial": 1,
    "fonte": "Busca · Bing · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Governo Trump investe mais R$ 1,2 bi na compra de mineradora de terras raras em Goiás - Mais Goiás",
@@ -314,7 +379,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "EUA anunciam US$ 750 milhões para garantir terras raras de mina em Goiás - portaltela.com",
@@ -326,7 +394,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Pentágono anuncia compra de terras raras extraídas em Goiás, usadas na produção de caças, inclusive do F-35 - AEROIN",
@@ -338,7 +409,10 @@
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "A engrenagem que transformou terras raras de Goiás em ativo geopolítico dos EUA - Observatório da Mineração",
@@ -350,7 +424,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Carta do Encontro de Comunidades Atingidas pela Mineração em Goiás - Combate Racismo Ambiental",
@@ -362,7 +439,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Mineração e garimpo ilegais são alvo de operação intermunicipal em Goiás - G1",
@@ -374,7 +452,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Vídeo: PM explode balsas usadas para garimpo ilegal em Goiás - iG Último Segundo",
@@ -386,7 +465,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Operação desativa garimpo ilegal com três presos e R$ 1 milhão em equipamentos apreendidos - Mais Goiás",
@@ -398,7 +478,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Equipamentos avaliados em mais de R$ 1 milhão são apreendidos em operação contra garimpo ilegal em Goiás - Jornal Opção",
@@ -410,7 +491,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Terras raras podem adicionar R$ 2,39 bilhões ao PIB de Goiás e Minas Gerais, diz estudo da Amcham - Jornal Opção",
@@ -422,7 +504,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Goiás aprova política sustentável para impulsionar a mineração de terras raras; entenda o impacto para o estado - Jornal Opção",
@@ -434,7 +519,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Advogado viraliza ao mostrar rotina como intérprete de chineses em gigante da mineração de Goiás - Portal 6",
@@ -446,7 +534,8 @@
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "O greenwashing da mineração de terras raras em Goiás - Nexo Jornal",
@@ -458,7 +547,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Maquiada de verde, mineração de terras raras impacta territórios e amplia conflitos pela água em Goiás - ((o))eco | Jornalismo Ambiental",
@@ -470,7 +562,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Mineradora é investigada após moradores denunciarem contaminação por mercúrio e chumbo, em Alto Horizonte - Daqui",
@@ -482,7 +577,8 @@
    "setorial": 1,
    "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Mineradora é investigada após moradores denunciarem contaminação por mercúrio e chumbo, em Alto Horizonte - O Popular",
@@ -494,7 +590,8 @@
    "setorial": 1,
    "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "MPF investiga possíveis impactos ambientais e contaminação em área de mineração em Alto Horizonte - Tribuna do Planalto",
@@ -506,7 +603,8 @@
    "setorial": 1,
    "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "O homem que colocou as terras raras de Goiás na órbita de Washington - veja.abril.com.br",
@@ -518,7 +616,10 @@
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Marco das terras raras em Goiás impõe limites à concentração da produção em um só país e condiciona benefícios - Jornal Opção",
@@ -530,7 +631,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Moradores fazem paralisação contra mineradora em Alto Horizonte - Jornal Opção",
@@ -542,7 +646,8 @@
    "setorial": 1,
    "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Goiás cria zonas especiais para acelerar mineração de terras raras - O Popular",
@@ -554,7 +659,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "PRÓ-BIBLIOTECA III – Lundin Mining entrega 1.500 livros às comunidades de Alto Horizonte, Campinorte e Nova Iguaçu de Goiás - Excelência Notícias",
@@ -566,7 +674,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Dano ambiental em Catalão leva mineradora a fazer acordo milionário - Mais Goiás",
@@ -578,7 +687,8 @@
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Mineradora CMOC firma acordo de R$ 11 milhões por contaminação do solo em Catalão - Tribuna do Planalto",
@@ -590,7 +700,8 @@
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Soja, carnes e mineração impulsionam exportações de Goiás ao 2º maior resultado da história para junho - Diário de Goiás",
@@ -602,7 +713,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Mineração em Goiás ganha vitrine internacional com BRAMINVEST 2026 - Agência Goiás de Notícias",
@@ -614,7 +726,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Goiás busca apoio do Banco Mundial para mineração - BNamericas",
@@ -626,7 +739,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "China impõe restrições à empresa que comprou mineradora de terras raras em Goiás - Tribuna do Planalto",
@@ -638,7 +752,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Joel Sant’Anna vai ao Chile e leva Goiás ao maior evento de mineração da América do Sul - A Redação",
@@ -650,7 +767,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Mineração em Goiás ganha espaço no maior evento da América do Sul - Agência Goiás de Notícias",
@@ -662,7 +780,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Política goiana para minerais críticos facilita investimentos, mas pode gerar disputas com a União - Agência eixos",
@@ -674,7 +793,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Projeto de terras raras de mineradora que atua em Goiás recebe licença ambiental e avança para fase de implantação no Chile - Jornal Opção",
@@ -686,7 +806,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Goiás regulamenta política de minerais críticos e cria marco para impulsionar cadeia de terras raras - Estadão Blue Studio",
@@ -698,7 +821,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Goiás regulamenta política de minerais críticos duas semanas após avanço de projeto sobre terras raras na Alego - Tribuna do Planalto",
@@ -710,7 +836,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Terras raras, indenização milionária e uma fazenda em Goiás: entenda o caso em que produtor rural acusa a Serra Verde de ocupar sua propriedade enquanto disputa judicial se arrasta há anos - clickpetroleoegas.com.br",
@@ -722,7 +851,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "LUNDIN MINING | Caminhão 100% elétrico opera em Alto Horizonte desde maio - Brasil Mineral",
@@ -734,7 +866,8 @@
    "setorial": 1,
    "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Lula cumpre agenda em Catalão, cidade rica em minerais críticos - correiobraziliense.com.br",
@@ -746,7 +879,8 @@
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Alego aprova política de mineração sustentável em Goiás em meio a disputa sobre terras raras e pressão ambiental - Tribuna do Planalto",
@@ -758,7 +892,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Mineradora ligada à Vale fecha acordo de R$ 27 milhões por extração ilegal de calcário em Goiás - Jornal Opção",
@@ -770,7 +907,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "União Europeia trava venda de mina de níquel em Goiás para chinesa - Vero Notícias",
@@ -782,7 +920,10 @@
    "setorial": 1,
    "fonte": "Busca · níquel e nióbio em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
   },
   {
    "title": "GOIÁS | Assembleia de Goiás debate impactos da mineração na Chapada dos Veadeiros - Brasil Mineral",
@@ -794,7 +935,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Europeus travam venda de mina de níquel em Goiás para empresa chinesa - Folha de S.Paulo",
@@ -806,7 +948,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
   },
   {
    "title": "“Estamos empenhados para que Goiás continue à frente da produção de minerais críticos”, diz Daniel Vilela - A Redação",
@@ -818,7 +963,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Altamente tóxico, mercúrio é encontrado em garimpo ilegal em rio de Goiás - G1",
@@ -830,7 +976,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Europa tenta barrar venda de mina de níquel em Goiás para empresa chinesa - Jornal Opção",
@@ -842,7 +989,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
   },
   {
    "title": "Europeus travam venda de mina de níquel em Goiás para empresa chinesa - Mais Goiás",
@@ -854,7 +1004,10 @@
    "setorial": 1,
    "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
   },
   {
    "title": "Mineração na Chapada dos Veadeiros: Semad rebate fake news - Agência Goiás de Notícias",
@@ -866,7 +1019,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Após venda de mineradora em Goiás, Lula diz que Brasil pode se associar aos EUA para explorar terras raras - Diário de Goiás",
@@ -878,7 +1032,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Governo de Goiás quer liberar mineração na Chapada dos Veadeiros - iclnoticias.com.br",
@@ -890,7 +1047,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Governo de Goiás tenta liberar mineração na Chapada dos Veadeiros - infomoney.com.br",
@@ -902,7 +1060,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Governo de Goiás quer liberar mineração na Chapada dos Veadeiros - Folha de S.Paulo",
@@ -914,7 +1073,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Governo de Goiás quer liberar mineração na Chapada dos Veadeiros - Goiás 246",
@@ -926,7 +1086,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Goiás discute mineração na Chapada dos Veadeiros - Vero Notícias",
@@ -938,7 +1099,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Governo de Goiás discute legalização da mineração na Chapada - Metrópoles",
@@ -950,7 +1112,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Terras raras colocam Goiás no centro da disputa global por minerais estratégicos - Blog do Badiinho",
@@ -962,7 +1125,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Governo Lula não quis regular venda de terras-raras em Goiás - Poder360",
@@ -974,7 +1140,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "MINA DE TALENTOS 2026 – Anglo American abre vagas de estágio em Niquelândia e em Barro Alto - Excelência Notícias",
@@ -986,7 +1155,8 @@
    "setorial": 1,
    "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Operação da única mina de terras raras do Brasil impacta córregos em Goiás - Instituto Humanitas Unisinos - IHU",
@@ -998,7 +1168,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Terras raras: Serra Verde impacta córregos em Goiás, diz análise de órgão ambiental - Brasil de Fato",
@@ -1010,7 +1183,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Terras raras: Serra Verde impacta córregos em Goiás, diz análise de órgão ambiental - Agência Pública",
@@ -1022,7 +1198,10 @@
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Terras raras: após críticas, Serra Verde afirma que não exporta minério bruto de mina em Goiás - G1",
@@ -1034,7 +1213,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Goiás defende acordo com EUA para exploração de minerais críticos - Portal IN - Pompeu Vasconcelos - Balada IN",
@@ -1046,7 +1228,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Goiás defende acordo com EUA sobre minerais críticos em meio a críticas - Jornal de Brasília",
@@ -1058,7 +1241,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Goiás defende acordo com EUA para exploração de minerais críticos - Folha PE",
@@ -1070,7 +1254,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Acordo Goiás-Estados Unidos sobre terras raras é inconstitucional - Consultor Jurídico",
@@ -1082,7 +1267,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Rede vai ao STF contra venda de mineradora de terras raras em Goiás - Revista Oeste",
@@ -1094,7 +1282,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Mina de terras raras vendida a empresa dos EUA por US$ 2,8 bilhões em Goiás: o que muda na prática? - G1",
@@ -1106,7 +1297,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Terras raras: Rede entra com ação no STF para suspender acordo com empresa dos EUA sobre mina de Goiás - G1",
@@ -1118,7 +1312,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Mina de terras raras vendida a empresa dos EUA por US$ 2,8 bilhões em Goiás: o que muda na prática? - aguaboanews.com.br",
@@ -1130,7 +1327,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Mina de terras raras vendida a empresa dos EUA por US$ 2,8 bilhões em Goiás: o que muda na prática?",
@@ -1142,7 +1342,10 @@
    "setorial": 1,
    "fonte": "Busca · Bing · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Ministro diz que compra dos EUA de mineradora de terras raras em Goiás não deve avançar - OpiniãoCE",
@@ -1154,7 +1357,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Deputados tentam anular venda de mineradora de terras-raras em Goiás para empresa dos EUA - Mais Goiás",
@@ -1166,7 +1372,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Deputados do PSOL pedem à PGR anulação de venda de terras raras em Goiás",
@@ -1178,7 +1387,10 @@
    "setorial": 1,
    "fonte": "Busca · Bing · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Terras raras: a mina em Goiás comprada por uma firma dos EUA - Nexo Jornal",
@@ -1190,7 +1402,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Operação identifica garimpo irregular e aplica multas no interior de Goiás - Portal Agro2",
@@ -1202,7 +1417,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Corporação norte americana apoiada por Trump compra mineradora de terras raras em Goiás - Esquerda Diário",
@@ -1214,7 +1430,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Daniel Vilela negocia interesses de Goiás após venda de mineradora de terras raras em Minaçu - A Redação",
@@ -1226,7 +1445,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "PSOL pede anulação de venda de mineradora de terras raras em Goiás para EUA - Jornal de Brasília",
@@ -1238,7 +1460,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Terras raras: Veja detalhes da mina em Goiás vendida por R$ 14 bilhões a empresa dos EUA - Jornal do Tocantins",
@@ -1250,7 +1475,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Com compra de mineradora em Goiás, Brasil vira alvo na disputa por terras-raras entre EUA e China - Goiás 246",
@@ -1262,7 +1490,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Projeto das terras raras, que impacta Goiás, pode ser votado na Câmara nesta quarta-feira - Diário de Goiás",
@@ -1274,7 +1505,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Extração de terras raras em Goiás vira negócio bilionário com aquisição americana - Agência Pública",
@@ -1286,7 +1520,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Após empresa dos EUA comprar Serra Verde, presidente diz que trabalho na mina em Goiás ainda terá liderança local - Jornal Opção",
@@ -1298,7 +1535,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Cidade de Goiás une 3 indústrias e sobe ao 3º lugar com automóveis, minério e químicos - Olhar Digital",
@@ -1310,7 +1548,8 @@
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Terras raras: Empresa americana compra mina em Goiás por US$ 2,8 bilhões - G1",
@@ -1322,7 +1561,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Exploração de terras raras em Goiás avança sob questionamentos jurídicos e pressiona territórios quilombolas - Comissão Pastoral da Terra - CPT",
@@ -1334,7 +1576,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Mineradora Serra Verde, de Goiás, exportava toda sua produção de terras raras para a China antes de venda aos EUA - Brasil 247",
@@ -1346,7 +1591,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Mineradora de terras raras em Goiás é vendida para empresa americana - Diário de Goiás",
@@ -1358,7 +1606,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Empresa americana compra mineradora em Goiás produtora de terras raras - correiobraziliense.com.br",
@@ -1370,7 +1621,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Empresa dos EUA compra mineradora de terras raras em Goiás por US$ 2,8 bilhões - A Redação",
@@ -1382,7 +1636,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "MPF apura esquema de mineração ilegal com indícios de dano ambiental grave em Goiás - Jornal Opção",
@@ -1394,7 +1651,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Garimpo ilegal de ouro é denunciado em fazenda de Goiás - Metrópoles",
@@ -1406,7 +1664,10 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
   },
   {
    "title": "Mineração em Goiás: Lei usurpa competência da União - migalhas.com.br",
@@ -1418,7 +1679,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Goiás cria estrutura centralizada para gerir minerais críticos e amplia papel do Estado no setor - Jornal Opção",
@@ -1430,7 +1692,8 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Briga entre governo Lula e Caiado acirra disputa por controle de terras raras em Goiás enquanto impactos ambientais são esquecidos - Observatório da Mineração",
@@ -1442,7 +1705,845 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
-   "tema": "mineracao"
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "US in talks with Brazil on critical minerals, US diplomat says at signing of Goias state deal - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTklEM1dFQ1lPVFZoaFNSelZINWkzWTZpTHVJbEMxMFhSMDJjdHQ4aW82NGNzWm9KSElISXUtZGV0akRydUpzbF9uTFpsRkxYOS1mdzhDTnhtZUJzUjV1Q2tMWmVuREtDVGRoZ0VEZjhmLVNLZGFpTDNYODg1TUt1UlVUaHlNLXEtRnhLUUhUQUI0M3c?oc=5",
+   "published_at": "2026-03-18T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:54.394610+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Funcionários e motoristas são presos por fraude milionária em mineradora de Catalão - Mais Goiás",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN3V5aEtzNFhjMW9fLW82Uk1DZnRJcUhyZXF2V1N1blNveU1uYVlWaUFEdFBUMGZtd3FudHQ3bkFtVURtUDRMZjg0NkN5MVZDeUxYX2pSbDgySHZrMlRjV1NTejA2YlJ0UnMzcTNyWXhQRDlURzhHeUxUamxoWTFOVU8wTkoxalRjZXFNQ25fUGJMejBZbmR6eFk3T1NxUS1sYXJtUHB1WmpaY1BDcFhCU1BjdkRPTW9iUEZoUm1n?oc=5",
+   "published_at": "2026-01-07T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.670585+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Conheça a cidade goiana que foi peça importante nas minerações de nióbio em 1970 - Portal 6",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVFZrT2ZZYW1RS0dMdk52VWhjTEZjNE53U3dFQkdlM2djSGtQc1NlYjR4V0lPb1dzTzZmWktiSklCX2kxNFFVLUNXaEh6VTdYNmNpZkFucldrbUVEVmhwemNUZnlFYm0tUFB1YU9EUEpEaUdNLWQyNG0zOE9qaG9qMlB0S3Q4Snc2aFlQZHFNWlFpeV9BXzZoSFhVcEZVR2owS0JRX3RaNzJQRndLT2hoZ0RxY2c2dw?oc=5",
+   "published_at": "2025-11-26T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.738414+00:00",
+   "regional": 1,
+   "regiao_termo": "goiana",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niobio"
+   ]
+  },
+  {
+   "title": "Terras raras: Estados Unidos financiam projeto em Goiás com até U$ 465 milhões",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaed54effa44ed8a7cd8677eb9fc691&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=pt-br",
+   "published_at": "2025-11-11T04:43:00+00:00",
+   "first_seen": "2026-09-19T18:32:47.548300+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "ENERGIA SOLAR | Hochschild Mining implanta usina para suprir demanda em Mara Rosa - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNW9jTGN5N1h5UEV3ak9EMlJCM2ZaOHZxTnZiNUFTUjhCZXNkOGtYaHZha0kyS3hxT2V5NlkyOXdFVHdBX2J5UHNmSDZoY2V3cGpzSk94enZLVjR4UG5XbjRrdUdHeWhlaldyS25xZGQ0Z1VBTkNXbUo3MmU1R2l5QlNtMUhTSnh2LXRUaFlWUGlXNVBuQ3NfVUZHUWtkNXRFOU1TRHln?oc=5",
+   "published_at": "2025-10-22T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:55.997431+00:00",
+   "regional": 1,
+   "regiao_termo": "mara rosa",
+   "setorial": 1,
+   "fonte": "Busca · energia em Goiás",
+   "escopo": "regional",
+   "tema": "energia",
+   "substancias": []
+  },
+  {
+   "title": "Conheça Catalão, cidade goiana que abriga complexo de nióbio e fosfato entre os maiores do Brasil e se projeta como polo estratégico para a indústria de fertilizantes e tecnologia - clickpetroleoegas.com.br",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdmhXRHBOTUZheDY2OEdDZGl5anZIQVItTnhrbU52U241T3lpY0VQd3NGdVppUFcwaFFQWDZTamZybDZsQXFMdDNfQ1lFOWs2SkYwTmtCNnB1dDZzMUdOV1NCQXRTa2Z5WnRUejdSOTFrTktIWVVQOVpzd1FVVVFWYTh2ZjFDZVlnWDBTUGxNYnU3bmphWXRYOE9SOTVmTnpfb3dyWmdveWxhMnp2ZDRNVWl5cVg3QThtbUJkUThsRWVBRmZWVVFEOXJ2S3JlWWNKRUE?oc=5",
+   "published_at": "2025-09-23T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.687122+00:00",
+   "regional": 1,
+   "regiao_termo": "goiana",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "fosfato",
+    "niobio"
+   ]
+  },
+  {
+   "title": "Em comunicado, mineradora Anglo American se manifesta sobre venda de plantas em Goiás para chineses - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbTc5ZDRTLXVrVC1vRnRISlh0a29pRVVicEFoMEpHZHdYWHptbWxHTTBsQk1zaXJTdGF0R0dITC0yQm4ycmMxTzRvc1ZObE1aQnpkRkhPZHIzNldRN1o0aGFGcEtBSXRuQ3RCN3JJSk1rVWtsLVliVklTLWdOOEx3T0pUYm4zSnFTUlNybi1kYW9raHhiWmEyaEdhWGpJQ0FvMlNJcERjaEgxS0RmY0diSTk2N184M3dKTjV6NjQ1cU5MUTd2cjI5T2tLYUctSGFudWFEaTJHT0tpS0lvdzF3MnQzYw?oc=5",
+   "published_at": "2025-08-28T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.706467+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Goiás se torna protagonista na disputa global por níquel e terras raras - ohoje.com",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdXVVanc3bFBqTWVmWmFFNjk1N1paV01YVExSR2VxYjZNOUpUQld1bXNnSzc5N2JHbHc0VXBpQi0xTUdfQ2xQNGFOTWpmNWV5UVdmQTVBTEZSdDVranlrR3Y4X1U3SzBON2d3WnpBVmFEOUc5NGJ6NWRBR3lhNXZmb3hoT09wY3JjQmpPQkVSb3hjNnJsNElBYkNTdDhMVmFaOWlF?oc=5",
+   "published_at": "2025-08-28T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.742034+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel",
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Cidade do interior de Goiás vira peça-chave na disputa mundial por níquel - Mais Goiás",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNUNyOE9GLWJneVdHNkMxd0ZGUUpHWEdFTDBvNUtuaDkxMUR4STllSUlDN3RhdHFNcVR0bDhERzcwaXhBcE5wWnlnNUFJZzh0RTlwR1lRV3pJRnoyTS1yM2hxbnZPS3dYZzcwdzhHTi10Nm9ORlpSSmpXNVBaSG5DMVUyOUM3aDRCZEdYMHREV0JSQ2F4ZC1fQzR1SzlvcjBIb1lMdHRxTllYNk5zSHlWMw?oc=5",
+   "published_at": "2025-08-26T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.697417+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "Níquel de Goiás coloca Brasil no centro da disputa geopolítica entre China e Europa - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOS1VfLU1mSXdXemJVMUZxbTRaaC1Yc2lOMWlhSmpUNF80N0c5VU1DRGRsdTNoOV9xdHpxZXZibFVXN0ljSF9BcW9YQzRmeUJoZjMxSEwwV0RBaW42cUxoYWVVbFllMVF5MUJXdkZmbm9aaDJza0FtSi1JRVhQVTMxMGVWcjFXYUxldm5SLUJiRXlMVHZTbWUydDNnSkFuXzRhNVZqSGNJR0QxMWRnenNGRGpCNHRxODQ4N3BCQ2lvSTd5WlNXUG5IY2hvanB4ZzdyclRFSU9B?oc=5",
+   "published_at": "2025-08-24T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.681371+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "Goiás e UFCAT criarão centro de excelência em terras raras e minerais críticos em Catalão - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbUxNVDFTWVFRM0Y5cjNuMjU2bmIyREFJTmRhQ19xbVp3TFh6TVJaSUVkS05CVWxLTElvcTB3MDdHeG0tMllGWmxvMUd4UE81cGVrRnFmX2pIVkRvVUdhYWZURkFkRlZWQVM5R213T1JEOTVIYnNjcW5nVVNwMVY3dmVpN25GZjhVSjBYZTRGQdIBlAFBVV95cUxPZVhDaU5pUmdvZnJraV9xQXlRNkFWcmZVMUI0ckFBZVFCV3EzTG5fdXc0OWdyMF82OFM2NDZIcG0xVHJSTUFYS1VEUDBlTTdONG5QUU55cHlpNlJFRWh2Sk1feFNIc25EZkU3NzhOZDUxcGI5UWpJc1hLczZJOFpVaE5Ja0NFMlFvSnVvYzVnSktqeHRy?oc=5",
+   "published_at": "2025-08-22T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.700668+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Sindicato Metabase conquista avanços para trabalhadores da mineração em Catalão - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16a1BmNnRSMk03QUpzLWFUalhGaVFzT3ppWGU0ZkJlTHQwdVowRGh6Q3lTb3pKMTBMR3RrX1JseXlHSWdGUV82enFINWRBd1RGVTAyZ2lKMHBmd1lMcXI0NS1lSXFacWU2Q2dTNtIBckFVX3lxTE4tUGs0a1FxWF9ZbngyM19COEIyal9paEJHeHlmaDVxdmlQY0NPLWZUaE9TVHdfbUMteHFrOEU2TWVqbS04OUVhYzdHbDZsdDlha1pJQUpwY29uOUpUWVZjTllhMWJUYkc4VlRYUzI0SUFXZw?oc=5",
+   "published_at": "2025-07-18T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.692675+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Projeto Santa Anna atrai capital estrangeiro e projeta Goiás como nova fronteira em minerais críticos - Estadão Blue Studio",
+   "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQZXFoc3JnOVVqdy12V1RzeElQd3BfeE8ycXNwWmZRRGt3VzdkU24yX2VVTFE3SzF2U2VKbVplQV9TQUZVWUhOU0xNNUhuQ3JjdEJYbjJIcmlwamRHTVJHbGxNNlZIZDZtblp6emZIYVhGTGNfWjh0SE5TNFNoTGhrakwyVUFCUTE2SFFHV3VuNC03TE1LcEZVVDZvYnBLcVJVN0FwdngtTlpQN0JhNmNmQXc2OURLa0M4cTJ3ZGFhckl0cEUzNjlQS2VudlBiTTF5OV8zdERmRkp0RWQyWDRhWEY2N0g3UU1GNXMtWXFRUkxCUC1yNkd0c2xXTzZkOU1oT18tNWZ3SUpqNDA2enc?oc=5",
+   "published_at": "2025-05-26T14:37:42+00:00",
+   "first_seen": "2026-09-19T18:32:42.693420+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "TERRAS RARAS | Power Minerals e EDEM vão explorar carbonatito de nióbio em Goiás - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOVRSNnZnS1lKMzM2QWJGRFNySm9tMWJoOXZlX0FjQVZlLWw4MFFLMkpKbFpkbktkTVBYMjFPalBwRnlxN29taG5halY3ZnhwSE1UYnlvNTd2YVZ5NzJabS0zOW5GUXdFV2M2SC12blBjLUFLaUJBLTZya2RUaXE0WWN0dXpWbTZEblY5cXJSN3VCOU5LajZNeXN2bko1SWlIMlBqaEdn?oc=5",
+   "published_at": "2025-05-21T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.680380+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niobio",
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Seminário discute desafios e sustentabilidade no setor de mineração - Prefeitura de Catalão",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUmsxaGFPNmRPaXNFWFNhVGZWdV9GbmZZUXlvNldpVnZieHlOd09WdkhkcGdPS1FVbXBnUEZ2ZTlNTHpBSE5PNHlmWnNTdmlabUJ3X29IS2UwUHI2cnlFV3IzRnl5RTRybjRpOEh6aUhQYi14R25yY0NjeFNMb1VOb0JrNk5MWTNpczhtQzNGRXZWTkh1MC10YzEtNnEydktMbnd4LTJrcXhBcHFvQS1PYTFka0FGTHJiZWNJTlJrcXpvdWotWVE?oc=5",
+   "published_at": "2025-05-14T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.663618+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "SGB avalia recursos de níquel laterítico em santa Fé de Goiás - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdUNfUnJieEZOZk9UeFZEcXRPSmliWGwzSDkzd1dsQktZd0RtOEdwc0ZZMkdIS2x1dENtdnlBWEt2M2kxbXhCbHM2RnlDYVJwUHVTR3kxc1N2WXNGVkhwRkdlS3FuY2JtZ2NXc09VY2hGOWFOVE9TUWNMU0JCaUN6bFZlUkRLNjhPMGNZYjlFSzFpcWFUWFEwcmZJMVBrT0pt?oc=5",
+   "published_at": "2025-02-26T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.673075+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "Pilha de estéreo: MP de Catalão fiscaliza mineradora CMOC - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMTBnaXY2eFJjWGNJajlhNjBSeE5hbVlrc3h6aFhRMkJIajMwV1JUMEtweE13djZVRVZvQTJaYkpyckIzU2dncjJ0aUlIempTOVJqaHU1OGhZMUNXM2hyR0JZM2J5eUxQVDR3VllTY2xRR2FkSEtTZmxma2tVSl9SMzVR0gGHAUFVX3lxTFBxRWhORGNLYmlOMFJYWU9EOHRMXzNBUWFhdXNSWkcxMGhHRmVSS2FHV2lmRkU4SnAtbE5SVGpGLXdySmFjUHVwLUdhdWpkRDcxQnBoOG03QUtEajFsdVRwVE5DaVhTYkFvTWJzTm5kUkpJMWd2Y1QtMGZNa0FxeHBGSEs3Y3BUUQ?oc=5",
+   "published_at": "2024-12-22T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.734306+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Falsa mineradora que fazia campanha com atores famosos tem bens bloqueados por suspeita de pirâmide financeira em GO",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaed54effa44ed8a7cd8677eb9fc691&url=https%3a%2f%2foglobo.globo.com%2fbrasil%2fnoticia%2f2024%2f09%2f16%2ffalsa-mineradora-que-fazia-campanha-com-atores-famosos-tem-bens-bloqueados-por-suspeita-de-piramide-financeira-em-go.ghtml&c=14556133522341009099&mkt=pt-br",
+   "published_at": "2024-09-16T06:24:00+00:00",
+   "first_seen": "2026-09-19T18:32:47.561420+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Anglo American contrata assessores para venda de fábricas de níquel em Goiás - InvestNews - InvestNews",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcUF6Vl9xajJjczJjMTV3UHJMTHIzV1hiVFROdUwyQm5HNGJZTXZHamFVNHVNTllweHQ5SXdIdWhuU3ZtNGN4eEJNNEtQLUV3STlHUDNsTjBzN2ZWV3FOT2EtWDRxUlZGZ3I1RjRoZ3EwODA1djFnYWc4QW1FOW1PUVZGckpOZ1RtOWV5aUJpVXZuZU9nR1hZRlV4VTNIVnRUbVRYdURIc0w4QVNBYzhrUl9B0gG3AUFVX3lxTE9TanlwenNZRWtZa0d4NFlzaFhRSi0wbk1tNjQxdVhQVEVudmRpQXQxYzctX0g4alg1a2plSmVEak9ydTU0RHhpT0JPZTdqLVB1MTN4XzJOaUhmSnQzWV9QR3R6MkhWRk9MZ0VjSjMydGFBZE1sVVlzTFJFUGJOU3lmNWZINlQ2REp2V2QyTjdWeGhRSzB3bU1OaEhOQkJEc3Q2LUl0b1YyaTA2Y0ZnS0hoQnFJOFB0VQ?oc=5",
+   "published_at": "2024-09-09T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.666017+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "Comunidade do Macaúba, em Catalão, denuncia morte de nascentes após ação de mineradora - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVUVHWDh6emdKN29aQlJOdkJDT1pGYmc3aEdGaGx2c3VvMElYSUxzTVh4NnY1MHVtUHdnRm1YczVyZzRUZ05xMkFmX0JYR0FNNVJNYXdHTXdLMDZ6UzZQa3pHZVZ0VDZjbTY1M0hzd1VMTnZqTlE0Q1NUZVRTcmNReHFCTTFJN0FxUTBKd3NpUFFpTVlqZktHRmdMS01kbTQ3YVdWREpJLWVhaC1HSlJ5ZWZITmtiWkZleGxjQVgteVVqYVJwQnUyWG9sN1FranpGTFhhQ3pHaw?oc=5",
+   "published_at": "2024-08-27T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.683159+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Cidade goiana no coração do Cerrado tem uma das maiores reservas de níquel do planeta - Curta Mais - Goiânia",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ETkxCeHdTSHNsNTVTSXdybEhzLTNXSjFpU2owSTAydzJSZGJQVEdERnNWZ1JXcGdDVF9QQmFBc21aU2dURUduVmpIbXlfSUI3NHpKVElHdmFTNWdHMGVkZzFDbE5hODh0QWlXZml1MzgwV001WEMwdmFwZw?oc=5",
+   "published_at": "2024-07-29T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.732387+00:00",
+   "regional": 1,
+   "regiao_termo": "goiana",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "Goiás se destaca na produção de fosfato, níquel e terras raras, revelam dados do Ibram - ohoje.com",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUUMtdHMzV3JyampjU0Y5MlRZZ2xYaHpsMzkzanBOU3ZkX3BnUlQzQ3lBQmhXaml1V2xKaW5hOElGWTdvQjhGLUlaWTM3UlBVWURERThfclVoRG9QUDFyeDduWHgxUjNjblV5dmZ1VWpNb3ZpWXE2Q2RJMXBSYzRSVW9USXZLdXh5RldaZ0pwV2RsV0NBYng5Q2tnQzNrWGZkVU9Rc0JDMUgwSENsUF80UHdDRE4?oc=5",
+   "published_at": "2024-07-15T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.739484+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "fosfato",
+    "niquel",
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Audiência pública em Catalão vai discutir impactos da mineração - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNemJoSXlrbHRjclRuV01wRTV1bWJ4SzNERi0tdktIRlNlbC02WWtnS2FhNGlrbV9pLVQyWGt3Q01pcjQ0OU1PNnRrSjNSZUotRTZiTXpOdEMzdWhBYkdMNWJnNW9Ea1dwV1dLNzNGOHlUdEJCZEtscHlWUmxFVVcwNHQwTlhkcUFuNkFiMTBONTRDek9GOWJV0gGcAUFVX3lxTE9uTGdKLVlmMF9obWJLTS0wNHJyazlYdTgwdU1BaU9uZTVCU1VSOFRxQ2gya1YyMXp3dUxaNklJcEExekdKbzZkSzZERjBYRXpVRTk4RUhiZ3laZzZFUXd3c1NPd2RodUJqQ190NkFmeHc1M3lQTUpWYmxiQ1JfaUpZak9qTDRkWkRYZDJrbFBEc2VDUWlKNm8tUEJLUQ?oc=5",
+   "published_at": "2024-05-21T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.693673+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "NOTA OFICIAL – Posicionamento da Anglo American sobre as operações de minério de níquel em Goiás - Excelência Notícias",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWm0waFZqTERJZjBkMl9JZTM4MFNxamlkY0hJZldKX2RXMDhOak82S1JPRnRMT1pFZlcyVWRKR2pzSzJqRGdZZjlJRXVJcUJwa0QyRGk4OVZpS3FNWVZxcjZVZmkwMVZnVnJ5VTN5dHpVN2FKMlFYeW5nWWFyU21jTFluZ3FpU0s4ZlhBdXM2S3l3OUw1UlF6MXRSS28xT0tQclo5WlJ0LXhHQ04wYTROZl9tQVRGRmJvUXJ6SGRVNGY4RHpqSmtFeEtaNml0V2ROM3VYNnpLUQ?oc=5",
+   "published_at": "2024-05-15T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.720653+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "Goiás detém 21% da produção de nióbio do País; minério é estratégico para transição energética - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPMzR2bGNXSXFWX0V6WG5ZV1N0cURNS1NmZTZ6aU9OTW1qUWFzUG9zYjFaTDFmSVZ0ODBXS1NQN1B3R2Y4d3BRNmpDWUxiZ3J4YlhyNG82NEJYcU9BN0wzSUx4cTR0OFdrZ01EN09RTlZmSjBkRXRoRnI5ZWdkVmsweGxjc3N6UDhEYVlBeGlBRkY4c0hrSC12V1VhTGdwdjlDTEFJYzUwV1dheVpvWlRheG9GekxiQXFLZWpIekQ4bHVCV2lpOElicm03SmtGTUY5S05mWU94cEZGbUdDcEhVRUpB?oc=5",
+   "published_at": "2023-11-28T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.676072+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niobio"
+   ]
+  },
+  {
+   "title": "MINERADORA CMOC BRASIL EMITE NOTA SOBRE BLOQUEIO NA RODOVIA SEBASTIÃO DE PÁDUA E EXPLICA QUESTIONAMENTOS DE DÍVIDAS DE ITBI COM A PREFEITURA DE CATALÃO - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPYVVmQ1dCRlYyTVRNMExfLXcwNnphRmV4NjJSR1hVWmZYMFZuM3Zpekg0dVR3MGltTFZvQ1g3a25MVWNsMWlHTzNHcTREQlpFTEtGX1FxQWRqQkJITzNEYjNIREhPbVhVcTROMzA4aWZwaldxLU54RWhSbU5QaDFjVE9QQUgxSFBjU2xaUkxCWmlJWEVhbnppOEFGVGl2emI5UXMzMW9nS0dSQXlGRTVUWFZWd3FQbUsyRVFqQlVnZ3dqY0ltLWxvOE5qeEdkVE03bTFBSG1UOFQ2bl82RlhwY3l3YnR6LWJNWlFjV05Rb2NpUDQ2SUktQ2pScnRDUW9wY2d0MDhKOXZXeWFD0gGSAkFVX3lxTE40c09oZW16T2lCNkNqVnNhZFpwWnBqV0E5SzlLTTQzMGNvOFIyMHQxZTlLZ09zOEo4QlFnSjFMbVY0cmw3cVU0d2FxVDVnRWFwTjBDRFRoaUI3TFRWUmdSVEk2S3dzaEQtVTBpU3JSU0ZCUmZfMll1cXZaMTg1NDNndTFIeHFualczTVpNRnlXWmNmWlFyV3AwRHBNWWdlRmRMbG9kNGRnalVIZkhMSWdJandiNXFrc2g3bUpYN2JOLXRzcUMzbWoyQlVpdUhReXRrNHQ4dFVxN1ZMUGpnYS12d3kzUVItQ2VJdVF5MUZMQ3BHV0JQc2UwOXI0QzdlUzVRMHJ0Yy1GcFRiWmFaWXI0N1E?oc=5",
+   "published_at": "2023-10-10T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.748402+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "MANIFESTAÇÃO PLANEJADA: ESTRADA DE ACESSO A EMPRESAS DO SETOR DE MINERAÇÃO, EM CATALÃO, SERÃO BLOQUEADAS NA PRÓXIMA SEMANA - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcm0tSWp2cFlzWXo0NnoxTTA4Qkx1dktmbHdKOFUzem9rN2ZMNF83T3ZjSk5vOHA1cklJaC04YXBwZlA3b3RyMUc3eVhBVUpxc0pBSmdvSUtWWDVsWU1aMFd3M2dQTjhIaVNFblFKSjRFaU9aaGpCekhDZXJHd0xFWVotLWlHMjdQNlI3RWduLWU3X3VwTkRmR2pYWW1TZFRGdWY0U21VY3IwdWZGN1F3M2Q4VUVsbEtaVnZta2hBRTE4VXZvdVFld3pEcmRsUWlFeENUSmhqWGJOYnlZaFJKdUtn0gHnAUFVX3lxTE9hYWMwRXExU0xIMnlTdmZUUXkxQ2NYNEt5c3VGV3BZdlk3SkxxZUVZSEVOVm1NS2VYYjJqdldLYUdILUVidTYyRGVsYmU3OEY5d2trZEU1X0Z4OEU2MDk4MWRJQVRtRmU3M3hDcHlWa1RuVjBLSHBIUjRscU9uUmZiVU9rMkpxNzZDQkZJT3UtWUlqLWtFeHhWYmZnZTlHbFVpWGY4R0hiSG5WM3BrcGtsajAxQXJvY0VqU3dhak9pZGktZThNcFZER0JyekxWTTB1RU1PcTdiZmJSeG1FUXUzZy16eFdXMA?oc=5",
+   "published_at": "2023-10-06T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.695669+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "MINERAÇÃO NO CENTRO-OESTE | Goiás pode se consolidar como produtor de minerais para a transição energética - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWVdiaXp6TmFrOTdMT0FHOW9CMWZpZFFhTTg5MW8wNHEyZ2pfeHdBa2JpT1ZhZVhXV0hnZWg3WW1GVnk5V0NfRFZSX0N1cWI0czR4NU9zRkh4bDM3ZHdKeTJWck1wZFB3aS1pM1c5Z1ZDWXl0WkNjcE45NU5LNjB1cE05VU1makpjOVJUbFVfaENLaVpDNVJ6V2oybkZlNTMxSVA3dG9tOGdMcXFPamowcEVTeWpIOVE?oc=5",
+   "published_at": "2023-06-25T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.688369+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Famílias atingidas por mineração realizam protesto em Catalão (GO) - Comissão Pastoral da Terra - CPT",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVjZRM0VweC0tSW1FcFpqdm1tN2dLdUEwejZWNU5SX242ZTRQLUtjQ1N5Z0d5YngzSzhLUjRUNmxvdzh4dlBEZnFIZWROaHlIVjBVWm9vUXBRbktNV3dWMll5VjNOYVNrTGN2ZmtSb25QdlVIRzFjaFVkVWYzRU9RS0c0SklocmcwOTg4OFVYeEp3SFM0SmNZRFVsWmJCT0FoRWt3QW5n?oc=5",
+   "published_at": "2023-05-24T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.665622+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "METABASE E MINERADORA CMOC AFIRMAM SEGURANÇA DE BARRAGEM APÓS TRANSBORDAMENTO DURANTE FORTE CHUVA EM CATALÃO - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPb1k0eXJFLTM2aHh3eDZlY01adzBuN0g5YmRXOFFOazFDaG00T3VVdEhNUHBSc0x3Q191U0NEUVMxblVLNV91TWk1czl4RGpFWDVmTUpybzhLeGxxN3BRbS1LT1gtYXUxZzdMWkR0S05BNU1ydHVqZzV1ZE9OZUJKWE9iUmRzQkJRVFZNVU1qSUxhRmpBM2ltam55SGxCZVhUcWd3bGdfLUk3ckxyVXJHSkstQTN0UWs1czgwcTc2ZVk4Ty04WmJTNlJ5Tm1IYnhEa0t30gHYAUFVX3lxTFBmRGxLM3NNcnc0RGV0ajRkR2I3QUNTZE83UWNpOUVmWWVTaFpkOGp3WjZReHNzWmJ1MWNzNUt4dEJ1VC1EaGFwLTNBRVMwaE5EQ3NOZ0x2d24yY1ZBRXZiVlUzSDdsbFA2VUgzdnRKeUVuUlpCbE13T0NuT2xVTV9feVVvTVh3X0VZWlU2OWlTQm1lcldSUFZqU1BMUjlqbGNXTUdzbndRYmxvQzR6MnVaYVNucE5EYVZGWUFmUzFURzBqWHRsc0hMSUhyRmxteDVkbjdvbVNjSg?oc=5",
+   "published_at": "2023-04-09T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.761981+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "A pequena empresa de Goiás que ‘ameaça’ a Vale em um negócio bilionário de cobre no Pará - estadao.com.br",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOWMxY3lDNVlJTTI1SHVkeHY2dm9HWTdnRW5PMHVTb2I0VTdlcERiQXN6RDNSZjFBZEFwMHA5eVJ3SjI0N1ZJRHRqb0daelJjVElHRW1JcGN0TXl3MXhhOHZtQ2YzWTc3NlU5SkVsNXQ2bDJ4QTZfOWFMWmQ3VmxYZ19HNDU5U0pLVUxuZHNn0gGTAUFVX3lxTE5sS0trRnBVVTV5NlNIdW9WS2FRTXAzRklfdEFmSnM2VEJhOWtxbFRhYUlTMHVyWEpuS29qd1RkcXQ3dkgtWS14ekFuTDE1ajJzMkREZFNBTlZRUUFNaGVMNWlyM1lZRWlhT25GRmlTbFh5dUUyUnJUQWdwTl80SEFscW1icGI0RU1HT3FsMGN3aDB0TQ?oc=5",
+   "published_at": "2023-02-06T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:46.981072+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineradoras em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
+   "title": "CAMINHONEIRO MORRE APÓS PASSAR MAL NAS DEPEDÊNCIAS DA MINERADORA CMOC, EM CATALÃO - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQakt4dEg1aF9Nd3FjWDZncEswczZDY1BZRThFUTh4dENDSG53djd5eFlkdjJ5aG5RczRhbWZnQktscDRnTFRVeF9YZkh4TWViZzRMQ2U5X3NYSWxmQVp0UVJ2VkdfRl9BcmRKZWFxUVJHZzhnNFdlRFdaX1gyaV9WVzYzOHI2a3BSeF9nSlZ1c2lkbVZjcWZzRDc5QzA3M1FSRThMcGpXWTJMdFhkUFHSAbMBQVVfeXFMTno0RmNhSkUyR3pwdmNmUFgxaktxSDMwYzFxSTdQamJqSXJTWlR2VllFNVZDZXZzYlplWlp6WG40X19NOGpZYzhSNURJbHplbjRpa0VGV2RyRXROUzVSQ1hDeGY1eE44bGYwUnhWSWNqZEhGWGx3YnFHWlhpTG1GSzE2eE1OQTljVkN2a21fNHBrc1RMQXYxMWNtdmhnbUxEeXd5RmhzSkNMSktkRlE5XzVKMXM?oc=5",
+   "published_at": "2022-09-08T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.742351+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Trabalhadores de Goiás protestam pelos riscos das empresas de mineração, como a Votorantim, na região",
+   "link": "https://mineracaobrasil.com/trabalhadores-de-goias-protestam-pelos-riscos-das-empresas-de-mineracao-como-a-votorantim-na-regiao/?utm_source=rss&utm_medium=rss&utm_campaign=trabalhadores-de-goias-protestam-pelos-riscos-das-empresas-de-mineracao-como-a-votorantim-na-regiao",
+   "published_at": "2022-08-29T21:12:19+00:00",
+   "first_seen": "2026-09-19T18:31:48.685660+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Trabalhadores da mineração de Goiás se levantam contra riscos e “descasos” de grandes empresas - Brasil de Fato",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRlAxaFRLV2MzdkUtb050dUdQUEIwVUFCc0tFSFNibmR5VkF1VFp2cWtSdkxWOW1HZXJUUWpyMS1KRHlUMmxtSm55dEJBOHkySk95c21jbGlheDZOZDN6UGRwRGMtRG0tRlN4MHNtSVc5V2pQZFpoRDk0TjVFa0xYam5vMkVra3Jxb2xnRUlFN2plQWZKb0pVUkowdGNjQ2x1SFFDQzBJa185YnlDM0hwbFduNGl6Q2ZJQkJ0czZydlU5TWZockdQelBydnRhV0JuV1E?oc=5",
+   "published_at": "2022-08-27T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.684377+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "“CATALÃO FOI ENTREGUE”, DISSE BOLSONARO EM GOIÂNIA SOBRE EXPLORAÇÃO DE NIÓBIO - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLVlLcmZxNTI1cjNkNmsxcGFaV1lSMjdyUUxMVkw5ay0wMjJBWTFjR2dEOGVUdTZoU2t4aVlLaHM3YzRmdkdEbjd4QV9VMnIzdjMtN014VGt1NnlDRzRsQUIzczg0elIwczlZS3BJdjEtbE01M2RvblhtdVVSNnAtM1o2SGF3ejRHcGlUR3Nmako0ZkhzLVVMX3RRQnU2VHB6YmZSQjRn0gGrAUFVX3lxTE1kbk9xelZlTjBVSlg0WjRKRDRqYWNMUGx5QTlvaVJyamRVSk8wdTktT0hCOG1KQUZzZEYyNEFkSWsySU1EQl9YSWd5MDZrM2p2Q2RqcXJFOE1uT1htaTJQNkFwSEpwZUdvNkFIQ1A5Rm0xS21vNnVPY1ZhaC1vbmVGRGxrUlFKbVpBWEZjVDRxYzRlZ3FSVDV3SWdOYnF2cEJCcm5mcmVKRVhYSQ?oc=5",
+   "published_at": "2022-05-27T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.726343+00:00",
+   "regional": 1,
+   "regiao_termo": "goiania",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niobio"
+   ]
+  },
+  {
+   "title": "Câmara de Vereadores de Catalão retoma sessões nesta terça-feira; principal Projeto de Lei é o da negociação de áreas com a mineradora CMOC - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbGV6ZDNiYlRxVVpwVmd6a3duVDVzaldGVGl5V204XzZIYTROMjJnRFpvQ0RkUnB4YURMd1R1bEVlazkwdVlSclRJYXI1MFM5UENvZTZUVEREVzQ1dzctME9IMWxXWFV4QWNuSndNSU4zd0lJQzRNUHJrYkkxLUlRSTJZdndlU1JCdTZhRUFqb011VVZMdVFHRnc4eTRZNDFBXzVpdEk2X0dWTjJNQnl4XzFtQUJRbGI3TWN4dEY1WDdxQk9iU2w5Zkt0SnRMOG9ZYTM1RTlTTklNbWRCMldRTDVLZlpBZ05ZNzVBV3ViWTZwOWtfWndwZktTTdIBgAJBVV95cUxPTTlxYkRpeW5nUzRwd1M5LXBxQVZ1X2E0aUltOGYxOEtPdU11eDZ3c1JKMWFNb2piaEVPUUxfeGdzY0dhTjRnMWNKcTRFdllVZjAtMHFMbngybU4xSzVKT2wwM3p6QWVZMUI0TGV1QTNiY3JUYU94STllLV95cnh4Q0trTjktd1BNU3BQcVlwd1lRbVBhcUQ1cXZudjUyNTJ5U3NqNGMyOGRVRi1UanFnOUZGVVZnWi04aWlVVlNWZnIzcEt4UnF5cFRDLU1xRnhkOGF0aUp4YnBnZ3Y3WkVpQUhBZXFJZ3JLbjRLaXBaM2hKVGVDWUZ3OWRUeTl3RXFM?oc=5",
+   "published_at": "2022-02-08T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.722268+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mineradora CMOC realizará simulado de emergência em barragem em operação de Nióbio no município de Ouvidor - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQWhTX3g0dUtvekozZ2xERnhqR29yWkM3YndWd085cFJid0swWGk4TDZQSmlrTldsbGc5ZVlBUDN2V3RwV2liWWJQRVI3RXNFWC1PUEJ4TTFZUEE4Nk1Mak5rdWl5ZkhmaGFsMjFKM2VCbkR6Q3dGcjVMdUNYNk9WY1dHM1JjbHZsaTF5Vk8tSWhTODAtWUxZdTVBUHJzZ2ZaVDlnWHB0NW1oZUlsM3IzMWxxZDE0S2lWMGtlRzJidDZRUzlMSmVyc3pSVDRTX2JU0gHWAUFVX3lxTE5aY2lqeW5YeGUwM0RTNGVaa1pGcE56Y0V1RktYb0hxWkE4SDVIOFdkM0cybDJaczJfQUV5aFRCdWNfZEVEUUpUSnQ4dmtVd2ZUQXNLUXhFVlhWUVlVNHNYZE5VS29xaDJqa1p5dTF2elNwS2IxWGVaallwcHZ2aFBMY3NpbkdOMGhIX3NGTVAzb2E1SG5yOGl4aUxzZGFRd3JYTHp1THlLZzdkLWFDLVJjemVBS2I3RnZkUnRtcHNlTlFSaDdraXQ1S0JyQzZOM1VjcXlCZnc?oc=5",
+   "published_at": "2021-12-20T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.708303+00:00",
+   "regional": 1,
+   "regiao_termo": "ouvidor",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niobio"
+   ]
+  },
+  {
+   "title": "Expulsos pela mineração: a saga de uma família goiana contra uma gigante dos EUA - Brasil de Fato",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSHB6T2luOEc1eU1RUGFldjBhc2ZqVTBDX3duSHZOSHhqWGdGblVUazMyNUpOTmVxNFF3Y3MtdnNXY2ZIMGtnM0hoTk1RSXRrRDI2RF9xb1B4Qk5QZEVaN0taZUxuSkhkay1YcW9HWkxVWk5ReDFMeF9McUJGdmVYSDV6eHl0TWQ3aExLbHRad01aNWNxTTNzZFVGRF8zM1FsR1dvdjU1Q2pRRU9TUDFISnh0OWV1aXV4Q2lMYlAtdko?oc=5",
+   "published_at": "2021-03-20T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.678165+00:00",
+   "regional": 1,
+   "regiao_termo": "goiana",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "POSSIBILIDADE DE RACHADURAS EM BARRAGEM DE REJEITOS DE MINERADORA EM CATALÃO, GERA DÚVIDAS E MEDO EM TRABALHADORES E EM SEUS FAMILIARES - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdnlPeXFvSjRnVHVOOU5jM0trdjlVUUJKc04xaGpSMGtTVFVNcGR6bkhib3lnX3JjRlJnSXkya2I3N1p2V1VRcTMzUU9iWWZ4amxHVTNFb3ZBMmhvYmcwVTdYUnZWYno0bjZZeHI1ZXhRWHI4Tm5WR05DRkJDQXd2dHNDbEZ1dDJRM2VfM1VqdWNuNGhHWGVoamNBT2VGUS1qZlg5YWRZQ3BveDc0RlRhS2RlZTQ1cGpaanE2SkdJU1lYbHM0cjc0enU2UV9vVG93djQ5bWd6alVYcFpkSTJsUU56dWdWOGp0M3FuM3FxWk9SX1hBa2fSAfsBQVVfeXFMTmFBQ1FFTjJnbHdhV096OE1HQlFpR3lvaGtOTlB1b1JjVm9EQXNjU0dVTnBRYzJxTTgtUWJDeW5RQTk2SkZPSlF2Vi1JdGFDQ1FYbGh6Qzc1ZFFFWV8wN1dVbFhrbFFDdDJmS2RPYmZiOTBCNjZTb3o1WFpoVDVybzN2R3Fma05hc0Zsc3l0WHdUWTN1amgtOHVjNkFLVHVqNzlONEF4OWZVRm9Fek9qN05hNVhjaGFGT1I0dTFRdFJGekI1Tnh2bWVlUWh4TWZfSDRFZG9fRS1iS1pSUWpZb2NibGRCOVpGVmNMVk9pQ0RsSmJwLWpWZGdiV2s?oc=5",
+   "published_at": "2019-10-21T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.727306+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "É oficial: Centro da Terceira Idade será transferido para o Clube da Mineração - Prefeitura de Catalão",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPODc4LVJoM0NoS1oycXQ2MWE1NmdGc2VaeFEwa19MQTZwU0dQQ0RVVWtyTWUyTVZTTHo4N00zZjgtX2VNRl96bVVidkZ5OHhhQ2FRNWdoMkRtYkl6c2lsSUE5aVhUQk5VMlZRUHBaZVZ5MlBhYS15NGFtOEtrZUdSeFV0REZvbzVmbXNXUXd5LVJLaG45NVZOODEwWVVGYUhadnNIWlJTOTZxWTQ2dVFnMWZieUZ0MnVpQjNpR3lVZw?oc=5",
+   "published_at": "2019-07-22T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.676159+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mosaic Fertilizantes anuncia retomada de mineração em Catalão - brasilagro.com.br",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ25DWmk0allRTzhCbm8xWnhYNk5uOTQ0bmFaaEhUTUFIeG0xdmNpZGdCYXhFQ1k2amdBLVlRYlcxQ2s2OG1wcmpyMWpzcjg5QmVBTWdsNnRscWNQRnBURmlhd1FTT1hYU2U5dk1FdFNFbmJEcTRVaUZMcFhMQzZJVEUyNHNTRVJlVklGa3JLdlhRTV9xdk9IVVhWTHlRTXpFSG5YaUI4TC0?oc=5",
+   "published_at": "2019-05-29T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.682157+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "MINERADORA DE FOSFATO INSTALA MAIS SIRENES EM ZONA RURAL DE CATALÃO PRÓXIMAS A BARRAGEM DE REJEITOS - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUktWdXhKV2VCSmxMUU16TkNnRzRNVkpVQ0dQQnpHQ29wU0lRbkNxWUQwOVlwTGk5Rmx1UHFUbUtXQTQwakNEalBHcGRkdjE3cmhza1BEdWwtWk1uWFR0UjF2UFRtZUswTzlEWERjUmdDeEkzZm95WlRJMXZ6ekxKc3A3cXBNcG1HalR3N1JHdTlTclZNOGF0eU5Yd2NLRW5iRmx3ZjdGRkhSSGV0QV9FemZCaHRQZ0Z6R3VFNXlxa1Y0cFZEUTUw0gHMAUFVX3lxTE04ZzJ2WHJOR3hkQzloYTBrWnF0MEd4SUs2VGZDOFlkUG5vb2ZzMGJGZWpmQmpBenAwTmZENTJ6eW9UV0NxeFNlSWkxdzRER2ZxLXlhRW5RTVZYLWRnV3FUTlViS2xiendvVjYxbFlDdmxiaHdnb2RCd2NwbGlyNmN5ZTdBZlktTl95S1R5TXpIaDVlVXJjSUsyZmU5cVFzaE40clBKV3RwT2h5TmZvdXJoQ1RWWTd6Ym1jN0JNdFdUd1NrSGhBd1VPd2k3bQ?oc=5",
+   "published_at": "2019-05-15T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.738314+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "fosfato"
+   ]
+  },
+  {
+   "title": "AMPLIAÇÃO DE MINERADORA PODE INVESTIR R$ 1,2 BI EM CATALÃO - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbDZkaHdSRnBQVUNjWXRhRnpZMVNmZ3JUbWgzZUt2eU5CTFB5Y3FWckhuOHNRZUFxWDIyN1l4ejdMM3J0cHBZeXgyOEhMMlcwNHBKWGNlMWRRTmlhal9QZFY4Tm9vU2x2NDdJX0ticldsbEQ4VGVyaThYdFcwd2cwSlZNZEk1QlJwRlVCeS1uZjfSAZYBQVVfeXFMTVFOZjlROG9hYXZZYkU0cUoyclkxak5uNkF0VDE1dGtZODZXSDNaTW1pRGlHNXJFUFVrVi1QSmZFNFFVX2pGcFBkdGRsOUFyZWV4SDlyTElWR1huWFhzdWxBNnhKSGhGMjNwV2UzcmhlQXhjNU84UkhUOTdXT2NmSmZZVzlUWU83Q3pFc3RoSEhEdUxzY1NR?oc=5",
+   "published_at": "2019-05-12T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.745352+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mineradora fecha barragem por falta de atestado de segurança da estrutura, em Catalão - G1",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQN3pzbUE2ZmVtWXBLTjlMaGN2SFFYekNSNzJIY2gtbHVMcjVjR21vT0F6aHk1MzlfSi1BTUZrd3lDTVNta25oRXhzWHJ3WjBKdEY3T1p5WjllWXZ4QnhGWURBVWhQSzVLWEhkZVBkTDdLanRSY0xvOFVKZTFvUlppbGRLbHh4QllqT3JEaEotWm5hMzRVcHZ0UXQ5dW9nWGhBOUdENjN4UC1JRDN3LUFWTGlNOUV1aWhSd1RiY2h4SHF2YXM3OGNrUnRYRTlPeUFteER2X0U1LUhhOGZmbnRTVGw3NXFsZVHSAfYBQVVfeXFMUG9rWUROcnhHakl5cHI2c0ZhNzNYNFVtSmNweDdfT3U3QTdOSi1URG5OUWhNazZFY1ljTXE5M1NvVWdNQkNSZ2JwMHpkcHlJemxJN3JyZHJuZG5lQ2JHR2dtaEtZbExsa2VjVjZqbktUbllHbk1ETjVlSVhnUzRMOWNHbGxrNGF0aU0za01jVk5qQmdJNFcxeElwRzktNHBadHdLOHAtc2dVX3pUdGFjeVFId2o4MS0zYkxzUU5nMl9ROVdXOUluekIzdm9fR0djT2puSnJ4b1BoSk9PZlRSM1lzUFBGRVVkUWp0bjN6ZEx4ZzhDN2Nn?oc=5",
+   "published_at": "2019-04-12T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.721268+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "CATALÃO-GO: APÓS SER INTERDITADA PELA AGÊNCIA NACIONAL DE MINERAÇÃO (ANM), MINERADORA MOSAIC FERTILIZANTES ACIONA PLANOS DE AÇÃO DE EMERGÊNCIA PARA BARRAGENS DE MINERAÇÃO (PAEBM) - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNT2tubVRqTjhya1lqSWR2bmtHUGlidUQzV0ZPaXZvX0E1YVZ4UmZBcnA0WTV6TFgteDA5UDZyTzNWdEtORDhwRHhTMS1IUkc0RDliXzlydTVPTGw1alB1TV9NblVLaVhwOF9jcDdYLTd0R3R4UHlXYW8wMnh6QUJGdmctWG5VUmpKSHhnNlBEY3owSXdmbFNsUEt6ZnJWekFIeEhBZWxaeWdiVFY5REtwY0ZGVE10a28zZWQ3WVk2WWxWRjYxdmMxc3lLc0ZhU2RlN2dZeUtCUGlJVXZFUmlPdWNUVUlBN09ib041NFpEZUVGX0RESFVzeGJia2Fzbm9jVnRBb0FDc2s5cmtXQ0pLeUp5bURabWNqRy05WHlNY3ktd0tYMXlTOdIBrgJBVV95cUxPOUx6MUxxbTNxZWhHblBJVjhUNzE1ejdsN2cyNlpFTnVXM3VCMWFUbjdnQTd0TmttOFhYdFFNSkNhV0lOOWlqbmVqbzZQcDA1OEludEVjaWd5TDIwZUhrMEx0UVF3OHVvVzhGVkFYSThkemRGbGk0emZ5RkE3SE8zSUdvVnVPWGNlZDJod1ZzM3VZc1FnMjcxSlpfY1hOM21MQ1FpWGhrTDdGaXpfR2JsR00tdU84SWR0d0FtWG9jMFFMWjdhZE1LWWhobW42T0RJdXQzdjBvUk5rYW9xSTE0aVczUTg4bVIwc3ZmdS1nT0tKWXdEVi1yQ1RjN2RiNzV2WDR1MVlxTXN0QTdvTDNnejhGT1J5czRuUThlNGlZLUtGUHNyZE1Kb2FpOUd4QQ?oc=5",
+   "published_at": "2019-04-11T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.718306+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "AGÊNCIA NACIONAL DE MINERAÇÃO (ANM) PROPÕE FIM DAS BARRAGENS A MONTANTE ATÉ 2021; MINERADORAS DE CATALÃO POSSUEM 8 BARRAGENS - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTEY1NGNEbndnZWY4TVN5aWp0YjVNSTEwTU0yaVR0NG5HOXlGWDV0dUJyZTVQUmQxS2M2N2dBNmtHNWhzd0Z4bHc1cjRFeXotSFpId1dRYm05VjdiUWt3RXBFVEVnRy1LUDdZd0kzN2RhRlVNNjJDQVJGbDF0VlFhT0RfZEttdlN2dmtCRzktWjRzRU9Ha3NOdVQ4SWczd0hqejFHUXEwRVUtWFZtTFJPLWliWF84di1EM3FBbzN6aEppOUVjcUVSYUJNcTRvSlk2T2p2clZrQVZONC03R2JfRllfSFfSAeoBQVVfeXFMTW04Zm9tMUVHX0M4MWI2eEVYYlIzNnlSaVM1VWRBUmVuVzNDa3pqXzJsN2F3d3YxMzNTLTMwQ1pMT1VTeTNrNDhBNXNISVRBUmxoNnBEbS1Wek1WYzc2UFpmQWpMOU1LM2lKbzdFSWF1amZlRUF6NGozS2V6a000UVg3alRrSTFHcUtqQ2gwd2NIZG9sb05IRjlvcUlYTkF3OXBWYXV4Xy1fVk5QYU5mVExZWlVrUVRVN01LLVB3MXNxQUZ4OXc4MDNhc0Mwc2xvZnBqY1hEN2oxbHR4QVdmdzRJVzJZN2k0ZFhR?oc=5",
+   "published_at": "2019-02-17T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.741354+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Metalúrgico morre durante o trabalho em mineradora de Ouvidor - G1",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYXB2eGNqMWtRenJqMGJScjNfM2x0SGRvekJVSXo0Sk1HUGZDZUhmVmdXQ3VndzR2b19oQ0ZUaVhRRXpMODMySUF2MVhmVW8yQlB5S0JpUFFKbGtycVBPOVlISkRCM3dIa0lSX1JUTkJmS00wR2tyQkhPN3dpc00xM1VOVTFacmpUTGxsQjlEY1hneEJhdTJtcGFMbVFFMVBNQm9WR0d1N2stckV3X1FMVDFQNkIzeGs?oc=5",
+   "published_at": "2018-11-22T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.728305+00:00",
+   "regional": 1,
+   "regiao_termo": "ouvidor",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mineradora responde a acusações do prefeito de Catalão em nota - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYk5WTmxHUk1qc0s5RF9WSjBCc0tFM2pjUWhuN3hEZDdSX0MxaG5RTHBRMnQxZUpEelFCcnpuUmZlYzg5Q0loV2xMbHA4Z3NGWEhDN2hmZkRIQm0xVnFxZUQtN29jVlNxeTVfY0xNTDhoOGVqbmNfNi12N19Ya2xxLTk2b3NmR2ZLMk9jczBSMEcwQ3V4RTh6bHpuMHNYNnVrM3dQN1ktR0tHY0dJcDVMR0NoWXpTWEVod0E?oc=5",
+   "published_at": "2018-10-29T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.710303+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mineradora testa sirenes que alertam moradores em caso de rompimento de barragem em Catalão - G1",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVm9QaDZEY0ZnVGVEclNJenhBMEhlLWZETWxiZVhycjRFeVZrSGhqZ0N6QlZCQjJuLUVWVkkydS1mT1dlWDB5TElUb2FuczJyRGhONnAyWk9IZEpKWTQzTGRzU3c5SExUb1BFdmxzVWdfWUx2Um1TRG1Odm0yREV0dHZiaGNwa1ZUMXJOYlIzMjFlbjBzOGtkNjhJUU56NDRlTDBjVHhnMFlxVG1QMXhQUEpmdVpFX1N6QzNoWnc3R3R2N3NCbzQxS0s2M0JDS0NlSU5N?oc=5",
+   "published_at": "2018-02-04T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.735304+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "CATALÃO: 31, 3 milhões de investimentos pela Brasil Minério para a exploração de vermiculita - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU2tfeXkyWkVGRndQVXdKOVFTYm1nZlRpXzN4Q2VJUW90elc2amNtN0MwMFVuVFQzNVJkU1FWOHRuTWxRVU92ZEdCU0tNOTBwQTBGMjZKeXhHOEo0WEpkR2NtdFpDRjBPWkpWR2ZTOVR0NlYzaXoxX3kwbjJualdvTWdlUUJfMkU1NXNYakNMOFRNM1hTMWVGOTdVaXd0NXlCM1c0S3BFNzJudHJib25yeUwyVUxLeFJpd1ZF0gHAAUFVX3lxTE85LVpQbnZ2TEhIX2VKTjg2WXVPZzNYb2pleGhVV2hRbjRmM2JhZUZSQ2c0ZHJ1M1VNUEthWTRVNkhSUEFfRjRpNFBuUFQ4WVdsQ0dYdHRWeDRVRjNyeU1jTFFOVkxkX0t1Qm9FdDE1QjNTaEF2TVpvQ3dEQkVseFE4b01rcXh1WHk4YkFtaTdsTEkwZENncW5LbGwteE1RdUpacjR5eFJhT20zMDVNZXdrd2Y0dWV6anBLMEtsMk43cg?oc=5",
+   "published_at": "2017-05-13T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.757982+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Engenheiro morre soterrado por lama em mineradora de Catalão, GO - G1",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOC1qQ0dMNml4bktsTVF3RXVOWmZWWjhjS0FtYVpYcVhMMHB3QUgyNHhVSkUxWkdtbTdLLXROeTJ2djVyVzEyYkYtNmJzOTZNRnd1Rll1aXItM3dEVGc4Wm5wRXR4aTg0bWs0Ujkyd3Z1a2Z6cnFqbnk3bU05blpXVGlHbXRnblNXVEFpclpTQ0lMZWhSem9DYVpwakpQNXJtUG5wTXprdTNmUmxJTktQWA?oc=5",
+   "published_at": "2015-06-12T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.725267+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "ANGLO AMERICAN VAI INVESTIR US$ 325 MILHÕES NA EXPLORAÇÃO DE NIÓBIO EM GOIÁS - Petronotícias",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVHJQZmZNWUxYWWdNdHdvbW8yVk9UN0tHWWVNOTA5WEZwb0o2VzJIYjFhV1lqM3hpN1JzVG81NzFCaURqOHdUbVItVk00U1pGbl9mdG16T3hqcTVNdjBKa2RmNVEybnIxNHJKbkY1VWw0Sm1DSG5YdHRfNWpwZ25kZjBTWF9fcnNYWjlrOHlVcEhsc2wxcWNnRm1fenZGVlBPTjB0UXhwZGk?oc=5",
+   "published_at": "2013-02-26T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.735386+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niobio"
+   ]
+  },
+  {
+   "title": "Mineração e indústria impulsionam Catalão (GO) - Folha de S.Paulo",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR0xTc0hMOGE2Wk00YmctSTEtZ25vMmVWOWF3bzRleHd3MUg3Y2xVeThhYXFFZDVsNy13WUpoR3FGZ3RYcHZaR08yY3MtdkJkQzZQckJveFZFUnJlOTlEN0prZzhmVF9fWlpHaUxDNzlMZFhBVVVRZE5xc0NtMGU2VUs3RU1pdUd3UE5ZcHo3ZHFyT2xSWC1mRFJpbUl3TFhEUmR0NlhpMA?oc=5",
+   "published_at": "2013-01-06T08:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:44.737315+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Especialista de Goiás explica como caça-níquel é programado para viciar - G1",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN3JyZ1c3a2dvYVNfR3hHRENmdy1RVHJmOG8xVUJuZTYyeXVvempDdEwzOHFnZjVkVnhhZXVXWl9JRkkyckdaMWdDZW42eE5TQUFkMkd4dm9Jck5PZjM1ZUxMNXR4ZmZYSGdxS0dCTDlodkRVVzNSQUZTeFN6VG90VFl1QmNEYmhrRVhsSXlfeFhMdnVXNlBrM2NNbGpFMEE0ME00U2JMWk5MWHk0UXAzUWRPZWVjU2xVeWhj?oc=5",
+   "published_at": "2012-04-11T07:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:42.736385+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "China está construindo cidade modular a mais de 4 mil metros de altitude para abrigar até 5 mil trabalhadores em megaprojeto de mineração",
+   "link": "https://portal6.com.br/2026/09/19/china-esta-construindo-cidade-modular-a-mais-de-4-mil-metros-de-altitude-para-abrigar-ate-5-mil-trabalhadores-em-megaprojeto-de-mineracao/",
+   "published_at": "2026-09-19T18:00:35+00:00",
+   "first_seen": "2026-09-19T18:31:53.127734+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Portal 6 · Anápolis",
+   "escopo": "regional",
+   "tema": "geral",
+   "substancias": []
+  },
+  {
+   "title": "Flávia Saraiva conquista ouro nas barras assimétricas na Copa do Mundo",
+   "link": "https://exame.com/esporte/flavia-saraiva-conquista-ouro-nas-barras-assimetricas-na-copa-do-mundo/",
+   "published_at": "2026-09-19T17:47:13+00:00",
+   "first_seen": "2026-09-19T18:32:07.022805+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Exame",
+   "escopo": "nacional",
+   "tema": "geral",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Professora de Sergipe vai integrar comissão para ampliar estudos sobre terras raras - G1",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdGFuUWJPdFNrbjF6dmxpbEl0MWZlSlcyY3FJM1V6VllQTE04cGFJNXdPZ0RnQVRRNEdfRmJVUVBvengtd0p0dDFrS2h2aVJBSTNKWlJ6MnE3dzYwZHJuVUNTb3hDMWZZNHlrRWJyY0NkNkJQaXRfRUl4Rk91ajdFMHlqdV9SdHNKYlRITlUyU0p1NWFseGhsR3JWZllpTWNfYUw2Y0t4UGhneUctRV9lczF4dWltNUVQazVLalZ1Vy04Skw3MDgxSjdUVkFvclA3S1pISG5sXzEzU1NBbFI0VkFuV05iQdIB9AFBVV95cUxPemxhb3JJamJvV25RVXE1WUtJdjVaLW5BOWlZaXlHMUxHcnc1X21Db3ZqNnZHbjNnTlphejI5N3R4WXZvOTdVWU9Ia1Q2SEZCWlBYMi12eXpOTkhwZVdfM2VjeEtNTlFvQ0lYWWhhS2lRRGVpUGtBRG1fM1RjakxnX1Q1c2Y1QlBYX2hQaVBlWTVZWGlYLUctclk1RkVINnNqTDY2bExEMU1vdmNMTXJnTVZYcjFDcTl5R1Y1US1YTGxCYjhYdDZRVVF1bkxnV2FudVJiU2lyTDBCZjg1bUlMMTJDeEF1TmNpSjJaQ3hwTUh2QWxn?oc=5",
+   "published_at": "2026-09-19T13:52:07+00:00",
+   "first_seen": "2026-09-19T18:32:48.346848+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Barry FitzGerald: Investors warm to Venari’s hot Red Mountain strontium and lithium",
+   "link": "https://stockhead.com.au/resources/barry-fitzgerald-investors-warm-to-venaris-hot-red-mountain-strontium-and-lithium/",
+   "published_at": "2026-09-19T13:39:40+00:00",
+   "first_seen": "2026-09-19T18:32:10.254256+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Stockhead",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Terras raras ganham espaço e atraem novos investimentos para a mineração brasileira - O Mundo Diplomático",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUXpIVVFaaVgwVnYwQjB0THYyeFpfaXNfN0VDS3NJSkhUeFU4WGZESWlHV0Z3OVRaS2pxUG1RMGpjdkItUTJxbTQxdE51aGg1c0F1SWxOWjRXb28tN3o0am5ZZUR4M1lrZUlxb3NEUzIyU25YUjM3NjlzR0tSaXJRV1pNdkhuMThIUHJ2MVloeVpaaG1pcUNubUVrV3BVdk1td0haeEdzX0J2TkZuOTdzb01OaWhiN3FFNERCdVkyT1RQRXBDeExN?oc=5",
+   "published_at": "2026-09-19T11:50:17+00:00",
+   "first_seen": "2026-09-19T18:32:48.333851+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Corrida pelo ouro: por que países europeus estão tirando suas reservas dos EUA",
+   "link": "https://g1.globo.com/economia/noticia/2026/09/19/corrida-pelo-ouro-por-que-paises-europeus-estao-tirando-suas-reservas-dos-eua.ghtml",
+   "published_at": "2026-09-19T11:00:00+00:00",
+   "first_seen": "2026-09-19T18:32:03.068696+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "G1 Economia",
+   "escopo": "nacional",
+   "tema": "geral",
+   "substancias": [
+    "ouro"
+   ]
   }
  ],
  "tendencias": [],

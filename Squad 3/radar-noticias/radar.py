@@ -449,7 +449,7 @@ def run(database, config, fetcher=fetch):
         connection.close()
 
 
-def export_payload(connection, limit=120):
+def export_payload(connection, limit=180):
     """Build exactly the packet /api/radar already serves under 'noticias'.
 
     This is how the collection reaches the site without anyone touching the VPS: the
@@ -458,16 +458,24 @@ def export_payload(connection, limit=120):
     processes.json already takes. A SQLite under /var/lib never leaves the machine
     it was written on, which is why the older module needed a manual install.
 
-    Regional sector stories come first: they are the ones that bear on Goias.
+    Regional sector stories come first: they are the ones that bear on Goias. The
+    default of 180 is measured, not guessed: it is where every Goias sector story of
+    the 19/09/2026 collection fits and seven different substances still appear, so
+    both filters on the page have something to work with. Sixty left the substance
+    filter with a single option.
     """
     connection.row_factory = sqlite3.Row
     itens = connection.execute('''
-        SELECT i.title, i.link, i.published_at, i.first_seen, i.regional, i.regiao_termo,
-               i.setorial, s.name AS fonte, s.escopo, s.tema
+        SELECT i.item_id, i.title, i.link, i.published_at, i.first_seen, i.regional,
+               i.regiao_termo, i.setorial, s.name AS fonte, s.escopo, s.tema
         FROM news_items i LEFT JOIN news_sources s ON s.source_id = i.source_id
         ORDER BY (i.regional AND i.setorial) DESC, i.setorial DESC, i.regional DESC,
                  COALESCE(i.published_at, i.first_seen) DESC
         LIMIT ?''', (limit,)).fetchall()
+    # Substances per story, so the page can filter by them without another round trip.
+    por_item = {}
+    for row in connection.execute('SELECT item_id, commodity FROM news_item_commodities'):
+        por_item.setdefault(row['item_id'], []).append(row['commodity'])
     conta = lambda sql: connection.execute(sql).fetchone()[0]
     run = connection.execute("SELECT finished_at, status FROM news_runs "
                              "WHERE finished_at IS NOT NULL ORDER BY started_at DESC "
@@ -481,7 +489,9 @@ def export_payload(connection, limit=120):
         'gerado_por': f'radar-noticias {RADAR_VERSION}',
         'atualizado_em': run['finished_at'] if run else None,
         'ultima_execucao': run['status'] if run else None,
-        'itens': [dict(row) for row in itens],
+        'itens': [{**{k: v for k, v in dict(row).items() if k != 'item_id'},
+                   'substancias': sorted(por_item.get(row['item_id'], []))}
+                  for row in itens],
         # Empty while sinais_de_direcao is false. The page renders an empty state.
         'tendencias': [],
         'total': conta('SELECT COUNT(*) FROM news_items'),
@@ -495,7 +505,7 @@ def export_payload(connection, limit=120):
     }
 
 
-def export_json(database, destination, limit=120):
+def export_json(database, destination, limit=180):
     connection = sqlite3.connect(f'file:{Path(database)}?mode=ro', uri=True, timeout=10)
     try:
         payload = export_payload(connection, limit)
@@ -545,8 +555,8 @@ def main(argv=None):
     parser.add_argument('--report', help='write the run report as JSON to this path')
     parser.add_argument('--export', metavar='PATH',
                         help='write the packet the site reads (data/noticias/latest.json)')
-    parser.add_argument('--export-limit', type=int, default=120,
-                        help='how many stories go into --export (default 120)')
+    parser.add_argument('--export-limit', type=int, default=180,
+                        help='how many stories go into --export (default 180)')
     parser.add_argument('--offline-dir', help='read feeds from .xml fixtures instead of the network')
     parser.add_argument('--check', action='store_true',
                         help='only test whether each feed answers, without storing anything')

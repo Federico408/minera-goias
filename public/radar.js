@@ -104,27 +104,81 @@ function wireExplorer(){
   if(tab)tab.click();
   if(window.atlasShowProcess)window.atlasShowProcess(selected.id)}}
 
+/* As matérias ficam aqui para os filtros trabalharem sem nova chamada à API. */
+let NEWS=[];
+const subName=s=>t('rd.s.'+s);
+const viaBusca=link=>/news\.google\.com|bing\.com/.test(link||'');
+
+function newsItem(i){
+ const iso=(i.published_at||i.first_seen||'').slice(0,10);
+ const quando=/^\d{4}-\d{2}-\d{2}$/.test(iso)?iso.slice(8)+'/'+iso.slice(5,7):iso;
+ const marca=i.regional?`<span class="rd-tag-go">${escape(t('rd.regional'))}</span>`:'';
+ const subs=(i.substancias||[]).map(s=>`<span class="rd-sub">${escape(subName(s))}</span>`).join('');
+ // O link das buscas passa por uma tela do Google antes de chegar ao veículo.
+ const indireto=viaBusca(i.link)?` · <span class="rd-indireto">${escape(t('rd.viaBusca'))}</span>`:'';
+ return `<li><div class="rd-meta">${marca}${subs}<span class="rd-data">${escape(quando)}</span></div>`
+  +`<a href="${escape(i.link)}" target="_blank" rel="noopener noreferrer">${escape(i.title)}</a>`
+  +`<span class="rd-fonte">${escape(i.fonte||'')}${indireto}</span></li>`}
+
+/* Quantas linhas a lista desenha de uma vez. O resto sai pelos filtros: uma lista de
+   180 itens dentro de um painel vira rolagem sem fim. */
+const NEWS_MAX=40;
+
+function drawNews(){
+ if(!el('rd-lista'))return;
+ const valor=id=>{const e=el(id);return e?e.value:''};
+ const marcado=id=>{const e=el(id);return e?e.checked:false};
+ const busca=(valor('rd-busca')||'').toLowerCase().trim(),sub=valor('rd-substancia');
+ const soSetor=marcado('rd-so-setor'),soGoias=marcado('rd-so-go');
+ const vis=NEWS.filter(i=>(!busca||(i.title||'').toLowerCase().includes(busca))
+  &&(!sub||(i.substancias||[]).includes(sub))
+  &&(!soSetor||i.setorial)&&(!soGoias||i.regional));
+ el('rd-conta').textContent=vis.length>NEWS_MAX
+  ? t('rd.newsParcial',{mostradas:n(NEWS_MAX),filtradas:n(vis.length),total:n(NEWS.length)})
+  : t('rd.newsMostrando',{mostradas:n(vis.length),total:n(NEWS.length)});
+ el('rd-lista').innerHTML=vis.length?vis.slice(0,NEWS_MAX).map(newsItem).join('')
+  :`<li class="empty">${escape(t('rd.semFiltro'))}</li>`}
+
 function newsBlock(noticias){
  if(!noticias.disponivel){
   const motivo=noticias.motivo==='banco_ilegivel'?'rd.bancoIlegivel':'rd.semColetor';
   return `<div class="notice">${escape(t(motivo))}</div>`}
- const items=noticias.itens.length
-  ? '<ul class="rd-news">'+noticias.itens.map(i=>{
-      const quando=(i.published_at||i.first_seen||'').slice(0,10);
-      const marca=i.regional?`<b class="rd-tag-go">${escape(t('rd.regional'))}</b>`:'';
-      return `<li>${marca}<a href="${escape(i.link)}" target="_blank" rel="noopener noreferrer">${escape(i.title)}</a>`
-       +`<span class="muted">${escape(i.fonte||'')}${quando?' · '+escape(quando):''}</span></li>`}).join('')+'</ul>'
-  : `<div class="empty">${escape(t('ov.empty'))}</div>`;
- const contagem=noticias.total!=null
-  ? `<p class="small muted">${escape(t('rd.contagem',{regionais:n(noticias.regionais||0),total:n(noticias.total)}))}</p>`:'';
+ NEWS=noticias.itens||[];
+ if(!NEWS.length)return `<div class="empty">${escape(t('ov.empty'))}</div>`;
+ const nomes=[...new Set(NEWS.flatMap(i=>i.substancias||[]))]
+   .sort((a,b)=>subName(a).localeCompare(subName(b)));
+ const opcoes=nomes.map(s=>`<option value="${escape(s)}">${escape(subName(s))}</option>`).join('');
+ // O filtro "só mineração" só aparece quando há o que filtrar. O coletor manda a
+ // seleção já ordenada pelo setor, então normalmente tudo que chega é do setor e o
+ // controle seria um botão morto.
+ const mistura=NEWS.some(i=>i.setorial)&&NEWS.some(i=>!i.setorial);
+ const acervo=noticias.total!=null
+  ? `<p class="rd-conta">${escape(t('rd.acervo',{total:n(noticias.total),
+      regionais:n(noticias.regionais||0),setoriais:n(noticias.regionais_setoriais||0)}))}</p>`:'';
  const atualizado=noticias.atualizado_em
-  ? `<p class="small muted">${escape(t('rd.atualizado'))} ${escape(noticias.atualizado_em.slice(0,16).replace('T',' '))}</p>`:'';
- return contagem+atualizado+items}
+  ? `<p class="rd-conta">${escape(t('rd.atualizado'))} ${escape(noticias.atualizado_em.slice(0,16).replace('T',' '))}</p>`:'';
+ return acervo+atualizado+'<div class="rd-filtros">'
+  +`<input type="search" id="rd-busca" placeholder="${escape(t('rd.buscaPh'))}" aria-label="${escape(t('rd.buscaPh'))}">`
+  +(nomes.length?`<select id="rd-substancia" aria-label="${escape(t('rd.todasSubstancias'))}">`
+    +`<option value="">${escape(t('rd.todasSubstancias'))}</option>${opcoes}</select>`
+    :'<select id="rd-substancia" hidden></select>')
+  +(mistura?`<label class="rd-check"><input type="checkbox" id="rd-so-setor" checked>${escape(t('rd.soSetor'))}</label>`:'')
+  +`<label class="rd-check"><input type="checkbox" id="rd-so-go">${escape(t('rd.soGoias'))}</label>`
+  +'</div><p class="rd-conta" id="rd-conta"></p><ul class="rd-news" id="rd-lista"></ul>'}
+
+function wireNews(){
+ if(!el('rd-lista'))return;
+ for(const id of ['rd-busca','rd-substancia','rd-so-setor','rd-so-go'])
+  if(el(id))el(id).addEventListener('input',drawNews);
+ drawNews()}
 
 function trendBlock(noticias){
  if(!noticias.disponivel)return '';
  // Only signals the collector was willing to call are worth a row here.
- const rows=noticias.tendencias.filter(x=>x.verdict==='pressao_de_alta'||x.verdict==='pressao_de_baixa');
+ const rows=(noticias.tendencias||[]).filter(x=>x.verdict==='pressao_de_alta'||x.verdict==='pressao_de_baixa');
+ // A leitura de alta/baixa está desligada no coletor, e uma seção permanentemente
+ // vazia só confunde. Sem tendência, não desenha o bloco.
+ if(!rows.length)return '';
  const body=rows.length
   ? `<table><thead><tr><th>${escape(t('rd.thSemana'))}</th><th>${escape(t('rd.thSubstancia'))}</th>`
     +`<th>${escape(t('rd.thMaterias'))}</th><th>${escape(t('rd.thVeredito'))}</th></tr></thead><tbody>`
@@ -146,6 +200,7 @@ async function load(){
   el('rd-situacoes').innerHTML=bars(d.rodadas.situacoes,VIZ.analise);
   el('rd-municipios').innerHTML=bars(d.rodadas.top_municipios,VIZ.abrindo);
   el('rd-noticias').innerHTML=newsBlock(d.noticias);
+  wireNews();
   el('rd-tendencias').innerHTML=trendBlock(d.noticias);
   el('rd-fonte').textContent=t('ov.sourcePrefix')+d.rodadas.fonte;
   wireExplorer();

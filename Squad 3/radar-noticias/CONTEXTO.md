@@ -119,6 +119,31 @@ Três mudanças:
 
 O risco de mexer no `radar_api.py` é contido pelo próprio deploy: ele testa as rotas antes de trocar a versão e restaura a anterior se falhar, conforme `deploy/README.md`. Os três casos foram testados à mão — arquivo ausente, presente e corrompido — e em nenhum a rota quebra.
 
+## Decisão 8 — arrumar a apresentação no painel
+
+Com o site já mostrando as notícias, duas coisas ficaram evidentes: a lista estava feia e não tinha filtro nenhum.
+
+A feiura era **defeito antigo, não da coleta**: o `public/radar.js` sempre emitiu `<b class="rd-tag-go">GOIÁS</b>`, mas `.rd-tag-go` nunca existiu no `style.css`. O gancho estava lá e ninguém escreveu o estilo, então a etiqueta saía como texto colado no título — "GOIÁSAgro, terras raras…".
+
+Foram tocados três arquivos de outras pessoas, com autorização explícita:
+
+| Arquivo | O quê |
+|---|---|
+| `public/style.css` | Bloco novo no fim, no padrão do bloco de idioma que já existia |
+| `public/radar.js` | Busca por título, filtro por substância e por Goiás; etiquetas; corte em 40 linhas |
+| `public/i18n.js` | 19 chaves novas, em português e inglês |
+| `tests/test_radar_api.py` | Dois testes precisavam saber do arquivo publicado; mais dois acrescentados |
+
+**Três escolhas foram medidas, não chutadas:**
+
+1. **A API manda 180 matérias, não 12.** Com 12 não havia o que filtrar. Foi medido: em 60, o seletor de substância tinha uma opção só; em 180 cabem as 174 de Goiás do setor e sete substâncias diferentes.
+2. **A lista desenha 40 por vez.** Cento e oitenta linhas dentro de um painel viram rolagem sem fim.
+3. **O filtro "só mineração" só aparece quando há o que filtrar.** Como a seleção já vem ordenada pelo setor, normalmente tudo que chega é do setor e o controle seria um botão morto.
+
+A seção de tendências deixou de ser desenhada quando não há tendência — com a direção desligada, ela era um bloco permanentemente vazio.
+
+**Sobre não quebrar nada:** a mudança em `radar_api.py` fazia dois testes existentes falharem, porque eles verificam o comportamento quando não há coletor e agora existe o arquivo publicado. Os testes foram ajustados para apontar o arquivo para um caminho vazio, que é o que eles de fato querem testar, e ganharam dois casos novos: pacote publicado tem prioridade, e pacote corrompido cai na reserva sem quebrar. A bateria inteira do CI foi executada localmente num ambiente isolado — 55 testes, todos passando.
+
 ## O que foi feito nesta sessão
 
 - Validação das 22 fontes antigas e de ~130 candidatas.
