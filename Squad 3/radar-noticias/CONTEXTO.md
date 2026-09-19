@@ -158,6 +158,20 @@ Os arquivos ficam em `public/data/noticias/` porque **só `public/` é servido p
 
 **Uma regressão apanhada no caminho:** ao reorganizar, o pacote de abertura passou a ser "as 180 mais recentes por data" — e como o G1 Goiás publica de tudo, só **6** delas eram do setor. A abertura voltou a ordenar por Goiás + setor primeiro; os arquivos de mês é que ficam em ordem cronológica.
 
+## Decisão 10 — filtro por município, cartões, e um gráfico que foi descartado
+
+Três coisas foram pedidas para a página analisar melhor. Duas entraram.
+
+**Filtro por município.** O campo `regiao_termo` já viajava até o navegador guardando **qual município casou**, e não aparecia em lugar nenhum. Na abertura de hoje há 21 matérias de Catalão, 5 de Alto Horizonte, 1 de Barro Alto, 1 de Mara Rosa, 1 de Ouvidor. Era o recorte mais valioso do projeto sendo jogado fora. A etiqueta da matéria passou a mostrar o município em vez do "GOIÁS" genérico, e `feeds.json` ganhou `municipios_nome` para a tela escrever "Catalão" e não o termo dobrado "catalao".
+
+**Cartões.** Quatro números no estilo `.metric` que o painel já usa: guardadas, do setor, citam Goiás, Goiás e setor. A frase de texto que repetia os mesmos números foi enxugada.
+
+**O gráfico por mês foi descartado, e vale registrar por quê.** Antes de construir, medi quando cada matéria foi coletada: **todo o acervo tem `first_seen` em setembro de 2026**. Os meses antigos não vieram de coleta diária — vieram de uma varredura única, do que os buscadores ainda guardavam. Setembro aparecia com 16 matérias de Goiás+setor e abril com 37, o que seria lido como "abril foi mais movimentado" quando é puro artefato de coleta.
+
+Eu ia publicar mesmo assim, com uma nota de ressalva. O Kayo mandou cancelar, e estava certo: nota de rodapé não conserta gráfico que induz a conclusão errada. Um gráfico temporal só passa a fazer sentido depois de alguns meses de coleta diária de verdade.
+
+Ficaram de fora também, por decisão de escopo: filtro por veículo e exportação do recorte filtrado.
+
 ## O que foi feito nesta sessão
 
 - Validação das 22 fontes antigas e de ~130 candidatas.

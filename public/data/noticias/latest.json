@@ -1,8 +1,30 @@
 {
  "disponivel": true,
  "gerado_por": "radar-noticias 0.2",
- "atualizado_em": "2026-09-19T19:49:09.646314+00:00",
- "ultima_execucao": "partial",
+ "municipios": {
+  "alto horizonte": "Alto Horizonte",
+  "barro alto": "Barro Alto",
+  "catalao": "Catalão",
+  "ouvidor": "Ouvidor",
+  "crixas": "Crixás",
+  "minacu": "Minaçu",
+  "mara rosa": "Mara Rosa",
+  "vila propicio": "Vila Propício",
+  "indiara": "Indiara",
+  "niquelandia": "Niquelândia",
+  "campos verdes": "Campos Verdes",
+  "americano do brasil": "Americano do Brasil",
+  "cavalcante": "Cavalcante",
+  "uruacu": "Uruaçu",
+  "porangatu": "Porangatu",
+  "itapaci": "Itapaci",
+  "sao luis de montes belos": "São Luís de Montes Belos",
+  "goianesia": "Goianésia",
+  "itumbiara": "Itumbiara",
+  "quirinopolis": "Quirinópolis"
+ },
+ "atualizado_em": "2026-09-19T19:52:00+00:00",
+ "ultima_execucao": "success",
  "itens": [
   {
    "title": "Agro, terras raras e infraestrutura marcam último bloco de debate em Goiás - Tribuna do Planalto",
@@ -2557,8 +2579,8 @@
  "regionais": 526,
  "setoriais": 1138,
  "regionais_setoriais": 190,
- "fontes_vivas": 62,
- "fontes": 63,
+ "fontes_vivas": 0,
+ "fontes": 0,
  "substancias": {
   "terras_raras": 342,
   "litio": 132,
@@ -2575,7 +2597,7 @@
   {
    "mes": "2026-09",
    "materias": 1215,
-   "novas": 65,
+   "novas": 0,
    "regionais": 187,
    "setoriais": 406,
    "regionais_setoriais": 16
@@ -2583,7 +2605,7 @@
   {
    "mes": "2026-08",
    "materias": 309,
-   "novas": 8,
+   "novas": 0,
    "regionais": 40,
    "setoriais": 174,
    "regionais_setoriais": 24
@@ -2591,7 +2613,7 @@
   {
    "mes": "2026-07",
    "materias": 153,
-   "novas": 5,
+   "novas": 0,
    "regionais": 27,
    "setoriais": 76,
    "regionais_setoriais": 13
@@ -2599,7 +2621,7 @@
   {
    "mes": "2026-06",
    "materias": 93,
-   "novas": 3,
+   "novas": 0,
    "regionais": 26,
    "setoriais": 49,
    "regionais_setoriais": 12
@@ -2607,7 +2629,7 @@
   {
    "mes": "2026-05",
    "materias": 118,
-   "novas": 6,
+   "novas": 0,
    "regionais": 44,
    "setoriais": 62,
    "regionais_setoriais": 26
@@ -2615,7 +2637,7 @@
   {
    "mes": "2026-04",
    "materias": 113,
-   "novas": 12,
+   "novas": 0,
    "regionais": 52,
    "setoriais": 67,
    "regionais_setoriais": 37
@@ -2623,7 +2645,7 @@
   {
    "mes": "2026-03",
    "materias": 49,
-   "novas": 6,
+   "novas": 0,
    "regionais": 13,
    "setoriais": 24,
    "regionais_setoriais": 1
@@ -2631,7 +2653,7 @@
   {
    "mes": "2026-02",
    "materias": 32,
-   "novas": 2,
+   "novas": 0,
    "regionais": 6,
    "setoriais": 19,
    "regionais_setoriais": 0
@@ -2639,7 +2661,7 @@
   {
    "mes": "2026-01",
    "materias": 29,
-   "novas": 3,
+   "novas": 0,
    "regionais": 4,
    "setoriais": 20,
    "regionais_setoriais": 1
@@ -2647,7 +2669,7 @@
   {
    "mes": "2025-12",
    "materias": 26,
-   "novas": 4,
+   "novas": 0,
    "regionais": 3,
    "setoriais": 14,
    "regionais_setoriais": 3
@@ -2655,7 +2677,7 @@
   {
    "mes": "2025-11",
    "materias": 18,
-   "novas": 1,
+   "novas": 0,
    "regionais": 7,
    "setoriais": 8,
    "regionais_setoriais": 3
@@ -2663,7 +2685,7 @@
   {
    "mes": "2025-10",
    "materias": 29,
-   "novas": 1,
+   "novas": 0,
    "regionais": 9,
    "setoriais": 12,
    "regionais_setoriais": 2
@@ -2671,11 +2693,12 @@
   {
    "mes": "anteriores",
    "materias": 507,
-   "novas": 13,
+   "novas": 0,
    "regionais": 108,
    "setoriais": 207,
    "regionais_setoriais": 52
   }
  ],
+ "coleta_desde": "2026-09",
  "janela": "2025-10"
 }

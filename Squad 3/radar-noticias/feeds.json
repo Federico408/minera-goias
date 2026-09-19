@@ -572,7 +572,7 @@
     }
   ],
   "region": {
-    "comment": "Uma matéria é regional se cita o estado, ou se cita um destes municípios junto de um termo mineral/energético. Os municípios foram escolhidos entre os de maior CFEM de Goiás, descartando nomes que se repetem em outros estados. 'contexto' (a uniao dos dois de baixo) decide a regra do municipio. 'contexto_mineracao' decide a marca 'setorial' de cada materia: e setorial quem cita uma substancia mineral ou um destes termos. Os termos de energia ficam de fora dessa marca porque 'energia' e 'eletrica' sao palavras do cotidiano - medido, elas traziam materia de tempestade e de gado eletrocutado para dentro da contagem de mineracao.",
+    "comment": "Uma matéria é regional se cita o estado, ou se cita um destes municípios junto de um termo mineral/energético. Os municípios foram escolhidos entre os de maior CFEM de Goiás, descartando nomes que se repetem em outros estados. 'contexto' (a uniao dos dois de baixo) decide a regra do municipio. 'contexto_mineracao' decide a marca 'setorial' de cada materia: e setorial quem cita uma substancia mineral ou um destes termos. Os termos de energia ficam de fora dessa marca porque 'energia' e 'eletrica' sao palavras do cotidiano - medido, elas traziam materia de tempestade e de gado eletrocutado para dentro da contagem de mineracao. 'municipios_nome' dá o nome acentuado de cada um, para a página mostrar 'Catalão' em vez do termo dobrado 'catalao'.",
     "estado": [
       "goias",
       "goiano",
@@ -668,7 +668,29 @@
       "subestacao",
       "power plant",
       "grid"
-    ]
+    ],
+    "municipios_nome": {
+      "alto horizonte": "Alto Horizonte",
+      "barro alto": "Barro Alto",
+      "catalao": "Catalão",
+      "ouvidor": "Ouvidor",
+      "crixas": "Crixás",
+      "minacu": "Minaçu",
+      "mara rosa": "Mara Rosa",
+      "vila propicio": "Vila Propício",
+      "indiara": "Indiara",
+      "niquelandia": "Niquelândia",
+      "campos verdes": "Campos Verdes",
+      "americano do brasil": "Americano do Brasil",
+      "cavalcante": "Cavalcante",
+      "uruacu": "Uruaçu",
+      "porangatu": "Porangatu",
+      "itapaci": "Itapaci",
+      "sao luis de montes belos": "São Luís de Montes Belos",
+      "goianesia": "Goianésia",
+      "itumbiara": "Itumbiara",
+      "quirinopolis": "Quirinópolis"
+    }
   },
   "substancias_energeticas": [
     "energia_eletrica",

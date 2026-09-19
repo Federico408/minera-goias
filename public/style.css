@@ -77,3 +77,10 @@ header .lang-switch button.active{background:rgba(255,255,255,.14);color:inherit
 .rd-news .rd-fonte{display:block;font-size:11px;color:var(--muted);margin:0;overflow-wrap:anywhere}
 .rd-news .rd-indireto{display:inline;color:var(--muted)}
 @media(max-width:700px){.rd-filtros{gap:7px}.rd-filtros input[type=search]{min-width:100%}.rd-data{margin-left:0}}
+
+/* --- Radar · painel do acervo de notícias --- */
+.rd-metrics{grid-template-columns:repeat(4,1fr);gap:12px;margin:4px 0 16px}
+.rd-metrics .metric{padding:14px 16px;background:var(--bg);border-color:transparent}
+.rd-metrics .metric strong{font-size:23px;line-height:1.5}
+@media(max-width:700px){.rd-metrics{grid-template-columns:repeat(2,1fr);gap:8px}
+  .rd-metrics .metric{padding:11px 12px}.rd-metrics .metric strong{font-size:19px}}

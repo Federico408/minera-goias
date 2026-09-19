@@ -107,7 +107,7 @@ function wireExplorer(){
 /* As matérias ficam aqui para os filtros trabalharem sem nova chamada à API. A
    abertura traz as mais recentes; os meses anteriores são buscados quando pedidos,
    um arquivo por vez, em /data/noticias/meses/. */
-let NEWS=[],JANELA='',CARREGADOS=new Set();
+let NEWS=[],JANELA='',CARREGADOS=new Set(),MUNICIPIOS={};
 const ANTERIORES='anteriores';
 
 const mesDe=i=>{const s=(i.published_at||i.first_seen||'').slice(0,7);
@@ -140,7 +140,9 @@ const viaBusca=link=>/news\.google\.com|bing\.com/.test(link||'');
 function newsItem(i){
  const iso=(i.published_at||i.first_seen||'').slice(0,10);
  const quando=/^\d{4}-\d{2}-\d{2}$/.test(iso)?iso.slice(8)+'/'+iso.slice(5,7):iso;
- const marca=i.regional?`<span class="rd-tag-go">${escape(t('rd.regional'))}</span>`:'';
+ const lugar=MUNICIPIOS[i.regiao_termo];
+ const marca=i.regional
+  ?`<span class="rd-tag-go">${escape(lugar||t('rd.regional'))}</span>`:'';
  const subs=(i.substancias||[]).map(s=>`<span class="rd-sub">${escape(subName(s))}</span>`).join('');
  // O link das buscas passa por uma tela do Google antes de chegar ao veículo.
  const indireto=viaBusca(i.link)?` · <span class="rd-indireto">${escape(t('rd.viaBusca'))}</span>`:'';
@@ -157,11 +159,11 @@ function drawNews(){
  const valor=id=>{const e=el(id);return e?e.value:''};
  const marcado=id=>{const e=el(id);return e?e.checked:false};
  const busca=(valor('rd-busca')||'').toLowerCase().trim(),sub=valor('rd-substancia');
- const mes=valor('rd-mes');
+ const mes=valor('rd-mes'),municipio=valor('rd-municipio');
  const soSetor=marcado('rd-so-setor'),soGoias=marcado('rd-so-go');
  const vis=NEWS.filter(i=>(!busca||(i.title||'').toLowerCase().includes(busca))
   &&(!sub||(i.substancias||[]).includes(sub))
-  &&(!mes||mesDe(i)===mes)
+  &&(!mes||mesDe(i)===mes)&&(!municipio||i.regiao_termo===municipio)
   &&(!soSetor||i.setorial)&&(!soGoias||i.regional));
  el('rd-conta').textContent=vis.length>NEWS_MAX
   ? t('rd.newsParcial',{mostradas:n(NEWS_MAX),filtradas:n(vis.length),total:n(NEWS.length)})
@@ -174,8 +176,11 @@ function newsBlock(noticias){
   const motivo=noticias.motivo==='banco_ilegivel'?'rd.bancoIlegivel':'rd.semColetor';
   return `<div class="notice">${escape(t(motivo))}</div>`}
  NEWS=noticias.itens||[];
- JANELA=noticias.janela||'';CARREGADOS=new Set();
+ JANELA=noticias.janela||'';CARREGADOS=new Set();MUNICIPIOS=noticias.municipios||{};
  if(!NEWS.length)return `<div class="empty">${escape(t('ov.empty'))}</div>`;
+ const nosMunicipios=[...new Set(NEWS.map(i=>i.regiao_termo).filter(m=>m&&MUNICIPIOS[m]))]
+   .sort((a,b)=>MUNICIPIOS[a].localeCompare(MUNICIPIOS[b]));
+ const municipios=nosMunicipios.map(m=>`<option value="${escape(m)}">${escape(MUNICIPIOS[m])}</option>`).join('');
  const meses=(noticias.meses||[]).map(m=>`<option value="${escape(m.mes)}">`
   +`${escape(mesNome(m.mes))} · ${escape(n(m.materias))}</option>`).join('');
  const nomes=[...new Set(NEWS.flatMap(i=>i.substancias||[]))]
@@ -185,16 +190,24 @@ function newsBlock(noticias){
  // seleção já ordenada pelo setor, então normalmente tudo que chega é do setor e o
  // controle seria um botão morto.
  const mistura=NEWS.some(i=>i.setorial)&&NEWS.some(i=>!i.setorial);
+ const cartoes=noticias.total!=null?'<div class="metrics rd-metrics">'
+  +[['rd.cGuardadas',noticias.total],['rd.cSetor',noticias.setoriais],
+    ['rd.cGoias',noticias.regionais],['rd.cGoiasSetor',noticias.regionais_setoriais]]
+   .filter(([,v])=>v!=null)
+   .map(([k,v])=>`<div class="metric"><span>${escape(t(k))}</span><strong>${escape(n(v))}</strong></div>`)
+   .join('')+'</div>':'';
  const acervo=noticias.total!=null
-  ? `<p class="rd-conta">${escape(t('rd.acervo',{total:n(noticias.total),
-      regionais:n(noticias.regionais||0),setoriais:n(noticias.regionais_setoriais||0)}))}</p>`:'';
+  ? `<p class="rd-conta">${escape(t('rd.acervo'))}</p>`:'';
  const atualizado=noticias.atualizado_em
   ? `<p class="rd-conta">${escape(t('rd.atualizado'))} ${escape(noticias.atualizado_em.slice(0,16).replace('T',' '))}</p>`:'';
- return acervo+atualizado+'<div class="rd-filtros">'
+ return cartoes+acervo+atualizado+'<div class="rd-filtros">'
   +`<input type="search" id="rd-busca" placeholder="${escape(t('rd.buscaPh'))}" aria-label="${escape(t('rd.buscaPh'))}">`
   +(meses?`<select id="rd-mes" aria-label="${escape(t('rd.todosMeses'))}">`
     +`<option value="">${escape(t('rd.todosMeses'))}</option>${meses}</select>`
     :'<select id="rd-mes" hidden></select>')
+  +(municipios?`<select id="rd-municipio" aria-label="${escape(t('rd.todosMunicipios'))}">`
+    +`<option value="">${escape(t('rd.todosMunicipios'))}</option>${municipios}</select>`
+    :'<select id="rd-municipio" hidden></select>')
   +(nomes.length?`<select id="rd-substancia" aria-label="${escape(t('rd.todasSubstancias'))}">`
     +`<option value="">${escape(t('rd.todasSubstancias'))}</option>${opcoes}</select>`
     :'<select id="rd-substancia" hidden></select>')
@@ -204,7 +217,7 @@ function newsBlock(noticias){
 
 function wireNews(){
  if(!el('rd-lista'))return;
- for(const id of ['rd-busca','rd-substancia','rd-so-setor','rd-so-go'])
+ for(const id of ['rd-busca','rd-substancia','rd-municipio','rd-so-setor','rd-so-go'])
   if(el(id))el(id).addEventListener('input',drawNews);
  // O mês pode precisar buscar um arquivo antes de filtrar.
  if(el('rd-mes'))el('rd-mes').addEventListener('change',trocarMes);

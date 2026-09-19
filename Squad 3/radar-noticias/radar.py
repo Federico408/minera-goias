@@ -449,7 +449,7 @@ def run(database, config, fetcher=fetch):
         connection.close()
 
 
-def export_payload(connection, limit=180):
+def export_payload(connection, limit=180, config_region=None):
     """Build exactly the packet /api/radar already serves under 'noticias'.
 
     This is how the collection reaches the site without anyone touching the VPS: the
@@ -484,9 +484,12 @@ def export_payload(connection, limit=180):
     for row in connection.execute('SELECT commodity, COUNT(*) n FROM news_item_commodities '
                                   'GROUP BY 1 ORDER BY 2 DESC'):
         substancias[row['commodity']] = row['n']
+    region = config_region or {}
     return {
         'disponivel': True,
         'gerado_por': f'radar-noticias {RADAR_VERSION}',
+        # Nome acentuado de cada município, para a página não mostrar 'catalao'.
+        'municipios': region.get('municipios_nome') or {},
         'atualizado_em': run['finished_at'] if run else None,
         'ultima_execucao': run['status'] if run else None,
         'itens': [{**{k: v for k, v in dict(row).items() if k != 'item_id'},
@@ -545,7 +548,7 @@ def read_month(path):
     return itens if isinstance(itens, list) else []
 
 
-def export_archive(database, destination, recent=180, desde=None):
+def export_archive(database, destination, recent=180, desde=None, config=None):
     """Write the monthly archive and the packet the page opens with.
 
     The committed files are the archive, not the SQLite. Each run merges what it
@@ -558,7 +561,8 @@ def export_archive(database, destination, recent=180, desde=None):
     desde = desde or janela()
     connection = sqlite3.connect(f'file:{Path(database)}?mode=ro', uri=True, timeout=10)
     try:
-        pacote = export_payload(connection, limit=10 ** 9)
+        pacote = export_payload(connection, limit=10 ** 9,
+                                config_region=(config or {}).get('region'))
     finally:
         connection.close()
 
@@ -615,6 +619,11 @@ def export_archive(database, destination, recent=180, desde=None):
             ((s, sum(1 for i in todas if s in (i.get('substancias') or [])))
              for s in {s for i in todas for s in (i.get('substancias') or [])}),
             key=lambda par: -par[1])))
+    # Desde quando a coleta é nossa. Tudo antes disso o radar recolheu de uma vez,
+    # do que os buscadores ainda guardavam - não é série temporal de notícia, e a
+    # página precisa dizer isso em vez de deixar o gráfico ser lido como tendência.
+    vistos = [(i.get('first_seen') or '')[:7] for i in todas if (i.get('first_seen') or '')[:7]]
+    pacote['coleta_desde'] = min(vistos) if vistos else None
     pacote['janela'] = desde
     write_json(destino / 'latest.json', pacote)
     return pacote
@@ -695,7 +704,7 @@ def main(argv=None):
         campos.insert(-1, 'signals')
     print(json.dumps({k: report[k] for k in campos}, ensure_ascii=False))
     if args.export_dir:
-        pacote = export_archive(args.db, args.export_dir, args.export_limit)
+        pacote = export_archive(args.db, args.export_dir, args.export_limit, config=config)
         novas = sum(m['novas'] for m in pacote['meses'])
         print(f"  acervo em {args.export_dir}: {pacote['total']} materias em "
               f"{len(pacote['meses'])} meses, {novas} novas nesta coleta, "
