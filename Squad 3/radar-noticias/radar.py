@@ -234,13 +234,20 @@ def setorial(item, config):
     'contexto_mineracao'. Energy is deliberately excluded here - 'energia' and
     'eletrica' are everyday words, and letting them in pulled a storm warning and
     electrocuted cattle into the mining count.
+
+    Only the headline is read, not the summary. A Google News summary carries scraped
+    debris from the page, and a lottery story reached the mining count through a shop
+    called 'casa loterica Aguia de Ouro'. Measured over the collection of 19/09/2026,
+    dropping the summary cost two stories out of 176 - that one and a 'create an
+    account to save locations' banner.
     """
+    somente_titulo = {'title': item['title'], 'summary': ''}
     energeticas = set(config.get('substancias_energeticas') or ())
-    if any(c not in energeticas for c in commodities_of(item, config)):
+    if any(c not in energeticas for c in commodities_of(somente_titulo, config)):
         return True
     region = config.get('region') or {}
     termos = region.get('contexto_mineracao') or region.get('contexto') or []
-    folded = fold(f"{item['title']}. {item.get('summary') or ''}")
+    folded = fold(item['title'])
     return any(mentions(folded, termo) for termo in termos)
 
 

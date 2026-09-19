@@ -88,13 +88,15 @@ Por que separar: `regional` só pergunta se o estado foi citado. Um veículo est
 |---|---|
 | Coletadas | 2.562 |
 | Citam Goiás | 487 |
-| **Citam Goiás e são do setor** | **175** |
+| **Citam Goiás e são do setor** | **174** |
 
 **Use o cruzamento das duas marcas.** "487 notícias de Goiás" é número errado para falar de mineração — entre elas está *"Leonardo fica 21 dias sem beber e Poliana comemora"*.
 
 **Energia fica de fora da marca `setorial`**, de propósito. `energia` e `elétrica` são palavras do cotidiano: com elas dentro, entravam *"Mais de 60 cabeças de gado morrem após fio de energia se soltar"* e um alerta de tempestade. Os termos energéticos continuam em `contexto_energia`, usados pela regra do município, e as substâncias `energia_eletrica` e `gas_natural` estão listadas em `substancias_energeticas` como excluídas da marca.
 
 A comparação é sempre por palavra inteira, e hífen conta como espaço — sem isso "terras-raras" não casava com "terras raras", e uma matéria sobre venda de terras raras em Goiás passava batido.
+
+**A marca `setorial` lê só o título.** O resumo do Google News vem com entulho raspado da página, e uma matéria da Lotofácil entrou na contagem de mineração por causa de uma "casa lotérica Águia de Ouro" citada ali. Medido: descartar o resumo custou 2 matérias em 176 — essa e um banner de "crie uma conta para salvar localizações". A marcação de substância em `news_item_commodities` continua lendo título e resumo, porque ali cobertura vale mais que precisão.
 
 ## Tabelas
 

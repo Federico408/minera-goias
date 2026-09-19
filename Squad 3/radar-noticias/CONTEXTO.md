@@ -80,7 +80,7 @@ Foram medidos quatro critérios antes de escolher:
 | Goiás + substância | 96 | Estrito demais: perde "protestam pelos riscos das empresas de mineração" |
 | Goiás + fonte setorial (`tema`) | 336 | Circular: usa o julgamento do Google, não o texto. Difícil de defender |
 | Goiás + termo do setor no texto | 185 | Bom, mas poluído pelos termos de energia |
-| **Goiás + (substância mineral OU termo de mineração)** | **175** | **Escolhido.** 1 ruído em 18 na amostra |
+| **Goiás + (substância mineral OU termo de mineração)** | **174** | **Escolhido.** Só o título é lido; ver abaixo |
 
 `tema` foi descartado como critério apesar de ser o de maior cobertura: ele é propriedade da **fonte**, não da matéria. Dizer "é notícia de mineração porque veio de uma busca por mineração" é circular, e num relatório isso não se sustenta.
 
@@ -93,6 +93,8 @@ Energia ficou de fora da marca `setorial` por medição, não por gosto: `energi
 3. `minerais` sozinho foi testado e **rejeitado**: casava com "formações geológicas raras" numa matéria de turismo.
 
 O resultado virou coluna `setorial` em `news_items`, calculada na coleta, para a API e a página poderem filtrar sem refazer conta.
+
+**Correção posterior, com o site já no ar:** a marca lia título e resumo, e uma matéria da Lotofácil apareceu no painel como notícia de mineração. A causa era uma "casa lotérica Águia de Ouro Goiânia" no resumo — entulho que o Google News raspa da página. A marca passou a ler só o título. Medido: 176 para 174, e as duas perdidas eram essa e um banner de "crie uma conta para salvar localizações".
 
 ## Decisão 7 — publicar por arquivo no repositório, não por instalação na VPS
 
@@ -137,7 +139,7 @@ Nada em `news/` foi alterado. O diretório está como estava.
 - **Instalar na VPS** — descartado pela decisão 7. A publicação é por arquivo commitado, sem acesso ao servidor.
 - **Confirmar a primeira execução do workflow.** Ele só roda sozinho às 04:00 UTC. Até lá, dá para disparar à mão pela aba Actions. Se o repositório tiver proteção de branch na `main`, o push do robô falha e é preciso liberar o `github-actions[bot]`.
 - **Remover o `news/`** depois que este módulo rodar em produção.
-- **O texto da contagem na página** vem de `public/radar.js`, que não foi tocado: ele exibe "486 de 2.564 matérias citam Goiás". A frase está correta, mas não é o número de mineração — esse é 176, e está no arquivo exportado como `regionais_setoriais`, ainda sem uso na tela.
+- **O texto da contagem na página** vem de `public/radar.js`, que não foi tocado: ele exibe "487 de 2.562 matérias citam Goiás". A frase está correta, mas não é o número de mineração — esse é 174, e está no arquivo exportado como `regionais_setoriais`, ainda sem uso na tela.
 - **Filtro por substância e por tema na tela.** O arquivo exportado já leva `tema`, `setorial` e a contagem por substância; falta a página usar.
 
 Deixaram de ser pendência com a decisão 5, e só voltam a ser se a direção for religada: medir o acerto do léxico e deduplicar matéria replicada. A duplicação medida foi de 1,8%, que não atrapalha contagem de acervo.
