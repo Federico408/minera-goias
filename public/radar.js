@@ -165,6 +165,12 @@ function drawNews(){
   &&(!sub||(i.substancias||[]).includes(sub))
   &&(!mes||mesDe(i)===mes)&&(!municipio||i.regiao_termo===municipio)
   &&(!soSetor||i.setorial)&&(!soGoias||i.regional));
+ // Relevância primeiro, por regra explícita. A ordem do array depende de quais meses
+ // já foram carregados, e um mês trazido sob demanda despejaria polícia e futebol no
+ // topo: Goiás e setor, depois setor, depois Goiás, e só então data.
+ const peso=i=>(i.setorial&&i.regional?4:0)+(i.setorial?2:0)+(i.regional?1:0);
+ const quando=i=>i.published_at||i.first_seen||'';
+ vis.sort((a,b)=>peso(b)-peso(a)||(quando(a)<quando(b)?1:quando(a)>quando(b)?-1:0));
  el('rd-conta').textContent=vis.length>NEWS_MAX
   ? t('rd.newsParcial',{mostradas:n(NEWS_MAX),filtradas:n(vis.length),total:n(NEWS.length)})
   : t('rd.newsMostrando',{mostradas:n(vis.length),total:n(NEWS.length)});
@@ -186,10 +192,9 @@ function newsBlock(noticias){
  const nomes=[...new Set(NEWS.flatMap(i=>i.substancias||[]))]
    .sort((a,b)=>subName(a).localeCompare(subName(b)));
  const opcoes=nomes.map(s=>`<option value="${escape(s)}">${escape(subName(s))}</option>`).join('');
- // O filtro "só mineração" só aparece quando há o que filtrar. O coletor manda a
- // seleção já ordenada pelo setor, então normalmente tudo que chega é do setor e o
- // controle seria um botão morto.
- const mistura=NEWS.some(i=>i.setorial)&&NEWS.some(i=>!i.setorial);
+ // O filtro "só mineração" existe sempre. Ele já foi condicional à mistura entre
+ // matéria do setor e matéria qualquer, e sumia justamente quando alguém carregava
+ // um mês - que é quando a mistura aparece e o filtro passa a fazer falta.
  const cartoes=noticias.total!=null?'<div class="metrics rd-metrics">'
   +[['rd.cGuardadas',noticias.total],['rd.cSetor',noticias.setoriais],
     ['rd.cGoias',noticias.regionais],['rd.cGoiasSetor',noticias.regionais_setoriais]]
@@ -211,7 +216,7 @@ function newsBlock(noticias){
   +(nomes.length?`<select id="rd-substancia" aria-label="${escape(t('rd.todasSubstancias'))}">`
     +`<option value="">${escape(t('rd.todasSubstancias'))}</option>${opcoes}</select>`
     :'<select id="rd-substancia" hidden></select>')
-  +(mistura?`<label class="rd-check"><input type="checkbox" id="rd-so-setor" checked>${escape(t('rd.soSetor'))}</label>`:'')
+  +`<label class="rd-check"><input type="checkbox" id="rd-so-setor" checked>${escape(t('rd.soSetor'))}</label>`
   +`<label class="rd-check"><input type="checkbox" id="rd-so-go">${escape(t('rd.soGoias'))}</label>`
   +'</div><p class="rd-conta" id="rd-conta"></p><ul class="rd-news" id="rd-lista"></ul>'}
 
