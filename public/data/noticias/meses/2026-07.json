@@ -1,6 +1,6 @@
 {
  "mes": "2026-07",
- "materias": 153,
+ "materias": 162,
  "itens": [
   {
    "title": "Cameco’s Westinghouse nuclear power venture files for IPO",
@@ -97,6 +97,21 @@
    "tema": "energia",
    "substancias": [
     "energia_eletrica"
+   ]
+  },
+  {
+   "title": "POSCO group Strengthens Rare Earth Supply Chain Together with Brazil - 포스코그룹 뉴스룸",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZjAycldVWDhKckJLY2lxdG9uSDUzT0hITHhLWTBoRFFJYWtOU2lYNk4tMkw4WGViX1NOcy1nUUhlT0Y3WV9nNmo4UlN5RlhSNkNPRGVIQ0NhcGhNczZ5OURPaDRVc0UxemRYR3JIcVI3aG5pbjlCaUp2SlNPMWoyUDhZUWdSZWpJal9OQzVoZ0drSDNESkp2bXF2cGJjMWdp?oc=5",
+   "published_at": "2026-07-31T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:48.297140+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
    ]
   },
   {
@@ -552,7 +567,7 @@
    "title": "LÍTIO | Sigma Lithium negocia TAC com governo mineiro sobre questões ambientais - Brasil Mineral",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSGcwSTQ0a29UWHRBVTRNSXY3dVFiZkRUMGZBa3UxNVNvR29SN3AtYk5WT3ZmMjRVRE1LWm9LZ3JjSWtSMHh2Wm5QOGVCQUhtS1c0d2U2YUw0d2dwMEs3U05yM2ppbFhnOEgtQkxpZnRtTjY1RGJqTklnbVdLNUp3eVdvdFdOcXpxaGRpTEZ0all1S1JNZkNHVE5ydmJlaTQ1dTlsbHhzeFB4TVdfNnc?oc=5",
    "published_at": "2026-07-23T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:49.410476+00:00",
+   "first_seen": "2026-09-20T04:02:46.503314+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -659,6 +674,21 @@
    "substancias": []
   },
   {
+   "title": "Órgão ambiental de Minas suspende parte das operações da maior produtora de lítio do Brasil - Impactto News",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOU9iOVZYNERINHE2c0RCMlJwUl80S0NSajl5bUxLNENWYlRsNDItOEFDTDdBcHlVdzAtS1RyRzFrUHhqWkNjTVR1UnpfNE5PaWlUVFVmMkRZVXNOcHdWWlhjVWJXZUV4U3ZVbENlbFcyaHZJOEZ5X3FlamN2aUlaNUZtMEdlOUJsUGpjbVdlVG5saEpaUHd3bEk2d2ZYZW9NbEhLenB0eE9jdHVNcEJnUHNHNzVEUkNoWjVGTUJwRDJEZTZZWkJTZ3NpSG01dUFa?oc=5",
+   "published_at": "2026-07-23T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.507961+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Mineradora é investigada após moradores denunciarem contaminação por mercúrio e chumbo, em Alto Horizonte - O Popular",
    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOeGpuRUZwVGp5NDJ5SnBlMG9WQXI3cy02WGVaV05wSWdhcXh6V3FtWWFfb2ZvNzdFUHNXN3h4cVdwWE1FYmNFa3VCUC1tNDNuNnliRUljSU5vdkYwUkNGQVFFUVRyWmdOYWJfR0UzQU1wNDJjdVdQRURQS0NjRXVWVHVGVW5VcXhyNFJsM1ltMkFtcHhROWF6aC1wOW1UR1ZXWWFSeldLaHRxYWJKUUNSWGJSdEM1SmZMTm1Qd3k5VDAtT0dLQ3A2WklsNkNiTU8xdzgtSG41dXNTYmZrdWlR?oc=5",
    "published_at": "2026-07-22T15:30:36+00:00",
@@ -751,6 +781,19 @@
    "regiao_termo": null,
    "setorial": 0,
    "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Harvest Minerals acquires assets to enter the rare earths sector in Brazil - BNamericas",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQzB4UUk0RldvSFJ2ZVlJWkRLRndlcU1QdGF2X2NVZUY1Ml9nWUVFTDVTZE13aTh1OWVuWlAtR0Y1UjBvUzJyZXpXNktKX2x3Q3Itcmo4WFExTFo3M2EzeGh5S19KbTVlYWk2c1N1UW1LeEFBMU05aHlYYlVYbDE3ZjV4QUg4SkVoTUdJSWFSaFNtSWZua3hQR3RfQ3BhVG9RWEhSRWhHQk1qbF9OWGc?oc=5",
+   "published_at": "2026-07-22T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:48.290330+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · rare earth Brazil",
    "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
@@ -951,7 +994,7 @@
    "title": "Veterinário morre após cair de cavalo durante vaquejada em Niquelândia - G1",
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPM1BiNUdPVkpRWUVFbVFjM2lRTkQtYUQzRzJuWlBUYjNVUUdFNEhYeTZwVFYyWWs4cl95VnZNWHdWc1RILU1xYTRialpJWkJYNVg4U09FNTh3Q1Joc3RtVjBFMm0zTll5RDNJajVJMFFfa2p2V3JhaVBxTnZadmw0RWloTmpvSzhMczJSUks4NE9pS0ZlWjZJaUs1NmQtS2Zzdmp3WGtBSTVpN0lvRUNETVRQOGc2b0FXaUFsNzFzZVhtdFBuSTBrZE1Sb0ZoSnZRMGZnMHpwY9IB5gFBVV95cUxPWEQ3d3VlOGJtSW9CQ0RybjV3aVBVTkVFTHo4eGlTOVYyM3hseXRZOURUTm9XdUxjQUlUZXNBLWQtWnlyeUEzaGdTcHFMOXVSdWtSa2Z5ZnZ1Q0wzVmNvVEZKNjNRQi0tWnR0QkkxYkFkVC00MEZwQWEtTndpMm8zMTFPdzRjRm1pb19xeDI1Nm8ybTBkal9pdXNGQ3oxX2FIUWxpc1BJYmt0VkRnelBWRGJqb2NFTVRLNXlZQ0JUek1SU1Rsbmk5bmtKckZlQXVESV9oT2tDZW53UWlCSGZlSTIyQ2ZZZw?oc=5",
    "published_at": "2026-07-20T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:43.645662+00:00",
+   "first_seen": "2026-09-20T04:02:43.926581+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 0,
@@ -989,6 +1032,19 @@
    ]
   },
   {
+   "title": "ALTO HORIZONTE – Lundin Mining recebe reconhecimento nacional por transparência na gestão de gases de efeito estufa - Excelência Notícias",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeHZMc2Jienp0bDlCa2NVUjAxMlFiWHFzQWdoNFF1TXZ1czZZbmZiTmZ5TWtYR2xocnpuQVlWQzFGR3ptYlYxM21WaDdIR0Y5YTNmTXhUXzhsQ3hUZDdzOWtMM0UyWlBNRWkzM2QzY01uQ2lsWm0wWW5nNzBENk1FVjEwalVOQ2NCWHpSUW5sbFA5M0phS21hcV9Kd2JHUWZuZFJpeDFUWjFTMnpTSUZfX1N6SkhXaTZJcVRZb1RPTU9VNzdEVHFlVTVwZm9TY2xpX1ZnR1JFdkQzelM0VFZVTmJtTTNBcENySVdxTEVndDc?oc=5",
+   "published_at": "2026-07-20T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:43.918000+00:00",
+   "regional": 1,
+   "regiao_termo": "alto horizonte",
+   "setorial": 1,
+   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Veterinário morre após cair do cavalo ao ser atingido por gado durante vaquejada, em Niquelândia - O Popular",
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObXBRMmdCZl8zOVlrUzczSjZ1VmllbU0wdjlTeDlEQm9XcUFVR3FoNFNEeG1EaWhpYWM3T3c0XzFsWWpYaXpqN3JJY2FFRWFlMllJOFJjeURJR3V4LXpkQzlaR0lER0NubkN6cUhDakp3SGR3QzJ3TGk2aVlWTlNfbGVkX0txcXFzeER3cmJpWlQxeWpuTUlZTllKNWc0Y2w1UDdvZzMtdGpoaW5ncVVsS2VwQUdkaDV5YVlVajFzNFNNUTVURlJRTERuRGFRVjhObmdj?oc=5",
    "published_at": "2026-07-19T20:37:58+00:00",
@@ -1005,7 +1061,7 @@
    "title": "Pode avançar o sinal vermelho? Prefeitura esclarece regra que vale durante a madrugada em Goiânia - Diário de Goiás",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMXZsTTFabHJHQXpNclYwZDkwYmtpVk9PTmV2d2pnOWNQektIMkpRYm1BcXpuQlNWdFB5ZTczTWZGT0NScjE2OS1POFhpb3BvUHZPNm1vWjNIV0FKNTJNSWNFVWFzVkVfNUl0dXpxR1ZWZ19DR0dhMmptN0dPaGFzTFZWLXFNNFU0OWdENk1NdFh1NzlwVVUtRmJEc19hbHlxSmZQY3lteUVLcXo0NGQyWjYxa2Jma1lqZ3NDYTdBczlQRnRqRzlrUVZUVklZZw?oc=5",
    "published_at": "2026-07-19T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:46.925372+00:00",
+   "first_seen": "2026-09-20T04:02:45.233300+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 0,
@@ -1181,6 +1237,19 @@
    "first_seen": "2026-09-19T19:49:09.004583+00:00",
    "regional": 0,
    "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · energia em Goiás",
+   "escopo": "regional",
+   "tema": "energia",
+   "substancias": []
+  },
+  {
+   "title": "MME: linha de transmissão Maranhão-Goiás, da State Grid, terá operação antecipada para 2028 - UOL Economia",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNYWpqZDZGOHlsWEpHeDZzMmdJSUFsYzNZOElpeGExbVJGVWNuZ003dEZhWjRuRXY0Y3FCajc4R3Q3SHBvMl85d1E4Y1VjcEJ2aExuZmdpbmw4YTFvX0dUenRlYTh0c1lwYnVDNEJ1YmFLTWtSVGxyVWdrMlNZTnpKTlJPNVZ3ZUR4NFpnUUZ6UER1ZTVlOFp2Q3dKT2NfZExWOGFfa1NNZmctM1JSMkRDeGtGdkRubDUxRDB2T2luN3h3WnpBVEp5dXo2cDA1Vi1qMGRSakl4Z3ZMTEotRHJwc2oyMnA5Sm1ac0ZYcHBB?oc=5",
+   "published_at": "2026-07-16T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:49.611090+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
    "setorial": 0,
    "fonte": "Busca · energia em Goiás",
    "escopo": "regional",
@@ -1522,6 +1591,21 @@
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQy1fQ25ZQVhsU2lEaW1KQWgyU1cxb1RmZmhwSFM2cVIyUUhCWXZvSXBZR29tXzJBY0k5ZkpjUUduYXMwZWpwOERNMFNOTU5CNWhlWUtHR01ia0Y2dXpzbUY2ZGxNT2dVaUVzQTlRWHFzczJNVmdpRzJkZGdpUm1XUTdzQzNZMzJ5V2ZDT0JwT0puRzFZX3JITEFzTkVjVm5GTlh1d29NQzlmSmE4Ri1PeEYyeWtCUQ?oc=5",
    "published_at": "2026-07-09T07:00:00+00:00",
    "first_seen": "2026-09-19T19:49:04.271648+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Após tombo histórico, setor de lítio vê retomada e aposta em novo ciclo - CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxON0JKN2ZqSlZ3NTk5eDlKYzBVMmEyeS1oamxWZHFqSXNlU2pnSGhOcFpJZGpuMEFGa2xLd0RRamtzcVB6c1FobjlhMF9DUDVsZ0dMSl9HZkhuTHMzLVMtQlZybVdYeU9YRl9VRnc5YWxEcUtIckR0enh6bUZueWRkYnpKaEF1S3RZMnFib1BFN0ZoTEdNRF9zemtTdTc1UGVSV3ZHM2ZCY3JNUQ?oc=5",
+   "published_at": "2026-07-09T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.501092+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1891,6 +1975,19 @@
    "substancias": []
   },
   {
+   "title": "Ponte incendiada isola cerca de 300 famílias na região do Acaba Vida em Niquelândia - jornalopcao.com.br",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPem1ESmRZMzI2ejVlQ2xublI5N1B2ZkVQNnJTeDI5MndrX1FtVExIMFo0NVVPS0RaRmVxMU53aWduSU11S0hteTVqa1g0Z3BBQkhsZFRGQjc0NF9oWGhUSWZnbmRSSzBsdnRwSmVkQVhqSTRJTVhneHNmb0s1OW9MN2MzeDNVUzRKNzNmRWhUd1AtTW1ZNjh0TFZ3UTNwWFhGQW9mcU1JRlRVT1hyQjZzNmNvUUdqNVhQeU9RdHF0XzJNTGZOdTcyWDk0N2gtWWM?oc=5",
+   "published_at": "2026-07-03T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:43.919286+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Conheça 3 modalidades de fiscalização — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYkFSNExHcUUwWEd3QzNyeUw0eFVRV0t5Zm9PNl9BRXlUN2oySjNMeGpzTkJYRWlkSHItRGQ2d1lEbE8tTHR3ZENhdHUzN0JRSWFfUTg1d1ROcm13cU9zRWhKM0prb3d0WWRVY1czVV9KdkdVMHVYUFlJTTJhLUxlNm5nRVlteUJfNGtvazJydXo3bkwtUUVZeUkwbEZJTG5lakpEajZNenlYZWVMQUdfQVZsWQ?oc=5",
    "published_at": "2026-07-02T07:00:00+00:00",
@@ -1953,6 +2050,19 @@
    "fonte": "Busca · MME (site oficial)",
    "escopo": "setorial",
    "tema": "energia",
+   "substancias": []
+  },
+  {
+   "title": "Vale do Araguaia recebe programação gratuita do Estrelas do Araguaia em 2026; confira - Mais Goiás",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQX2VXN0w2V01PZVhHcHpKM1FaVXVqLWF0V3ZjdFJoLWE0TllHcWFnZThLaVpJY2hkZzI3QkxxMVBIbHc3cUpzV0RVRFJ3dzBaVHdsdVZTbzBXZWZxSmE5eFM2RU1QVW9RUFNlVEZDN1ZYU1RrMklQcXROWktaYlhub0hQWXBoeHRZYXBlVFU5SEVvbmJpYVhsbWN1b3pZZmpjWkxvS3NJZk03YTRFdDdfWkxSYzFLQ1pHQXRITEg4UExZSFVEQmlkZGFsQQ?oc=5",
+   "published_at": "2026-07-02T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:45.234445+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 0,
+   "fonte": "Busca · mineradoras em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
    "substancias": []
   },
   {
@@ -2073,6 +2183,19 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "Recolhimento de royalties da mineração passará a ser digital a partir de 7 de julho - ZÉ DUDU",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTDg2OTh1MmFyVnN6WmEyU0hCN3YwTHRLVjlOeWc0d3gwSktEMFV5V25WT2dOVG1DTjQtYnBvak5iZkdaaW42UWNad3d2anRrdTFqUlhGX3RYSVlQZE9mTVVyaGZTM2JXeDRBVk9iOW5RejNDb0Z1YWdvMU03YXY3cFlScG10OFFlRnFCNzcyb0lfcUVMMUFMUlNCQjFxbm5mSVQ4TndEQXQ3SDdOWmdF?oc=5",
+   "published_at": "2026-07-01T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.935390+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "What Ideal Metal Price Forecasting Looks Like for Decision-Makers",

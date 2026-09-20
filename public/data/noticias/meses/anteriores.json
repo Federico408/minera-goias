@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 507,
+ "materias": 526,
  "itens": [
   {
    "title": "Goiás abre plantio da soja com expectativa de novo recorde - Revista Cultivar",
@@ -71,6 +71,21 @@
    "escopo": "setorial",
    "tema": "energia",
    "substancias": []
+  },
+  {
+   "title": "OURO | Axía Resources obtém licença projeto em Niquelândia (GO) - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTWtreHNjMktTdHVFaEw3aHdicHFOUWM3Wnlhb3VVanZGUThsd3dCcXQtZGdPVUpxcVloNTgyYTdyckRJYVVTTWcta0h2NGp2NmtuQmltR2dVeElMOVh0ZURBdHJ4WUNYR0JSblhJaklhT25sOWUzR3VBZjRMMndwZ1NkbUJKQTJvVGMzd3F3TmJkc0ZqSk9B?oc=5",
+   "published_at": "2025-09-11T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:43.318242+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
   },
   {
    "title": "Diretor substituto da Agência Nacional de Mineração - www.gov.br",
@@ -197,6 +212,21 @@
    "substancias": []
   },
   {
+   "title": "Cade investiga venda de minas de níquel para estatal chinesa - Poder360",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVXVYbU00dTNLY0p1bWRDSHlpNTNIYXJnMGZ5bFlvbzN5bjhIdW1nUFVEUk5mTEY4TUY2WDZVS3lCR2psVzZwV1JFdno2b3RKaFlNV1MzMUJXSGlTcm9nSG1Xc1JodWFDSGx5MzJ0eDRoRUJqelZjY3h4ZERGTXVoTnRHZkY1M3V1eS1lb0REaXV3QVV4bklYZlN3Y2x4ZUZaYkF3?oc=5",
+   "published_at": "2025-08-27T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:43.314979+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
    "title": "Cidade do interior de Goiás vira peça-chave na disputa mundial por níquel - Mais Goiás",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNUNyOE9GLWJneVdHNkMxd0ZGUUpHWEdFTDBvNUtuaDkxMUR4STllSUlDN3RhdHFNcVR0bDhERzcwaXhBcE5wWnlnNUFJZzh0RTlwR1lRV3pJRnoyTS1yM2hxbnZPS3dYZzcwdzhHTi10Nm9ORlpSSmpXNVBaSG5DMVUyOUM3aDRCZEdYMHREV0JSQ2F4ZC1fQzR1SzlvcjBIb1lMdHRxTllYNk5zSHlWMw?oc=5",
    "published_at": "2025-08-26T07:00:00+00:00",
@@ -272,10 +302,10 @@
    ]
   },
   {
-   "title": "Setor privado dos EUA pede que Trump intervenha em venda de reserva de níquel no Brasil para a China - estadao.com.br",
+   "title": "Setor privado dos EUA pede que Trump intervenha em venda de reserva de níquel no Brasil para a China - Estadão",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYXpIX1YxNGg2TEUzUTZrSnpMNXBDUzRZbjRjYURqMEJ0aENuTmFYR0JMeGRnVkU1cGdMYS1nSFpwRi1mVnViTUhuOXd0YVYxRnRoZUg1STEzN3pJWE5TbXI0TF8xVDhGOEk1YWhUTThIZ0QxMGRaMDFaSDViN0dsaHUtZExwM0t0Snk0dEkzLTBGb3VGUHhFTlNGWndCUS0zZE5CQTh30gGrAUFVX3lxTFBFZ3NkTlJOYjZwanFhNEJ5UkJJemlnZEtlaG1GbHdUSDJiaDZWZmxGbV82eUNXaXJIdTZ0a0xYeHB5T2E5MWR3eWtLOTZCS3FMV2JwS0VIUTZvS0VYTXM5YUpDZ3dnbnRXTWJBS1gwQkhMQXBSTnE3MGJpX3E4b1R0RU5VRmo2X1BFRTJTS0RpZmxHcHd3SWFvNV9DTDF1a1NGWEpLbmxaMzRxbw?oc=5",
    "published_at": "2025-08-25T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:42.712687+00:00",
+   "first_seen": "2026-09-20T04:02:43.319349+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -518,6 +548,21 @@
    "substancias": []
   },
   {
+   "title": "Trump issues blitz of tariff announcements on copper, Brazil, South Korea, small-value imports - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbTJ2MlJ2SjVTYjZrVjF5ZzZqeTJVS1BsNmJaTFlxMUIxU0M4ODNYLUtMc1otYkxxaVZmWUlBRW5tNlNxdldFZWVjejhlcEJCeEpNVGJtckowVVNoUEJVc3dPYVZRTDZHVjRrZEV5OHNtUDVIa0N2QnFxVnBlX0tvb3JBTGJaUFRueHNlLUszbmxvcEFkS0JKQ1I1ak1ZTjdpaE9KVzYtQmtnNUxkRTBoWEwxU2gwcUdLZXU0eHdIbw?oc=5",
+   "published_at": "2025-07-30T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:48.701856+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
    "title": "Excessos da Resolução 208/25 da ANM e a Permissão de Lavra Garimpeira - JOTA Info",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVnFCMTlTbWoyUEw0VmVDQk1HVTYwSW12Y01qeDNsVnRNTFltOWlxV3ZTMWd3RTRXbENOVkJubFJwSTQ0cTlvNUNsUUxqV0lBNFlUNWw5NXNjTUQtRUViaGxnNVpSN0QzYXBLRmNUN1g2a2tpdG5NUEhKSmVEWXhLM1VMb1U3c193Qk84d0R0T2FRTVdSeWlBdmlXU3hLblZfQWtBQTQ4QjEzZmNsZDlRMXNSNjdma3RU?oc=5",
    "published_at": "2025-07-28T07:00:00+00:00",
@@ -566,6 +611,32 @@
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Brasil inicia maior projeto de transmissão de energia da história, com R$ 18,1 bilhões em investimentos - Cenário Energia",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOX2EwVmxxM0dtT1pFTWdaS3dlMkJhT2ZZdTV2YlhZNUtWMzhaMGJaTDZBbDNHSWpXam93eVVIa2ZNVHFwVDNteXBoV2JRcTRmS1VNQXJCTkdqdUJtXy1qcUR4Z0tqa3gtS2FBUTU3bmJTNFotcTl6Qks3d19OTmdWck5kUUl0WnNYRERyN2sxcXRiaVMtS3YtM0FFYW5LaXdLR1QwR3JWSmx4dF9oOWVpbUNITm5LZk9zNnJyNGZNWDJDU1pJaTVkN2pmYXc1RHhweE1vTXloaF92QQ?oc=5",
+   "published_at": "2025-06-30T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:49.619429+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · energia em Goiás",
+   "escopo": "regional",
+   "tema": "energia",
+   "substancias": []
+  },
+  {
+   "title": "Vale to eliminate water use in Carajas iron ore processing by 2027 - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVjg4Uy1kN3BFaUdDNTBBcnJNanZSdDhVNEFVdFk3UVVwOTdPUlJ1YjJpcEhlam9hZHRZTUpsZ0Q1bWRsS3NRLWRZUm5XWk5QcVVTcGM0SUw5UFp0d091bDV3Z040Q1BrY1lVRVdsZUI4U1Jfb21zeUlYVDFaLXJrQkRRMVBxemt3TF9ycDZsalFoeExsR01jakc4X3NZRVQyTzBUTjB1el9ZakV6M3VxX1NLNkpKaEIyUGxVSnNTbWRGS0NN?oc=5",
+   "published_at": "2025-06-25T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:48.697525+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -664,9 +735,39 @@
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaf5ae5e0a4470ebd1383db29da94e5&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-02T04:01:00+00:00",
+   "first_seen": "2026-09-20T04:02:45.555658+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
    "published_at": "2025-06-02T00:00:00+00:00",
    "first_seen": "2026-09-19T19:49:02.791309+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaf5ae5e0a4470ebd1383db29da94e5&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
+   "published_at": "2025-06-02T00:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:45.557375+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -742,6 +843,19 @@
    "setorial": 0,
    "fonte": "Busca · energia em Goiás",
    "escopo": "regional",
+   "tema": "energia",
+   "substancias": []
+  },
+  {
+   "title": "VITÁLIS — Ministério de Minas e Energia - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQzNwZXBSYzFwOVBoN0dvMEl4VmFTR1RSdksyNkxmcEVsY2x0amsyYlc2RVEwZEg3ZWdLakczRzFvZTlkWWxGOUxwN3BKeWl2QVBJQm1QN3FET3ZfLTZ2bF9kQmZIMjlSeGljeG5MeUNveWFYMUlua0ZBeXF3X3FWOW5hYVQwU2tBVmNmT3E0LW04Q041blE?oc=5",
+   "published_at": "2025-05-01T11:40:57+00:00",
+   "first_seen": "2026-09-20T04:02:50.060421+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · MME (site oficial)",
+   "escopo": "setorial",
    "tema": "energia",
    "substancias": []
   },
@@ -1459,6 +1573,19 @@
    "substancias": []
   },
   {
+   "title": "www.anm.gov.br - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSzhUZGlIVFBIWVhnSVJSM3FhcHJTd1RhWWtHRzd3NjlVLUhtNkRIVlU5bXpxZkxBOUFYcHhZS1FxckZ5NXdZXzJTcFBvOUpCYmh1a0N1V0dBNlg0a1RNdXVJUFRxYU1LTERBSDd1MHFpX0JvelpiMkh3azZuaDZPaTl1NWdGdTg4QWFXS3FkbUpVQ041MDVlVmFhNHVyR0xyQ0lsYU5PY3RDTTMxMk04?oc=5",
+   "published_at": "2025-02-11T19:29:21+00:00",
+   "first_seen": "2026-09-20T04:02:47.779251+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Saiba como funciona uma usina de investimento - Canal Solar",
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85Nk9ReUFuN19tbllDZ2dUallXb2E4Q3pyTnhrelZUV2hTakpEd0RES2Q1NFh3UlBpMFRMTk5Ga0JjN2M5QVVhTGg1UU55Vm1Id1BrNEUyMk9iVWVDZjBUdUVwcmtzWFEtX3hPejR5M0JXTnM?oc=5",
    "published_at": "2025-02-05T08:00:00+00:00",
@@ -1624,10 +1751,10 @@
    "substancias": []
   },
   {
-   "title": "Pilha de estéreo: MP de Catalão fiscaliza mineradora CMOC - Blog do Badiinho",
+   "title": "Pilha de estéreo: MP de Catalão fiscaliza mineradora CMOC - badiinho.com.br",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMTBnaXY2eFJjWGNJajlhNjBSeE5hbVlrc3h6aFhRMkJIajMwV1JUMEtweE13djZVRVZvQTJaYkpyckIzU2dncjJ0aUlIempTOVJqaHU1OGhZMUNXM2hyR0JZM2J5eUxQVDR3VllTY2xRR2FkSEtTZmxma2tVSl9SMzVR0gGHAUFVX3lxTFBxRWhORGNLYmlOMFJYWU9EOHRMXzNBUWFhdXNSWkcxMGhHRmVSS2FHV2lmRkU4SnAtbE5SVGpGLXdySmFjUHVwLUdhdWpkRDcxQnBoOG03QUtEajFsdVRwVE5DaVhTYkFvTWJzTm5kUkpJMWd2Y1QtMGZNa0FxeHBGSEs3Y3BUUQ?oc=5",
    "published_at": "2024-12-22T08:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:44.734306+00:00",
+   "first_seen": "2026-09-20T04:02:44.287079+00:00",
    "regional": 1,
    "regiao_termo": "catalao",
    "setorial": 1,
@@ -1716,6 +1843,19 @@
    "fonte": "Busca · ANM (site oficial)",
    "escopo": "setorial",
    "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Luis Fernando Badanhan — Ministério de Minas e Energia - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQa244dzhuQnZyMVppaFFLYzNWel9xU2JLLVR4NkRHOHIydlB0TnN6SXFFYXE0aDhtOWgtSUZ1QjZsejR6ZmYxWWt4T3BSS2QzQjVmczJJRkgwRzVqUWpUX2FRaGkxSzhTWFJ3T2gwck1GSTBNVGF4YUVNbTlDVHIySGVTYkNydjd6VDFHNWEwVGZLc3p6akJhYi1VNFQ3eE1JWFVwUjA5SFFUYVM5QlhMVlVobHRtbm5xTWpGbnYxeDZWNHV4OV9XQWRUdFNHV2hSR0w4aXZmMGRLS29WMFcta0Uxc2gxNFRhLTBZM0YxVlZZU3ItTGhvNkZidGYtVVFrUmdNN1dHYXNiQkdiUjZMS1JoSkM4ZmRMeExUOUZTOGg0aXE0YnZrMWh4ZmdiLWxrZkRSLWFqdV96dGtHaUxELUFJeWs?oc=5",
+   "published_at": "2024-11-02T05:30:13+00:00",
+   "first_seen": "2026-09-20T04:02:50.063871+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · MME (site oficial)",
+   "escopo": "setorial",
+   "tema": "energia",
    "substancias": []
   },
   {
@@ -1869,7 +2009,7 @@
    "title": "Vale, BHP, Samarco could close $18 billion deal over Brazil dam collapse, sources say - Reuters",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdF9xRGRzMV9DMjRWNEM5NWdqdWFidFdia3BTdVAzeXpvdnRXV1ZrQmgwOGdLMDdibmNnMDQ3RjJGRFVMbE5nQ3E5b25IblpwU2k4ZmFPT21faExYTE1nS2UzU0JwU0ZuQlVpMHRCanQ2QVZienlsTkF5VmJDbndQMms2RVlDcVZFNnYtbENVd0k4M1ViQXhRS0tsRG5uYW5WZVBfcVhTZC1weDZoNVZzQ0ttR0R5OTRkcW9oa1B5ajdMS2VlUTVaR3o1cWxMQQ?oc=5",
    "published_at": "2024-09-06T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:54.406609+00:00",
+   "first_seen": "2026-09-20T04:02:48.696242+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 0,
@@ -1959,10 +2099,10 @@
    "substancias": []
   },
   {
-   "title": "Saiba qual é a cidade estratégica que produz minério essencial para carros elétricos - Jornal Opção",
+   "title": "Saiba qual é a cidade estratégica que produz minério essencial para carros elétricos - jornalopcao.com.br",
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbkZaRkdFSTVpTTVoMVFGVWx4bWVBTzB2cElKRU5ZM2k4UXR3cndNM0lwUENSU0VzT1BsZWlGRkVIQkZWSmlzdjQ5UGY1dGV5clo4WG5ULUZfWlhPOWdIajdJd0RjbG9RT3NhcXExNE14MGdzQnNKNXZmdVhpVzdmZ05QQmNmRzJLczhRamE2U2VGdmZKSzd0Mi1BS3BuQnVPb1NuQVdDUTU2aHB4bElYWmNKbVVFam1zeEFkZEVTUVZpVUJxSlJ0MA?oc=5",
    "published_at": "2024-07-30T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:42.709465+00:00",
+   "first_seen": "2026-09-20T04:02:43.317136+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1990,7 +2130,7 @@
    "title": "Conheça a cidade brasileira que possui uma das maiores reservas de níquel do mundo - Olhar Digital",
    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMllIZzVTZkk4a19OTGtjNEVqbTNadjl3dDJrcENzZ3JUSW5YTlFkUEl1SU41eXljaFUwYVBnWkpBeE1pU0dzVzd0a056NEVPR2REbXZpMi1hT0VfXzd3bW52Nm1kYXpXZWRpUEk0Z2ZqcmJ5SWdTZmpwNmZ1TmdwUWgwanlZb18zeTU3ZmJOQ2JuS0VqcTkyTHJKLVVaWURnOGJjOWs0ZVJTbEZGWVpUMGozTW5YbzZTZWZWVTFVZS1wTUxxZVVvUU9zb3JpWks4Vkdzdk93?oc=5",
    "published_at": "2024-07-29T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:42.667975+00:00",
+   "first_seen": "2026-09-20T04:02:43.313826+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -2048,7 +2188,7 @@
    "title": "Equatorial vende 124 km de linhas de transmissão no Pará para fundo canadense - Hora do Povo",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSUcyaUdhS25mS1NsMUtRNWtDYlg5R1U2bllRQUlFeTJ6cUdDbDNjb1hWT3JlZjQ1Y3BROHA2RTlRdUdVZ1NvRl85NUVmRlRuYnFRWXRaMExfSjhrM29BMTJBOU1vN0Z5dFE2NThBUkp2bDZkN3psRjlsWXJzUjBnM0EtajZCVVNGTnoyeGVUbk5DajgzRmdMOUkzaktQZEc5SF81bVQzcw?oc=5",
    "published_at": "2024-07-11T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:56.006549+00:00",
+   "first_seen": "2026-09-20T04:02:49.617182+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 0,
@@ -2196,6 +2336,19 @@
    "substancias": []
   },
   {
+   "title": "Outras Publicações — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYkhCZEQtRzlpWnhWRDJiZjQzbnpUYnYzWWlmcW9mTlVfUDRSdFVSUmZPRjQtRkpaLVBFbzlHMk9uMVBzU01YbXlVakJ6VHVfZTA0bTVpX2R2aXRCQUpRN1RWUTBZMnVBVmUzaGRadEcxZVJuLTI3Wmx5ai1HNzBwYU5uZlROZ19rLTNPLW55MUw?oc=5",
+   "published_at": "2024-04-03T15:54:05+00:00",
+   "first_seen": "2026-09-20T04:02:47.783710+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "PRESIDÊNCIA DA REPÚBLICA FEDERATIVA DO BRASIL MINISTÉRIO DE MINAS E ENERGIA AGÊNCIA NACIONAL DE MINERAÇÃO SUPERINTENDÊNCI - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQV0RqS3BSTk0yaU5rdHNLenBSd0JoWlFMMXFYVmp0bXZhVTVqazNYNC10NFYzbkRtQXJtZzdjYzVGUkZhY2N5LUxMVUlUOExWQV9rXzhOTVRmYnhkNERLekJleFdDSTY3VjN6cDhSX2FCTmRDLUdVX0tLWEdWRTVyVnh5UUdmZmxXV3NkNFdzTDJpaF90WndxZ2FNUlhLR0hOeWlJUnF6UWdqRXVEbDFuSDhfclVTOTlNQ2p5UWplSFhKMUI5dDJkX3RScnRqTjQ1UVE?oc=5",
    "published_at": "2024-04-03T05:55:04+00:00",
@@ -2272,6 +2425,21 @@
    "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Brazil's Vale says its Sossego copper mine operating license has been suspended - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSjI0OUhMaV9GUE53c013Y2RoTnF3S2hmWDVwUzktTjRBV3l2TTBHMzFPa3JBN1JUU2tudmg4cUhTOHZaMFBtOXlTRVJiM3Joa3Vnd3BvODRTTVc4ZHhOczJUdWswTVdVV0lhLUwtcTIxYm5DdXBVenBSN2tIUXpqa2hJTENGWVBVcXpDaTJ4bWxwLVFzR0wtckg2bnBsTnhheHIzS3dEdlhPWEtBVDhZUU4zVGd2bXBqaE4ycTBtdjh0bnRib1E?oc=5",
+   "published_at": "2024-02-21T08:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:48.699743+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
   },
   {
    "title": "Vale board split on future of current CEO, say sources - Reuters",
@@ -2923,6 +3091,19 @@
    "substancias": []
   },
   {
+   "title": "Notícias — Ministério de Minas e Energia - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1CMUdob2Zwenh1clQ2TzY3VlpleEN1U3hEUUdFeGpVYWFDLWtUNWFTb2IyZWh4dVIwQWlGNkk1UnVsbFdHNlliUGN0LWpNb05KQkItcEhqRE4tWkdpeHc?oc=5",
+   "published_at": "2023-06-02T13:40:27+00:00",
+   "first_seen": "2026-09-20T04:02:50.061517+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · MME (site oficial)",
+   "escopo": "setorial",
+   "tema": "energia",
+   "substancias": []
+  },
+  {
    "title": "Despacho — Ministério de Minas e Energia - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1qaDUxZnI4R3FIbC0xTWtQNmIyV3FyZnFreVlPeTZMSE5jZDIxRm9XVzJ6R0E5SmZzZnh1OUZvQkRvRW90Y0RsOFFtZnlaSGVCeWFRVWdiMUYyOXpzYUE?oc=5",
    "published_at": "2023-06-01T22:50:11+00:00",
@@ -3179,7 +3360,7 @@
    "title": "NÍQUEL | CBA vende Niquelândia para a Wave Nickel por R$ 20 milhões - Brasil Mineral",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSUN2QUpVLVBmLXdMbktxNUZINnZSNjNvVDROQmdEY3NiWTVQa01YUDR1NlItc0hydE5hcmJ0Zl94ci1FSjJsdFRxRy12QmMtWU1GM2RBVmM4TkZVdWlrQWE4Y3BJTVVsYUNXNDA4bFlJUEIxOTl5NzJDVkd3QmdyTXMzLTZJcmx4YXQycUtXSFpCZnNydDJsbExhaw?oc=5",
    "published_at": "2023-04-13T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:42.699419+00:00",
+   "first_seen": "2026-09-20T04:02:43.316062+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -3277,6 +3458,19 @@
    ]
   },
   {
+   "title": "P&D | CMOC desenvolve sete projetos de inovação em Goiás - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVkVDYlFLaEZjdzBpMzBLQ2FmT0JwMUFTZWhQaHZkc2ZDZk9Xdm9jRUVKWHZwblJOTHZVTnMyWjlkX0lyRTRVTUM2aUQ3RFk0UUxLdjR5S05INXlXRV9PZFhtUEVQdmEyMkxJcFpVY004SHplTzNfSXBBSzU4U1luZVd0QjdWVnVub3RUWnZROXlWUQ?oc=5",
+   "published_at": "2023-02-03T08:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:45.238499+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 0,
+   "fonte": "Busca · mineradoras em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "RAL 2023 traz mudanças na declaração de recursos e reservas minerais - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaFpLUS00UF9ucG9tWTdrTjU2Ym04elpVZDduTGVPNGlIaEtfRF9iU3RpdjFpWEMzeFZ2VVNNc2ROb21taHV0TkxmR1VjMTFOOUl0SHo4a003LUFjRFlkd0pXT1JjTEJXRmpIM3JhQkU1Ri1xN0t3azd5NGZ6WFNTOE5pT2N4RzkwbHJIZExHemJPNEVJVFFYWnNrNWgwZw?oc=5",
    "published_at": "2023-01-16T08:00:00+00:00",
@@ -3320,6 +3514,19 @@
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaEpZUVowT0hHeXZRSmZQV0otMjlxZjBxTDRfaWNMYUxaaTBVWmk3Q1FfczkwcFBlSE1MaElQYXo1b2FGVUZYY1dKV1FMNlFfQmVicC01ejBHVTRsdWdRSGhWblh5Uk02SU8zV0lIRE1iZktXUFlxYTVRa2lPellYMEF1QWJIWGlN0gGOAUFVX3lxTFBQcDdySGRxTGgtRU1ERVR1Nzk5Mmt6Z3pqT3R2ZUZIU3lONjBBTnNDWkhqTzc4STdtUG1CN2VCTWVEQ2hWU05lNmQya3JneGt6VHVLdHpiVXdDeS0yYW85bFZzMURjamNpUGdyRTdzcE0yd0NETFh0bVZBZ1hPSFU0Yzhua3h0TkNlbjhGc3c?oc=5",
    "published_at": "2022-12-17T08:00:00+00:00",
    "first_seen": "2026-09-19T19:49:09.034934+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 0,
+   "fonte": "Busca · energia em Goiás",
+   "escopo": "regional",
+   "tema": "energia",
+   "substancias": []
+  },
+  {
+   "title": "Térmica em Goiás recebe receita milionária sem gerar energia há cinco anos - Terra",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZmpFY19TUGJCN2RGeFhKUWE4SEpTWmNESnUzRHV0Vm9ITTZ3allvUW12M2x2SEtLSG90aEVkRGN5QkpIcW1ORTBOS1phUHJHZVlYcjZkeUpLaC11c1JZc2d4WUQzT01GeHBSREk2RVFGc0tYS0FHbjV6bHUxcXBpc2ZVdkQxYjFFMkhOM2w5ZTRiMlNKc3ZtX182MGFLcWFVc3ZyNUw2bnRkQi1EUmN1YV9XSFRaYmRNNnJsYndDN0tBaHA1bUxSUFQ0MVpjMUR3Rm51MU9DWDRsMjR6VkpCdkQwOU9VWTF1OHc?oc=5",
+   "published_at": "2022-12-17T08:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:49.618475+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 0,
@@ -3377,6 +3584,19 @@
    "setorial": 1,
    "fonte": "Mineração Brasil",
    "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Garimpeiros apoiam modalidade exclusiva de leilão; autorização tácita de lavra gera controvérsia - Portal da Câmara dos Deputados",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQkNnSF9BZWpNeFhJdVJtRnU3dUpPbHVQbFo1OGFTSVE1SGhGVnJyU3VIQm1kSU1VUzlHSXVzUnkxN3M5SkhGNlRoQXZTeTlUS2lfNzBDVFBYUlVudEJrT2FLbFppcW9OWDRMTlhPWVdjWnZuNE9mZ1JqQy1BSVp2b010aGg5dzNXa1FyMkhNQUJ4dEVzZGs2RWo0amRONFZpU3VuU1N5dHVDZ1lXakJGRE9MVVk0dHJNZUw5dW82dXR4bE10eG9USURrN1V3N1MzRk1tYQ?oc=5",
+   "published_at": "2022-11-23T08:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:47.367115+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -3481,6 +3701,19 @@
    "setorial": 1,
    "fonte": "Busca · ANM, lavra e outorga",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Indonesia, Brazil biggest culprits in tropical forest loss linked to industrial mining, study says - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPR0VUcHh5UWRLMWRDQkV4UXViajhsekRFYVRoUXdSeXVNa09qMnQ5QXMxdXltVjFZT2RzT1JKU1ZZYW03ZGYwMy1rTjdXUWh0cjBNZE9EZ1ROMW9iUDR0TUk3NWJ4cnJVc29JV2otR3dtTGU0SVU1Q05vU2pfMmlwLVlLbU85OGxCbkJQNUVROGVVOHprLU9QdVJ3Y2ZVLXd2cTRWQ3oxdzcwQ25nNzRseHV6VllBYm13dXhfTV81WHV1TmNKQmljeWNTVnZhS0VvdEE?oc=5",
+   "published_at": "2022-09-12T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:48.703020+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -4091,7 +4324,7 @@
    "title": "Portaria n 514-2018.pdf — Ministério de Minas e Energia - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSVVsX2t0U01mS0duNHVDQlQ0NFRscjkzRFh5R285by04TExvUlktLUxPYzZ1NEFnT2I2aUhEdU1OdjhCZXFCSXl2VEpyS0lpcE1Fd3RoVE51OEI2enBYeWFoSlFOQU0xN3BuRzVXYnNBM0hpOU4ydERSSnVGRFVCN0dBUGllMU9XV2xBbDVjdW5TUVNlSjRCQlE1aklDOHVnR0NuT1pR?oc=5",
    "published_at": "2021-11-09T08:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:56.810646+00:00",
+   "first_seen": "2026-09-20T04:02:50.066256+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 0,
@@ -4357,7 +4590,7 @@
    "title": "ANM publica nova regulação para o Plano de Fechamento de Mina - mattosfilho.com.br",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5JYnRtellBRm9TOFpWUTNKdzdjdjIwdzBJa24wQnloWEdIU25YUDMxQ1FBOGE1c2dMNDFNVlpRRDZqcjhNNlhRb3ljWDYtVXNRTUtXSmdrZWRHZE9ZekxaSGk1TjFYY1ZjcTZXQTk3Wng?oc=5",
    "published_at": "2021-05-10T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:51.237213+00:00",
+   "first_seen": "2026-09-20T04:02:47.368456+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -4712,7 +4945,7 @@
    "title": "Rising supplies set to undermine iron ore price rally - Mining.com",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTjBmN1Jwa3ZvMTV5Vmx2M0hYdVFOaUxKVzNSa0h2TU1zci0tU2ljdE56S2VVNndhWGk5ZW1RQVQwWHpZN0Y0T2s1bV9oVWc2MzBLeko4N1ozMEFYQjlKTXlaNE9ObExkM1UwS3FLbGVrU0hVWFFqajJCNDRHeVUyTU1Hdw?oc=5",
    "published_at": "2020-08-20T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:54.463649+00:00",
+   "first_seen": "2026-09-20T04:02:48.704296+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -4726,6 +4959,19 @@
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMXFEdjgzUHI2bGM4TGREd0NFUzA4UmFEdVBhSzl3dE9kdlVTN2ZRWXVLMGxVdElWYzQ2U3ZJOXljbVNKWEJTRXdXdmdQa3JITXpQdExUeGZyUERyenByczRfd3N6TTlvNjNEWUhZWXZ5U2pITmtmQkdxdzZOR1BpR1JoSl92RG1fejB3Rg?oc=5",
    "published_at": "2020-08-06T17:25:26+00:00",
    "first_seen": "2026-09-19T19:49:06.285010+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Gratificação de Qualificação — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbS02dFZmN1p6T1B2TW1ZbHZHdmJkci1rc1NoSGhmc1NJWVN0Q1JHWnlScndfU1l5R1NvVFR6cXRveDEwMEVTUHhpbnhralRBQkYtdGRyeFpJd05HMDB0RUU4anVBNkZvYmw5eUQzandTSnYyUGRWWXZ2enRiLUxEZHJ0MFA1NjktX21TUzdCcHliZi1x?oc=5",
+   "published_at": "2020-07-30T05:53:53+00:00",
+   "first_seen": "2026-09-20T04:02:47.781765+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -4812,6 +5058,19 @@
    "fonte": "Busca · MME (site oficial)",
    "escopo": "setorial",
    "tema": "energia",
+   "substancias": []
+  },
+  {
+   "title": "Publicada nova Portaria do MME sobre procedimentos para investigação de lavra ilegal e irregular - demarest.com.br",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc3NGWEFydUVtQkhtQ3dOU1J2bmxFb3pwNnpCYnp2QTFER3FXdDRuZ1hCU0dMV0Q1Zk1SNDNIZVM4dHBTYlVRMWZjMGxLck1SVlhfSlpveXlmQTJvQkZCQVFYMkVNY3NONUk4bV9PNWpNWHhqTng2OXIyNTNEemdmbklROFh5cTBpcDljMTZIYWwtTmtNTWNqM0FrelNycU11X0NKZHhrVXN3WkZ4czJpR0FOaFpyRWxQam0xWjFKQUgtLUE?oc=5",
+   "published_at": "2020-06-18T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:47.369564+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
    "substancias": []
   },
   {
@@ -5012,10 +5271,10 @@
    ]
   },
   {
-   "title": "AMPLIAÇÃO DE MINERADORA PODE INVESTIR R$ 1,2 BI EM CATALÃO - Blog do Badiinho",
+   "title": "AMPLIAÇÃO DE MINERADORA PODE INVESTIR R$ 1,2 BI EM CATALÃO - badiinho.com.br",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbDZkaHdSRnBQVUNjWXRhRnpZMVNmZ3JUbWgzZUt2eU5CTFB5Y3FWckhuOHNRZUFxWDIyN1l4ejdMM3J0cHBZeXgyOEhMMlcwNHBKWGNlMWRRTmlhal9QZFY4Tm9vU2x2NDdJX0ticldsbEQ4VGVyaThYdFcwd2cwSlZNZEk1QlJwRlVCeS1uZjfSAZYBQVVfeXFMTVFOZjlROG9hYXZZYkU0cUoyclkxak5uNkF0VDE1dGtZODZXSDNaTW1pRGlHNXJFUFVrVi1QSmZFNFFVX2pGcFBkdGRsOUFyZWV4SDlyTElWR1huWFhzdWxBNnhKSGhGMjNwV2UzcmhlQXhjNU84UkhUOTdXT2NmSmZZVzlUWU83Q3pFc3RoSEhEdUxzY1NR?oc=5",
    "published_at": "2019-05-12T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:44.745352+00:00",
+   "first_seen": "2026-09-20T04:02:44.288938+00:00",
    "regional": 1,
    "regiao_termo": "catalao",
    "setorial": 1,
@@ -6403,7 +6662,7 @@
    "title": "Mineradora testa sirenes que alertam moradores em caso de rompimento de barragem em Catalão - G1",
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVm9QaDZEY0ZnVGVEclNJenhBMEhlLWZETWxiZVhycjRFeVZrSGhqZ0N6QlZCQjJuLUVWVkkydS1mT1dlWDB5TElUb2FuczJyRGhONnAyWk9IZEpKWTQzTGRzU3c5SExUb1BFdmxzVWdfWUx2Um1TRG1Odm0yREV0dHZiaGNwa1ZUMXJOYlIzMjFlbjBzOGtkNjhJUU56NDRlTDBjVHhnMFlxVG1QMXhQUEpmdVpFX1N6QzNoWnc3R3R2N3NCbzQxS0s2M0JDS0NlSU5N?oc=5",
    "published_at": "2018-02-04T08:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:44.735304+00:00",
+   "first_seen": "2026-09-20T04:02:44.287966+00:00",
    "regional": 1,
    "regiao_termo": "catalao",
    "setorial": 1,
@@ -6647,7 +6906,7 @@
    "title": "Anglo American revê produção de níquel em Barro Alto-GO - Exame",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOanZ6MndnRFB4VDdheTIwOEVvYVBSNE41WWpDLV9sVWQ1MW13UzFvSjRPUnBtYy1QaWt2WUp1SUROSzFqakh0VURjSWViaTExY215cldOalZxV3c1NmRwTE0wckowNWtUdzhKeEEyd3BFSkVjZzZkWHhESGRtUGpKUF9mSGplRkF5Q0xzOUxR?oc=5",
    "published_at": "2013-09-23T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:42.734385+00:00",
+   "first_seen": "2026-09-20T04:02:43.320553+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

@@ -1,6 +1,6 @@
 {
  "mes": "2026-01",
- "materias": 29,
+ "materias": 30,
  "itens": [
   {
    "title": "Fevereiro seguirá com bandeira tarifária verde na conta de luz - agenciabrasil.ebc.com.br",
@@ -106,6 +106,19 @@
    "fonte": "Busca · mineradoras em Goiás",
    "escopo": "regional",
    "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mercado livre de energia: é hora de ajustar as velas - Agência eixos",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOFdycmI0T3J6WHJqNE1tVFRJaVNGMzNPNFI0dTc1My1LbnE0d2NmY2lENk40WmdSTjRJMUpIRmszRGxoX1YwLTZXOUVMMTNPN2dmQnFqa1JMZ3NZak9XT3k3dml6anIyZjVyT1BYcmYzOHg0bkxBdnlIS0YzY0Qwc0FWeWxFTzhzM3h1Q3lsSjJEVnlV?oc=5",
+   "published_at": "2026-01-24T08:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:49.221009+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · preço da energia elétrica",
+   "escopo": "nacional",
+   "tema": "energia",
    "substancias": []
   },
   {
@@ -372,10 +385,10 @@
    ]
   },
   {
-   "title": "Polícia Civil desarticula esquema de desvio de cargas na CMOC e prende quatro em Catalão - Blog do Badiinho",
+   "title": "Polícia Civil desarticula esquema de desvio de cargas na CMOC e prende quatro em Catalão - badiinho.com.br",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9IbWRiOHpVZnRSVU1fV3hqRWZtZnllckV5Rm0zU0dNc2VTNHE0UW9CQXJmRzB5cGlYbHBVc2FWZnZFci1HNVlvMnNOazhZTDE0bVpaendGc1Rsc1dhUU44aVFmMExIemJTM2NUVnFaTDBMZU9abklrYdIBfkFVX3lxTFA0Tkt0QXVqSFM2Qk4tV1p4MWRsNDllLS12VUhmYjJKWGp6eDI3aXlCMTlSWHRVS1dGRmdoTnJyQlN0VEJxLTRUMnA5Q2JvLS1OWE5mM202b2ZLWUozZ05qV29IUHd0UUx1aE1UcXhUa21kVmQ1d3dfd3BFVWdmQQ?oc=5",
    "published_at": "2026-01-06T08:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:44.724272+00:00",
+   "first_seen": "2026-09-20T04:02:44.285725+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 0,

@@ -1,6 +1,6 @@
 {
  "mes": "2025-10",
- "materias": 29,
+ "materias": 32,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - Diário do Comércio",
@@ -55,6 +55,19 @@
    "substancias": []
   },
   {
+   "title": "EDP vence lote de transmissão de energia em Goiás - CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWm8tbGVIcVFoTjNlY0l5cTlrNWlfRUwxSTQ1MHN6OGNwdGtFZjQ0ZzdXT3o4czJfQ3R3anFlUTBQTGJ3Y2tEWHJ3cFNhdHJFLWVBcUlIalRwckZUY1BQOEkxSi05eDNRdktreEVfQ29IMld0Z1V6N1dHbXlOXzlmTjRKVmd3ZmctTUpKT2dEZEU5Slp6anJ2NkFPU3d0Wl83RHA1Z21B?oc=5",
+   "published_at": "2025-10-31T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:49.615202+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 0,
+   "fonte": "Busca · energia em Goiás",
+   "escopo": "regional",
+   "tema": "energia",
+   "substancias": []
+  },
+  {
    "title": "Trabalhadores da mineração podem parar: Metabase contesta proposta da CMOC em Catalão - badiinho.com.br",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOTg0UGo4RnZPRGE0RUY3TTcyamY2cEZROVhGT3dTNjZpdjRKX0poYXhWR01YOURsT1FoU0lQRU5WNW0zdGtndG5sUUM5YlhqOFNmTER6eF9OLWtOT0ZrMmdLR0ZzeHpVRGE0T0FfMjdPeVJydk5yNEEwem9xMlVNbjRwUWltd9IBiwFBVV95cUxNN2lrTE5FN3BabGE3UzhMOG1qRWRsUWFsVE5CUXZCeWQ0VkVpa0pONUVqdzJBNTdTdW1tY1VreHI1TnM1bDE5UDZIbWtKWjlHemdHOVR6UU13VFJvS0xtXzVHdEplaHgxQ0txcnNncW1TMTM0ZzVDakpPQ3FTMEVhM3ZJWFhrZXR1UWFn?oc=5",
    "published_at": "2025-10-30T07:00:00+00:00",
@@ -64,6 +77,19 @@
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Nova resolução moderniza normas de extração de recursos minerais para obras públicas - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZFdCT1ZmX2ZCc0hNY1FwR2RpTU5GbzZZOTVvbmJhb1hoQUdKMmxtRjg4dnhIWVpBN2dOWmZ1NHNGTE8yZmM4VFRIRnJWNERvSVdWMFdOZXJvSGlZRHR1eVV3cWM3eW1DSUtfYkdSUUxsalY4RWdkWHk4dUs2cGFBeVZJdUtKbUMyZERIZEJ4ZUFKazk3SFVwcmNhM3c0R09jLUt3bG01YnVGUEtGcERrUzJ2cmFrNF85M00xNDRuRElFYWhIVEZvdnNzdw?oc=5",
+   "published_at": "2025-10-30T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:47.365848+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -330,6 +356,19 @@
    "substancias": []
   },
   {
+   "title": "Governo de Goiás, por intermédio da CELGPAR, realiza leilão na B3 para alienação de participações societárias - B3",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVlFFX010cURpRnBRYTBjenVoMlN6ajlVOHFGTWRfdHp4cWswTmpJekJRVXJJYkhSd19SOUhIa0xiaWpJRDJUM3hzeHltZzBPUV9FVGZaTk9ENU1TWFp4X21ZUUQ5bUhfbFZTV1MzaWdOSEN3ZVRJTThkMlZRSkRfQW0xTnNqS2UySHZpV054N3J5OVVpYmxTOW1nUHhLbV9TNkRKeDNKZE5uSDlORnJoSlVtRzhqNFBLc3hxalRNUEQ1dUJwQjlWY2xPQlJwdWFvSmpFb24tWDdrT1lkdGRRTXNR?oc=5",
+   "published_at": "2025-10-03T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:49.616103+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 0,
+   "fonte": "Busca · energia em Goiás",
+   "escopo": "regional",
+   "tema": "energia",
+   "substancias": []
+  },
+  {
    "title": "MME publica Plano de Outorgas de Transmissão de Energia Elétrica - Agência iNFRA",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRnhCUUNtRF80akdNeTlHbkU0d01KdHdKU1pMblY3MXY2MDIyZGJnVDVBU0l3c014ZDNaSHpHU3g4aGQwNTB1bkVKN0ZxcWYwOHBucjByYzlySDBkekE3bXZ6SEVFWW5nUldfUzhBMjJLSDRVQm9CUFBTU19sV3Nad1kzdU1Od2g4N1lMVXVHTnVqdktCaVp6UzMtR09pRk5ILTdhTU1n?oc=5",
    "published_at": "2025-10-02T07:00:00+00:00",
@@ -376,7 +415,7 @@
    "title": "Clean energy glut draws cryptocurrency miners to Brazil - Reuters",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdmROS0tjcjU1X3NpQ085WWJyVFlseFFnc0t6Q0V0RXUtcTkwUWVNeUVfRGxCWlBRemh5bF9LS2hKSWJjZEVQM2tNc0NoWllkM1pyQ0dmbmVwUG91UUt1TFhNaUxQTEZWYzQ0YkxhRGl1aVU1TTBkT2JvRlVMQk1jZy1UZ0VBVmRjRXVxcGlFS0NlYUZIeXlFX1loQThUVFZYUW5zbXVPaw?oc=5",
    "published_at": "2025-10-01T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:54.392609+00:00",
+   "first_seen": "2026-09-20T04:02:48.695145+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 0,

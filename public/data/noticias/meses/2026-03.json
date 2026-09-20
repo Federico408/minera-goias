@@ -1,6 +1,6 @@
 {
  "mes": "2026-03",
- "materias": 49,
+ "materias": 54,
  "itens": [
   {
    "title": "Nova guia da CFEM entra em fase de testes com participação do setor mineral — Agência Nacional de Mineração - www.gov.br",
@@ -133,6 +133,34 @@
    "substancias": []
   },
   {
+   "title": "Sigma Lithium fecha US$ 146 milhões em acordos e reduz dívida em 35% - CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVnJUVmZCUjg1Z2VjMzZUeFZ6TjdwdWFUZWRvNUJGQ2k2YUM1TXNSYlpIWVJ4ajJKUnl4czB1VEdaMjRTb1U5ME5GbEhOQjNjV1FZbk1UUlpMUUtWYWVwMHZXT20zVmVydmo2SnNiUFEzdEZEcTV5YXdTazMzdUN5dExGN1duWjNGUkVSaGdCdnUzR1Z5Y0Z4ZWJpNkw?oc=5",
+   "published_at": "2026-03-30T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.523916+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Em Rio Verde, Baldy é recebido por Paulo, Lucas do Vale e prefeito Carrijo - Mais Goiás",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ29vb3pUZFE2dUZkZ2daeDRRM3BHb2lPU3hHV1hxTndxS2s2SlJGQS1UX1dNRV85VWowejVoeGJWM3FxTjRNcUt6YmJoWkxSXy16N1FMWGY4dXhGQzJoMmRDUWt1amxNRDVBOS13VWl5M284Ynk2RTV0N1J3QmRESV95OEhJVkdFbXo4OWtkZVlyZVdMQUl2MWdiWjBocjRRZTBjQ3ZpLVFjNlZEc2FydQ?oc=5",
+   "published_at": "2026-03-30T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:45.236474+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 0,
+   "fonte": "Busca · mineradoras em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Royalties da mineração distribuem mais de R$ 92 milhões e revelam nova geografia da presença no país - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdkpnOE5YRnNtVW5wbU5WX2JIQTlIN3YybGlHZW1oc2ZMZjI0Z0FTby1DQXdYNXdZZDFhVXdTck00YVpqZndZOHhweXlYS3hCRW0tZmpocWt2U29GTlFuWk9nNnBaUm1Ea1V0cU00aTNrUXZoYmtaZlA2RTBHZl9aT1pqdEwzcFNnWkt4YTZJVW9HWVdjZmpZWnNsaEVxZ2t1Zkh0QlZPaTItYk5DSHJWd2pCZWN2TGN3Q2V4SHBzeGxVRkc2ODJrVmZVdUNtaW5Vclh1VEh2M0ZNRlJOdjk0?oc=5",
    "published_at": "2026-03-26T07:00:00+00:00",
@@ -254,6 +282,19 @@
    "substancias": []
   },
   {
+   "title": "Goiás inaugura usina com 731 mil painéis solares - Agência Cidades",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeVJwTXBhRnJJb0s3NkpFeUFLOW1wVTVTVzZud2ZKMDItNW9ITVk3SUhoNWg5VHFJUGJDeXVGcXNTMHJZVXhCZXVWVW9WZnpKbE1RbjA5b3FUY252WVIzbjJMU1BPUGN1ZERjNmJkUDdTcGRoRENRbDA0MkRYWmM0RFhDZExMY2V0eU02c2d1LVhiLUxCU3VGQzZSMVZ1cUNtZ1HSAaIBQVVfeXFMTzFlaGUwUHprdWRYSkk2MTd3dHVRTDBfeXlhUFV1YzFBS085TTJ0ZXFJQm1TVUtKQ1BLaHVPRVhyYzI1c1BQNlQteDZ4bW5EX3RNa0RJajd1UU4ybXlOd2I1TGFzR0hORWF2c2Z2eUY1QnVyOGNNRHFpN2ZwT0o4ODZvODVaX1ZsZldJSENiYzl5RDIyTU5PVm1rLURoWDdONWd3?oc=5",
+   "published_at": "2026-03-20T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:49.610152+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 0,
+   "fonte": "Busca · energia em Goiás",
+   "escopo": "regional",
+   "tema": "energia",
+   "substancias": []
+  },
+  {
    "title": "CFEM - Guia de Cobrança — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeFhDeGxsYm9HUzhlM2ZvbjVIT0k0ZEJxbm9rdXhUbmpraFkwRGhqVHNMaTdyMDhMckJjZGlxRzRtTklVYS1mWWxzN2VGVTdJNTZXSmZqSERVYkN3Q2dIaW5ybEx2YS1kUkNmVkktTnlFZWY3X3pCaEVzaGs5VG4yY3ZYMFA3ck1WYndleVFOcjhmN3FvaXdZMEIzNnVfZFA1Q1QzcmZLRHhvRnF1V0ZIM3Bzb01NblFweFE?oc=5",
    "published_at": "2026-03-19T19:55:09+00:00",
@@ -296,7 +337,7 @@
    "title": "US in talks with Brazil on critical minerals, US diplomat says at signing of Goias state deal - Mining.com",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTklEM1dFQ1lPVFZoaFNSelZINWkzWTZpTHVJbEMxMFhSMDJjdHQ4aW82NGNzWm9KSElISXUtZGV0akRydUpzbF9uTFpsRkxYOS1mdzhDTnhtZUJzUjV1Q2tMWmVuREtDVGRoZ0VEZjhmLVNLZGFpTDNYODg1TUt1UlVUaHlNLXEtRnhLUUhUQUI0M3c?oc=5",
    "published_at": "2026-03-18T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:54.394610+00:00",
+   "first_seen": "2026-09-20T04:02:48.700892+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -371,6 +412,21 @@
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNEZHSEFZS0RRWkFqekw0VFZ1T1pCbzEwZ2ZzVzBtMUxXNFdfMXBBVGl4cEVNZzRWUlBMMEljTkJKamc3VXBhbFlJUlh4WFZEYVNkLUhfaHdaSXY2N3RRUXdxZHNFN29NelVGV0p4MUs3MTJVU2FRaWpyakhEcTY5Z3dYRTg1b29QNmgzUE9DTUxGTHA0NjhIanV1R3BVMjR1UkFsVHcxdnVqRUhzZ1lzV2hOV19JWmhpREFjdmduYUZ0aUhSTnluVzJB?oc=5",
    "published_at": "2026-03-17T07:00:00+00:00",
    "first_seen": "2026-09-19T19:49:08.435001+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · preço da energia elétrica",
+   "escopo": "nacional",
+   "tema": "energia",
+   "substancias": [
+    "energia_eletrica"
+   ]
+  },
+  {
+   "title": "Aneel projeta alta média de 8% para tarifas de consumidores de energia elétrica - InfoMoney",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc3JoRlYtQkVHdy1rRjNXcHdtTkNiaG95ZXRBb2JQVDdwZzllWEVhMDJkMXZNSzJkcVRua2J2aWNuNE9peXdlTVpVaUFSR0hzSG5IYVZhMzlVU2JNcnRaYno2X3g1ek13Nnk4V0JGeUdHSVFBY052SlNKdGJRcm54cjk1Z3RlcGFneFN3aEh0cEdlb2ZWUVU0M0FtTVUyeGdERXRwR2VYYWpVUVhrdWRQbjg5b2lZNkxV0gG-AUFVX3lxTE9kR1hLQzJFNFY3OEFkT3pZeng1NmVRX2YtelFld0ZtdHNQVkdhY3VqWHpoaWVpZV9jc0dPZ19jOEtfb3QzQ2l2TU4zRnJrdVZ5blFGZ0RSMEFNN3lGRkVhZXNzb1NMM01WdE5NWXNzZG4tX0oxZ2RiN1dpMVprM3J6S2w1S21rTUJOWTUzc2VjRUJKR1NScHZRaDAtUWdxZjdYbnFJdXRZYS1vNDV5RERQMFhqbncwNjM0TDdXTmc?oc=5",
+   "published_at": "2026-03-17T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:49.217522+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 0,
@@ -540,10 +596,10 @@
    "substancias": []
   },
   {
-   "title": "Goiás adere a convênio e reduz ICMS para obras de transmissão elétrica - Jornal Opção",
+   "title": "Goiás adere a convênio e reduz ICMS para obras de transmissão elétrica - jornalopcao.com.br",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSkJtaGZfR2ZmdEpidzl4T3kySkg5Q2NydWVmcnV5Y1NNWHZZa1RjREhpSzVoQjc4Ykk2S0o5b2NmaEFkMFBseXA0T09sd3dwMXRWNjRqV0R0ekpJWmJEZlRWejIzZ3JJUl93YWRGay1vUzRGd1pFS0xqOUgxck44aG9OazBidkFvbGxXTWNYSEJiUkhod3Zyc3hBbk1hbnlyQXRJdjFfbElKMlJVWnF0Q0ROckpIOUtOaHc?oc=5",
    "published_at": "2026-03-10T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:55.981453+00:00",
+   "first_seen": "2026-09-20T04:02:49.614191+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 0,
@@ -602,6 +658,19 @@
    "fonte": "Busca · energia em Goiás",
    "escopo": "regional",
    "tema": "energia",
+   "substancias": []
+  },
+  {
+   "title": "Vale no time? Goiás vê lista de jogadores para reforçar equipe em 2026 - Esmeraldino.com",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB1Nl9xMFJKMDMzQ21aT29PMHBOUTZqQzczbm15aVllX3RFUVRuVkd6WmY0UXFNa0xHVU5hS0xCSDJGdU45V0QwOXJWaVM?oc=5",
+   "published_at": "2026-03-06T08:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:45.237486+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 0,
+   "fonte": "Busca · mineradoras em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
    "substancias": []
   },
   {

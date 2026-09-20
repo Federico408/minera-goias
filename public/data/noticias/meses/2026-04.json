@@ -1,6 +1,6 @@
 {
  "mes": "2026-04",
- "materias": 113,
+ "materias": 121,
  "itens": [
   {
    "title": "ANM nega recurso de Abdalla; direito minerário fica com LHG, dos irmãos Batista - Agência iNFRA",
@@ -29,10 +29,10 @@
    "substancias": []
   },
   {
-   "title": "Tragédia anunciada? Nova mortandade de peixes expõe fragilidade do Lago Serra da Mesa - Jornal Opção",
+   "title": "Tragédia anunciada? Nova mortandade de peixes expõe fragilidade do Lago Serra da Mesa - jornalopcao.com.br",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZHk5aXROUFFVdWlDakxnVmx2OFE0WkNaSThSMFFqY1lJM2xwbGVSV0kwbGZUNWZZYS0xR0xjejJrMTF2ZzUwdG4xQzB2Sk5NTUJJaFlYQjNGSVI2TV9yVWctUUxyQjVhNW9WbFBlRlZTekhmczh6dm1MUE5GM3ozYXFSZEl4LWZqUEFzcQ?oc=5",
    "published_at": "2026-04-30T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:43.736759+00:00",
+   "first_seen": "2026-09-20T04:02:43.930994+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 0,
@@ -252,6 +252,21 @@
    "substancias": []
   },
   {
+   "title": "Atlas Lithium avança para fase produtiva em Minas Gerais e reforça aposta estratégica no mercado global de lítio - Cenário Energia",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOaWx3Q0wzZGU1WkZiS3VVR3ZjdDlmUTdRMmFteVl0U0RITGRuaFowWFVZcUVzS0FCQ0I5UnA2Wm1UNnZqSWFUbEgydG00S3VmNnRsMm9NNzlldlVOZ2pXTHJNV1FYeFRqQjZzODIzQ2dVc19HOGp0RVdKS19aaDVtY2gteWZXcG1jc1FUYVlWNHZxYm9OOXpTeFEwRGI2VVdKVWFzWVVQY0NMc0NrQjBZZ2ZkanE0TU5kc3hXb3FOX2l5NDRiak1tT0lmdEREZURBWGZEMmxJVUJkVm1XdnJYYUIyUktrRkozWGc?oc=5",
+   "published_at": "2026-04-27T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.522652+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Acordo Goiás-Estados Unidos sobre terras raras é inconstitucional - Consultor Jurídico",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS0lDdWNXQ2wydTBWQmcza3FLYWNPMVRwNWQ1YkNGU2x3aHdfQW1IaklmUm5ja3dCMUgyX3BVRWpxbGhKUEoxcmZNM3J6Q3lObWR4RWlBZ2p0cDZmVm1pRmNjSldKalpaVVhTSlBUeVR1cmpZYjlUWWpmZV9mUnk5RjMwOThnZEJrSFh5Ui1Bb3ZWOHVhZm56eDFiZEVBekQwQWpXNg?oc=5",
    "published_at": "2026-04-26T07:00:00+00:00",
@@ -346,6 +361,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fserra-verde-entenda-tudo-sobre-a-venda-da-mineradora-brasileira-de-terras-raras-para-os-eua%2far-AA21F62j&c=8930522291100895173&mkt=en-us",
    "published_at": "2026-04-24T12:57:00+00:00",
    "first_seen": "2026-09-19T19:49:02.790539+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Serra Verde: entenda tudo sobre a venda da mineradora brasileira de terras raras para os EUA",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaf5ae5e0a4470ebd1383db29da94e5&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fserra-verde-entenda-tudo-sobre-a-venda-da-mineradora-brasileira-de-terras-raras-para-os-eua%2far-AA21F62j&c=8930522291100895173&mkt=en-us",
+   "published_at": "2026-04-24T12:57:00+00:00",
+   "first_seen": "2026-09-20T04:02:45.553659+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -732,7 +762,7 @@
    "title": "Tarifa de energia é reajustada para mais de 900 mil clientes em Sergipe - G1",
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPc3lXb2hyclBGa0UxZHZjTzZ1bTFMY21ZTGRiSDYwcDRvUUc2ZERrV3Z6V2lhZVZPZzVRNl9McVE5TWkxN0o1bkV5ZmpKam0wZjdZdTBINS1hYkJwVE4wYmVOZndBTkZUTkpIUERGblhER3liXzAxbkNVZ0d4alIyUUt3YzU4eXR3T2ZPRjVQNWRmbGluVlc3c1Zjdjhja1A2QTZTZTRDUHRNSUlIUlpPLW43QUtkVkswV3Q5MnB5SThnSGJoTWM2cEFPZ9IB2gFBVV95cUxPMEJqd3JjaHpDRkZkYzU1RmRJVG9QS2k1TGdFbWgxbWJnUUpBdkNYSnhHNDR0S0x3YXRsekp2aE55RngyVE9fbzF4WnhHb3NCTGliY25wNTgzSEJuT0J3dVRoalhCNXVpX2Qxa2g1Z3JrVHdTOU9ZZE5uSzJ2RGdkVHhPOFVoYnFuU01aeW9tRTBSc0RZSFN4cnYzNlBpaE95bHVSNERuai14WkpHc0FwQVNuc1J6bERta3o3Y0F5Y3pIWHNtN2tjMEg2dmNQM0VxX0Iza3Z4V21jQQ?oc=5",
    "published_at": "2026-04-22T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:55.338533+00:00",
+   "first_seen": "2026-09-20T04:02:49.218635+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 0,
@@ -1052,10 +1082,10 @@
    "substancias": []
   },
   {
-   "title": "CFEM: royalties da mineração destinam mais de R$ 473 milhões a estados e municípios produtores em abril - Brasil 61",
+   "title": "CFEM: royalties da mineração destinam mais de R$ 473 milhões a estados e municípios produtores em abril - brasil61.com",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUjZjM3YwM1FrOHJUMnZDWkhGTXptWnNXQjVvTjZLektjamxrbHhvVmxNc2JxZlBiT1hBeEhlWnlyNWNEY0J1Z2lKTDAwWHVEQ0pDWjNGbE9KeFNaSjlsb0ctT1YtUVI4eV95dWdhVHdPY1QtRmVEVUhnWDFucU5GRUIxSzJ6azRGRVRBOEFzLVhZOUttRU1xbEhoSUI1RDJEU0R1Q0JWTFdhY29FTUhHWmhJX012a1JnRlN5cGxhcTlNZWxtRUdGZHZ0b0ZVeUtsanfSAdcBQVVfeXFMTjNGNkluUTlnVzRVTVk1QUtJRUg1YTkzaEtKTGg4RjEwbkJoVU1LZzRjRk14LXNtUHkwZ0lGd1hVbDZNSHZ1bThHZDJ4YkJ2SVdzQjRaVy1RdUtBQS1DQWZqYTVFb2V3bk1UdVdGajJNSXFPTTFkb19jd0ptMXBMMTgtOW93c1hLeTFla1pLb3FmZnAtMzdmcDNOcUpwM0xxZjEzZEJZSWhOeElWZUVSUHR6cUxScDBvRFk1dXNKT29UNndRS2x6WHNVRmlZbVlWMHhCTHZwTTg?oc=5",
    "published_at": "2026-04-16T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:50.564794+00:00",
+   "first_seen": "2026-09-20T04:02:46.936473+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1107,7 +1137,7 @@
    "title": "Portaria_MME_nº_913/2026 — Ministério de Minas e Energia - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOHpnN0psTU9Wb0xwczNqdmpKbkV5WGV6THJIQzYtc0Zvc2pBNW1GNHJXVV8wYnZid1F6YkxDeWpUdVJia3NyTUl4UkhkZUd3b3ZvVjdGUTFFYWl2bXJ5d1pNZE5xOEVlRjJ1UERPbTAwVEFTV09hNFdvaGtvdm8zT192d1E0QlhMZF90c0FZODhaRDJ0RFc1dGJTNnNyN291Umx4SlhLal82Qnc?oc=5",
    "published_at": "2026-04-16T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:56.807596+00:00",
+   "first_seen": "2026-09-20T04:02:50.065120+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 0,
@@ -1184,6 +1214,32 @@
    "substancias": []
   },
   {
+   "title": "Mineração cresce 6% e movimenta R$ 77,9 bi no Brasil - Brasil 247",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWlpKWHpuVDFobTBLYTBoRUstbm1Gb3pfd0pZX0JyY0x3NTlsUlMtVnpMc1NWSGhVU3hUbUFWR3FVMmZQbG9yLVY3cnBkNVdTcFdqSzlBVjZDUmx1TzRMdm41ZlBuT3k4dUNjQjdBWGRic20yY2xRa3F5RVM3VDZyeXhQWGpqS3gyYXp6Sg?oc=5",
+   "published_at": "2026-04-15T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.520438+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Sob a montanha — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xVmxXNDFPQk5TT1FQNXJXeUZFdjFseHJCRDMwVUZJMHA5cXl3WHVYeEJUT2trWjE4WF9GWTVHU2JFcmNlUGZSQ3p1a3hlV0o0cjVZbHc0OUtfUVpPV21PUzN0dDh3NGt4dnlzTi1B?oc=5",
+   "published_at": "2026-04-15T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:47.782777+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Manutenção emergencial em alguns sistemas da ANM — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQldwVTQ5cnhOWGRyTXJlV3BlSGM0NlBGbG5rOTlsbF9mOHE0cFpLU2htZ1RSOTB4MjN6Z2I5WEVWb3RXR29BQWVMTEo5NFVyOHRscHd3QWhUYjFlcDlTV3R5Rlg2UUVqU0hOa2RlUXdndGZhREx6UWFHUlpmN2VnMGRKZk51NmliWnlGdUNBZnEtRWVDbnp4VkhtSnNpdw?oc=5",
    "published_at": "2026-04-14T07:00:00+00:00",
@@ -1230,7 +1286,7 @@
    "title": "Comboio de carros e helicópteros que parou Goiânia vale R$ 150 milhões - Mais Goiás",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc243b1Q4WG9mVVB2NUwtUDFmMURsaUZHQzZhemp3c2R2VUpXeGUxNEtaOVl5bk9hRXdUUFFXbmRZT3hRc3JLckRTeW04cl91ZzdxN282RzU5YUE4V2VOT3RBaExmTjhMdTg5TkxvR2VCY0w5THdWTXN0Q1RILVpEUUxGX2xGMVdkWHEtM0ppWUk0c1Q5cUhvSjlnVG93TjUtR2o0NGx5UFcwVVM1dmZtQUxkRkhNT3Izd2pVQ2Fn?oc=5",
    "published_at": "2026-04-13T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:46.937367+00:00",
+   "first_seen": "2026-09-20T04:02:45.235474+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 0,
@@ -1279,6 +1335,23 @@
    "substancias": []
   },
   {
+   "title": "Exploração de terras raras, lítio, cobre, estanho e outros minerais críticos disparou nos últimos cinco anos, cercando 278 terras indígenas e boom da mineração acende alerta no Brasil - CPG Click Petróleo e Gás",
+   "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNZGprRWhsOVEzN01CeHR4WTNBRmhrZ3I5YTJJc2V0dFpCRDZpUWhlOU11TkJXMzd4ZnZMcVRHYktwb1F5ZWxVWTFkdnZGOS1tRWVzRG43U2RodktMODlEM3dEUFhFSG9WOVlsYVdjWW9kUURxQXJJRWVpQTFtT1VJU1BocjZGWEtxY2ptUmo4Ql8wc3NVdnVLMmFDc1p5T0JWcUJUY01HTExOMGNhQU9Za3JKX1lLSi14MDljbTlHNkVoWWxFVUNoRi1oTFNQY25ERlU0NW5raVdzbDVCTW5fLW4zUmZSZ0UzeVU3a1N4Q2lUeEliNUpmRTYxQVY0aVQ0X1pkRURuTDBXQWI4X09EWFhtaXNMa25PdFVJZGVJaXVxc3JycWRkWkdBVk9SSmQyZmlXaGxfWlVlUk5SbGs2V2pB?oc=5",
+   "published_at": "2026-04-11T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.525047+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre",
+    "litio",
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Niquelândia recebe Projeto Roda Hans para tratamento da hanseníase em parceria com Novartis, Secretaria Estadual da Saúde e Ministério da Saúde - Excelência Notícias",
    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNcjNDTWxiWVQ3NURXYWxqejd6S2ZVcU9VeUJWT3VXWGxyMnZsMlptTG5HMmhYVmN4cUtXOTZqTWRLcE12RGItTTBWSTFiVmNORzJ3OTEwMFNYSmRiWGxHWldwOG1NbGpDcmZYT3MtZ0pseFpiTnVrdnJaTV9SblJnUjVqMzJJYUtwRHh3d25QRVUtY1EzcWJSblpNWTNnSzBIdlJsYkFoaXlLMWZBNVRJVnY1UUhEN0RnSlNNUmR4M3FQOEMxTmpwYVJfdTNFaXJvX1JDalBVbGg1R2ZOYU15RFR5ZjBwcmcyUmZ3NG9ONnctVFk1bnZwb3gwNVozY2lGUVRwbmd6V01YTXVQXy1mVEZrQVZYVEk?oc=5",
    "published_at": "2026-04-10T07:00:00+00:00",
@@ -1295,13 +1368,26 @@
    "title": "Sobrecarga na transmissão leva Equatorial a pedir geração a diesel em Goiás - MegaWhat",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWklNRmg1VEJVb0FOQlQ4amxjQmFlZkhYTGNwOU9iQkZVWVFXcHJqM3pEbE13T1g1YUN3UU51Z19lZEpGT09MZFZPdGRYS1dkVDhUNHktT0ZTUGl4a21Zc05ySjlGeVpPOTJvTUs0NVFCQmtyYjdCdXZtMi1tQTM1TU4yeGxQVHNFZTJNNWxhQXBLNzFSelVZNmdyMmRTU1FwV3ZucFMxdHl0bHA2V1Nzd0JPdGxCSHRi?oc=5",
    "published_at": "2026-04-09T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:55.960728+00:00",
+   "first_seen": "2026-09-20T04:02:49.609040+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 0,
    "fonte": "Busca · energia em Goiás",
    "escopo": "regional",
    "tema": "energia",
+   "substancias": []
+  },
+  {
+   "title": "1ª turma do STF mantém anulação de \"CPI da Mineração\" no Pará - migalhas.com.br",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVFpuOWwwUGZsblNOR3pkdVMtakVPcFlIYXByTjB0UFVVNkVWZTF6a3BrZEtlQzFVOU1Lc0FGN0FRR0hwRlo0NVNReDhJZGYxaEZrS2QxSnJQSkJ5UFR1RHJ5d3BjWGRKMkhMcWQ0YjRCUldYbVUybGhhaTdZbWREVWd6QjhTcXprT2xtZTdoQ3B2NXNlVjhyX045RjZuenRMaVFr?oc=5",
+   "published_at": "2026-04-09T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.934334+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
    "substancias": []
   },
   {
@@ -1567,6 +1653,32 @@
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbThpZ2s5UUhYS2NVU1BTa1hnOWhBaWxSNHF0Ni1NTGM2Xy1zOEpjNGYyR3VYanFEZFNmeEFEaFBIclNNZXNOb25MUk9TS0x0cXZvMDUyMDllYXJXSE1uRVVqYTRYeXZLTHBORGYyalE0UGpaeWs3MFRnb3ZMMjZjVnVRaDI0ekVmNFE4azlCUDlOa0xr?oc=5",
    "published_at": "2026-04-01T07:00:00+00:00",
    "first_seen": "2026-09-19T19:49:08.391552+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · preço da energia elétrica",
+   "escopo": "nacional",
+   "tema": "energia",
+   "substancias": []
+  },
+  {
+   "title": "EUA e China disputam minerais e colocam Brasil no centro dos elétricos - InsideEVs Brasil",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMTZPU1ZHelZBQTRHNTEtVWJDQzZINTFSUFQwWFZVMExUS1FFVmlfamxKeW44NUwxd242cVhXN2JyNEZYTW80R3dxRS1uN1lNbW9xNEhPRzU1aHBtV1JQSWJEbERPeGl2bHd4b09hdUdsVFhRMDBJaUdPOVZpcDZ5MVp3Tk1UbUtiWVdEZ0Fsb0Nydw?oc=5",
+   "published_at": "2026-04-01T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.526206+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 0,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Preços no mercado livre de energia sobem 121% em dois anos - Gazeta do Povo",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeHBkN1czaF9ycGRKdVFSaF9HYWtuVWRzeGhQc3UwdUFXNWtQZl9YMWYzTkh4c2JZaGF5eWxpbHVJQk9HNFpjODVKcnBUMlJLRkN3NTRreEt3Q3E2QjRLWHFDWlhwamFEd2dzU2J2LUdvajZlaVd4RUNNR3JrcTRmMVJQMkJlczZPSmRXTm1kZU8talA1UTJWQW5pQUVJM1k?oc=5",
+   "published_at": "2026-04-01T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:49.216302+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 0,

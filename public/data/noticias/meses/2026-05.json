@@ -1,6 +1,6 @@
 {
  "mes": "2026-05",
- "materias": 118,
+ "materias": 130,
  "itens": [
   {
    "title": "Brazil is set to cut into China's rare earths dominance - DW.com",
@@ -185,7 +185,7 @@
    "title": "Cavalgada das Patroas reúne mais de 200 mulheres em Niquelândia - G1",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaXV0QXQ5NzNxSW9rX1lYYnVpNmJ1Ym92VVRMM0o3RXptNE5ETVktRDFHbl85WkpBZUV6eVo5QTZvX1o1QmNONEF1OGRVNkkyUWlRU2JoU1UyN3RPWDdIVmlZbl83aEs5Y2VaaHNPQUtRRVB4dFljUlB4blQ2Uy1RQnpBOVo2azUxSzVseGtNTmN2aTRxMGxNb0c5bDNBQkRJQV9xcFNVM1JEWEtCTXpvY0puQTl0Y2luZlZDVlRyUlMyOUpIMXNJOWNhUEgzZ9IB3AFBVV95cUxQenhRX01lbjhQUEpHZWpEUzgwQk9heHNHUGg3Vk1MOXpKYkxYaDhqa0pXbG9YVjgxQUFtUmJsbWxLaFBtbW1GTDhrODJWbHc2VXFTanJ4cU1GRUVkU1pWUzZzREc5WFNCcGJjVDZWWVlHcm9PWFpqTjF2QVhsS1FJZVNheS1faWMwRVhMbFFxSjFVYWxPX3F0aXdLbVBOVnVMQlRsSUE1NjVFckRwQmMwS0Y1SklHckJ4M2dsUXI4XzVHM2lJZ002aUQ4aGsyWWZiZ3RHVGNCLUtGV3dC?oc=5",
    "published_at": "2026-05-25T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:43.687629+00:00",
+   "first_seen": "2026-09-20T04:02:43.929828+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 0,
@@ -374,6 +374,19 @@
    ]
   },
   {
+   "title": "TURISMO EM ALTA – Niquelândia recebe etapa do Circuito Goiano de Pesca Esportiva 2026 neste sábado no Lago Serra da Mesa - Excelência Notícias",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNbHJPekpKazYwUnRlbDhqTlQtaW16ZXp3T0ZjS1hWQjhhR0ZWU0hHTFBpcDN4VHpkSUY4NHl0SkFwQm9QNWhMeUFrQVZCZ2IxTjF1WTBRaUtEVzJhWWFEbGoxUjJBRlVFVEdxSlJXT3lNMGw2ZF8xT3ZPT1plZ3BQMEI2RUEwOTRNU0F5OGFyZmZMNlZHOC00Wm5GSzdzanIxX0FJN0hsVExLTGNnUE1CVFZNUFB4ZG9xT3dOREhwalpJRTFHOUJPMnBkRVpYX25Lbjk5TWw0THZteWFHTXM4dm5HME50YTUzQnFTeHV6aTFMVzk0c1dn?oc=5",
+   "published_at": "2026-05-21T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:43.920593+00:00",
+   "regional": 1,
+   "regiao_termo": "goiano",
+   "setorial": 0,
+   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Mineração na Chapada dos Veadeiros: Semad rebate fake news - Agência Goiás de Notícias",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbnFzMWRSbVZoaEFTM1FKdXJGdnNqcnNITkJidUViaGpWQjFmNV9DYmc1WWdsUHVOV2VNdUs0VmhLOW1YbHFnbTdfS2p5WGdIRHc3R0ZVSktMcTZldGlETGdoWmlia0s4Um1CVnVXdjlQMllHVEQyTHJUaUE0OU1aZ3R3RF9MSWpHR25BSw?oc=5",
    "published_at": "2026-05-20T07:00:00+00:00",
@@ -424,6 +437,21 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Comitiva chinesa visita Catalão para conhecer potencial em terras raras - Prefeitura de Catalão",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNDJVWXVRUlBHU2lEa1NlVC1PSGlBMmRFNGhKZVl1bGd0WWtMYk9mYmd5bGdMSGw1MlJjaU54SjNQbGFZOFpnb3V1QUFzZEQzVE8wakNVaEc3VWtZY3VZMF9YM3Q0SGlzb1JNWGQ0NHJQTXkwQzBfWmRxMVA3Vnk4amJyNXlGYmJTRVFHdVhJWGw0RS1McFkyQTM3QjdKUk45dkVjSnFJTzV2bEhVVFNmOVNmeWoyTTVYbUo3dmh3?oc=5",
+   "published_at": "2026-05-20T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:44.284536+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Lula quer atrair os Estados Unidos para explorar terras raras no Brasil e manda recado direto: minerais estratégicos são nossos e a produção precisa acontecer dentro do país",
@@ -558,7 +586,7 @@
    "title": "LÍTIO | Sigma Lithium entra com recurso contra ação judicial em Araçuaí - Brasil Mineral",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTWh0aDlhUWJIWjJ1N0JuN2dDOHlkUHJKZlREVFYzbktsd3hTdGhQeU54MW0wTEdMRG9zaXRPWjExX1NJYVdpYTdyOVNlOEtOYVVpTWNKb0dhejZ3QlpsLXBpc0kxUnJpU3hsUUJ1X2pxX3ZLMmdwSXluVDJIR0E1enJVQW1WemFENV84Zm1TRUFxX1ZDUzVzZ1dONGNGZnJraGln?oc=5",
    "published_at": "2026-05-18T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:49.421996+00:00",
+   "first_seen": "2026-09-20T04:02:46.511302+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -581,6 +609,36 @@
    "escopo": "nacional",
    "tema": "energia",
    "substancias": []
+  },
+  {
+   "title": "Juíza determina depósito de R$ 50 milhões da Sigma por danos de mina de lítio em MG - Bloomberg Línea Brasil",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdUVKUVEzWG1yUmNKSlFUNG9sbXVWaHNiX3F2ZERYLWZudU50RFdFLWpWeUtrM0JYU19CYjBWT0FIb2ZURnVXSzNWaDd5Y3N6SHYxSTM4YkE5Y1RocDdpNHgzZ3dqcWRDTWRlYmlsdHFZOVNPYzA1dmVRZ3haLXllMnBma2ZESG1BX0swLXpWeEtjQmpjNEl1a1BvZk9OdVdleTRSYUc0ejFiSE4yNDUxNFA5TnRMOGUxUlFfaENSdS1rNW9f0gHYAUFVX3lxTE5BWHpwOUc5LTNZYW9Pd3pScXdBV3p0ME5kZWxlZkVKWEZtSFNJU3JtZG5KUUxqXy1tZ2VvYTFsZzlTdUNJalVaZVQzT1huNmdTUFN2TmM1TkZVVFRWZjR0NnJEREs4NTBuenk5N1I3QU1scWtaVkRXSnZJc19FX2tmRXh3QUFDUkVMLXh1YTk0X1FBcEExOVkzUTJnQWJvQjVpcTlocUhmWm9EdUhzd2xUUGgzZy00UVF5M0trTEZrSlllWEV3MlVqS1pEREQ1c3RGV2p2ZEFrMA?oc=5",
+   "published_at": "2026-05-18T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.506821+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Justiça condena mineradora de lítio a depositar R$ 50 mi em MG - Revista Oeste",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaXY2YWNXTlRoaWZ6eFd4UzhzUzRxeU9uX0VsU1cyWDFwYmlYT0NZbWo3X1J2X1k4ZGI5b01IUVBWcm1WaHlSVG1TakNoUk4tRVREOW1ROExaM1RmTlZvRFpScXFVN3JkeVRHbHhKZDliQTJVd0lJbUhSUUN1QkxzZENwM3RzMjF4V2xpNHRtVHFfZGVDaHYtZUt3?oc=5",
+   "published_at": "2026-05-18T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.514453+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "CFEM: municípios afetados e limítrofes partilham mais de R$ 93 milhões em royalties - Brasil 61",
@@ -948,6 +1006,34 @@
    ]
   },
   {
+   "title": "TRABALHO – Lundin Mining Brasil abre oportunidades na mineração em Alto Horizonte - Excelência Notícias",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdFZ5RWlWRWNab3cyOG4yZ19maXNhcWpjdGVYbDlKNHp3UmtnRlNTNG5kTTVINWp2WWhJVkpoRTNnWU1jblluUmpCMmlQWDlSTmRsTGFaX3gzdXBpQVozVXdPd0lpVkdxOTNZUXBYWXdkUHhwZURxSzljcWdfMHEtMnRIY2didXNUdGNYRXd4QzA3VEVSU0lqUkZuM1NFMTJRVVVFd3MtTWliOVRCeVVZb3FFOEdhYUFHbkpaNzFESGxDWDA?oc=5",
+   "published_at": "2026-05-12T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:43.928852+00:00",
+   "regional": 1,
+   "regiao_termo": "alto horizonte",
+   "setorial": 1,
+   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Brazilian inspectors fine Sigma Lithium for using banned waste pile - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUXhNVnBrUHAxZmNCMmJmQWFpektRejNNM2IweGVtNmFiN2lxRldJdnJKRmMzZG5TNm9uT2ZDWWVoZ2hhaXhnZzdRZFJWY0hSbEg3c2hyak9MblFXQUJxR0luWXVUdzAxdEVndnB5Z2hYb0V4Tl9JeUd1TzZyTVY1LXNUS3VNWkd6ejZQRDR0Rjc0MzhreXhDTWY3M0tyeVRseW01YVEwRFlGMlpxMm5MNVBwM20?oc=5",
+   "published_at": "2026-05-12T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:48.698672+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Governo de Goiás tenta liberar mineração na Chapada dos Veadeiros - infomoney.com.br",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOVNEZFhva1hKc08xVk03YVQzTWtBczk5QnJWUnIxRlkxR3FyTnNjUlhjMWtEYlE4UEpRbFE1RWJ4MEhyNUt4WmFKRnpWSXNzRERxTXh5WEdZV3ZYSl8xMFcyWmQ2UmNyM0VZMGZvbUw3Y3VIM1hfWjlYSW1lMTFWakZHajl0eTZiQUt6bEMzR0d6a1RGMzRja2dwX3A0TVRId2JmT2Zrb9IBrAFBVV95cUxPMFltalJhOFJnZ1RidzdVR0plblM4eDVpcDZLRjRQR2NMNGM2Q19mRWlFN3FwY3dpR2k3SGFOek9FNTB6SjR2YnNsNlBtQXpYRWMxSzJabWlaTWdRSXZPRjM3UFg1UE12YUZUR3ZuMmtHekJVSlgwZ2t3dnhlbk03UmNOaXlfMExBaWotNDU2RGc4cWNoU3Q0dGN6ZDZGYzAxZ19LNTZGME1lZ25Q?oc=5",
    "published_at": "2026-05-11T07:00:00+00:00",
@@ -1043,10 +1129,53 @@
    ]
   },
   {
+   "title": "Disputa processual marca ação contra Sigma, mineradora de lítio no Vale Do Jequitinhonha (MG) - Brasil de Fato",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRFBJa0FrVkhDcEpBekdxTnZuQ2ktZjNVZjVpazRfdGNBWWZJN25aN2pGWFlYMzQ1eXpib3BWRG95cVlxbjhwUVFmREhkUzFwMVpIbGFacDNUT0d2QVV0NEtxTWNHUkd0M3lTRjhzbWNUTkFlbllUclhjdXk3QzFFa0FYYUQyUFh1WkxIdThDOHhmQ0J4QWp4em1LZEJYRFY1ZS05eEZWV05vdTByRFBFdlIzX1hLTDlRQnlkODNNaHByYXEtbGl4eDVFeVNKWTA?oc=5",
+   "published_at": "2026-05-11T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.504452+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Sigma Lithium é multada por usar pilha de resíduos interditada - Terra",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZThvMEpYRGd0dUVKNjJzSWgyMUI2X1FNaGZMZ3ZiREdUTThONEk0SU0yTDkyZFd4cmdoZlBzVjAzY2VReXhLOXR2dEtfMGZLejIwZ0NjZ0I2QXB3M1gyWHA1V0dZbHJwanR5cXh0aHdxdDV5UzJmTG45TUhFU29ldzBOSmxHVU5Ca0xVNGE4MFU4ZmFYQ2pqWmQ5UzJjREx4NzJlTW9QVzItYzFYaXVLT0lQaHh3N1lKRmpPdXBWejM5M1FmWjRnWmZ4MUppN1dwWUp1NEtmaFNVZw?oc=5",
+   "published_at": "2026-05-11T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.517885+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T11:25:00+00:00",
    "first_seen": "2026-09-19T19:49:02.787499+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaf5ae5e0a4470ebd1383db29da94e5&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
+   "published_at": "2026-05-10T11:25:00+00:00",
+   "first_seen": "2026-09-20T04:02:45.552565+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -1253,6 +1382,36 @@
    "setorial": 0,
    "fonte": "Busca · mineradoras em Goiás",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Câmara aprova política de minerais críticos com fundo de R$ 2 bilhões e incentivos fiscais de R$ 5 bilhões para tentar transformar lítio, terras raras, grafita e níquel em nova fronteira econômica do Brasil - CPG Click Petróleo e Gás",
+   "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPRFpxMlNRTUtHd09adGZJRXhkdnZXN1JGclNKWmRGTklUWEliYmtmRWZfT2kzWTIwUkI4RHFjMTFxTUZybEFlSGl5WlhpSGdVeVh4aFprdnczemdOeER2cm9UN2hXYUNEQlY5SHVVWEtYZFNKOXlxeW1NbU5fNU9kNkUwOEFOWkdRSTRZUWhlVmp4SGxCTVluN29PblE1WER0dDRnQllGR2FZRmRWNU03M2hFN2dLODd5ZHM0cWhUamozYi1qZW5EN05idlNROGkwNVYwTGpBZ01JUjdnd2VwanNlVFlUTHFJSDFLZURQQVY2X2hpOTJEeGxmeU5qeHpRYkI5UmdYWU1VcVhrWE5OVm9zYndVRUcyRjMyc1JfZEZFTXNkcXJjZFRDZWJ2cE5XbHZpVTJ3cThyZDRHLW1MRTZuVXRCTU0?oc=5",
+   "published_at": "2026-05-07T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.518901+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio",
+    "niquel",
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "CGU aponta falhas na ANM que permitem exportação de minério ilegal e baixa punição a lavra clandestina - O Fator",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWUZZUVR6RXhkdWUzV2RKMUpud0tuazE4eWg2RlNxNDBMQlRSdUpHakxYM3V5TW1EZTlDQklaRFN6OXRkRncwc3ZCNjBwR19tdnVXUU5wbURzc3UyRWhCSm5TdHA0OV9rV2JIVFFwckphVUd2dnpQUGFWNzlwTTdhekFBV21jVVJCS3ItNmdjdFRjRmNraWFrRFdjR0tTN1dtT1RFSHAxRjE4X1U0MjJiOUJCTmRyaVM3Q0tMMGdkRGdTd3Z1WHRQMjFrR1dVdTQ?oc=5",
+   "published_at": "2026-05-07T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:47.364551+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -1476,7 +1635,7 @@
    "title": "Axia Energia conclui venda de ativos para grupo colombiano - Canal Solar",
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KQms4WmozWDhiZFl3cmJyT21VcURadHFQMGJiWVhydjlWcEJ3ekRtM3M5Ry1rN0ltSC1uWVJlY0FfcmhXV29VeklOUzAxOFdqSW9KampCSzBCT1Y3aVd2SmktUEVGSFlhN3ZIbTl3?oc=5",
    "published_at": "2026-05-04T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:55.982459+00:00",
+   "first_seen": "2026-09-20T04:02:49.612144+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 0,
@@ -1566,10 +1725,10 @@
    "substancias": []
   },
   {
-   "title": "Filiação de Eduardo Niqturbo ao MDB reforça base de Daniel Vilela em Goiás - Tribuna do Planalto",
+   "title": "Filiação de Eduardo Niqturbo ao MDB reforça base de Daniel Vilela em Goiás - tribunadoplanalto.com.br",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSDVhYmkyaXp5VEI0SGhkaE9xOU15R19hYnhGX0xHby1iMUM1VjlIRzh3YTkxdkkzOF9URXlmMFhJVnhFcEpmY0w4bjBDSEZWUng1cC1yYnNYSlB3b25fTk9KTWJGMldtT1BMQTZPMzhsS2cyVEJXcTJFOGFtc1ZTMW40LUMweGdDNVJaU3NRNzByUnJWUGI2UXZLb1RQY2kxamMydXlZd1hCTXk0?oc=5",
    "published_at": "2026-05-01T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:43.742320+00:00",
+   "first_seen": "2026-09-20T04:02:43.933281+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 0,
@@ -1582,7 +1741,7 @@
    "title": "Prefeito de Niquelândia deixa o Partido Novo e chega ao MDB na presença do governador Daniel Vilela no Torneio do Trabalhador - Excelência Notícias",
    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQTk83d1JuNmRrckFyVEFCTWNBdnEtT3R2ZTF0MGFiNlR1a3h4Vk50aFZ5ZjAwWmRQSmVlTDFTeWthQmhnN29RWWJSUEctZnpHTFhRZ3NJMzlWV1FtWkNXdEpzQmhWU21fUzVlT0IyZWRYZDdwZ1EycEdjN0FLbFVyVG1TeFJmX210Y3RZVFFVZFhnSXZ6dElRWVNzVWNPUk9lV2gyNHg4cUx6RFE0YUlLc3FZQVp2NlVpSmlNRzlScFhaZGpmNzgyWDlWNmxndXZRdU1KTlM1TmhtNE9NajU0dEp2cVAycTdObU1CbThpWk9NcjJCTjA1aHZKWnRiWjkt?oc=5",
    "published_at": "2026-05-01T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:43.616139+00:00",
+   "first_seen": "2026-09-20T04:02:43.922902+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 0,
@@ -1603,6 +1762,21 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "A ATLAS LITHIUM CONTRATA EMPRESAS PARA EXECUÇÃO DO PROJETO NEVES PARA PRODUÇÃO DE LÍTIO EM MINAS GERAIS - Petronotícias",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOLUNJeVl4WExCc1lYSl80VWZxQW8xS0NraEo0T0kyM3F2LWpwbVFsakV1SXdINDNiX3RETmpMS0x5ODhmVHRnUWVZRGp2Y0dTRDJ4U0d1dHRQd2wteVJhZzBwSXBqNEV0UUF6QVA1T2VrNEZfVUFvS1pBU29EOU1sWmkxZUpCOVRPZkgxcEN0bUducTh3RXg5eHZOOTRwejlRZ1Yta1czLUh2NDdEM3VWcHNtTEdwdzhiNHc3b01oSlBRaUxuLVN1Vk81UGxLdw?oc=5",
+   "published_at": "2026-05-01T07:00:00+00:00",
+   "first_seen": "2026-09-20T04:02:46.521456+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   }
  ]
 }
