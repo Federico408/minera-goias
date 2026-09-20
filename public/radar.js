@@ -172,8 +172,10 @@ function drawNews(){
  const quando=i=>i.published_at||i.first_seen||'';
  vis.sort((a,b)=>peso(b)-peso(a)||(quando(a)<quando(b)?1:quando(a)>quando(b)?-1:0));
  el('rd-conta').textContent=vis.length>NEWS_MAX
-  ? t('rd.newsParcial',{mostradas:n(NEWS_MAX),filtradas:n(vis.length),total:n(NEWS.length)})
-  : t('rd.newsMostrando',{mostradas:n(vis.length),total:n(NEWS.length)});
+  // Quantas matérias o recorte tem. Quantas estão carregadas na memória do navegador
+  // é detalhe de implementação e não ajuda ninguém a ler a lista.
+  ? t('rd.newsParcial',{mostradas:n(NEWS_MAX),filtradas:n(vis.length)})
+  : t(vis.length === 1 ? 'rd.newsUma' : 'rd.newsMostrando', {mostradas: n(vis.length)});
  el('rd-lista').innerHTML=vis.length?vis.slice(0,NEWS_MAX).map(newsItem).join('')
   :`<li class="empty">${escape(t('rd.semFiltro'))}</li>`}
 
@@ -188,7 +190,7 @@ function newsBlock(noticias){
    .sort((a,b)=>MUNICIPIOS[a].localeCompare(MUNICIPIOS[b]));
  const municipios=nosMunicipios.map(m=>`<option value="${escape(m)}">${escape(MUNICIPIOS[m])}</option>`).join('');
  const meses=(noticias.meses||[]).map(m=>`<option value="${escape(m.mes)}">`
-  +`${escape(mesNome(m.mes))} · ${escape(n(m.materias))}</option>`).join('');
+  +`${escape(mesNome(m.mes))}</option>`).join('');
  const nomes=[...new Set(NEWS.flatMap(i=>i.substancias||[]))]
    .sort((a,b)=>subName(a).localeCompare(subName(b)));
  const opcoes=nomes.map(s=>`<option value="${escape(s)}">${escape(subName(s))}</option>`).join('');
