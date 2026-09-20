@@ -70,10 +70,10 @@ A aba **Radar** do painel abre com quatro números do acervo, no mesmo estilo do
 
 | | |
 |---|---|
-| Matérias guardadas | o acervo inteiro |
-| Do setor mineral | quantas são de mineração |
-| Citam Goiás | quantas citam o estado ou um município |
-| Goiás e setor | o cruzamento — **é este o número defensável** |
+| Matérias do setor | o acervo publicado, todo ele de mineração |
+| Citam Goiás | quantas citam o estado ou um município — **é este o número defensável** |
+| Substâncias citadas | quantas substâncias distintas aparecem |
+| Veículos citados | quantos veículos diferentes há no acervo |
 
 Abaixo, a lista das mais relevantes, com quatro controles:
 
@@ -82,6 +82,8 @@ Abaixo, a lista das mais relevantes, com quatro controles:
 - **Município** — Catalão, Alto Horizonte, Barro Alto, Mara Rosa, Ouvidor e os demais que aparecerem
 - **Substância** — níquel, terras raras, lítio…
 - **Só Goiás**
+
+Não há filtro de "só mineração" porque não é preciso: nada fora do setor é publicado.
 
 Cada matéria mostra o município (ou "GOIÁS", quando casou só o estado), as substâncias citadas, a data, o veículo e um aviso **via busca** quando o link passa por uma tela do Google antes de chegar ao veículo.
 
@@ -176,6 +178,16 @@ Só biblioteca padrão do Python — nenhuma dependência para instalar.
 GitHub Actions roda o radar  →  commita public/data/noticias/  →  a VPS baixa
 o commit em até 2 min  →  a API lê  →  aba Radar do painel
 ```
+
+### Só notícia do setor é publicada
+
+O coletor lê os feeds inteiros — um veículo regional publica futebol e polícia junto com mineração, e não há como pedir só uma parte. Mas **o que não é do setor não é publicado**: não vira arquivo, não chega ao navegador e não entra em contagem nenhuma.
+
+Medido na coleta de 20/09/2026: 2.923 matérias vistas, **1.209 publicadas**, 1.714 descartadas. O campo `descartadas` no `latest.json` registra quantas cada execução deixou de fora.
+
+Antes isso era filtro de tela, com uma caixa marcada por padrão — e bastava desmarcar para ver "Cosplayers e gamers combatem caretice goiana" no painel de mineração.
+
+**O que isso custa:** o descartado não volta. Se o critério do setor ficar mais largo depois, essas matérias não estarão lá para reclassificar, porque feed RSS é janela rolante e não dá para recoletar o passado.
 
 ### O acervo são os arquivos, não o banco
 

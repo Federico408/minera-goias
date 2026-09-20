@@ -1,22 +1,7 @@
 {
  "mes": "2026-01",
- "materias": 30,
+ "materias": 20,
  "itens": [
-  {
-   "title": "Fevereiro seguirá com bandeira tarifária verde na conta de luz - agenciabrasil.ebc.com.br",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdzRDcGxxdDFyQ09hOTFEdDlId21fWERVY2YxcTQtV2J5YkZVSTFILVVUbUo5YlZJSnM0U0o4OVlnQ3NBUnRUX1NJOTFUaEdPN1BNdXltVDFKakF2YTV6eXpNbzhjVUxzY0JBVjdGS3lPUzJhVzJ6OUpHc2NDQVpwU2FHZ280OE96Z2tKdnlKblJJRUZNcXludjBSRDE5V0wwdmRYMHZWYjB6YXdyOWg3WUVpY3ZoNGhZMEhaeQ?oc=5",
-   "published_at": "2026-01-30T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.436603+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
   {
    "title": "TCU identifica desvio em 72% das guias de mineração e impõe prazo à ANM - ofator.com.br",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUWZCcVRBT1NINndKYWdCN1ZjLVFsNFhmU3NoTFpuM3FNbUc2Z3lueFhWZVlabWo3VFhZc256S2NRVjRESFl3YTV4S2VaY3d4X0VZWVJlYVBqYW5ITzhGTDVGSVdyQVZZYm4yOXNtY0h5dnhzUjcxV202M0l6dzNKRmtuQTFpTUtzb2IzXy1vRDhpaUU?oc=5",
@@ -28,45 +13,6 @@
    "fonte": "Busca · ANM, lavra e outorga",
    "escopo": "nacional",
    "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Brazil's Vale halts two units after water overflow triggers permit suspension - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdzBYSDhzMkY1b2N1NmNzam9SOURmRHhnQ28wdzJoU3JLQTl1Z1dxVkdwY3Z3al9yT2hqQ1JnMVZDTU9uMlFqSGhTc1lJcmxycHlObWhHWHd5dmdrSTEyODUyM3JZMVplNGhXSlI1X09SdE96UmRreTdyWmZHN2t5dzREcDdjdHF5X0t6ODd3Vk1PdkJTcGRGQmtnNThHQ0Vab3FhREJmVDU2eU50Q21BTlZnMGk4UmJvQ0RHelJHQi03OHVTSkQ4?oc=5",
-   "published_at": "2026-01-27T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:07.575810+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Brazil mining (Reuters)",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Portaria_Normativa_MME_nº_125/2026 — Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdWQ2QVRsOFJzMVRUWFNKZEVhdk43c3lHWTV0bTZLWVBicVdpU2VicDdteXdVYy1GNkdaM0NEbnFRd3ZILXBhYXNnQlZvTl9YNFM5UWdINGlBSThuY0pmWHlBc2xTMG5CUEE0d1h1LTZ3Q1dOVW42TDYtYW9kSmoxTVJ6bUVHSURLRnBsVkFfOXFiYTJjd1hBSUpvVFBDQVZtQ3IzWGItbFdLeHJpMkgtTnJ0b2FuWm5N?oc=5",
-   "published_at": "2026-01-27T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.634912+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Glauco Fernando Numata Batista — Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxQNUtXZ2trcGgtUzNRVDZQd1B6cnU1VmZmM3ZsS3BwWGtKNENKRkJPeWotay1IS04yQ3RQYWFINGI4TVVnbDVWOEZDcHBScEl4MmJFRGl5QnBMZlBnVEFvalQ3SG9Xem83OEhVeDRqR3dNUDFpamRGekI1OGlxdjYySENTdzBxZ0RneUNsaXUtZml3LU5yMTJ5djFkX0NGZmxYdmoyT0wydWVHLUNsbWlNSzV2VTd5ZHlvbWlDQkw5VGFfYjhIRENha19EbVl1eXR3d1Zrd1RYR2FrSTlQVXBiODNYVVA2NThodFE2SDR6Q0dacWlkajJWYWlldUtlS2xDQWozNUhQbEpxcm1yVzF3ZVROLUFvRExzck55T0o5VkJUb0ZwZGUxTEVWYUF4YldVQTVQaDJWOTdpR2xCczdJd0N5QTBBZWNud2tHVEFFbEYyLUlhaHlkWWZTclFhMUJaMTQxcGxoRm9iM0dTQkE?oc=5",
-   "published_at": "2026-01-27T05:45:41+00:00",
-   "first_seen": "2026-09-19T19:49:09.617809+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
    "substancias": []
   },
   {
@@ -93,32 +39,6 @@
    "fonte": "Busca · Brazil mining (Reuters)",
    "escopo": "internacional",
    "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Conheça nova caverna descoberta próximo à divisa entre Goiás e Bahia - G1",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRDhwS1RxcjVFMWN1bkp0c2FnYzZUQXFZODJabHQwc0x6Y1duV1pnb1BwSzE3M1pZUlVYSzlpejcyTHM0Y0RjeXlVc3gtT0c0RHdIeU8xd0hlazR5d05MbFl3cmIzdTNFVjdFcEtJcW1LVVZyNEZxTjdhRVBEazlETDNDbm5oSlFvMHNwLVhvVkVDd0k0anVORGdMMExncW5fMWllRVVRQkRaSmRQLUZQVndKNG0zNTNkaHE2ajJFR1HSAc8BQVVfeXFMTjhyLVdoVnRDTDh1NUE1d0ZmTjhyTjZ6Wm9pNkVQYXpLeUtEcVBpUExhVEljdll2b242eFR2T3NGT2xxUG5VbGdYRUo1VFk2R0FFa3VYSlZDSXlWUkROZE1PSXl5UUxPQ0hpS2VJeTVEaFNXdWN4YzN6YV9zRWtVXy1RejlGX1NkLXVTZmFnbmcwY19md3o2bGJDQmxXLUNZZTkybGo0c2Zmc0ZSZjNzcW02d0RsMG11aWtVbzBHdnJVZlE2MXBldlVXamVMbnFr?oc=5",
-   "published_at": "2026-01-25T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.514154+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Mercado livre de energia: é hora de ajustar as velas - Agência eixos",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOFdycmI0T3J6WHJqNE1tVFRJaVNGMzNPNFI0dTc1My1LbnE0d2NmY2lENk40WmdSTjRJMUpIRmszRGxoX1YwLTZXOUVMMTNPN2dmQnFqa1JMZ3NZak9XT3k3dml6anIyZjVyT1BYcmYzOHg0bkxBdnlIS0YzY0Qwc0FWeWxFTzhzM3h1Q3lsSjJEVnlV?oc=5",
-   "published_at": "2026-01-24T08:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:49.221009+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
    "substancias": []
   },
   {
@@ -219,19 +139,6 @@
    "substancias": []
   },
   {
-   "title": "Desligamento em subestação da EDP interrompe 260 MW em Goiânia - MegaWhat",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ05OMWF4dlZnQW9uSXdpdW4zRTNhenVjZnpDMEQ3OTJtQTNQam9iT3hpZGlGc3FiRTl5Q083dGp3UjA1c3J3bnhtR25NYmhRSkZjTUU4S0VwV1BwSEVUVGtSR3hmSElscXZCZ3NtMjg4eEZGeV8zVm5iaklCbjE1bW50dG5OeU5ncy1ZOWc0NE02TlF3MkVsWXE2SUZtVUFsdVdkckZR?oc=5",
-   "published_at": "2026-01-19T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.007222+00:00",
-   "regional": 1,
-   "regiao_termo": "goiania",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
    "title": "Relatório Anual de Lavra 2026: mineradores devem cumprir prazos da ANM para evitar multas - Brasil 61",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdXRrN0VjdHk3RndTaGNHYi1pYXNEeWJBREduNGthTUc0RmpkTFVFSkRZMVh5NXlHV0gwa1BjSHVlRE1vQnFWRmRCci16NTVGSTdJVk1wNU9TZFI0QWdhdUtObGRWeWlOWHpGN2RlcnZHbHNTRXlucDVTRjdlRGV3R1hvNTN2ZlkteTBodXNPQ19IWjZfdmdEQm80TDByZFotQmtiVjZiYXZBaXRRb1dkUDZFZzJLWm5jNEhuSlZFYlrSAcYBQVVfeXFMUFFIby1hcW5SR0Yzek1NMHJManBjRHFCcjhRa1BMdEpCWjhJYTFaY0RxRW5nNHQ1NDVpY3pOVk9NLWpPS09jaXJ2T0MwVVp6RzBCZXZVYVBMcWVoQ0F1eF92bkRHRjBNbjlUU1lMTFhzdHFBZ1hJTGQ2cGMzUURPTEYtSXFQWXNtcTJkR0s0RnBONkVBdHh4c0xoYVNSSGpCbkNNaW9PYWNHMmp2ZGo5MF91dHI0WWZtS2s3Ymp5QlZ6Vk0tMV93?oc=5",
    "published_at": "2026-01-17T08:00:00+00:00",
@@ -241,19 +148,6 @@
    "setorial": 1,
    "fonte": "Busca · ANM, lavra e outorga",
    "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "3 principais apostas do MDB de Goiás para deputado federal - Jornal Opção",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcDFCR0V1Z282LTNGdlpKY2YxblJCZmc3Qlh5c3paM0xRNWd2WHFxV1dQelBsaWx6ck1pUXY2WEFzVTlxVk1lc1FnLWhOdVVLOWR4ZU9TRDAwd195Rk1sRXdKbTVaWGgtcHRrOVB1d3VGMEZTZTJkOW5GREdBamhkcmFOaDRHNHJiQ2xySTdsdFdVZ1Fyd0stMWdBeUFBZGtmUUxwMkRoQzRMYWho?oc=5",
-   "published_at": "2026-01-17T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.540873+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -383,32 +277,6 @@
    "substancias": [
     "fosfato"
    ]
-  },
-  {
-   "title": "Polícia Civil desarticula esquema de desvio de cargas na CMOC e prende quatro em Catalão - badiinho.com.br",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9IbWRiOHpVZnRSVU1fV3hqRWZtZnllckV5Rm0zU0dNc2VTNHE0UW9CQXJmRzB5cGlYbHBVc2FWZnZFci1HNVlvMnNOazhZTDE0bVpaendGc1Rsc1dhUU44aVFmMExIemJTM2NUVnFaTDBMZU9abklrYdIBfkFVX3lxTFA0Tkt0QXVqSFM2Qk4tV1p4MWRsNDllLS12VUhmYjJKWGp6eDI3aXlCMTlSWHRVS1dGRmdoTnJyQlN0VEJxLTRUMnA5Q2JvLS1OWE5mM202b2ZLWUozZ05qV29IUHd0UUx1aE1UcXhUa21kVmQ1d3dfd3BFVWdmQQ?oc=5",
-   "published_at": "2026-01-06T08:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:44.285725+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Catalão e Ouvidor",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Superintendente de Gestão e Pessoas (SGP) - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZ0RKbFYtZ2M1VGRpSVp1UlU2dldEcmwxYmt2X00tRWxHdXRFcnM0YnZfQ2dJc2dJM0JsM200THJlejlxaTg3QVlORkNNdDloYXdQTzhxZmliaDhsUFFGYzRrWWxIX2NIVkl2MkRoX1hpX2o2U2dzUXg3YmRHNFlxWm1GbUM1bnRwbzUzTXppa01obTNtaTRFa0FGa3QxTmVvOHFWX1NQUzVGdmJKNUNGeVc0TG1faHlLRHQwRG12TmpYdzNCck0wcTh4WmtzUmNzUXNBQTNxYlk?oc=5",
-   "published_at": "2026-01-01T11:13:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.245632+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · ANM (site oficial)",
-   "escopo": "setorial",
-   "tema": "mineracao",
-   "substancias": []
   }
  ]
 }

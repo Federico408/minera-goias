@@ -619,6 +619,14 @@ def export_archive(database, destination, recent=180, desde=None, config=None):
         guardadas[item['link']] = item
     # O léxico de hoje vale para o acervo inteiro, não só para o que entrou agora.
     guardadas = {link: revisar(item, config or {}) for link, item in guardadas.items()}
+    # Só notícia do setor é publicada. O coletor lê os feeds inteiros - um veículo
+    # regional publica futebol e polícia junto com mineração - mas o que não é do
+    # setor não chega ao site: não vira arquivo, não viaja até o navegador e não
+    # aparece em contagem nenhuma. A separação é a mesma que o projeto já faz entre
+    # a zona bruta e a zona tratada.
+    antes_do_corte = len(guardadas)
+    guardadas = {link: item for link, item in guardadas.items() if item.get('setorial')}
+    descartadas = antes_do_corte - len(guardadas)
     novas_por_mes = {}
     for link, item in guardadas.items():
         if link not in antes:
@@ -650,10 +658,14 @@ def export_archive(database, destination, recent=180, desde=None, config=None):
     todas.sort(key=lambda i: (bool(i.get('regional')) and bool(i.get('setorial')),
                               bool(i.get('setorial')), bool(i.get('regional')),
                               i.get('published_at') or i.get('first_seen') or ''), reverse=True)
-    # Os contadores descrevem o acervo guardado, não a última coleta.
+    # Os contadores descrevem o acervo publicado. 'descartadas' conta quantas esta
+    # execução deixou de fora por não serem do setor - é rastro da execução, não do
+    # acervo, porque o que foi descartado antes já não está mais aqui para contar.
     pacote.update(
         itens=todas[:recent], meses=indice,
-        total=len(todas),
+        total=len(todas), descartadas=descartadas,
+        # Contado no acervo, não no banco: o banco é cache e pode estar vazio.
+        veiculos=len({i.get('fonte') for i in todas if i.get('fonte')}),
         regionais=sum(m['regionais'] for m in indice),
         setoriais=sum(m['setoriais'] for m in indice),
         regionais_setoriais=sum(m['regionais_setoriais'] for m in indice),

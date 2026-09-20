@@ -1,6 +1,6 @@
 {
  "mes": "2026-03",
- "materias": 54,
+ "materias": 25,
  "itens": [
   {
    "title": "Nova guia da CFEM entra em fase de testes com participação do setor mineral — Agência Nacional de Mineração - www.gov.br",
@@ -29,71 +29,6 @@
    "substancias": []
   },
   {
-   "title": "VALPARAÍSO REALIZA ENTREGA DOS CARTÕES DO VALE GÁS NESTA QUARTA-FEIRA (01) - Prefeitura Municipal de Valparaíso de Goiás",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQkFRbko0SXpTQng5bjhDZnUzcjhUajVvWFpxelB2NVU3dFVZbTJvS0lpaFhzcTRHZU05SUR4SjNvY1VpSkxkSlEyaUZKak05c0VLdW1TVi1WSndobjdhZ2VOWTlLOEFUYlhncVFuOWdYSnh1WVlNeEVfU19OMUFzT3ZUcklIYzRJRkJfZ0VtT2pxTHdUcWFQdm1KTXhfUWdaWG1MTXFndERtTDFtR1E?oc=5",
-   "published_at": "2026-03-31T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.501890+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "EcoGeo investe R$ 140 milhões em usina de biometano para descarbonizar o transporte em Goiás - Cenário Energia",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQWQyMzFoRnRzUURRckEwQ2x3U042UEh1aXhWVUpDVEpuTjRoc1ByVTBLRjQ0Vm13NnJaZU4wRkVJTElNQ3pkTmswLWpuMHBWZlhndkRDWnR1NnJ1NzdiTWRvVF9Lb1JhZVd2SUZlTEpVQmFlU1l6ajNodm1FY0pZTXcwdG5nWHpENnVBSDVSV29IX1NQbWVmOF9pUGZfSFNta1BGYmtIMVItVVdLaHJJSFRVb21yZ0lJS0hMXzB5UjdmRVM0T3VxN0NhMDZVQQ?oc=5",
-   "published_at": "2026-03-31T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.008706+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Energia mais cara no mercado livre acirra debate sobre modelo de preço - Folha de S.Paulo",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR0xsdzZnMThpbFA2ZFJNcXhfcVZXMkJVZGI1b1lOQ2FLZ1lxSG1nNkFid2hkMlpraHJsdG1sQW9YbklIT0JlTXVFTy1vdmlna052bHBnY3JtU1c0M091Q0xaNXFOWTg0ZjJQOTJtN2pYOVI1YnRDLXF1eDZEbWwxVzFvUzhZRkkyVnFDdE4xbU02ajNHeGl2TXNOeXJyZU1qdEpWdUZ0TTBtX0ZIVHpTa3ltTkNpbEZueEZXN0Jod9IBxAFBVV95cUxNNEpWYU9rVzRrOUNaMjRSWS1GMDBrNV9nQkdSQmNSNHRLeUlEZEVObU5rWEJQSFhIZDEyZnhXSUJncmZMbmQ2UTlaMjhneHhqcDE0ZjJGLVV4MkF3dkp2b2ZLWGpSU3NNaG82YU5ucGN5OVBBMGxieV8zXzQ0bkNTeE9ubEltUWNRbEFvZnoyci1KSVE0MDNGenVpS3BaUUlld2tlWEtSbzNCQkwyb0IyNXlYTEU2TXc1R0FYWlB1OXhEaUZO?oc=5",
-   "published_at": "2026-03-31T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.365925+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Preço alto da energia freia migração para mercado livre - CNN Brasil",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb2dBeUM4VDZRdUtqMGNnSEV3UmVXbkNyZjRUbGZGRHRxSWFUNWtyeXY4S2JEWUNJdU9NMGJMVFAwaXVqTzNaTmhvTDduNWFrbExybXR6My1wU083LTBUMnItSU9vMkYyOHZfVE9LQlhDY08tbGtNTmZFaWlCX2hON25kRTg2MnB0UmxTNnVRVXp5YmhQdFE?oc=5",
-   "published_at": "2026-03-31T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.424132+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Polícia Civil apura morte de criança por envenenamento em Alto Horizonte - G1",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbDR5NUF3dWcyamVDOGZCdUI3YU5jQy1GNDhuMjJjMTMyeUxFNTNlY05HUlE0RnRuRWphdGtyaGx1c2s5Q3k0ekIyUzJrVDJiVE9UOTFiSmZ2SWFkRjZTdWd5anR1TUlQdnZDRWVjYUdDSUw5UWdzUFhqclk1TmpCVXpmSDdRUG5ZSldLenBwYVJDbVJnS1EwS3VkMDg0Sktzc19CY2tsMThBS2pyZmFUVFJDNk5nVlZwUmdud1ljZ3loeUlEUWVRampjekxFQVFzb1hVUThLRmpaZ9IB6AFBVV95cUxOS2ZULXV6aUx3STkxWGx4U1c5SlotYlJxdDl6NFRTbjRXaDlHZHAzRldwNGVZbWNTTnhzbGY3TF9nNUNvckU0c3V6RGxiaDNaRGZRWVpnSFEtOHN6UHBXZDRvS0FYNGFlQjR3dWdVc1BkYjAtUGNxYzNtd1Y2NFctYk9tcjhJT1RZUWZ5MVdzOUNQTjRWQnEzVlJtajJpSzA1WHpRR3lLZWxKcHllbXdSa3c2aGNJVkdkSG90aUJmLUhJblBRYTA5WWx2M1R4RmVqb2RxSENkMFNwbThpZGdfUFJYV0psTHpT?oc=5",
-   "published_at": "2026-03-31T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.634161+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Novos painéis sobre Guias de Utilização ampliam transparência e fortalecem governança na mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQjhZNEd2bEhuZVlTM05BLVhGNDVhRnlsLUY3RTJrVmQyMVhOZkhRRkhfVVVsd2dPX0NlZFQ5dzVfY0tFRk9zd2JIR082b2Y3RzVWOGxid2dhWkMzOXFBV0N6LU0tazBFTDlELTZSdGlRVEVZNWhWbFFsZWY5T2FVY05iT1dyeEd4ZXl1Y1phRXBNY0lXZ01JanRQQjNmM1Vwa2pqSWRZd0VhLTRoVEhCMVl3bzJfdjNpdjR2NEtJZHBZRFJwQlBpMng1QUZleS1NSjAzRGVPMkJhem5hc2c?oc=5",
    "published_at": "2026-03-30T07:00:00+00:00",
@@ -103,32 +38,6 @@
    "setorial": 1,
    "fonte": "Busca · ANM, lavra e outorga",
    "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Energia solar reduz custos e ganha força em Goiás, mas rede elétrica vira desafio - Jornal Opção",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQLXctSFBOU1BhTGxVbUFoQTRvd2FRS2p6VzE5N29VREx4elZuYU9oSEwwUzlpa1dpZnJwMExSUWk0Y0pzMzRzRHVhc1Y1RWV2TDJ6SjAzX1ZiVjlEMXhGSXd3NkJqMHI0UHBEd1VHZW93ZFFFemVkNTREenE5eVJXajZrWTNXN0VyU2R2V0EyVQ?oc=5",
-   "published_at": "2026-03-30T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.005539+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Caso de criança que morreu em Alto Horizonte com suspeita de envenenamento repercute - G1",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxONVJ0ZHc5NTQ2ZHB4aUdJcFpVazJTSmc2NWh5NlViRXc1VVE2aVE1R1B6Ul80cTh1U0xyVXkyZS0yTUp4VFVyS0c0dXpWaGlYV055YkZmU3o4cHpxTGwzZHcxN2ZRVUVFNF83VDJOVXJ2UVAxekkwSFpDMUxkSzFxR19wdFUwZVVJOE1jS2Z2MkxIVlVpOUhTTmNvT3FTUUE2WXdkLXpmSGc5NW1BNFI1YUdYYkJxc1N6Z1d0M3JpYUJISjJhdHJXNV9HUUZRUHpFZ2QtakJCbWQxQXBDQmRQbWwtZ0xBaF81YkHSAfgBQVVfeXFMT1M2cEVPN3RWOExxMlp4TzJrQWFqY1R1QWFhUmU3Mzh6SlpKY3psRU5iMFQ3ZDVVV0xhdExHYk53Zm1wQ3ZaTGh1dzZLUG55cUI5YXFYOWxvcnRmb2ozODYzZHBpRWRXZG5URUNqdGpRcjdhRG1XODF6S256Y2JGc0pZckM4QTQ5TUl5XzduWWdNZy1zWm1oR0dSRGoySkRrS2VBQVRrbjlVLW11alhzYW51dUZUSUZtd1hSZEdvSWtYVHJRVm5VVGUtdUhHWjRoUzltdWNha2xWM2VpQTNwanpIeWkwR25FN25INWZiUzFBUVM2bFBaQmM?oc=5",
-   "published_at": "2026-03-30T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.624539+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -146,19 +55,6 @@
    "substancias": [
     "litio"
    ]
-  },
-  {
-   "title": "Em Rio Verde, Baldy é recebido por Paulo, Lucas do Vale e prefeito Carrijo - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ29vb3pUZFE2dUZkZ2daeDRRM3BHb2lPU3hHV1hxTndxS2s2SlJGQS1UX1dNRV85VWowejVoeGJWM3FxTjRNcUt6YmJoWkxSXy16N1FMWGY4dXhGQzJoMmRDUWt1amxNRDVBOS13VWl5M284Ynk2RTV0N1J3QmRESV95OEhJVkdFbXo4OWtkZVlyZVdMQUl2MWdiWjBocjRRZTBjQ3ZpLVFjNlZEc2FydQ?oc=5",
-   "published_at": "2026-03-30T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:45.236474+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   },
   {
    "title": "Royalties da mineração distribuem mais de R$ 92 milhões e revelam nova geografia da presença no país - www.gov.br",
@@ -183,19 +79,6 @@
    "setorial": 1,
    "fonte": "Busca · CFEM",
    "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "India seeks steelmaking raw material from Argentina, Indonesia, Oman, sources say - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOTJBWVFIZUNMM09kWnMtU0VpdG04aWFFMktzV1B6R2stNjJEcXphdzdhMmMtZVBlQWxYNzg3cGlmRUhsTlpLY240RF9mblN0MURFR1h4VktJVEFRQzVraWxFS09uenlvbHhHV1E5MzhzSnRlb2N5T3dmaFBpcUpjUGFpSnhfZmN0Vng2aGVXRVZQamVJUzZiOF9wUFRseEE2SWdKWDRzTGVHWjk5QkZSdUg2aHVPX2xlMkZJZ1B0bWFUeU40Nk52bE1ySGZvM0p6c0RLNzFB?oc=5",
-   "published_at": "2026-03-26T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:07.562093+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Brazil mining (Reuters)",
-   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -243,19 +126,6 @@
    ]
   },
   {
-   "title": "Mabel sanciona retorno de vale-alimentação para funcionários da saúde - Diário de Goiás",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMFVia28wdW1CLUExbkFCZ3Z6MnFjd3JUVEp4OTZDS0lYdmZsTS1JWlhwSXZrUExjUkU3SDNuSHQ4VVVIRU82V1pzTU82VjFoR0tHTTB5bUhtWXFncTVPRGhKZk9td2UzYVZVQkNFTXQ0V0JXT0F6T2pxVU5HR2RTa3Y2U2RuY1hRMVdhdDdIMlVVbzJSQ2JvVmE0S29Zc1I5TG04QktCRU9iZw?oc=5",
-   "published_at": "2026-03-24T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.534144+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Mineradoras fazem ressalvas a garantia proposta pela ANM - Agência iNFRA",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSVhfRWtYUmh2UHVNTHd3REluTGJXenV6RldxcXZUZVBJSEk1dXN0RTBkMzF5Wjg1MzJOU3k2ZDNiYWF5MHBpSkRMZktWeHgyMWw4ZG1uVkg4UzdZQkltaEdYSDg2R0szay04b2FIVG1VODB1NTA3Vm9STEZwUmpGdU9QWUIzaDVMUm5WZzEwckM?oc=5",
    "published_at": "2026-03-24T07:00:00+00:00",
@@ -282,19 +152,6 @@
    "substancias": []
   },
   {
-   "title": "Goiás inaugura usina com 731 mil painéis solares - Agência Cidades",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeVJwTXBhRnJJb0s3NkpFeUFLOW1wVTVTVzZud2ZKMDItNW9ITVk3SUhoNWg5VHFJUGJDeXVGcXNTMHJZVXhCZXVWVW9WZnpKbE1RbjA5b3FUY252WVIzbjJMU1BPUGN1ZERjNmJkUDdTcGRoRENRbDA0MkRYWmM0RFhDZExMY2V0eU02c2d1LVhiLUxCU3VGQzZSMVZ1cUNtZ1HSAaIBQVVfeXFMTzFlaGUwUHprdWRYSkk2MTd3dHVRTDBfeXlhUFV1YzFBS085TTJ0ZXFJQm1TVUtKQ1BLaHVPRVhyYzI1c1BQNlQteDZ4bW5EX3RNa0RJajd1UU4ybXlOd2I1TGFzR0hORWF2c2Z2eUY1QnVyOGNNRHFpN2ZwT0o4ODZvODVaX1ZsZldJSENiYzl5RDIyTU5PVm1rLURoWDdONWd3?oc=5",
-   "published_at": "2026-03-20T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:49.610152+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
    "title": "CFEM - Guia de Cobrança — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeFhDeGxsYm9HUzhlM2ZvbjVIT0k0ZEJxbm9rdXhUbmpraFkwRGhqVHNMaTdyMDhMckJjZGlxRzRtTklVYS1mWWxzN2VGVTdJNTZXSmZqSERVYkN3Q2dIaW5ybEx2YS1kUkNmVkktTnlFZWY3X3pCaEVzaGs5VG4yY3ZYMFA3ck1WYndleVFOcjhmN3FvaXdZMEIzNnVfZFA1Q1QzcmZLRHhvRnF1V0ZIM3Bzb01NblFweFE?oc=5",
    "published_at": "2026-03-19T19:55:09+00:00",
@@ -305,19 +162,6 @@
    "fonte": "Busca · ANM (site oficial)",
    "escopo": "setorial",
    "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Gerdau e Newave inauguram usina solar de 452 MWp no interior de Goiás - Canal Solar",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZRndDbWJqc2J3SGFtV3J6NFY3bEg0WW1wc2FXUHFlV0swTDFxVk5kMmZlaVRmbmZvUVlUU2tuYTdYcFNQV3MwMmdUeXFWcFNqSTU1UVBnZVlvRHVHc3ZBeHZNXy1Bd3N5VHc?oc=5",
-   "published_at": "2026-03-19T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.009535+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
    "substancias": []
   },
   {
@@ -377,67 +221,6 @@
    ]
   },
   {
-   "title": "Custo do gás natural e da energia elétrica impactará a indústria se a guerra no Oriente Médio continuar - Agência de Notícias da Indústria",
-   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQWHd3Z1hRa1YzU0ZXVFVuMGUzMkdQM0VvcE81MmcyUENxVXEwbnUwSXM1TFdYeDhvbVdPUmpFWXFoN2Z6Q04xcmF0VFVYU3dOaEZ2RGNieGxKTkt4N2lrNkJ1c3VYdFQ2Z3VRSmxSLUdaQW12UlM5V1MyS0FvbDVzVDVLLTBhTEdwUEF2OGRob0VWUXJIOHNDVTB0cXFzNE9WTTRmRDlBY1RTcU9fMTFOWXlwTXJfRWdFc3hvUkpWVHB0TGVNV0lmVndVZGNJT0VOTEgzV3BqZ1YxQlRfMjUyYzdpMW1SSEVHb1FuOGt6NTI5bHlITHlTZTZJMWY1cUE?oc=5",
-   "published_at": "2026-03-17T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.415885+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica",
-    "gas_natural"
-   ]
-  },
-  {
-   "title": "Aneel projeta alta média de 8% para tarifas de energia elétrica - Agência eixos",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUGFab0VGdzVoZWgycHRjVnBBQTRfYnJaOGRKYUxkRlA1TXF6Yjh3QW02amVETWQzVS03WVVlZVlqdExMSUYzS1hZMTdJdGhSSDFuY0pCYlc1X0lVcUE0RHZBWmZFenhHTzkya0xmSGM0WVFjaC00U2xzUVJSZTlwZEtFLXpKdEkyMGV0S3VNc1A5QXNGbzV3clRTZHU1b1JvUFVR?oc=5",
-   "published_at": "2026-03-17T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.417936+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Aneel projeta alta média de 8% na tarifa de energia elétrica neste ano - UOL Economia",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNEZHSEFZS0RRWkFqekw0VFZ1T1pCbzEwZ2ZzVzBtMUxXNFdfMXBBVGl4cEVNZzRWUlBMMEljTkJKamc3VXBhbFlJUlh4WFZEYVNkLUhfaHdaSXY2N3RRUXdxZHNFN29NelVGV0p4MUs3MTJVU2FRaWpyakhEcTY5Z3dYRTg1b29QNmgzUE9DTUxGTHA0NjhIanV1R3BVMjR1UkFsVHcxdnVqRUhzZ1lzV2hOV19JWmhpREFjdmduYUZ0aUhSTnluVzJB?oc=5",
-   "published_at": "2026-03-17T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.435001+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Aneel projeta alta média de 8% para tarifas de consumidores de energia elétrica - InfoMoney",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc3JoRlYtQkVHdy1rRjNXcHdtTkNiaG95ZXRBb2JQVDdwZzllWEVhMDJkMXZNSzJkcVRua2J2aWNuNE9peXdlTVpVaUFSR0hzSG5IYVZhMzlVU2JNcnRaYno2X3g1ek13Nnk4V0JGeUdHSVFBY052SlNKdGJRcm54cjk1Z3RlcGFneFN3aEh0cEdlb2ZWUVU0M0FtTVUyeGdERXRwR2VYYWpVUVhrdWRQbjg5b2lZNkxV0gG-AUFVX3lxTE9kR1hLQzJFNFY3OEFkT3pZeng1NmVRX2YtelFld0ZtdHNQVkdhY3VqWHpoaWVpZV9jc0dPZ19jOEtfb3QzQ2l2TU4zRnJrdVZ5blFGZ0RSMEFNN3lGRkVhZXNzb1NMM01WdE5NWXNzZG4tX0oxZ2RiN1dpMVprM3J6S2w1S21rTUJOWTUzc2VjRUJKR1NScHZRaDAtUWdxZjdYbnFJdXRZYS1vNDV5RERQMFhqbncwNjM0TDdXTmc?oc=5",
-   "published_at": "2026-03-17T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:49.217522+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
    "title": "Royalties da mineração injetam mais de R$ 464 milhões em estados e municípios produtores - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNTdXSTR2dmozX0lUVUl3VkhxRDZYWXNXbjVrQ2hqT1NQdXYxdU1ya19EUkRFWHNzOUZWcGZvVVZBRUhlc0hQZHFteTY2R0hLTmFjZGVLdUZDWEMxREFHRm91YkJScWdTaFpWdHNWbEZvQ0JWMnpvc2ppbk9zX2N1cDhwc0F3NzMwTnpYclRGajhjQUxVTVNNbmw3bXdsbmp1b0s5T3h3NkJVLXBNbWlQdWVYOW5RdndDY0FJWTZTMDdfbzljZ3JLZ21SNl9KR3c?oc=5",
    "published_at": "2026-03-13T07:00:00+00:00",
@@ -464,19 +247,6 @@
    "substancias": []
   },
   {
-   "title": "EDP inicia obras de nova subestação em Goiás - EDP Global",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWlJHR2lEVlhISHJYNDFleENuNVJlelc0UDVhNW9RR25kdG9TQ0pBa2pZYmkxdVYtMGNVTW5vM3k3U3VvWDFjdmRDLVVjakpRZG85dzh2MUN3TjJxaHBMTlhIT2lLUkowamU5Y21uQVJwQldsZHcyaTNKVGNFX3MyaTlGTmlITTdER2o3X2ZLR2g3MWFrX0xWb1F0eHBDaEdxOWptWjExcElBQQ?oc=5",
-   "published_at": "2026-03-13T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.002223+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
    "title": "Brazil's Vale more than doubled ore production from waste material in 2025 - Reuters",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNT21wVGJRMl96aTlCUmVLSkNrNUdZM3ZJTHh6QlRDZzh1RnJEVHBURUhZc21wbFNsOXVCeFowMTVaVlM3ZDl5Y0FycmVtc0lqUGoxNXhsSHNhSG9BX04xZ3dYZzI4b3hCcUtYbFZSc2pfdFd4X0Zib2lONmx2Sm5laVBrRlVnN1F2bE1kbjY3YjhDR2ZsYzMzNFFmcTNNNWN0TjM0c3prNFBxb1c4QVVFdUdsclg2WkE?oc=5",
    "published_at": "2026-03-12T07:00:00+00:00",
@@ -490,32 +260,6 @@
    "substancias": []
   },
   {
-   "title": "Câmara de Goiânia aprova em definitivo vale-alimentação para servidores da saúde - Jornal Opção",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcno1V0pLb3hFT04wNS1NSlNVVlM5a05IZjhXQXJTZk9RRWxZU2Rpenl3NnpRdE8taXUxektLaFVGeFN1ZzM4YkdnN3hlQ2VBb2drVzhmLVpLMzRnc1A5enNtU3I5cHJONWN0WDEtMjhmblBYWnRQNENFcHJyc2JtNlpkQlh2OXhXb0VhZk1QQ2NURy1MZ2hyb2ZIV1pCdm5RdF94c1kyNUdxYUlPM3NOX2hYTnpOczFBQU02R3VCVGoycjV5Wk5KY2NTb3lKUHo5ZXc?oc=5",
-   "published_at": "2026-03-12T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.541556+00:00",
-   "regional": 1,
-   "regiao_termo": "goiania",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "EDP Acelera Plano De Transmissão Em Goiás Com Início Das Obras Da SE Matrinchã 2 - Cenário Energia",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPci1SSW9mRENIaFhJVDNrOWZjbVRNaEY1WGNFLXdUdm5pU2l5VnU2dnJNdUZ4TVFRclQzNS1sOWNsRXk2SjNyWVhaNkR3MS0tcU5FblMxVXVmN2IteGNUcm9pay1ycGRMM3RYNzlFZncwNTFGN0QzSDhoWXVHNFlNd0tKWDNGWXdzTzNaZlJ1a3pnc1hiTmlES3pZS25xdXRtcDVKdGQyVVFzNVZoOWtIMnZtSFRnY0RDUTFyVk9JYw?oc=5",
-   "published_at": "2026-03-12T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.035664+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
    "title": "Guia orienta preenchimento da declaração econômico-fiscal dos royalties da mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT2RBaXVIeWVKbEppUWJoaElzcWJMSzNZWDRqbGNScldhemtnNng1ek9wRGVVaFhlVHRPZVdXVEZXOTk2Wi0zc1ZaZjhoZzdqVEs3T0xoak5rYVRCM3lPUHg0amRLdUNCM3hXVnk1eGt1NXdtcFJGcWRnUzJrQUpPbmFIQkNQNHl0eUt0WmdJRWpBdWRCb280ZlVoTHNMUF8yUkFPRUtJNGVuLUI5djR6UGFMUjNBNllyR3BUU2dxRW5PVlVSVUwyTWFjdw?oc=5",
    "published_at": "2026-03-11T07:00:00+00:00",
@@ -526,45 +270,6 @@
    "fonte": "Busca · CFEM",
    "escopo": "nacional",
    "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Usina solar de R$ 1,3 bilhão entra em operação em Goiás - Jornal Opção",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb0xJcXIwYW1zbkl4MnJndzREVGlfUFJ2d0VUSkZoNHgwVW11MzBWS3NTUVBHVXE1ZWdOelZOREpVOG9SanNWb1NwM2NESjNiZFdtaTlHSzJxV1pKN3R2aEt4ZjhlSkxOSDNXRHNYMzZaenZZekZxTnF2Wmx4QUlqTXNIaVVYdkw0UGY0OW04cVB3UHlFOGZYd1dJQ0FIQmJGZ1ZB?oc=5",
-   "published_at": "2026-03-11T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.997897+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Petrobras sells 20 million liters of diesel at auction in southern Brazil - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQX2dudUJsVmhaUmVmcFlMNldsV012MVNCSHczYlRSTHotQ0w0WUpBdS0tVUtxN1VhNjNnazhIOEhZckR6Wl9TbHg0d05mTThvTlBDNFFNQzZBUEtOLWpqWWNId3JQVVNIRjJUMXRES1AyajRjSUtPQTM5U0R2a3d3djBsNnQ5Wlp2LVFBRnR5VU5ndDJrLVdXbDJwb285SkdpR084MlZnZ2xaUFROMFlINDA1RUJzVXBYNUpFeFRDVEk2MXJGaUVF?oc=5",
-   "published_at": "2026-03-11T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:07.589165+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Brazil mining (Reuters)",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOa2lqMkNqdHA3UlkybUVJNWtpZ21qTFFjaGwzU3NBaDA2SEVIdUp6cHNkUll6c2xMa1owM1JIX1BOMjFFM1ZqcTJzNjh4bkNGTENlNWxWZVpNSUl1STNjVUNQbzBOQVVzNkJmaGM4Q3JoYnVjczNyb3VlVDBfdTVrOUIxdDF5ZnhtYlJtU002eWxLbG9ENHhXTXhvWU11X1dnM0wxSktnNA?oc=5",
-   "published_at": "2026-03-11T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.623885+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
    "substancias": []
   },
   {
@@ -596,19 +301,6 @@
    "substancias": []
   },
   {
-   "title": "Goiás adere a convênio e reduz ICMS para obras de transmissão elétrica - jornalopcao.com.br",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSkJtaGZfR2ZmdEpidzl4T3kySkg5Q2NydWVmcnV5Y1NNWHZZa1RjREhpSzVoQjc4Ykk2S0o5b2NmaEFkMFBseXA0T09sd3dwMXRWNjRqV0R0ekpJWmJEZlRWejIzZ3JJUl93YWRGay1vUzRGd1pFS0xqOUgxck44aG9OazBidkFvbGxXTWNYSEJiUkhod3Zyc3hBbk1hbnlyQXRJdjFfbElKMlJVWnF0Q0ROckpIOUtOaHc?oc=5",
-   "published_at": "2026-03-10T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:49.614191+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
    "title": "Justiça confirma regra da ANM para cálculo de royalties da mineração - Agência iNFRA",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYjBEd0RlQlFfVTRic3RjUl9RYXZ6dzF0Z3pfcDVyLVBUYk9zY3lpSWU4NmdhYzctSHlnQk1RTzFaeWM3a3BObDhQcXQ1NVZqRE5wT0FGOEJNOXExT1RXY09qeWRWTHdfMmozNnVCNTBPaXNOX093RGFuNmtZWlhFVDJ1QjJyRU9PUVlCMVU0ekVlM3EwTjJVX29fWVY5bFl6?oc=5",
    "published_at": "2026-03-09T07:00:00+00:00",
@@ -618,19 +310,6 @@
    "setorial": 1,
    "fonte": "Busca · CFEM",
    "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Goiás Vôlei encara Vôlei Renata em jogo histórico que vale vaga na final da Copa do Brasil - O Popular",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOU0RoN1JuVW1zQi1oUExvbktwUDBYaExfcVJDNFFoRzhyTmNwSGJiRHhMR2pwczRGUWFXbGNFeFowNU82YUhYVDZITHd0MVJiVGJWOW1GaFRRSkN2TWpHV3l4LVh0ZHJvUElKUWFQT2E1enZQWjF0cS1JVFNMT0dsY2VjTURxcTFoeEdyRkhzODByc3RGd18xazBpMU1uUWpKTFNOX0xtdVc1eVZCZzl0aEpnUkd5R1JfY2tEd3RHekdEUFFLcmR1MmtpTEg?oc=5",
-   "published_at": "2026-03-07T16:01:37+00:00",
-   "first_seen": "2026-09-19T19:49:02.536432+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -648,32 +327,6 @@
    "substancias": []
   },
   {
-   "title": "Complexo solar de mais de R$ 1 bilhão entra em operação em Goiás - Canal Solar",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xUXhSNkgtTmJYcVJGcW9vaV9NVlhLRl9hUUNEanVyN3FqanNILXRzT0hmdHl5ZHdiTlBsWWttUW9CVE5XSTZDbzMwTXlHdmVFdXB5b0c3NklET3pueGtiWU1NYzRSVjA?oc=5",
-   "published_at": "2026-03-06T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.003857+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Vale no time? Goiás vê lista de jogadores para reforçar equipe em 2026 - Esmeraldino.com",
-   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB1Nl9xMFJKMDMzQ21aT29PMHBOUTZqQzczbm15aVllX3RFUVRuVkd6WmY0UXFNa0xHVU5hS0xCSDJGdU45V0QwOXJWaVM?oc=5",
-   "published_at": "2026-03-06T08:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:45.237486+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Entrega do Relatório Anual de Lavra (RAL) 2026: Prazos e Orientações — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMDEwYkJwYUVRUFNZeDZXb2Z5NGFyaHJvQ2FCS1NBMUNYVDVCNVd3bzBTRkNlMkVqcURaaURxUDNsVWpaXzlna1RDY0hsSlM5TFgxUDllU21DZDRueS12emhvelliam9GUHhNdWRTZ1JJLUgxTnB6Q3l4R0lpM0N3WE9iWXRENmg2azhmZEl5NDNpT2k3SkF4cXBVamhJNUh6YV9fR0dyWkdPbFRwV2xHRGVB?oc=5",
    "published_at": "2026-03-04T08:00:00+00:00",
@@ -685,47 +338,6 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
-  },
-  {
-   "title": "Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeG5VVjZXUFpLQngtdTZDeFFLY1IyVUp6bXVQdW4zSHVuOTMxaDBNbEVoLW5QVFhaNk42RVNHeml3OEdDU3pSUTFHdngwSWNRY0RaOUVKQU11V1FOSTJ3eXB3V01hZjhVdnZoTldoQ1dZRVVETkxfYWdQbFVCRElrdDA2T2UzU0UtTFJ1RDRUOWpBaVRXbGYyM2d3dm1uaXRCWE92SQ?oc=5",
-   "published_at": "2026-03-04T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.583208+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Portaria_MME_nº_902/2026 — Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQkFrbHJ0b3JhQXJ3eHExNnI1eTRFNV9oZlcwMG93Zm0tZWlYNjFySjNyQ1dxM2t0MGhtaUo3SjZJOHlzd3MwVVJNeUhhY2R1YXBLZnNuWGEyR3V1MjlER0lxd1RfWE1Mb3NpdlVDb0ZuOXRsUXNQSmRRRE9WakxCSlZISGM0bzdvRmwyYWozWmhSdkJaQmEzb3FaOXBnZ2NKYkF6R0tJUTJ0OFU?oc=5",
-   "published_at": "2026-03-03T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.615314+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Governo propõe mudanças no modelo de formação de preços no mercado de energia elétrica - Valor Econômico",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMWk5WGdURmliYWdHenptaE5SV2VQR2pRUkRXMF9mT1dvc0VkcEpYNXFQMnZtTUgwdXRzQWV5R2tYblBUN2NBQnpQcF9sQXJZSklrRnRNY3NjUERJSVpzOUpldGkzVmVtZ3l0UWxoUmMwY05KZnNtZklyd1JkdUZ0MGNVQ0kyZ0dEMUxEQ3JhYW1PdEZQWmE5eDk4TGJXQWNiR2Y0UTd6UU14bHg4ZWpuejlPVnJQVWFWaHVtQzZ4WE9fTmFFWXk1Mm1GRGt0SXNVbmJwTTZCcUNXQdIB6AFBVV95cUxPSlIxYTZjNFdUUU9KOXBGOHRhMHBfaFpUWEo0dDVBV2o5WGVDd0dJYTJPSGdTUXZ1RnkwLVZUUGV3LUlLWm51NUdUVnVkcXF4MVlYckh3MVh5Y1Rib3pBa0IzdHl2b3o1cy0yMXJ6bXlmLTFIaDA0dU5pUURpUHVNcjlQajNqR2ZzdERMQmM0T2VHM3NMY3VMNVk1b1JpZEtvZWxBd0c2Si0xTzNDb0VRTmN4Y1NrOVV3VG9wOVEzaTltb0NmU1RGcTV4SXR4aVNVNEZSb2hWWC1pMmJNTnVRdW1sS29XOWU5?oc=5",
-   "published_at": "2026-03-02T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.390652+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
   }
  ]
 }

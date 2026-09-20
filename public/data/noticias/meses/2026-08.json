@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 324,
+ "materias": 184,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -16,32 +16,6 @@
    "substancias": [
     "litio"
    ]
-  },
-  {
-   "title": "Receitas de família viram atração em festival gastronômico de Niquelândia - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS0o0M2hMdmZOR2dndEc4WDdaM0tNczdvZGRwcFZyU2FtUUduN2pjQklxZ2g3ck5yR2ZVeTd6RHpXa2FidHlCc1pLcndPS2g4WmxMdGxGMEtfa3c2dFNPeEhjLXp2akwzbk5BUHEzcUpUVmtnYUdrTzB5cFN6NW5qVE9xTE5fVTZYRHdwNUJjaHRoLTlGTUFOaXRPV2NwdXhqUGl4dFVFRDN2cHpuR2NhQ0dRYUs2STA?oc=5",
-   "published_at": "2026-08-31T20:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.560937+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Orangotango resgatado de incêndio florestal na Indonésia luta contra doença respiratória",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/orangotango-resgatado-de-incendio-florestal-na-indonesia-luta-contra-doenca-respiratoria.shtml",
-   "published_at": "2026-08-31T18:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.192058+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
   },
   {
    "title": "Brazil rare earth mine shows hurdles of breaking free from China",
@@ -72,71 +46,6 @@
    "substancias": [
     "litio"
    ]
-  },
-  {
-   "title": "Defense Metals drills 6% rare earths in British Columbia",
-   "link": "https://www.mining.com/defense-metals-drills-6-rare-earths-in-bc/",
-   "published_at": "2026-08-31T14:57:55+00:00",
-   "first_seen": "2026-09-19T19:48:56.716004+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Mining.com · terras raras",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Enchente no Grand Canyon, nos EUA, mata duas pessoas e deixa 20 desaparecidas",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/mundo/2026/08/enchente-no-grand-canyon-nos-eua-mata-uma-pessoa-e-deixa-15-desaparecidas.shtml",
-   "published_at": "2026-08-31T14:29:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.193373+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Submission for the Government of Canada’s consultation on due diligence and civil liability measures to eliminate forced labour in supply chains",
-   "link": "https://miningwatch.ca/2026/8/31/submission-government-canadas-consultation-due-diligence-and-civil-liability-measures",
-   "published_at": "2026-08-31T14:05:51+00:00",
-   "first_seen": "2026-09-19T19:48:51.030528+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "MiningWatch Canada",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Aquecimento de oceanos encurta tempo de recuperação dos recifes de coral",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/aquecimento-de-oceanos-encurta-tempo-de-recuperacao-dos-recifes-de-coral.shtml",
-   "published_at": "2026-08-31T14:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.194520+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Cientistas usam narvais para descobrir o que está acontecendo sob gelo do Ártico",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/cientistas-usam-narvais-para-descobrir-o-que-esta-acontecendo-sob-gelo-do-artico.shtml",
-   "published_at": "2026-08-31T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.195702+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
   },
   {
    "title": "Acionistas da USA Rare Earth aprovam capital para comprar Serra Verde por R$ 14,5 bilhões - InvestNews",
@@ -315,19 +224,6 @@
    ]
   },
   {
-   "title": "Paulo Do Vale Candidato a Deputado Estadual em Goiás nas eleições 2026 - G1",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeGh4ZG9iMVNZT193QXZJLU5BNkp3YkFxUGVmVnozeEw3YXM4RWM4a1pWN2NCTVhPanRUOXJJMUlQcGRzZ0oycHBkY00xVFM3S3VLc2tISVNVdkZvc2Y3aF9FQ3ZRTG1lMDhQVXYxeXZQbWEtamJwb1FHM2lSUld2UHRzOUtla3U0Wjl5Z0lvbGhHLUtCOFBZaUNtZ0p5OUFLY1kxcU1kRXk?oc=5",
-   "published_at": "2026-08-31T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.498446+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Terras raras de Minaçu colocam Goiás no centro da disputa entre EUA e China - folhadegoias.info",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSkZhaDB0OVBrbjBJUVppSkR3eWxHQ2hfNHRYSVRMay0zeTZObEk1M3pXSWEzYXRfN2xGNGhacjY5UUplbkF0TWM4SURIS2ZhbE5ueVlNVVhBRG1hNlpDdlkwbzY2ckRuc1lqckUxbTRpRWZfQ2VGV2lrZl8wbHlwTHBGdE53bUpTd2xwRGRqZ1pQdWRnTEJjMHdzanBjaFpvVWoxNmpiTjRGZw?oc=5",
    "published_at": "2026-08-31T07:00:00+00:00",
@@ -340,21 +236,6 @@
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
-   ]
-  },
-  {
-   "title": "How to Log and Reconstruct an AI Metal Price Answer",
-   "link": "https://agmetalminer.com/2026/08/31/metal-market-prices-using-ai/",
-   "published_at": "2026-08-31T06:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:51.162407+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "MetalMiner",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": [
-    "cobre"
    ]
   },
   {
@@ -371,32 +252,6 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Mortes no Nepal e na China chegam a quase 800, e autoridades fazem alertas sobre mudanças climáticas",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/mundo/2026/08/mortes-no-nepal-e-na-china-chegam-a-quase-800-e-autoridades-fazem-alertas-sobre-mudancas-climaticas.shtml",
-   "published_at": "2026-08-30T12:41:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.196898+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Governo de Mato Grosso tenta mudar acordo para permitir uso de madeira nativa em usina de biodiesel",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/governo-de-mato-grosso-tenta-mudar-acordo-para-permitir-uso-de-madeira-nativa-em-usina-de-biodiesel.shtml",
-   "published_at": "2026-08-30T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.197977+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
   },
   {
    "title": "Agência Nacional de Mineração - www.gov.br",
@@ -425,58 +280,6 @@
    "substancias": []
   },
   {
-   "title": "Sufocada pela fumaça, Indonésia apela a 'semeadura de nuvens' para combater incêndios florestais",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/sufocada-pela-fumaca-indonesia-apela-a-semeadura-de-nuvens-para-combater-incendios-florestais.shtml",
-   "published_at": "2026-08-29T18:37:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.199426+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Com quase 700 mortos, Nepal diz precisar de bilhões de dólares para reconstrução",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/mundo/2026/08/com-mais-de-600-mortos-nepal-diz-precisar-de-bilhoes-de-dolares-para-reconstrucao.shtml",
-   "published_at": "2026-08-29T10:53:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.200572+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Países que não provocaram mudança do clima estão pagando a conta, diz especialista nepalês",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/paises-que-nao-provocaram-mudanca-do-clima-estao-pagando-a-conta-diz-especialista-nepales.shtml",
-   "published_at": "2026-08-29T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.201756+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Governo Trump quer ceder área do Parque Nacional de Yosemite a empreiteira",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/mundo/2026/08/governo-trump-quer-ceder-area-do-parque-nacional-de-yosemite-a-empreiteira.shtml",
-   "published_at": "2026-08-29T01:05:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.203040+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
    "title": "Anfield Energy starts blasting at historic Velvet-Wood uranium mine in Utah",
    "link": "https://www.mining.com/anfield-energy-starts-blasting-at-historic-velvet-wood-uranium-mine-in-utah/",
    "published_at": "2026-08-28T22:49:46+00:00",
@@ -490,19 +293,6 @@
    "substancias": [
     "uranio"
    ]
-  },
-  {
-   "title": "PROCEL — Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZnZ0a0lRZkYwM3Ixa05XenVfZG1pMjVmTGZacXF6Y29ET3Q2aEszZk9YTXVBcHdOQWhDMnFyU2JDT1V1ZG1BMFFXd1RDLTlLcHcxbXVsQ0hWRlRLSTFGaDVVV0gwVGxzM0hLQkphVXkzTi1hOGV2RGRmN2pHVWlQeQ?oc=5",
-   "published_at": "2026-08-28T22:20:29+00:00",
-   "first_seen": "2026-09-19T19:49:09.590453+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
-   "substancias": []
   },
   {
    "title": "Governments become ‘deal participants’ as critical minerals race accelerates",
@@ -533,32 +323,6 @@
    ]
   },
   {
-   "title": "Four South American nations sign strategic minerals pact",
-   "link": "https://www.mining.com/web/four-south-american-nations-sign-strategic-minerals-pact/",
-   "published_at": "2026-08-28T16:13:18+00:00",
-   "first_seen": "2026-09-19T19:48:54.997915+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Mining.com · lítio",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "PLANO MUNICPAL DE TURISMO – Prefeitura de Niquelândia, Sebrae e Goiás Turismo estabelecem 104 ações para incrementar segmento nos próximos 10 anos - Excelência Notícias",
-   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOVEVMcXhuRFFvTm40UlNGUGZnX2RzZEpoeXVUa3JobDNxV1ZqblBhWWFuVUhJODRuekJ2eUdQUGFVTklIajBLRHBQNkNQbEc5WUVJaFVCME9BazBfQjNYNkN6cWRVRHNXazI3cUt6ZDg2ZUozSXF3Z2ptc19HNmkzUXBwU0R1M295MkZIOHdMR2xTclF1T2lRMV9WY2dfMWp5b1BiRzlPcFJzRWoxUXlaenVjOVRXVjBnbHlGZVNPRVB4cGFLR1Q5NkhPNWFDUjhObzNnX0ZWWHNkZmFMLUtUWDg1cUw3WDFsRHR2eC1iOTJmVWdyZE4yRGFNaGg5bkFpNzVnLXNTaWJhbUhtQTluVGw1Ti1CMmho?oc=5",
-   "published_at": "2026-08-28T16:03:20+00:00",
-   "first_seen": "2026-09-20T04:02:43.915601+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "IDB Invest to back Posco Argentina lithium expansion with up to $700 million",
    "link": "https://www.mining.com/web/idb-invest-to-back-posco-argentina-lithium-expansion-with-up-to-700-million/",
    "published_at": "2026-08-28T13:42:53+00:00",
@@ -572,19 +336,6 @@
    "substancias": [
     "litio"
    ]
-  },
-  {
-   "title": "Nova Zelândia corre para vacinar papagaio mais gordo do mundo e outras espécies contra gripe aviária",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/nova-zelandia-corre-para-vacinar-papagaio-mais-gordo-do-mundo-e-outras-especies-raras-contra-gripe-aviaria.shtml",
-   "published_at": "2026-08-28T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.205370+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
   },
   {
    "title": "Mina em Goiás ganha destaque, mas refino de terras raras fica fora do país - UOL Economia",
@@ -645,88 +396,6 @@
    ]
   },
   {
-   "title": "Todos os caminhos levam a Niquelândia! Sertões entra no 6º dia de especiais com abandono nas motos - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQempMY1BTbnRYMTR3YmtBZFo3blUtX21hTGFKLWNMSThyTWY2YVpJaG1TWGh4MVk2eVFJQlVTRHREOXl3QzRhME45MXV3Q2VUMDQ4MDF6V2xwYWpZRXM4M0VkTmFnbUhrNzZoWjA0aTB3UXQzU2ZzQW1lSWVoMVRSZ3NyNC1GeUhjN0xFZlQ0dk1UVlVFdnVKR2dDNVhoeHNrRGdqY0FhODBpNFVvY0xEVm5rYkdqM3V5QXZQNFlVYURVZGZMSTJkSkhHc3JKbE9CazJNSE9La3FBTklCSlJpMlpNVUc?oc=5",
-   "published_at": "2026-08-28T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:43.916922+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Why Brazil’s rare earths will not break China’s magnet grip at least until 2032 - South China Morning Post",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZndidW8tX180bTFYUmZGX2NQeW9maUZ0X19LX1dEZ255U2xxOEdhNEdrQm1jZkFrWnJnWEN1U3poRzhZOElwWHA1MExjNWZ1dkFyMTlULVhkSnBVaVNmN29OaENFbjZEczdKUVFRM0pta296VGtNOXZPdzJvaVFyeGFybFk4Xzl3YlNXaW1jN3JYUnpqekZvejVFQ1MtckZpd05jdmJIbzhkRWxCcm5uUlhFYlRiMUMzVDQ0MGNGcUhVbWPSAcMBQVVfeXFMTmtPMU5xSHkzNE50amhFR1JhalI0WV8tTW0wWktYczRXZlVrakRGVWxWRVNKSDViQWJBN3lhX0M3UGs3dHczVWNNR3IzVVRiRGlWdVVZLXRCTHZTRncxMEhZSjlJa1Vvbjc4d29udGRCOGVHS3lGT2doM2p3U1d3YVcwQ2UxT1pEQzZOM3ZXUnBLMGw2aG9GNDRjSjZVc1dMdTdHWjlEWWxnRm9rNEtLNC1NODZZbnJNbVp5RHc4bTF2b004?oc=5",
-   "published_at": "2026-08-28T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.910284+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · rare earth Brazil",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "ANEEL mantém bandeira tarifária amarela em setembro — Agência Nacional de Energia Elétrica - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbUZHcTlBS0ZYRmJSNEJiN1hWUmFCRUpUa29YdUhMbmZVOVBiRjB4QzlJOGVoVFpBRDJjdlFHUjFhZ3JrX19pd3M4a21RVTBwZWdIUzM5bHRtZ2F6dDR4WXQwQVhpVmgxVFE3cUFuRGNRSGJXR0Y2ZFFMcDZVY2ZNWnc0TEpuNjZZbEEwQVJqOXZzbm9sandoQ1BEVExISGY5R3FSTmt4aF9YZndBWVpTeGVlUmJUUjg5Y2dkQ0N5OA?oc=5",
-   "published_at": "2026-08-28T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.350657+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Aneel define a bandeira tarifária para a energia elétrica em setembro - ParaibaOnline",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWWNTYWNNTkl4NVRSSGtMd1p6SF9nc0pTTUY4RWhrZUFUel9DT3BsbDR2YVRld0lEWEx0YnZKVFpMU3A2WEpHcmx3UmN1dWNjNzVnLWRzQ0cwT2JteUVPR3IyZkE0UjUxOG56cmYxS2FkU05ZS1NtTG12ZDFCMGlDcU14dGFfSm84RTVSMkRUcTZwNmhOOTZra3BsQUFlQjd5MWU4VUFfUThHdE4yY1VZVm13Znd2Yl9aUThj?oc=5",
-   "published_at": "2026-08-28T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.409677+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Giovanni Santos de Lemos — Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcTNiRFk5M21uX2dDMlN4RW1zclU4MnRyVTJUYUFjLTkzdTY5YzcxNWlsV18zN2RHRHEtbXp4LWpvanREMmFKbnJOWktJWXEwRHUxODRReXpPRFBqeDJwSEZyalVCQmVKVlpGV3NQWFRNbHhmOHp4VWlHdHY4Um5oTUtYMlFUSkJoVFhaODhndGFuWEdTeVBSdVZ3ZkdkQXAwSWpFb252QkF1MmozSkRvMGZaSmV1VFJkUzl4Z3hDRGhrYU9DMnhULWFmLUo5dU8zcndETVNNUGNBTFE?oc=5",
-   "published_at": "2026-08-28T04:01:53+00:00",
-   "first_seen": "2026-09-19T19:49:09.571303+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "De novo em Goiás, Sertões Petrobras segue exigente e desafiador. Niquelândia é o próximo destino - Sala da Notícia",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUXZNbk5rWHdJNjU4SGNfSHluUmNkZW5DdGJ4UEdjaXNabmZOazN5aWVJWl9HSTFwengwcXZDSG55TXJIRHlfUHJHNlVidjU5Y28xeGQ5MldKaExpNGRINllvbG5Ob3NRYmRIVHNadExaS0ItNWpZV3FlMjZ0YjRFUEJrdEFyYkxMeFBiSUFjdzdZV1hrWm81Y29TYTk5U1dmTGg3MHZrTy01UTMxeXZYczlHTXZDWWRlWnR5eEJnYkcxa0FDWlh2cjZNMU5rRXBUOS1Cd0lTb3c3U012?oc=5",
-   "published_at": "2026-08-27T22:22:30+00:00",
-   "first_seen": "2026-09-19T19:49:00.555229+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Cyclic Materials lands $75M to expand US rare earth recycling",
    "link": "https://www.mining.com/cyclic-materials-lands-75m-to-expand-us-rare-earth-recycling/",
    "published_at": "2026-08-27T21:43:10+00:00",
@@ -740,32 +409,6 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Um dia após enchente catastrófica, terremoto de magnitude 5 atinge Tibete",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/mundo/2026/08/um-dia-apos-enchente-catastrofica-terremoto-de-magnitude-5-atinge-tibete.shtml",
-   "published_at": "2026-08-27T18:59:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.206844+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Mudança climática intensifica variabilidade do El Niño, mostra estudo",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/mudanca-climatica-intensifica-variabilidade-do-el-nino-mostra-estudo.shtml",
-   "published_at": "2026-08-27T18:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.208005+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
   },
   {
    "title": "Lithium price: BMI raises forecast, warns rally has outrun fundamentals",
@@ -798,19 +441,6 @@
    ]
   },
   {
-   "title": "Nepal e Tibete estão sob risco de novas enchentes e rompimento de lago",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/mundo/2026/08/nepal-e-tibete-estao-sob-risco-de-novas-enchentes-e-rompimento-de-lago.shtml",
-   "published_at": "2026-08-27T17:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.209336+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
    "title": "Departamento de Guerra dos EUA investe 750 milhões de dólares em terras raras brasileiras - Instituto Humanitas Unisinos - IHU",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQOTNXb20yS1hxLTVyRHBWNUFkOUYwaGFoNVAxZHF4V3hnRzg3U0w3b1hWcTdxYjVuQ3FETlZYNFZob1o0N2s4czJsOVhGYlRqRW9RY1dpM004cTVqNmgxaGtZQlRreE5wMkE5UEJjNlhyU0xGcjZWcUU0VWpOdzBQOWE2U2VIcHpyMEdvRW5vWldQcGN4V2V0UDhjd0lWRjJkcXR3WndMQ2Y5QVd1SDlNeGY2WmhIR3E0NHU5LTYwN2V0UDA3and0RGRCclEzTnRa?oc=5",
    "published_at": "2026-08-27T16:17:24+00:00",
@@ -826,19 +456,6 @@
    ]
   },
   {
-   "title": "Colapso glacial: o fenômeno que causou a enchente repentina no Nepal e no Tibete",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/mundo/2026/08/colapso-glacial-o-fenomeno-que-causou-a-enchente-repentina-no-nepal-e-no-tibete.shtml",
-   "published_at": "2026-08-27T14:53:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.210561+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
    "title": "Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE92c1QyeXRSb3E3OVFQLWxWUFBhMkZ5SzRyWjlTT08tb0VIM2pjR2t6NnVraExxNjBnQi1vWlFpWEFjdnk3RHFHa3pTYkozSjU3Y2tXcF82Rzc0eHhfVWQ0aERQQW5wNTFHcjNZ?oc=5",
    "published_at": "2026-08-27T12:29:23+00:00",
@@ -849,19 +466,6 @@
    "fonte": "Busca · ANM (site oficial)",
    "escopo": "setorial",
    "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Mudanças climáticas elevaram risco de inundação no Himalaia, dizem especialistas",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/mudancas-climaticas-elevaram-risco-de-inundacao-no-himalaia-dizem-especialistas.shtml",
-   "published_at": "2026-08-27T12:10:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.211832+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
    "substancias": []
   },
   {
@@ -879,45 +483,6 @@
     "litio",
     "terras_raras"
    ]
-  },
-  {
-   "title": "Qual o nível de qualidade de vida da sua cidade?",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/colunas/jorge-abrahao/2026/08/qual-o-nivel-de-qualidade-de-vida-da-sua-cidade.shtml",
-   "published_at": "2026-08-27T10:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.212981+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Socorristas buscam quase 1.500 desaparecidos no Nepal e no Tibete; número de mortos sobe a 469",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/mundo/2026/08/equipes-de-resgate-procuram-mais-de-1300-desaparecidos-no-nepal-e-no-tibete.shtml",
-   "published_at": "2026-08-27T09:22:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.214521+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Crocodilos-do-nilo nascem na França devido às sucessivas ondas de calor",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/crocodilos-do-nilo-nascem-na-franca-devido-as-sucessivas-ondas-de-calor.shtml",
-   "published_at": "2026-08-27T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.215727+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
   },
   {
    "title": "Brazil Wants To Move Up The Rare Earth Supply Chain - Finimize",
@@ -1024,32 +589,6 @@
    ]
   },
   {
-   "title": "Serra Verde com aporte dos EUA - CartaCapital",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeE9UdzNqbHhSUF9CeUFSdlpoRlpXc3ZBblNIOV9fVEsyeXdjdnZMRWNENjhOM01mazZlc19hOUpqUHpIVkp5MFZodElaclRJM2J1cEwyMjBvSU9la1lUQUlUb012UUhqRTRnWGlDeEVaa0dOZ0dGNzc0dkVtU2tldTdlZw?oc=5",
-   "published_at": "2026-08-27T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:01.793281+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Tarifa horária no Brasil não é suficiente, mas é absolutamente necessária - CNN Brasil",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa0FsTDdkMGdrZE1IWEhzVHF0R1RUNUdYdlVDcHB3bnpJUEExd0RaZjhweGdVeFBOUnI0UEZYOEVqMXp0QVRlS2t1OU9Sbm16UUZTTi1JSWRxeUFDNGFFM1B1SDBOU3Q2X21KQXhINlYxTWc0SVVwaTZocWY5RDlBLWsyWGZBX3pOQnIxcG9kNklGWDV3U0p5OTAxWk4tbEhpX1RCSjkxd0VQc1B2?oc=5",
-   "published_at": "2026-08-27T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.353371+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
    "title": "Vale studies extracting rare earths, gold from mining waste",
    "link": "https://www.mining.com/web/vale-studies-extracting-rare-earths-gold-from-mining-waste/",
    "published_at": "2026-08-27T00:00:42+00:00",
@@ -1124,19 +663,6 @@
    "substancias": []
   },
   {
-   "title": "Em cúpula da ONU, Brasil apresenta meta para conter degradação de terras",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/em-cupula-da-onu-brasil-apresenta-meta-para-conter-degradacao-de-terras.shtml",
-   "published_at": "2026-08-26T16:15:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.216990+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
    "title": "Governo Lula é contrário à exploração de terras raras em Goiás por empresa dos EUA e avalia rever negócio",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaed54effa44ed8a7cd8677eb9fc691&url=https%3a%2f%2fwww.brasil247.com%2fbrasil%2fgoverno-lula-e-contrario-a-exploracao-de-terras-raras-em-goias-por-empresa-dos-eua-e-avalia-rever-negocio%2f&c=1560811796137846797&mkt=pt-br",
    "published_at": "2026-08-26T14:53:00+00:00",
@@ -1167,32 +693,6 @@
    ]
   },
   {
-   "title": "Russia’s Nornickel recommends 6-month dividend of 1.85 roubles a share",
-   "link": "https://www.mining.com/web/russias-nornickel-recommends-6-month-dividend-of-1-85-roubles-a-share/",
-   "published_at": "2026-08-26T14:23:27+00:00",
-   "first_seen": "2026-09-19T19:48:52.278286+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Mining.com · níquel",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Ativistas detidos na Islândia por ação contra caça de baleias voltam ao Brasil",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/ativistas-detidos-na-islandia-por-acao-contra-caca-de-baleias-voltam-ao-brasil.shtml",
-   "published_at": "2026-08-26T12:30:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.218231+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
    "title": "Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1dk1qdEoteFd6UnY3U1d4X1RZOTJYd254cHJwWWE1T0dCeVVMUWRiQklMTFBoYkNvX0JCbld3MVFxSThOeUdDck5kbUxMWDBhOEhudFlTdDlaYW1Iby12U1pQVmRNMlFzLU5xVzBQZXAwSWQtRnZ4SXZ3?oc=5",
    "published_at": "2026-08-26T10:55:21+00:00",
@@ -1203,19 +703,6 @@
    "fonte": "Busca · ANM (site oficial)",
    "escopo": "setorial",
    "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "ONU premia rede brasileira voltada à conservação do cerrado",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/onu-premia-rede-brasileira-voltada-a-preservacao-do-cerrado.shtml",
-   "published_at": "2026-08-26T10:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.219429+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
    "substancias": []
   },
   {
@@ -1529,101 +1016,6 @@
    "substancias": []
   },
   {
-   "title": "EDP Investirá R$ 450 Milhões Em Transmissão De Energia Em Goiás Até 2028 - Cenário Energia",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb0RGdUU0UUE0Mm5YVUdnbldldjZBU2l4Q0RNaXNYeUt0UVdhbFBnUVRSOWtmXzdpd0xMNTVVcnlIbi1VVTV1UjFkemdHa01ZQkFlSFI2V1NvMV9tWTdMOVoxejN6U1Vwakx5ZGhlem85NTFKcXY0al82bW1uUzZkMVFxMFRKbElhUXgzb0UxLVVFbTlIbkY1bXUtX1BHN1EtMF82cnVpdENWa2NGSzU5eFR6bw?oc=5",
-   "published_at": "2026-08-26T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.997101+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Tribunal do Júri condena homem a mais de 53 anos por feminicídio e furto em Alto Horizonte - Rota Jurídica",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcWJHNlFXX3ktOXdlRVg4VjFESFRYS2VVZHM0U01sU0JJQ1NpSHRoUk9DaUt1Zkc2WWhpLXk4Z3VCRTA0QkhDVlE0a05KRGM1Y0dQcEtrOFpQRFpIT0tDZGxwOWZ5cHNGMkpISWRvcUFKcE9TU3dEcnZ3bmV1N3ZrX1NYUE9uSl9rV2ljdXZjcjMzRE9UVWJ0eENEem1RWERZSENxNjZwZnBWTV9FUmZjLW13bWljRk03V21LZlZYVXU?oc=5",
-   "published_at": "2026-08-26T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.553559+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Empresa chinesa vai explorar minerais brasileiros em parceria com Montes Verdes - VEJA",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUEhhYjQ1VE9KSXdJMk00Y1BWZmJPZG10UDY5bXRDZjdzYVVSZkVxNGZKbjYwTlJDQlRuSlFVR1Y5UGpsUHRPOEx0M3ZHS2tCeUVIQWlYMldWWlBDVFc1NUxqcHY1d2pLSnlPSFk2VzJZS3lMR2ZNSHQ1amktSzNLMWVfLTIzVWd3QWFDbXh2VGNIWjRCSGtERkFDcjRfOG9IT1Rnd0xtSjFsQ0tUbVZza1R5d3FDQQ?oc=5",
-   "published_at": "2026-08-26T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.234629+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · lítio no Brasil",
-   "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Por que energia elétrica liderou queda de preços e levou IPCA-15 a deflação de 0,40% - infomoney.com.br",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSTY5dTBXMmVuMkpFUE96QmdyMVZyc1pQOVBYTXR0TnpaOUZGTy1DTFlZU1l1d1hxMjNwbzY4ckpadXJFM1lXT0Q4aV94VnJ1YmpEdmpUdTBUejB5RFJxN0Nwc1pOOWRINnBLQVFOUllsRExHWk1UaTNoQkgxdnFXdWFDQkljYnhEXzhESm1Nd1hoXzdOQTA1bkd3Z18yZnNUVWMtaUVIMjZKVFFmSG9kcTVJTFdkMUVvWVBFTVJR0gHDAUFVX3lxTE9wWjJOcEh2WmhPNDIyMHFNb2FZeUJkSTdodFA2QkxNdTI1bzV3VHRnRnJoMFNKQUhDNTBIc1lYRlJEVGNsdHNvdFZCeFNneG5HLVNqMGQyUjFucWdzZGxTX09ESDUxSmc3NnJKNzBZZ3VzUlp3OWVfaWhldm94RkhtOTh4ZWdXaE14cFNodmJmTkZ3aU5YdXo2MWpOZmRuNE5ENVl4ajdsWnByeWdTdFRRVHNfeU5sczdwbE11SWV5SERzZw?oc=5",
-   "published_at": "2026-08-26T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.354311+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Energia elétrica tem maior queda desde janeiro de 2025 com bônus de Itaipu, mostra IBGE - Valor Econômico",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVjl3bG85UmlkS2QzVkpOYXNYTlpJWFltYUJVVDBpeUJvRzE4ZTE2UXhrNFVxdTU5T2ZRUmFMQXZoZC1EUVZabVdIRnYtbnpWWFVkSW85cDlaZWlWNWhkWi1TUG1jOGZjSXBpeXlZOFdoZ0loV3prajZpNWlwM1cyVzlrdnBDR3JISEhNaFdqdWh5ZzFEWjB6OXJHZFpDWkM0T3Nqa2xfcG9tb2xfNU9Ud0VJRUVJREFSNzVMZGFlM1U1WmFtWXVPdnF6QkIyaXgxMkwyWTFNRHNRUdIB6AFBVV95cUxQVG8zWkZZRW1ydlA0VkZlZHhBdVVJYXp2UEt4YlVDcFJYd0JVRURIREZCVW1ZazNsQnRQTGRfbHNieXhKWkZQWlZaZU1yRlNGVzFwV2VsN3R2aVhIdGVUT092WkZTQkM1Mm5mQTNlbDh4LW1xaHJfVmdYejZLdW51ZTVzZFdMSWtIN3M4SnRhQmZERHhEam9yTk0wOGhOczNrSzR6WjdGb202alJNSmJnc1lnN0VPY3Ftcm1aV1RaWmFVa2FtcVRITEc3SVZ1R2FWQmt3WE5FbVB0cnRCaW55R3d1TzY4eGhW?oc=5",
-   "published_at": "2026-08-26T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.356139+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Governo quer mudar cálculo do valor da energia no mercado livre - Agência iNFRA",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdm9Qc3I5R19hakxwU3BhR25jaHdySm1PLWcwZ1E0bFFRRGt3RzZIZEd4cENrTTVUYk5wSHBwU1pCVjRwWXNoX014blFUc056anBrOXRBb3UtVGtMQV9VWnU4T0s2U0tiUFJIRm9OMUNGQkVhTm4xNk83X1drNnNnQTR0WWtWQ1l0ejhic3BFWG5xa0RHVkFxMkJR?oc=5",
-   "published_at": "2026-08-26T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.366875+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Aneel quer definir regras a posteiros antes de discutir preços dos postes - TELETIME News",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZHhZSEl1R3pXc2tBYmJBUmtzaW9zVF80MnFIS2F5T1J6YzZDa1JRMjhMTXpJbEUxVkZIU3hqMXp6WWtxd0ZrZEk1X1JEYm05Tll0VENsV2JwXy1sNkFMWmR5WHRHMDZaeEdVb1l1SF9jZnpZajc2WGstZWFKUGRZeGZobkM2aGdzT0wyaC1URDlWVUg4dzlYRWFTVU1kQk5tZEhCRWpjWFNJeW9tNTZKdUxjMGJXdjhaVVZHOW9aMzhXZw?oc=5",
-   "published_at": "2026-08-26T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:49.212613+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
    "title": "Departamento de Guerra dos EUA investe 750 milhões de dólares em terras raras brasileiras - apublica.org",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQX0RoeUc5cGxpWDNGSXR1OHB2TGNNeDFhbmM1WTNoMl9Ud0pkbm83VGtEOV83QXktVDA4TE5zMDFyLVhKWGJwUnlpcTNzTm5wdHV6aFF4V3prbm9Xa3FMYVEzUzlaNHRwSjZCUE11bVVETFVfMVBULWxOdVdSdXZQM1Jjdms0ZkIwbWw5M2xCYzc4ZVl5QzNSUzNkRDlrSDd5cmpUSUxORGlaZlotUVQ0RXJ3MVhmaWPSAbwBQVVfeXFMTS02WXg4ek9DMC1UaGkxZDdTMmctb21GUXNFdl9jTzE1SnpLbmtQMzYwZm5nd2FtSF9uNXY4ZUlwLVg4LXA0NGJXcXA4alJZN25ZQ0laMkhhS2NkaFNmRXRpZVB1Ty1qUjByZWxOTTNlblZzY3A4S2pOLU5RZE0yTEtBa002dmQwaVhSVngtS0tnTFRjWnBiWFRLQk5GcHl1MWdTUG01N0lpTG5XcE42SERERmJtNl9yVURBMkY?oc=5",
    "published_at": "2026-08-26T07:00:00+00:00",
@@ -1740,32 +1132,6 @@
    ]
   },
   {
-   "title": "Com ondas de calor, Europa tem verão que deve entrar para a história climática",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/com-ondas-de-calor-europa-tem-verao-que-deve-entrar-para-a-historia-climatica.shtml",
-   "published_at": "2026-08-25T13:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.220529+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Calor transforma dia a dia em comuna símbolo do aquecimento climático na Europa",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/calor-trasnforma-dia-a-dia-em-comuna-simbolo-do-aquecimento-climatico-na-europa.shtml",
-   "published_at": "2026-08-25T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.221601+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
    "title": "Cidade de Goiás que viveu do amianto agora está no centro da corrida por terras raras - Folha de S.Paulo",
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYmp2OFZMWVRPWEwtR1lWRUp5T21RX0xPVkZrMmh3bjduTDQ5T204YzlhQXlncG9UdDJMcU5IUUdRQWx0VUdxbHZtX29ZX3JiTUJCYU43TW9WeEllNDdEekFab3pjV25zNDJMWExac254R2NqZDZhZmxNVUNGdlgwcmF5a25wbDFFa2liLWZPS2piQWV4eVBTbjZpdm5WYkZ1aURmV29EeThpNkFMQWJsVTYwMFhBbWpiZ19TTlBHVDZ3UE91eGRUZExWbFJxSFlMaEpr?oc=5",
    "published_at": "2026-08-25T07:00:00+00:00",
@@ -1841,97 +1207,6 @@
    ]
   },
   {
-   "title": "Lucas Do Vale Candidato a Deputado Federal em Goiás nas eleições 2026 - G1",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT1ZKY1JmWTFteHRWaVl5dmIxMngyQzRLN3dXY2pjRmYyS2FsckQxN2ZwdGtLYUdoQmoxLUwyQVkwd0tMRlYwQnVhSktxUHhJU0JZdG41YUM0eHFTOXhNbkhOYjk0U3VYSTdxY2pvVkVtR0l1cVkzX2lIbW9yYzl6Umd4bmE2NkpPbWxoTXN2UHFWX3ZxbjNkazNBQ3VXeW0yOHJUdEpubw?oc=5",
-   "published_at": "2026-08-25T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.502747+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Congresso aprova autorização para rádio comunitária em Barro Alto, na Bahia - O TEMPO",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV3lYdDBnQzlRZFZjQTlBNUEwOHBYdVQxVEZYT1I0VG82QlZiWGdhc29vRXVOV0JTbVZoTkg4RXYwQnp6bHhfazZaRXh2ckUzSnh3SzhyWEROTHFTQTRld2p3SlRkTm9EQ05pY25fZ2hIemZRVjE2TUs5OGlrNjlJQUE4QVNUTzZSb2ozTVRTRFlEOWhHQTEzT1I5YjZZRTZrVE1zbUVOV3ZzU0NyMGNsYTBiYnpqc2pfRkZN0gHAAUFVX3lxTE9hYklLQ0s3cFQ5Zk5lVV9WU0tqaTAyTXBscV8zLThndjNaLTBQUk9ucnpoRUh0c2taTDFuV19MVmY0aV92aEpKRFpXR1dOclZITG1YM2ZkUWVkcm96bnp2aTlTOVJoQVIwTkNNN2tXTzBKam45b0g4aHRVYVZqYjFIUmZxemNSWVJHS1hrQ2tyTE9tZHVfRVFlbDdudDdaNkpZWXRiWHhOUEl3QldzLXNsYVY4RU4zNC1FV2o3X2VsMg?oc=5",
-   "published_at": "2026-08-25T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.556056+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Grupo dos EUA capta US$ 1,5 bi para Serra Verde - Valor Econômico",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb0xOeHdnT01hb0k0Rm9DWUd2aEl1Y0J5ZlRReHhpbllXaTJDQVg5RXhuQW05UGRBT2ZDTTBDeVVReTl6WVdTUkpXSXlsSXJpMWtsNE9tSFVaSFpWSnpXZm1Ba0pjaTFzMFo5RkhuMWdXR1lwdzdIZUx5MHVNaHFZVFJ1T2ZpNGd4MUpTd3F1cDNoTUhqX0g4X3RzZW5fTG1kRlhEb2Zn0gG0AUFVX3lxTE9rYWtCX1N1QWpvX3p5TjhnUGlpb1pyRkRjanpHUlZmR3J0SFFVZlI0WTd1UHJrZUN3M0JjbU9QcTdBVDJLVUttX19hdWNiYVU5RDMzdVgxdFh0LWIzMThsdGZxbi1fX0hRRWR2R0tKMHlTaFhwcWxOZFdOVnVYaUpTNHZjcEM1S0JLc2pQV2pkNDUtUHZCTGQzR21pY2FIeFYtMHVGRkZZUGRtdnV2eFZjeVB1Qw?oc=5",
-   "published_at": "2026-08-25T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:01.768048+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "US admits it lost the minerals race to China. Can Brazil exploit the rivalry? - South China Morning Post",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbUhIV2kwLXBCRnBtOG5XTzlKRXVsVXVUNHkxQ0JPNFdDVUZvT1MyVUxtWUpTWEtZTy1iUWUzVWljcFpGWlNrSzdBSXhNTnR5TnZZc3Vsc0VSVzRabHI3RE90S1B1WUo2WXJlNEZtbHVMNVZ4VmhTWmg5SV9aNE5mamowRVVNeVFwX2paNV9TalpFVnBKQ1ZPRjE4X0Vfa1lrRFFLYUlUaHk1bXpyUHRlQ3UxMWMwQ1pwNDVmNjY3cXQ3ajBkWEhOdGg5WEJfUdIBzgFBVV95cUxNYkd2aWMtdDFIeUt3MnoxS0YzRHVmYXpRWEIzMFJFR1FMN0h2ckg4Wkgtd2ZvdnRiT2wxY05vZ010bUVhMHJLWjhjTk50WmxUUV9vUlFxazVDbjZzMEZZTlN2eFNYU1ZkOUtCakN0dkJNZWxidkpHWEtRY0NKcDVhWnhPWjNRbFJYYWFRNU1vZW9UVnBQOU9SaTd1eGVXMC1OUllZWm9Femt4T1Jqa2NOSG5OQUcxdTZERVk5TC1mSjIybTdXaVZLVUZnRkU0dw?oc=5",
-   "published_at": "2026-08-25T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.917803+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · rare earth Brazil",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Brazilian minister says Trump team acknowledged lagging behind China - UA.NEWS",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdjU1c2pmNFZEQnJHbldwdjRqODFkQmlvT2ZNOXdvelhhNXRvMURGZ2RjQ0U2NHVzdTViX1FCalB0ZlU5NVA1UWhGWDhIVmhVR0xYSTdFRkoxbnhoS3oycndnZzhBN1YtM3d4YVlFMjNQVkxqM0UzT2Z6dUJMUDlOc2tJQm1kUUU4X1JXeVJxVkZSaGRCa0paUmJIMjB2YWlCRG55ald3?oc=5",
-   "published_at": "2026-08-25T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.971213+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · rare earth Brazil",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Governo sinaliza \"consertar\" distorções no preço da energia - NeoFeed",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQmZucjBUdl94czFoSzVYb3FzeE5ZdUMzaEtubk4xRFpIWFJpdEtrNjRXbGRPZGRRSE5pVWVRR01LdkJCNk1MVTZLaWJXN2RyRnFvWk5uZzRlbTlwS2w4djBMclROT09RbFJnYXhJLXQ2VTJrT2w2d1NRTFBVcGItVmpHM1FOMnpRSVN6TTdIRV9NeXFF?oc=5",
-   "published_at": "2026-08-25T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.357057+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Aneel irá reduzir tarifas de energia do Norte e Nordeste a partir desta quarta - Valor Econômico",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQb2FUUjdlRXRBb2JsTlZNeHRDbDJ3V09Uam9haXEyZVBXakVYLTRYUElQLWRPSjljRldTLUR1Vk9SOTZGc0VTWnE1ZjVaYUdPQ01DeFYtNlVlNGEwdUlTdlpLM3FiN1hFc0g5VlE5TlFkY3BMNFQtMk1yTV9yaGJ3eVhSYWNBSXV4eEZtYXM2LU02Z1ExblZjelB0bXAxNnB5LTVZU1FXNFZOcEg0eHp4b2ZGeGdaRzJya0Zrd3ZPcF9xY0VYTlJ5WFc4ZVQ5UdIB3AFBVV95cUxON3ZCWEFWRk1wdUdmMnloSDhmdlFmMTcwc0FZTUtXR3NNMjVUMnlZSW5pSzlCaUV0MGRubFlFeG5tUnV5TFNpMnN1YXJrZFJ3TFRiUDlPd0paZ0tLM0lhbThBZ00zY2x2dU1ia2MzS0RSTEhMY09ycnVFbllnaVRUekJGcUszSU5HZHVsTG5ybGJFb0tZdS1nU0NoWmh1b0tKTjlZbURaanFLWmZUYU5ocUdxNkI3Nk41Nk9WeUhNNk9OUW1vUlgxWEttVzNXbjN3cmt0cjNpeFk0eE40?oc=5",
-   "published_at": "2026-08-25T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.364089+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
    "title": "Pentagon to purchase $750 million in rare earth elements from Brazil mine - Baltimore Sun",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM3pIWm5WcU5kMU95QnFqSzNWQW53OGtGeFFvakNOVEdUVXBZSmdzNi1nQ3l2T3JteFlNM1hHakJwMlVNa0p3UTdvNTJLdUdaNWdqVWg1QkZuSjc2Qm5VMl9pbjF3amNEYWZYeERWOFlsVXN1amR1U3FYd3F2d054Y0daRlNONE1FSVRQaXNYWTRTLUJFcm4wVFY3SS1UdDdPWWNBMjN4V1FtLS1obkVMUnRlUQ?oc=5",
    "published_at": "2026-08-25T07:00:00+00:00",
@@ -1945,19 +1220,6 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Aluminum MCP Servers: LME, Premiums, and Alloy Intelligence",
-   "link": "https://agmetalminer.com/2026/08/25/mcp-aluminum-prices/",
-   "published_at": "2026-08-25T06:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:51.163630+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "MetalMiner",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
   },
   {
    "title": "DOD Invests $750M To Buy Rare-Earth Elements From Brazil - Law360",
@@ -1990,32 +1252,6 @@
    ]
   },
   {
-   "title": "Com El Niño, dia mais quente da história em oceanos é registrado pelo Copernicus",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/com-el-nino-dia-mais-quente-da-historia-em-oceanos-e-registrado-pelo-copernicus.shtml",
-   "published_at": "2026-08-24T16:10:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.222879+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Department of War Announces a $750 Million Investment as Part of a $1.55 Billion Initiativ - U.S. Department of War (.gov)",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUEtnS09CSTVzNnc5QlZuNDhFdnNWN253dEs5N3dNSnFwQnhHT01Nd1hJdzl2dk94M2cxZE5qN05jQzBoaTN0Q0tVUFVZS1Rfb2V2UnkxXzRac1RPU1FBSUlIZG1jQVFLYjNMRk9LSUlMZ1A5MHBBMHNoQ3ZZaWFNT3ZVXy1uRXhnWVZyT3RKSGNKTXY2UmhmOHBOZG5TUUY1WjV0V2pGZWZ5QWYwU1Npck9semJVNUlpSm5VNUljQVNCQkZGZVJ6SlpDWXdyLVNzYWh3NA?oc=5",
-   "published_at": "2026-08-24T14:15:05+00:00",
-   "first_seen": "2026-09-19T19:49:06.908358+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · rare earth Brazil",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Governo americano aporta US$ 750 milhões, e compra de mineradora de terras-raras pode sair nesta semana",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaed54effa44ed8a7cd8677eb9fc691&url=https%3a%2f%2foglobo.globo.com%2feconomia%2fnegocios%2fnoticia%2f2026%2f08%2f24%2fgoverno-americano-aporta-us-250-milhoes-e-compra-de-mineradora-de-terras-raras-pode-sair-nesta-semana.ghtml&c=6049848391951520312&mkt=pt-br",
    "published_at": "2026-08-24T13:07:00+00:00",
@@ -2031,19 +1267,6 @@
    ]
   },
   {
-   "title": "Como derretimento de gelo na Groenlândia faz baleias migrarem para áreas antes inacessíveis",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/como-derretimento-de-gelo-na-groenlandia-faz-baleias-migrarem-para-areas-antes-inacessiveis.shtml",
-   "published_at": "2026-08-24T13:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.224231+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
    "title": "EUA elevam aporte e avançam para controlar mineradora brasileira de terras raras",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaed54effa44ed8a7cd8677eb9fc691&url=https%3a%2f%2fwww.brasil247.com%2fbrasil%2feua-elevam-aporte-e-avancam-para-controlar-mineradora-brasileira-de-terras-raras%2f&c=2438665518549190964&mkt=pt-br",
    "published_at": "2026-08-24T10:16:00+00:00",
@@ -2057,32 +1280,6 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Vírus letal reduz em 83% população de pererecas em reserva da mata atlântica",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/virus-letal-reduz-em-83-populacao-de-pererecas-em-reserva-da-mata-atlantica.shtml",
-   "published_at": "2026-08-24T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.225315+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Períodos de seca vão ficar mais longos e severos no Sudeste até o final do século, aponta estudo",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/08/periodos-de-seca-vao-ficar-mais-longos-e-severos-no-sudeste-ate-o-final-do-seculo-aponta-estudo.shtml",
-   "published_at": "2026-08-24T07:15:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.226778+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
   },
   {
    "title": "Governo Trump investe mais R$ 1,2 bi na compra de mineradora de terras raras em Goiás - Mais Goiás",
@@ -2428,88 +1625,6 @@
    ]
   },
   {
-   "title": "EUA investem mais R$ 1,2 bilhão para concluir compra da Serra Verde em Goiás - Diário da Manhã",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM01JNnNmRWVFZFBocVRRNV9lY3RuN0Mxcmlrb0s4cXVkOGpaOXBvTEtKU091cDhjbHVoZzVwOWtpaVJfa2lQcHppVk5aTHFlMmV0LTBzbXhsRUswcnRORkdIcFRJUUlpZFRaRFN2R0FSaVNIVmFfTENFanB5aENRb1ZnSXNqbjhNdnFfcGxDWUswYVhnMUc2WWNLRkthZHBQS0dUWVN4ZWZQUQ?oc=5",
-   "published_at": "2026-08-24T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:01.786970+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Departamento de Guerra dos EUA eleva aporte a R$ 3,9 bilhões e destrava a compra da Serra Verde - brasilmineral.com.br",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPelZINkxCcXJ6cTJ2QnRMeFRlWVhfRkF6MG9vU2FPQTRIaUU3ak1kbGpuSFVXLXRiQkp4Yms0U25va09yTTk5dVF1ZVRwN2RIRGE2Q095ajdiUXFzdE0yYjdNRWowQ05UNUZPMFVKMkZRUGNzUFRsTFNDc2hVdU5lTWlQOGtyUS1EMThBZnFfUXNKcFh2bkRnSS01OWt5dW9tdzA2bG1TNTNtMkFMbEZpNXVUbUJ2QmxDYUIwTnd2U0VPZHpmVlhtQlBYaw?oc=5",
-   "published_at": "2026-08-24T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:01.755379+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Departamento de Guerra dos EUA injeta R$3,8 bi na compra da Serra Verde. Fora Trump da América Latina! - Esquerda Diário",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd014NEl5Y1I4WFNTMjlWQi1BTjloNXJVeWlBVEhkMUFMQVZhS0dvUXk0MFJuTm9Bd3FDb1hYbzRtNnlsMzA3dDhpOHE4SXg2YWhkdWN0MHRIbFN2eHYxYnVobTIxMkVwcVBuRzRORERjS1U0RGNDYmVRZ1JrS3JPZU1DLVlvajBIQ1V0Mi1mc3NjeWZPcW1mSTUwMW4wWldWaklOZmJIRkZJeUpCMkd5QVE4aFNTUXhCRkNLbGo1SklWMFVJbE52dVhCQ0zSAcwBQVVfeXFMTndNeDRJeWNSOFhTUzI5VkItQU45aDVyVXlpQVRIZDFBTEFWYUtHb1F5NDBSbk5vQXdxQ29YWG80bTZ5bDMwN3Q4aThxOEl4NmFoZHVjdDB0SGxTdnh2MWJ1aG0yMTJFcHFQbkc0TkREY0tVNERjQ2JlUWdSa0tyT2VNQy1Zb2owSENVdDItZnNzY3lmT3FtZkk1MDFuMFpXVmpJTmZiSEZGSXlKQjJHeUFROGhTU1F4QkZDS2xqNUpJVjBVSWxOdnVYQkNM?oc=5",
-   "published_at": "2026-08-24T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:01.789894+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "The old asbestos town at the heart of the rare earths race - Financial Times",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdXFWVXpwaGJFWEptWmdLVS1TeXJmUWpmOWxnUlQ5cTJpRHpyaDRrNlpuNmFDdjNVbkZCOTZBVnF2NG94a1d2eThwSURpb056RDRRYlU2d05kdVhLU3JvTTl5S3gyTG5vTGRCWE5tcHY2b2lJbDJEXzc5R3hhU3VQNlNJdGQ?oc=5",
-   "published_at": "2026-08-24T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.936989+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · rare earth Brazil",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Aneel aprova reajuste de mais de 5% na tarifa de energia elétrica no Maranhão - G1",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVkdaMDRwNXgwNW9sMlE5RUwxejY3VlVsMGpZQ0NZYmJWcXExUWJSNHlBZ1JJLTgzSXpndHp5bWxRcFh1NzMzOVk1cmNfZndpY2NwR3RXSURnS2RfTVdpWXJ2NktnV1QySjFMWUt4d1E1WFVJNnlkTFJkdGZjS0pWQ1J6TExmcmQyVXJsbGt6Z1ZLaFVUU2xWc0dYczVFYnpodzlZSWF4Z0ttU1BWQ2psYk5xY0otWWNiT25tTVNBa2d5ZFdJZkRKQ3hhMnVFSm1hVmxEam9ROUTSAecBQVVfeXFMUExFX2xzSVBveDd4SzBCOWUyX1c5clF1UVpRc21Dc1FWTzlleks5VU45UURSOW5TUXFvQlhrd05hQjJKa0QtSFFTeXRHczBpZ0pZTndhSk9JSXE0elFfendZeUZURXV5OXNZMkNTRi1GekhyaWMtNW5rVDhkV1puQWpjUHNUaERkM25RaWhfUmhCSjhJQkNaTEZXQU9NZmN2bXB2S1d6dXZSdkd0S2tyemxlYzJOOThjMl9YT2JrWEZsVTAzSDNsLTM0RXFzNXd4RVFidFBLZXgxTnIydHo4cU11VVJEdmtF?oc=5",
-   "published_at": "2026-08-24T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.365104+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "MME coloca em consulta pública Taxa de Fiscalização dos Serviços de Energia Elétrica para comercializadores - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWjRMRmlISkpfa3l4MWZjMkJLdXBZUmxpaWNFVm9WLUtjMFI4cEM3dUdjLTVfVl9HZ3IxT2xqUkttQWhycGZkbXdEVlZoZ0JKdDQ2bzFYNXIwZmszdHZoSzNnUUVxN0hiNzRBWEdLN3ZmWXZ6MU0wUEtucmdQdGxMdnFIVFZadDZYRDNJU0xFZC1TSjR0MjJvOUJTTTl0ZUE4SnE4Tm9icjB6RVB4VUQ5OHBBRUJJMnBKNlZFMm43cDR2cVhTUFhuYVFYZXB0UzdUSnM0UW1Pbnk0WXJVVUlUdXRKR0cyanduTlE?oc=5",
-   "published_at": "2026-08-24T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.569549+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
    "title": "Governo dos EUA põe mais R$ 1,2 bi para empresa comprar mineradora de terras raras no Brasil - terra.com.br",
    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQSURsREZrZGRtUGc0eTNHSUs0cUg4aHJobVZmY3hJRVUtRFNmWTFWb19feGNUT3YyVG9BOE9maXlqVmd5MXJyU1JoMC1rS0pZdlI2TlRSMkJJZlNta09FMWxkWlA5WmtVNHRVY0pkOFpSZDBDenlXeVJ0bVZsS1kxUmY2WS1GWFd2dlJaODhFMHdKTG43SEx0RTFWeWMzTTNfWDFocy1IQ2lBMzFwdlNOSl9qbHpSLWN2VWJtOEJKNk1KUGVFd095S2tWdi0tQjhlWlBOOUJ5RU9CNk5hdVljLTR5M1ozZm5ad3hKWndaTjJsb2dTS1ZmN0hHNmNLajg?oc=5",
    "published_at": "2026-08-24T07:00:00+00:00",
@@ -2570,32 +1685,6 @@
    ]
   },
   {
-   "title": "Op-Ed: US scrap rules put processing to the test",
-   "link": "https://www.mining.com/op-ed-us-scrap-rules-put-processing-to-the-test/",
-   "published_at": "2026-08-23T12:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:55.002059+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Mining.com · lítio",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Declínio de espécies de aves é associado à expansão de energia solar na China, diz estudo",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/declinio-de-especies-de-aves-e-associado-a-expansao-de-energia-solar-na-china-diz-estudo.shtml",
-   "published_at": "2026-08-23T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.228023+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
    "title": "Tether's $120 million Uruguay bitcoin mining project collapsed over a power contract dispute: Reuters - The Block",
    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRWlGNnQxNWh0STllUm5FdVpLcVpsYXpzV0JoWkZHZXZEd1JIV056S0dMMmNjUm1sdHMxSWVoVjNTOHRwY0pNdExhVENocHZ2V0xqZUJyVGd0MHB6dkZrSExXeHJhaGo2emlCeS0tbGNKaTFNRnJabkMzZ0EtYXFDdmhkZ3NSQXpNUlNWUjBZUzQ4dmFieFZiQlU1MU5JUW5hWGkwWkttMUVzSWpNSXdzOUpVZXNtaUx0aGozWG1zRDVhaElOZEZyakRnZzZ0ampsbVVXYkRDWXVNME9qOExKVWxGRUF6UEpLS0E?oc=5",
    "published_at": "2026-08-23T07:00:00+00:00",
@@ -2606,60 +1695,6 @@
    "fonte": "Busca · Brazil mining (Reuters)",
    "escopo": "internacional",
    "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Como os 'químicos eternos' impactam a sustentabilidade",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/como-os-quimicos-eternos-impactam-a-sustentabilidade.shtml",
-   "published_at": "2026-08-22T15:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.229285+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Espalhadas pelo ar, partículas de isopor se acumulam em ruas e piscinas de região de Fortaleza",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/espalhadas-pelo-ar-particulas-de-isopor-se-acumulam-em-ruas-e-piscinas-de-regiao-de-fortaleza.shtml",
-   "published_at": "2026-08-22T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.230488+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Decreto regulamenta abertura do mercado de energia elétrica a partir de 2027 - Migalhas",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd1B6SDlZdEhobkNqVF81a05lbGoyUzNkdVd2NVdVY2p5eC12TXAtOEMtN2ZJQ25IUUJ3dzJpMk9xbnBHTHVwd21jR0pTOEN6VERIRGpxWHlGSDdXbmRXbGttVE5hVm5oVmh1VUd4d1A2aHM0Z1ZRdXJnQXFDbS1nQThrb2dMWk1mNVJ3Slp6aDFvamt1bmJwOGpacVNPdmRrcm05Zg?oc=5",
-   "published_at": "2026-08-22T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.368629+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Empresas divergem sobre ritmo de adesão a mercado aberto de energia - Valor Econômico",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMnctNVNsX0dwY2U3ZEdSVGNfYXhlNFhILXlIQ05SZG1wYzBIeThRSHVjVTcxaFYzZk5UbGplbTBEVWZHcTNUdnM0Q0tseUs2em5GMlFiQ3NOZ045dExMWUVoQTBkZUppdzRVaDZNNERrR1pEU1g4Z1NCU00zVUNMZ3FyOXU2OGxiQmlBMVd1RTQ0R0xqRUd0elpYY0RTTmtoYjhaemd5bmZnN0ZLYzdEcm1uMS1fSDlwSmxwdXVfaktsU3fSAdIBQVVfeXFMTTBCMXNlb2MybUpKcnR1RWo1dmtxV1A0a1AzdC1RMUdGZERGQXluTGQyRy1EWW50OWJuVWwyS1h2eGFROGV1VUJ1cUZHYjVBb2Jnc3phRWhLNzAxZ0VIaDBmQmhXSUlOQ3pCdlR6XzJ0S3E0Yk1OMHNhOFB5OU9LQ05yV3FEVFIwZUpNb1FPTUxfV1VUVlZaT1FfSlBWSTN5bmo1M2VUUFJKWkExZ0EwZmlfU2RNVVNmMndOd29OWkcxWWlpempMVjh1dmZrb3hJd0Jn?oc=5",
-   "published_at": "2026-08-22T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.373335+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
    "substancias": []
   },
   {
@@ -2708,32 +1743,6 @@
    ]
   },
   {
-   "title": "El Niño deverá ser o mais forte 'de que se tem lembrança', diz serviço meteorológico britânico",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/el-nino-devera-ser-o-mais-forte-de-que-se-tem-lembranca-diz-servico-meteorologico-britanico.shtml",
-   "published_at": "2026-08-21T11:30:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.231726+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Por que a Europa continua sendo atingida por ondas de calor",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/por-que-a-europa-continua-sendo-atingida-por-ondas-de-calor.shtml",
-   "published_at": "2026-08-21T09:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.232859+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
    "title": "EUA e outros países recorrem ao Brasil em busca de terras raras, acirrando competição com a China - Estadão",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWGR5OF8zall4a0dkckFabENwa2lWbzF2dHRSbHpoZkozNm5BeUxvemJJNDhtSUZ6UmFROWlGQ1ZHS2FhSmNJdzd4c0NiOHNlY09rUFd6S29RMzAyZnNiaGdxeE1ISE05WlNJWlRjb25vS3Z6bThpdVg3YXFLeFdGNjNyblU3NnlDQjlR0gGQAUFVX3lxTE9jcnVVcGhCMHJocEY0OUdKMjZyQ0x5clhPVHd0VEI3YjNNRk9nd2kyQjVKTnEtdVpvX1hUbllabmM4UEJLS1NFa3kwdlRHUmpoMzlvNi10SEp1WEFHbHNLNVdEVWpQaEstSHV0S2RWcjlWeDBtdjU2LXNUd1VRSHRObldBUXItOUFmVGhTdTRheA?oc=5",
    "published_at": "2026-08-21T07:00:00+00:00",
@@ -2775,32 +1784,6 @@
    "substancias": []
   },
   {
-   "title": "Motorista de 43 anos morre após caminhão carregado de sementes tombar na BR-080, em Barro Alto - Folha Jaraguá",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeVRPcThmVFMxZ09WZEJINVYtNTMxT3JuVk1oY0d6cS16YUx2ZV9qbUlOcEdXS2t5UjNrWDhZRElEWnYwUVpIejZUZzJEVkNBSV8xS0FXOUtFUTd2dnJpdlFRa2syeU1pczM5cXJ6SnZnODQ1U1lGcnlkeGg4WDU3N0IwU3NKbkJVY180WnV1QTlRYXJlSE1EX2xyb3MxbWwyWFhNZE5Ed2FWSkdpX05HRXJITjJ5MmIwMENnS0ZIT0pPWHhyaHlFTzVxei1FdDdleDNUWjdiOVR3dw?oc=5",
-   "published_at": "2026-08-21T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.606790+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Australia's Viridis raises US$120 million to fund rare earths project in Brazil - BNamericas",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWHZ0SG5UZG9DZnFXeVdRYVlmTHpaMnVra0xHWlVpN1l5X0EzVkl2cl8yMndQUklFdEI5cFZXQVZFR1d1V1VvV3dqRGhoaFllNkc4cEFVUTE5R3RnMGJTM0trcXpjS3RHSFNwYUFpaU4tZ18tU0VaOUt1a3BfMS1ZM0pveFJLSjgzVXQtUmR6VmRJMGYwSG1QeWc4eGp6TktaVl9VTTcxclhTUk8tanQtRjZPZDZfZ0ZC?oc=5",
-   "published_at": "2026-08-21T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.962031+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · rare earth Brazil",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Government cash reshapes mining’s capital: study",
    "link": "https://www.mining.com/government-cash-reshapes-minings-capital-study/",
    "published_at": "2026-08-20T18:04:37+00:00",
@@ -2809,32 +1792,6 @@
    "regiao_termo": null,
    "setorial": 1,
    "fonte": "Mining.com · lítio",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Bombeiros controlam incêndio em reserva natural na Bélgica",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/bombeiros-controlam-incendio-em-reserva-natural-na-belgica.shtml",
-   "published_at": "2026-08-20T18:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.233900+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "The US and Others Turn to Brazil for Rare Earths, Raising Environmental Concerns - The National Herald",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZGtfNjBBTUpMUkdRSzRBSjdvbHVMRlVEcHN1dFg3VjdkZHlDOXZLZUtiakxTUWVnVXdHeUlzSDRiLWh3VFd1X2w3aFMtbWxKT1JNWG1HbTJzZ0U4dDhTRXllaG1aOWY4cnJZZElacDM3cFpNYmZ5QmwtZDNvQ2dXbWpxWHlzMHM1cWYxbXZ3aWhJUlNyS1d2QVpZNkJpblRYQzhyV3AzeGgwbXM5bHRYOE5qYTA?oc=5",
-   "published_at": "2026-08-20T17:15:23+00:00",
-   "first_seen": "2026-09-19T19:49:06.969407+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · rare earth Brazil",
    "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
@@ -2883,32 +1840,6 @@
    ]
   },
   {
-   "title": "Trump administration to back US minerals projects with $500 million in grants",
-   "link": "https://www.mining.com/web/trump-administration-to-back-us-minerals-projects-with-500-million-in-grants/",
-   "published_at": "2026-08-20T15:11:50+00:00",
-   "first_seen": "2026-09-19T19:48:55.004723+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Mining.com · lítio",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Alemanha tem cerca de 14 mil mortes relacionadas ao calor neste verão",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/alemanha-tem-cerca-de-14-mil-mortes-relacionadas-ao-calor-neste-verao.shtml",
-   "published_at": "2026-08-20T13:15:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.234946+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
    "title": "ANM conclui avaliação da CFEM e prepara repasses mais dinâmicos a municípios afetados pela mineração - Revista Amazônia",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRzRuOGZqaXVKTi1oSDhFLWE5RWlfNDZya0tTMGtjdlB5aTRnQmNrNURDRVFBYWFXd0RNd3g4QWVhOVdtNUNDUm45amd4QUJsNVBSQVdTTTRXVHpnNjJpMG9DZ1pJazdiZXNXUDU0Z1hSTWN5MjU2VE8zOUphTVVqNjVOWGZwQQ?oc=5",
    "published_at": "2026-08-20T13:11:00+00:00",
@@ -2922,32 +1853,6 @@
    "substancias": []
   },
   {
-   "title": "The US and others turn to Brazil for rare earths, raising environmental concerns - WKYC",
-   "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQZkJJVW1jQlAySkUzX3NhdlBkd01ObGx1cktRcWhjRkhyNWkxcUhmY0NHQnQ3SDJHU0o5ZHpxNG5SV2JhdzlDVnRsNVlUUmRCdm9XNlk3UVlTOVFpcWhTVDg4QU9PeWt3RmtsczdiQ2IyUEM0WTRWeVpBcDVwSGcwSkhkVFprbHdic0l0WGpzdmFscjNQYklqN3pfdFB2YXhrT0twVTZYaGx0Vi1mZ1AzWUlMVldVeWpwRGF3aGw4cXc3YXI0TVZlWno0SjlVSE5oYVpmYUozSWZ3YnpQcFJsRGU3RWtIXzZndmpGRF8zRHpfNVZBV3VOSDlNSDhJdm9GeEhQWFVDb1U?oc=5",
-   "published_at": "2026-08-20T13:02:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.966138+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · rare earth Brazil",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "A indignação com os danos ambientais causados por um homem com sua caminhonete em ecossistema único na Argentina",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/a-indignacao-com-os-danos-ambientais-causados-por-um-homem-com-sua-caminhonete-em-ecossistema-unico-na-argentina.shtml",
-   "published_at": "2026-08-20T13:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.236064+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
    "title": "Carta do Encontro de Comunidades Atingidas pela Mineração em Goiás - Combate Racismo Ambiental",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbmh4a1J0bHQ5d19kenZHYmxfaVpMUnRZOHAxdDh1NW5fdm4xd2U2VlZFN1B5eGNIeHNrN01BQzZ5cFRIbnZFT0t6VU5uNlliM2xFNV85eUluemVKU3NJOEswbEF4SDl1V3NYSVBSQ3dzMmRJb0wxNWFFUTBNdmlGczE1M2tTajVKb2RiMkp6Y3lQSGJsNlhpSE0zZmpDSnY4U09rSnlTelhwWEJXRG9V?oc=5",
    "published_at": "2026-08-20T11:30:17+00:00",
@@ -2958,19 +1863,6 @@
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
    "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Área de incêndios florestais na Europa pode triplicar com mudança climática",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/area-de-incendios-florestais-na-europa-pode-triplicar-com-mudanca-climatica.shtml",
-   "published_at": "2026-08-20T09:01:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.237074+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
    "substancias": []
   },
   {
@@ -3064,97 +1956,6 @@
    ]
   },
   {
-   "title": "IBGE: 1 em cada 4 adolescentes de Goiás vê a vida sem valor - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMmFXeXp3MUlESmExcV80em5MakNzZjFzTVZSSlNXajFQS1BKYUhBbWRFaDJ2eFVENGY2ek1BOEQzcUhXb2kyTWhoRHd0SjM2YXRaeEhSRXBuY1plVWxoR2tWcGdYTGFURTcxbXI2UFhUSGlOdXRCbHA5aWlJQkdrdWFZeTktRk9KaWUxM3Q5QzdYaUtjUU5LMU05a2t1M2I0aFF1MXBoR08yVkh6OVJ3Tlg2SXFBSHI1NWhzd3ptUQ?oc=5",
-   "published_at": "2026-08-20T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.520379+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "The US and others turn to Brazil for rare earths, raising environmental concerns - AP News",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ2thbFMyNUx2SDl6VEpuNE1TbExpendnUS1JbEJVMHB3NG0xd2ozS3J0Z1lac25aM2NMaWk3NGdmenpPQmFmTC1YaGh0OXQ1anFMYXAxb1dQV2QwdnI2YU5USjVxVUVTMlgxVDZtUnRTX3JyS3BtRElGTV8zZlVOdGh4V2lNdGp3b2FKUkVBMGxpanQycF9WOUZ2elZ5RVl1d2stQ1RYOWQ1WEY4REE?oc=5",
-   "published_at": "2026-08-20T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.916827+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · rare earth Brazil",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Mariana, 18 more Brazil cities join Vale-BHP dam collapse compensation deal - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNlh5WlhlcnU2QmxsVTQzSWdDeE1aLXpzSER1dVlEM1U3UWdpX0dDa0ZPYmVTX1dzNGl4VEFsLWNLVmttVW1ReFNLQjNQYzJFVk5mU0Ztbno0T05qOUlWemxxQXV5UlpYb3dqQjVVeUhCQmFXcl9henNOd2NQTHJFTXdWRXd6QWhvVk5RMzhhVWExcGZjeUQ0UlZHQVd3SnFJREthcnBXd0RwdXJNRzM4MnJpRWZpVTd4QldNVnRIOEc5NnVrMmlPUHZqZw?oc=5",
-   "published_at": "2026-08-20T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:07.581375+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Brazil mining (Reuters)",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Setor de energia crescerá com chegada do mercado livre para todos os brasileiros - UOL Economia",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa1Zzc0J0dWkzZXJHb05JcFF2cUFlRDdPdU9JTTF6anJFLVZHdHBpMl9fLWttWlA0alJJLVpDU3RpZTFjV3hZYVB4QzZhYmhhZExLNGVLeVFCMzZsLWswbi1YZ0ZCLWk0WVM1ajRpSW8yUkQwXzJLUEF6b2dNbWcwekp0OEdLa3ZRdWhxZ3ZCamxjalp4VTM0RWt5QzNNRDVjMWNYS0t1SXNUQVdVR2otMHRYVEVQUVlwYnFla09lNzdPNDJlSzlJ?oc=5",
-   "published_at": "2026-08-20T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.396852+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "The US and others turn to Brazil for rare earths, raising environmental concerns - The Seattle Times",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWjFsUUMtOUtjeHQ2XzhLUHd0dVVodFRneHJkS3VPbl9jQkUxMnR6emk0OW9ZVkhfc3ZISEdDR0l1ZXcyVWNmSEs4ZWxRdGc2aks0Vk1FTkZGV19zT3RwaDRLci1wLTVrRS1idjFZaDRvbXo5dVdiYUNEcGhWRFltd2xrTlZkNFNsY1N3VU1pS0ZHRGtvanpCYk5ERHhzbjVGendVb0ZMZmFzMWdMZFU3bXM5MmZHaVplLVE?oc=5",
-   "published_at": "2026-08-20T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:48.294594+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · rare earth Brazil",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Ondas de calor, secas e incêndios alimentam ecoansiedade na França",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/ondas-de-calor-secas-e-incendios-alimentam-ecoansiedade-na-franca.shtml",
-   "published_at": "2026-08-19T15:30:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.238313+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "O que diferencia os incêndios florestais do Brasil e os da Europa",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/o-que-diferencia-os-incendios-florestais-do-brasil-e-da-europa.shtml",
-   "published_at": "2026-08-19T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.239429+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
    "title": "Reservas abundantes e diversidade de aplicações do lítio impulsionam investimentos, mas falta demanda local - Valor Econômico",
    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQOG5Ya0ctaGJMc0VvOHkzeU85cjdFdTViRmxENVJWbnhaTWd3Qm43dXBVcjVsclJrYUpyUlJpOFJZb0szT1RpTjNOdm5ZSzVPUmdkVlhidUVFUHBaRWtmVnRrd3FULWxRSng2YUdqZ3UtNXJGN0JKYmN3bF9HbXUtMVF4YzJ2VjhmQlN5d1huODBhdFhqMDVzdWt1M1ZEYWFPbWFmQV9GVGhDLThIYkZaMEFtT1dKT0V1WWVFRnZ2bVJVNkJPOGdxN09rSVc3alJCSFpiUE82SVRQbTd4dEppUGw3enlkUWh3S2M0REtiTHdJemo5Zlh4NFJjV0hCclJNU0lYZDFmaTVuWVZFRE1DUkpWSmVMQdIBpAJBVV95cUxNcW04U2pQX3JhS1haajVlX1o5enNncm9QcGpPaWlUaGtXRmJBaDlJUF9MMVdZQWM4ZTBZZkF0R0RwV0Y2SUJYZTNXQjUtUTNvM1BuamFORnAxa3FGMHE4dTAyMHIySWRWNXBWc21aVW85eXpWVGJoNkxlNkcxZlRqTFdqTlVfWEkzSDJVOFpNbXlaSlBVdGpBYWdydWxRa1lqMVpRWk8tSERYWjJ2dFFWQjRVeUl1aUc3cmY5aFZRODl4b0Y4aXZiTjJMT3NOOHdFY2VYUWxUbGExVmtDQnNSYnB5S2k3T0pmX1htTkR0RVcydDZsdjRsczJCSFFBbnZ1VUJtcGV1YThvTTd0NG9aSGdHREZ3STZaR3cwdEtOdm1WVVhN?oc=5",
    "published_at": "2026-08-19T07:00:00+00:00",
@@ -3193,88 +1994,6 @@
    "fonte": "Busca · CFEM",
    "escopo": "nacional",
    "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Quase 1 milhão de pessoas passaram pela Romaria do Muquém em 2026 - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTlV6a01BYWJReU5jRW1fU0lUYkJ3dUhhbm1ERm9MbUNJcGp1NXpOOUM5UDNKSzE4ekJJZ3V5UU5KVjMyT0NyV29NSG9HMlZ4ZHRTTEFTNEJQVFpqb0NCNHZENHBsdDhZZkI5YzBndmJCWGNPWDZUNURVYy1kT1VLeHUxZ09iTmNIcS1YeVhoam81QjhPaU9qQkdlbnAwQzBYWlJ4X3VwN2E1V2g2Z0ZCcmU0WmR4eFBXYzF3M2thRDZ5SVVydzFkajEwSVJFZw?oc=5",
-   "published_at": "2026-08-19T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.599501+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Conta de luz mais cara em SC? Veja o que muda após aumento de até 14% aprovado pela Aneel - G1",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOazJaSGR0R1VUZHRHeEM1aDNqX0hnUEVxWENxZHdVbUM3MjR5eW5BQ2pRZWwwN0JwWkp0T25hcmh3RjV0NFhydDRla09ZemZhT2ltS3ZRRVJqb3lONVN3eXFfaUV1c0dFMU9MRDJfNjhCNE5oZFl0b1laNk5vV3BTVzY0Tld0a1dYejE2dGhraFc2M1pUNXZ1YVdfMFZkUm43NmU5Y0hQblE0QTlqUHc1RXltemROcFZGSkJGZnA4OG1GZ9IB0AFBVV95cUxOTUhVZk51TXBxY0hQNDZCcFlnYnJOX3c2cDlxbVdYa0pEU1MyYUUwMUIzNU9DWGJFdEIxTmhoYmZhWU5Hd24yREdtOFF1YlRDdzEwblI1Q1g3XzdPaTJPMDhxLXl4cjVJT0tjS1NRVmlxdW1rcENBX2JYR0V2U2tJMFR1ZV96MWFxOVZrVGl4clpVUEw4eFRaeUhpSzZ1TjRSdU5WdldVa0ZMSHZJR3BMZFBtNnBtY3FwcmR0X3BqX2JILTZrUWhrVW5Jb1ZSVlFX?oc=5",
-   "published_at": "2026-08-19T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.384435+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Reforma tributária aumenta emissão de carbono com desoneração de proteína animal e energia",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/mercado/2026/08/reforma-tributaria-aumenta-emissao-de-carbono-com-desoneracao-de-proteina-animal-e-energia.shtml",
-   "published_at": "2026-08-19T02:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.240643+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Águas na costa da Europa estão até 6°C acima do normal, fruto da mudança climática",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/aguas-na-costa-da-europa-estao-ate-6c-acima-do-normal-fruto-da-mudanca-climatica.shtml",
-   "published_at": "2026-08-18T23:01:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.241767+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "A onda de protestos que conseguiu barrar a primeira fazenda de polvos do mundo",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/a-onda-de-protestos-que-conseguiu-barrar-a-primeira-fazenda-de-polvos-do-mundo.shtml",
-   "published_at": "2026-08-18T17:30:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.243127+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Plano contra seca extrema no Amazonas une ciência e ribeirinhos para salvar botos",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/plano-contra-seca-extrema-no-amazonas-une-ciencia-e-ribeirinhos-para-salvar-botos.shtml",
-   "published_at": "2026-08-18T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.244174+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
    "substancias": []
   },
   {
@@ -3390,32 +2109,6 @@
    "substancias": []
   },
   {
-   "title": "Portaria_Normativa_MME_nº_136/2026 — Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQT0QyWDZ6WkZhVExjQktuclRORTMxZWtYb1plRV9iUVljbFk5YmR4VUZmRWNVWjNGczkza3RaRGFWT0ZVMTdkazBZZW5LNjRNNlYtTVROM2tLRXprREZKUy1EcW5XTXhPWWNKSGZRcUpJdW5ENUV1V3ZYWDVsc2k0cEZqVGhDQ01KWmZ6aHV2YWhWUWRFOUdTUzZEbzRpd3B3ajNObjRvdUtjSkJua3VwajNqZGpCOEFrY1RrWTVud09UWEk0UnpxWVRMV0FCM3lJeHF2V1lFYw?oc=5",
-   "published_at": "2026-08-18T06:35:30+00:00",
-   "first_seen": "2026-09-19T19:49:09.604071+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Lula promete proteção ambiental ao defender petróleo na Foz do Amazonas",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/lula-promete-protecao-ambiental-ao-defender-petroleo-na-foz-do-amazonas.shtml",
-   "published_at": "2026-08-17T23:49:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.245422+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
    "title": "Canadian miner NexGen Energy holds talks with BHP as it seeks $1 billion for uranium project",
    "link": "https://www.mining.com/web/canadian-miner-nexgen-energy-holds-talks-with-bhp-as-it-seeks-1-billion-for-uranium-project/",
    "published_at": "2026-08-17T17:44:41+00:00",
@@ -3426,47 +2119,6 @@
    "fonte": "Mining.com · urânio",
    "escopo": "internacional",
    "tema": "mineracao",
-   "substancias": [
-    "uranio"
-   ]
-  },
-  {
-   "title": "Chuva ajuda no combate ao maior incêndio florestal já registrado na Bélgica",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/chuva-ajuda-no-combate-ao-maior-incendio-florestal-da-belgica.shtml",
-   "published_at": "2026-08-17T15:50:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.246430+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Ex-vendedor de frutas cria tecnologia para coletar resíduos de rios e de areia das praias",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/mercado/2026/08/ex-vendedor-de-frutas-cria-tecnologia-para-coletar-residuos-de-rios-e-de-areia-das-praias.shtml",
-   "published_at": "2026-08-17T12:56:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.247552+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
-   "substancias": []
-  },
-  {
-   "title": "Funai revê posição e dá sinal verde para megaprojeto no Ceará sem consulta a indígenas",
-   "link": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/funai-reve-posicao-e-da-sinal-verde-para-megaprojeto-no-ceara-sem-consulta-a-indigenas.shtml",
-   "published_at": "2026-08-17T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:42.248940+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Folha · Ambiente",
-   "escopo": "nacional",
-   "tema": "geral",
    "substancias": [
     "uranio"
    ]
@@ -3507,60 +2159,6 @@
    "setorial": 1,
    "fonte": "Busca · CFEM",
    "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Goiás terá calor de 39°C e umidade do ar em ‘nível de deserto’ nos próximos dias; veja regiões mais afetadas - G1",
-   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNbWVQWnlydmRNNkZGMy1GclZzUDVqdWdhNndsWjV3LUE1dUN4U1FEWllwdUhESVZBQ25LeTFEdTV2ZE5DYWRQUzVHb1N1ZGZOekoyZTBnOVN1di1HanppMXJNWWVYSDFLYmhpZno2aExxU3RKV253UEhxcGtzQ1hORGNRX004VDlvaWRtRTZUSGRycmkycE9LVXV0TDNrLXVwaDhGclEwajYxNlU2TEZwcHRpbjgzTEJuVm5ZTXBkQjY2SmFYcWYzVXdfZHNlT2FxQnp1cHg0bzk2c2k5YS1mN3NCMFZ0T2ZWOGRfWjNoZ1XSAf8BQVVfeXFMT3FTUWE0blB4SDhSSmN4dTk0VGRWaFpIUTk1QU5tVXVSQU5JYVRBLWlUYWJwbUwwS05FeFZINzBtMkIySVQzSHV3ci1seXZnb0xqME9FZzl4QmJLTkd3ZDhiT1hMYVEwQU1XUHJsdGhEa1o1T3hhSmZrZ29HOUptVFlNUE5ZMHZqaWpFSDVJVms3ZzFrWHJXaTVJaXJzU0I1TmdlNHNDY0swZjExeG1VdERjanBQc2VsemZLY0FCZXB1MDZCUF9jSmFaNUFELVJJMElfS3JjODVnME9PNzdFZWllRzM5OVpLRjF2SWUxSUQ1UUFLRnpzb084QkhMOHhr?oc=5",
-   "published_at": "2026-08-17T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.505784+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "How a Brazilian Governor Turned Rare Earths Into a Campaign—and Washington Into a Partner - Tech Policy Press",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPei1BUl9pcFhuUVJHTFlmUGhFSi1Vdm9WRFpnMmU0VlZJdVZzLWpZeWZlNTRLcWJjQkxiUkY4Vk1aVEFWLVdfWGRON1NNUmpaQ0g2TWItZTk0Q2ZpOHd0bERBR2ZGWHo1eGxhN0ZBN090YU5EQmlSQVZzd1B2aWszUlluQVd1WEc2bGN5bUVzRk80UjduS2k4bWZ4endaNlNORXpWOHNBbWVGY2NQMm1fU0RhTmRCSFBHWERN?oc=5",
-   "published_at": "2026-08-17T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.929920+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · rare earth Brazil",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "IGP-10 cai 0,51% em agosto com queda da energia elétrica e acumula alta de 2% em doze meses - VEJA",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS1pFR3dhd1l5SFl2bGpPWEpLck9pQWJ3RkNvN1pMWjBrS3V5bmxCWndpZjk0S0g4NEdlNW4zcE93TVVhVjI1T3NUVHF5ODdNNm5vRDhoX1V0VnFWZDVZRmo3djZPd3RLWFpSNG51TDNScjJ6Z3JqZVZkR1MzMklPc1d6TDN3bEFuZVA3MFZRREJnYUxrc2V1OThoODlXVlJoMnFCTWpVZTFwVFdZRGljWWVDR0IwdGxoSFVMbE1SRQ?oc=5",
-   "published_at": "2026-08-17T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.401475+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "How to Build an AI Workflow Around Metal Prices, Forecasts and Buying Signals",
-   "link": "https://agmetalminer.com/2026/08/17/ai-workflow/",
-   "published_at": "2026-08-17T06:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:51.164864+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "MetalMiner",
-   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -3606,99 +2204,6 @@
    "substancias": []
   },
   {
-   "title": "Bombeiros resgatam criança que caiu de uma ribanceira a 10 metros de profundidade, em Niquelândia - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOUUyQWVvRElCZzVqTEpZV1IxTWRIMGtVTzVNUWZGV1NXeEVhUlc5QXF6a0dMV0ZnU1BGdGRrenRURFFFeXNxUGRXc3hkZFFERHlmdDlMM1R2QmdVUm04SkZyM3RSek5iX0xUYzdMb1lzNm14cFVrQzZrZ0tlbk10Qko2R1ZiTmY2VXI3cHUxMnN6SzlScjVXNkhLVXczYWlkTnFMRXE0QzNwM292TFZscW55OFQwdDVUNk43aFQ0WkV5ZjBTSjh3ckU1UUZWb0U?oc=5",
-   "published_at": "2026-08-14T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.587952+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Resgate mobiliza bombeiros após criança cair de ribanceira de 10 metros em Niquelândia - Diário da Manhã",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYXhVQk01STYteHBvczJ4bjUtRm0telozMmFxeERoQ0h4Y3pyQkFOOUhUN0hqeU9wRW9iSF9OVFNCYmV0enlLS1NIUWlLUGJ2cTIzRm9feDNpRWpfTFlET2tIV1Zkb3M1SUZxMm5XaGRxRTAtdUpuWndnX3ZXVGtlaG1aTlFVZlFKcjAzQ0kxUW5uc1VnRVg0Wi1qYkwzU0pYVGZhOXh2NUJTRW43cnc1LVJaX2YtTWpBTmlv?oc=5",
-   "published_at": "2026-08-14T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.593539+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "A migração é livre, mas a conta de luz pode não ficar mais barata - Canal Solar",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Yai1IZnBWSGJvYjAtc0U4RDRkYV92Z3h6TmZLM1M1Vm16WlRqNFlOaTh0dGFSMlVTX3dXdUpIR04wTU5ENndXcENsQWh0Q0JOWlBvNVp6N3RTSW00MWdmYTkxM2U?oc=5",
-   "published_at": "2026-08-14T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.382654+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Setor vê necessidade de explicar mercado livre de energia ao consumidor - poder360.com.br",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONk10NVlRMFJ4UGlMMVdNbGVxZmc4VE1tWlFiT0EweF9WWEV4N0gxWHdubmVwQ21Hb011NHNUWGJScVRxNnJKb0Y3RjBYcVNqR1lTOFMzX0dnN3lZSFg3azBwV1AwVVlIQVZOcm85Q0lkS08zZldNRHdlWERfbi16MDE1VUxiRXZ1SEY5N0hYOGRGWkdPT0pfNXFSOUpxNkIxSHhZbktyY20tVDhGblV6ZXJJbmU?oc=5",
-   "published_at": "2026-08-14T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.426727+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Usina no Entorno do DF promete energia limpa com água e ar - acreaovivo.com",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaG9zNlBfZHFUREZ1Z2NoQTBXbXJLRk9CV25zT0ZaVWpWQ0V0Ri1fSmFSaVBTQTlzejJNVDB4RmxEbGpZV3JZZjJONk4xUDdlWlRZSlpNYm42YmtWckJhWEhhcDdwbldWTC1yc1VLTjdkbGY3eEpWZXhxLTdlSEU3VkJYNjl5bUExMjJrVlVxdGNZb3dEM1RKNzd1ZzExb3JwN1E?oc=5",
-   "published_at": "2026-08-14T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.038073+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Leilão da Fiol 3, ferrovia que vai interligar Goiás e Bahia e impactar escoamento de grãos, deve sair em 2027 - jornalopcao.com.br",
-   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbmVnY1BHM09QU3luNkdDZmJDTjAzbzE2b0ZhZGlvSEpNVWpteEoyRWVtWDZMNzFHYzFVaVNwalhSVXJaTzh1OHBWTDJrVFcyQkx5cFN5dUozSktDUi1YRHc4S2xKUHVhYWZ1alhGLVB1WUJySHdCSXZsMkd1X3VXWk4zQW45ZlZhSmtfUFZBWW8zUUNUQ2d2VThoWjdfSFhUYlJWdkdVUzdyc29HTDYtRGwyNmQzcy1yZFNGSTlrZmNvdEMzZGx3clQxMzNPX1BtRHlxbmJtaDJKbktpeTVTTzhoZGx3R2tKd081QTNlVzhBSkVjcEE?oc=5",
-   "published_at": "2026-08-14T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:43.924404+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Nuclea to acquire Moltex Energy’s nuclear technology assets",
-   "link": "https://www.mining.com/nuclea-to-acquire-moltex-energys-nuclear-technology-assets/",
-   "published_at": "2026-08-13T23:32:28+00:00",
-   "first_seen": "2026-09-19T19:48:55.918416+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Mining.com · urânio",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "PLS compra projeto da Lithium Ionic em MG por US$ 37,5 milhões - CNN Brasil",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaGs2Ny1VcndjTXo3UXdYMC1aYU91VmxDbEpZYTVoeFQ0ZFdNUm1mVURyM0RSVlphR2pFY01uR1NibTNiQlNmcHB6MkM2STBRS3FCZUZEWjVUVmlfN1Fkd255bUNIblNEeFdtVjR2YU5pUDVrSzRVX3lLbVNyemNFTW1SYTNSbzRTTWxVODdoUkotUzlYUmNSYXA1RS0?oc=5",
    "published_at": "2026-08-13T07:00:00+00:00",
@@ -3729,19 +2234,6 @@
    ]
   },
   {
-   "title": "\"Continental Shift” Podcast",
-   "link": "https://miningwatch.ca/blog/2026/8/12/continental-shift-podcast",
-   "published_at": "2026-08-12T19:18:49+00:00",
-   "first_seen": "2026-09-19T19:48:51.035259+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "MiningWatch Canada",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnWm54TWxERXczSzA0bFJ1TWVfSUFleE9HWVZiRmY2VjlYb1BBOW43dDR6bC1LZjVkZ1JGTkRVb1VwcE9NWlZKZC1jUXEzNDA5d0FLVlZmdjhNZWZEakZRZXBMaEVMN1A5N2pxVXNLT0s?oc=5",
    "published_at": "2026-08-12T14:00:38+00:00",
@@ -3753,47 +2245,6 @@
    "escopo": "setorial",
    "tema": "mineracao",
    "substancias": []
-  },
-  {
-   "title": "Pesquisa da UFG encontra diferença de até 19°C na temperatura da superfície entre bairros de Goiânia - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQakZqVEhTRHNvbWRqQjRLMGl6T2lFSS1HLVJtQm9oYmFSYm5tVXFiVzlGeXBLY2JtdzI5REpjXzRuWGFyYzhBZzlfbUZyeVIxX3JVWU5RRUtRSXdjMHhaVkI1MTZ3c08zVTdsMU9vMk5SMXN5WUZxT25wUmt6Zk01aEFXeVp0cmlJdURNUXJEUGc?oc=5",
-   "published_at": "2026-08-12T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.516489+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Homem é preso dirigindo bêbado em Niquelândia - G1",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbzA1dVJvYml5dVc4V3Q3ckE5bHVGY3RVN21VZTI1emswZXRvcHpqZHBCTVJsZWJyYUdWcFdXMG40Z0F1cUw3YVQtMXl0Y3dnTkZQZkxXNUlQQ25JZUtDdmhBMTlyNGJpckhrU0tQT01vcmczQ2ZCNUlPUlNUUDhleV9KZTgxaHZxMFM1WDQycVRCR3ZGeHhWRlRGMzlsNTY4OUd2cjNLQjVMNUVQVk1nRmhzX2ZLd9IBxAFBVV95cUxOTVZpdFJOdHpOUVpmRjY4VUhZUVM3ejRpdUxhSkJkaGQ5LXJWdk1hVEtQbWFla3lMdnFRak5EMXAyZ3NOXzQ1Mzhuby00bFdwdXd1d1NtYnVidGlrQzc1dWdUMW1ycjBSRXBOZ3RWYVpXMngzOU5BcXAza2o0T2wxc2QyRU9GVGFWdjlqYlNzS2J6Z2RnUGI5Z2JOOG5TaGltU2REc05rUHBmblFzZ2hYZ0lvbHhLb1djcVNDTVZxRHc2RmJG?oc=5",
-   "published_at": "2026-08-12T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.620481+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Aumento no valor da conta de energia elétrica gera mais de 400 reclamações no Procon de Caxias do Sul - gauchazh.clicrbs.com.br",
-   "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNRThXd2g4YjEway1qdTNzN0VTcGRpdGpkZHRxX2tGbVJTQjlwdVNycEVVQTVlVFFZdGtnbVZrekRVOVdCSnNGZVFRMVhhSjhNWndGTkZOSURCcFI4SXJ6MEhpQ1V2enJQejkzZk9yZ2xROE91NF9tZEdZOGE3VVh3eXA5T0xfb1d2N2F2bXZOMmQ0bXNUNzkxZmJneDhBNmhpcnY0T1o1X2lnZXNhS2tFdWxfXzNwQUExUWdqSzFjdm5jU1g1dkVVWkVCNzNFN1dPaXZ2a3ZRc0ctUF9PNUNwTlkySl94STJTT1I5NHNPSDZmX3ZEY21heXRVREI1MUZfUzIxWkdWSjNJUDc3VF92UFEyS3d1Tzhrbmk5bFVRaUs?oc=5",
-   "published_at": "2026-08-12T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.385387+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
   },
   {
    "title": "Brazil Rare Earth Magnets Market Size, Share,Trends, Growth Analysis Report, 2030 - MarketsandMarkets",
@@ -3850,19 +2301,6 @@
    "substancias": []
   },
   {
-   "title": "Elétricas se mobilizam por concessão da Enel em SP; veja o Radar Energia XP | Agosto - XP Investimentos",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdHRPZjZ3V3l6dUZHYXUyRWw0U0NOcFhCc2F4Y09TYWhQdl9tbVRoazNSbG1lZHNtanNnUVl3Z1lBYVYtR2tfd1ZKbkFlLWVvWW8zbjdOSDlydGlmRVl3ajgtZGZuTDBfRTFYWVFVOU53b0taa0FaZ2RTSXF5bzJ1cV9DOFFNbVE2dkNjbFl0VzkyRG96b3RUYm1NbnFqWlhWZE52Q2FxS3hSWDk0ZHpsZXByNDZXaGdLYzVYcGkwQVd6WThNWGRr?oc=5",
-   "published_at": "2026-08-10T11:00:47+00:00",
-   "first_seen": "2026-09-19T19:49:08.397830+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
    "title": "Governo dos EUA compromete US$ 10 bilhões em terras raras e ímãs para reduzir dependência da China - AEPET",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbmdvRTlBam4zM2RaODJOYTVzeXVZb0ZXc2lvYVRGSXhqN0VrYXVFckFRNkxja05SUkVLei1Dc3lKU25NUDlqWFA1ZkpUYWY5a05vMGRFNmlHTk9vTHNEaGNMeHNpbkktRDVsVkYwLUJnU0wyN0tpUjN4dktOMzNOcm15Y2g3cGgxOXRNeF9WLXNmN0tYT0paQWMwSEJNcnV0ZEFzXzJnbVlfSm81T1BmN0J0Z3VkN2ZkODZFNjFING1qMWdUX0E?oc=5",
    "published_at": "2026-08-10T07:00:00+00:00",
@@ -3876,88 +2314,6 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Padre DJ anima Romaria do Muquém com música eletrônica e oração em Niquelândia; vídeo - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQVpyQ0QzdUtmbExFQVVrZ0FrRmVtU2t5aUktVjFnWV9ZVm5IbXhvN0RzV3ZNUld6Q2o2aHJoYnQ4ZTdZYks0VzQxTV9hOXVuVEYxQlpvYVMwMGh6akxHSjdOZThTdHFNS3F6MkRZOHU3Mkcta2R5VmZRZ09RLWw5Vnl2M1RfYW9YTDJUQ1NZNlJUNGljZVlrS29XM2diN201X0owaU9HYW82N2hod0JB?oc=5",
-   "published_at": "2026-08-10T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.615043+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Padre DJ surpreende e anima Romaria do Muquém, em Niquelândia; vídeo - G1",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPS0xRZ0MwSlk5Z2l1N1pmU0lpb0t3MzVCcTV5cEdrZXFnUi1ROTVUcVRDekhWMjJkVlpXX21xWkhxdzF0aE9YcGtCWFgyVmJjN3hxX3ZPdEhibDRhbWdzY21TZXhWNXRPQmV1X3RaVGh0ZDc0ZDRaUnVpNk1USV9ic1NCX09jaXFTVHJETmM2NzJlSTFEOEkzemxSMm1MLVhra1J5Nzl3ZHQ4eXFHZ2dodjJUR0ppUzVHWUNuT0NB0gHMAUFVX3lxTFBzem9TZHZIdFJ6MUpGWjR5SXNYUjhrS0dBRnd4OGlLZFBCU3FHMV9KQ3k5cG5xdjEtRWo3Si0zQnpUeUR6SEFsN0U0YmE3UUJlQ2Q0bHRtNFFndVNjclUtNzJVaGRxS0NkMFZnZEVNcE96a2RPNmFEc1F3bm1ZdjY4OU5tS2NLUWlFS1hTWlRQeGpHd1hRSEkwa3FyS29GTDc0Qllmb3FSMTlxTHNjejRWLW9FSWdLTHd6MzFxQVNFb01Hd1dWZUt4UHRwdA?oc=5",
-   "published_at": "2026-08-10T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.571917+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Conta de luz no Brasil é mais cara que a de 77 países em relação à renda - Gazeta do Povo",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOW9kLXRBcGpfdjUwazU1b2loZzVJUkZPalVUZS14S3Mwd281eUVoc1hNMlYyTzlaSjdLU3VJNUdMa0hIRU5vcUFtT0ZjZmFSczJKX001UEFzR2hYUUVBWlBXRTNDdzNtWjcwM3Fwa2V6cjdoYktQdXFIakx1NnV0a3dUNTF1bTdGOHppNzJRRmRZZkdyRXdQTTJwZ3RSQUlDNDF0aktwZGdFZmxoNFFIam50RXNlN3FKSjdzRg?oc=5",
-   "published_at": "2026-08-10T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.369450+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Padre DJ surpreende e anima Romaria do Muquém, em Niquelândia - G1",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVEJDdnBHbkhpVkpsV0g1QlRhSVBKM3lBOVlDY2dGT1ZpX3E3b0Yyb2VWLU14YWxhc2FyR1JFajUyRWF2R2pxanhlYXV5dnktVXhORW5uSmc4WWx2eEw2bTUyLXMtakQwUUVYOFFRTzBsYjJvV3N0Nk1tclFCMVl0c0Q0TlVKcDhvOGxKN2NpUGtscVJST3FzUTA2QnVCR3U5SmhiNXhNbzgxZmtaazRnOdIBvwFBVV95cUxPUTMzY3g0T0Z3MHhfNkxkQXFzTFlZb1pFN2NLWWZEbXZpQzlDenFoWjdwbWhYbFFrcmxDU1NYTDJSSWZMcjItUWV0SjhkSnpmWFJtLWFoNFBxNHo3aGhDemlDTmcxTHFRbWpFRk1ibmJjbnF5S0xjUlptaFVFNGE1VjFRd2NtRWNGM0hESENvUklsMjJvMEE2WmZQOW1GM3g4QmY3UUc3aHlURk9zSTRkdDBabl9Qb2NZcm1IMXpyZw?oc=5",
-   "published_at": "2026-08-10T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:43.927711+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Why AI Hallucinates Metal Prices Without an MCP Server",
-   "link": "https://agmetalminer.com/2026/08/10/ai-data-integration/",
-   "published_at": "2026-08-10T06:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:51.166119+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "MetalMiner",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": [
-    "cobre"
-   ]
-  },
-  {
-   "title": "JA1 acompanha tradicional festa no distrito de Niquelândia - G1",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWjNYSzJORGpYdk1YQkR2TXVmaGlmMnpsSWFKSS1vUnZTZXJKYTlpN1NZcV8zYU5HMWhfOE5mVUplbV9RdkVfQnY2YmxhSEhhZWVYU0QxT3BOY2tpc2FjX0NNaEdxcUZyN1lvSlZRbmg1M3VyOU82RDZpVklnYjBkTDVXRDQ0cDZ1dktENG5wRXlteEJHSmZ0U09DNy1rVnlMUDB6SFF4T1hySlNjdllsWWQzNWllQ3I3UWNLcWpYaVh2aC1sR1Jr0gHWAUFVX3lxTE4zUHRqVmtES3pWNVlWRTZJcnNrd2ZPUGo4OEJmUlhWOHNIZlpIVkhFTUhoQlcwU2FGeEFGa3RHSW4tbnNhSUN2WWpXRTUyS2phSm44SUdQQWVCeVh5MWxENTlDWmFXZ3hjVDd0VUhqbVdSRFJpdWVNcFJjMGVtNDJBbXlrenN2X2tRY0c3bTBqQzByYnVvc2pwUEI1VE1qQTZsZFRNXzFTbVI0ckpKQ0dBZmxacjE5LUlBX040TlJzN0p2Q2JEU2xlTERIM3A4dnFFZkw0QkE?oc=5",
-   "published_at": "2026-08-08T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:43.921819+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   },
   {
    "title": "World’s biggest mining companies now worth $2.17 trillion",
@@ -4011,34 +2367,6 @@
    "fonte": "Busca · CFEM",
    "escopo": "nacional",
    "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Consumidores relatam aumento de quase 300% na energia elétrica e contas de até R$ 2 mil no RS: 'Um absurdo' - G1",
-   "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPemE1SEtzdVNzcmZIeUMzcFFCcGFodFpuYWNVYkcyUENIWXktLVBSVEM0UGJjLUstT3FYUzh5VHpOTTNnVUx1Q1VwUEJlNDVVMkdpeDlWRDF1RHFma1ljVW1Ga2dRMTlMVW11NlJRdmE5YUFkNXlrY2pSWUI4dldsVVkyUWN3MWg1WWpJTEoxQlNfcnEySlVkNXR0LVV1NElJRVM1dllQcHUzVFltYUdic2VSUG5XVExoSGh2X0EtaS03WmRsdmMtY0ZjZFJRQ0RYV2VkR0o4elFYaTgta29XM0tZMDQwcWk5c2p0eTNVZ2NtVFRlUEZqSkdRWWJMMGdHLWpOZVc0NNIBlgJBVV95cUxNaVlKcmt6bVZTUGdnZ0JqSG85dkkxS3BCRW5pbzA0U2lzbXpZQll1aThRWmViZzQtM3VOZ2lHU1JQLVhvamVOVFJXLUVER3pMUGIxS21DY1h0cS1WdDFjTlhGSlJydzZBVmp1TkF4MS12QW96dG5lSGM5OEpHenB6OGRuSDZhSXplWlBEaTlCM3ptQUZLRmtTQ0ZfOXpZZ05tNUlGdEllSW5CUGNGazNKREQwUWs2dXhrTlBXQ3VDOVFjUFJHc2NaRXlLSWlPRWZSdE5wSnhCUndTcFZiUEViQTBsRXlWRzczWUJsWURrckZFdFhyMTlaaXJnUDNRa2h6THFIM3A0ZmVxSkNJbU5mczdvTnhwdw?oc=5",
-   "published_at": "2026-08-07T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.378985+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Custos do setor elétrico ameaçam \"apagar\" corrida para o mercado livre de energia - NeoFeed",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaVg2RUxrbk9scjlKdllyd1oybDJHdXN3VzJudm85OC1vWTJVRndvVGJaZXZWd2xnUFZ4U1BkMDJEdjFWZFdFcll1dWR5QlcycVhiZEhwdl9WdkEwbFlTNkRhQ1VmeVN6R2xEbWt0dVlfUFR6WG0wRzVxaHpHRDJWYm1MZ1ZkRk5fSWZiQVBxQ05kVXVldHItRDVLWVg2OGRlc2lqX0pRT25sRUxHZEtrNUlR?oc=5",
-   "published_at": "2026-08-07T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.381708+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
    "substancias": []
   },
   {
@@ -4103,19 +2431,6 @@
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
-   "fonte": "Busca · CFEM",
-   "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Os municípios de Minas que podem receber R$ 3,2 bilhões da Vale - ofator.com.br",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOUp1ZEswcDg1MXNwQTRtQUFVaHRwa25JeHNaMnl1ZlFYdVVLV0FmSTZCU21aeXZxTEc3V1FYU3ZfVUNlZ0JmWC01XzJqZDhOLUx5Sk9oRE5qTlNnMVktakVYU1FPMm9weXd0S1U5aTlIeUM3QkJpTkNEMkpCWFJGdGZDaDI4eUZ6QjZRejQwRHZqZmZmUFhuaUZVZw?oc=5",
-   "published_at": "2026-08-06T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.872572+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
    "fonte": "Busca · CFEM",
    "escopo": "nacional",
    "tema": "mineracao",
@@ -4189,19 +2504,6 @@
    "substancias": []
   },
   {
-   "title": "Romaria do Muquém 2026: guia completo com datas, programação, camping e como chegar - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMndSNHhERVhnRkVaV3ZLQXJ0b09qVkRyX1dPcF9vek1CZ2ZVTHZucWFlcGdOZzFlazNmMEpjX0ZtNldlN3R2NUt6TFJ3amtGcWlsUWFPUUw0RGl4Nl9Jb1QzTTBYcm80cHVLOGZBVTlIM0RGeGlKc2R6bGs5MWg1VEJZX09jVC1sSUlHV09jcVFfclcwMXdvSlozVGE3Zl9jZGttc3lITktQekQwc29V?oc=5",
-   "published_at": "2026-08-05T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.606015+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Após visita Benchmark confirma: operação da Sigma Lithium em plena capacidade em Minas Gerais - Estadão Blue Studio",
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMWozbkpHWjZoa0ZiSjFxbDJnWTJEekJhU1FsQVB2MndsRWp1OFpDQm1NUC12MUdxNzBOa0huQS1TZUFBYjJtM3c0dDNwWVg4VFM5M2tqbmkxZTVSWFF5bGNoQmdZNndlQ01ZeDNtM3NDcVBad0ZlUldkZU94V2VrbTgzdXdQQXNpb0w4UUdPY3JaSW90bktqNzU1c016bW1wVHJkTlBWVXVlV0lkV3lQYnF4ZU1fQ05WekNrQVFSM1JLcEhweFViRnBudUU?oc=5",
    "published_at": "2026-08-04T13:39:18+00:00",
@@ -4230,19 +2532,6 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Petrobras halts studies for $1 billion gas pipeline in Brazil amid regulatory uncertainty, sources say - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPclpNOEhfRjUzOWdQdDNKZGRFTVlfUC1MRXhmYk5jNjdxakpOVnhlaVMteG4wWDdoUHpjSWUtTjhoX2dtMWtoNVJtWTdfdjJCdE5lZTI5MFpzZFVveHJ2SGFFSElkNVM4T2ZpMnF0b0NxR3lvWEJwdFBXdERTTU1oMGdZQWRGYzZqaDU0OHItMHREdUE4YWRicVk4VVVEQ19hOUhhTnppX2M2V0RzUTNIdDRwRG1RWmdVWXZFWE53?oc=5",
-   "published_at": "2026-08-04T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:07.559225+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Brazil mining (Reuters)",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
   },
   {
    "title": "Canada can double uranium exports by 2035, but execution remains biggest risk, Marsh says",
@@ -4344,144 +2633,6 @@
    "substancias": []
   },
   {
-   "title": "Centro de Apoio de Muquém é aberto aos romeiros em Niquelândia - A Redação",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSUFKQmttWVhMLXB1SkNKMDNiMjY5UXhRcjJlc3RxZkJsdkFxQl9aWk9kemxBSlNFZGRDTHNaRVQyQ0tIZEJ5YmsxaDBFUDFFUGpFNHRjUVJjdDZrVko4ZTdMMEhTaGU2QTJ1RlVUdm8zN0V0bi1PU1NPYXFQdzR0Umx2LVZSOVpBanhKQ2tiSnE?oc=5",
-   "published_at": "2026-08-03T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.566389+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "A maior romaria com acampamento do mundo, de Nossa Senhora d’Abadia do Muquém, começa na quarta - ACI Digital",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZHNyeEJVUHRpYnFsbjliTWxRUTk4Z00wUUtzaVFCYUFlQmRqaXh1VEhzaUFZenVTMkVPeHFYcVNpSjRJTjEzTDY5Z2EtNE85WEVYdzhZV3QydGYxc3Z6LU5yVE1nV2hjeWljZXdZSjVlTnpPbGcwNHhuR1NvMlRoQlFIM0xJOGVJeXZHOWp2enIwMnRyaEppWXlGLVlVVHFCVGxLVS1BOVQ1UHZWVjhNUEVKemQyS3pQRno3RVlhYjVqZXJ2UXZkNUJUY3dZZw?oc=5",
-   "published_at": "2026-08-03T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.610710+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Australian Meteoric increases capex for rare earths project in Brazil to US$500 million - BNamericas",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPY1hrUHVqTzludDc0SkM4QVVTUWhJRktOV2pJY3JaZFhXR2F5b0twS1AybTZBVmR3UGcycmpHTU9DdGFKTnBLR3ZTVkRJNFl0cl9laEtPZ2JWaGNCYmc4MGJ1SW1lWjJhbHRkYUFTeEw4MUNIMUJBQklsMm9mVzNVOXpkWHg4X2pTd01SNXdCbThNb3J1aXoyci1xLVZvZm50WU5PYXhVY0QtVmhyTGY5NXVvcUdCMVJKR2hvY05B?oc=5",
-   "published_at": "2026-08-03T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.956696+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · rare earth Brazil",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Brasil tem conta de luz mais cara que a de países com matriz semelhante - poder360.com.br",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdmk3cW1IZHd4TEVBWHRkTU1UVXZiamt5Nmo5ak1nWV9fSnBPOThuajNQYTRwZDBISU1lUlBFcHBoZWhnNVVKamhfWDdRNHM2TnZKVVJ5cmYxV0daRFVpc2NaR09LeVc5ZzRNdUEyQ1hUclU2WEV5Ykd0Q3ZVWVh2Zlh5am1IeFY2YndxLWZ2RWxKM0lWbnlWY0FGb3BmRnAwdl81enBZOUV6S3I4Q2FmVkRn?oc=5",
-   "published_at": "2026-08-03T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.376082+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Valor Inovação: Axia lidera no setor de energia elétrica - Valor Econômico",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeGlrY2g1RU9sRG5MZHBfRzRlUDVGakVnQ2FER3dVVGhfdDF0UE5BeDhQdm12N3hCSG16eEI5aHRhTVh0OHFyNlU1b3hmQTlpcXh1QllWQlRpWlVsc2NqTXNyWkcxWlc3U2FsMWctWVFTY0dXWW5hblJvRWhPMDRVRGVXZFA3MDlVdER0MWRyaV9Ub1A1cTE5R0JJREdMM0lIcklLYjZibHVBSkF3cnVNdUZKWdIBwgFBVV95cUxOZUdSWW1nNWlheVRyOWQzSldKQnJjbld2VlhXS1ZGZWF5VDdtTFljYWNNWDdjUFIzNnBRb3hBZDdXY2E5YVM1NUp0UlVpQi1KRXMxeVlQeWRJMW9tdzZ1NEJJVVl5Yk93OFZ6OWxSNC1jaGlxQ1FicC1yamdOZE9HMEt0bmVoalRsNlE3TzBpc2F3NW1SWWlScTZiRl9xMjJITVNsVm95Z01PWVFqYzFYWl9uWlA5bHA3MDBkZFpoSmxXQQ?oc=5",
-   "published_at": "2026-08-03T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.387260+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Brasil tem conta de luz mais cara que 77 países e reforma poderia diminuir custos em até 32% - Estadão",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYmU0aldsRV9JN1ZWVTdtWVhOall6Y0IyTnRsaEZTRkdSeDdvTDV0OGVNOHlDRjZCVGZKX2hYRkdrZUZGQURDRUZ1R040MkpfTW9GTFZDeWxNZlZQS09xQ2FBN2dkd1JWb2RwVS1XdDQ3WjctbXFsVlFMN0dWOVN5LXBmM2dWS2E2THRiYzh4WjBWM3k1eXhJc01VWkd6dkpBNDFBcWNqLUNVR0pOSzR4X05XYzQ3VEEyblUxLUMwN1FjVjBRajBB0gHMAUFVX3lxTE9XRkZKbXNiOVBzTVBjODdxRElBWHhMRFNGVEU3Qm8xWms1dEhRcWNyZEpwOUhlZXMtZGpLSFB5NVBLOXdiUXdGaTZCdHAwb3YtUzA0ZE5NNVdPOFFTbFNLLXR6U1o4VFVpUlgwSm9tSlhaVkxxYVFBSFgyeU5BalVkb3hIb1YzXzZsVmNuUjFwdGRRZ2VQN3VSd3NrUjBfWlEzaXJIY1dwNkhCWUpOaURmemdHTUhMS1NTQ09YeFdGTWpfRVpaQWtqM2JFYw?oc=5",
-   "published_at": "2026-08-03T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.413274+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "El Niño leva setor elétrico a reforçar planejamento - Valor Econômico",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcGV5ZlZfLXM1U2FocnotczZWaEc3MXl1VDM0QzVoZXhxMWVjR1JXN0tMMDA1X2MxajZ0ejNENERWN2FhU3ZYNEVGYzhmVnowbmZTazNLcWZaSF9NVmdzRXlJb3ZmUFUtM3JXVEoyZEt3Nkc1Y3h4T3d1UkFRdGJSSEpQOG05WEFwcTNrTG9oY1NLam55dTRLV0cyN19YOVRjYzVHRGVuWmFLaW_SAboBQVVfeXFMTzdSYS1Jckx1OExvWEJYUDJTcllWMGNtcGYySUVMWXNsYk4xamFUdXc5QzBQVkJrN21mdTBBRV9HUUpST3BPcHZqN3h1MzN4T2lOcHFnbU9pTGZHLWh4cG1jbldvMEpBZFNGd010LWlXTXFSb21jMmF6RXFVc3FzNFB4dDJfNGRuRlRDcmJPb0ZVSDJ3TzVEaG1Xeng5RTFoTWIyUzlpZjJUYl9ydjhaVUxIbXlxc290NXJB?oc=5",
-   "published_at": "2026-08-03T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.427649+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Conheça o Selo Procel de Economia de Energia — Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaHdkTWZILTlpbWJxTlJqb05uZEdOWXhKVW9lcDRsNjdoYld3RVkydE1pRzMyb2dZZFJXd2dYa3EyeC15WXhmZS1jazJSM1hsd3Y0VWRmdExVV2Q5aThVUnJhWUJjMFNFdzdRWnlmbTQ0dl9ZV1RZdEhGTkhmQmpIMXpRWFhBYmNVNjJGUVFnWUQtSjJSMXc?oc=5",
-   "published_at": "2026-08-03T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.630739+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Fomos ao PERU FEST em Goiânia! Vale a pena conhecer? - enquantoissoemgoias.com",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNODNhREdSTnpPMG5JX1BFdy1xdkE3MVBiSjh1amZfWFY0clZZT3JfOHdQZDdfSVZWNTZQaVBROU9GcEZITmVWenpBT3pnOEFkYlpKSWpaSTVKRFJ1WV9OUkVTYUh2TGFqTGZhZlFXRUVVRG5UemlTS1J5S0lPVmFhY1JWZjVQU2d5bHJWZmhZRTVUQWFab1VmNkpWSVJPcXNndzJkNm1wQnZmMVE?oc=5",
-   "published_at": "2026-08-02T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.519649+00:00",
-   "regional": 1,
-   "regiao_termo": "goiania",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "As lições da tarifa horária para a modernização da conta de luz - JOTA Info",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV3FxYnZ0WG9EM01jSHVkUHNnWjdJRXdCaWpTbjdRazRsOWI4RDlNUTlWbjE3dUNzMnBuQ2tVWXVFUGczQnF3dkQ1RWhyaHJUUzVwQlgtWFBwU0xhWU94MEVCd2ZzbThfWkNOdVdkdkNPaGtQTmxIRG41ZnlUdlZDaXVyZWh4VjVPOUMzOGFiRjNjaEk2N2NJbGRGem81SEJGdDRpZTFzT2xacHBUWHNuaA?oc=5",
-   "published_at": "2026-08-02T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.355242+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
    "title": "Advogado viraliza ao mostrar rotina como intérprete de chineses em gigante da mineração de Goiás - Portal 6",
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWlJER19EQVB5MHlYTHdqTVgzanEtRHI3U19VcDNZdWpUT25vUFlsaGhYTXFZaEtFQTFLUlJCTXRQY3MyQ1MwQWpzTDBWdVE1QlBVTWFfd3F1TTAtb0ktd05DYlJuZG1WQXIxUmdFbEN3Ny0xX3BPWS1UNWE5VHZCc3NqMFJfN01yNHIzajEzY1c5aEFoR29reXRURDRmQWcxemVDZGlhTU43Tm5iMjNnYTNnU1c5SnNHUno3a1VnUW1OR201NjhQQ05lMA?oc=5",
    "published_at": "2026-08-01T07:00:00+00:00",
@@ -4490,19 +2641,6 @@
    "regiao_termo": "goias",
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Há 278 anos, fé leva peregrinos a percorrer 45 km a pé na Romaria do Muquém, em Niquelândia - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOV3llYm5Ea2YxZkl6U2RNYVdobnpKNm1fWGJXRDNjY3dGTV9JYWlBT2Q0cF9hQ2tybEt1MDVwQTNKbXdlVGJkM3JnQjFqbXJXWHFqVTFXT0M1R0FueWszcGFPYkxlOVpCcVJaa2xTYVJpZ2VUMDhFVWc5MElIRW9obHgwQm50NEVPd1haYUZhVTlfdlNXMmtaR2VvNER0TTlGN09MSFFqdE4waEY5MzVlVUVEdWVpeGhSVjBXRnlYdThWYUtF?oc=5",
-   "published_at": "2026-08-01T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.565575+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []

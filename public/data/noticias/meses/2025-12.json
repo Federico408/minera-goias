@@ -1,6 +1,6 @@
 {
  "mes": "2025-12",
- "materias": 29,
+ "materias": 17,
  "itens": [
   {
    "title": "Royalties da mineração injetam R$ 112 milhões em Estados e Municípios limítrofes e afetados - www.gov.br",
@@ -12,45 +12,6 @@
    "setorial": 1,
    "fonte": "Busca · CFEM",
    "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Tarifas de energia mais caras do Brasil: veja o ranking - Portal Solar",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTjBZUUNYVk5xYnNnUVpvNFlpTWtMNlBBWnktU1RscUpyNVo0VWhFbnotanNlV2hmTlhzUVlkcDdfZnpSNWlPUmN5cFNxUnFTSWZ5NVJ0WUFQSzhRSjRpdnBHQzlEOVZ1S0RmYlg2WjByLWIzLWJMMk85ZjBtcFJoUVVxVXFBUVE2SHdFMFM2S0N0TVhWUHUtTlctNmRYUnRGUmFWV0NsRGxqb1BHbVUwc18tbFdhQUx3TDlkYUFJXzFWaWJKYXNZ?oc=5",
-   "published_at": "2025-12-23T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.403292+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Dario Ferreira Reis de Paula — Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQN3kwSzY4QkRnLXV5Z3lIaXNTQTVEUy0yZlRKN285TFlYbHpna1I4MXplQ09tcGlqaWZfcDhxYi1PUVhrajlucUc0N25FSHZPd242MHQ5by1ENXVmU3F1Ql9rT0R0SlRyb2otaWkyRmdNb2ZYdHdQWU05NVpwb1JXLXl3TF9BaGdIeGY2RWlHZTJRUUtsa1ROQXBJWjZySVFuREFlbUtzWmlpWWZxTnNhQmp6MTdUSHg1eFZBYW1KcWRrWmNFRFdlc0VQSzRvb0dtQy0tMUhYMHAtd1V4bXpGZ2xfX0NfSUsydERfS1lsVnJ2T21GTmJpTWRNbWZIZnlQSUdLNDdIQlNNbFk?oc=5",
-   "published_at": "2025-12-21T02:32:14+00:00",
-   "first_seen": "2026-09-19T19:49:09.593648+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Superintendente de Arrecadação e Fiscalização de Receitas (SAR) - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOR1NXanZ0MlVWN2dRTm5Tdy11X2IzcXpzUGE3QWVTSkZ6OHpkTkFyZnFJaVVra1hBbUt1a1dHMmNTeXJUUkoyNHhRYVQtSndUTkk4ZmJQSDFJWnpKN2xCNU45bkQ1aUVDVUZhOVZvNnJDbkttbURkRXo3XzJYWmNQcnd5aWlxSmFLUXg5RHhFUDc3TjBGb1ZQNzVDUV9YRXVyYnVubjZNVWp2SnJJc1l6enV2cnhXb0ZIOWRUSm1Ycw?oc=5",
-   "published_at": "2025-12-19T09:22:10+00:00",
-   "first_seen": "2026-09-19T19:49:06.276909+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · ANM (site oficial)",
-   "escopo": "setorial",
    "tema": "mineracao",
    "substancias": []
   },
@@ -81,19 +42,6 @@
    "substancias": [
     "litio"
    ]
-  },
-  {
-   "title": "Relatório publicado pela ANA celebra os 15 anos da Política Nacional de Segurança de Barragens",
-   "link": "https://ibram.org.br/relatorio-publicado-pela-ana-celebra-os-15-anos-da-politica-nacional-de-seguranca-de-barragens/",
-   "published_at": "2025-12-15T17:48:00+00:00",
-   "first_seen": "2026-09-19T19:48:17.306232+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "IBRAM · indústria mineral",
-   "escopo": "setorial",
-   "tema": "mineracao",
-   "substancias": []
   },
   {
    "title": "Agência de Comunicação - Equinox Gold vende operações no Brasil para chinesa CMOC por US$ 1,015 bilhão - Estadão Blue Studio",
@@ -141,45 +89,6 @@
    ]
   },
   {
-   "title": "Nova Vila: um novo capítulo na história de Nova Lima",
-   "link": "https://ibram.org.br/nova-vila-um-novo-capitulo-na-historia-de-nova-lima/",
-   "published_at": "2025-12-05T03:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:17.307540+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "IBRAM · indústria mineral",
-   "escopo": "setorial",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Nova revisão da norma ABNT NBR 13028 sobre projetos de disposição de rejeitos é publicada",
-   "link": "https://ibram.org.br/nova-revisao-da-norma-abnt-nbr-13028-sobre-projetos-de-disposicao-de-rejeitos-e-publicada/",
-   "published_at": "2025-12-05T03:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:17.308704+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "IBRAM · indústria mineral",
-   "escopo": "setorial",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Composição de preços de Combustíveis — Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZUlUOXFzTnFxYWNvbmE1cnhqVXRRVUx0Tm9zRklIdlByLWlZdW5aUXRzczJnZDM1akNubmRGUURLVzhZMW5ZWTdjVFVpb1pNdFh1UWRESTc1Q2I2NF9CQ2tndTlvLWZXRlhXaEdicW4zcVdFVkFVbjdGVm5PY3B2OGdlR0RGcXB2ZDBnVV8taVA5d2hxQ2RfZEd1aHozczZTTWxGX3VOQkRVLW1GVGlSX0NTTlF1bnp1SGhHS2xCS2MzZlE5YWNDWnhjb1JORkhpaVE0?oc=5",
-   "published_at": "2025-12-04T20:54:00+00:00",
-   "first_seen": "2026-09-20T04:02:50.062565+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
    "title": "NE avança com lítio e níquel, mas Brasil perde espaço em minerais críticos - Movimento Econômico",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUkNCV2VHOUkzTEtmVGk2ZFVyeXVmeUlEbm5veXlWdjBCV2RrRHBUbTR4bGNjU2NmUkNhLWhpd21xdDNFejJFT2FQanprQmJjSC10QzBMOWduVUlxU3FqYURnaHRvekRfTWxzS3lZWlozZ0JSTmdoOTBxdzJMVXJrS1M4cWYxaXFRMmdpSFVsQWtFTjM4ZFg4aUtwcjhKcEVkbDU5SUZEZVhuNlRyWDM2OXpicm1WRmNQZVlpMGd2a0JQT3FaUnYzSjlHWUFNUQ?oc=5",
    "published_at": "2025-12-04T08:00:00+00:00",
@@ -194,19 +103,6 @@
     "litio",
     "niquel"
    ]
-  },
-  {
-   "title": "Serra Verde cuts short China offtake deals, approached by Western firms - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNGlGeE9MSUVPR0ZscVRXaGotUXc4clgwREVZR3oxLXgxS1l2ZHEwZmh0M2ZQXzgzMTlOZ3Yyd2xyM2hwU2tfVUM2Y01IaHdUUnJseWlLeUVPcnpKQ0RkMHBNNTJud2ppNkVCYnRnUXBGNGJ6amxOWHU1WWVYRHk1emtjRmxQNlhSX1A2dTY3MnFMSVVSRzE0UklkRlZDRmo2MV9oSUdVZEV6d2Z3b1ZzUHZMc0ZKcUJmN1pXcldLUzVwa1E?oc=5",
-   "published_at": "2025-12-04T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:07.564798+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Brazil mining (Reuters)",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
   },
   {
    "title": "IBRAM leva campanha sobre mineração para a final da Libertadores e estádios no Brasil",
@@ -232,47 +128,6 @@
    "fonte": "Busca · ANM (site oficial)",
    "escopo": "setorial",
    "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "IBRAM destaca que dados integrados são chave para enfrentar inconsistências no setor mineral, em evento da Polícia Federal",
-   "link": "https://ibram.org.br/ibram-destaca-que-dados-integrados-sao-chave-para-enfrentar-inconsistencias-no-setor-mineral-em-evento-da-policia-federal/",
-   "published_at": "2025-12-03T03:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:17.311082+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "IBRAM · indústria mineral",
-   "escopo": "setorial",
-   "tema": "mineracao",
-   "substancias": [
-    "ouro"
-   ]
-  },
-  {
-   "title": "ERM Brasil é a nova associada do IBRAM",
-   "link": "https://ibram.org.br/erm-brasil-e-a-nova-associada-do-ibram/",
-   "published_at": "2025-12-03T03:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:17.312471+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "IBRAM · indústria mineral",
-   "escopo": "setorial",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Raul Pereira Lisboa — Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaURIanllejhFX3g3cW9aNVFLUnZveVEtNzhVWVNZTzNWbFVjWVNWNFVXOFZJUWtuaTBWVG1MOWpjU0pvMG5rOVp3YWM2RFZCVjRoclU1b2x4X2JTT192U0h6QmhrdWZMR2lQcmtWNXlWZ3dJZlV4ZGxoODNfcEJZVWI3Tk9BOUVWZXNGdU1DUVJfcE9QOFpVejhJYzhFWExWMlM0SW5YOEZsZE44cnJGd3FFMDBGTkx2VDE0S1N5VDk2WjJXaHFTZGpn?oc=5",
-   "published_at": "2025-12-02T23:21:03+00:00",
-   "first_seen": "2026-09-19T19:49:09.581605+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
    "substancias": []
   },
   {
@@ -392,19 +247,6 @@
    "substancias": [
     "ouro"
    ]
-  },
-  {
-   "title": "Com jogo futurista, BAMIN leva educação ambiental a estudantes do entorno da FIOL1",
-   "link": "https://ibram.org.br/com-jogo-futurista-bamin-leva-educacao-ambiental-a-estudantes-do-entorno-da-fiol1/",
-   "published_at": "2025-12-01T03:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:17.314882+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "IBRAM · indústria mineral",
-   "escopo": "setorial",
-   "tema": "mineracao",
-   "substancias": []
   }
  ]
 }

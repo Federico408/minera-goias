@@ -172,6 +172,20 @@ Eu ia publicar mesmo assim, com uma nota de ressalva. O Kayo mandou cancelar, e 
 
 Ficaram de fora também, por decisão de escopo: filtro por veículo e exportação do recorte filtrado.
 
+## Decisão 11 — só notícia do setor é publicada
+
+Ao escolher um mês no painel, apareciam "Cosplayers e gamers combatem caretice goiana", "Comida jogada por visitantes tem causado a morte de peixes" e "Deathground Crack Fix". O Kayo apontou o que eu tinha desenhado errado: **aquilo nunca devia ter chegado ao site.**
+
+Eu estava publicando o acervo inteiro — 2.923 matérias — e filtrando na tela com uma caixa marcada por padrão. Isso é maquiagem: as 1.714 matérias que não são do setor viajavam até o navegador e bastava desmarcar uma caixa para vê-las. E entravam na contagem de "matérias guardadas".
+
+Agora a separação é entre **coletar** e **publicar**. O coletor continua lendo os feeds inteiros, porque veículo regional publica futebol e polícia junto com mineração e não há como pedir só uma parte. Mas o que não é do setor não vira arquivo, não chega ao navegador e não conta em lugar nenhum. É a mesma separação que o projeto já faz entre a zona bruta e a zona tratada.
+
+Resultado: o acervo publicado caiu de 2.923 para **1.209**, todas do setor, 200 delas de Goiás. Nenhuma das manchetes que ele mandou sobreviveu.
+
+Com isso o filtro "Só mineração" perdeu a função e saiu — não há mais o que filtrar. Os cartões passaram a descrever o que existe de fato: matérias do setor, citam Goiás, substâncias citadas, veículos citados. O contador de veículos é lido do acervo, e não do banco, porque o banco é cache e pode estar vazio.
+
+**O custo, que é real:** o que foi descartado não volta. Se um dia o critério do setor ficar mais largo, as matérias que ficaram de fora não estarão lá para serem reclassificadas — feed RSS é janela rolante e não dá para recoletar o passado. Foi decisão consciente: o Kayo foi explícito em que esse material não deveria existir no site.
+
 ## O que foi feito nesta sessão
 
 - Validação das 22 fontes antigas e de ~130 candidatas.

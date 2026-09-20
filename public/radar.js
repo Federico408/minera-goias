@@ -160,15 +160,15 @@ function drawNews(){
  const marcado=id=>{const e=el(id);return e?e.checked:false};
  const busca=(valor('rd-busca')||'').toLowerCase().trim(),sub=valor('rd-substancia');
  const mes=valor('rd-mes'),municipio=valor('rd-municipio');
- const soSetor=marcado('rd-so-setor'),soGoias=marcado('rd-so-go');
+ const soGoias=marcado('rd-so-go');
  const vis=NEWS.filter(i=>(!busca||(i.title||'').toLowerCase().includes(busca))
   &&(!sub||(i.substancias||[]).includes(sub))
   &&(!mes||mesDe(i)===mes)&&(!municipio||i.regiao_termo===municipio)
-  &&(!soSetor||i.setorial)&&(!soGoias||i.regional));
- // Relevância primeiro, por regra explícita. A ordem do array depende de quais meses
- // já foram carregados, e um mês trazido sob demanda despejaria polícia e futebol no
- // topo: Goiás e setor, depois setor, depois Goiás, e só então data.
- const peso=i=>(i.setorial&&i.regional?4:0)+(i.setorial?2:0)+(i.regional?1:0);
+  &&(!soGoias||i.regional));
+ // Goiás primeiro, depois data, por regra explícita: a ordem do array depende de
+ // quais meses já foram carregados. Só notícia do setor é publicada, então não há
+ // mais o que separar além da relevância regional.
+ const peso=i=>i.regional?1:0;
  const quando=i=>i.published_at||i.first_seen||'';
  vis.sort((a,b)=>peso(b)-peso(a)||(quando(a)<quando(b)?1:quando(a)>quando(b)?-1:0));
  el('rd-conta').textContent=vis.length>NEWS_MAX
@@ -194,12 +194,10 @@ function newsBlock(noticias){
  const nomes=[...new Set(NEWS.flatMap(i=>i.substancias||[]))]
    .sort((a,b)=>subName(a).localeCompare(subName(b)));
  const opcoes=nomes.map(s=>`<option value="${escape(s)}">${escape(subName(s))}</option>`).join('');
- // O filtro "só mineração" existe sempre. Ele já foi condicional à mistura entre
- // matéria do setor e matéria qualquer, e sumia justamente quando alguém carregava
- // um mês - que é quando a mistura aparece e o filtro passa a fazer falta.
  const cartoes=noticias.total!=null?'<div class="metrics rd-metrics">'
-  +[['rd.cGuardadas',noticias.total],['rd.cSetor',noticias.setoriais],
-    ['rd.cGoias',noticias.regionais],['rd.cGoiasSetor',noticias.regionais_setoriais]]
+  +[['rd.cGuardadas',noticias.total],['rd.cGoias',noticias.regionais],
+    ['rd.cSubstancias',Object.keys(noticias.substancias||{}).length],
+    ['rd.cVeiculos',noticias.veiculos]]
    .filter(([,v])=>v!=null)
    .map(([k,v])=>`<div class="metric"><span>${escape(t(k))}</span><strong>${escape(n(v))}</strong></div>`)
    .join('')+'</div>':'';
@@ -218,13 +216,12 @@ function newsBlock(noticias){
   +(nomes.length?`<select id="rd-substancia" aria-label="${escape(t('rd.todasSubstancias'))}">`
     +`<option value="">${escape(t('rd.todasSubstancias'))}</option>${opcoes}</select>`
     :'<select id="rd-substancia" hidden></select>')
-  +`<label class="rd-check"><input type="checkbox" id="rd-so-setor" checked>${escape(t('rd.soSetor'))}</label>`
   +`<label class="rd-check"><input type="checkbox" id="rd-so-go">${escape(t('rd.soGoias'))}</label>`
   +'</div><p class="rd-conta" id="rd-conta"></p><ul class="rd-news" id="rd-lista"></ul>'}
 
 function wireNews(){
  if(!el('rd-lista'))return;
- for(const id of ['rd-busca','rd-substancia','rd-municipio','rd-so-setor','rd-so-go'])
+ for(const id of ['rd-busca','rd-substancia','rd-municipio','rd-so-go'])
   if(el(id))el(id).addEventListener('input',drawNews);
  // O mês pode precisar buscar um arquivo antes de filtrar.
  if(el('rd-mes'))el('rd-mes').addEventListener('change',trocarMes);

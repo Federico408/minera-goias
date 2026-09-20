@@ -1,20 +1,7 @@
 {
  "mes": "2026-06",
- "materias": 105,
+ "materias": 58,
  "itens": [
-  {
-   "title": "Lago sem fundo em Niquelândia: amigos perderam câmera na água após tentar medir profundidade - O Popular",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ0wwTzBsOTJUX0pTUmk0OXNCNnVDMzNQa0xUSzVlUGlZWmtkVGZCVXlwTDVQcWhDSUNVLVh1dmVkSmkyUEdxeGdGWV9oY0VibVR1d3VuNXJtU2s3R0huclFGMjZzMVJJRVZiNklmdmlqZnJCVmt0ell5bzdxWU9wQUo5UEVYRWh0TUkwQ01JbWNnVF9RZGI2ZHdOR2gtc3FLUnJKSTJ6YkNjNVFlc25MSGN6ZnZTTW83UGhRVzU5eXRSakNmbmRWTmZMRW15Zw?oc=5",
-   "published_at": "2026-06-30T13:37:34+00:00",
-   "first_seen": "2026-09-19T19:49:00.586909+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
   {
    "title": "Recolhimento de royalties da mineração passará a ser digital a partir de 7/7 - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZHBSQTNqX1hNSUVTT05SVk0td0ROUnFjcWFGaFRwV1FraEJvUDJtQU41NHhpY1RZMWdmVlozUE9ZdVNiZks5SncwUm42Nm5Oc1hUQVA0cVRsQS1CRF84M19TZHZJelFlc2xUVzNlU3BTRXNoMVBDVXl4cUgyUzBHbGV1b3N0LVFoTnhNUjNfXzRuYVVLUU9ZV0Y2bVdtZTVPVnp2T2VpajVzZ01kb1djTDJ2M2pzUWVqNll0NDJqbk4?oc=5",
@@ -38,97 +25,6 @@
    "setorial": 1,
    "fonte": "Busca · ANM, lavra e outorga",
    "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Axia Energia e CEL negociam controle de transmissora em Goiás - MegaWhat",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONjZ3czNJWXJnVmRFeVZhd3JaWW9VVVRkVEpuN0RPdkJkcjJOcFFCTklxMEpWN1NoRUs4MHRSalNRTVlZZkZCWGN2dS1wWExyWVpqbUpCWjF2dGhDLXdFYWRMWnlraGtwQjJtTTNRazVCTTRoYWJkaWV2cTNFNWFXd1EwdFFwczJCVUd4Vld6U0NMZmVGYUFDRUJ3aVp0RTRkUlZRTXZjRWNjTXZVdE96OG5BMElWSGxIdUswandyQkE?oc=5",
-   "published_at": "2026-06-30T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:49.613270+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Lago ‘sem fundo’ de Niquelândia: amigos calculam mais de 700 metros de profundidade - G1",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNc0JmV3BxZ2dRdlZlcU1PcTFtRmxjZjRXVTFZbVMyVm1fMTdKSjNDY3IxTEFWNUE2X0pzUHhHWlN6RHI2Sm5pdnkxN3BzZi1nYzhSSFFFQld2ZU5UNUotbVd3cW94WGJGdm9SSTJERzlyUVp4aTM5MjY0YkI0M0V1dGxyc1YzUE55azVaOUlKQ1BndjlSREFKTmlJcm1yaE9OOHVHRXdYN3VBTTlMZllJYlJMWVAxeW1FLUZWbER2M25wWDN4ckRzLWk2Qy1GNEdw0gHfAUFVX3lxTE9Qc3BiQ09IUG9RSGJ2bU5NSW9mWnJvWkcxTWowTUhEckZEem1tZXVkZnA1MnJhSDlPZkZKdHo5aGdLcTNWNF9FOTB2MEZUX1h0QU1iaElEN3ZkbnRCZU5LTzhoeDZTb1NUT2hNZzlBY1JoOUN4cjlSNjRoNHF5WDlvQ2lwMFR1aU5jUjZpNnhVZ0VlSGRJemFfbTNtemZKclJXanNHQ0h6STIyZkg2aWVqU2ZURWhJdndwZHNWNG0wOW1pZUtObnJwdGtZNjdvSG5RblFpb0w0UkJ2RlhlXzQ?oc=5",
-   "published_at": "2026-06-30T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.561681+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Consumidores do Tocantins terão reajuste de até 8,11% nas contas de energia a partir de julho de 2026 - G1",
-   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQbzhURFRSY2VnY1FKcHVkVElRdzdnQ0I4djh4UVZfbTAyTjF5VzczNWZ0S08xekNzRXZlMGNlOU5pNE5fRExSZUc3Y0k1bDhEQ1YzaUxfZTJKWHdoMEd6MXBQMEFocUJHRXlqcEEzWFpQTHQwR2o0OVVROENZdXcxQ3RWYVRsbjNkRXVkdXFEUHA2YVlQV3lfTXlPUXVwZlBxU2RxSmlnUVZKdHhaZHRCUEhqaU9nMXUxb0MtaVRBbncxbUhpYkZwYXZIMW5TV1JqNmhGS1dTYnF4UnI1MGFtQ3QwcVdBUWk5UWF4ZUNfclNuNk5kbjE3aNIBhwJBVV95cUxQdUk3RDBsUEVyM0VLS1VnWXBReG1lZ0JTQ090M3ZIMjFqcURsQ0E4dlZ5MnRYaWhudUxfRHVmZHVPZWN6WHY5UjFqc0lrOFR5SkVCYzdUTllYOXFjdXhQTEhLbzZVaFJvblNoeDl4U1N5VmxybGZkNUNtMWVDd3pVNDJ1NUNPNWRsektjM3VEYU9oQUJBaEwyTUJDdVlsbjNKNkZaSFJvd3JtT2NPRE5QdVgzY0ItWWExOVlNX0tLOVBQWFBpR0tZRWRPbU1GTW5CdUlMc0xRX2tFNVU4dHU4T1lNVWw3emZyY2NNd2pPOTdUX3pYWjJzTHEwZUZ5cUx5R0JwdVhNQQ?oc=5",
-   "published_at": "2026-06-30T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:49.213867+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQlk2WEdqT1h1dk5sRkZOQkRXQjlIQVNYSWxSWlJzNnZNNFlQaVA5UlNPR2xhRFJvYXhDWlEwbVZheWhLVmNFekxEbk5LOEI0bnZUWEhLbGhydXJNS2RUQU05djJWZWM5Yy04QktTUXBpZ29TdlZBMGNtejF5WkRiRV9rYVBCejNONnVieDVPMHdPNG5nN0JoeFQ3VS1TOFNQTlZVVlRZbUJDQi13NXhFdUhtdW5EYl8yNWc?oc=5",
-   "published_at": "2026-06-30T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.568812+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRk9KUkc5eEVVTE1YY1VPamlRNTdxS25iMDF4eG0tQ2VrU3pQd0JWaGpCUFNZR1l1VV9pdGdiOHZrOXVwLUFVdFN3ZkJqdG1iU2MyN0VCZEhMSnZjWHVSeUN4aWoyMnJxYk56ZHR4U2tQZDZWQllqMWlnLUlnRWl4a2pwcFZsWlVXZ0lZT3Utc0lBVHBxejlWRXE0SUpzY0QyNWRHYkNHSUlnZGtncWdIUlZ0eWNtSDBvYWc?oc=5",
-   "published_at": "2026-06-30T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.572920+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Lagoa sem fundo de Niquelândia passa por tentativa de medição da profundidade; veja resultado - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNFFSOG9YZjBkZ0Yydllnb2pPVnNfckJCWFV2Ml9VcTVvLUZtdlhIUl9SdjYxQkV5MFdpZXJ1RXpMQkUzeWRWb1h3bGoxSVVGR0pQQ3NmNHBJSGU4WFVocjVHNElLV2wyUndOMjlzQ3VUT3J4Y0RoSGM0SDdxTlRzYUtCQ0V0eGhHeG8zdWNEZGpvdXhYTXd4Z19zTTJhQUlKVkFCT3RQZWxTNU9ZeUx3?oc=5",
-   "published_at": "2026-06-30T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:43.925541+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Lago sem fundo de Niquelândia: amigos fazem mergulho e tentam medir profundidade - O Popular",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWWZLTUlZdTlMMy0ta0Q5Q3ZTQjhpc0pfS1B4WDBFWm1GaGFPb3hkMllQZEJwSDhmeGF6UVYyQ2dhbEtTVmgzVzJSRWpDdFhweE0yUy04bHc1dDNqN1JCcjBjbkJHWTFsdFBmMndaaExoTHdXQXVDNkx5VjhOQkpYbGVtQTgycFNKWGQ0eng3SmlEWFh1RG55bGN2MVQyMnd6eGllaGZKTmNGZzEzZkVrSk1xVEVCOUxGeGx6N1Vn?oc=5",
-   "published_at": "2026-06-29T23:17:23+00:00",
-   "first_seen": "2026-09-19T19:49:00.585969+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -176,19 +72,6 @@
    "substancias": []
   },
   {
-   "title": "Copa Vale dos Pireneus 2026 Etapa Cavalhadas - Pirenópolis Turismo",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOODNlM043UzRiQXMwWjM0RzlKY2J0OUtFTTllSjR0TjNUYW9odUxUWFEtS1BOUVBDWFpPa3ljcDRpY1l1SzVuZnhRVDVCbjhwNEdfZ0NtNkpaN0NGeVVINHZOeFZoWlV6WmRCUTZwa3IzZTJvaWhrRlpWNGdud3JQRDRYNUd2ajI0S3BhbFBVclFWUm14?oc=5",
-   "published_at": "2026-06-28T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.533309+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Lítio da CBL tem investimento milionário em Minas Gerais - O TEMPO",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUFlqQUFSWkYxYUVqbU5NaHcyaTM1VlQ4em5jY3I5eVg0UVJRaUE2VEFhQ0kyTEZ4VU1JLW9LdWJmVEpQLTMtSEkzNzZxUl9pYUsyaDdIWmVxZG9DZzBUMGllVTZJQzBpMzFVMllzYUFVaUZBbXEwQzREbFBvSEZoX0NVMEgtUHlpQkxiOEtFb24zcWxRNkpZMzl0S3FLTEFheXZJ?oc=5",
    "published_at": "2026-06-27T07:00:00+00:00",
@@ -217,19 +100,6 @@
    "substancias": [
     "litio"
    ]
-  },
-  {
-   "title": "Mosaic inaugura viveiro de mudas em Cajati (SP) e fortalece gestão de áreas verdes e segurança alimentar na região",
-   "link": "https://ibram.org.br/mosaic-inaugura-viveiro-de-mudas-em-cajati-sp/",
-   "published_at": "2026-06-26T13:48:00+00:00",
-   "first_seen": "2026-09-19T19:48:17.303402+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "IBRAM · indústria mineral",
-   "escopo": "setorial",
-   "tema": "mineracao",
-   "substancias": []
   },
   {
    "title": "Atlas Lithium acelera Projeto Neves e destaca Brasil na corrida por minerais críticos - broadcast.com.br",
@@ -288,34 +158,6 @@
    ]
   },
   {
-   "title": "Energia elétrica sobe 2,04% em junho e é principal impacto individual no IPCA-15 - Valor Econômico",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbXNkSnFpV29rVTJaV1lhdkY4OEc1dXdRUmFwcHYtc0F5WUlDT1dBalByMV9LblFQQ2hRUFJjS3lrVk9GRHpoVExGU3FRWXRVazRPcEdaX1NFTzJtWjJVMXhfQ0dHRFBCbmNDYzc2ZzNLX1oxX0Y2TVpTTi02Mkp1bUUybi15Z2FNTEZtODNHUzQwWXBaZnVfT3I0dDhQLWE5NmpsdHE1NDQyOFQ2S0JjWlhEc2J2YWNKVTlSX2xXQjFIRi1IUjFuZDM2MW1TeXF5WlRzY3NYdkbSAecBQVVfeXFMTUNvcjZGTDZMTWlCNld4VkMyX3lHRFFYV2tkNGVXaEFuOFF1LXN2Tm9OcGIxQnlxTXVIM2hDUVRtWFlkV1p6QVVrc1c4M2J6djE3NXlhZU5DWlVzNUZXdUQ5NmpJQW5FLUpLb0dIQTBMaU1nc24wN2Zpd3Vlb0JRQXZ0QzhiYTRqX3I3SE5QaG1UYzhETTVqOGFHdkh0SnpQVm9mdUlBZnVQYXVOTGNCRWZJM2h5S3VNTk9VZnlZNFlncElxZ2tUcmNXZHVpOEZYQ3NIaDQ3bGRudEdtWmJHcl9lM1NVSURr?oc=5",
-   "published_at": "2026-06-25T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:49.211405+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "IBRAM participa de reunião internacional do WMC no Peru e reforça histórico de protagonismo do Brasil",
-   "link": "https://ibram.org.br/ibram-participa-de-reuniao-internacional-do-wmc-no-peru-e-reforca-historico-de-protagonismo-do-brasil/",
-   "published_at": "2026-06-24T19:09:04+00:00",
-   "first_seen": "2026-09-19T19:48:17.304908+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "IBRAM · indústria mineral",
-   "escopo": "setorial",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "A Sigma Lithium na geopolítica mundial do lítio - Brasil de Fato",
    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQb0lUZkdfWlJjQVRQRlFZWUZ2RTNUdlNieEYxYmlvRklsVFhLbEVHZDFsTzcxSllYbmE0N3F4OUFkZG9CaU91d1RUTXBqUEh6ZGFXTlFRQU1RMmRIZ3FrVEJYMzg3a1lzbjQtM2RDMnpybGZnUmplVU93Y3hQZ2RDUjNIVXZxblVlckRpbVpuWE1fdks4S0xmRXZzbTAyanI4SXBTdHlvSGV2YWF0Wnp1V0QweGZhOFk3RHROVFpuM21jOWFhS0cyTFpENDNkbnhFRU9NOWNuSXdqbXVfck9WNw?oc=5",
    "published_at": "2026-06-24T07:00:00+00:00",
@@ -328,36 +170,6 @@
    "tema": "mineracao",
    "substancias": [
     "litio"
-   ]
-  },
-  {
-   "title": "Tarifa de energia elétrica fica 20,5% mais cara no Paraná a partir desta quarta-feira (24) - CBN Curitiba",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRzZQd2FDOU1JWFk2UWktSHVZVnlvdGxzTmdrLVZqZGtYRFZ3WEpwenFGSW9JM2htV0tVSzBHMURKeDAyNk1CazdkdXBDRzVMaGc2UE9YSnZBYi13cUFSOXlVa1lTa3Z4RGYxMGREeVBkSUIyU2VoamxiMUxyb0o5SkFtLTFvZ00ta3M2MUxyZXpOWExsbmdTOVR1Wl9hUUxxd19TNFlTenVTMG16TmZEMnJpMW0zcTIwR0Zpa0cwdWc?oc=5",
-   "published_at": "2026-06-24T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.430250+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Sistema Faep repudia aumento na tarifa de energia elétrica no Paraná - Portal CNA Brasil",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaEF4TkRubDlubVBzZnhRcng3M193Rks2ak55Q2s1SVNNMGF1bkxpeHZ1MzUtWGJzLV84aFRtVFBoV29KemlVSUdEVTRac19XdG1pWi1kZUhBSVpiNjg5VzRDZlJtRmtqNTlJSGU1TFd2Ti1JUTBuZTRjTUdvWHBzLUZDN3RDd0xWN094eU5jdXVCUzlQVjc2MTZCWTZYYmx1M3NxRQ?oc=5",
-   "published_at": "2026-06-23T17:25:15+00:00",
-   "first_seen": "2026-09-19T19:49:08.400657+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
    ]
   },
   {
@@ -389,32 +201,6 @@
    "substancias": [
     "litio"
    ]
-  },
-  {
-   "title": "Autorizada construção de ponte para substituir balsa entre GOs-080 e 237, em Barro Alto - Agência Goiás de Notícias",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMGlXWGNuVWpJaGVjNzNqZkZDTWswZWJkM1NhM1JTV1Y0YlJoSzV1ajVheFh5WU5vMlVCNEg3b1RJUUUyNHprejl0V0hFQ3VpdDA1OXZHWVVHdmFvdks4UHpTY0dYdUpLS3NubWxZbVBsQXNLbm1paGZmZG1zTGxrZkpQWlNDcUxENVdXbVphcXd6YjBVYkNxTTRsV1dud0c0T0Y2SEpjam9WVkUwMUI0Mmktbw?oc=5",
-   "published_at": "2026-06-23T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.578775+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Dívida de R$ 800 milhões limita gestão e barra recursos para Niquelândia - Diário de Goiás",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM01lTjBCLVpMNW1Qd3R4MzhyME90TWVuejNTbndRSWphNjlEXzBGNS1KS0VuX3d5MHFoQk9RQVlLNU1kNWNwR2dSd0YtUlFkT2tiaG1CNElFTy1Xb3Ayb3lfekt0MEVLS1U3bXRzRjJVZHRTc3NZTTZ1Z2VneHI2bEhYVTNqbXoySnJWckJwbTN1X29iTTBmNlZ5TkNOLWxRcEJTTGxSZ3FfeHd5?oc=5",
-   "published_at": "2026-06-23T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.584322+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   },
   {
    "title": "Operadores de drones devem realizar capacitação obrigatória até 31 de dezembro — Agência Nacional de Mineração - www.gov.br",
@@ -483,47 +269,6 @@
    "tema": "mineracao",
    "substancias": [
     "litio"
-   ]
-  },
-  {
-   "title": "Raí Saia Rodada, Toque Dez e Jorge Lui estão entre atrações em Barro Alto - Revista Let's Go Bahia",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ3N3ZnFHR21Lc1NQTEVxUmRrbDAzRjNWcG40NUpRbXFsVjV6QlBoQm1IY1BYNmh5SEhQd1FEWFJ0VjR6X040Y1pqT0xoSFVFejdsbExBQ3ZZb0RzMWNkOHpuRjVYSGdraFJUNGV0RFNBWDdnNGN1aFhKSmxiQWRpVWU2Y3hOVERxaWVpcmliMm0zT0oxMnVmZXVacU40RVRxQnBuYm5sWU9pSkJLcUpOV245SzFRdw?oc=5",
-   "published_at": "2026-06-22T06:21:48+00:00",
-   "first_seen": "2026-09-19T19:49:00.601392+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "CRAC vence Tombense em Catalão e leva vantagem para Minas Gerais - Esporte Goiano",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQakg3SktGNnVLSzRDbzZ6bmFmaHItYTlDczZSZmZsVGtNcEtpX3hKaWdJTFhMN2RsRnVMTUJOQVo3OVZVckd1SXhaeGxfMFBVTGpSdkVCbGVlTXlma1pyUldvWlJFSWJwQVgwVEd0VUdwZFFzVW0tZWJaTXg2UDdfYUFVSzc3bXE5SUtKMGFZQzZFY1p2UTJz?oc=5",
-   "published_at": "2026-06-21T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:01.061773+00:00",
-   "regional": 1,
-   "regiao_termo": "goiano",
-   "setorial": 0,
-   "fonte": "Busca · Catalão e Ouvidor",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "El Niño deve encarecer tarifa de energia em 2027 - CNN Brasil",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaC0xUkJjellUaURWT2JyeVZoa3d2Z1I0LWdJWkN0X21DS0lFbEI5TlVKQ0VTb1k4OE1SZ0ZmSVNBdk54YjV4cEUyQUxOVzUwYnE1eHBhVFp3d2NOaTRoZ29PVVZJNTY2cHlrR3BjYXVVMGxBWFc1TTFSS0gxNXV2aWhPOFhUVDlaZ0NMbA?oc=5",
-   "published_at": "2026-06-21T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:49.215225+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
    ]
   },
   {
@@ -598,19 +343,6 @@
    "substancias": []
   },
   {
-   "title": "No Chile, Governo de Goiás fecha acordo com Banco Mundial - Jornal Opção",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZjY5eHBYTmd4Qlc2eF9GeFJUNjVlbS0xZHg4VDkxcWlnR0RER0FYM2xTQ2cyVUxOSkxRMlNOWEhzY05RalhKem1xek5hR21xVHQ2aExmcEwxdUFSbjlneUhvVlZGMHVVSEpsVV9UbVo2elc3Vy10S09xXzRQUmdXTVN3emo4cEtHN0hZVmNHRnZNQ1VjWmVlc2lnbkR3OFlRV3JnR0JIZElMZHVQdEFlVlFkNjhrY29pVHMwdVktVnJpNUpreTEtSUpfbjBUeV9USDJXU2lIdXZEcjlmOEJfYjVTLXlXb1o1WmtTaFVjQQ?oc=5",
-   "published_at": "2026-06-18T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.244903+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Joel Sant’Anna vai ao Chile e leva Goiás ao maior evento de mineração da América do Sul - A Redação",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS0g0ZHh0bFJ5V2hqUHJveXNEUkNyUEFjcmxYWHBVZ0lXTzBFdzBqbUNzeFpuWW9uUFB2YllrVEpIazF5NzM2VV9YUFNveXZBcUQyVEVxSVRWZXRjZUVxU2hNTEdkZWJjYmlINE9FUFd5ZzBTLXlEMnFVMFBGQUFJLUp4QlVtSlJnZG5QbXRXZGFYb2lwZ2FQcmlsWmlxbGl6c2ZLOFViczNieXZXTGVFRg?oc=5",
    "published_at": "2026-06-17T07:00:00+00:00",
@@ -663,47 +395,6 @@
    "substancias": []
   },
   {
-   "title": "Do campo às Big Techs: Tifton 85 leva produtividade, inovação e sustentabilidade de Goiás ao Vale do Silício - CompreRural",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYjRkY1kwc3NkX3RyRmZZV2NTTjZmbGVzWDlIbG9CMkRUNm5tOWI4X2hIZ3JlMFVXaDBqbG1WN19EbTRrNkJHeDBMaUxlbzVsemdIeVpMb3FzTlNFOUNEbmYtMmdXT1BCVHdKTkwwek1SOTFxYU9MQWpvNTdManVrS251YzY0SG51Rk9rd3hJLVQzZlNwRFQxVmJpT3RtTV9XQ2JKdGtkRFNib3M4Q1lHenZ6R2VjUEFHbXlsSXhNdmdvTEMteEdHYktXek9rRFJo?oc=5",
-   "published_at": "2026-06-17T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.526700+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Por que o duelo contra o Operário vale mais do que três pontos para o Goiás - Esmeraldino.com",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSdENKeDk0YmNnal9XekRSblVZNi1jTEkyUEVWS25WUWlWMnZZQjBObW8yRGJWX2M0dlM2dFhzbV8wd0xKd1hicUpvNlZvb1Y1S3VyOU5kNUxWVkNWbkdRMW5qMTZMc2M?oc=5",
-   "published_at": "2026-06-17T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.529802+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Governo estuda flexibilizar regra de compra de energia elétrica por distribuidoras - Valor Econômico",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOb0ZNN3Q4clgtSGhxclRwV01tLXA2OHdTamdNcUF2N3EzTlplaEw5Rm5ZTGpBaFM5aTdqcnpCWnZuLTk0bExueHZmdldsM2FxNFpwdVhxWDE0c3RLSXJpSkVpWnlrYUk2SzBWTnY1LW1UekY3R0R1QmgyMGJ1c1FENGxyWHRrSHNZRURYMVhOMnkySVEyQlNqUnN3RUdUeklpcEdGUDFIbW56XzIwZ2JWcnF0emNJdHQ2WF9ORlBKNFAyZ2Q3UUlwMHBrSlZjTHZwSGF0N2xR0gHkAUFVX3lxTE5BdUFLdkw3SFZFU3NTZGRaa2RlZzd1X1RmSl8xMlJWVFRRMDdSbGJnUDhuYnN5X29ZNFg4dURXaWRhVzJRcHhja2x3RUVneS1nR255UVRKM2o2bzhoQ2R4UW1FMmlMSjdPamgxV2FtVjU5Z3dWdzA0ek5VOG1QNUNCV2lfcTJWWGg4eHFLMHdWci1LQ3A0T0JfcHR5VmQtdThaYm9sQmFfN0htTmlnS1g0U3Q4MDV5Z3NiVDVJYkhHQ0pkNHktNDNSZW9pbnIyZUM2VERqZEFwOVdCczdHNC1NYVQ5bw?oc=5",
-   "published_at": "2026-06-17T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.422281+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
    "title": "Política goiana para minerais críticos facilita investimentos, mas pode gerar disputas com a União - Agência eixos",
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWHJkTDJqd3F4NTRod1QxQmc5TEdGcG1SZVJ3cnZHR3B1bE9ILWN6UkVVeDBubVo3T0VwNGNhbGlndi0tRlpLRGpGUjA2T0ZzNTF2R2M5eVFremJla3BGV0xWZjhUaFQ5TmdDUnB1cm0wM0tjaFZhbkN3X1cxSnRLWXVtMFo1alByeDRMYUd2QW10ZWQteGdpREtVcnFjem1UaVpqS0p4UUFaQTFCOWVMNTdlX0FDOUcxY2tZRUxQczFXTERaU25Idmlucng2dFdWRko1VW04bw?oc=5",
    "published_at": "2026-06-16T07:00:00+00:00",
@@ -730,21 +421,6 @@
    "substancias": []
   },
   {
-   "title": "Conta de luz subirá mais de 16% para 3,2 milhões de imóveis no RS - CNN Brasil",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPczVSYmFoc2I0bVhOTVNNWFVrc3FUQ0NNSDJvMkhjZElZcnVocVBvVFhacEM3TzdiRF93a0NLTVJzRktlLTM2RE5SRTZBeFZJSl93X0JlMzBmSWxqVUNkZGstWlAxaTBWYTl4UEc2dTA3dG1YT0ZpYnM2N1JUUWZUMjh0UWJQaXBsaUVsUGFIaFhZRkJZVnR6cDNsV2tzem1M?oc=5",
-   "published_at": "2026-06-16T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.386371+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
    "title": "Royalties da mineração injetam mais de R$ 477 milhões em estados e municípios produtores - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOY01tMVdNckJPV016QjhsQUZUZmRwTXV5VE9jOUdsYzJZSE5RMElESVlNeEFFNWtvOEJCeVpMNm5mMGxKS3B1NXd3bnk1WVFJZk5zd2oydXZ2VnhJSlJ1NnlhQXRhNHJVTzFOR1lqb1c0RmRKUl9naE9LZnc4bzJXdUxuZ1hhNEZOa3h0Zk4zalNTTnNxUV9IeGdvT2RXYnZHNkJiOWxUQjZZcndaUnVjRHhmWEFLMndaSW9uLUx5U09JNF9LRVhiSEV2dWxfTjg?oc=5",
    "published_at": "2026-06-15T07:00:00+00:00",
@@ -754,32 +430,6 @@
    "setorial": 1,
    "fonte": "Busca · CFEM",
    "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "De cachoeiras ao Vale da Lua: piloto impressiona com imagens aéreas de Goiás - G1",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOX3dnM0o0bV9OUHB5ZFVrWk81cWVBYVMwcl9paldiNXZXa3MyQVFBMHVNMjRpUktqcEJkbTJTODJGYzc1TjVRel9SdmtVaWNoYkJ3dmtLRk05c1dvS2ZwVWxud01Cc2FkSVp0cExVQUVhMGZCSHNmck9yZnZINmkyVVE4TEd1akRxNTlkLUlfX0d4M2xhVVZjcEZXWFdodzdiT2JyVnNhdE1zM3dXRWFPZVh4ajhyV1BCQkw5NzRmYkJzTWRjOXY2NU5B0gHYAUFVX3lxTFB3cU1TWUZuS2IyakFSRkpJZGVpZDhaY2ItbEZ1TmRUWkZlR2M2YVA1YzZJd3dJS3hOLTRHaHgyc3N3SHlFbFhrVjlyWXg2T29RS0RLZGw2X1NGSG9UZnk0OHJ3eXMwTUZCM3A4MHJ5ZDA4TjlCRXYtQ2tOZzFlZUxFeWxzaUZFMlRPVDI0UXNwS3o4bnVlUXZuU3BJZUw0SG4tTldyRWNRdktYXzdaYnJhRGllbE54eTk3ZXUyX3c4TTJjWXlHY1htNW9CLUdRQTBrejkyWm0waQ?oc=5",
-   "published_at": "2026-06-15T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.504221+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Brazil's Vale plans to invest $2.6 billion in decarbonization initiatives - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUVAwcWU5dzRSMGZ2R0ZiS1FnR0VLRjI1dXJWUEotTjB3VkNiNlhDTkxkekItRTB3bF9zenpyZDFvSnF0WmJ5NWVmTllwQUM3UUs0OUpRZGZLS3c0NjlIdThMNU9uN0dTOW5fUnFSNG81QkhJUk9DenEzTy12enJzZjVRek1ZdkFRVzB6d2d3QXVNZG05RVh5UllScVdMRXZqdElxVkFkbUNjMURQeTVYNmc3M0Niazg?oc=5",
-   "published_at": "2026-06-15T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:07.578600+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Brazil mining (Reuters)",
-   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -825,32 +475,6 @@
    "substancias": []
   },
   {
-   "title": "Lojistas poderão liberar funcionários antes dos jogos do Brasil na Copa do Mundo; medida vale para comércio em Goiás - Jornal Opção",
-   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQS2ZVOGdORWdxNWJENjkwMXlHTld0VzNvM0E2SENCbGlhYjBCSzNWNDlIRHpFQi1NY0R3UVRkQkJvZElzYnBkZUFVMG40ZC1DOS1MdDJLQzNFbm5jamhLa2pCNzdneXRMd3FiSlpiNERHTjhLWmF5NDBjb3BTUmYtOFY4VWlUclJkd1dxMEpvc21JZ3NITEsxMkNvNTVVTHY4R3dGU3V2QUxwN0pGNmRFTnktT1VWX3VWbUhWNnplUDA3NkVMNUpxM1pLRTFxSDNfQWdVSGl2cERVX3lKZmpqWWUwY1ZVb1VHUWZ0U0dlVzhLeDUx?oc=5",
-   "published_at": "2026-06-12T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.530560+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "AGU se opõe à ação sobre venda da Serra Verde no STF e defende Cade - CNN Brasil",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRE82MzYwMjBWcEZJQTU1N3FYOTNUY29CZ1JBZmJ3TDhMemVoUHc1N3BnT1o1SF9QWDZrZ3k3RG5KX3FIdHRDbW41WnM1WXd6NFU4V0djdjNSREJDMDFEWjVXd1FXLTNBcWYya000elZleVlibGJCQWpUQllva1dkN2JwYzZYMUx5dThKbWxpUHFmNXlRYTY1NHVEN3dNVnlTOVZ4aWV3?oc=5",
-   "published_at": "2026-06-12T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:01.807010+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Enquanto outros países disputam os minerais da energia limpa, EUA olham para o Brasil e prometem buscar financiamento para projetos que envolvem terras raras, lítio, níquel e grafite - CPG Click Petróleo e Gás",
    "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNcXlVamJrWm1aQk1Fc2gxSmR6UjFjbzhiT3l2SlpMZk1DRUI5MVlGMUptMi1ZRUE5LVpMelBvbmZZOGY2RlZtQlFZak1NQmZtTkVPOHR1Rjd3ZFNiSVZ6cnBCcGNoZjBZOXZ2ZWg2ODFiX2FuWE15RFFPc3NMdW5oRGRiUHJjV1g4aDVRdjI0U2JEQXEtbDBXR3RZQV9MenY2SVM1YjRMRFFsVU8wZ292RFVzaWF5WUJoU2d0d0JYNEQ0X2VGMllQWjVQRi11bG40YWFRcmxkVHBQOXhhWEcwR2tsY3l4aWhhejh0RkNpMnlfa0hZd3ZpaXZpOUM2bW5UNGd1dW14WGE3TWt1ZnQwV3M4aUlNeE9LdWRPRy16Q3Q1c0E5dl9YSmRqdElVY3p6Zjl0bHVNSTNTaTktb3c?oc=5",
    "published_at": "2026-06-12T07:00:00+00:00",
@@ -865,21 +489,6 @@
     "litio",
     "niquel",
     "terras_raras"
-   ]
-  },
-  {
-   "title": "Aneel eleva previsão de aumento da conta de luz para 8,6% em 2026, acima da inflação - O GLOBO",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZ0hTcFB6eWwxYnBUeENXejNlaW9ud0JGMkNFSEVQci03bWpGTnlkX2FJanVXLUhNWGJDM2hDMnBaQUFlTlMySTNTRTBpZmxkLXRoSnZ4SHlXQmpOV1hGYTg5ZDVEdERnZV9aZjZsd0NFbjZ4Q053Yi0tdE9BbnRKMl84Mldub3I5cXBwN1B2QWxyM0d0MTdhdC13THdubTM1WGZVclRSZVlSWExZY0kzZk45YS1zZEtRYWVCRUJzZUxJSktqcHZvMFE2WG5yNkFZdTNpcHFyNXplQkFpSG03TdIB7wFBVV95cUxOd09EOTVYYWlXZzhpVG43aEpZeDJxUl9mMDNZNGhPbW1DQi11U3NNTjZIbWpoM2UxYW9UVW9KaElteUlPVVV5RXBRbUJYbTdwVzE2MEtNUDBJSlFmSFF5c0RySEt4bldZYVJ5UVhDdXRyUFF2NzdJYU5GSERFR25IY1Jod3Fnb0F5ZWtJQW9femFZOFhEMUx6Sk5CMjAtcC1McVMxeU5fUzBpYUpKNDROT2hUemhRdnZYNGllTlJ4elVwSmVOU2xDODNyYlpBOFJXVFlXRjZGMlF6dldyMmNOaHNoT2dnV0V2T0twTnlESQ?oc=5",
-   "published_at": "2026-06-12T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:49.219759+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
    ]
   },
   {
@@ -911,45 +520,6 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Prefeitura de Garopaba autoriza obra de R$ 2,7 milhões na Estrada Geral do Ouvidor - garopaba.sc",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWTFhVXpzckdJOVk3T2UxZXNLamlIVmZTTXRodFdzMVhudHVscmVLWkpyMDBsTy1ZSU4wLUtjWWRGYnZZSW5pZVAzQmJEZFBpNURNSWFRMGZ0REkzSWRGR3d5cWd1dGk5ZHdYVVU0eFFQUlVubjVpUmp0M0hqeUdDb3AzdGJsZy1m?oc=5",
-   "published_at": "2026-06-11T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:01.058472+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Catalão e Ouvidor",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Serra Verde ajuda projetos ao definir preço fora da China, diz CEO - agenciainfra.com",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYkRXbEEydy1EckxxZXlNLXZ5bjlMaDNTbWFUb2Fnai1OVnR0b240a2VBRnpNaHJES0tKOVBWZ2d5Z2wwenZaWUdNd1NEYXhVaW5YdG5wdlJqekl1akZjX3hZbW1kSFhxLWl5bkpSamo4TkxMaWIzcUNVWFR0cnFtSDB6emhhOTFZQVF2R3QtUUhkVnlfQkFzQi1TTjU?oc=5",
-   "published_at": "2026-06-11T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:45.879885+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Decisão do CMSE de manter modelo de risco frustra comercializadores que esperavam queda nos custos - Agência eixos",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOE1WLURzU3ROU21ZMlV4M05GaHJhQnFPOVZjTi1Kdm1aTHhxUGtBdFViUVRaQm45SzVkVU1IdEhaOUJYdHVtendHelVrN1YwWUZ1UHVkWG10QmxOMVpJS0drVmplTjBpa2VyTTY0ZGNSX05DMXVSY2hDOWZlTXgxOHBldGhQcHplTnpKckxfZlVKY193aklwUE5LM2lvRXFQQ3o3dWpneXlZS3YtZ2RXUGp6eWVfdTQ1enRZSHJuaTNlVk9BSXZ2bTVNbFNMT2VRUmtn?oc=5",
-   "published_at": "2026-06-11T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.433964+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
   },
   {
    "title": "Terras raras: governo publica decreto com marco regulatório para impulsionar produção em Goiás - G1",
@@ -993,84 +563,6 @@
    "substancias": [
     "ouro"
    ]
-  },
-  {
-   "title": "Veja como chegar na misteriosa lagoa “sem fundo” de Niquelândia; vídeo - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRjlFRTNnRktXa3V4Rm1hV1lUMEZTeFZzNkhjTWZLNmRBQ0pmVmUwdlFQUTNFY1dreFd4c0czSDdLTUxuU25FUkJPNEx6ZjZuVTdRNkoxdjZma3J4MlRHa2pIdzV2dFRiOTd2RGNodTFFbTB3RGlUcm1RalcwM1pqYjlhQlhYS3lzYlpQNUFUT1ZtODBwdkkyTjJBYWdCR1J2ZVZtSlJ5TkdoX3dHMlE?oc=5",
-   "published_at": "2026-06-10T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.569372+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "PREJUÍZO DE R$ 1,2 MILHÃO – “Parecia cena de cinema”, diz dono de loja de veículos invadida por caminhonete na madrugada em Niquelândia - Excelência Notícias",
-   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQZjh5UHV3a2VpcDh3dzJPVlFvRWVFSENaSmVuOXZLS2JmeGdheGpDQldSaFJaRnVTd2J3N3lYVC1yekZtZHdQdzVISndtc29LUkJuY1hha1QzcVZZUXpiYVJPcldGbFpRdzFjRVlFUjV4MzBrMWQwQlNoMzdNc3hnOUtORG1lNGRrVXk4V3duVWM5dm05RUx0UWdsbS1ENmVJZWZnQnBmZFlvWTRZQmFFdk1qQTZxVks3S2V6M3B2N1dWVFQ1b2pKa0tYbldKejJsbmZfRENiZ2RaOW8xeUZsaS1iUUFSV1BBY3pVUXJUY0lCMlEyWTVLRGRWaGxxalUtRkpCWg?oc=5",
-   "published_at": "2026-06-10T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.567264+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "É NOSSO – Escritor de Niquelândia representa o Brasil em festival internacional de literatura na Europa - Excelência Notícias",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVi1xbHY0Q1R4Q0pwWEg1ay1Oc1JZVmxZNzB4cVZEUDJjb3JkT0VIMDdUYzAzaktVZ1U3emg3cldIVEowX21DTy1PM1YzNHRwcEVkRmhzQmdZSlNka0tHdVdycjVWY1JuZ2lzU2VEZTE0VnBEQ1BwR3V2Z01qUUpqYy1HRmJmMmlnM1FNZjNibTFMaWJnSkRDMWl5NjdFT0pSOXhMRnBYLTZfUU5Yci1KNktwNGJmakFKYmZtSHRkX2hsVW56a1plMDVjbWJZblVTbGtuMnltRlJNUWh3NWlkVA?oc=5",
-   "published_at": "2026-06-10T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.581326+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Condutor de Ford Raptor invade concessionária e deixa rastro de destruição em Niquelândia - Folha Jaraguá",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVUNxYXRQek5QTFk5RlpMdlZSX01Mdy1Ld1RJSTJVOFRjbWRZUi1JYktrb1NlNDBiU3F0dGhrUS1kX1lfTzMwOVAwNnl1eWo3VWp1RmFOV19KS0lYek9qVkdPbTJ6cndMVVNYVy16VE80Y3JxSDJJSU1oX05QUU9SSXYzV1UzZFFhd2k4enFjUmYyd2pGMVpMSGFNVzhPelVVNmdFX2U2cm1GSGZlX2VpUG9HS1N2QkdBQnJLeTFKNE5NV0xqc2tsU1ZFdTd3MFBRNldFZkpEZk5HdVRnUThUQXNn?oc=5",
-   "published_at": "2026-06-10T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.627407+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "CNTI e entidades ajuízam Ação Civil Pública contra mineradoras por danos em Minas Gerais - Hora do Povo",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOFN3anhzVmFCc0RWRTlkamt5VTJJd2RIRkJHSklGZ21rNUkteENjX3VhOU5nSjdwTWhOUEFReVVpbmlDQ250Zkp0b1J4dkZqNFRPMV9EZUR2WUVWRE1ZeW5CdG95TlZiaDdvdnJZb3hqWVNBZHRva3otNng3WVlMOThzNWstN0pUSUlxUHRYRjBLNzF3aU5GUllOM3ZQR0w0MkNfS2FlaXVaSmJXZVZuN2ZnM1U2dw?oc=5",
-   "published_at": "2026-06-10T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.867288+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · CFEM",
-   "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Caminhonete invade revendedora de carros e causa prejuízo estimado em R$ 1,2 milhão em Niquelândia - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdWp1VU9weERTRFJnRkF0NjFLUTVpYXJjbVVaRjJGV2lrZENVeEsxTjVsTFAzcklMdW8tZ0RIV2hPN1BzN2FlLXhMNzRXZzl0VlF6TDlBQjJBenM1bC1QNU9xT0Fjb3NMUzYyaklsU0x0QThicXhUTTBNRDJWMTZ1dFlwUDhTLUdyT3FDVDB5cUZwelh5RmxLU0Yxa09lWkZTTFlDb0s5X3VfTk5FSGYtNEFiZ0hWeWxKSUMxM0VaX3ltTXBWcy1zRU9pUm00N00?oc=5",
-   "published_at": "2026-06-10T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.635046+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   },
   {
    "title": "Goiás regulamenta política de minerais críticos e cria marco para impulsionar cadeia de terras raras - Estadão Blue Studio",
@@ -1161,19 +653,6 @@
    ]
   },
   {
-   "title": "Por que a variação no preço da energia tem \"quebrado\" o mercado livre - NeoFeed",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLTB4V3JUdmV4dUY0V1RPOXFTSlg4MEw2ODJtdUlaR2tzM3Vjd1BWN05hclJLUFBaNVczdGR4VEtYZVIzZWYxcmNrb2d2aDNna08yYTRzbUJZcmtFR0VtV0Q0M0hpUlEtTmFJbTg4NDFvbW8xZ3FBWVZudGtEYnNvdWFHQkJ2RGJvU2VtNk5KR2tqUGJyUXN1b2JqY25YLUJsQnc?oc=5",
-   "published_at": "2026-06-09T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.389755+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
    "title": "JUSTIÇA AMBIENTAL | Sigma Lithium reverte ação em Minas Gerais - Brasil Mineral",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV2NKUWh4OFlVbXJLUjJiUHNpVTM0cHhaN3hBX3daeHJpLW1KT0dzQVAxOHRUQ0lOdzNvelhQRHBVYkwxQmtEX1UyYl9Va3RRWDByUmgzNjBvNlBJQXpsUkUzdV9xY0lxTFNpaU5yQUo3NkNjb0E1V2h6X1JDcGRaZ2lzSEw1NWs?oc=5",
    "published_at": "2026-06-09T07:00:00+00:00",
@@ -1243,45 +722,6 @@
    "substancias": []
   },
   {
-   "title": "Silvânia receberá terminal de linha de transmissão de R$ 18 bilhões que ligará Norte a Goiás - Jornal Opção",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRkp3LXdDR3dic0h1M2ZDamZybmNET0dLaTlWdDB4UGtFVk5udmFIZUVxZjJiSlpuNTR6bllNMEVTZ3NUak1NZHFNcjRXQWlGWlU5OWxob2dNSU96N1dPR1lhU0hZcmtiS0Q0RHNGbUhnZFRieUpjcHRqYXNNWllkMXprOFJHYXFhZTZBTzhPSHBUZGdXUnJiSVZyVGtsT2E1U2lKeENRMEFHUDB4ZDZIb3FOS2lfZnFRSjExMGt6TWdFeExGUnJFRm5zM2MtWm1Xc09Bb1FtNUMteWNmWW5PLQ?oc=5",
-   "published_at": "2026-06-08T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.012250+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Ministério de Minas e Energia - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTTA5ckM5TFVFSFZaNk8zY04tdWh5ODNydExhbmRWWnVRZGszTVQzem80QkhyMHpoRVYyTk5oMjEyeW1ibVRRYWNYRDBZSVYwQ3NpQ01XcXRXR0NxdklpdkdHbGtoSkFVMlFHZV9RX01DMUhpQkJfV2U5eUZKTHlQdUVsb3dFeG9XZnBEZ1liTUh3Rk1wTHJ3d191Q3dkUG1ZbWlBLXQ5WUdZZXlxQnFoRFVhWDZuZ25oZEhJdHJvNFZ3bTd5a3A4?oc=5",
-   "published_at": "2026-06-08T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:50.059228+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · MME (site oficial)",
-   "escopo": "setorial",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Niquelândia mistura fé, cachoeiras e tradições centenárias no coração mais autêntico de Goiás - Estado de Minas",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYi1NMGlSQ2tzejg0Wk5hRGhHblBxeE5TRUVyd0JpUWd6NTVCTThGeDZ5T05mdERULWZtZmVBcjhibUZpZEFKY1BZaTAzNndPaTZqelMyTW1XMG13a01XQXNsVkdsRkFoQzEyR05NUlRpT1dlM2RmUll4VFlWU0cweGhGN2FuM2RMNGk3R25uZWM1aHUxclUtQ0RuWGFOeWpyZEI4aFhlTDdJTFV4RkktTnhjUmIxbVczcHJtcmdvanN3ckhLc0RudVFsellHUQ?oc=5",
-   "published_at": "2026-06-07T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:00.612498+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Empresa dos EUA compra mineradora brasileira de terras raras por US$ 2,8 bilhões - Jovem Pan",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSE9mWUZEbmVqX3pHZHpXRGNydFRmMW0tMEJaX2JUVk02c1ZEZ01mX0xJSGp6XzVVUktNM01CNXplUVRSZ2RJN3p1bHR3ODl1OEZwUzgtSVVJQnl2WTg3S3g3N3NBOUhPT3lRWk9Va3Boa2tZa1BEUUF6VURPRnlFNE1qdE9nUDgtR2pueHp1MkJPVnM2VW1acmFrRnRVN2NBbXhfUnhPcDRsaXJxUUE?oc=5",
    "published_at": "2026-06-06T20:32:42+00:00",
@@ -1305,19 +745,6 @@
    "regiao_termo": null,
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "IMPASSE – Anglo American aguarda sinal verde da UE para concluir venda das plantas de Niquelândia e Barro Alto - Excelência Notícias",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNaFVkeFNuVkgxQk1OZWxFY0JtTWtrYmFZcXpuTzdUeFF6RWNhSjdEUXlRNVN6SURxOXBUbnZsT3R5aHkxOThlbFdSdHkxQzJLLXI1cUxDa2FqUVF1STJJOUlPbF9oR3l2bFNyTXFnN0ZGdGJGX2Z4YTB2alBhZVV4Tm9GRGJ6RWpuZGlwdEMxUlRCR01Ib0FlanBaU3laZkg1YXFFYkw2azJQMmlUSnhOc21GSzExVzBkS0hxWWVQUlhmWGI1QnZFbTZrdzVxcEJ6SUxFUVR6bUN4WUJNdVZTcFBuYkkzSTFXdkE?oc=5",
-   "published_at": "2026-06-04T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.698228+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · níquel e nióbio em Goiás",
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
@@ -1349,19 +776,6 @@
    "substancias": [
     "litio"
    ]
-  },
-  {
-   "title": "Romaria de Nossa Senhora D’Abadia do Muquém 2026 terá 15 dias de celebrações; veja - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbUhnczlRSVhiamtUUlhuMXhQcEhwOWdzUUUxMXZhZXF4VndaeGRtV2JvTzNzdnluSG54V25EcW5QLW9qS0J5aUM4NEdyUnVsdUdrSGZCUmlHbUpNMDRPTE9zX2JzV0p5WjlKWmJjWllWSGx3el9GQ2g5bVhVSW5IQU5aZ3ZtN01IMVNRMDhRSHpOUHc2OTZxNGg3WWkzSW0tV2tQa2k5QnJsR1c5QTgzMg?oc=5",
-   "published_at": "2026-06-02T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:43.932287+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   },
   {
    "title": "Lula cumpre agenda em Catalão, cidade rica em minerais críticos - Correio Braziliense",
@@ -1401,49 +815,6 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
-  },
-  {
-   "title": "Plataforma de Gestão de Recursos Minerais (PGRM) - Arrecadação Perguntas e Respostas - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOb2lsLVZIdERIbXRwdzNQazRkTGk2NlYzZEl2aGxMSlQwNGFENjQ3QmNhNzBNYU4tZTdWcklvZHVzVXExaVRrd2lkMG1sSm8zX095dUR4SDdCQWxPTlBFaG1nOWZCRGJkaVdvOHlIUW5BUmlwS09rMnV0SU42cHNZNU1YYlNpNkRBOF92bm1JbGljLUdFMWJRdGtuT3NQNEJDWV91ZG80TTdMRmFBMVkwSHNGbmM0T0VWZ044NlpheHJWZS1JVEQybVZteC1QeklnaHR6OVFuNXdEdw?oc=5",
-   "published_at": "2026-06-01T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.229358+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · ANM (site oficial)",
-   "escopo": "setorial",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Consumidor pagará quase R$ 1 trilhão a mais na conta de luz por decisões do Governo e Congresso - Canal Solar",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSUtPRXpmWExucldDX1FlSmtQVG9ncUg1ZmdYUk5rakMyM24xMmpNNEtiMmlneFF6NFhtUUZ5NE5iMEFIdUxDd0UtX1JGTHVmdU5VWFZ6OVg3b1hoel9ST1VxSWUwSzRNRnFNX09wZGZyTXZvbWphV3l3MzZyX0pWaTFsYjhOaEtiNXc?oc=5",
-   "published_at": "2026-06-01T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.377958+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Lula 3 e Congresso adicionam R$ 985 bilhões na conta de luz - poder360.com.br",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUDZKUFB0R09BTEFNaklkYjJHdTVtN1dwNkpxZ2tUQjZrVlRNakpoQ0JNTF8xc2JaaU9wUXA3c25GMC05alg0a3p5eDhNVzNVeUJ3Q2pDd05xLU96eHVBTGxFblNGTVVuaFZXeFhVbXVfNXd2MmgyZFJYUXFrNkkza1lYbXZ3ckJJMFR3NXBlQnMwdzhZd1BBd0p5NU9tNUU3QXlKeQ?oc=5",
-   "published_at": "2026-06-01T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.429352+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
   }
  ]
 }

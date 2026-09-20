@@ -1,6 +1,6 @@
 {
  "mes": "2025-10",
- "materias": 32,
+ "materias": 12,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - Diário do Comércio",
@@ -13,58 +13,6 @@
    "fonte": "Busca · ANM, lavra e outorga",
    "escopo": "nacional",
    "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "EDP arremata lote em leilão da Aneel e avança em transmissão em Goiás - EDP Global",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNDVyZnEtRV9FaGw2c0QwUnl0aUJWSXZteDdHYWlVelREd0hkbFpyUnNCbWJYVjNMWGtCVzdTSWdDOElQWXd0R2ZRQ3Qtd0dTdGZkVEd2a19XYllqdmFmajVsczI0bUZUY0ptVmpUVlc2NENscEkzZnNQcFN1aUdjTklVZ0s4TXB1NmYyRzYya05ldzlnajR5bHZNa2N3Ry1DdlVYdnFEZEQ3Nkk5dTZZS0hKTQ?oc=5",
-   "published_at": "2025-10-31T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.007962+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Investimento de R$ 5,5 bi: confira vencedores do leilão de energia da Aneel - infomoney.com.br",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWndIU2V0UjNDVTJVUm1NRU56a1MyX1RKVDB1RU5kZHdOdTMzeTBoUHVmTDFpc0EyYml4cjIxaXFiMUdfdHlERmRZTjlEM25GRGs2SWhuX0NaampiUjU5X1ZMemRTajBaX245U0RGdWM5VjZJNmFDRnFOSkt1T2N6dHJBOUt4TE82ZFpIRmswQUdBUnNQWFZHemtYYzhRWmlvODU2d2xmeDhMdkJ3Q1g1Q9IBtgFBVV95cUxORlZWcXlQRDBGVl9hSF9BbnlOdGRxY0pOTV9WTXZKcVVBMDU0RGxfR3RkaUlFdDM5NC13S3NFYXVDZnBsTFRnX0hzd0lDc3hXZW1wRkl5Z3U4aWhpN2pRbV9Gb2x3RjZFMGhHY1RkOUJZWHZaRWljOUlxNGZEYWJOc1h5U0tTbDRicC1HdWdXbS15V2xKc0dhWWZxRTJZRmdlS2Y0M18zQjhQNlQ1Zm9rS01GNzBYUQ?oc=5",
-   "published_at": "2025-10-31T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.018025+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "EDP leva lote 5 do leilão de transmissão - MegaWhat",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN0d0UjZsUWpqRWpsa3R3amsyaXlNYUtzR29lOXRRNktYZjBaR3F1T0VhUkNZTFJDVHhLVFNZamVmUkdkZDI0aVdCZ0hXTURVVEpLX2FZSGlKYVpEREhIM09XTU40eklXQTZ1dlhMM3VQeS1JX2ZhMFcxUUxBNDlxS1pJZw?oc=5",
-   "published_at": "2025-10-31T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.019851+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "EDP vence lote de transmissão de energia em Goiás - CNN Brasil",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWm8tbGVIcVFoTjNlY0l5cTlrNWlfRUwxSTQ1MHN6OGNwdGtFZjQ0ZzdXT3o4czJfQ3R3anFlUTBQTGJ3Y2tEWHJ3cFNhdHJFLWVBcUlIalRwckZUY1BQOEkxSi05eDNRdktreEVfQ29IMld0Z1V6N1dHbXlOXzlmTjRKVmd3ZmctTUpKT2dEZEU5Slp6anJ2NkFPU3d0Wl83RHA1Z21B?oc=5",
-   "published_at": "2025-10-31T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:49.615202+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
    "substancias": []
   },
   {
@@ -81,32 +29,6 @@
    "substancias": []
   },
   {
-   "title": "Nova resolução moderniza normas de extração de recursos minerais para obras públicas - www.gov.br",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZFdCT1ZmX2ZCc0hNY1FwR2RpTU5GbzZZOTVvbmJhb1hoQUdKMmxtRjg4dnhIWVpBN2dOWmZ1NHNGTE8yZmM4VFRIRnJWNERvSVdWMFdOZXJvSGlZRHR1eVV3cWM3eW1DSUtfYkdSUUxsalY4RWdkWHk4dUs2cGFBeVZJdUtKbUMyZERIZEJ4ZUFKazk3SFVwcmNhM3c0R09jLUt3bG01YnVGUEtGcERrUzJ2cmFrNF85M00xNDRuRElFYWhIVEZvdnNzdw?oc=5",
-   "published_at": "2025-10-30T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:47.365848+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · ANM, lavra e outorga",
-   "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Conheça o condomínio de luxo em Goiânia onde moram vários famosos brasileiros - Casa e Jardim",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZWttNkR0dktnZEhlTzQ4YVNudy1hcnZGTU5hYlBfeTdNclFFSGQ3UnJ5MTlHaTdqd1Z6eFlySEZOV0VRT0FtTHZDckpYaWdWQVFnZnVjN3ltdWJIMHpRTHlnTXBFaFFsSmUxeVotRm5HMFdEQk1xd0Y2MHh4S05SY3N1Y0Q1NE1saTd4aGdjQ0NzOW02d2xxejUzMVN5VG9ZaC11QjJUOVFOb1pKQkh5ajhXTVVRUUtvb2Fab3lkWEMzOWVfc3ozUjM0RHR1UlE2ZENBakVxeEt3LTZZSU1wTWR3QmRLR1VBc2fSAfgBQVVfeXFMTVlKclNNbHBXR2Q5YUtKOWwtWnd5b2VTcDNNOV9Qc3NYQXVuWktUS1N2QWhpZW12elVjU3E4Y2dFMzUxY2FfZTNsVkMySExLVkZDNzkwMmJhbll4S0twRFdiTmZqOU5NUDRSQkdpNVk4S3FjaFh0aXV3dGYtYVJHSnltbTEySFdDYWprdmpSZG1qYkFpQkxId1E2SUFUZjdQRDNJYTRLaHBHWHFhOEQxcmx4ek5NSVBEaFZYbE1NaDdJdmMwZHpWVkthNFhRV21NcW9YclRvVXhjVjBJRDRnR0tGSGtyQXlLTFM1SlZPeGc3SGo0YjdXMVA?oc=5",
-   "published_at": "2025-10-27T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.547147+00:00",
-   "regional": 1,
-   "regiao_termo": "goiania",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Após cinco anos, ANM aprova expansão da mineradora Ligga no Pará - Agência iNFRA",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMk1tTWxGWDdBVnRoQkdyTUdiSlRURDk2c0UwRVFCbVFXQ0cwME9wMW5sMVNMU2VvUlZ4T21lTE5xWERTR0dycXJsSFhJc3lESHJpaEdLSm9rRHFITVlKZjZRQnV0MW91NVhyQjd6bmRrdTdud1F4bkszeVdmTUlNd19nQmFUT1kxNWVNb3Z5akR3TEhnYXF2NlJR?oc=5",
    "published_at": "2025-10-24T07:00:00+00:00",
@@ -116,19 +38,6 @@
    "setorial": 1,
    "fonte": "Busca · ANM, lavra e outorga",
    "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Governo de Goiás projeta duplicação da GO-164 na região do Vale do Araguaia para 2026 - Jornal Opção",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQX3ZSWDRXNE5jaVNnY011UXU5U1hCOEt1c3E3blZtS1BEanJEd080cXloSnJET2FPRi1RdnNBc3JHcm5JNnhZRUcwTUZkNFlETUlUV2dIb0oydk1HcjVlSk1xcVBQWHZZS2ltdUg2VUp0VWZrcGFrWTYwWTQySmpNREdrQW9IeHNYaS0yVGF4X1hJTkZYX2dya0lUZjVwNC1ycVI4YlhqYU5fU0Voa1dMSVRxb3JFbFhDZDNlMElPTkRncWxnaHdTMC1hMkhkSVVZbGF4ZnJCZlc?oc=5",
-   "published_at": "2025-10-24T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.543154+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -159,45 +68,6 @@
    "substancias": []
   },
   {
-   "title": "Âmbar conclui compra de termelétrica em Goiás - Agência eixos",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTG1zSGpuX2todXNmUUJJaHUxZ3JMdHJsY0hKRGh1aU80eU5xYjVyNzhtMTk2X0htVUxZbUVaRlJGYVZWSi1CaFlxODYzUWYxRmw1Z1VIR2JvVDJ1RHBRRUNMZ3NZcm1iQmRYQTR0TEdoQzM3XzlabU92YkZyeUhtOGtISktDbHNFT2FtRw?oc=5",
-   "published_at": "2025-10-21T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.015891+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "Âmbar Energia, da J&F, conclui aquisição de térmica em Goiás - Agência iNFRA",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVGZyWm9HNUpUS1A3bk41S1dKLUZKLUJULXU1SkNYTVUxTXA0anl4RzBPWEg3WjA5N01IRm9BZnBRbFNHRTItS09rNmNIYmRwSVhCRWNKZ0FOSGhkNVpSMHEwaFlJYnd1aWhYM211Nk1CSHdmUWhBeFZjRU93OWVuOXNrdEoyYnY0WmZQZDlnaGhnQQ?oc=5",
-   "published_at": "2025-10-21T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.016543+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "De maiô, Letícia Spiller mostra belezas naturais da Chapada dos Veadeiros - UOL",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPLUE5aVRQSTBRTmRPV1diTVI3RENaQXZvZlhaMEt4NkVXRWtaeUt6bDRLbnFqVkZ1MnYxZzYzS1NsSmdfT3V6NU1PV0VvRFcteGVaUEVRT28wUlE5cmJGMzdjaDZjVzd2Q2REYTlTSnZkR1RIRGdZejc5dTU4b093S0lHSHEzV2E3QzFYTDlBZ0lMcmtZLTdSZDJ3?oc=5",
-   "published_at": "2025-10-21T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.545506+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Novo sistema permite acompanhar processos minerários em tempo real — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObW1HSjUtRU9ELWRHUnh6SU5UUE1PcUdHMVBUNVo1bmtOV19qYjdlWnhER2g0WnRsczFMOG9wekhkMm9jZThuc3c5UFN5OThNUy1VTkNNWGlsaVZhSUdUcDJsLU1OSlFBazdrV2FYLXBZQldSZml2WThJX1hrbVZoUEk3dVYycHdfQ0JvakFSVllCY3ZFRWJGYkhfOHhoMms1djhHSFFTaHExd3RXczRjTWRfSQ?oc=5",
    "published_at": "2025-10-16T07:00:00+00:00",
@@ -207,84 +77,6 @@
    "setorial": 1,
    "fonte": "Busca · ANM (site oficial)",
    "escopo": "setorial",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Brazil eyes financial guarantees, tax breaks for strategic minerals - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXBlVWxrWUFvUVpFNFdxd2VDZ2FrS3hZbTRxSTNyaFp3di12cjk5NFZ5VmpNQkZPY1pxZVVTWTFlV0hZcDlYSDR3UDZOdWtGNTV0RkN5V3NrQ2xSRzk0UXNSZDJ1YUJPUncwN3RpVnE4MWRqU2JXUjJ4dUlNZ2tSWmlIeEhHOVl3Z1otMk5ZeGdCcDQxOVMtRU5IZWFtZ3RPZ3JhSzFBOUU0TG8?oc=5",
-   "published_at": "2025-10-16T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:07.574904+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Brazil mining (Reuters)",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Anglo American offers remedies seeking EU approval for MMG deal, source says - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbG5abGZlNkVockpoNWxQRFR4cHlzd01rQmw1aElTMnd6ZU5jR1BMVGtZdjhXdFpiUE50UFNDM3dhLXFZNHRONVpsVVViY1pIYjdEVXByd3VVRVVSZ1haLWhOajhVY2J2aW41OU10U0ZVWnl2bExFeF83VDVwQVFZVmx3SDByUXZIWGJhWUFla3pQWTh2eVBUZ0FDNXFsWkRKYXlDazRxUFlQS0RlTTgzRjZQSzhsT0t1SVdYQ0Zac3ZyMEcwUEYyRG4yTVlDRGNJeTc2WGV6N21CRlFHMFlEaw?oc=5",
-   "published_at": "2025-10-15T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:07.567255+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Brazil mining (Reuters)",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Descoberta no Brasil revela ‘Vale de Marte’ com formações raras - gazetasp.com.br",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaXNpNDQ2eHgyYTZLazNkY201dmNvQk5rNi1QaGhoVy0yZk1fdnVmaVMtWHJDNHFkcWRTdXBnNmYxbC1OODhXRlJ0dkJfZFFXNUVSS1czb0p0b21mZG05WFdsQU5rSkZVdDJJNTUxS0E3NWkwblFxYzZXNkZtc1NydF9NNVB6R29BUFFPYkhuRnZiS05tOWc?oc=5",
-   "published_at": "2025-10-13T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:46.959852+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Cresce a produção de minerais em Goiás - Jornal Opção",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd0VhaGNpWDFvV2Y0UW1DdUNjN0k0b3QycmpBY0JTX0lMa0g4UXFib2lyZmFQbFJKbWttRk5mVTh3NzhMUTZBM2ZFNDZQVEoxX09uVi0xWUpWbUp1OHI3amczLXMtV3piZGlTTVZvcTNOQXFNd01NU1hVTEpENXhYYnBjemVmb1A1YklxVUgyVkd1SFVXU3R3Qm1LYW5tcElqRGNJcUVxUXBJalBudlNCdTFKZUt5Zw?oc=5",
-   "published_at": "2025-10-10T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.705301+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · níquel e nióbio em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Goiás esconde um ‘Vale de Marte’ com as primeiras chaminés de fada do Brasil - Diário de Goiás",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdEdqcmQ3a2ppX19ZX19EUGJVNDgwUERHWHVrU0NBeHNLakI3anVOWFR4U2dsR3FoTkZxOHRhS3luTnljTjFNSWZKSU5adU9jSDNyYzAzS2dZMFl6TVNNN1A0SGdlc043dDdsd2hnd1ZPc1N2bHVZTG52UkZya1FlZHFtMmFaZE5BOU1WQkthUDJyel9jOUxJQUZVSnVkVE1sdWpmc2M1OXJjVW9tVnhubg?oc=5",
-   "published_at": "2025-10-08T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.546407+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "CPTR Copa Vale dos Pireneus Trail Running 2025 - Pirenópolis Turismo",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUkpYWlZPZng4RnB2dHJIVzF6MXU4UTYyeXpkdXdJY2wyNy0tb2JFRkpuSHl1X0dlUlFhdXpJeGhnNFE5STZrZGMxMXAwT2VpZzlEd2RETGZNVUZLaU5XVC13TjNRQTFJSFpUN0NfZW5laFNWSk1BbjhVUHBsSGlCaDdvRDRpbF9tYjA5NEd3b1V6Z0l0aV9z?oc=5",
-   "published_at": "2025-10-05T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.549942+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -356,34 +148,6 @@
    "substancias": []
   },
   {
-   "title": "Governo de Goiás, por intermédio da CELGPAR, realiza leilão na B3 para alienação de participações societárias - B3",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVlFFX010cURpRnBRYTBjenVoMlN6ajlVOHFGTWRfdHp4cWswTmpJekJRVXJJYkhSd19SOUhIa0xiaWpJRDJUM3hzeHltZzBPUV9FVGZaTk9ENU1TWFp4X21ZUUQ5bUhfbFZTV1MzaWdOSEN3ZVRJTThkMlZRSkRfQW0xTnNqS2UySHZpV054N3J5OVVpYmxTOW1nUHhLbV9TNkRKeDNKZE5uSDlORnJoSlVtRzhqNFBLc3hxalRNUEQ1dUJwQjlWY2xPQlJwdWFvSmpFb24tWDdrT1lkdGRRTXNR?oc=5",
-   "published_at": "2025-10-03T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:49.616103+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "MME publica Plano de Outorgas de Transmissão de Energia Elétrica - Agência iNFRA",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRnhCUUNtRF80akdNeTlHbkU0d01KdHdKU1pMblY3MXY2MDIyZGJnVDVBU0l3c014ZDNaSHpHU3g4aGQwNTB1bkVKN0ZxcWYwOHBucjByYzlySDBkekE3bXZ6SEVFWW5nUldfUzhBMjJLSDRVQm9CUFBTU19sV3Nad1kzdU1Od2g4N1lMVXVHTnVqdktCaVp6UzMtR09pRk5ILTdhTU1n?oc=5",
-   "published_at": "2025-10-02T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.020655+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
    "title": "ANM autoriza Gramazini usar rejeito mineral para produzir lítio - Agência iNFRA",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNGI1OXVZY1ptTG10aFd2WVhFTU9CUnZzWWpGcjlseDc1X0VKZElGbHZHZ1VVZDFYQTQyeEo1TjE4TjE3MVZaaFVTT2o3X2x6cUdaMmlnbEhBYXFuaE5TMjNRNjVpN1FzVTA5M0FCVjNpQV9ZWGIxN1hWRHkzV0Z0ZzF3ZHBuTkdZWWItZWZRdVFtTm1kSk9ibmZn?oc=5",
    "published_at": "2025-10-01T07:00:00+00:00",
@@ -397,32 +161,6 @@
    "substancias": [
     "litio"
    ]
-  },
-  {
-   "title": "ANDRÉA VULCANIS – Secretária Estadual de Meio Ambiente detalha vistorias na Anglo American e CBA/Votorantim em visita oficial à Prefeitura de Niquelândia - Excelência Notícias",
-   "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPTXl0NDVRc2dxZWx5MUlfU2c0bWpNaGNJQldUV1BJRzJST3N3dkI3a1lUTGtvbXlQYng2V3haWlA2OE5BM2lTOERhc2NtYV9Rc3BPTlVTSF9hOHlvYU9MeXRLRUF0ZVBUZEszaWlWVG9sUmc4N095dDBWdk5nTjdEdm9Ic2JnSDBOTzdJSkhyVGNhaDZnZ1ZmVDRzdnF5aHNZVDZPcjNWU1d5Z2U1Z3pHTUJZN2NJY1FGM3RuZVhrMHNBb2FWWWVKNE5rVGQxVGtERW1mMmx3MGIwaUpZQkdXbUxMaUloaEh4cjNKaTh4WE56WDJhQXZQMVVjSFdydGRWREwyVGRWWGdWaW9ydGRSempjUDV1eG1WRUdtelVlWjZZNFE?oc=5",
-   "published_at": "2025-10-01T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.547923+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Clean energy glut draws cryptocurrency miners to Brazil - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdmROS0tjcjU1X3NpQ085WWJyVFlseFFnc0t6Q0V0RXUtcTkwUWVNeUVfRGxCWlBRemh5bF9LS2hKSWJjZEVQM2tNc0NoWllkM1pyQ0dmbmVwUG91UUt1TFhNaUxQTEZWYzQ0YkxhRGl1aVU1TTBkT2JvRlVMQk1jZy1UZ0VBVmRjRXVxcGlFS0NlYUZIeXlFX1loQThUVFZYUW5zbXVPaw?oc=5",
-   "published_at": "2025-10-01T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:48.695145+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Brazil mining (Reuters)",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
   }
  ]
 }

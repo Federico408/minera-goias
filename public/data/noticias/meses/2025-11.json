@@ -1,6 +1,6 @@
 {
  "mes": "2025-11",
- "materias": 19,
+ "materias": 9,
  "itens": [
   {
    "title": "Repasses da mineração ultrapassam R$ 1 bilhão em novembro — Agência Nacional de Mineração - www.gov.br",
@@ -12,34 +12,6 @@
    "setorial": 1,
    "fonte": "Busca · CFEM",
    "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Consumidor terá redução no preço da energia elétrica em dezembro - agenciabrasil.ebc.com.br",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVmlLeEhMbmVvVVJEVUlpdURja0RoN2FlTmlVSWk4bjVENnlvVm14MjF5TzdNcGJwRlphTGJjQkF2NmhfZDh4ZFNYYl9xbUZLZVBkYmxkbTJMWHM2TGtWZmZyd2FSMjNaMlZrdElMV2V3ZWZoQ2d6el92NmZ4OXRURHVENndrMHpJd1JUVk5XQXBob29xZUk4VkVpNFpqYUxWS1BreGZnVncxb1FiaHFNZHlENGJiVkw5eXNQVG0tYw?oc=5",
-   "published_at": "2025-11-28T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:08.380863+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · preço da energia elétrica",
-   "escopo": "nacional",
-   "tema": "energia",
-   "substancias": [
-    "energia_eletrica"
-   ]
-  },
-  {
-   "title": "Defensoria Pública de Minas Gerais elege o primeiro ouvidor-geral da Instituição - defensoria.mg.def.br",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQkR0NWlMX2RLTGg5MDZmeHNqNDV3dXlFTUtIdkxNUWJvMW1xSUZzRmdUS01GYmdVNmk2RmxIZWU5ZDVfU284aUY5WmZRbWZKaHBqc0Vsdm1fd2p3TVpwLVd2STJGSEs4OTB4RkxBaWxyWkRnVlJGV21yVG5XWjk1MVpQdHdmN1ZneUNiUGhwaUFGVXJNZnVzYkZuLW9uSEFKcEkwMXZyam5jME96Qkhz?oc=5",
-   "published_at": "2025-11-27T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:01.063537+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Catalão e Ouvidor",
-   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -57,58 +29,6 @@
    "substancias": [
     "niobio"
    ]
-  },
-  {
-   "title": "Brazil environment minister, climate summit star, faces political struggle at home - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT1dCdFVjRlNuc1FJZTV1QzYxSEdLa2NOSDRrbzF0OGdkaTlaSXlnM0VqUFl4NDhTTTBiZy1mM01vbVlDZ2lSRzZRaEhRU203OUp5V1I4MFlTNS1QOFl4YmZNM2NlODFFbDNKSFVzMXpBRjVZaF93Vy12Y2JyUmVrSUdPOW1kbC10Zi13MHVpdk1LMjRwVlM2anQ3R3pDbjBHOW1zLTNxNkNqV3FBWWw4Vi1Rdk96LTByY2tZVnZfcFZjUnZCcHVsZzZhbTU?oc=5",
-   "published_at": "2025-11-26T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:07.576738+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Brazil mining (Reuters)",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Saiba por que a Arara Azul-Grande voltou ao Vale do Rio Turvo, no Estado de Goiás - Jornal Opção",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYzhDNGdhMjZUTi1OR056bWQtc05YdEpCazRFdmNKaVVma0NUMEZUZDBQeU9xMVc1Ym8wNEFlQ2t0V05CQ1NKX0F0YzZFNnVwSS1feW1tTE82UWltSzlwUWt3TVpOQkx5NVgxNXJQMEU5TUpTV3c5NHFNNmdhR1k4aGJYVU1oNk5yMTZxamFIcVFHa3ZITVlPeG5ueVlUdHBjUUQ3WXJzYkpGUjh4RGY0aW1sU3ZRVXNwRGlRblhRLXBZNi1tWVQ1cjlmaTJvdXpYRnc?oc=5",
-   "published_at": "2025-11-25T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.540100+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Caixa inicia distribuição do vale recarga do Gás do Povo em Goiânia; veja quem tem direito - Jornal Opção",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNa0p2QkxGamtVMWhiV19qbmtUaHYzM0UxeFM5WWc1V3RVLTZqXzkyXzBZT2RENS01eHNPQU12U3M5dV9GNGhjNzM4X0hKeVdLYWEzLUlxbnRhNXpDVHg5RmM2TnprSnBYbngwYnRmeUtqWFFYUU9ReHNVUHhOUDRWNXh0Tl9BeVVrUmFTSjF1UVdOU19udzdDaV94cUdKQ0pmejZidWpyVkxqZEU3RVUzLXdTZVRVYVEySUJrWTh5dDM5T0p5Q0ZXNS1TWFdHbHlQRENZUXkxY1ItNVlyUFE?oc=5",
-   "published_at": "2025-11-24T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.542335+00:00",
-   "regional": 1,
-   "regiao_termo": "goiania",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Gás do Povo: distribuição do vale recarga chega a Goiânia e outras nove capitais - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWU55cW5RR21mVHRDWFFET2w5M1dqOFJGVTd6UklTME1uOEdhMzdpdFJZdXBZdndVUFRsVzF1OTNnVDVjb3JSa2JsWk91VDVnWXUyZDI1RVN6SUFuZ1VoWEJVYzIwTWFmR1A4LWhPNWZ3RERseFdGVXBVeHdsVUE5MFJBLWZDOG5TRUpIZTFnN3B5a0FRVm04aDNaQUozRlg1Z2oydXJGanIwX3Q3bVZSWTRQdE1zMWhn?oc=5",
-   "published_at": "2025-11-24T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.543952+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · mineradoras em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   },
   {
    "title": "West scrambles to fill heavy rare earth gap as China rivalry deepens - Reuters",
@@ -135,19 +55,6 @@
    "setorial": 1,
    "fonte": "Busca · ANM, lavra e outorga",
    "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Faça login ou crie uma conta para salvar localizações",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaed54effa44ed8a7cd8677eb9fc691&url=https%3a%2f%2fwww.otempo.com.br%2fpolitica%2fgoverno%2f2025%2f11%2f18%2fcidades-goianas-tem-algumas-das-maiores-reservas-mundiais-de-terras-raras-cobicadas-por-trump&c=17797136771070572112&mkt=pt-br",
-   "published_at": "2025-11-18T02:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:47.556423+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 0,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -197,19 +104,6 @@
    ]
   },
   {
-   "title": "Why coal still clings on in renewable energy powerhouse Brazil - Reuters",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVUUzcXcwVEkwT0FXdF94LXJsZFZUR1h1dXlHbUxBYWxGak9MNWlaN1k1dHRnb21Yb2VwSExEUmkyc216cW8wUkxwVHE3c1VZc1N4ZUttMVhLLWROQkdJSmZLSEdDdlh4djV5aDdWM084QVM2ckdXSGlDQWRzbW5pNXBpREJQYjMtb3o5MU16eEhXaHJidXVDSkJaeEwxTGpZX3RCTDFyN2w1eGFQ?oc=5",
-   "published_at": "2025-11-08T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:07.563037+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · Brazil mining (Reuters)",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "UE investiga venda da divisão de níquel da Anglo American no Brasil - poder360.com.br",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ2NyUWRocEhxc0dVd1poejd0eXh3N2cxTjkzTy1ycVRmT0s2aUk1bkw1ZkJkbjJkTzRUcC13ek04dk5xeHRqYUxqYjBUQnVQeWdLWUlVdVJxOXJjTkI2R0dtS0xxU2dKeVlKUEdISTBvWm1WZ3ZhZkFwQXg4cWJZQkY0MXBKdkF3NWMwQndsRldyYWFzT2NMTFFPNzVubG8zSGN2NC1NNDVMczMzQVBhUA?oc=5",
    "published_at": "2025-11-05T08:00:00+00:00",
@@ -223,32 +117,6 @@
    "substancias": [
     "niquel"
    ]
-  },
-  {
-   "title": "Newave Energia fecha montagem de torres de transmissão em GO - Canal Solar",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBidXE2dlB0bEFpQUpCUk5kMGxud3pQbUdtV1B2UlpkaHJJcG9zdkdlUXpra1BMWXFoOUpCTW56c2FzZi1wOENGVjA1TXg2SXRXWG9rU2RuYUZzcUE1SkpORlB4TWFoLTR5Y3FDLXdoZktJQQ?oc=5",
-   "published_at": "2025-11-05T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:09.015020+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · energia em Goiás",
-   "escopo": "regional",
-   "tema": "energia",
-   "substancias": []
-  },
-  {
-   "title": "UE abre investigação sobre compra de minas da Anglo American no Brasil pela chinesa MMG - Estadão",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWVo3TDZYUVlPV0txam9wVWhsbkVsMWZSNkdsejh6bURfSERvVFkxSjJzNDluMWN6VVBwNzI0b3hfTVNhS04xaV9taENlcW5BcGhnN1FEbGw4SllBay1DenRicGM2ZVJzTGQweEhsMF9lSHVfcHFmTDFtMmt6RnJZUWRBem1sbXRQSnJFeFNyRHRJUm1uSGwtTWdpbDRhblpRVVlJX1M3LVZpN2ZQcDdoRFR6UFJKZEh2UUhNSNIBwgFBVV95cUxQS0luUFB2NEJia0p4WGhzb3VZbjN6V3NJNHdmUldzMlhXMmY0N1FRcFUwNjQtUHJndFYyTDh5YmJhOTd3bkhrU0pOd0tiVzM0SU1oQXphQ1c0N2hTV3NNcllSZFNtQ05rOGFtSjBodnFtT0ZRdzdyb3RJcjlDS05LWHhYR01zeU16aGFvMUtQbXNUbVFWYjZSaWo4dTFNSUs3XzE5bVJoTm13TXRKRURKRjA3eW84TlIycjFQX0FqUEhzQQ?oc=5",
-   "published_at": "2025-11-04T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.700255+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 0,
-   "fonte": "Busca · níquel e nióbio em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   },
   {
    "title": "Scientists try to prove link between Amazon gold mining and disabilities in babies - Reuters",
