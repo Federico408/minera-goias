@@ -183,6 +183,8 @@ Feed RSS é janela rolante: a matéria que sai dele **não pode ser recoletada**
 
 Isso foi testado: exportando com um banco vazio, as 2.562 matérias continuaram lá.
 
+**E o léxico de hoje vale para o acervo inteiro.** A cada exportação as marcas de substância e de setor são recalculadas a partir do título guardado, então corrigir o léxico corrige o passado também — antes, uma correção só alcançava o que fosse coletado depois, e o acervo ficava com dois critérios misturados.
+
 ### Como os arquivos são organizados
 
 ```
@@ -214,7 +216,7 @@ O `--db` continua existindo para rodar na mão, com padrão em `/var/lib/minera-
 
 Da camada que está ligada:
 
-- **Homônimo engana.** "A regra **cobre** 30% dos contratos" marca a matéria como sendo de cobre, porque ali `cobre` é palavra inteira — é o verbo. Resolver exige classe gramatical, não lista de palavras.
+- **Homônimo ainda engana, mas menos.** "A regra **cobre** 30% dos contratos" marca a matéria como sendo de cobre, porque ali `cobre` é palavra inteira — é o verbo. Há uma defesa parcial: quando o título traz um termo de `commodities_excecoes` (medalha, olímpico, campeonato…) e nenhum termo de mineração, as substâncias ambíguas `ouro` e `cobre` são descartadas. Foi medido: pegou "Flávia Saraiva é ouro nas assimétricas" e deixou "Gold heads for weekly gain" de pé. Resolver o caso geral exige classe gramatical, não lista de palavras.
 - **Título e resumo apenas.** O radar não abre a matéria. O RSS do Google News traz resumo curto, o que reduz o texto disponível.
 - **A marca regional é lexical.** Não lê negação nem contexto: "sem relação com a mineração em Catalão" ainda seria marcada como regional. Ela ordena a leitura, não decide relevância.
 - **Metade dos links passa pelo Google.** As 17 fontes do tipo `busca` guardam endereço do Google News, que redireciona por JavaScript. Quem clica chega na matéria, mas passa por uma tela antes. O endereço original do veículo não é recuperável: o token do link é opaco. As 46 fontes `editor` têm link direto.

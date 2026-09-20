@@ -2433,13 +2433,11 @@
    "first_seen": "2026-09-19T19:48:44.437264+00:00",
    "regional": 0,
    "regiao_termo": null,
-   "setorial": 1,
+   "setorial": 0,
    "fonte": "Agência Brasil · últimas",
    "escopo": "nacional",
    "tema": "geral",
-   "substancias": [
-    "ouro"
-   ]
+   "substancias": []
   },
   {
    "title": "Trump cumpre promessa e barra acesso de jornalistas da CNN e MS NOW à Casa Branca",
@@ -3451,13 +3449,11 @@
    "first_seen": "2026-09-19T19:48:44.545534+00:00",
    "regional": 0,
    "regiao_termo": null,
-   "setorial": 1,
+   "setorial": 0,
    "fonte": "Exame",
    "escopo": "nacional",
    "tema": "geral",
-   "substancias": [
-    "ouro"
-   ]
+   "substancias": []
   },
   {
    "title": "PGR confirma autenticidade de foto de Paulo Gonet ao lado de Vorcaro",

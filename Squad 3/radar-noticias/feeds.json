@@ -850,5 +850,35 @@
       "declined",
       "lower"
     ]
-  }
+  },
+  "commodities_ambiguas": [
+    "ouro",
+    "cobre"
+  ],
+  "commodities_ambiguas_comment": "Substancias cujo nome em portugues tem outro sentido corrente: 'ouro' de medalha, 'cobre' do verbo cobrir. So estas sao descartadas pelas excecoes abaixo; as demais nao tem homonimo e nunca sao afetadas.",
+  "commodities_excecoes": [
+    "medalha",
+    "medalhas",
+    "olimpiada",
+    "olimpiadas",
+    "olimpico",
+    "olimpica",
+    "ginastica",
+    "copa do mundo",
+    "campeonato",
+    "atleta",
+    "atletas",
+    "podio",
+    "torneio",
+    "mundial de",
+    "bola de ouro",
+    "luva de ouro",
+    "disco de ouro",
+    "minuto de ouro",
+    "regra de ouro",
+    "padrao ouro",
+    "idade de ouro",
+    "chuteira de ouro"
+  ],
+  "commodities_excecoes_comment": "Se o titulo traz um destes E nao traz nenhum termo de 'contexto_mineracao', as substancias ambiguas sao descartadas. Medido sobre setembro e agosto de 2026: pegou exatamente 'Flavia Saraiva e ouro nas assimetricas' e a repetida, 2 em 524, sem derrubar nenhuma legitima - 'Gold heads for weekly gain' e 'KCM awards copper recovery plant' continuam marcadas."
 }

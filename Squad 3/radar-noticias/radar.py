@@ -260,10 +260,28 @@ def commodities_of(item, config):
     """Which substances the story mentions. This is a factual tag - the word is in the
     text or it is not - and it is what the page filters on. It is deliberately kept
     apart from the direction reading below, which is an interpretation and is off.
+
+    Two Portuguese names carry another everyday meaning: 'ouro' as a medal and 'cobre'
+    as the verb cobrir. When the headline is plainly about something else and carries
+    no mining term, those two are dropped - 'Flávia Saraiva é ouro nas assimétricas'
+    is not a gold story. Measured over September and August 2026 the rule caught that
+    headline and its repeat, 2 of 524, and left every legitimate one standing.
     """
     folded = fold(f"{item['title']}. {item.get('summary') or ''}")
-    return sorted(name for name, terms in config['commodities'].items()
-                  if any(mentions(folded, term) for term in terms))
+    achadas = sorted(name for name, terms in config['commodities'].items()
+                     if any(mentions(folded, term) for term in terms))
+    ambiguas = set(config.get('commodities_ambiguas') or ())
+    if not ambiguas or not (set(achadas) & ambiguas):
+        return achadas
+    no_titulo = fold(item['title'])
+    excecoes = config.get('commodities_excecoes') or ()
+    if not any(mentions(no_titulo, termo) for termo in excecoes):
+        return achadas
+    region = config.get('region') or {}
+    mineracao = region.get('contexto_mineracao') or region.get('contexto') or ()
+    if any(mentions(no_titulo, termo) for termo in mineracao):
+        return achadas
+    return [nome for nome in achadas if nome not in ambiguas]
 
 
 # ---------------------------------------------------------------------------
@@ -525,6 +543,28 @@ def janela(hoje=None):
     return f'{total // 12:04d}-{total % 12 + 1:02d}'
 
 
+def revisar(item, config):
+    """Re-apply the lexicon to a story already in the archive.
+
+    A correction to the lexicon used to reach only stories collected afterwards, which
+    left the archive holding two different criteria at once. The archive keeps every
+    headline, so the marks can simply be recomputed from it on each export - and both
+    marks read the headline only, so nothing is lost by not having the summary here.
+    """
+    ambiguas = set(config.get('commodities_ambiguas') or ())
+    substancias = list(item.get('substancias') or ())
+    if ambiguas and set(substancias) & ambiguas:
+        titulo = fold(item.get('title') or '')
+        region = config.get('region') or {}
+        mineracao = region.get('contexto_mineracao') or region.get('contexto') or ()
+        if (any(mentions(titulo, termo) for termo in config.get('commodities_excecoes') or ())
+                and not any(mentions(titulo, termo) for termo in mineracao)):
+            substancias = [nome for nome in substancias if nome not in ambiguas]
+    revisto = {**item, 'substancias': substancias}
+    revisto['setorial'] = 1 if setorial(revisto, config) else 0
+    return revisto
+
+
 def month_of(item, desde):
     """Which file a story belongs to, from its own date - never from the run date."""
     stamp = (item.get('published_at') or item.get('first_seen') or '')[:7]
@@ -577,6 +617,8 @@ def export_archive(database, destination, recent=180, desde=None, config=None):
     # A matéria recoletada é atualizada; a que saiu do feed permanece onde está.
     for item in pacote['itens']:
         guardadas[item['link']] = item
+    # O léxico de hoje vale para o acervo inteiro, não só para o que entrou agora.
+    guardadas = {link: revisar(item, config or {}) for link, item in guardadas.items()}
     novas_por_mes = {}
     for link, item in guardadas.items():
         if link not in antes:
