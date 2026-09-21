@@ -1,6 +1,6 @@
 {
  "mes": "2026-05",
- "materias": 73,
+ "materias": 78,
  "itens": [
   {
    "title": "Illegal miners extract billions in Amazon gold despite Brazil crackdown, Greenpeace finds - Reuters",
@@ -91,6 +91,34 @@
    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOZW9ZekNPa0VqRGpLTTFVbWhDQV9nTTBXbE9QMnlEdEg5cENiSVpPd1E2QUFwN2JrS3Y2aFg0ekJ3bUV5MmZVcVYtWXFyN1psUzU1M1BVSkZPT2MxYTZ3YmJ2bmpGa0dHejZZZzVmQVVqVzZIQTZpMTVJUzlxc0xlUzRldnhVbHdMSjZRM2RXaWJjcm1Ka3dBSEFrc2FwNkZmVDRscGU0V1lmLWRvaEtPeFhJOFo1TkUybGd4Mk1WbmFpLVZtM0NiZ2J6MksybnhObWJndDNaem5VWkNyWFRvTHNXYkJRd2VYSnFZdlpn?oc=5",
    "published_at": "2026-05-27T12:54:40+00:00",
    "first_seen": "2026-09-19T19:49:04.242627+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Mineração e a água: a disputa pelo futuro da Chapada dos Veadeiros - Brasil de Fato",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPeThWSGt0M1FKN0U2LUJ4QzlIS3pranR1c3JtZW9CNFV2V0VHb19HV3VpYm9QcG9uNjZBSVZhWGNOMGV4ajNQdEhLS2I3TUNDdWlEancxbmE3NldwdzlNWUItcXpSWUo2TXU2U0FQQ2JIcEFZNkNpYVdjbFhfN1F4b0stRGhrUmRCWDJ1b3U2YTJYMWxKQ1pvUGYtcTJ1enA5b1QwamlVR1J6X2tGSHRvcHBPZllPdU9Qa2hoU3EzVkNsenFoR2M3aFdpWW9fRkZvWG16YlhUX21HMFlRN1Y0NERoYXBlZw?oc=5",
+   "published_at": "2026-05-26T07:00:00+00:00",
+   "first_seen": "2026-09-21T04:02:35.713562+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Geração de valor na cadeia do lítio ainda é desafio em Minas - Diário do Comércio",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBheWh2eDB5N2c2aG5ta056ZVVwRFMxRXNkWXlsdkxNVjBaanBqMjRJSDRzVGpmYmVSZHRlR0tEa28wZ1MwVGtndm5FM25pZFVlN0lWaU9TWnJ2UFhDcGpwb2c1Y2lwdmtBUC1FYVRmSzNDTTA?oc=5",
+   "published_at": "2026-05-23T07:00:00+00:00",
+   "first_seen": "2026-09-21T04:02:39.724171+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -201,10 +229,10 @@
    ]
   },
   {
-   "title": "Município acompanha auditoria da ANM em mineradora e reforça fiscalização sobre royalties - www.gov.br",
+   "title": "Município acompanha auditoria da ANM em mineradora e reforça fiscalização sobre royalties - gov.br",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSTVvNHo1TUVDdWxrbC1RT2tDVE12RUlXdDlZeVBOM05rWm0yeTVuQ0hRQ3lReUZVSVBZc0I5bFBYd2VuUzllR2lONkhPTXJpbUFCLTU2N1lIbF9oVjVoSWFGZ3BCS2RJQ3FxZWtMZEk0VEtxbTlfVFhFMmZHQ01PeGZvbHhrZ1lZVzlKQVluS1ViZGd6TkpUdG4xc0w5eWIzZzhyUW5vVy1MdFlFazJLejFnaWRfNDU0YWhvclZVck9KRVI3MFJMZzl5c3c2UVJWRVE?oc=5",
    "published_at": "2026-05-22T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:50.498970+00:00",
+   "first_seen": "2026-09-21T04:02:40.179581+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -485,6 +513,19 @@
    ]
   },
   {
+   "title": "TCU determina que ANM conclua fiscalização sobre royalties da Vale em até 180 dias - Blog do Domingos Costa",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONTNBZVNXS2p6QlZwSlh3YUx3OTZiSldBTHdIWFlIenAtX0k4WDZub0dDV0RsaERVejFPMXkzSUxHaEljVUtTYmFuYmhTYVVOVWh4b2J2clJ5S0VTaDdDRXowUjNfTUdRVzh1cjZ1WmZocUlzTGtMUC1oaVQ3ZkNINUZFZWZOUTM0QWkwNmk5LUJnNXhhUUh0Zk8wbzdNYzYtSkFIWGdHbHA0VkNtZDhIcGZR?oc=5",
+   "published_at": "2026-05-15T07:00:00+00:00",
+   "first_seen": "2026-09-21T04:02:40.180893+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "MP-GO pede anulação de atos sobre mineração na Chapada dos Veadeiros - ICL Notícias",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9KN3pvUnU3dnpiSk9FWEczaFgtYU5DSXdBeE5qZUVJX0NTODBLTG1JbVVJdGtLOUJpcnE2R1FpWDhJNmFTQlBXLUtROTZMYmVwak84VDFoMTg1Zkczb2NEMmN3VGlxdUJMek40RVRMMHhnSEFrV21mWg?oc=5",
    "published_at": "2026-05-14T07:00:00+00:00",
@@ -733,6 +774,19 @@
    ]
   },
   {
+   "title": "Semad diz que revisão de plano não libera mineração imediata na Chapada dos Veadeiros - Poder Goiás",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQ0IxRG9Pdk9NQ2tqQmdEZ29VUzZUaTlTQnZkUW5SRkxjWWR6RnNpWjdoWElnNTV2M19TYVh6WGpqU1VodlNJVnpSSENxTjdFdW5JZ1BOQUhJOXdfVVFSNDdzOVhJUnhrUms1UUJMbkhneVlpR012NHdwMFRxT3FFUUQ0T3dPZkNodEFyejVzdG9lT1FibmdhSUxrMVZtM2R4OUd1bExnQ0hrSEI4dlZmSWdXeUVqOFE3MmxpMUs4RTZlanhPZk9qZg?oc=5",
+   "published_at": "2026-05-11T07:00:00+00:00",
+   "first_seen": "2026-09-21T04:02:35.715462+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T11:25:00+00:00",
@@ -750,6 +804,19 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaf5ae5e0a4470ebd1383db29da94e5&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T11:25:00+00:00",
    "first_seen": "2026-09-20T04:02:45.552565+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0ac5e591442a89a700a0d9dc7be3c&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
+   "published_at": "2026-05-10T11:25:00+00:00",
+   "first_seen": "2026-09-21T04:02:38.591160+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,

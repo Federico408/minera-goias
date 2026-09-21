@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 184,
+ "materias": 188,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -233,6 +233,36 @@
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Ala do governo defende proibir ou taxar exportação de terras raras “brutas\" - CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONGRkM3AwX01CdDZ4NVVEYmo0YXZMbzZLWXFDUzNaSURDOHdmQ1NtWTZWR09pYkVmNndqeDJSbXUxdUl3ck5CMGhQZmE2dkdhUXNLc2xkbzVNTjc2c0ZXZVRlTGsxX0pfQ2pONG1MZm5XRnhtTjh4Uy00ZG9QZThobDl2Q2thN2NINkhWMm9oZS1QdGdJTVBKSjFPNTNpSndfNGNGdkJ3SkhwWm5T?oc=5",
+   "published_at": "2026-08-31T07:00:00+00:00",
+   "first_seen": "2026-09-21T04:02:39.236603+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "As conversas que decidirão os rumos da arrecadação de Minas com as terras raras - O Fator",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQVJWQmVfalpYM0pCM3p5UThaMW1hZ29NY3dSdW9wVnVuQ3RvQ0dEYTAyM29SemxYWEZfTjJ5NGJvZmt4b0VDMlBiazRUM2dFLTdHeUNoSVhLdEpzT1QzQlk2TktxM1hhRGIyYUNxQzlRNFZ2ZUZkbndNN1dXT0pxMEZFS0dRNVBrR2VvaUJGS1hraldxaUdaY2RGaXFZRFlyWk5pYmxEMHFUM3hqa2dRdGVLZw?oc=5",
+   "published_at": "2026-08-31T07:00:00+00:00",
+   "first_seen": "2026-09-21T04:02:40.178583+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
@@ -930,7 +960,7 @@
    "title": "EUA GARANTEM US$ 1,55 BILHÃO PARA OPERAÇÃO LIGADA ÀS TERRAS RARAS DA SERRA VERDE - Diário 360",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOENWR1N4RUFDZ0dacjJiMVlNaGNZRHFRNFJzYjBkNF9fZ21PdEc1SW83RGQ4a09FZ1FXVkIxN2hKNEpsWF83OFhsam9kUjlQUllaWmRxQTJWZ2laQ29jbVBlZU9tN1BxTWxGVndhTjRvR25GTDhENWJDNDAyVWxZQWVRaHFQdWl6alNnWkMxd2NJODBsb3U2eFdIb0NNQUJQOEpLNDdJZGZPLXFqMnltY2NVcUQ5UQ?oc=5",
    "published_at": "2026-08-26T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:45.847581+00:00",
+   "first_seen": "2026-09-21T04:02:37.669121+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -976,7 +1006,7 @@
    "title": "USA Rare Earth raises $1.5bn for Serra Verde - Valor International",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZnZodmJlZkpuTlg4dTAySXUwajUtTGI4RUNBZXNZQXA0RjFuVGRxRFpHNjJZVFNhVEl0OWh3WC1KUm9aWVpOREgyVjlVaFZSc2duTW9OQTZDTUFDUDdCN25fRC1HVmhRa3E1TEVSUkxVY0M2SlhlNWM2UHNVNmdCWW1idUFiOXlzR2ZFa1B2YlZ1ZVUyNU5mWW9rWno3b1BYZE9GV1R6T2RiTm9aOUdn0gG-AUFVX3lxTFBtLVA3S2xKb0JGSUJ4SlkzMDNfcHdEeDVqSDZ2SG55eUh1U1FpTEdsc0hQRG11LWxXYVBzcHdSRXBoSWczdmxubzA0QkY2WnZyV0NodmlCY0lGRGZ2bnpUdGRsUWZFOVlhSk9LZlFUTjdrQXlyVmo0am52ZFNfcGZMbmpES2hqcUEwMjVZc05yeFplMTJSb3cyRnd2Y2hUYUp2bHMwRU1aTXptZHdYUFJHRDNtcGhhYTlTV3psWWc?oc=5",
    "published_at": "2026-08-26T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:53.415647+00:00",
+   "first_seen": "2026-09-21T04:02:41.510336+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1063,6 +1093,19 @@
    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORkxlRUdyUzlHVEVyZ3JreGJ3ZDNCaW5Ua2ZGQWo3X2V6UGJfdVhIR3FBUldBdW9TMU9ESnhiUWZoWk9pWWlfVlVNajFqWkV1MzJNMURpb0t2WUJReVRMOGVWaGJsekJuWEpWUDdLdzg4MXhtNGRENk5oLXlKS09MNDJneWZyQkhncDE2d3ZYME9VSkNNaEVybFoteXp0V3R0ME1TQVJCLU1TNm5yNlFNU2ZTTmNZV05BT1JCbC1yTnVUWEZhT2dJeWRtbkctWDF6Sk5tNTlR?oc=5",
    "published_at": "2026-08-26T07:00:00+00:00",
    "first_seen": "2026-09-20T04:02:48.295909+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Critical minerals drive M&As and financing operations in Brazil - BNamericas",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc215RmJKYkJXZmp5QUgtNDFrbkcyVU9fNml1VTdXUFRRRnZlRFRyVll6TWxLMGdmYkl2T084bDQ0YlJWRWdBekpVSk14STlRY2ZycDhRaEN5Z0tnNExfZXdQUnpPRTdFM3pNeUlzODBPTFhmdlc5OGdfanE1VkV5dUZOSF8yQmlicXc0MW5GOTQ4XzltS181MnY0MTE2QQ?oc=5",
+   "published_at": "2026-08-26T07:00:00+00:00",
+   "first_seen": "2026-09-21T04:02:41.511220+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1570,7 +1613,7 @@
    "title": "Empresa dos EUA avança na compra de mineradora brasileira de terras raras com apoio bilionário do governo - Portal do Triângulo",
    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORk9EeVhaRWhBUTdVYjFERnJOcWlKWW5US0VfWElINURWWlI4RFE1bHplLTlBNFkyUzFPWnE4a0RNTjkzU0wzUDU0dHFfVGlOR190dWktWDFRRkYtZi1LU2loaFloR1UwdUhLTnpIbHFNUU9rZnA3Szh0Q0lwdkJxUXN0VDIxZnZvWFYzSWx3S2JaYUhCcHAwU0RON1U1Q0ZMVm54MkJDZ1JoUlh1VFYybWl2ZmE0Vm9HMEhDRUpxaXVvLWU5ZTdlRVV1Z1c4Y1JEYkdOWXNB?oc=5",
    "published_at": "2026-08-24T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:45.864483+00:00",
+   "first_seen": "2026-09-21T04:02:37.670220+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1782,6 +1825,21 @@
    "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "China calls Trump’s bluff over new Iran sanctions, Botswana saves citizens from shady Russian military recruitment, Brazil tries to cash in on rare earth reserves - GZERO Media",
+   "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQUkVja1VXZW0tb2EwVmE2dlF3TkF1aTlmdnV6VUVTRlhTZ0FVcHJoa3M5UE90NDVETFdpR3BlY1o2NUdTTDJtWGNHNzVYdldVOE1zcmFwTl91YVNrazdtUjdnOUNBOTJNYTV5R2F2YmpuWHpHLUsxdFdBd3NlZEdNUnVVak1mTUJoUG5HN3VrM0loSDZoRFB4RjJ6UEZ3c2l0ZE00R0xiclJYOXZoMmZuR2I1VHlwYkRjLXNYdGFEcng5NnFCcWZCS3FRMFFVc3ZLLVh0T2NTd3Q3Z1R1UlNHQzVjcnlJekZTbW1oa28xMHBXZldCYXFMTmJfSG9ETFV4WVV5ckV2bWZVVWFCdjM4ZjNfNFF6NFdyeURKQ2dmLUM1bG5iYUw0?oc=5",
+   "published_at": "2026-08-21T07:00:00+00:00",
+   "first_seen": "2026-09-21T04:02:41.512553+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Government cash reshapes mining’s capital: study",
@@ -2373,7 +2431,7 @@
    "title": "Terras raras podem adicionar R$ 2,39 bilhões ao PIB de Goiás e Minas Gerais, diz estudo da Amcham - Jornal Opção",
    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOckp5SFpWdTRaemo0dWJOcFRObWl5U2tzUFpUdDRrZzRkTm9GTXRSQU8yd280NkJJdGVxWmlwWkQtRG1LZm9ESmdkM3JnbUVnNjZwR2RvM0JqUEp4TVpaMGhxTF9RVWx1UjFEYTZJcWlpcjRHZTdVeEIzM0w1RXlFb0QwWVlyc3Q4MG90VVg3ejEzLWVUeTlNU2lfRmhXV1NIQ2JLR3Vmb1BOTEJLWU4zWnMwazFJYk5TNkNLUC1BeUdkVlE2U3pNTDNha2NLR05Pd3BVQ1lROFI5VWRRUjU2a2Mxazc?oc=5",
    "published_at": "2026-08-06T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:41.778552+00:00",
+   "first_seen": "2026-09-21T04:02:35.712715+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,

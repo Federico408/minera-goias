@@ -1,6 +1,6 @@
 {
  "mes": "2025-10",
- "materias": 12,
+ "materias": 13,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - Diário do Comércio",
@@ -77,6 +77,19 @@
    "setorial": 1,
    "fonte": "Busca · ANM (site oficial)",
    "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Anglo American propõe acordo à UE sobre venda de mina no Brasil - Poder360",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUGYyemE5R29iUWdjZl9ndTJ3SktBYVducHhDWmlFLUZwdVB6MXFfZzRKdG9ZcWdNTUdHdVNlSTFCT0hxM01sQ0lhWjRlSDJCajdOX2p5NC0xNE4xdmhwc01tckp3dVpTT1BPM3lvalJXbWpQQTRrS3FJM0ZaazdZckZiR2g4cUJHenBDd1l5c1ZPWThuS3p4djFxUkxHVG9TNWQxeTFwdw?oc=5",
+   "published_at": "2025-10-15T07:00:00+00:00",
+   "first_seen": "2026-09-21T04:02:38.349744+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · mineradoras em Goiás",
+   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },

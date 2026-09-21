@@ -1,6 +1,6 @@
 {
  "mes": "2026-06",
- "materias": 58,
+ "materias": 61,
  "itens": [
   {
    "title": "Recolhimento de royalties da mineração passará a ser digital a partir de 7/7 - www.gov.br",
@@ -48,6 +48,21 @@
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVmJLekU1UnpvVXJvRHBpX1RUSWt2RU1kVDdaWDNtaVVKYTRfMTBhTlhqYVFlYUxnVVlSb2N5a3llMnp5eWJCSlo0ZjROZVJrbHotRXhVcXBmd2p6anMxbXFaR3doT05mbGlLVE9OcVVLemtQNFpiMGlBcm9nTDFJbTBVUVQ4dHBKVzl3WVcxRGFJMHFwcVk5OU8wRjVzZXptemowTkJELW5Bck5UTW5LR3dwZV92eERYT1HSAcgBQVVfeXFMTnRBTWlwbmhTRThndXJpcTBuWGJLaU1Va2hGZlU5amFSSmk2VVZkX2ZEY3JZUkxhQjFWWXRjdEI0alVSOXE3VmRPYmlnYlFMY2ZwRkJ4bVhLeWpfUWRoQ29jZ1pEVVBCZmFEdk83RW9tTndfWTJTX1hRR0VXVzBnZmZjQTVrdDU3bGFOQkduNzVQOUx3Q184dGl6S2MxdHlIaWJjVWdRMUM3Z0pLekdxQ3dMSWF2TGZoQS1sbWg1QVJkQXZwNE5RenQ?oc=5",
    "published_at": "2026-06-29T07:00:00+00:00",
    "first_seen": "2026-09-19T19:49:04.264409+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Venda de refinaria de lítio da CBL para indianos emperra e negócio deve ser cancelado - O Fator",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMDVNZkw4VzdlUkFGQmZSMG16YUpWNnk0NFFITEh3X1F3bnNPcklFZTIzUzdzalJTWE9OdXhiVi1jOUxITjFMNEIwRGN4R0tPZnRJUU1abnRQMElpYzZ6VFVRNU52YVBCT3VZeDVqZ0xlbkJXMGpsQ0FTWmlGYXpTT1NWbVhSODlYeEFDVzdvNGE0Rll2c2ItVHJmczVVVmpRdjYwbkx4T3VFRXIxSU1rMDFyY20zMTE0V0R3?oc=5",
+   "published_at": "2026-06-29T07:00:00+00:00",
+   "first_seen": "2026-09-21T04:02:39.719492+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -763,6 +778,21 @@
    "substancias": []
   },
   {
+   "title": "ESG | Sigma Lithium monitora níveis de poeira, ruído e vibração e refuta acusações - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONnE5NEktdjVWWUF3WDR0YUVhWWVHYUlFMHZGa1RjeWxXeVBlTG96TUMtbk5LdU5KNDh1Sld6SFN5SV9mTklFMHVsU2stYnhmRFc5R25oWU5MdW04MmNtSUt4U2V3LXJWSmdrQllLMTVxOUxMblVVWW9DblFnRHFTcEhnWDBRdmhkX2t4QmRfRlhZRkxZb2lxTm9maFBiU09wYWdVM3QzcG1BVmZUYjR2WGdIbw?oc=5",
+   "published_at": "2026-06-03T07:00:00+00:00",
+   "first_seen": "2026-09-21T04:02:39.721763+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Com Kátia Abreu, Sigma Lithium indica reeleição de conselheiros de administração - ofator.com.br",
    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZVJEN3QtRE5EUkhVZ0wwMkNWU2NiYmM2TGQ5cFoxTW9iRnJHbHIwVlAzejg4Z1pWYlpBZktubS1UNVJSd3FDNUdwM1JrUTg4S3NXM1QyTEdGbDBxeXhhRWV2NEFFNUwyNTlLNzZaSkJRZWpzS1JtSHZLcVpGQ3JNMFhUSkwyWVdmV1NjVGxBWkhDUjd4djRQdnlrOHFua3RDTVBSQ0cwUEFWVXJlQ2RVYkkyTFNKdjM2RG02M1dNaw?oc=5",
    "published_at": "2026-06-02T07:00:00+00:00",
@@ -815,6 +845,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Psol aciona STF por omissão sobre exploração de terras-raras - Poder360",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOUs1ZnZjV3NRWVI2OU5IMlBYUmI2NEFMNlhoRDl4QVVRZU0yajZDbTRYd3FpSlBWQVlMUnJNcU1TMmh0WDhkbE9OUXphN28tSTVBUlpsaUZtRWc1TUU3dTVGeWZBMUkzaGlERTlLb25nX3pNWldJeDZWbWNEcU8tc2NaRXAxcVBLeHUzanlRMURlTndjZm5YbEg4N0k0dl94YzNFZlV0Vms1VDBxWUJiYkV0NzM0dHJ1ZXdUX3k2bw?oc=5",
+   "published_at": "2026-06-01T07:00:00+00:00",
+   "first_seen": "2026-09-21T04:02:37.671267+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   }
  ]
 }
