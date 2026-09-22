@@ -1,6 +1,6 @@
 {
  "mes": "2026-06",
- "materias": 61,
+ "materias": 63,
  "itens": [
   {
    "title": "Recolhimento de royalties da mineração passará a ser digital a partir de 7/7 - www.gov.br",
@@ -91,6 +91,21 @@
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUFlqQUFSWkYxYUVqbU5NaHcyaTM1VlQ4em5jY3I5eVg0UVJRaUE2VEFhQ0kyTEZ4VU1JLW9LdWJmVEpQLTMtSEkzNzZxUl9pYUsyaDdIWmVxZG9DZzBUMGllVTZJQzBpMzFVMllzYUFVaUZBbXEwQzREbFBvSEZoX0NVMEgtUHlpQkxiOEtFb24zcWxRNkpZMzl0S3FLTEFheXZJ?oc=5",
    "published_at": "2026-06-27T07:00:00+00:00",
    "first_seen": "2026-09-20T04:02:46.512351+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Lítio da CBL tem investimento milionário em Minas Gerais - O TEMPO",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUFlqQUFSWkYxYUVqbU5NaHcyaTM1VlQ4em5jY3I5eVg0UVJRaUE2VEFhQ0kyTEZ4VU1JLW9LdWJmVEpQLTMtSEkzNzZxUl9pYUsyaDdIWmVxZG9DZzBUMGllVTZJQzBpMzFVMllzYUFVaUZBbXEwQzREbFBvSEZoX0NVMEgtUHlpQkxiOEtFb24zcWxRNkpZMzl0S3FLTEFheXZJ0gGoAUFVX3lxTE5CeDUwT3J3a0lELWdJWVozaXFTMm9hdTR5TkFqejg5eFRXdUZieDd2eTdwMEZfNkJJXzZBQWFKdlFVNE0yRkJSRm85RjVzZ05vX0hlcHk1eGdOQmRIM1R0eUNHTzR2RjNlOVlYT2pLM0pobDF3REdzYmtQTkIyZzVXblVlQW5pVW9ha3dIb094SUkxTlczVmVGZFF1ZlVyTjh2UmpwWndESg?oc=5",
+   "published_at": "2026-06-27T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:38.112732+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -285,6 +300,19 @@
    "substancias": [
     "litio"
    ]
+  },
+  {
+   "title": "China proíbe exportações para dona da mineradora Serra Verde - Poder360",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcktsQnRLU2VhYUh1Z29FTHVKc2Z2WUNSSXoyNWp5X1F6S3l6bTN3ME1QQVZpcWZGVUY4V0NkeWJYNnZ5Y2Mxa3ZGTlBJMlVNeDhNcFF0SHI1QW85cklDUFdYTEJzNEpTM2YxaXpJTF9VVExfTXhNRjVacnllSlcyTndQVTdOeks1VkdSUHVFVHZFcGdaMGtBOVJKY3JkRWxzeUI0?oc=5",
+   "published_at": "2026-06-22T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:36.451760+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Vale do Lítio completa três anos com desenvolvimento e gargalos em MG - CNN Brasil",

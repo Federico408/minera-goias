@@ -1,6 +1,6 @@
 {
  "mes": "2026-07",
- "materias": 81,
+ "materias": 84,
  "itens": [
   {
    "title": "ANM aprova novas alterações ao regime de Permissão de Lavra Garimpeira - Demarest",
@@ -83,6 +83,19 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "ANM limita áreas e reforça controle sobre lavras garimpeiras - Portal BE News",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUzY5bHR5RjZZZjQwQmQ3eXBlbWV6T1NEdHZuNFhWMGR6Q0Fud08zU2k0VjNVNEY5WjJ1WGVtTnJWRFUxYXFuOVR6ZTFCZUpOWDhZaGFVSHdRQlRrcGlSRUllSEtDZnRSMVZMQUxFOUxIVGhTb3dYUFEwemtnWkt6OGRNN3dkN1dWRXZfczRVenZ5Tms?oc=5",
+   "published_at": "2026-07-30T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:38.947595+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Agência de Comunicação - ANM pública novas regras para permissões de lavra garimpeira - Estadão Blue Studio",
@@ -660,6 +673,21 @@
    ]
   },
   {
+   "title": "Agência de Comunicação - Indústria do lítio agrega em 50 vezes o valor da sua produção no Brasil - Estadão Blue Studio",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVkM1bzFkd1ZNNmw5Sl83VWQwbDJIdzRvQ21PV3BRcEZUX0Y3NTRBTkJfNGtpN0tZMUxpdm5kN29jZWQwd1hjUmZDNnk2dW0xcFJMdTAwd2t5ci16ajhHcndSd2ZUbjVpaUtraXpJSzRQd3U2MHMya1dVbFF0Z2tyYlNRTUgwS0dUcGdiRGRKZFdVTHBaTzE3ai1uZHc1Z0NpV1ZfdjZzaDBnLUhHNFpfMkgtVEk1ZWJTNHplRWUwa2c2UQ?oc=5",
+   "published_at": "2026-07-15T14:03:14+00:00",
+   "first_seen": "2026-09-22T04:02:38.110363+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Brasil reúne condições para liderar indústria global do lítio, mas setor cobra segurança jurídica e políticas públicas - Estadão Blue Studio",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWGVyZWM5QURCVnNkQkRlODc0WFBQMV9adzBmd3FjLU13RUw0RThqeEtOdkFPdm5FZ19TS1pYVG11OGZhak9YWmtJd1FoLVlzaFpXeE44TDg1NDc0cFlManE4bnBZclpfc0otS2ktQklzYndGc3g0cExVLTdTd29Ec3FrSEE4QW5qdExWakk3RGJtN21zTmxVTHlkZTQ0c1ozbGNqeGFmeG1tdUpmbFd3WFRqNXgyRkhEY1h6VWNpN2oxR19rbTh3?oc=5",
    "published_at": "2026-07-15T13:26:45+00:00",
@@ -926,6 +954,21 @@
    "tema": "mineracao",
    "substancias": [
     "litio"
+   ]
+  },
+  {
+   "title": "BCM strengthens cash position to advance US$74 million rare earth project in Brazil - BNamericas",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS0M0bWF2aEY3YmxEYTBPWVNmSmM5N3ZtTldndXhtdTBLVjZ2S1lMQWhjVTBvMXhrWVBJSExyYXgxSEhwSDdiMXJrOFBsY2RZdkNieUtwcl9GUW04cFJhRUIxMzdTZnpRQkJtZDJJeWdMemNKNjFHT1FKZEhwU20xb0NBRnV3Nnd3Y3JHTFB0b2Q3a2VYQVZpWTBFWlB6bGxxbV9lMU00U3pMZHBkYTVxeXAxNjdBa096?oc=5",
+   "published_at": "2026-07-08T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:39.894281+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
    ]
   },
   {

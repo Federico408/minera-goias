@@ -1,6 +1,6 @@
 {
  "mes": "2026-05",
- "materias": 78,
+ "materias": 85,
  "itens": [
   {
    "title": "Illegal miners extract billions in Amazon gold despite Brazil crackdown, Greenpeace finds - Reuters",
@@ -380,6 +380,21 @@
    "substancias": []
   },
   {
+   "title": "Ministro se reúne com CEO de empresa brasileira de terras-raras e afirma que país está aberto ao capital americano - O GLOBO",
+   "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPU0djTm14dHhQb2d5eEYtZGVOQkw2R1otc1BuaWVaTVV2dTdEZUF0bVgxOWswaG9yaWsyUlIyZXQ2YjVCRmJLU3dMR2pHQzRJZmpGSVk5QzdsWXdfSkdPYVNqZVZJMHoyVjNpUFNXMkg2X01kLWdsUzBaUG9NSkdxcy05N29IaXh2NjFhZXI5NVdSajNCamxENzNTX080eGlnZDhGa0hKM2sxUUgxWUozYlNWM1BWcFlEZGhFbHplS3JpTnQxenF5Rno4cWtOZkF2cXpTMHFIUjVNU0tCRm1aVmo5OVU4dEZ1U1N0ZVJqb3RKUWZoUnowaEtQSEZJT3RtM2Nj0gGSAkFVX3lxTE45NS1NcXJWUzFhRV9fYWh0eGYyM0JUTGlXamY0Y2NnZFB4TkxWODNTcFF3SjFMSWZGLVBqY2lSSFo3QWttbmlPbklxYmowNk1rTHlXS2dGTHBMZjNqcVJESDBHYnNDNGRhc0RXZnhXdFhEbmtZNmpUSXFGbEktb2FKcUwzNVh2SEVzWkVsazQ3UE5tcGw1ck9EZHpKV1FBQ2FPdEVZR1pJMjFXRHRYaElxWm1HZTNYNTJJUHl6T29EelRTeG85dU5vcTRyRUNoSGdCNTlHQlBQMmpvX2NZdGZlRWEtTzM4aHBzOHdZbGRzRzdPZ2NxMnRKbVpuM0NMWlh5c3oycFdGeUlxa1dMSUNIYUE?oc=5",
+   "published_at": "2026-05-19T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:36.438202+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Após venda de mineradora em Goiás, Lula diz que Brasil pode se associar aos EUA para explorar terras raras - Diário de Goiás",
    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOa183YXd0M2taeHNSc2NxM1Fxc083anNvTGc3Z185eHR4Z3F5NU90NHlLcGRSU245WDRDZ3BhOFh0RjZvbU5pNHQzaHMwcVVLMGMtQkZibDVQWGdaYk1rRkNsLVpxb1hTNGUxX3l1Z3M0OXZjMjdLWG9MVjF3VTFTcjRSdVdqTTl5dWpSdU9HeGRNdGU4T3NGd256WE9kSV81RTBpSW42NWlLeDJydGFkZGttcnpFaE9rWGdZVE5BaEw3QmljTklrNlVkbVA5NTFjQklZU2NfT1Jadw?oc=5",
    "published_at": "2026-05-18T07:00:00+00:00",
@@ -705,6 +720,21 @@
    ]
   },
   {
+   "title": "Terras raras: Cade investiga compra de Serra Verde por americanos - Agência iNFRA",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMjFMM0hhdlJKaFJfXzZ2U05yT0QzUjdTeTliR21HeU1mSk5XYUwzZ2ZNYWRoRHpaeVVCRlVDQjBWTFdBbVdSYjRHNV92c0VKUEpwY1BzTVdrREVhY1R0UUt4UXNWWFBPRFhSRWlMQ2V2b2VGb0o4T1cyZDBJQmhWMjEtbFpBbkNPdF9BU0FmQklPeXJPSkxpbTlaZjFIWEdXZU0wNlFqajJncmVPVGc?oc=5",
+   "published_at": "2026-05-12T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:36.439219+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Governo de Goiás tenta liberar mineração na Chapada dos Veadeiros - infomoney.com.br",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOVNEZFhva1hKc08xVk03YVQzTWtBczk5QnJWUnIxRlkxR3FyTnNjUlhjMWtEYlE4UEpRbFE1RWJ4MEhyNUt4WmFKRnpWSXNzRERxTXh5WEdZV3ZYSl8xMFcyWmQ2UmNyM0VZMGZvbUw3Y3VIM1hfWjlYSW1lMTFWakZHajl0eTZiQUt6bEMzR0d6a1RGMzRja2dwX3A0TVRId2JmT2Zrb9IBrAFBVV95cUxPMFltalJhOFJnZ1RidzdVR0plblM4eDVpcDZLRjRQR2NMNGM2Q19mRWlFN3FwY3dpR2k3SGFOek9FNTB6SjR2YnNsNlBtQXpYRWMxSzJabWlaTWdRSXZPRjM3UFg1UE12YUZUR3ZuMmtHekJVSlgwZ2t3dnhlbk03UmNOaXlfMExBaWotNDU2RGc4cWNoU3Q0dGN6ZDZGYzAxZ19LNTZGME1lZ25Q?oc=5",
    "published_at": "2026-05-11T07:00:00+00:00",
@@ -787,6 +817,36 @@
    "substancias": []
   },
   {
+   "title": "Cade apura acordos de combinação e de fornecimento em terras raras - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaDRRNUQ1M2pMVUZvRXpMUmlaTEtIUnRZX1c2NGttSV9LTTMtd29ENEhJZnJpTnFnWmdLbjMxZUxCbmZhV2k1amRHd1M5dXZ0Yy16MW43SXBFSEhCc3ZMVVFmbWdoM2tWOTV1a2pTWDNoNzc3Xy01QzJ6UmJqNUwzcC1nWUZpV2Q2cWNpWFRqd1AtNWVBbjlYa2xOTmk3MFlyZ3l2MS1LLXRCOENZVjJpbU1zTUQ?oc=5",
+   "published_at": "2026-05-11T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:36.437323+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Cade vai investigar venda de mineradora brasileira de terras raras para empresa americana - Folha de S.Paulo",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeFY0alY4VjlWbGNFa3dKLW5BN0ZrY2tEeDhtc0V0VGFCVmJiR2FsdUpNclRNYXhGYmlnZHA5aElRWGFZdGJuT0ZFckZQcVM3NWU1cjkxUWU3UERJWTgxbUtXc05KWXlaZEh4dGhidGxTS2hIOXF1aG5adVlNVHlQMVlGMTFfWUFBdEZ4cU1TZ3U1R3lfSFgyWW1OUlRiUUVzTWJsUVI4Nmp5X0hOY29malBvcnRMaWI3dmo0SVozUFA1QjBIdWp0b2xIa2VaRmd6WHkyQ01YVjPSAd4BQVVfeXFMUGxoU3hFZzA1c1V4TkV4MkpuNnFJSE56dlV4bjZSbHl2YXZpZmtqWUtJd0UwdUFzajZPRTUwWmR4bUdyWmR0dXAyWmcwVG9kanVSOXFNNnFGTjZrY0h4WjJxUnhxVGZ1c2NuRGhmTmhldTJSRVZpTnQ5ZGpJVWtqdnlzRUxiRU1SR1pNd0YwMWFkSUczdDRpbURwd3pnSnVEeHZPTU1EeVpzYmhxdlFWYUNwU2pJbnVhWlktWFdkMUh6Z1hNMzVIWTAzYWFBdGg3THRTcHZQdUJkOVlaOUhB?oc=5",
+   "published_at": "2026-05-11T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:36.448801+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T11:25:00+00:00",
@@ -817,6 +877,19 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0ac5e591442a89a700a0d9dc7be3c&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T11:25:00+00:00",
    "first_seen": "2026-09-21T04:02:38.591160+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab1fddc3f6a4e27b5b9a2afb3bd8b68&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
+   "published_at": "2026-05-10T11:25:00+00:00",
+   "first_seen": "2026-09-22T04:02:37.123505+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -966,6 +1039,21 @@
    "substancias": []
   },
   {
+   "title": "Mina de terras-raras em Goiás vendida aos EUA por US$ 2,8 bilhões nunca pertenceu ao Brasil, mas agora virou peça central da disputa global entre soberania mineral, influência geopolítica, indústria estratégica e corrida mundial por minerais críticos domin - CPG Click Petróleo e Gás",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMmNlZ0JQSnR0NlBQSjNuTWtoRmFfNHVOcjlsbS1wUHU5NEVFUjg2VDNUengtZnE5SlYzb09WZmhRVG5aQUYwZUhzN1Y3SldGNEwyOXhIV0QwRjNnTDZCV2VLMXlmX3hBOTBueVFRcU9GdVhjNmJVWXhqTVY4TGdySFZGcGQ4Y0E0aWxLeXl5NVhuSHF1R3BMekY5OGpFN1I0TXdHU0pFTmtsT1JtNWdQVw?oc=5",
+   "published_at": "2026-05-07T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:34.717240+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Governo Lula não quis regular venda de terras-raras em Goiás - poder360.com.br",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNamxvVy16a2xIb0Jsd3VNREF0YkIxU3E5NGVHZTRiLXJWRzJXRnhtRWNRblIwUlFoNGpPZ2VQcVZkT2lvZ1ZxZGtORzZyd3lGNW1LZ2ZCNnJhWFlvcnF1RTN4UTBIc3A0S01lM0ZOM2hyMWNWaUpKRXAtaXMxWGM0V3g4bGQ3LXRGZGdFaEdrcjBSRVJfMnF6d1lvZzFZbGZ6WHgw?oc=5",
    "published_at": "2026-05-06T07:00:00+00:00",
@@ -992,6 +1080,21 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "“A Lógica Ficou Clara desde o Início”, Diz Executivo do Grupo Serra Verde sobre Acordo de R$ 14 Bilhões com a USA Rare Earth - Forbes Brasil",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNdUVOcGZzQk5oT2hKZVdMWVJTd0tXczJ4UWNMa25fUy0zOTh1V0hFSXp0T19sWDBNODJOQm9WZ19pdXFOUmktT1pDN2prZlRma2ZuS1VKUUoteVItejc5NjJvOXhFa1FjdE5hdi0yWHI4bnZRUUtwMjNRdjhUNEVLeENyUjNwMWVDUVlXYnh2TWZmbk5xNFppWUhRd1dUZWVlXzVVcE5aNl9BSEQ0VkZHSXBRS2hhWkExNVR6ZUtQb2duLXY1QUd3MVlnVU5Mc0xTU0RSMkpTc2xHRHBJNGVuQnJGVlVLbktyMXktZ0NBaXBkbFNoQ0JpbU9R?oc=5",
+   "published_at": "2026-05-06T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:36.447702+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Operação da única mina de terras raras do Brasil impacta córregos em Goiás - Instituto Humanitas Unisinos - IHU",

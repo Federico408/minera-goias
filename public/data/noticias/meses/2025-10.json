@@ -1,6 +1,6 @@
 {
  "mes": "2025-10",
- "materias": 13,
+ "materias": 14,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - Diário do Comércio",
@@ -33,6 +33,19 @@
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMk1tTWxGWDdBVnRoQkdyTUdiSlRURDk2c0UwRVFCbVFXQ0cwME9wMW5sMVNMU2VvUlZ4T21lTE5xWERTR0dycXJsSFhJc3lESHJpaEdLSm9rRHFITVlKZjZRQnV0MW91NVhyQjd6bmRrdTdud1F4bkszeVdmTUlNd19nQmFUT1kxNWVNb3Z5akR3TEhnYXF2NlJR?oc=5",
    "published_at": "2025-10-24T07:00:00+00:00",
    "first_seen": "2026-09-19T19:49:05.691752+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "ANM atenderá exigências do TCU sobre garimpo em 30 dias - Agência iNFRA",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQR0lZWGF6WDlYb1VjdFRIT2lMQnlMNVF3MnNTcWJlRlBRYy1oTkZwREI2TnM1Q0FGS3h1Ry1IWmJMdTZXRzJ4ZllORk1fbm95dlU2dm5FSHd1clQ3RmtyUzNyV2x5Q0t1ZWR0bnNDNV9Vb0ZfMkdodFJPMzkwLUtoaTk2WWZNcFdZM1psU2d4OA?oc=5",
+   "published_at": "2025-10-24T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:38.948851+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

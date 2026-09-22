@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 188,
+ "materias": 193,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -310,6 +310,21 @@
    "substancias": []
   },
   {
+   "title": "Vale (VALE3) quer avançar em terras raras? Entenda os planos da empresa - InfoMoney",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU0R4aTRhRWUxWFF2TkJiSG9DLXhiV0p6d1BzbWdDbmRWbVlTRVBCWTQ3TlJfOHduNVJGdDd1NHZFRkNNMEhrS0F5QzFmekVYNXlRQnRJMG5rbTF2NXc3ZTR4TVBUUmQ0YlFTQ0FTMnhDMy1FZlNpUzJDRG9LNGRKLUhGWHZJTnluQWhocnpaYU85VVhITDQzTUowbmVLdEhYSldFVnRCZ2ZQVnfSAbABQVVfeXFMTnF4V285aHJ4S1ZFaTJ6UEo5WWVDN3ZYSjhsTGFPb1FVZG1SS0ZpdGFNRHVCRERnekdBdmhPR29DQjdJN2tDNHpXYlgwcFpkOFlNUy0xdVVnN3lLWmsteVdDelRUTU93clRkRklZMzZXLTZnV2haYTUzQVhGOEtaSEJBZzFsUDdqR2E3NU1WNTUtRm5reWdMRjFVR2Z5dmMyZEFSUUJmS0lBYVRMMnU2bk0?oc=5",
+   "published_at": "2026-08-30T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:37.620514+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Anfield Energy starts blasting at historic Velvet-Wood uranium mine in Utah",
    "link": "https://www.mining.com/anfield-energy-starts-blasting-at-historic-velvet-wood-uranium-mine-in-utah/",
    "published_at": "2026-08-28T22:49:46+00:00",
@@ -420,6 +435,21 @@
    "setorial": 1,
    "fonte": "Busca · rare earth Brazil",
    "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Governo atua contra venda de terras raras aos EUA e exige industrialização no Brasil - ICL Notícias",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1SMUh4NS1FVklmSk5acXVFMzJlRnJDZU1KTDJtOGdCZGRmdW9RWHJzaWlsVFRqbFRBS25lSENnQWIxUEJkWXp1ZHdCLWotU0hkZ2RYRHlCc0l4eE1hZzdnWVRRa0JFRVhuaU9ySGxVV0lBRUpSTmExVl9mSTQ?oc=5",
+   "published_at": "2026-08-28T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:36.444921+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
@@ -616,6 +646,21 @@
    "tema": "mineracao",
    "substancias": [
     "ouro"
+   ]
+  },
+  {
+   "title": "Brazil’s Role in the Global Rare Earth Race Is Growing - The Globe and Mail",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcndab2FTdTBGS0wtMVhIbTZjek5fZnRQeUpyWTlnRGNNM1V4bzYzRHB6ZDhVeThtSWVpX1htbkE5VWV6V05TMWZZYmFRVDAteEZRZ1dreDF1aEtDRWRNbi1CZDA5X3U0Rk1QR0tSZlBrZVZic2FEUkVRRUtybFROUURyak4zNTdJRlpfZ0xXUm1xUTdEWnpKeTc5enN6YjlwMExGa3p2TDUwRGNnd3NjTVEtaW5qOTVUVENOQVFXSzkzZmtmWUN1aFVRSkFaWlZtSUE?oc=5",
+   "published_at": "2026-08-27T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:39.890469+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
    ]
   },
   {
@@ -1265,6 +1310,21 @@
    ]
   },
   {
+   "title": "USA Rare Earth raises US$1.55 billion from the US government to acquire mining company in Brazil - BNamericas",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMWFXUEZBMlJ3MXlGejJ1NlZNbmxwT3VYRDh5MTJVNXU4Q2tIbTJmbHd6WXpqZHFFak9ia0JSdkVyTlFhVVQ1N2xfZGJOaE5SODVRZmE2aHBFcWdzcmZadVlPeDVwU25GbUZIWkFSV1M4N1VsWmhqajNqeVdPaGd4ak44U1VpV1RXZklJYlJOQ3ZGOEE3b2lOYVRwNjJKU0VjOFZIS1dCZlVZSkFwdlBYeWxQQkpiTE5sbVNmT2hRNndVcjlQQUtFeg?oc=5",
+   "published_at": "2026-08-25T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:39.879747+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "DOD Invests $750M To Buy Rare-Earth Elements From Brazil - Law360",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdXlsLUsxNDM5UGNmQlFDSUp5bzFLR2xFTTJiRTZ6TTA3dHhlMmpKTVl1Ykhoa3ZkaS1VcHI0Y1JyeWxnUVY0Rmh5RTNsaWdGZGJqMTlMT2lnZTNtMWFmUk82bHNDVHpCbkVUWWp6YWNPd0pXZlRVQ0RhVWRpcV9SMW1wVEFlUk1pTFh6SWtEbk1mdFEtNVd4ZDJwQdIBVkFVX3lxTE1kZ1dmeDRncVliMk8teUlvUzBLUXVuZTF3a2ZiT1lzdUY3MUZnTzc0bGxvcDNWdVRXUmliUmY5VXpUV1Q4ZklQYjF5X0Q4MjVXN21ld1ZR?oc=5",
    "published_at": "2026-08-25T00:21:00+00:00",
@@ -1831,6 +1891,21 @@
    "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQUkVja1VXZW0tb2EwVmE2dlF3TkF1aTlmdnV6VUVTRlhTZ0FVcHJoa3M5UE90NDVETFdpR3BlY1o2NUdTTDJtWGNHNzVYdldVOE1zcmFwTl91YVNrazdtUjdnOUNBOTJNYTV5R2F2YmpuWHpHLUsxdFdBd3NlZEdNUnVVak1mTUJoUG5HN3VrM0loSDZoRFB4RjJ6UEZ3c2l0ZE00R0xiclJYOXZoMmZuR2I1VHlwYkRjLXNYdGFEcng5NnFCcWZCS3FRMFFVc3ZLLVh0T2NTd3Q3Z1R1UlNHQzVjcnlJekZTbW1oa28xMHBXZldCYXFMTmJfSG9ETFV4WVV5ckV2bWZVVWFCdjM4ZjNfNFF6NFdyeURKQ2dmLUM1bG5iYUw0?oc=5",
    "published_at": "2026-08-21T07:00:00+00:00",
    "first_seen": "2026-09-21T04:02:41.512553+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "US, Australia and others turning to Brazil for rare earth minerals - Naharnet",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSHFxNG1kM2NqNklEamZmX0hUVUxVWm5VMXk4aHFOZmp6MmZhd0RjLUt6NHRqbTU0SlkwTEJqUHlXTG1WYnVyYWxra2MxS1VfTzA4N2FYMW9KMTBzeDBMbS01bUFrTG5LblZfOTFVQmc3Ymc3NzdhbFhnR3pCM1JOdk4xUEI0dWlJWl90ZjlpSkNsVENHQTNCZmNzZTlTeHlRa3N6NGR4eDVFMG1X?oc=5",
+   "published_at": "2026-08-21T07:00:00+00:00",
+   "first_seen": "2026-09-22T04:02:39.893399+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
