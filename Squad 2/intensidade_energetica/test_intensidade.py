@@ -93,6 +93,37 @@ class IntensidadeTests(unittest.TestCase):
         self.assertAlmostEqual(sum(float(r["energy_mwh"]) for r in plantas), float(total["energy_mwh"]), places=2)
         self.assertAlmostEqual(sum(float(r["production_t"]) for r in plantas), float(total["production_t"]), places=2)
 
+    def test_coeficiente_estadual_um_por_mineral_do_modelo(self):
+        estadual = ler("coeficiente_estadual_para_modelo_v1.csv")
+        with open(b.BENCH, encoding="utf-8-sig") as f:
+            modelo = list(csv.DictReader(f))
+        # mesmas chaves (mineral, base de produção) que o modelo lê, uma linha cada, nas colunas que ele já usa
+        self.assertEqual([(r["mineral_id"], r["production_basis"]) for r in estadual],
+                         [(r["mineral_id"], r["production_basis"]) for r in modelo])
+        self.assertEqual(list(estadual[0])[:6], list(modelo[0]))
+        for r in estadual:
+            self.assertGreater(float(r["energy_intensity_mwh_t"]), 0)
+            self.assertIn(r["data_nature"], {"calculado", "estimado", "benchmark_proxy"})
+
+    def test_coeficiente_estadual_recalculado_da_base(self):
+        base_por_id = {r["intensity_id"]: r for r in self.base}
+        for r in ler("coeficiente_estadual_para_modelo_v1.csv"):
+            usadas = [base_por_id[i] for i in r["intensity_ids"].split(";")]
+            if r["data_nature"] == "benchmark_proxy":  # sem dado próprio: repete o parâmetro atual do modelo
+                self.assertEqual(usadas[0]["nivel"], "benchmark_mineral")
+                self.assertAlmostEqual(float(r["energy_intensity_mwh_t"]), float(usadas[0]["energy_intensity_mwh_t"]))
+                continue
+            energia = sum(float(u["energy_mwh"]) for u in usadas)
+            prod = sum(float(u["production_t"]) for u in usadas)
+            self.assertAlmostEqual(float(r["energy_intensity_mwh_t"]), energia / prod, places=5)
+            for u in usadas:  # mesma base de produção e mesmo ano; nunca benchmark nem planta + agregado juntos
+                self.assertEqual(u["production_basis"], r["production_basis"])
+                self.assertEqual(u["compatibilidade_temporal"], "mesmo_ano")
+                self.assertNotEqual(u["natureza_dado"], "benchmark")
+            self.assertEqual(len({u["nivel"] for u in usadas}), 1)
+            self.assertLessEqual(float(r["range_min_mwh_t"]), float(r["energy_intensity_mwh_t"]) + 1e-9)
+            self.assertGreaterEqual(float(r["range_max_mwh_t"]), float(r["energy_intensity_mwh_t"]) - 1e-9)
+
 
 if __name__ == "__main__":
     unittest.main()

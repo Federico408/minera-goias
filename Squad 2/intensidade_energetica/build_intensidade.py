@@ -384,9 +384,98 @@ def motor_rows(base):
     return out
 
 
+# Coeficiente estadual: uma linha por mineral do modelo, na mesma production_basis que o modelo usa.
+# Linhas da base que entram em cada coeficiente (sem planta e agregado juntos, para não contar energia duas vezes).
+ESTADUAL = {
+    "MIN_011": dict(nivel="operacao_empresa", basis="conteudo_mineral",
+                    nota="só a Maracá produz cobre em Goiás; produção de Cu contido declarada pela Lundin (43.974 t) "
+                         "confere com a série da ANM que o modelo usa (43.983,55 t em 2025, v17 aba 08): diferença de 0,02%"),
+    "MIN_005": None,  # sem produtor de bauxita na CCEE: fica o parâmetro atual do modelo
+    "MIN_022": dict(nivel="titular_mineral_ano", basis="beneficiada",
+                    nota="o valor atual do modelo (45,55) é MWh por t de Ni contido; aplicado à produção beneficiada "
+                         "(ferroníquel) superestima a energia em cerca de 4 vezes"),
+    "MIN_049": dict(nivel="titular_mineral_ano", basis="beneficiada",
+                    nota="Mosaic (0,089) + Copebrás/CMOC (0,169), somando energia e produção"),
+    "MIN_033": dict(nivel="titular_mineral_ano", basis="beneficiada",
+                    nota="só a SAMA produz amianto em Goiás"),
+}
+CAMPOS_ESTADUAL = [
+    "mineral_id", "mineral_name", "production_basis", "energy_intensity_mwh_t", "source_id", "data_nature",
+    "aggregation_method", "year", "intensity_ids", "energy_mwh", "production_t", "coverage_share",
+    "range_min_mwh_t", "range_max_mwh_t", "confianca", "valor_modelo_atual_mwh_t", "variacao_vs_modelo_pct",
+    "observacao", "versao_base",
+]
+
+
+def coeficiente_estadual(base, rows):
+    """Um coeficiente por mineral do modelo: Σ energia CCEE ÷ Σ produção das operações cobertas (média ponderada pela produção)."""
+    with open(BENCH, encoding="utf-8-sig") as f:
+        modelo = list(csv.DictReader(f))
+    ccee_raizes = {cnpj for cnpj, _ in ccee_bruta_2025()[0]}
+    out = []
+    for m in modelo:
+        regra = ESTADUAL[m["mineral_id"]]
+        atual = float(m["energy_intensity_mwh_t"])
+        linha = dict.fromkeys(CAMPOS_ESTADUAL, "")
+        linha.update(mineral_id=m["mineral_id"], mineral_name=m["mineral_name"], production_basis=m["production_basis"],
+                     year=2025, valor_modelo_atual_mwh_t=atual, versao_base=VERSAO)
+        estado = [r for r in rows if r["nivel_agregacao"] == "estado" and r["mineral_id"] == m["mineral_id"]
+                  and r["year"] == "2025" and r["production_basis"] == "beneficiada"]
+        total_estado = sum(float(r["production_t"]) for r in estado)
+        if regra is None:
+            produtores = {r["company_id"][9:] for r in rows if r["mineral_id"] == m["mineral_id"] and r["year"] == "2025"
+                          and r["company_id"].startswith("COM_CNPJ_")}
+            bench = next(r for r in base if r["nivel"] == "benchmark_mineral" and r["mineral_id"] == m["mineral_id"])
+            linha.update(energy_intensity_mwh_t=atual, source_id=m["source_id"], data_nature=m["data_nature"],
+                         aggregation_method="sem dado próprio: mantido o parâmetro atual do modelo",
+                         intensity_ids=bench["intensity_id"], coverage_share=0.0, confianca="não informada",
+                         variacao_vs_modelo_pct=0.0,
+                         observacao=f"nenhum dos {len(produtores)} titulares de bauxita com CNPJ na aba 12 aparece na CCEE "
+                                    f"({len(produtores & ccee_raizes)} encontrados), provavelmente por comprarem energia "
+                                    "no mercado cativo; sem energia observada não há coeficiente próprio")
+            out.append(linha)
+            continue
+        usadas = [r for r in base if r["mineral_id"] == m["mineral_id"] and r["nivel"] == regra["nivel"]
+                  and r["production_basis"] == regra["basis"]]
+        assert regra["basis"] == m["production_basis"], m["mineral_id"]
+        energia = sum(float(r["energy_mwh"]) for r in usadas)
+        prod = sum(float(r["production_t"]) for r in usadas)
+        coef = energia / prod
+        # Faixa: o mesmo cálculo com o denominador alternativo do rateio da CFEM (R$ × por t) do Squad 1.
+        faixa = [coef]
+        if regra["nivel"] == "titular_mineral_ano":
+            alts = [producao_anm(rows, r["company_id"][9:], m["mineral_id"])[3] for r in usadas]
+            if all(alts):
+                faixa.append(energia / sum(alts))
+        cobertos = {r["company_id"] for r in usadas}
+        cobertura = sum(float(r["production_t"]) for r in rows if r["nivel_agregacao"] == "operacao"
+                        and r["mineral_id"] == m["mineral_id"] and r["year"] == "2025"
+                        and r["production_basis"] == "beneficiada" and r["company_id"] in cobertos) / total_estado
+        fontes = []
+        for r in usadas:
+            fontes += [s.strip() for s in r["source_id"].split(";") if s.strip() not in fontes]
+        naturezas = {r["natureza_dado"] for r in usadas}
+        linha.update(
+            energy_intensity_mwh_t=round(coef, 6), source_id=";".join(fontes),
+            data_nature="estimado" if "estimado" in naturezas else "calculado",
+            aggregation_method=("Σ energia CCEE 2025 ÷ Σ produção 2025 das operações cobertas "
+                                "(média das intensidades ponderada pela produção)" if len(usadas) > 1 else
+                                "energia CCEE 2025 ÷ produção 2025 da única operação coberta"),
+            intensity_ids=";".join(r["intensity_id"] for r in usadas), energy_mwh=round(energia, 3),
+            production_t=round(prod, 3), coverage_share=round(cobertura, 4),
+            range_min_mwh_t=round(min(faixa), 6), range_max_mwh_t=round(max(faixa), 6),
+            confianca="alta" if naturezas == {"calculado"} else ("média" if cobertura > 0.9 else "baixa"),
+            variacao_vs_modelo_pct=round((coef / atual - 1) * 100, 1),
+            observacao=regra["nota"] + ("" if cobertura > 0.999 else
+                                        f"; a produção não coberta ({1 - cobertura:.1%}) recebe a mesma intensidade"),
+        )
+        out.append(linha)
+    return out
+
+
 def write(path, rows, campos):
     with open(path, "w", newline="", encoding="utf-8-sig") as f:
-        w = csv.DictWriter(f, campos)
+        w = csv.DictWriter(f, campos, lineterminator="\n")
         w.writeheader()
         w.writerows(rows)
 
@@ -398,7 +487,12 @@ def main():
     motor = motor_rows(base)
     write(OUT / "energy_intensity_para_motor_v1.csv", motor,
           ["mineral_id", "operation_id", "year", "energy_intensity_mwh_t", "production_basis", "data_nature", "source_id", "intensity_id"])
-    print(f"{len(base)} linhas na base; {len(motor)} no arquivo para o motor")
+    estadual = coeficiente_estadual(base, interface_rows())
+    write(OUT / "coeficiente_estadual_para_modelo_v1.csv", estadual, CAMPOS_ESTADUAL)
+    print(f"{len(base)} linhas na base; {len(motor)} no arquivo para o motor; {len(estadual)} coeficientes estaduais")
+    for r in estadual:
+        print(f"  {r['mineral_name']:<20} {r['production_basis']:<16} {r['energy_intensity_mwh_t']:>10} MWh/t "
+              f"({r['data_nature']}; modelo atual {r['valor_modelo_atual_mwh_t']}; cobertura {r['coverage_share']})")
     for r in base:
         print(f"{r['intensity_id']} | {r['mineral_name']:<24} | {r['empresa'][:30]:<30} | {r['production_basis']:<16} | "
               f"{r['energy_intensity_mwh_t']:>12} MWh/t | {r['natureza_dado']:<9} | {r['confianca']}")
