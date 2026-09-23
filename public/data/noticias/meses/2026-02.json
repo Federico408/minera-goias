@@ -1,6 +1,6 @@
 {
  "mes": "2026-02",
- "materias": 21,
+ "materias": 25,
  "itens": [
   {
    "title": "Agência distribui mais de R$ 108 milhões em royalties da mineração a municípios afetados e limítrofes - www.gov.br",
@@ -44,6 +44,22 @@
    ]
   },
   {
+   "title": "Com foco em ouro e terras raras, Goiás busca captar US$ 10 mi na maior vitrine mundial da mineração - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNdFJUbnVzWGRLYUdHR0dVcjl6RUdfWTBaaElCR2pSdmtfZm83blNEWWZObS1NUXRjNk15SS1COU5HM3dGVWU3RFhMNE94d0FUSGR3WThLLW1vR1NSUFJSSmp6aVIzWTBsUUdlOXZ4RUJMb0dZVUVzMXc3XzlCeTVZWVl0ejRqak50dmgzQ0piRjVHRHlycmI4SFByay05WVF3cFVpV19RZ3c1eVFRN0R6czNSWmd0WFpaUFhEb29aN3RkSW1mTG5CbmViOERWcHd1QUxuSUlabnpRRHN4Z1IzaFJMSTFmdV9NeTQwRXk5NWRfYTZlOFRXREVXUUUtNUMyTERoMXBFWVQzckdpUXFpMGo4TENmS2R0TjZTYUgzTVRRZTN5eUE?oc=5",
+   "published_at": "2026-02-24T08:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.625215+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro",
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Engie eyes bitcoin mine and storage system at huge new Brazil solar plant - Reuters",
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbEF6T3FzaW55NUtxaVFSUUt4NjFHMzBoWWd1dEtGRzFNQ0ZRRTc5MzJoUGo5dVJwTjhXUTAyeEdrcXZGM25rU1RxXzdGRzNjUXBPc2Izck9FcVg3SVlJT1NoVC1OZjJzR3B5azkzYldTSXNXQ0JvYXdia1U3bVh0OWFRcGlXOGRtTGFUa1hvTndGRjdMY0dLT0RYaEhMM3ZEX2xkNGJoenpRbkZINlNGNEZ0ajZfZmxEUzFCSldiUHA1aXB4NWJIRWZ1MUI?oc=5",
    "published_at": "2026-02-23T08:00:00+00:00",
@@ -81,6 +97,34 @@
    "escopo": "setorial",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Agência de Comunicação - Goiás anuncia fim do Fundeinfra e alivia custos para a mineração - Estadão Blue Studio",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxON01td0gtSDdXVGhSQ3lIeFBqU1FjVHoxWGlQcGY4a0lXR2h4eWJsQlRFQzZmSnlqempFR1ZLUkk0NnU4RmFMdW4wNzBlRC1DMnJ4QkxxMGotWE1lb2hVVV81eUxUZW9MVUduNTI4cGxSeVl6RElWNVdHUGR5SG1fZUdVMWNNckE1eEYwSXN0UlEzU2EwZGY4NWJVYXU1YVpvY2J5bjBpaUctMEotWS1z?oc=5",
+   "published_at": "2026-02-19T21:26:03+00:00",
+   "first_seen": "2026-09-23T04:02:48.633192+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mineradora australiana descobre terras raras em Goiás e ações disparam - CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeGZTeFJhUGdBb0Z5NWFWZl9GTTNzQjdCQ3lFR0g2MzhEWTBGV3lad0RxNUNxTy1xcXdjNl80RXdsR1VkbVN1VjVZeG51Q2JwZWI0ZThucGI1U29OOWNPbVByYmtkWEdxZ0t4ZzBWYW93UUxrRjZVd3lIWWQwMVlZMnN6N21GUG9Qc2pGM1lob28zbkJkbU53VEpBQlBlUG4zYzZ0OXhlVThqRWo3SjViTi01MFdTRGdMbG1BR1VlWlY?oc=5",
+   "published_at": "2026-02-19T08:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.622709+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Royalties da mineração injetam mais de R$ 546 milhões em estados e municípios produtores - www.gov.br",
@@ -205,6 +249,21 @@
    "tema": "mineracao",
    "substancias": [
     "niquel"
+   ]
+  },
+  {
+   "title": "Alvo da China, terras raras de Goiás recebem US$ 565 milhões dos EUA - braziljournal.com",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZW0ycWU3UlZZTU5KQ01XcndJYzQ5ZDdNaUlnMEQ1NkVtNHlvQm53al9ZMUNtSDRvVVBjYmJhZlUwczJDTG85Zi1zeTR6QmZ0ZWYxU2c2aTRzOG90dXg3RmRuRXUyS21IUG84U2hTUElCZjU1eHp4WGZoTEJjZUxUYm5JWm9nYkpBUXF4ejFvc3VidUwzbjhZWA?oc=5",
+   "published_at": "2026-02-06T08:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.629042+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
    ]
   },
   {

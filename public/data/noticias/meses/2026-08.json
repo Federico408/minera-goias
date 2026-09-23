@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 193,
+ "materias": 200,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -323,6 +323,36 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "Opinião - VÁRIOS AUTORES: Do urânio ao nióbio, as lições para o Brasil das terras raras - Folha de S.Paulo",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMTZLR3RVbnNkMEpYOEQwa1E3UUJoOFl5MEM0aWNCbS1OVnpBUS1DbF9WeGZSQURLUjNaS1BoaGZINFloTGhNTWN5bmVOSHdwei1qcFU4VEpJZVpIb1hkNGlWaEoyZldtT3oxc2QzaTRiMVFwcEFKZjJpZ1F1cUlDeXhRWF9kVDZ3QXFlOFhzZUZnTU02S3JkbDhyMklqUjQ3b0hHeGZfVnBpM0xsTEpVWWxR?oc=5",
+   "published_at": "2026-08-30T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:52.218372+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "niobio",
+    "terras_raras",
+    "uranio"
+   ]
+  },
+  {
+   "title": "ANM outorga 19 alvarás de pesquisa mineral em Mato Grosso - Fatos de Mato Grosso",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTnZsMUY0dUVIazc3aF9wcDJSZ0w3WlZoODBLM3dRMFRPRFdQTnB4SmktM0ZMUzBxNGhwV3dxcFhsb2pFT3Q4WWpfMjZMYTNfWTRrdTRsXzFXWWNjdDg5cmVsS3lqbnptYTVDSEM5elBaUG40V2wwQlRZR0dOcTlRbDljTXlnYU9QSjNoXzgyOXIwTi1DZzRCak1BRkNheGFQajFVUTlKN255Zw?oc=5",
+   "published_at": "2026-08-30T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:53.916830+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Anfield Energy starts blasting at historic Velvet-Wood uranium mine in Utah",
@@ -1160,6 +1190,36 @@
    "substancias": []
   },
   {
+   "title": "Governo Lula deve rever venda da mina de terras raras em Minaçu para os EUA - Jornal Onze de Maio",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZ0QzTks4Vm9HQWVRZG05azQ3NjNoLTd4X3dTUFBKa0tnLWxZX0Q4bEZOQXRMVzMwWmZOWnFrZXJtZnptQTBjV2YtdXJhRmVLbGFEc0t1LUV1aWZLZnI5TmMwem5ZcmdmNVB5d1V1dDJJeUZXQWZEZUVqT3lFRFRJSkZBQ2V1YmpTZG90cHlSZmtmbjRXbXc2YlNrdHhUdUNudXpZTg?oc=5",
+   "published_at": "2026-08-26T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:50.874416+00:00",
+   "regional": 1,
+   "regiao_termo": "minacu",
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras em Goiás: governo Lula contesta acordo com empresa dos EUA - BPMoney",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMUM1dmhVcGVoVjZXdDJkckUzd25TVzdjdFVRRzV0TWdtN01MdWhoVWxnRlVqYzMyZWxGRzVIcDF5cEJ4WndVU0NDY0QyQm42bF9LUFRBbnhPRzFIb2E4VkZ0THhYZGRHQmw2LW1BWDktS2lzSDdEY3RMZ2hhZkdNNDFyZ3hFT2Jackt0Ujd2dHNZU1RYczVZNjNkUDNEQnBnVmlOMFRB?oc=5",
+   "published_at": "2026-08-26T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:50.875051+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Atomic Eagle claws back Niger uranium project",
    "link": "https://www.mining.com/atomic-eagle-claws-back-niger-uranium-project/",
    "published_at": "2026-08-25T22:38:00+00:00",
@@ -1773,6 +1833,36 @@
    ]
   },
   {
+   "title": "Governo dos EUA põe mais R$ 1,2 bi para empresa comprar mineradora de terras raras no Brasil - Estadão",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQU9vcUEzT3poNjJQWF91UFN6NVBKOUVhb3IzblVrcGxndG5rNVVrQ3hVY1YwdW5XeTh2U25UWUFfWWxVV2wzc1dRcXZyLWVId0d6bjRhNzZDLTdkMlJ5alBWMnRGSE9Fa1VlLXJSajBjN3d1YUcyZHZKUUZFaFN6aGljZlB5cVlRTHVsZ3I2UDhIQlgtMVdoaHJYRXFDUTVfRGVsMg?oc=5",
+   "published_at": "2026-08-24T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:50.873609+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Sigma Lithium anuncia retomada das operações após acordo com autoridades no Brasil - BNamericas",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSmZ6UlJDZV9SZGdRM1hlTDFnUmNyNnByWkhsZlNKa3IyZFJHYmNUajB0MjNKVG9zWmdwMXh1SFNvSUtOUUpGai0yU2pCb1RLM3I4dFVldlNyQzZmRjNsU3BJR0xmRGJ1UHN6LWxNR2MwX3ZpRVRXRDFnQlItZGY4Vzl3TGVzMHgyT1NjRGZHYlNVUE9TNS1MaUxyZGg1N0hMYmpIdE9JMHNjQWZFQms2N1BXZTNyVkZhVkE4bXR3?oc=5",
+   "published_at": "2026-08-24T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:52.777581+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Niger awards former Orano-operated uranium mine to state company",
    "link": "https://www.mining.com/web/niger-awards-former-orano-operated-uranium-mine-to-state-company/",
    "published_at": "2026-08-23T17:12:23+00:00",
@@ -2078,6 +2168,21 @@
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRFNpU3BaRmQ2MHp1WWNsQnJfc1phNjF3Y3NZLTByY21CaFhYQ2Q0MmhUeE9vbkg5VkNsRDk1NENFd3I1VTVBelZhRUo4VkVVZkJHb0oyNGtadVZWaHFnOXBDb2VMWVFVY0J1WUlUZk9RNXJpdlhIb2lab2x1d3VSZkFIMENBX3lLTXU4NVUwQWJZU196RWpWRXJTdW1ZMkZIUktwSUlYbFZFOUpDelZOc0xJTWl6NW1BOFA0YTA1bXhtWENPcmRUNWVwaFZ2OUFvTllV?oc=5",
    "published_at": "2026-08-20T07:00:00+00:00",
    "first_seen": "2026-09-19T19:49:06.970397+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Takeaways from a story on the US, Australia and others turning to Brazil for rare earth minerals - Audacy",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORkxrRmpubW1vaUVmN1ZBUnZDczJMN2pIYXllSFY4UXpmcGhIRHlkdGVFQzZBM1UzQlVvZHMzOXFZR0tJck1yWUdkdHlBM2pZbDF3TXM3VEN5UlkwVHdGTkxjZFdiQ1RGekE1RU1Fc3FwWGZfNzhGU3RiUDFyTEgyeWJVdjVTMVRSZ0w2Uy0tekw4dXF4N0dNZXgzUDlCOGtYZDNDOEt4OGZleFM5WHpXelF0dTlfekR4ZVVyVFJFNTE?oc=5",
+   "published_at": "2026-08-20T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:55.166302+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

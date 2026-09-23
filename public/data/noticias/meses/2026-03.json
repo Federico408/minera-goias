@@ -1,6 +1,6 @@
 {
  "mes": "2026-03",
- "materias": 27,
+ "materias": 42,
  "itens": [
   {
    "title": "Nova guia da CFEM entra em fase de testes com participação do setor mineral — Agência Nacional de Mineração - www.gov.br",
@@ -191,6 +191,45 @@
    "substancias": []
   },
   {
+   "title": "Caiado assina acordo com EUA prevendo parceria para explorar minerais críticos em Goiás - O GLOBO",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbWppVVhpZGFqM0hWd1FnSXBwME5zVzJsNExwOTJfR1hGUHVtRTdvNEs2WjRnSG5VWEV3Wjd1LTVwemtCYlpxUmNtZ05GeklDdmJVS3RBenFPSExOUEljckhINnpfNEZwOWFIOGxCbFBMMjBGR0NBcFNIRkljWGdBMW5DTjljLVZjNVhNZUV0LXl2RF8tWFV6VWh6MzFJMXg1Uk9yd0lRYktfZTBBQ2xNZTBGZEUwUi1NbExlWEZFUkVBdE5FeDBpUVppQ1d3RExuQ2ZLam1wdEV5bE1tbHR30gHuAUFVX3lxTE56VHQ5Q1FMcW1kNVFodW9mTkQzZElqWmd2ejl5V2Q5S2xZZGhKU0Q0V1lHTEotNDNzNXRxejNDX3BucU42d1BWd2k0R2dHeGtia1prcndxZERaX1l2SVIwYkY5OVByeDVYWVU5aWdka1ZZT0pvOGxydWcwbTI5TFFEOVQwQVk1dWg4U2R1bDdoNm5BRmJEU0puOHd6dUctWGxqc1FDQ3VNXzNtNkxRQzJKMzBmVk11S0JHWFZsNzFscEZDQkhqUDJQNFZpZ0FsczZsWWdtVk53d3ZQNzdQbF9jVTlISFQ3c1dIakNvbXc?oc=5",
+   "published_at": "2026-03-19T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.621997+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Goiás firma acordo com EUA para cooperação em minerais críticos - Portal BE News",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOUdsY0VWcV84ZHdoQmFwc3FFekdfaFg3aWMwUE9rVmdxdlU0MDdrNGtCa3ZoREFGNDBqTG13R2hiUVlNVmFtdGctSlMzZXhhcnZJUGFMS0tib2ppRnZXSVlBRDU0eEhFTTBhS3BJS0ZCSzF4YnlSZjNpTlItNUpiZXVYRlZrc1NhMTRNV2IxSkxNcXlPYTVr?oc=5",
+   "published_at": "2026-03-19T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.623175+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Goiás assina acordo com os EUA para colaboração sobre minerais críticos - Brasil 61",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNenhxakRBVGZYeXl3TWZmcUc2VkplVlhORWJ6aUYxYXgtOEhRS2pyR1dXQnItUU8xS3FuMGxkYlA0NGdBN2J3ZW1CM2hkZ18yTlRLWV83djlPd0c4V2JTV2pyTnlxTDQ2UnhLcHNRdFBZdXZkR0hsTFJpb3g4anpMU1dNajhnS0ZhXy0xcEVuUTM3SG93S0x0dTlNVUppc2l2VnliLVRZLS3SAa4BQVVfeXFMTlZadk9KVUFjVS1GUkxZUFRfYk9YSWYyWVFGNFE0M0loWkhfSEVVY2JaUUFaaU9UN05sZWhxN0lHSXNnMU40U2xiQngybW9XU2s0X19naFVMeE93TU1Ka0w4YlFIQ3EzNzlxaWtKN2RZZERxakQ0allrdFZBaGkwUkxtTF9vd013UDZqX2hKOGZjaFlBSEJ3TlJ3MDhDSFFwU2ZMYmx1SGxSVk9CT1N3?oc=5",
+   "published_at": "2026-03-19T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.631066+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "PGD — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vSGV5NEUtaEM1RV92S3dxY2d5S0RVakhjQTRmNVFTWmFLNU9NWjc5VDV2U2dvOFZ5ZDFzbVYxMUtySkJSS3NrbmV0NXJDLVQ3ZzV5cl9lWW42N1YxV21WOTZOZExZSVlTSzhVTHVHNEw?oc=5",
    "published_at": "2026-03-18T13:52:15+00:00",
@@ -232,6 +271,75 @@
    ]
   },
   {
+   "title": "EUA e Goiás assinam memorando sobre terras raras nesta 4ª feira - poder360.com.br",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbS01LXZEZFBvTVBvYzNDcy1iS2ZzQnhabVN2VG9VbGpoVDQ3bkFHRkRCM2dNdHU3R3VLYmxuRWJRNHhqMU5TX3h6U3RpRmtPcmRUbHlVLS1JVUJHVkJfRWFwWGJXY3RrT3Y3QnZtSDZBZEw3SE1JUlV5Z0JIdWE0U0lhbnEzczNKUmZJNUtCcG9PSklHejBoWFBhRzd6RTdGa1FPZTJZV2J0a2I0al9PQS1R?oc=5",
+   "published_at": "2026-03-18T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.617521+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Com benefícios fiscais, Goiás fecha acordo de minerais críticos com EUA - CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaFlfazlERDY1TXRhRUtpMm5KOFJ4OWtYVC1WMzBoajU0anlwS1RHWjdQdzZndEJSUHAtUjZ3RzB5ZGdxRHFJNF9GY1RUZHRtZzBUZkhLeFhVTjJjdmMxY25fSGh0cDFaUnJMVi0xWUpWa1VMb3NwQUx2WWVTNUVQMjJPc1pSMDVoYVRFSmhyeTdVWE5ib2Y1RWJvQXNWQUdpU19aWlBvUHhjUQ?oc=5",
+   "published_at": "2026-03-18T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.618004+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "MINERAIS CRÍTICOS | Goiás firma acordo de parceria com o governo dos EUA - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVVAwLWxOTUFOUERfMDFDRzhFc05GdEY1a0lnWXhKZjJaWDhzZGlHbHFnYXFwbjdwUk9NNDV5QkRkRy1nVzVieHVzWWxvV1cxR042dC1HRVBNSEpmNExnS2FNNG10dVc5TGlGeUJpMm5Cak1LOHhXZDFHaDlUU25QdDYzU0c1TkVHOHR4WkZKZElldGpf?oc=5",
+   "published_at": "2026-03-18T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.618678+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Goiás ressalta “rigor jurídico” em acordo de minerais críticos com EUA - CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWmpLd3otWkQ3UnF1bUw2NHBCdDVISzg5NTdaOFdhSHM2TUFUNDh1RjFBNEtGOUxQcm5raHFVZF81WE9HS3pvZFAwbEJYTzhCVG1aeXl5ZkFTbE41M2tjZjBrRzRVQ3h3T0ZlaUpTZWx2Z0lubG1QX3ZOTkFpM3R5RHZSb0hzdzRVYjZBU2o3QW80WmRjUm4tcDA2Zks1YTBweTB3b094TQ?oc=5",
+   "published_at": "2026-03-18T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.620622+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Goiás assina acordo com os Estados Unidos para exploração de terras raras - SBT News",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORWlGZjR6UU5YT3hTLW5adWhScjM2LVNOUzlIR3FfRFhIZUN0OURZemtxNWtmejlUNUQ1Qy1OaVFodzlSWXgxeEpsNXhKVkVZZWpCUnZUc0hqU0pTcV9oNHBIT1RkTWRSbk1DdVhGZk9kOHlTd08yY2dYMlE4WEdXSjdOUWQ5Ny1oVjBUN2ZURElKaGN4V0lqMlU4cUFfcWVkWmhlVl96U0tWT1I3Z1BLQUZXTkVrWmdx?oc=5",
+   "published_at": "2026-03-18T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.630615+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Indianos entram no mercado de lítio do Brasil em busca de tecnologia - Folha de S.Paulo",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd0hIQVhzWnNEdS12Z3B4bGU2ZmRMVFhlRG0xMGVxcWY0OURMbnl6cHo0X2thRjVrZWRiLUZucFJVS1cxNjRxQkM4TlRFTVpzWnY3SERicWc4X2lvZkV4SWlEcmlWZ3RUSnFXcGRwZnN1M1RxN0haY3NyUEFOVVRPQllJYTZ6M3U0cWR0SVc0c2NWQndNWGc3Sk9GMDNWWDN4V1cySWtUdnlPWlIzX1FURGlROTZaLU9JOUV4M9IBwgFBVV95cUxQMGx3VVNYYjVtRzM1T2ZJRjNaRTBnY1FmM2JZVDRHSnFDdmtMNlBiQktXQ0Nfc1UwUFE0ekp1VWRUbWRIenFpcmJIZDItMlBPNEI4UmpZVGc4NHFpSlQ2Qm02LTFESWprVGE1eXdrRlhEcXo5OVNfNk9FWDZWSkVKMXV6bmVsaW4waWs4Q0lLeGxzMkxESFluU3RrQmg3VHpEQk56UldSSE5QNXdoS1R6N2Jqd2k2Sng3SjJCV3BKYWVvUQ?oc=5",
    "published_at": "2026-03-17T07:00:00+00:00",
@@ -245,6 +353,32 @@
    "substancias": [
     "litio"
    ]
+  },
+  {
+   "title": "Caiado se adianta a governo federal e vai assinar acordo de minerais críticos entre Goiás e EUA - Folha de S.Paulo",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQdGltOU5hNGkzYy1xak1KYjh1Wk54dEl3LTZxNE1ncGpVRHNEdWNqYmNhNTQzMHdrS0VpZzlaaVpwWWtqdTROcVNMNnhRcWQwT2JjMDFHXzhacEFCNmdERzN6QmxCUlJzd0RmTFpvV0NrbDJQQnkzWkV5NURWOXowMGtiaS1OdVU5UnV6aEhrY1B5R3VxNEVYYTFtV244VXZ3X1h0eXpCSzltZWo1OFVlSjNlcUU4T3dQTHhmaGtwTXlCTW9WYXRpMFZ6cWM0ZURiakZtZ3I5UEQ3YzR6V3ZWME9uX1h5Z9IB6wFBVV95cUxQUGhRa1V3SHRpd29IOUs4Ujk2N1N5dzRaTmh2RmVpdk5KNUR5OFZGbkJJWGxyYVVOX1VnbThMbEtkRk1RTDR6bGJTbVhyQ2xUNlV6WUhJLXJGSXNMX285SUI5bkJHTFNmY3VHRWJLODYxTThwVGRNOExDUG1mM1BFMk5pQmhBWW1RSkJKaE5wY0tZUzNxbkxlNWJ2dUplRmlvVk41b2pWYXFkNXprWUNSSkRjbkxES1ladXpfZ0Fob3p3R1BVNjZCZngtVkR3SVhhR25zMy1iRWt2TmJWS205aTJOZGN2dTVIRHBF?oc=5",
+   "published_at": "2026-03-16T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.626004+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Goiás aposta em biogás, data centers e mineração para nova fase de crescimento - Tribuna do Planalto",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaEJWNXlYb2JjTTE3d1lpVDBxRHRxQzl6ZGl4VWJwMUR2TkRVNjNkdHpUc0FWWjNrSmRzNjRSbHFQR2hyMXJxVTVDNDJ0b3pndExiZHBRaFdrZ2VKNTFVb1ROSGs0bXZ4MkJBRXRELUtZaVl0ZGFQNzM4cFlTYzY5QmZjNDd2aUh3ZW9yNURiUUhPOWQ5ekM5X21sRExNcjQ5RDlISEVYbHdKbTBPMFhybw?oc=5",
+   "published_at": "2026-03-14T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.631755+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Royalties da mineração injetam mais de R$ 464 milhões em estados e municípios produtores - www.gov.br",
@@ -273,6 +407,19 @@
    "substancias": []
   },
   {
+   "title": "Goiás e Japão firmam parceria em minerais críticos - broadcast.com.br",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVWRoSjFsN2UzV3RxWXZmSmMtd2NxRDZvdGZINktjNmkwOHZQaU1uS2RlcWtWTkRSYXdCN083YlRUTGxlSi1yVGJFOXVQZFJtb05lY0I4bGpYeEh1Nkp2dG1ESFB0QVltNE1kdTJOYlFSTGJuWE9neUoxWXV3SHNVcWVVSWhBQjZkZG9F?oc=5",
+   "published_at": "2026-03-13T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.623862+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Brazil's Vale more than doubled ore production from waste material in 2025 - Reuters",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNT21wVGJRMl96aTlCUmVLSkNrNUdZM3ZJTHh6QlRDZzh1RnJEVHBURUhZc21wbFNsOXVCeFowMTVaVlM3ZDl5Y0FycmVtc0lqUGoxNXhsSHNhSG9BX04xZ3dYZzI4b3hCcUtYbFZSc2pfdFd4X0Zib2lONmx2Sm5laVBrRlVnN1F2bE1kbjY3YjhDR2ZsYzMzNFFmcTNNNWN0TjM0c3prNFBxb1c4QVVFdUdsclg2WkE?oc=5",
    "published_at": "2026-03-12T07:00:00+00:00",
@@ -295,6 +442,19 @@
    "setorial": 1,
    "fonte": "Busca · CFEM",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "MINERAIS CRÍTICOS | Goiás firma parceria com Japão para exploração - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdms1VDNoVzVJODBrZ0lUdW92R1V5UFhsNGNUbnhtcmFTVTZPOUNncE9tWDhtR3ltdkZtS005ZHJRVFdlZmJ1QXcwZUpxMlZSbUpud1ZIX0Q3SFJocEc1NVh0VVAwbl9DVmpzMWgxd2tEZGhuaDJvUWhDVnRtZ2pNOHJVeTNmUmhXaUI5cg?oc=5",
+   "published_at": "2026-03-11T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.621308+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -338,6 +498,49 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Terras raras em Goiás: estado assina parceria com Japão para extrair minerais - g1.globo.com",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYzZkRGM5SFhWZWprSnk5bWpVcEtKNjVGZEdsbk1SOU9GOGxQOWtkYjJCdzFudVFBT2NHZEYzOEhaMEd3bHI4NkFHaVNrcTBPQUpvMURyS1B4QzA3OTR4cDlxRllnRGU2RFZ4N0s4Y0p6Z1o2YzdSZ1ZIcFBMSjJoODJmenFXa1I5ZGUwbDdDcWNfTEE1eTlQMkdMTTNxbjlJRFlLbnBwcC12N2NXLXBwc2hCV0NHb1hfc3E4QWlHVk1nZXd5dE9TT2tLMNIB2gFBVV95cUxQQWQ5emVMZ0o4VGh5ZkZudjE0cU5WV3lXalljdU84QllvUjh6NFNzZ1R3SGVqT0RLMm1zdkRyMVJlMDZ2X2pWTVo4YS1mNm1PRVoyZ19NM0VGWUVWc05WTEZrUzRwbzAxc0Q2Nl9oWlZuLUpKY2lRdlduOEU2RVd2ZkVqaklwQkFqYnQzRk9JNl9UOUJpTnNJZHhDVk16aW1xT1N6RUNQYUJISS14OTU2clZoeklCTU0tRjRkWFpTblAwbmhYWlVsdTVjeWN5eUxRRHNHdU5WNWx3UQ?oc=5",
+   "published_at": "2026-03-09T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.619438+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Goiás e Japão firmam acordo para cooperação na exploração de minerais críticos - Portal Agro2",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON01xTlJRcDlkSWZDLTFiQzM1VDNPTHNab2hhdFpwMFhCc1Zrc19iMXNuMGUxeU0yR1lDbjRHZF9ZdkJpbE83dWtXUUJ4WXhTNTdhTTBlT2pwbzB0NXJaSXlSMlo4U1lFcFZYNWI0RjhqZFRwRGdrWkRVV2R1OEJVd3dNTTdFa29vLXlPYmRSQ193TjZVVnQ3aVNsYV9wWTBBaEFPN1pTQkxuSExIU1c5bWtB?oc=5",
+   "published_at": "2026-03-09T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.627344+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Terras raras em Goiás: exploração pode gerar mais de 12 mil empregos diretos - g1.globo.com",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTmdLRjFhOFI4N1dsaHM1TC13T18wNXQwcTNpWWdNczBfc2FXTEg0LU4xOVI4cnlRVmUzTkwtZG1yM0hrN29aVEJqQlBpT2pTNHpHY3U1ZUtFcXlPTTFfVmk4blEyMDdlNTdBdjZPZExEVEtEa2YxZ0ROVU9LMlBQQ29GdVF5NThNbG5sbGVhWjJVNzdTUWRuc3hyZG9tbzdtU1ZxNHZsdUdMN1o3TGhKdFBxanVueUtGczUwLUhWbUw0eGp1QUNBWTd30gHYAUFVX3lxTE1VazNHRllGa3NUQXBqZl91eDdnYURXSWp6ZC1xWV9fQmFtcnN2UV9JbHhRaWkzRUpndlpBOWdvaHBNMWJkLUExLWp2dWE0Ukk4VDFBb2UtZ3NCVk1ld1BQUkpKRWVDRlJQc3VsQmktcm9vWXdqeVZyaUVyM1JNX3F1X1ZISHNmeVU5WjVqY0tQRUNOT0lSbnpCVzR1MGNJWmt2VVZaWEJvVS1abEFWZnV5N0xXcVRkSjBNc3IwQWZULWNpZEU3TGE1TjJocGNtVkpCTDRFZEtocg?oc=5",
+   "published_at": "2026-03-07T08:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.617020+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Justiça confirma entendimento da ANM sobre base de cálculo dos royalties da mineração - www.gov.br",

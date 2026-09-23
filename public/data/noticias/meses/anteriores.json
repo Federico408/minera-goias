@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 235,
+ "materias": 238,
  "itens": [
   {
    "title": "Brazilian police expand program to trace gold from illegal Amazon mines, nab smugglers - Reuters",
@@ -1231,6 +1231,19 @@
    ]
   },
   {
+   "title": "Petrobras wrapping up due diligence to buy back refinery from Mubadala, sources say - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdEVUenVSRXd1bHV4S2dRSmN2cjFRSFFJTGFkRkpzcC03UWVrbWJ4ZnM2NEJadVE4Z29JbGhiY3RRZlJfc0ZwNldPNUEzZ2RWMEdSaWl3c2VXS2FxeHNpRTRsQ0ZSNlhYZFVHVUt2NjNmMGtXQ3dBMFExdHhRb285UjdZQUhrbzJUZHU0bWxSVmFUMGxWeFBZcjlHRDJhazJtVGk3NkRBWVJSSndMVjNWQmE5OEY3bkNUXzNDcWRqVHZOVWZ1?oc=5",
+   "published_at": "2024-07-26T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:55.621520+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "ANM autorizou 870 garimpos em 18 unidades de conservação - poder360.com.br",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZTFNVHh2aGJGWVdXUWQzUFBrVmFmNzcwdkZQcHlWdUlRRVg3bEFNeVVaaEtzNUoxWWR0ZXFmQk5DZWZFM2xnZHVWVHNyMWI0MmY2WWN2aVpiU3dCU1dmdVo4NUd6dHBVQ3ZKVXhWZ3RqZlhXQU44NU1STUFOZG9TNXVuQUhoU1RUU3ZIc2Jiei1IN2hOM3hTQ0dMLVgzQTJy?oc=5",
    "published_at": "2024-07-21T07:00:00+00:00",
@@ -1893,6 +1906,19 @@
    "substancias": [
     "cobre"
    ]
+  },
+  {
+   "title": "RAL 2023 traz mudanças na declaração de recursos e reservas minerais - IBRAM - Mineração do Brasil",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZUM0LXRzT0psdVZEeGRkaGFSYVdKd1hvdjRKRlhvRDZOUjRfT1R0OUZFbmtxUnc2amFUT3NucXRVckowOEZZVnl3N3NlYkxfaW9rMmJfeTVaYUhBalF2aDFTM2lYLWZsWWZtVHI1S0sySUxRb0l3TW1WNWR5OENVTlZrWmJJVTFqRWJmVWxuX1k1OFY4TVlrMTUxd1NDbmM?oc=5",
+   "published_at": "2023-01-16T08:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:53.918715+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Governo deixando a mineração para trás? “Momento virtuoso em preços de commodities, mas muito deprimido em investimento”, afirma executivo",
@@ -2840,6 +2866,19 @@
    "setorial": 1,
    "fonte": "Busca · ANM (site oficial)",
    "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "CERCA DE 200 FUNCIONÁRIOS DA MINERADORA NIOBRÁS, EM OUVIDOR-GO, GANHARAM FOLGA REMUNERADA DE 15 DIAS; MP PEDIU EM JUNHO DESTE ANO, DESATIVAÇÃO DA BARRAGEM DE REJEITOS - Blog do Badiinho",
+   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQSHg3Y1pWdXhhSVZEbHQ0aVhxYVMxUzBpc0VQMUM2djBMNFByZnRZakxwSDF4TzVLQzVRdmM3QXJvMVgtQlVwOThqblJjeE5ZY25KY1pOUU1kaDVuWmVNd0FUT3NVQ3h4YjBGU0tmXzRnMnVTU3V2aXZlelFxUUk3LXNLNDlqbjlYV05pcW9Wal9SWU5GaXB1QnF5b2MzQ21SREJ6cW00aU1aV0h5SE9XNHBpUEExU3pFRHZjYTVtb25IWlZERENlNTZNLXNMSUN3RnY2aXpGSXNTVEFyMmwtdmZVWEp5ZXF4b25qaFVsVnplZU1WXzd3eExqeWZGeVZaSDFyekU4ZERzSmpMZWNFVGhVUFVVR0c3cGdv0gGgAkFVX3lxTE9qMTc2c1RpSVVZMlZ3VlJNYzlzQndmRmFYYUxPN2lpWjJTdE5KalZINkd6aXBEbXp0M3RVWFNQQ0k3bW5PS1NxbXptcDhMRWdTclpGWHVwNmZaa09SQ2N2UTlLQ3U2TUsweXNmVkl3emhmVjh4SlVRZWJaRTBubFdnZkd5ZHdxMEJTTHBJX2U2Yk1FMGtTRDhmbENqYUFzdnZZbGN5TDZ0RGdQa3h6MWpfdG1YWk5YZ0JWWW5TNmJjWktsNWg2ajF5SlpIeWZWT21TQl92QTMxN29vM3psa01OLXEtX3FscmtFU2ZpMFlKS3FfU2hJbV9wU3hVenZ0MEUweE9WTHBfVFlnUUM5RUFVekZ2U1lyTkV3UFRvSFJTSA?oc=5",
+   "published_at": "2019-10-22T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:50.321455+00:00",
+   "regional": 1,
+   "regiao_termo": "ouvidor",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },

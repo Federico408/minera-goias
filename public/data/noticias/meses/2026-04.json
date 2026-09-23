@@ -1,6 +1,6 @@
 {
  "mes": "2026-04",
- "materias": 84,
+ "materias": 87,
  "itens": [
   {
    "title": "ANM nega recurso de Abdalla; direito minerário fica com LHG, dos irmãos Batista - Agência iNFRA",
@@ -661,6 +661,21 @@
    ]
   },
   {
+   "title": "Com compra de mineradora em Goiás, Brasil vira alvo na disputa por terras-raras entre EUA e China - Goiás 246",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZmxpTVphSUJVeXctT2EyMmRkUkRBeTJ3djFNalB6X1FyNjlPRXhCd3kzcWtWMVN2YU10TU5uZFVraWJfNFRqUFdWRktrNGl2RTBZUDdUXzQ4NV9scDhIZFNQVmlSdFoxa0EzQXA4QVI0X18xT2ZSNDlJTzdXOEM5bm16OUxmLTFMbjBXREEzOC1RWDVVUFJQZnR0R0I2V3ZzTVFuZU0tNFpiRzBaNElyU2FRbzJ3MTVtajFWMkpKdDM3OFdBQjUySnE4Tmk0Szk0dFpiQ1RkRnQ0WmxnelFIYkM3RDVUTk0?oc=5",
+   "published_at": "2026-04-22T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.630120+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Venda de mineradora em Goiás garante preço mínimo por 15 anos e deve dar estabilidade à economia - CBN Goiânia",
    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbS1Bc0hZcFZhUl9wLWIzcm1qZW9DWmM0MmpiNU9pQWtCekRqSmZSZ1hFZlNqVUtRc3gxaWdmZFg3dUtVMGpnM2tPSUdEMzJEUk16RHFaem9wdUE2QkdOZFhvNnN1RHluZ1FDN25kVExvQlhXVm9ESVNVT1liWmhTbldxbm9DS1JJNUJRdm5UdnZ6a05NaVJmWWhUTGhHeEVXYlBuaUJPc1N2YWZSVFZ1cnExa3c5VTVqXzM1RkR0cFRSNEl5eFdmVFUtRlY3RFNiMW0yX3otZmJ5UQ?oc=5",
    "published_at": "2026-04-21T23:23:18+00:00",
@@ -1027,6 +1042,19 @@
    "substancias": []
   },
   {
+   "title": "Royalties da mineração injetam mais de R$ 473 milhões em estados e municípios produtores - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLWwzdnpoUmtRMVdYZHgxNEdBbnRaQlhld1d2LXEzY1owT0hjczhBbTMxODdLcklXNmQtbThYb3hBTUcyNFRKRzd2cVppeUtKOUh0azhxZjBkbl8zd0FKb3JhdTM5ZERnUmYtMnZWMGwwQWc0NFI4WXBlZngyWEpKTFpfQWJEOHI5TmZmRDBWZmM5eEkyWURDbnVkOWd0dU52MFpqWEc5bUg2ZWNIV1E0S3NEWU9ueXR5LVFTX0ZvZ0lYME1qREZDODA5NEpwc1U?oc=5",
+   "published_at": "2026-04-14T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:53.434532+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "LÍTIO | Lithium Ionic garante validade dos direitos minerários no Brasil - brasilmineral.com.br",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZTFRYXpwUjVyLWJ0WmRvZ0hvQU8yQ19NM2wwdlNaZzdTaUpieVNURWJLUURnc3JoZ0dDYWZvVElQLU90LTcwVmJZMi1FbUVRYzJic3gycG1Bb0lITXZ2QzJ6QzFKaGYtV0E2a2pjS2o3MUY1U0o3bHlPeDNkNUVWWDhHR0VxV0FWWmxHYUxTV0lHQ3VrdFp1SFplbEE5dHBLc2JZQg?oc=5",
    "published_at": "2026-04-13T07:00:00+00:00",
@@ -1152,6 +1180,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Banco dos EUA confirma empréstimo a mineradora brasileira com fornecimento de terras raras - Brasil 247",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY21qWTIyOWVyYUczMGUxOGNjNnN5TmhQU2xHazc1UmNkZ0VBOHRiSzE3YldaQUllb1VqVGozeXMxY1VXZVJ0a0lVZTV0bmRlY2NnVVo2eGlVM1RSbjMxdGZac0YtOTlzVXBHaVlCQ3dJQXl2NVdtTGllTmRmYVNmbzF0SzZyRVZSa1huYXh0blQzeWl5YTA4aWR6ODk3LUJtdFNCajFSSDByaWQzbE5Uc3RJUUZZUDBfNjJSS0MtY0RpQQ?oc=5",
+   "published_at": "2026-04-03T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.629495+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Lítio no Brasil: mineradora quer triplicar produção com chegada de novos sócios - Estadão",

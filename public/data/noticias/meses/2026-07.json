@@ -1,6 +1,6 @@
 {
  "mes": "2026-07",
- "materias": 84,
+ "materias": 86,
  "itens": [
   {
    "title": "ANM aprova novas alterações ao regime de Permissão de Lavra Garimpeira - Demarest",
@@ -42,6 +42,19 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "ANM endurece regras do garimpo e exige prova de lavra para renovar permissões - Fatos de Mato Grosso",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWURNQWJUS0hia3N5eDk2dzNmbHFTV3FBcUh2YXR0MDFOQl80QkhUYklzTE9DWjlfYS1vaXZMUU5sT0p4dC0zZW1LMkstT0dOR1ZPQnJYaVp6LTdCWEFCUUdHU0V4WlJqWkFucTFHOWgtMThKNklpMkdCOEczUlZUNXlCMlIyb3A2anNVVGEwTFY4Ylg0SEpvR1JaZ3VZQ1pGS0t2ZHNmSUZuaVVmcC1wOVBfMUJUbENaSnplNzJIcmc2U3o2SG9fMGdqSWU?oc=5",
+   "published_at": "2026-07-31T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:53.917758+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Brasil perde bilhões em royalties da mineração diante de sonegação generalizada e amplia prejuízo para estados e municípios - observatoriodamineracao.com.br",
@@ -813,6 +826,19 @@
    "substancias": [
     "litio"
    ]
+  },
+  {
+   "title": "Silveira cita Serra Verde ao defender “controle” sobre minerais críticos - CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUDZQOGtQLUZKb2prLUxqdk1RVmJmclNuakdzaVFhMjBXRGt2OS1abENxbHhqUjNKZ29kaVNmd3dGUk41V1hHMmdKWkJRUi14bmFlc2VCaFNrakx4Z0M4T3loS3VNY01UNzJia3M4NHh5c0dadklQRW1rSzU0LWdJczl0bTR6bkwzaUFZb3dWdnBfeEoxdFR0b0lCNHFXTGtFb1d0d0habzcwQQ?oc=5",
+   "published_at": "2026-07-10T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:50.875508+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Dano ambiental em Catalão leva mineradora a fazer acordo milionário - Mais Goiás",

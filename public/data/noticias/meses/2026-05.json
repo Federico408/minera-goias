@@ -1,6 +1,6 @@
 {
  "mes": "2026-05",
- "materias": 85,
+ "materias": 87,
  "itens": [
   {
    "title": "Illegal miners extract billions in Amazon gold despite Brazil crackdown, Greenpeace finds - Reuters",
@@ -111,6 +111,19 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Tomada de Subsídios n.º 03/2026 — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcnVrdXNIMXFyTVN5cmV1YU1vV0oxdzJCNWdJWHR1VnVja3pBYjZHT09LZDBya2lHWS1NTUhmVTdPRmw4Z2MyYlAxMkh6VXVxV3dwRWxkVHlsdGdKNEFtV2hCcXVCLXF5a0ZXQlJ2S2VJNDNybWVYVnE1TEM5cDdsd2k1NHZ5eWk3cVNUYnctTzVpYnE1dElNX1dvaUtJdzNyXzhKMU5LZkM3a1RVbG1BS0lsRUpxbkhrelVZbXd0Yw?oc=5",
+   "published_at": "2026-05-26T00:04:22+00:00",
+   "first_seen": "2026-09-23T04:02:54.461357+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
    "tema": "mineracao",
    "substancias": []
   },
@@ -1136,6 +1149,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Única mineradora de terras raras do Brasil é autuada por poluir rios em Goiás; multa chega a R$ 12,5 milhões - Goiás 246",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOWThmZDlaRkRVazVMeS1xZzNKaWRua05MdXp3cDBlRFVpOElsWjZQaFp3Yms3UEtFMm1OOUJxWHBpQUNtZ2RzY001T05HZ3RoZ0wwWFNuUlRsUzV0YllzSnZQSVpDV09faXlxNTVSdHVBS2ZNSDV5Ul9uYmdJTkFCTldDQXZRT1RhZ1d1d1BPVFRxa1Y1S3ZDa1haUWZPOUxtd2xobk9HTjc2N0t6YjJ6UWF2cHJoNnlRQmpvVTYyNFhVX0RGbzhzZWhMM2FfRkZCeWttdmZ2Y1JhazNSaHZHZFhvVVNWS1hyLXNJUXJ4YlRXMEprMVdWcHZ3?oc=5",
+   "published_at": "2026-05-05T07:00:00+00:00",
+   "first_seen": "2026-09-23T04:02:48.626818+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Terras raras: Serra Verde impacta córregos em Goiás, diz análise de órgão ambiental - Brasil de Fato",
