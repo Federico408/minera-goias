@@ -8,9 +8,10 @@ Squad 2 / Estudante 2: rotas tecnológicas e intensidade energética. Responsáv
 |---|---|
 | `base_intensidade_energetica_v1.csv` | A base: 24 linhas por mineral, operação e tecnologia, com energia, produção, intensidade, natureza do dado e fontes |
 | `energy_intensity_para_motor_v1.csv` | Saída para o motor 2027–2040: as linhas que seguem o contrato "Intensidade energética" do `Squad 2/README (1).md` |
+| `coeficiente_estadual_para_modelo_v1.csv` | **Entrada final do modelo:** um coeficiente estadual por mineral (cobre, bauxita, níquel, fosfato, amianto), na mesma base de produção que o modelo usa |
 | `dicionario_intensidade_v1.csv` | Uma linha por campo da base |
-| `build_intensidade.py` | Gera os dois CSV a partir de arquivos que já estão no repositório |
-| `test_intensidade.py` | 9 checagens: fórmula, unidades, campos exigidos pelo PDF da entrega, domínios, benchmarks, contrato do motor e ausência de dupla contagem |
+| `build_intensidade.py` | Gera os três CSV a partir de arquivos que já estão no repositório |
+| `test_intensidade.py` | 11 checagens: fórmula, unidades, campos exigidos pelo PDF da entrega, domínios, benchmarks, contrato do motor, ausência de dupla contagem e coeficiente estadual recalculado a partir da base |
 
 Para gerar a base de novo e testar (Python 3, sem bibliotecas externas):
 
@@ -30,7 +31,44 @@ Os scripts só leem arquivos de outras pastas; não alteram nenhum arquivo fora 
 | **Entrada** | Produção beneficiada 2025 por titular e operação (ANM, rateada pela CFEM) e IDs `mineral_id`, `company_id`, `operation_id` | Squad 1 / Estudante 1 (aba 12) | `Squad 1/Bases consolidadas/documentacao/pacote_squad2/interface_squad1_squad2.csv` |
 | **Entrada** | Parâmetros de intensidade do motor, incluídos como `benchmark` | Squad 2 / Estudante 3 | `Squad 2/modello_reale/parameters/energy_intensity.csv` (só leitura) |
 | **Saída** | Intensidade por operação no formato do contrato do motor | Squad 2 / Estudante 3 (motor 2027–2040) | `energy_intensity_para_motor_v1.csv` |
+| **Saída** | Um coeficiente estadual por mineral, pronto para substituir `parameters/energy_intensity.csv` | Squad 2 / Estudante 3 (backtest, cenários e sensibilidade) | `coeficiente_estadual_para_modelo_v1.csv` |
 | **Saída** | Base completa com rastreabilidade | Squad 3 (banco/API e simulador) | `base_intensidade_energetica_v1.csv` + dicionário |
+
+## Coeficiente estadual para o modelo
+
+O modelo usa **um coeficiente por mineral e base de produção**, aplicado à produção total de Goiás. O arquivo
+`coeficiente_estadual_para_modelo_v1.csv` resume a base nesse formato. A base e a saída por operação não mudam.
+
+As seis primeiras colunas são as mesmas de `Squad 2/modello_reale/parameters/energy_intensity.csv`
+(`mineral_id, mineral_name, production_basis, energy_intensity_mwh_t, source_id, data_nature`), na mesma ordem e com as mesmas
+linhas. As demais colunas dão o rastro: `aggregation_method`, `intensity_ids` (linhas da base usadas), `energy_mwh`,
+`production_t`, `coverage_share` (parcela da produção beneficiada estadual de 2025 coberta pela energia observada),
+`range_min_mwh_t`/`range_max_mwh_t`, `confianca`, `valor_modelo_atual_mwh_t`, `variacao_vs_modelo_pct` e `observacao`.
+
+**Agregação:** Σ energia CCEE 2025 ÷ Σ produção 2025 das operações cobertas, na base de produção do modelo. É a média das
+intensidades ponderada pela produção. Não se somam a planta e o agregado da mesma empresa, e benchmarks nunca entram na conta.
+
+| Mineral | Base | Coeficiente | Modelo atual | Natureza | Cobertura | Linhas da base |
+|---|---|---:|---:|---|---:|---|
+| Cobre | conteúdo mineral | 8,108 MWh/t Cu | 11,20 | calculado | 100% | INT_004 |
+| Bauxita | beneficiada | 1,40 MWh/t | 1,40 | benchmark_proxy | 0% | INT_021 (parâmetro atual) |
+| Níquel | beneficiada | 11,674 MWh/t | 45,55 | estimado | 97,7% | INT_012 |
+| Fosfato | beneficiada | 0,1212 MWh/t | 0,15 | estimado | 100% | INT_015 + INT_016 |
+| Amianto | beneficiada | 0,3109 MWh/t | 0,32 | estimado | 100% | INT_018 |
+
+Observações:
+
+- **Níquel:** o valor atual do modelo (45,55) está em MWh por tonelada de **Ni contido**, mas é aplicado à produção
+  **beneficiada** (ferroníquel), que é cerca de 4 vezes maior. Na base beneficiada, o coeficiente é 11,67. Com o valor atual, a
+  energia do níquel sai cerca de 4 vezes maior.
+- **Cobre:** a produção declarada pela Lundin (43.974 t Cu) confere com a série da ANM que o modelo lê
+  (43.983,55 t em 2025, v17 aba 08): diferença de 0,02%.
+- **Bauxita:** nenhum dos 3 titulares de bauxita aparece na CCEE. Sem energia observada, fica o parâmetro atual do modelo,
+  marcado como `benchmark_proxy`.
+- **Fosfato:** Mosaic (0,089) e Copebrás (0,169) somados. Como as duas cobrem 100% da produção estadual, a soma dos
+  denominadores é o total do estado e a incerteza do rateio da CFEM some no agregado (faixa = valor central).
+- **Circularidade:** a base copia `parameters/energy_intensity.csv` como benchmark (INT_020–024). Se o modelo substituir esse
+  arquivo por este, os benchmarks da base passam a repetir os valores daqui ao gerar de novo.
 
 ## Fórmula e unidades
 
