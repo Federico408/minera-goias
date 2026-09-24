@@ -1,6 +1,6 @@
 {
  "mes": "2026-07",
- "materias": 86,
+ "materias": 91,
  "itens": [
   {
    "title": "ANM aprova novas alterações ao regime de Permissão de Lavra Garimpeira - demarest.com.br",
@@ -32,7 +32,7 @@
    "title": "POSCO group Strengthens Rare Earth Supply Chain Together with Brazil - 포스코그룹 뉴스룸",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZjAycldVWDhKckJLY2lxdG9uSDUzT0hITHhLWTBoRFFJYWtOU2lYNk4tMkw4WGViX1NOcy1nUUhlT0Y3WV9nNmo4UlN5RlhSNkNPRGVIQ0NhcGhNczZ5OURPaDRVc0UxemRYR3JIcVI3aG5pbjlCaUp2SlNPMWoyUDhZUWdSZWpJal9OQzVoZ0drSDNESkp2bXF2cGJjMWdp?oc=5",
    "published_at": "2026-07-31T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:48.297140+00:00",
+   "first_seen": "2026-09-24T04:07:26.348180+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -531,6 +531,21 @@
    "substancias": []
   },
   {
+   "title": "Empresa australiana adquire 8 projetos de terras-raras no Brasil - Poder360",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOXJVWFhRaTB6Ymo3ZkNnWXNQV0xaWUcwR3pjMzlycTZsMzlVRUpLdko5X1djcmtzZl9uQnJoTGZRU3Nxd0QwUklaaVJDVGtDVU9HcU54SjJZanpSeUxSY0U3TWQwNzZpTmJGckNnNl9IaG1YbVFrT3JxV0hGZUhQUXRaZ2VIZVRPRmdzb2NvRUxYTGVIMmVxTjZ3eUxUNWY1dVNzZklhb2g?oc=5",
+   "published_at": "2026-07-21T07:00:00+00:00",
+   "first_seen": "2026-09-24T04:07:23.132559+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "How Aclara Plans to Build a Rare Earth Supply Chain Without China by 2028",
    "link": "https://agmetalminer.com/2026/07/21/aclara-rare-earth-metals/",
    "published_at": "2026-07-21T06:00:00+00:00",
@@ -589,6 +604,19 @@
    "substancias": []
   },
   {
+   "title": "ANM autoriza maior cooperativa de garimpo do país a ceder lavra em MT - Fatos de Mato Grosso",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPanNfQ3pBSjFabmVQNXlJNFBGNXlkWENCODVwRldGb1hzOEl3Yjl3RlpBZWVKaThpSkdtdEJMR25kX0FtOWx5THJ6Mk55aks0eVhmbDBGTDUtTHhBTGZjWXVpdVlNODRWQmtLOVJWTFdKMGw5Nm5adFRwdzMwTzBRUTJWelMzTzdWdDdOTjRqQmgzLTlWRTViMTNyR2x0ZXE0T19BOFNuVkh6cWZQaGlBQUdZNS1tZk9qbDdBcHNMcTA?oc=5",
+   "published_at": "2026-07-20T07:00:00+00:00",
+   "first_seen": "2026-09-24T04:07:25.498096+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Moradores fazem paralisação contra mineradora em Alto Horizonte - Jornal Opção",
    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPUm5fbmVFclI0SlZsbkdxZHB5UnJvaDZUdDhpUElBZkVBamtHaDdLNDFuZV8tSWZIeDJGS25fRTJRT1FMTkhaekpEa0t3bUtLcnlZbmdvWmZabnNLTlk4MTdhb0YxMWM3T2xoVzV3M2c2T2NFU1BlMlNyencxWWlHV2RkNG5sMEFlSm1jOTZ4NmdMLVBTcGVYWlNxNThkWmlDek9KSjlxZFVRUktMTHhSRGNpLWJCQS1fSk5qU083NlB2WnM5U1JmSHQ5QXZDN0lWb05tSUg4S296aW1zVjBQQVZzZkJZUTE3ZkZGSnZmQVMwSnUtVGxhdE9UeWNkRkxlc0hR?oc=5",
    "published_at": "2026-07-18T07:00:00+00:00",
@@ -615,6 +643,19 @@
    "substancias": []
   },
   {
+   "title": "MPF investiga crimes ambientais e contaminação por metais em mina de Alto Horizonte - Diário de Goiás",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQejloUlhwdXpsamVSa25kcWdxRE1pSHFuQ3dmcEJpc091bndpOVBUbk5yY0FnMUgweWo4eG1EbnREU01DeURJWnpnbmVxcnBmbWFxdzliUFVxeUhoay02UWlhOHhudzFjalhJaWVZZ3B4b0taVWpIcENsYm85UUo3RVdtUXNKekk3R1RIaUU0RWxKM1haNzBQTXRqUkFUNExmTm1STFlNLW8tQXh6dHNvWE1iS2hWSVRxcW1pdQ?oc=5",
+   "published_at": "2026-07-18T07:00:00+00:00",
+   "first_seen": "2026-09-24T04:07:22.306666+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "MPF vai à Justiça contra ANM por omissão que facilita lavagem de ouro ilegal na Amazônia - mpf.mp.br",
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQd1U4NDNRUjZOQmFGbWozRFVlXzk1ak05R21xbHhiUDh5TzRrU1JFaGstREJucXJVRWI1MWV3VFA1anY2WnM1Y083dmF6RTJaZzNQZVBoclJHUnRtVmRvOS1ac0lQcnBIcENsaE5ibU9sUkpxV09NemJPckt4aks2bzFMaDFJRklNZTJKU1lsYzlkOFBOQUxmS0daQkpmNFo1SDJJc3AxZ1RoczllNjQ5c1B2OHZtOWxpZTlqR095VkRiYm1Ha0xuTF91ZEhtaFJlSG5uUDVVVQ?oc=5",
    "published_at": "2026-07-17T07:00:00+00:00",
@@ -628,6 +669,19 @@
    "substancias": [
     "ouro"
    ]
+  },
+  {
+   "title": "ANM notifica Vale S.A. para quitar, parcelar ou recorrer de débito de R$ 30,7 milhões em CFEM - atlaspublico.com.br",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTjhDbUdUOHZqVkwwQzM1S0s0S3pHaDZOV0J3RWR4ZjlaNXlxMXAxT1ppaWpaWmZhSTJNRVFUOUFSRV9YYVVsWGJpWFp5TnBpTUNfYXNFNkVUWjRidDlkXzUxX3Nrbk9Wb3Nqb2hQRzRueVV3YVhXdF8xbjNUT3ZnUEdDcEd2M1VfVFVlMW9sWU55elVZLTJyODdHalN4Y1Y4Znc?oc=5",
+   "published_at": "2026-07-17T07:00:00+00:00",
+   "first_seen": "2026-09-24T04:07:25.117189+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Disputa por áreas de lítio em MG chega à Justiça após decisão da ANM - Vero Notícias",
@@ -669,6 +723,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Multinacionais disputam áreas de exploração de lítio em Minas Gerais - Jornal de Brasília",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZF91TkQ0NUVKSzBHX2NtRVBteHlWekhRQk9aTHZrTk9veHBnb08yWVNObXh3N09jM1hucjFyVVl5aEV5N19hTVpOdnRvcTNJMktObVNkMUtMT2FqOUlfbHZ6Zk5FYnRodVhkTzNvcmtmSlI4RjlnSmhJRW5PcENGeUVFcFo2akZaNDVGb1BjMy1qMmZyVTBDSERQWkhrWWNxU2lwUzVqejk2VDFEUmFSdndMNk9TdmpUQ3pJ?oc=5",
+   "published_at": "2026-07-16T07:00:00+00:00",
+   "first_seen": "2026-09-24T04:07:24.650188+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "Goiás cria zonas especiais para acelerar mineração de terras raras - O Popular",

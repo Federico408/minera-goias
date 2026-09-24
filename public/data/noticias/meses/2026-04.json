@@ -1,6 +1,6 @@
 {
  "mes": "2026-04",
- "materias": 88,
+ "materias": 89,
  "itens": [
   {
    "title": "ANM nega recurso de Abdalla; direito minerário fica com LHG, dos irmãos Batista - Agência iNFRA",
@@ -121,7 +121,7 @@
    "title": "Goiás defende acordo com EUA para exploração de minerais críticos - Folha PE",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaEt4eVVDb2U3ZHpEZUZBRG1xSFhVSmxZOHlpRDMycVFDa2taQVdZT3E1dVNQRFFheW9JQllHR3hZdXl3QzVNakNuUEJkWDFQYnpWelJ3OWE5MGhwUzFhcUViMEhoV1Z0WlpsTGlrOGRLWU1SSkNxX0ZwS1pMRnRwR0xZSDhReUFxeUpleVpqaHg3SHhJSmRZOENETkFxZzVVUmozZXdQQTJZMjA2RnfSAbIBQVVfeXFMTnJBcS1kLXpjRXN2aFZqNkFOUF84WXdHcXNLQklPekQ4ZVlMcGRqMmtJekQ4aFpkdmRkMVpQc0RFOWszSnY0VndyUTRxcDNsOWZ4S25xdzVna3oyd3hvUmlMSUVPQTR1VE5fcWRFOXBiN2RYcW43RXVta3M4TlN2YkV5dUpZTWFUS3RiU1hhNzZRM29tRmxmZXhKckVoS2Uxb0FNTm5ucmFUanhYQ1ZibWIzQQ?oc=5",
    "published_at": "2026-04-27T07:00:00+00:00",
-   "first_seen": "2026-09-21T04:02:35.716367+00:00",
+   "first_seen": "2026-09-24T04:07:21.401037+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -371,6 +371,21 @@
    ]
   },
   {
+   "title": "Serra Verde: entenda tudo sobre a venda da mineradora brasileira de terras raras para os EUA",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab4a1fbd88f49afa0a215e0eaf77397&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fserra-verde-entenda-tudo-sobre-a-venda-da-mineradora-brasileira-de-terras-raras-para-os-eua%2far-AA21F62j&c=8930522291100895173&mkt=en-us",
+   "published_at": "2026-04-24T12:57:00+00:00",
+   "first_seen": "2026-09-24T04:07:23.823076+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Ministro diz que compra dos EUA de mineradora de terras raras em Goiás não deve avançar - OpiniãoCE",
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTzh5aTZxWEhfR0ZWUThvQlNQOWxwS0pUMk9JS1V0NmI2QzhmZTFxQzN1bDktN2pLM3lMNGwxZ0ZHUGNtTEJwT1pGZi1HM3BJUTVIRGFBTU9iMFBYZC05WDg0TnhEZ3kxTU4yT0lKdU1TQ2x1YkYzOF9pbUNDcDFZWC1TaktyeEJiZEYyYmpKV1R2aU4yeW1hcTBKZlNtRjFLMDBpREo5ZEZ6RzlNbHhIV2M2TW91eFFQZHR6WXNzZ1NMTWtwM1BGUEYyOXV2Sy0wVFhB?oc=5",
    "published_at": "2026-04-24T07:00:00+00:00",
@@ -389,7 +404,7 @@
    "title": "Deputados tentam anular venda de mineradora de terras-raras em Goiás para empresa dos EUA - Mais Goiás",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWUlpenY0Q0thbTRRM1RDMC01eGVsTmlmbUIxMjFPTC1GUHpXOFBydUpDZDlWRU54Mi1RTXQ0WkdyQ0ZweXkxbFYtMHBELUcta01jTzhLUTBaSjdGV0FaSEFQaVIxNUt3MHJSbkxsd3ZNamJST19HY2FjdjJPQTA2VVBkbzc5R01SMmgtTGVabVUxZ2xKekN4VHFVVVN5YkQ2TnVDNlFFckgyeHRfRUVYRlVxUDNKaDRvVjVaWFFJVlR4NWh0aUFZ?oc=5",
    "published_at": "2026-04-24T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.280642+00:00",
+   "first_seen": "2026-09-24T04:07:21.405911+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -475,7 +490,7 @@
    "title": "Operação identifica garimpo irregular e aplica multas no interior de Goiás - Portal Agro2",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNWkyU2ZCM1ZYOTBiSUZyZG1KczliZklfZXJlYW5kRXBCOHdpVGw1aWlPMWkybDBxdlV0dVpJUVhmNEdDQld5blFvaUVVdHZpZklScnNmZjI4ZHVINTZJSm42bjBrakdqUFZMNEVHZ2g4WkkyWmpBbEtJeGpiWDFxVDZxTXpMXzdBUUQ0Nk1kVGMzLUZNVlZSU3A2OVQwUE1qX01FU3N3dmdjUnNs?oc=5",
    "published_at": "2026-04-23T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.274844+00:00",
+   "first_seen": "2026-09-24T04:07:21.404418+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -500,10 +515,10 @@
    ]
   },
   {
-   "title": "Daniel Vilela negocia interesses de Goiás após venda de mineradora de terras raras em Minaçu - aredacao.com.br",
+   "title": "Daniel Vilela negocia interesses de Goiás após venda de mineradora de terras raras em Minaçu - A Redação",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcEVmWEtmTnZ1b01ESHJiSG13WmhMS1dfc3NoQlROQ3pONjdWeVdTWkRiYU9CQ3l2d2gzc2tMREZqVXFNZVVNcUN0MFVJVHd1SUpFTUQxeXByajJEaldIbVpzM1U0WmR4WXdCSTJFRmFzTi1TWWxfQjZtdUNBX09IUGR2a2hmRHp6NkFPOEFoNFMzRjFDcC1IRjJPOWpyRF9LY2p3SWNaN3otaHpnNmJlMVkzWW9OeFRw?oc=5",
    "published_at": "2026-04-23T07:00:00+00:00",
-   "first_seen": "2026-09-21T04:02:35.717299+00:00",
+   "first_seen": "2026-09-24T04:07:21.402756+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -608,7 +623,7 @@
    "title": "Projeto das terras raras, que impacta Goiás, pode ser votado na Câmara nesta quarta-feira - Diário de Goiás",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRHNUcy1vN09SQldaYkw5bS1TZTcwQy1HMVZVMmJ3UnFKUTU5MEFDMllTcnVxNFNaRTlLaUZqU2xVLXRUQkc2V1hTOE0zd0hpeDJmQTRSMl9NbXI2Tlo4TmZrb3BJUG42WjBlOWVDcVdNQ2NXemRXMGkwcF9IOHZsYnVwaFlXVkc5YlhiUVd1ZmdER3gzR1hsOGNvQ2hxNzZfU014UU12NmUyZ2o3SnpKcTJWYW1sdUt1X3Uzb1FGS0twdw?oc=5",
    "published_at": "2026-04-22T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.280133+00:00",
+   "first_seen": "2026-09-24T04:07:21.406540+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -821,7 +836,7 @@
    "title": "Empresa americana compra mineradora em Goiás produtora de terras raras - Correio Braziliense",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNnAtVkR5MDF5NnRCTURqQ1g4TDJEbG1rRTJDcEd0V1p2TGY0NERoZHlxdmFtWlQtUTdpczlPa2V0aFNEX2lNcF9vUzNEdW1hVWhpNkxabnY5UEI1X3A1MDVaTU5VV2lIazN2R0VJamF3NUtmeW9fXzEySmdGS2RYeHB2TEEzTEZ0SjRLZ2YtUURxZ18zY1Y0ZzJUTXJOd3djTEhYUVVOMnlYQlU4VzV0ZXJDdXo4TE0ydVNDMDNrQzA3NTFzX0E3dGZPR05PODR0TWfSAdcBQVVfeXFMTUJrT0ROOVdrdXJpQzhCUXhlUE1oNHctVkRoUkp5aVJmQ21QcVpheWZyOG8wY19yWkVvUGV4b08xeVJYZmMwdFhfWV90Wm00Q0o4dzZ6UmVQd2d5S1pGREg4d2kxUUk0ZW9IY0h2TkRLOEVCTzh0YVdESHhxa2ZYUnlERy1xNWVfVVdxRHg5RXBTUkJhcng5alo5T2RYX1BsMUwxdXlNd1ZCR0M4Y1dUR3Y2Z19fT1J1WFhIdHhZQ1R4NnYtbUV4MTJBU25sYUpWY0RlVmFwN0E?oc=5",
    "published_at": "2026-04-20T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.279098+00:00",
+   "first_seen": "2026-09-24T04:07:21.405293+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -1018,10 +1033,10 @@
    "substancias": []
   },
   {
-   "title": "Mineração cresce 6% e movimenta R$ 77,9 bi no Brasil - Brasil 247",
+   "title": "Mineração cresce 6% e movimenta R$ 77,9 bi no Brasil - brasil247.com",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWlpKWHpuVDFobTBLYTBoRUstbm1Gb3pfd0pZX0JyY0x3NTlsUlMtVnpMc1NWSGhVU3hUbUFWR3FVMmZQbG9yLVY3cnBkNVdTcFdqSzlBVjZDUmx1TzRMdm41ZlBuT3k4dUNjQjdBWGRic20yY2xRa3F5RVM3VDZyeXhQWGpqS3gyYXp6Sg?oc=5",
    "published_at": "2026-04-15T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:46.520438+00:00",
+   "first_seen": "2026-09-24T04:07:24.654063+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

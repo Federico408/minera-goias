@@ -1,6 +1,6 @@
 {
  "mes": "2026-02",
- "materias": 25,
+ "materias": 26,
  "itens": [
   {
    "title": "Agência distribui mais de R$ 108 milhões em royalties da mineração a municípios afetados e limítrofes - www.gov.br",
@@ -284,6 +284,19 @@
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fU01Ic19BQkthem0wOFJUTTFndV9BcjZyUTNmRW1WQzgxcVVLRmc4OXZrMHRlbjhMT1l6cTlIanFha29xTWU4aUY3VlVkRXZ5M1pHX2Y1ZFRnMjlxVnZEbjZTYzF0dE84Y3ZSb0RB?oc=5",
    "published_at": "2026-02-04T20:13:27+00:00",
    "first_seen": "2026-09-23T04:07:32.985342+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mapa Digital - Região Sudeste — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNSXBlZHFETlBoTllEVUNZY3UyVjk4UEFWNWhBaTRoN0gzLW9nRDhHSUFUWGlvQ0lIT1BiYk51b0dDbmhzUjJFZDlsLW1BOGRmMG1fMHhEcnN6ckZweG42WHFNaTJzTC1PYzV3ZFVxWC1VZTV1VTg1YVQ3THdtdkZ4SXczUld6dWQ3UklCZG81RUx6MTZ3aUZQdlU1TGZFTFpiZUJ3SDhxLUUtUDBrcWxkcWd5c214TnlST3VMSG44QlNWdFdSLTV2YlVyVmhwVXItenBkeS1ocmJpd294akx5MWZZTFBrTzNfMjh0OVdDc2hkWG9fRVR0dnF4bEJtbldYaTQwbjZ1Mm9NaU5zMFMyOVZXOS1IT3RsZmc0RDhJamQ2NUlWVlZNbA?oc=5",
+   "published_at": "2026-02-04T08:00:00+00:00",
+   "first_seen": "2026-09-24T04:07:25.868364+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
