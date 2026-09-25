@@ -1,6 +1,6 @@
 {
  "mes": "2026-05",
- "materias": 90,
+ "materias": 91,
  "itens": [
   {
    "title": "Illegal miners extract billions in Amazon gold despite Brazil crackdown, Greenpeace finds - Reuters",
@@ -16,6 +16,19 @@
    "substancias": [
     "ouro"
    ]
+  },
+  {
+   "title": "ANM instaura processo de decaimento de Portaria de Lavra da Vale sob a Lei do SNUC - atlaspublico.com.br",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTzdGZXMwcEFUVVBMZXBqRjdQYlVQUEtzbEhTZnBaeFNMWUFNYmNXNzVwWlFDaExIVjdfUGJ3LXFIejlwUVdvR2lQTHAzUTlKejBYZ0NJcndNUnhneTlGdHlGME4xZXVMMlJORmFrX1J3UzZ0bUwtNEhMbDExUUc3RFR1ang0elFEODRVRDhoSTVPVGZ0TGNsbXo4anMwYnM?oc=5",
+   "published_at": "2026-05-29T07:00:00+00:00",
+   "first_seen": "2026-09-25T04:07:39.278305+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Alego aprova política de mineração sustentável em Goiás em meio a disputa sobre terras raras e pressão ambiental - Tribuna do Planalto",

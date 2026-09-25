@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 202,
+ "materias": 206,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -78,10 +78,10 @@
    ]
   },
   {
-   "title": "Acionistas da USA Rare Earth aprovam compra da Serra Verde - capitalreset.uol.com.br",
+   "title": "Acionistas da USA Rare Earth aprovam compra da Serra Verde - Capital Reset",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeERpd2lXSUNKcGZhVGVHSFBJMlJFQWNFSlZMR29BMFFSOFRuWk1yTUQyclhpLVBPNXp6Ym9YRVM2cUQycGJXaEJLQkJsSlJkVlkzNWZpMi1HR1NNclVjQWFadXJMYmFaQkYzSHBpZHdPQ1NYbENGeUdYRS0wQmpNUG53ZEo5VHdlY3NrSHFEMzIxTGFlVUdHeDlOSVgwdzIwT3g5OW5vbTN1TUtqRl9PalNB?oc=5",
    "published_at": "2026-08-31T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:01.760621+00:00",
+   "first_seen": "2026-09-25T04:07:36.538879+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -962,7 +962,7 @@
    "title": "Governo avalia submeter venda da Serra Verde ao futuro Conselho de Minerais Críticos. - Capital Digital",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeHBCbElyU2ZYNFp1T0xwWXNVWVBSalRiMXAzVDlFdTg3XzFrQy1jQS1UWHBuWWpaeGJLMk5ESjFWdDRPd0FOTXI1SDlUYjVONzY5endyWjNra29QUTBLQWxaeVgzMl9QZk1lY3dPeDBjMkJCNG40dkFpMTZ0R2VoWWhKR0ZBRzl4UkhVM2hlZXpxNURwOGRvTWM1azRXR3lOZUctYV9HLWZXN2lXMDlDVHVkcVdNQQ?oc=5",
    "published_at": "2026-08-26T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:01.774950+00:00",
+   "first_seen": "2026-09-25T04:07:36.542629+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1211,6 +1211,21 @@
    "first_seen": "2026-09-23T04:07:29.307628+00:00",
    "regional": 1,
    "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Departamento de Guerra dos EUA investe 750 milhões de dólares em terras raras brasileiras - Brasil de Fato",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWGlXSHY1eHlYM2JkMXozMDlndVJiVUlkeG9nekk2U3VLdjFSOXlSVlNPdW5uMm45Z3pBNFdOS0RwYk5sc3NKNjNOdUdWcmxJTjdYWjdnZGhReHZsUGZXbUo3U3FJTVd0RklHQjNyTTNsMThJUzlWQ3dhODh1SXdzckhqZG5YNlBGVGlIVVhsc3ZLa2tLZXp5bG5zd1haeXJvUVMzaFNEQUQ5emlxVkxwekNhX0ttaF82N1FETFlsSXlzU3RjWHZoSDBmdWRSZw?oc=5",
+   "published_at": "2026-08-26T07:00:00+00:00",
+   "first_seen": "2026-09-25T04:07:36.539895+00:00",
+   "regional": 0,
+   "regiao_termo": null,
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
@@ -1776,7 +1791,7 @@
    "title": "USA Rare Earth Completes $1.55 Billion SPV Funding for Serra Verde Offtake - Yahoo Finance",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb0Y3c2hoYm5QS0l1MUpydFo3TDFZenNoaXZqVWc0RFc3bGVaekd1VlRrZklCamNGcUJydHhOZVhoRnBzTlhpUm5FSDhIamFzU2toVDZvbXZVek81R096SFlENWlzVjFyaFFZMjRZcC1SYnZwcjNDMUZFdWMwQ0c0c05JVExRMzdEWm5VbkNaSFR6V24xSnc?oc=5",
    "published_at": "2026-08-24T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:48.286351+00:00",
+   "first_seen": "2026-09-25T04:07:40.266206+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -2007,6 +2022,19 @@
    ]
   },
   {
+   "title": "Avaliação de regras da CFEM é concluída e projeta sistema dinâmico para repasses a municípios afetados - ZÉ DUDU",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObzA1TzF4LWNhcUl5S1VDT0hoX04zR0ZBMm9EOElZYklTdkEzSFpsaV8yeWQ2NWNqMmlKUXJSbkU2MW1kNjVGX3huOVh5LUF2R0xYWi1nbTRFelJMUm56X2xVMlZZNzNxZVJ5M0RNV2ZCN2lVcTdiVHEyVWNkT0NoV00zd0E5cG12UDBhSVotSG5hR0hzY1cwaEZNTXEzYWNwaHRJdVBJX2RNOU90NUhMOTRjdW9manVLTVRqeUhhaElCRGk5U085OA?oc=5",
+   "published_at": "2026-08-21T02:09:00+00:00",
+   "first_seen": "2026-09-25T04:07:38.857768+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Government cash reshapes mining’s capital: study",
    "link": "https://www.mining.com/government-cash-reshapes-minings-capital-study/",
    "published_at": "2026-08-20T18:04:37+00:00",
@@ -2220,6 +2248,19 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "Carta do Encontro de Comunidades Atingidas pela Mineração em Goiás - cptnacional.org.br",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeTVlOWdteG5ZbXR4UmlWNkhObzdadGtudEJpMnlQd2d2NGZUeGd4di02ZHlOY0NnWDE1dlpYNU1FajRkZEZMcktVRE85MkFKX09iSUM1OGRkLXZIQTdhQVlBMmdGTjhsQjJjakVSaWpzMjBBVm1GdXg0LWM2NHEwTkJ0U0YyNHhqUXFwWXkxVWJZX1pfZVprRXRCX0hDYzhnSVA1YlZpZE0?oc=5",
+   "published_at": "2026-08-19T13:53:51+00:00",
+   "first_seen": "2026-09-25T04:07:34.836909+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Reservas abundantes e diversidade de aplicações do lítio impulsionam investimentos, mas falta demanda local - Valor Econômico",
@@ -2570,7 +2611,7 @@
    "title": "Governo dos EUA compromete US$ 10 bilhões em terras raras e ímãs para reduzir dependência da China - AEPET",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbmdvRTlBam4zM2RaODJOYTVzeXVZb0ZXc2lvYVRGSXhqN0VrYXVFckFRNkxja05SUkVLei1Dc3lKU25NUDlqWFA1ZkpUYWY5a05vMGRFNmlHTk9vTHNEaGNMeHNpbkktRDVsVkYwLUJnU0wyN0tpUjN4dktOMzNOcm15Y2g3cGgxOXRNeF9WLXNmN0tYT0paQWMwSEJNcnV0ZEFzXzJnbVlfSm81T1BmN0J0Z3VkN2ZkODZFNjFING1qMWdUX0E?oc=5",
    "published_at": "2026-08-10T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:01.808413+00:00",
+   "first_seen": "2026-09-25T04:07:36.544069+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -2680,7 +2721,7 @@
    "title": "ANM cobra R$ 17,7 bilhões da Vale em royalties da mineração - Correio de Carajás",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQm5IMVdSclVQS1ZlOG43NjhkZjlEd0hZdnlfTkU3dkRiazd4dFlvZ3JtcXhRT3RqVkNGYngxbkg3dXBEYmZKV1lwdlpBSTBwTDRPMFpaZ1JhRWJmQ0NIUGZuNmp2NWtYdmxPVUxPc2NMX1RIUG5haXdjMklDbGY3TGI3Q2VueUJvdXdLN1h4Zk1UZVV6?oc=5",
    "published_at": "2026-08-06T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.873477+00:00",
+   "first_seen": "2026-09-25T04:07:38.867402+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -2694,6 +2735,19 @@
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORm1qV1hLa0l3c1A1cEstOEY0dGlPeEJidE5WamFkUEtRYVVYNFNNWW9iLURibklpNzNwU2MxZ2JsdjlvTDhBSHMtX3VzRmQ1UlpPMDhxMnFpSXQyRTBzUzQ5TGM3UmRGQWNlRy1LU2F1eWgwc3UxNXplZU1TTUZQZEtn?oc=5",
    "published_at": "2026-08-06T07:00:00+00:00",
    "first_seen": "2026-09-23T04:07:32.021265+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Vale contesta cobrança de R$ 17,7 bilhões em royalties de mineração e diz que valores não procedem - ADVFN",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdEpqUzBDMDEzUEk1WHlkN01tLXJScVBGTUxjQXpEdFBieDhTNDE1ZmZiMkFTaW5HcUdNV3Bnc19ibEZmcHZ2Qm9CVXEwa2FxMWZsVUQyN3ZMZWh0M1ZKbmMycnphYXBPay10WENmX2QwcGotNTJSZG9seGc2T2p6MGlSaHBZaTY3WHV0TXBMMlRFNlNtZkxKN1BmVmVHTm1mTUFFOXdoUExOdEpaWlhTRU9oVC1XdElpb3cxRUpOV3ptREF2TDR5SkdZWU9Xdw?oc=5",
+   "published_at": "2026-08-06T07:00:00+00:00",
+   "first_seen": "2026-09-25T04:07:38.860953+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

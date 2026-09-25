@@ -1,6 +1,6 @@
 {
  "mes": "2025-11",
- "materias": 13,
+ "materias": 14,
  "itens": [
   {
    "title": "Repasses da mineração ultrapassam R$ 1 bilhão em novembro — Agência Nacional de Mineração - www.gov.br",
@@ -162,6 +162,19 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "Como a mineração ajuda o seu município a crescer — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZFBPQ3BZbkFRTmpJN3pZdnJLd3N0QkhQTzNBSVdqSWV5a1NjOS1DTkFKZzd0ZlJMV0JsSUY3SEh5NHdXeThtNVRXeGd5d3lFQXNUMy14TU5lSlJkLUktOGVBM0NIUko4MUhjbTlzZXloNXEzcVNYZDJhZHBQQ1ZUQzc4cVNoTjZEREpIak0xdE5KQlI1UG5OYzFIcw?oc=5",
+   "published_at": "2025-11-07T08:00:00+00:00",
+   "first_seen": "2026-09-25T04:07:38.865251+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "UE investiga venda da divisão de níquel da Anglo American no Brasil - Poder360",

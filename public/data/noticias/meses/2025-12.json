@@ -1,6 +1,6 @@
 {
  "mes": "2025-12",
- "materias": 29,
+ "materias": 30,
  "itens": [
   {
    "title": "Royalties da mineração injetam R$ 112 milhões em Estados e Municípios limítrofes e afetados - www.gov.br",
@@ -72,6 +72,19 @@
    "substancias": [
     "litio"
    ]
+  },
+  {
+   "title": "Em carta, municípios defendem destinação de 7% da Cfem para ANM - Agência iNFRA",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNnkyenFfcFpPdloyR0dLYVh4RmlNVHhqWEVPNUt1eUxLdFI4WWZfUWZVanE1dFo4QUxSUUpqQVVUdGZBMm1JbHVvZEc0TmVXdHNPQTd3MEFJMUpUOXJYU0hnNDMwSDhzSTEyWVNGZTBKSktPZkNOdEJTM29mR0c4MTJmX1NzWUJPRXVKV1RnQjlMaENKTjMw?oc=5",
+   "published_at": "2025-12-12T08:00:00+00:00",
+   "first_seen": "2026-09-25T04:07:38.871603+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Brasil perde espaço em minerais críticos, aponta estudo; avanço do lítio em Minas é exceção - ofator.com.br",
