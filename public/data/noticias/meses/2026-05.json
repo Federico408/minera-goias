@@ -1,6 +1,6 @@
 {
  "mes": "2026-05",
- "materias": 91,
+ "materias": 92,
  "itens": [
   {
    "title": "Illegal miners extract billions in Amazon gold despite Brazil crackdown, Greenpeace finds - Reuters",
@@ -567,10 +567,10 @@
    "substancias": []
   },
   {
-   "title": "MP-GO pede anulação de atos sobre mineração na Chapada dos Veadeiros - ICL Notícias",
+   "title": "Ministério Público de GO pede anulação de atos sobre mineração na Chapada dos Veadeiros - ICL Notícias",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9KN3pvUnU3dnpiSk9FWEczaFgtYU5DSXdBeE5qZUVJX0NTODBLTG1JbVVJdGtLOUJpcnE2R1FpWDhJNmFTQlBXLUtROTZMYmVwak84VDFoMTg1Zkczb2NEMmN3VGlxdUJMek40RVRMMHhnSEFrV21mWg?oc=5",
    "published_at": "2026-05-14T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.258299+00:00",
+   "first_seen": "2026-09-26T04:07:31.324818+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -638,6 +638,19 @@
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMzE3N3V2eENDek9OTnU3TzNrUTlQeWxqNlRRR091Y044ZGJ1OEl6SUdQVkp3YmZYejdVQ1E2VXhFWGxFb2s3bks0Z2kwY1ZGZHB0bHRzbmt1NVBXenhQSkRRb2c1bmNQV0Jpb2h3MlJhQXZjOWRKcUZNRkNuczMwX050MVU3MjRuZmVkbGlpSWdjZUE0LVVUcDJ5SHNpUW9ESC1WRkdFcXNkR0tRbk82eGVKMXZhTVktMGRxV2JMODlKclBnRG5CVDZVaEh6Qktscm43dVBab9IB3AFBVV95cUxPb3lRZXRuOWdXc0RSX25GNmFyNWZlZktsMVBmTFNzRjhqRnp2ZEpBUGlwQ2JtZzFSb09ncXozb0dvV3J6TmFWMFB1OXdoRFRXcDl0MDhsb0NLbVJ6VTVadWpiVFpHNGdqM0tUYVVhTHhkaHBLZ2VaNjlMdF9Xb0QtSFRmd1JmbldiUHRZcDdkVmp0c0VUX0xMZ3RoeGFnOFFPWngwUXZpTkxLQ3hkeDlpV21PWW9vUVlITHFYWm9ZMFNhWk9OeEswdHI4cFFrdXp1MlpMYmxFTVl1QUVq?oc=5",
    "published_at": "2026-05-13T07:00:00+00:00",
    "first_seen": "2026-09-23T04:07:27.117847+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Ministério Público de GO pede anulação de atos sobre mineração na Chapada dos Veadeiros - Jornal de Brasília",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOc2Y1NjAweDJiYl9ZMVdENktWb2NpSF8tWXMwTmI4a2ZYb3hORXVmYWxmbUNGbmRscmZLVjRFbzRUcTJQc1Y3QVBNUjJOWG94SDU2X0xqX09SUzcxTGdlUHRTOEdqWDhaTlBGMFVZMk13U1Q0LWhfbk9rUlh6NXA3TzlGS1V3dDRWaUhFNHVnWExHVTlrWHpUVFV2SXE0MUl5eTlsLVpYUkdrN0ZLVFM2WENqVnlfZG9FRXM0LVZNY2QzTFRXOXh1d0loaDl4ZUVXNmc?oc=5",
+   "published_at": "2026-05-13T07:00:00+00:00",
+   "first_seen": "2026-09-26T04:07:31.325815+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
