@@ -1,6 +1,6 @@
 {
  "mes": "2025-12",
- "materias": 30,
+ "materias": 32,
  "itens": [
   {
    "title": "Royalties da mineração injetam R$ 112 milhões em Estados e Municípios limítrofes e afetados - www.gov.br",
@@ -32,7 +32,7 @@
    "title": "Os danos da exploração de lítio no Vale do Jequitinhonha - Nexo Jornal",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMW1kMzQ2dWFHS2dPSGYxQ2pKdEFmaFdwSXVSQnp2WFVGdXYyOXZTQnV4OVRQSXhtUW1SaXd5clJ4cjNaSW1EdW5oSHdzYnkzWExXaU0tWVBhRlh0YjA0QWctQ0NKVFREdHk2d3hZQ2ViTGxMRUctNFFPMENKVUVoLTVicVp0VHE0MXp0Q2I1ZXU4UUF6?oc=5",
    "published_at": "2025-12-16T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.281906+00:00",
+   "first_seen": "2026-09-27T04:07:36.214864+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -59,10 +59,10 @@
    ]
   },
   {
-   "title": "Exploração de lítio amplia contaminação do solo e da água em Minas Gerais - Revista Pesquisa Fapesp",
+   "title": "Exploração de lítio amplia contaminação do solo e da água em Minas Gerais - Revista Pesquisa FAPESP",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOS0hocFhuRU9paW9KdTNOcHRSQ3lNUGdpYXk0R2hSOGg2ODNCblgxVGZPTVFELVg4M1lwVlRoYzg4am5acVQ4NVl1UncwNW82NEs2bmN5X0FWTWdIX1JPbVc0UUNzMUdldWdGT3RjTVg2VW9ZbU1ILVJHWnV0RHFqVzlfUDJjSDl1ajJLSXBzd3Vza09KR2RXSnVRbVUtRmEtYXZWdklZeTZfU2lG?oc=5",
    "published_at": "2025-12-13T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.247981+00:00",
+   "first_seen": "2026-09-27T04:07:36.205173+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -87,10 +87,10 @@
    "substancias": []
   },
   {
-   "title": "Brasil perde espaço em minerais críticos, aponta estudo; avanço do lítio em Minas é exceção - ofator.com.br",
+   "title": "Brasil perde espaço em minerais críticos, aponta estudo; avanço do lítio em Minas é exceção - O Fator",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMk14ZnBNaGs2cUduSElhdTZOaEQ1RjdyS3JKclNlZUgyS3E4VGpJemZscDRwNXBHSUZ6bDd6cy1ESVZ6SVVRRUYxTy1Pc2UtRWF6NU9oU3kyUl9HalR4WUlqYnJ3djBFb2xuNF9OdUxYb1NEb0c3MlhEam9haXRLVS1PQWdqdUo4SllHOExlQlFqZU4zZ0xpUDRtektwQnhkVV9OVlN4eldRQ1pxT1A3SU56YkdPZlExYkFHTDhVMFQ?oc=5",
    "published_at": "2025-12-05T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.296391+00:00",
+   "first_seen": "2026-09-27T04:07:36.223460+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -102,10 +102,10 @@
    ]
   },
   {
-   "title": "NE avança com lítio e níquel, mas Brasil perde espaço em minerais críticos - Movimento Econômico",
+   "title": "NE avança com lítio e níquel, mas Brasil perde espaço em minerais críticos - movimentoeconomico.com.br",
    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUkNCV2VHOUkzTEtmVGk2ZFVyeXVmeUlEbm5veXlWdjBCV2RrRHBUbTR4bGNjU2NmUkNhLWhpd21xdDNFejJFT2FQanprQmJjSC10QzBMOWduVUlxU3FqYURnaHRvekRfTWxzS3lZWlozZ0JSTmdoOTBxdzJMVXJrS1M4cWYxaXFRMmdpSFVsQWtFTjM4ZFg4aUtwcjhKcEVkbDU5SUZEZVhuNlRyWDM2OXpicm1WRmNQZVlpMGd2a0JQT3FaUnYzSjlHWUFNUQ?oc=5",
    "published_at": "2025-12-04T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.288748+00:00",
+   "first_seen": "2026-09-27T04:07:36.216815+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -353,6 +353,21 @@
   },
   {
    "title": "Aura Minerals Closes the Acquisition of the Mineração Serra Grande Gold Mine in Goias, Brazil (“MSG”)",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab89686037b4cbb9d163f724403ec19&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-closes-acquisition-minera-232700698.html&c=17845271592282636787&mkt=en-us",
+   "published_at": "2025-12-01T15:26:00+00:00",
+   "first_seen": "2026-09-27T04:07:35.141433+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Closes the Acquisition of the Mineração Serra Grande Gold Mine in Goias, Brazil (“MSG”)",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fmarkets.ft.com%2fdata%2fannounce%2fdetail%3fdockey%3d1330-9594894en-4HJNEMM8HHMEHMC6IV01MR4HK5&c=4254408736067141706&mkt=en-us",
    "published_at": "2025-12-01T14:27:00+00:00",
    "first_seen": "2026-09-19T19:49:02.792053+00:00",
@@ -431,6 +446,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab4a1fbd88f49afa0a215e0eaf77397&url=https%3a%2f%2fmarkets.ft.com%2fdata%2fannounce%2fdetail%3fdockey%3d1330-9594894en-4HJNEMM8HHMEHMC6IV01MR4HK5&c=4254408736067141706&mkt=en-us",
    "published_at": "2025-12-01T14:27:00+00:00",
    "first_seen": "2026-09-24T04:07:23.825272+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Closes the Acquisition of the Mineração Serra Grande Gold Mine in Goias, Brazil (“MSG”)",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab89686037b4cbb9d163f724403ec19&url=https%3a%2f%2fmarkets.ft.com%2fdata%2fannounce%2fdetail%3fdockey%3d1330-9594894en-4HJNEMM8HHMEHMC6IV01MR4HK5&c=4254408736067141706&mkt=en-us",
+   "published_at": "2025-12-01T14:27:00+00:00",
+   "first_seen": "2026-09-27T04:07:35.145260+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,

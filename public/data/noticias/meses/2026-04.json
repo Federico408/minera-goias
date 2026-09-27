@@ -1,6 +1,6 @@
 {
  "mes": "2026-04",
- "materias": 91,
+ "materias": 93,
  "itens": [
   {
    "title": "ANM nega recurso de Abdalla; direito minerário fica com LHG, dos irmãos Batista - Agência iNFRA",
@@ -206,6 +206,19 @@
    ]
   },
   {
+   "title": "Goiás defende acordo com EUA para exploração de minerais críticos - Agência Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNamVfcTI1NFBjaGxMUXNabE9EeEdvUk1Xa3hpanhOSG0teTFfNE5MVDRHQXY1SHp0OWVodXIzY2Jiam56SG1COFFsaTIwTlZIMldnLXppX0M2Q1RTWjFNOHdfZFhnam54OFh3YnNuc3l3UEdBN3JPUW1TaHVUdHA3T3ZrOU1xdFlmTnpkdGdpaWhxeUxHREpkOGJSRjM1c3U1d0t5MHpuS0I2ZHlwMmJJSFVnYmhLbDdILVh4ajVnM2Q?oc=5",
+   "published_at": "2026-04-27T07:00:00+00:00",
+   "first_seen": "2026-09-27T04:07:32.443336+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Acordo Goiás-Estados Unidos sobre terras raras é inconstitucional - Consultor Jurídico",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS0lDdWNXQ2wydTBWQmcza3FLYWNPMVRwNWQ1YkNGU2x3aHdfQW1IaklmUm5ja3dCMUgyX3BVRWpxbGhKUEoxcmZNM3J6Q3lObWR4RWlBZ2p0cDZmVm1pRmNjSldKalpaVVhTSlBUeVR1cmpZYjlUWWpmZV9mUnk5RjMwOThnZEJrSFh5Ui1Bb3ZWOHVhZm56eDFiZEVBekQwQWpXNg?oc=5",
    "published_at": "2026-04-26T07:00:00+00:00",
@@ -224,7 +237,7 @@
    "title": "Rede vai ao STF contra venda de mineradora de terras raras em Goiás - Revista Oeste",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNTU3Uk5BeHo4ckpkRjNOV01Wa3dZZ1ZMVzdQWEFiZUdYd1BLc3VDWDc0dERkUlhJOEtSRFZ6N1FGbkp6UTA2MTdWdWlPRzhYNnY5OFgySEUxUEd2cjNrclhOVGN6RmVSWTFPbTJiaEJna3pRT29GXzVvNHhQLXZ3TEhiSkRiMGN1TE1NMzFJNzRwWW93Y0FxVmpkRVVQVDFCQnFtRg?oc=5",
    "published_at": "2026-04-26T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.282089+00:00",
+   "first_seen": "2026-09-27T04:07:32.446265+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -290,6 +303,21 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras, minerais estratégicos e críticos: entenda as diferenças - Agência Brasil",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV1F3MnZlSHRLRi1yaDR6MHVTVjQzVk1nWjVqQmVkZnJlOHR3akdWTmhLUlU5SkR3Q3l2Y1hTTXdKVEx0aW15WHZ3SDNOUFpQcGo1MEFrMldURGkyVVdyVnJTTXI4TFc2bXJ5OXVCeUdwbFlKalp1N1M2eWpZUVZSYzlWU1FZQTcyQ1NRU1UzWHJTR1pFSkpzQkhHWHVHRmwyYW5rU3J1RWw1TDlrYjZKRnNaM0RiaVJnVWpoWjlDTQ?oc=5",
+   "published_at": "2026-04-25T07:00:00+00:00",
+   "first_seen": "2026-09-27T04:07:36.207222+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
@@ -724,7 +752,7 @@
    "title": "Venda de mineradora em Goiás garante preço mínimo por 15 anos e deve dar estabilidade à economia - CBN Goiânia",
    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbS1Bc0hZcFZhUl9wLWIzcm1qZW9DWmM0MmpiNU9pQWtCekRqSmZSZ1hFZlNqVUtRc3gxaWdmZFg3dUtVMGpnM2tPSUdEMzJEUk16RHFaem9wdUE2QkdOZFhvNnN1RHluZ1FDN25kVExvQlhXVm9ESVNVT1liWmhTbldxbm9DS1JJNUJRdm5UdnZ6a05NaVJmWWhUTGhHeEVXYlBuaUJPc1N2YWZSVFZ1cnExa3c5VTVqXzM1RkR0cFRSNEl5eFdmVFUtRlY3RFNiMW0yX3otZmJ5UQ?oc=5",
    "published_at": "2026-04-21T23:23:18+00:00",
-   "first_seen": "2026-09-19T19:48:59.283567+00:00",
+   "first_seen": "2026-09-27T04:07:32.446889+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,

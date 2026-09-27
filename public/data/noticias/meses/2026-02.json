@@ -1,6 +1,6 @@
 {
  "mes": "2026-02",
- "materias": 30,
+ "materias": 32,
  "itens": [
   {
    "title": "Agência distribui mais de R$ 108 milhões em royalties da mineração a municípios afetados e limítrofes - www.gov.br",
@@ -29,10 +29,10 @@
    "substancias": []
   },
   {
-   "title": "LÍTIO | Governo do Zimbábue suspende exportação de minérios e concentrados - brasilmineral.com.br",
+   "title": "LÍTIO | Governo do Zimbábue suspende exportação de minérios e concentrados - Brasil Mineral",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObVRqU0FIVGdGRUJHeElfQkNmbnU2ZGcwU2EtdVYzcThQMmktUU14NkxtMGI0RUtHN0ptNUNjVlk2ellkRk5vX1pPMnRETks5NTh5U1JyaHlXWVBTTDBCVy05V3F6MFZ6a0owN1M0Q216TE5vOVhMSXlQRzVOUGZjdUw2OXN2aHNmajdQbDRxWUMtLTl6b2ItMUlLSDdYeGxob0YxYm5fQQ?oc=5",
    "published_at": "2026-02-25T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.286907+00:00",
+   "first_seen": "2026-09-27T04:07:36.227916+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -84,6 +84,21 @@
    "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Empresa indiana terá participação em refinaria de lítio no Brasil - CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN0w4WU0yUHVPUWR5UVNnY2U4NGNBVkcwX05LbVVPUVdxSW51Z2VmQlM3T3FtR19BWDBNRlNGR0ZfcXNVUW9TVHhmNU5xTVF2VXM1cE5TZmdXUWIyZUZDWjNVNE95aGh2YVdOak9QNnEtV21kZzZUUFNMTXN2bEJ1YkJjV0o2V2x4bWUtZS14RHkzS1o2ZkJONkIzdVVPaHd3OXZBdjV6V0pJS01oX3NDOHdMT3hjVFM4SzkzcHZrNEYyZw?oc=5",
+   "published_at": "2026-02-21T08:00:00+00:00",
+   "first_seen": "2026-09-27T04:07:36.225708+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "Alerta: mensagens que simulam cobranças a regulados são tentativa de golpe — Agência Nacional de Mineração - www.gov.br",
@@ -181,10 +196,10 @@
    ]
   },
   {
-   "title": "LÍTIO | Lithium Ionic indica avanços na engenharia do projeto Bandeira - brasilmineral.com.br",
+   "title": "LÍTIO | Lithium Ionic indica avanços na engenharia do projeto Bandeira - Brasil Mineral",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMjJlb1Qyd1VxZWVoOXpkQmU5a2tXa3I2eGFjNkhhNEJDaG43VDZHNzVLNllycF81RGlqNlhWMFRZb2tyaElXSzV3TnVKemVPcDNLTGJzcUJuNEN6cmFyd2RJM0tCeFI0cEFjTXVkSjlrMHpLektFdF9GQnV4aWx4WTIzWjZlY3RVTGVsaDVaMkV5VTBQTFZBajlnN19SR0JfUVE?oc=5",
    "published_at": "2026-02-12T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.293380+00:00",
+   "first_seen": "2026-09-27T04:07:36.221358+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -196,10 +211,10 @@
    ]
   },
   {
-   "title": "LÍTIO | Indiana Altmin aporta US$ 40 milhões para ampliação da CBL - brasilmineral.com.br",
+   "title": "LÍTIO | Indiana Altmin aporta US$ 40 milhões para ampliação da CBL - Brasil Mineral",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR3ZpcHlKdGVtbENOSEU1RzlNOXRBd0NOU1J2MzJHaHNWWHE1U0VpVWNWWngzVU9ycV9FR0M0NEVZcVFtUnUwdjg4Sy10aUpXZ19ZNnFmUWxQb0w2cFRhUFlieVlpcGt3akFGdGRzdlVDM25QZWJOcW1ZZmNMaERrZjkxdW82M0NZQVR1blg4TExQbFNIUENCUkQwbw?oc=5",
    "published_at": "2026-02-12T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.298224+00:00",
+   "first_seen": "2026-09-27T04:07:36.224687+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -345,10 +360,25 @@
    "substancias": []
   },
   {
+   "title": "SIGMA LITHIUM | ANM atesta segurança de pilhas de estéril e materiais - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVFdoTGprR0t6TU5wQVhsS3hFSzc0aTdPaDMzTHg1RUJ6NGQ3aG9WQTdsNGcybnRXVlVjZ3NZcWowenVJQVpJNHh5RmVCY0dWWUlWT2Zna3dLMUxvb09JcWhmem84WFUtRUUtdWJrYzRBYWVRc053clFranQ4TEtUdndidUVvOFlucnp4TDhueTFEc3Eycnc?oc=5",
+   "published_at": "2026-02-04T08:00:00+00:00",
+   "first_seen": "2026-09-27T04:07:36.222413+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Reserva de minerais de Trump pode incluir lítio e terras raras do Brasil - CNN Brasil",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLUFYVmJZcDFuUkhxeXp6LXg2aFkxcUQxQklGaFpXOVlTMk5ZMjdQUi1yUy1PWWI4NHBjd1hIanVZRGNyaEZrN0YxTDVMdWxzazNERTYzcnV6eVZ4Qnl2OW9vOTBSYklwVnM0OHZ5RFhHVjN6OHFBVDNsYy05XzBMaVFGRlJMbk9FMVlKMmFLdEJOTXl1aXRfLVFSeUFTWTA0RjE5OEFXTWRjNXVYWHdOb3dNSHgtN1NrTjg5QXp6cTRYZWRoZ20yZEU1TzFnNkk?oc=5",
    "published_at": "2026-02-03T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.255953+00:00",
+   "first_seen": "2026-09-27T04:07:36.206330+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -364,7 +394,7 @@
    "title": "Pilhas da Sigma Lithium não oferecem ‘risco iminente’, diz Agência Nacional de Mineração - Valor Econômico",
    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMm1CWkhmOVNfQmlLVERTSGI4UmdoZ3JjRzYwTU1ZdWlrMWpObi05N3FIc0ZiWjVON3luYXdrS2JtLVFUWmxxZ3ZUVlJGVmNLMFRaQnRuZnQ2NmpUem5oclNVZndaRFBKbHY5VlByZUVlbnFMNmtqNTVqeTZITVhHdnRFbTVzTTd6d2NiLWJ2YlBrNWtNWGtXcTAxb1FnRVlvWS1vclZ0UTBXS0pLMFVXRmYyREJWVXJ4Rkk2OWhvVWxsdWVDZXJXZ1kxajN1aVd3RzN1c29PcXFzVEnSAeoBQVVfeXFMT2l1TDNRYzAxeXpUTnROamVqWm00SmZuNksyYkM4c19JRFpqa3ptR0I3T05JUXltOXpKRl9HNkU2c29mT2ZRSVh4QUY2M25NVUtpTUh5OVh1Sl9JX0g5TW9jRFRpSEpaQlA4WjB3ZkxOWDBBVmxVNGdsRXRmRUh4cFNxZGVwaTlLbm40VTg3a29XZ0Q3OV9oM25YczZjeUJkNzh5S1MtMUFLM2tueHJBQ2xOMkJfbElaczRObDI2SzhqbnhhSUpmTkJYVmpNMnJyRlYyblgxY2lpUGs2RXcyYVhmWGt1eGNRRUR3?oc=5",
    "published_at": "2026-02-03T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.297404+00:00",
+   "first_seen": "2026-09-27T04:07:36.226769+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -394,7 +424,7 @@
    "title": "LÍTIO | Sigma Lithium afirma que foram retomadas atividades na Mina 1 - Brasil Mineral",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQUFBdFBNYVBUY0JZeEM1ajVrNkZKT3dZWllQX3lhanQtaGttX3FvNHVBTk1JajRFZUZiM3hMb2l6aDFTWFVubmJwaXlqcjFRcTRVeUlwTV9lWE1kOW45WTYtcGI0Y2JKTGNsQ1YzSVhuXzRUV01xa2xNR2dHckZRa2FXYk5iWlc3MkxyNnV1a0VrQVA3ZG4zdVZZMUxKZzdV?oc=5",
    "published_at": "2026-02-02T08:00:00+00:00",
-   "first_seen": "2026-09-21T04:02:39.725269+00:00",
+   "first_seen": "2026-09-27T04:07:36.219129+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

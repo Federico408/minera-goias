@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 258,
+ "materias": 261,
  "itens": [
   {
    "title": "Brazilian police expand program to trace gold from illegal Amazon mines, nab smugglers - Reuters",
@@ -90,6 +90,21 @@
    ]
   },
   {
+   "title": "Venda de minas de níquel em Goiás gera disputa internacional e investigação do Cade - Diário da Manhã",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWC1CRGRvRFJRVW5ZVVBWOER4SUlfdzFhaVB4R2x1eGl5MmpBb2JqYU9Rd0dxUnNtOU5OVmNIQ3NqODB4MTZpaFU2NlJfWnlZZDI0QzhOWGhIVlBHVDdoVnE5bVAtZFlubmE3U3dqWU1rQUt0NDk5SUdEMTZTQVVCZWNKMzVVeEVPc0x2OWZJbXlJWmkwci0tV0xKSy1RZ3BHa1BuRVB3dVl0TG0zaVhnbm9tUQ?oc=5",
+   "published_at": "2025-08-30T07:00:00+00:00",
+   "first_seen": "2026-09-27T04:07:32.937389+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
    "title": "NÍQUEL | Anglo American esclarece sobre venda de ativos para a MMG - Brasil Mineral",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNFZqUVpnVHRqMV92cElscE01U3BMdGt5eDBNaVlLclVWMTY3YUM2NjJBZkczSnVwQW9jVDhDMm9ZcUxtWHBzUmJWTVhKMFRTUlhEemNXODBIRDhQZGdqc0QxRm1TVjhGSFV3cEg4ek9LNE10blRpZ1I5REF6bzI0SW1PdkZEb2hqdkN2Q1pkZ2lZY1lHX053Q2hYcw?oc=5",
    "published_at": "2025-08-29T07:00:00+00:00",
@@ -137,7 +152,7 @@
    "title": "Cade investiga venda de minas de níquel para estatal chinesa - Poder360",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVXVYbU00dTNLY0p1bWRDSHlpNTNIYXJnMGZ5bFlvbzN5bjhIdW1nUFVEUk5mTEY4TUY2WDZVS3lCR2psVzZwV1JFdno2b3RKaFlNV1MzMUJXSGlTcm9nSG1Xc1JodWFDSGx5MzJ0eDRoRUJqelZjY3h4ZERGTXVoTnRHZkY1M3V1eS1lb0REaXV3QVV4bklYZlN3Y2x4ZUZaYkF3?oc=5",
    "published_at": "2025-08-27T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:43.314979+00:00",
+   "first_seen": "2026-09-27T04:07:32.936141+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -636,6 +651,36 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab4a1fbd88f49afa0a215e0eaf77397&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
    "published_at": "2025-06-02T00:00:00+00:00",
    "first_seen": "2026-09-24T04:07:23.824035+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab89686037b4cbb9d163f724403ec19&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
+   "published_at": "2025-06-02T00:00:00+00:00",
+   "first_seen": "2026-09-27T04:07:35.146557+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab89686037b4cbb9d163f724403ec19&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-09-27T04:07:35.144000+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -1898,7 +1943,7 @@
    "title": "Notas Fiscais — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOblZlMTRlVTRJUTBSUFMydkJ1TzZtZUJMdU0xVk5ENzhyRERNcGlKbVVVZUd6NEdkVWlrMkF1TzBnNnhpOGxDZmhVOTMzRWpIaUlYY3c3djRYRS1US1JDbEJHOHI1cVBEcVhLa2hZdjBoTFkxUnFVWkJmaVFGQmZSemxxN0ctUlNONXc?oc=5",
    "published_at": "2023-05-12T13:36:01+00:00",
-   "first_seen": "2026-09-19T19:49:06.291651+00:00",
+   "first_seen": "2026-09-27T04:07:37.430514+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1997,7 +2042,7 @@
    "title": "ANM cria regras de combate à lavagem de dinheiro e lavra ilegal - Folha PE",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOV81UDhxY2x2b0lPajFjc3lIU1BWbHpYMG02VnV1UVc0RG5BaVhZWVg5dGJxWlRfdGFhZWtNR0MxUE4wUDYxQ3RjUExMZmJEUk9qVDY5YmpiX3JVNENkbFR6T191d2s3NUw3ckNjbUZVVUhiWlVNcmdwQUcwUnl1bHFXc1FYYkhxUnVrWVZMMF9KSzBaOHNNVlJiX0FCeXlra204NkEzM2FuVlnSAa8BQVVfeXFMTTJnb2hQLWVmWERXTDdoNHFOWkZ4cTkxOURuMVN4U0Q3alREYmpvSFcwS3lva3U1Vm9DdTNFQUFCZ1VMdGgxTFF5M1ljNUZwb2NhZVRLLWVZM3dra2M1N1RxLTZYUVRBTVBWU2xFT0g5UkcwWHg5eUNhaEVPTFVKZE1ZNHBtcjVvbml2aWFzTDZGcXBaZFFfSG1GVy11R3RINHZtUmtkY21xbGM1ZjNfOA?oc=5",
    "published_at": "2023-02-23T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:05.699991+00:00",
+   "first_seen": "2026-09-27T04:07:36.989460+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -3106,7 +3151,7 @@
    "title": "Agência Nacional de Mineração conclui o relatório técnico sobre barragem de Brumadinho - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORUFORFFWNVVSM0JtTmU2bWNmYUV3b2RtUjZiZzg3RVByWWJNeHR4enU2N19JMXNQRzdqaUtyN19xY3pQQlRrNWo4cUtQeUNld0JjZkx0YXRRdDJPUHBXNG91RDEtTURhdkwxdFo3bUw4eUhuVktpbkd4LXBJME5xamhRMmhaSXRwdnZkXzJQT3hfVV9zOVQzYkxoQkNPam1YWm9QbDdMeENYVXQxTTlSMERVeG1wUUNPbEd4MzQ0TXZBZDU4SGNpaEd1cVlUT1pRR0Foaw?oc=5",
    "published_at": "2019-11-05T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.290829+00:00",
+   "first_seen": "2026-09-27T04:07:37.429419+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
