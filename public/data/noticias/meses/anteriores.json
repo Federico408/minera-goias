@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 261,
+ "materias": 264,
  "itens": [
   {
    "title": "Brazilian police expand program to trace gold from illegal Amazon mines, nab smugglers - Reuters",
@@ -359,6 +359,21 @@
    ]
   },
   {
+   "title": "MINERAIS ESTRATÉGICOS | SGB afirma que Brasil tem cerca de 23% das reservas mundiais de terras raras - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT2VUb281b2NucFBsM3pqRkJ6Y0VQSGpZcENiSEk5Yms3dG9jQmhwS2loalNKcDJiclhwanZLNi1STmhPajZabXVMTGZwb2J3WnVpck94Y1cyb3pGVXo3UkRnM09tVzZrM2ZLYjFMTFZJZXRxWVoxWGs1WENyNjRjc2hYdkhXanIzLXY0eUV2azE1ellTSC1mMXB2djFJbjIwdkpZcnRUdHpVQnhCODYyYmthOA?oc=5",
+   "published_at": "2025-08-07T07:00:00+00:00",
+   "first_seen": "2026-09-28T04:08:23.835061+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "ANM convoca Claúdio Freire, superintendente de outorga, para cargo de diretor substituto - Agência iNFRA",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcW1VMWhINkxMUHotNWlKb04yMnNRMm5RMHhfVjBrV2JTMzRrOWw0ZGNZWmZmRS1EUXBKNVhBUGZhU182enU1RkNSNE1aSF9OYW9SWC1VcG1OVHV1dTIzeDVBNU9ZV2lLWGFPZ08tSE92bmVfN21JazlLZFJJeXBsdDdGZlYwTjg0ZWpuSlp0RjVWYXAwdEF5anBKWHNjUQ?oc=5",
    "published_at": "2025-08-05T07:00:00+00:00",
@@ -678,9 +693,39 @@
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9e839441748a58f2c7baecd1c69ef&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
+   "published_at": "2025-06-02T00:00:00+00:00",
+   "first_seen": "2026-09-28T04:08:25.828695+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab89686037b4cbb9d163f724403ec19&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-09-27T04:07:35.144000+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9e839441748a58f2c7baecd1c69ef&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-09-28T04:08:25.826123+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -2605,10 +2650,10 @@
    "substancias": []
   },
   {
-   "title": "Servidão Minerária — Agência Nacional de Mineração - www.gov.br",
+   "title": "Servidão Minerária — Agência Nacional de Mineração - gov.br",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU2JCRmZ4M05ROEN6ZFA5bFV0NXphVk00a1JnSTNCQ2tsWFdCVGpUWlVxM0E2ZHRVV3RlQUQtWGJ1SjYzV2x6cldvWE81RFFSSXZ5N1I4djd1dzd5OVZEeVFDWU5NeFlIZ3JNdkMyWDQ1eGpfNjZVYTl4LWtFa2RGVmx0TXA5N0hLNzVTczFkZ1htQQ?oc=5",
    "published_at": "2021-11-02T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.292344+00:00",
+   "first_seen": "2026-09-28T04:08:27.989237+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

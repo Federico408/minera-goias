@@ -23,7 +23,7 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-09-27T04:07:39.675495+00:00",
+ "atualizado_em": "2026-09-28T04:08:30.362318+00:00",
  "ultima_execucao": "partial",
  "itens": [
   {
@@ -48,6 +48,19 @@
    "regiao_termo": "goias",
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Da geração de empregos à violência contra a mulher: estudo mede o que muda nos municípios com a chegada da mineração estratégica",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9e839441748a58f2c7baecd1c69ef&url=https%3a%2f%2fwww.dm.com.br%2fdicas%2fda-geracao-de-empregos-a-violencia-contra-a-mulher-estudo-mede-o-que-muda-nos-municipios-com-a-chegada-da-mineracao-estrategica%2f&c=9037657213273103473&mkt=en-us",
+   "published_at": "2026-09-25T08:32:00+00:00",
+   "first_seen": "2026-09-28T04:08:25.821521+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
@@ -954,6 +967,21 @@
    ]
   },
   {
+   "title": "Deputados aprovam projeto que cria a política de mineração de terras raras em Goiás - G1",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNX01scHVPbjN6SGZCeUJZYXlua0l5R1RwblpKSE1UcDhDUkhvN3RVRjFOTHhIMUtPN1hUd1doYnlKYmJNN3lITGlRNkFJSXF4SGpZV3Y2TnVBYlV6LUFMdjlKVGR0cW5nZVV0VUFfVVZLWHExSDN3Q2FIWURmOHZPcGxRMkxFRDNCaDhYdmNWczBzQUFHYlFRMkp4b3RlV1FhX2JDb3V5dXROajJmQ050aW9PdGZaMlAxX19oOXRRVWpsU08xQXlDT0lOVUtBbkg2NmlaNWZPbV9FcF9pNXhzb0I1a2czODZf0gH3AUFVX3lxTFBQY2FaNkpieDRvNjR4bDd5SUliUjN3V0FuN1FKM1RlMzlKaUtiTVR0RThrMGJwZnh2NGxpWnk3TzR3dUk4MEkzOHFsRnBDR2pmenJyeGk1TE5QaFk4SlgzWHFtYkR1WFpGbmNBVzFhUFBoRi1tNDROTURLWTVyb2NXODZNaUsxQzl5U2NYYmc2T09nMUNqUjJ3aFNuWEI2aDBTczIzcDBUZEQxSVVFQndWT2oyU0NVaDlhSWxIRUFENTZ0dVJUbmRIWUEzYzRaN0VvaDV0RmVPRU9kYXFtMnZMYUJENGdaY3ZaSnpvdzExMTB5WUZyTmc?oc=5",
+   "published_at": "2026-08-04T07:00:00+00:00",
+   "first_seen": "2026-09-28T04:08:23.441992+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Advogado viraliza ao mostrar rotina como intérprete de chineses em gigante da mineração de Goiás - Portal 6",
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWlJER19EQVB5MHlYTHdqTVgzanEtRHI3U19VcDNZdWpUT25vUFlsaGhYTXFZaEtFQTFLUlJCTXRQY3MyQ1MwQWpzTDBWdVE1QlBVTWFfd3F1TTAtb0ktd05DYlJuZG1WQXIxUmdFbEN3Ny0xX3BPWS1UNWE5VHZCc3NqMFJfN01yNHIzajEzY1c5aEFoR29reXRURDRmQWcxemVDZGlhTU43Tm5iMjNnYTNnU1c5SnNHUno3a1VnUW1OR201NjhQQ05lMA?oc=5",
    "published_at": "2026-08-01T07:00:00+00:00",
@@ -1687,6 +1715,19 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab4a1fbd88f49afa0a215e0eaf77397&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T11:25:00+00:00",
    "first_seen": "2026-09-24T04:07:23.818795+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9e839441748a58f2c7baecd1c69ef&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
+   "published_at": "2026-05-10T11:25:00+00:00",
+   "first_seen": "2026-09-28T04:08:25.823775+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -2524,61 +2565,20 @@
    "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
-  },
-  {
-   "title": "EUA e Goiás assinam memorando sobre terras raras nesta 4ª feira - Poder360",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbS01LXZEZFBvTVBvYzNDcy1iS2ZzQnhabVN2VG9VbGpoVDQ3bkFHRkRCM2dNdHU3R3VLYmxuRWJRNHhqMU5TX3h6U3RpRmtPcmRUbHlVLS1JVUJHVkJfRWFwWGJXY3RrT3Y3QnZtSDZBZEw3SE1JUlV5Z0JIdWE0U0lhbnEzczNKUmZJNUtCcG9PSklHejBoWFBhRzd6RTdGa1FPZTJZV2J0a2I0al9PQS1R?oc=5",
-   "published_at": "2026-03-18T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.105650+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Com benefícios fiscais, Goiás fecha acordo de minerais críticos com EUA - cnnbrasil.com.br",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaFlfazlERDY1TXRhRUtpMm5KOFJ4OWtYVC1WMzBoajU0anlwS1RHWjdQdzZndEJSUHAtUjZ3RzB5ZGdxRHFJNF9GY1RUZHRtZzBUZkhLeFhVTjJjdmMxY25fSGh0cDFaUnJMVi0xWUpWa1VMb3NwQUx2WWVTNUVQMjJPc1pSMDVoYVRFSmhyeTdVWE5ib2Y1RWJvQXNWQUdpU19aWlBvUHhjUQ?oc=5",
-   "published_at": "2026-03-18T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.110107+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "MINERAIS CRÍTICOS | Goiás firma acordo de parceria com o governo dos EUA - Brasil Mineral",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVVAwLWxOTUFOUERfMDFDRzhFc05GdEY1a0lnWXhKZjJaWDhzZGlHbHFnYXFwbjdwUk9NNDV5QkRkRy1nVzVieHVzWWxvV1cxR042dC1HRVBNSEpmNExnS2FNNG10dVc5TGlGeUJpMm5Cak1LOHhXZDFHaDlUU25QdDYzU0c1TkVHOHR4WkZKZElldGpf?oc=5",
-   "published_at": "2026-03-18T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.111762+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   }
  ],
  "tendencias": [],
- "total": 1839,
- "regionais": 295,
- "setoriais": 1839,
- "regionais_setoriais": 295,
- "fontes_vivas": 62,
+ "total": 1880,
+ "regionais": 303,
+ "setoriais": 1880,
+ "regionais_setoriais": 303,
+ "fontes_vivas": 61,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 599,
-  "ouro": 225,
-  "litio": 189,
-  "cobre": 93,
+  "terras_raras": 607,
+  "ouro": 241,
+  "litio": 190,
+  "cobre": 96,
   "niquel": 72,
   "uranio": 33,
   "niobio": 16,
@@ -2588,19 +2588,19 @@
  "meses": [
   {
    "mes": "2026-09",
-   "materias": 854,
-   "novas": 16,
-   "regionais": 35,
-   "setoriais": 854,
-   "regionais_setoriais": 35
+   "materias": 880,
+   "novas": 26,
+   "regionais": 36,
+   "setoriais": 880,
+   "regionais_setoriais": 36
   },
   {
    "mes": "2026-08",
-   "materias": 214,
-   "novas": 4,
-   "regionais": 31,
-   "setoriais": 214,
-   "regionais_setoriais": 31
+   "materias": 216,
+   "novas": 2,
+   "regionais": 32,
+   "setoriais": 216,
+   "regionais_setoriais": 32
   },
   {
    "mes": "2026-07",
@@ -2612,42 +2612,42 @@
   },
   {
    "mes": "2026-06",
-   "materias": 68,
-   "novas": 0,
+   "materias": 71,
+   "novas": 3,
    "regionais": 15,
-   "setoriais": 68,
+   "setoriais": 71,
    "regionais_setoriais": 15
   },
   {
    "mes": "2026-05",
-   "materias": 92,
-   "novas": 0,
-   "regionais": 36,
-   "setoriais": 92,
-   "regionais_setoriais": 36
+   "materias": 94,
+   "novas": 2,
+   "regionais": 37,
+   "setoriais": 94,
+   "regionais_setoriais": 37
   },
   {
    "mes": "2026-04",
    "materias": 93,
-   "novas": 2,
+   "novas": 0,
    "regionais": 41,
    "setoriais": 93,
    "regionais_setoriais": 41
   },
   {
    "mes": "2026-03",
-   "materias": 46,
-   "novas": 0,
+   "materias": 47,
+   "novas": 1,
    "regionais": 16,
-   "setoriais": 46,
+   "setoriais": 47,
    "regionais_setoriais": 16
   },
   {
    "mes": "2026-02",
-   "materias": 32,
-   "novas": 2,
+   "materias": 33,
+   "novas": 1,
    "regionais": 4,
-   "setoriais": 32,
+   "setoriais": 33,
    "regionais_setoriais": 4
   },
   {
@@ -2660,11 +2660,11 @@
   },
   {
    "mes": "2025-12",
-   "materias": 32,
-   "novas": 2,
-   "regionais": 20,
-   "setoriais": 32,
-   "regionais_setoriais": 20
+   "materias": 35,
+   "novas": 3,
+   "regionais": 23,
+   "setoriais": 35,
+   "regionais_setoriais": 23
   },
   {
    "mes": "2025-11",
@@ -2684,14 +2684,14 @@
   },
   {
    "mes": "anteriores",
-   "materias": 261,
+   "materias": 264,
    "novas": 3,
-   "regionais": 71,
-   "setoriais": 261,
-   "regionais_setoriais": 71
+   "regionais": 73,
+   "setoriais": 264,
+   "regionais_setoriais": 73
   }
  ],
- "descartadas": 2895,
+ "descartadas": 3134,
  "veiculos": 46,
  "coleta_desde": "2026-09",
  "janela": "2025-10"

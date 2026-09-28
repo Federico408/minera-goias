@@ -1,6 +1,6 @@
 {
  "mes": "2026-03",
- "materias": 46,
+ "materias": 47,
  "itens": [
   {
    "title": "Nova guia da CFEM entra em fase de testes com participação do setor mineral — Agência Nacional de Mineração - www.gov.br",
@@ -256,10 +256,10 @@
    "substancias": []
   },
   {
-   "title": "Indianos entram no mercado de lítio do Brasil em busca de tecnologia - bemparana.com.br",
+   "title": "Indianos entram no mercado de lítio do Brasil em busca de tecnologia - Bem Paraná",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORlZia1J2anFYSXoxd2hKSWF0ZmZCeU53UzJrTGU0V3R0NlBiVkx2YXZaUFdOY01mZXRwaHlibW1reDVNLXYxUnluaU51b19qMXRHa092NmVkcy01MVlnQlhOT0paTFY2a0RocmVqSnRacS1LSE1rM0pvZGlMbVdnQXJFb2Z2Y3hHR0gtNm5tcThlTHN2VjdpelY0ek9aZTZuWjN2emJXN2g3eU9uX2VmaU9VOEtpazTSAbwBQVVfeXFMTnRQcl9nSkctNmt2NlVGMzVEcjg5djZvbjJfOXU1X2FCSlhjU201REdpMmZJQ3BDSkhLMThuWUNSV0poemxnUjZVQW14NGRtdGNHZ1lBR0hGcVRkTjJTY3o1YzlfekZVazM4Z0M0VGFqcnNycHpGa0RlelBmREpWYi0zOHRfX3pVWmZpcV9WNGRXRGRTQ1lIM0NFN2o5UmtpNEJJNlh1WVF6emMyRmVfYUV5WlIzQ251R2R4Nzc?oc=5",
    "published_at": "2026-03-18T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.289680+00:00",
+   "first_seen": "2026-09-28T04:08:26.818524+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -483,6 +483,21 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Mineração de terras raras exige tempo e alto investimento no país - Agência Brasil",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbmdpMEllZ18xNkJibS1TU0tKeW13MGp2VHJPRkhhRG5KdnJKTnR3LTFwQnZtVmRpTG1IQ3dJZTBsODdrc0QyaXdqTTFYWmcxcE9yWkhmN19uVDd6bmdzYXFPX2NyLTdQelNLR3B3UjNiU0ozRFJHTHpqeEs4RDZkeDRZSW5PVWhhdVVqS0pKclQzYThKcjY1cWJHNDN4ZFlTalFUN2VWRERwN1lKdmJKZjJGMWdzR2x5RjBscVIwenJOVDFHUklYZHpXZ0RncmFXaTlCU0NkYw?oc=5",
+   "published_at": "2026-03-11T07:00:00+00:00",
+   "first_seen": "2026-09-28T04:08:26.817586+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Terras raras podem colocar o Brasil em destaque no cenário mundial - Agência Brasil",
