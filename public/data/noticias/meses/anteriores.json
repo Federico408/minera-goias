@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 264,
+ "materias": 267,
  "itens": [
   {
    "title": "Brazilian police expand program to trace gold from illegal Amazon mines, nab smugglers - Reuters",
@@ -402,6 +402,21 @@
    ]
   },
   {
+   "title": "CMOC é destaque nacional por melhorias na planta de nióbio em Ouvidor (GO) - Portal Serra Dourada News",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZWZ1SmNscXJLQTgtcGo3S2JvMGM0UXhTRnAyVW9mYzFNYmNzMHRtTG5rNjJWWWg3c1pFeUVHczBRNEw2NVU1R3dlLW5hbTFYUXc0a0diRFBFWFBUVzFpLUkyNXpselV2TVBIcnZvNUhkNjEzN3ZzTjNvX0pvdVQzM3RJZkFmdkMtaFp3aHZRZ1gxN3kwdmZCNDJ6NFBjb2pyZHNIc2pwS0F6bUhtOEpoOVJNUQ?oc=5",
+   "published_at": "2025-07-29T07:00:00+00:00",
+   "first_seen": "2026-09-29T04:07:31.008036+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niobio"
+   ]
+  },
+  {
    "title": "Excessos da Resolução 208/25 da ANM e a Permissão de Lavra Garimpeira - jota.info",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVnFCMTlTbWoyUEw0VmVDQk1HVTYwSW12Y01qeDNsVnRNTFltOWlxV3ZTMWd3RTRXbENOVkJubFJwSTQ0cTlvNUNsUUxqV0lBNFlUNWw5NXNjTUQtRUViaGxnNVpSN0QzYXBLRmNUN1g2a2tpdG5NUEhKSmVEWXhLM1VMb1U3c193Qk84d0R0T2FRTVdSeWlBdmlXU3hLblZfQWtBQTQ4QjEzZmNsZDlRMXNSNjdma3RU?oc=5",
    "published_at": "2025-07-28T07:00:00+00:00",
@@ -708,6 +723,21 @@
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abb39849d7e408c988922305f5ecdd2&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
+   "published_at": "2025-06-02T00:00:00+00:00",
+   "first_seen": "2026-09-29T04:07:33.085354+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab89686037b4cbb9d163f724403ec19&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-09-27T04:07:35.144000+00:00",
@@ -726,6 +756,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9e839441748a58f2c7baecd1c69ef&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-09-28T04:08:25.826123+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abb39849d7e408c988922305f5ecdd2&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-09-29T04:07:33.082783+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,

@@ -1,6 +1,6 @@
 {
  "mes": "2026-07",
- "materias": 94,
+ "materias": 95,
  "itens": [
   {
    "title": "ANM aprova novas alterações ao regime de Permissão de Lavra Garimpeira - demarest.com.br",
@@ -644,6 +644,21 @@
    "tema": "mineracao",
    "substancias": [
     "ouro"
+   ]
+  },
+  {
+   "title": "CEO da Serra Verde assume USA Rare Earth após acordo de US$ 2,8 bilhões - InvestNews",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbDRPSjhUMHUyNXB6YW1pWXRvbFkwSzhUUEZSc1RUdnZfNV84N3hLdGRja0VmMktjR3kyOU5VOS12aHJjU1QwT2d0b01mdXloUzVNNEdRdU5xaWRaRHFfempNQXNWbkRSMFFFUjNxRjN1Qk1xYUtXSUxSb0d3dW9ibnVHdVlvZ2I5SDk4SHM4emt5R3lfcU9xZm1GWFRuNWRQaHV6aTZoRWXSAa4BQVVfeXFMTlFaRWxacGdYZF9aTjdMTUhyMFkyNFVUYWdyX2pZSWFnZzF1cE1ZemJQT1BQSjlkdWNqSTdBYzBzQVpHRGdNWUpCMGJHSlBoMEE5cEZ1WXdNLUdXOGFYbXhqWkxWZ0JHdFhjQmhKN3RLNVRQa3FmT3NfZ2xGT0JiN0RIcnVqQ3F2UnhOOV9ablBtb2RaMmNlRjMzV3ZRMGlFYjBtZUFkUW9CLUxCT0N3?oc=5",
+   "published_at": "2026-07-20T07:00:00+00:00",
+   "first_seen": "2026-09-29T04:07:32.317159+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
    ]
   },
   {

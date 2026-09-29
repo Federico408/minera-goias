@@ -23,7 +23,7 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-09-28T04:08:30.362318+00:00",
+ "atualizado_em": "2026-09-29T04:07:37.537171+00:00",
  "ultima_execucao": "partial",
  "itens": [
   {
@@ -57,6 +57,19 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab9e839441748a58f2c7baecd1c69ef&url=https%3a%2f%2fwww.dm.com.br%2fdicas%2fda-geracao-de-empregos-a-violencia-contra-a-mulher-estudo-mede-o-que-muda-nos-municipios-com-a-chegada-da-mineracao-estrategica%2f&c=9037657213273103473&mkt=en-us",
    "published_at": "2026-09-25T08:32:00+00:00",
    "first_seen": "2026-09-28T04:08:25.821521+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Da geração de empregos à violência contra a mulher: estudo mede o que muda nos municípios com a chegada da mineração estratégica",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abb39849d7e408c988922305f5ecdd2&url=https%3a%2f%2fwww.dm.com.br%2fdicas%2fda-geracao-de-empregos-a-violencia-contra-a-mulher-estudo-mede-o-que-muda-nos-municipios-com-a-chegada-da-mineracao-estrategica%2f&c=9037657213273103473&mkt=en-us",
+   "published_at": "2026-09-25T08:32:00+00:00",
+   "first_seen": "2026-09-29T04:07:33.080273+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -941,6 +954,21 @@
    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOckp5SFpWdTRaemo0dWJOcFRObWl5U2tzUFpUdDRrZzRkTm9GTXRSQU8yd280NkJJdGVxWmlwWkQtRG1LZm9ESmdkM3JnbUVnNjZwR2RvM0JqUEp4TVpaMGhxTF9RVWx1UjFEYTZJcWlpcjRHZTdVeEIzM0w1RXlFb0QwWVlyc3Q4MG90VVg3ejEzLWVUeTlNU2lfRmhXV1NIQ2JLR3Vmb1BOTEJLWU4zWnMwazFJYk5TNkNLUC1BeUdkVlE2U3pNTDNha2NLR05Pd3BVQ1lROFI5VWRRUjU2a2Mxazc?oc=5",
    "published_at": "2026-08-06T07:00:00+00:00",
    "first_seen": "2026-09-23T04:07:27.113322+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Lei de exploração sustentável de terras raras em Goiás é aprovada - O Popular",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU3J5cFlaUE1DN2RoVE9fRmtnV0xPUEdsUEFfNk5HRlJFTXhTN1lWY0Vsa1FuQUJYSWdncVllMlBaWFFNaHNaOHdJV0RPN1hHWC0tVEFQSGhlTS1ORHA1VnduOG9WNDlKamZ1SU9jUnZBLTc0ZDJPVTZFZS10UWctbFdhMFBQRXpPMmZESEpvZ3htVlRkd2NGYTJvcjNwM0k0eE1LMTJPZnlxU0M5?oc=5",
+   "published_at": "2026-08-05T15:25:10+00:00",
+   "first_seen": "2026-09-29T04:07:30.594437+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -2539,91 +2567,65 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
-  },
-  {
-   "title": "Goiás assina acordo com os EUA para colaboração sobre minerais críticos - Brasil 61",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNenhxakRBVGZYeXl3TWZmcUc2VkplVlhORWJ6aUYxYXgtOEhRS2pyR1dXQnItUU8xS3FuMGxkYlA0NGdBN2J3ZW1CM2hkZ18yTlRLWV83djlPd0c4V2JTV2pyTnlxTDQ2UnhLcHNRdFBZdXZkR0hsTFJpb3g4anpMU1dNajhnS0ZhXy0xcEVuUTM3SG93S0x0dTlNVUppc2l2VnliLVRZLS3SAa4BQVVfeXFMTlZadk9KVUFjVS1GUkxZUFRfYk9YSWYyWVFGNFE0M0loWkhfSEVVY2JaUUFaaU9UN05sZWhxN0lHSXNnMU40U2xiQngybW9XU2s0X19naFVMeE93TU1Ka0w4YlFIQ3EzNzlxaWtKN2RZZERxakQ0allrdFZBaGkwUkxtTF9vd013UDZqX2hKOGZjaFlBSEJ3TlJ3MDhDSFFwU2ZMYmx1SGxSVk9CT1N3?oc=5",
-   "published_at": "2026-03-19T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.158879+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "US in talks with Brazil on critical minerals, US diplomat says at signing of Goias state deal - Mining.com",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTklEM1dFQ1lPVFZoaFNSelZINWkzWTZpTHVJbEMxMFhSMDJjdHQ4aW82NGNzWm9KSElISXUtZGV0akRydUpzbF9uTFpsRkxYOS1mdzhDTnhtZUJzUjV1Q2tMWmVuREtDVGRoZ0VEZjhmLVNLZGFpTDNYODg1TUt1UlVUaHlNLXEtRnhLUUhUQUI0M3c?oc=5",
-   "published_at": "2026-03-18T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:34.022095+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Brazil mining (Reuters)",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
   }
  ],
  "tendencias": [],
- "total": 1880,
- "regionais": 303,
- "setoriais": 1880,
- "regionais_setoriais": 303,
+ "total": 1973,
+ "regionais": 309,
+ "setoriais": 1973,
+ "regionais_setoriais": 309,
  "fontes_vivas": 61,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 607,
-  "ouro": 241,
-  "litio": 190,
-  "cobre": 96,
-  "niquel": 72,
-  "uranio": 33,
-  "niobio": 16,
+  "terras_raras": 630,
+  "ouro": 267,
+  "litio": 196,
+  "cobre": 102,
+  "niquel": 74,
+  "uranio": 36,
+  "niobio": 17,
   "fosfato": 8,
   "energia_eletrica": 3
  },
  "meses": [
   {
    "mes": "2026-09",
-   "materias": 880,
-   "novas": 26,
-   "regionais": 36,
-   "setoriais": 880,
-   "regionais_setoriais": 36
+   "materias": 964,
+   "novas": 84,
+   "regionais": 37,
+   "setoriais": 964,
+   "regionais_setoriais": 37
   },
   {
    "mes": "2026-08",
-   "materias": 216,
-   "novas": 2,
-   "regionais": 32,
-   "setoriais": 216,
-   "regionais_setoriais": 32
+   "materias": 217,
+   "novas": 1,
+   "regionais": 33,
+   "setoriais": 217,
+   "regionais_setoriais": 33
   },
   {
    "mes": "2026-07",
-   "materias": 94,
-   "novas": 0,
+   "materias": 95,
+   "novas": 1,
    "regionais": 15,
-   "setoriais": 94,
+   "setoriais": 95,
    "regionais_setoriais": 15
   },
   {
    "mes": "2026-06",
-   "materias": 71,
-   "novas": 3,
+   "materias": 72,
+   "novas": 1,
    "regionais": 15,
-   "setoriais": 71,
+   "setoriais": 72,
    "regionais_setoriais": 15
   },
   {
    "mes": "2026-05",
-   "materias": 94,
-   "novas": 2,
+   "materias": 95,
+   "novas": 1,
    "regionais": 37,
-   "setoriais": 94,
+   "setoriais": 95,
    "regionais_setoriais": 37
   },
   {
@@ -2637,7 +2639,7 @@
   {
    "mes": "2026-03",
    "materias": 47,
-   "novas": 1,
+   "novas": 0,
    "regionais": 16,
    "setoriais": 47,
    "regionais_setoriais": 16
@@ -2645,7 +2647,7 @@
   {
    "mes": "2026-02",
    "materias": 33,
-   "novas": 1,
+   "novas": 0,
    "regionais": 4,
    "setoriais": 33,
    "regionais_setoriais": 4
@@ -2660,11 +2662,11 @@
   },
   {
    "mes": "2025-12",
-   "materias": 35,
-   "novas": 3,
-   "regionais": 23,
-   "setoriais": 35,
-   "regionais_setoriais": 23
+   "materias": 37,
+   "novas": 2,
+   "regionais": 25,
+   "setoriais": 37,
+   "regionais_setoriais": 25
   },
   {
    "mes": "2025-11",
@@ -2684,14 +2686,14 @@
   },
   {
    "mes": "anteriores",
-   "materias": 264,
+   "materias": 267,
    "novas": 3,
-   "regionais": 73,
-   "setoriais": 264,
-   "regionais_setoriais": 73
+   "regionais": 75,
+   "setoriais": 267,
+   "regionais_setoriais": 75
   }
  ],
- "descartadas": 3134,
+ "descartadas": 3479,
  "veiculos": 46,
  "coleta_desde": "2026-09",
  "janela": "2025-10"
