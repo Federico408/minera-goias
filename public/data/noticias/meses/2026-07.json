@@ -1,6 +1,6 @@
 {
  "mes": "2026-07",
- "materias": 95,
+ "materias": 97,
  "itens": [
   {
    "title": "ANM aprova novas alterações ao regime de Permissão de Lavra Garimpeira - demarest.com.br",
@@ -955,6 +955,21 @@
    "substancias": []
   },
   {
+   "title": "Lithium Ionic avança para construção de portais de minas subterrâneas do projeto Bandeira - Revista O Empreiteiro",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zSXZXQjlacHB1NWRiSnRSM19LQzNkMWhVUmp0UFJhN28yRjJLTGV6Rkw0UDVKRTFYVTIxMlBna3N2MGlyV1NCNkt6c1BDNXlhQTI3ZTJfaWNpTXdqQXRadmVySFotaVB0UnozejJRNzBJeTRLSVJnWDdoSzk2SGc?oc=5",
+   "published_at": "2026-07-10T07:00:00+00:00",
+   "first_seen": "2026-09-30T04:08:45.049071+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Dano ambiental em Catalão leva mineradora a fazer acordo milionário - Mais Goiás",
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSldVaDI4S0tmbkFoaXp5UUZ2WUJuNlZOM1Q2RGJEbkJ6RW9ERXk5VjAwV3p2QjkyODF6Ni0wZk0wbEJxdlZueFhKMWJHQlU0RHRlUnU2RVdmM2ZKaHAzZU5LdUNoWlNxc0pTX2JCOU1vRWljaGpyemx2SG1pUU1UbWpkeXdEd2JLTWd2SGRoRnBRZjdKR3JpcDZTb25YUllJWnFEVUZkN0hoSFladUJ1ZFdGend1YVpmd0FxNVlONkdXeU9ZaVdIdTRTWkZTNGw1dkdV?oc=5",
    "published_at": "2026-07-09T07:00:00+00:00",
@@ -1330,6 +1345,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Can Brazil become a key rare earth supplier for the West? - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY19MZUluRVNQSXZPdTBMeWhTNzdWYWN6SGVPS05DLWE3S0hBZF8zaEN5aGZjM2VjTkJaX1B4UjhrLXZaa2dIWjR3eEZfc09XWWNNYm9YTVVhbDFXNnA0NE9mV3BQN1FYbG9xTjRGTXJDTE56ckRmTDFMdWp0YUR6XzhvZnBreXRPSFdVWUZn?oc=5",
+   "published_at": "2026-07-01T07:00:00+00:00",
+   "first_seen": "2026-09-30T04:08:47.189887+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   }
  ]
 }

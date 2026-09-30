@@ -1,6 +1,6 @@
 {
  "mes": "2026-04",
- "materias": 93,
+ "materias": 94,
  "itens": [
   {
    "title": "ANM nega recurso de Abdalla; direito minerário fica com LHG, dos irmãos Batista - Agência iNFRA",
@@ -19,7 +19,7 @@
    "title": "Serra Verde e USA Rare Earth: Entenda o Que Está em Jogo na Operação de Terras Raras - Forbes Brasil",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQb0tVYUJnUDZfQnQtbnJsSGtzM2RJb29lMElxWDc4bDFveGV2d055eUJTbkc0N3YwdENFRlJ4enFScm5JNWFldjVXZXZqdHMzeGZPRG1iQTIwUUNRZy13ckVKNlY0MXlFU0hPX09UTnFIVlpERGVJVEVYVW1TdzY4dTBCUzZsWHBUR3ZnZ0o1ZjVoeUJBX0xJSldpcEJVaWxPTVVmNzdGRWpVSVdoZ3hsbUxhRGw3ZEVwQVRYbWVESXRXTFBpSmc?oc=5",
    "published_at": "2026-04-30T07:00:00+00:00",
-   "first_seen": "2026-09-22T04:02:36.440085+00:00",
+   "first_seen": "2026-09-30T04:08:42.718046+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -80,7 +80,7 @@
    "title": "Terras raras: Nunes Marques relata ação contra venda da Serra Verde - Agência iNFRA",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQV0dOb0tvcVV5UW5val9BbWhNcm9uSTd0X2llMUdHNUtyRWxycERwaHNwTEtmUG1WSkZqWUJlRG81MmRNb2pNME5TelpVeWVNTXRfVVNuckliZ0J5OHRDU1ViRjV6U2RiYmV0NlFhbTFvMWR6T3NrR2lhenNLOGs4R0x1SS1yc3N1RDRvNHE0NVpncWdPTXk5UHR6dkV2Zw?oc=5",
    "published_at": "2026-04-28T07:00:00+00:00",
-   "first_seen": "2026-09-22T04:02:36.442933+00:00",
+   "first_seen": "2026-09-30T04:08:42.724096+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -318,6 +318,21 @@
    "setorial": 1,
    "fonte": "Busca · lítio no Brasil",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Rede vai ao STF para suspender venda de mineradora brasileira de terras-raras aos EUA - O GLOBO",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONVhrRi1zeUIxMjlXX1h6OTRWdzhaTWMwbjU0WkFKTE9CbURmSHJPeEExNWN6MnFMVk5UU2pXa2IwUjltMGRSZkpJZmlJTjdsOVgtd2Q1OTJIU1FFRnVWTUduVlBxWlV3bHNlNmlZZXZmX3R2TTB1dnB3SnpoS3NCQUZ4SGZzcmNhbXp2RllDdUFiLUxaMXlvZkhBcjVpb2NVWHJxTXNlbU1jU0tkRkNtTGc0V296ZTRYOWE3YkZrSEljbzYxUDFYaDBNYnlyRlpNeHNmSnZ6ampkSUxl0gHrAUFVX3lxTE1VeWlhSjlFZlBudFM1aF9zNW1WYVV3VVMzelZjVkdSNE03cW5naVo5VlBzTTd4dVg5LVVGYURxODZYYnh1Vm9Wb19LeFh4c3E5REVqR2Mwby1qZ3FSU3VON2oxeW40dFk0cDVWTDd2eTJDazdPQ1hEWENfSVE0Yng4NDZndEFxN1NIcUw1TWE1bTVBMzZ1bGtCT0pVRE1CcnNKbHlKNGlCSjU0c1U0bEVkOXRyN0g0SjhndnNNQnd1SGROMjNqYldxSEtSMmhkQUc4T2pfRmQ5MXNZU3lvWHdZemR6a3JXdWk4Z2s?oc=5",
+   "published_at": "2026-04-25T07:00:00+00:00",
+   "first_seen": "2026-09-30T04:08:42.720212+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
@@ -606,7 +621,7 @@
    "title": "Deputados do PSOL acionam a PGR contra venda de mineradora de terras raras em Goiás e pedem investigação sobre Caiado - G1",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWUpPQUVpUU9QYTZpdllIWWx4V0dJXzcteFdWTk1BY1lCR2JNUlU4d1FfOG5VQVJkaExTaEpjS1A4c0NOSVdWazVCZ3QyODJrMU44OG5xd21HZEpIcndOeDV6RmNMNm5mcXlyUnl6SWlBLXVHQURGZlNTbm5aX1JFeEt2cmFYQ1ByV1FBUE1yb3hrOE80UTdGcVQ2NkjSAasBQVVfeXFMT3dVUHRMSXE1RlViOTRYUmp6SFFsMFVjR1hVWDJSY0ZnVlY4WnA1dThXblNtMHRabGxUSG5lUERGZS03RkpFQjgtZ3ZGMmFtcXkxczBQbVFDbEQyQkd6bzBvem81WnQ0bmVjenR6Wnpfajk2d1Zhd3BhS2kzSmIwcXp0QzUxS1V3Z1ptZHl2R19heXhuc1JUdXZqU3RfN0FOZU1Wd3ZleTVneU1n?oc=5",
    "published_at": "2026-04-23T07:00:00+00:00",
-   "first_seen": "2026-09-22T04:02:36.446997+00:00",
+   "first_seen": "2026-09-30T04:08:42.724965+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -937,7 +952,7 @@
    "title": "Compra bilionária no Brasil acelera corrida global por terras raras - Capital Aberto",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNDR0SVNlUlRVZlNLbVdZTEp2OUtYb0UxNHR4bHFEaG8xR2RuZ0pIeXV6dS1HcnF1UndBRFlUZFNuMEd5TDYyYVd1QlVOTTlwTGxsanVScTl1Q1hvb3VjbVpkOXJpbWFaUzlyMWtjdy1PVVFNRWNIcmx0bHFoZkxXUEdyc21EXzFYbDEzalZQZGVKWkJyUHJsVndreEc2Z28?oc=5",
    "published_at": "2026-04-20T07:00:00+00:00",
-   "first_seen": "2026-09-22T04:02:36.442077+00:00",
+   "first_seen": "2026-09-30T04:08:42.722345+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -952,7 +967,7 @@
    "title": "Compra da Serra Verde pela USA Rare Earth trará investimentos, diz CEO - CNN Brasil",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZFRjcHRnYmJJXzdyRXNPZXhNcDhUUk9qRUt3WVFmTDkyM29aQklzZVY4b3VVZXVyY0d3R3I3Yl9YQmEtejBYeFhqaFE3MUVjSzdFaXQtUG55Q3g4WjJpRzBQcHlkaHRwaUZmY3U0RXA1Y3lyQXJVeXZnVlM0Tzh4T0FWX09SVGUyczJNdkQ0aXpUeUJNeUVPYmV5elJwQ2psLTVoNk9Gd2xMcU5XY2pVNGFrUGFTUTRINnpZSHZUMFM?oc=5",
    "published_at": "2026-04-20T07:00:00+00:00",
-   "first_seen": "2026-09-22T04:02:36.450877+00:00",
+   "first_seen": "2026-09-30T04:08:42.726593+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
