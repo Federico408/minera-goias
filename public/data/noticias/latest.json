@@ -23,7 +23,7 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-09-30T04:08:49.369398+00:00",
+ "atualizado_em": "2026-10-01T04:09:08.955460+00:00",
  "ultima_execucao": "partial",
  "itens": [
   {
@@ -1382,7 +1382,7 @@
    "title": "Terras raras: governo publica decreto com marco regulatório para impulsionar produção em Goiás - G1",
    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSVNfbGh5UnA4WWpFWndFVFVla0NUUS1RVDgtTEZwQWtYU3RnZ3ZINFpYUm5OSU5ZQjdfZnNFeFIzc1ZSS0hNYkZlLTZfd1NrcDU5Yzd6blpRTkppS0pHT1dIYk1pZnBkYUszVWJvaTNLNmFGUmwydFgtSlFFQWtuUGRjRXIxQlB3VDJHMTczNGVhYzVNc3k5bldoenVMSEZUcnFzVE9kZWNSdTFTRjM5cUpCTFhpbG11c1hPdmpDMHpoOGZ3dEtuUlJoWnJWN3hQQlp4b0NKcG5xLVpWbXVvVzBB0gHwAUFVX3lxTE1oUUtqQzJhZXRwbmFiM2RFX2JUZl81VlF5ZGFXdElPLXl3U3F2TkQ2LUtCbXMzTFIxYkM5RXB5WF84aC1NUjR6ZjVBbm15MEpNNzBBaEZiQnVua2pLWDI2aXd4azNMUmVuTzBqTFdNT004YXpuT09yOEhzancwaXNaU2t3OTdDTGtpMkk4ekx3MGpSRTZmWEUyN2xtcC15NWV2akotb3d5SDVEWUJpanNvbVQ4M01KQktwTFV2SzdQSDI0MWxXNW1LajFrLUx5QkZjVFA1RGNfLWJrNDV2SjFQR2J2dVl5R3lQVXc5QlNldQ?oc=5",
    "published_at": "2026-06-11T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:42.942476+00:00",
+   "first_seen": "2026-10-01T04:09:01.072948+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -2136,7 +2136,7 @@
    "title": "Mina de terras raras vendida a empresa dos EUA por US$ 2,8 bilhões em Goiás: o que muda na prática? - Agua Boa News",
    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5DeEloenlsbm1ESWdGWVIwODJQd1J3eWM0Z0RXN1hFenFMdFNvZ3daVmtRYVJWSXI2cEJwSEFUeW9UcUVlUFhXWHlrWXFTUXMxaVFjUHhfbnhrQzZ0OW0wb1dhSF9IZHlCY0E4?oc=5",
    "published_at": "2026-04-25T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.282544+00:00",
+   "first_seen": "2026-10-01T04:09:01.073526+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -2572,46 +2572,54 @@
   }
  ],
  "tendencias": [],
- "total": 2076,
+ "total": 2173,
  "regionais": 318,
- "setoriais": 2076,
+ "setoriais": 2173,
  "regionais_setoriais": 318,
- "fontes_vivas": 62,
+ "fontes_vivas": 60,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 656,
-  "ouro": 289,
-  "litio": 202,
-  "cobre": 110,
-  "niquel": 75,
-  "uranio": 36,
+  "terras_raras": 689,
+  "ouro": 305,
+  "litio": 211,
+  "cobre": 123,
+  "niquel": 76,
+  "uranio": 37,
   "niobio": 17,
-  "fosfato": 8,
-  "energia_eletrica": 4
+  "fosfato": 9,
+  "energia_eletrica": 5
  },
  "meses": [
   {
+   "mes": "2026-10",
+   "materias": 18,
+   "novas": 18,
+   "regionais": 0,
+   "setoriais": 18,
+   "regionais_setoriais": 0
+  },
+  {
    "mes": "2026-09",
-   "materias": 1047,
-   "novas": 83,
+   "materias": 1118,
+   "novas": 71,
    "regionais": 38,
-   "setoriais": 1047,
+   "setoriais": 1118,
    "regionais_setoriais": 38
   },
   {
    "mes": "2026-08",
-   "materias": 226,
-   "novas": 9,
+   "materias": 229,
+   "novas": 3,
    "regionais": 35,
-   "setoriais": 226,
+   "setoriais": 229,
    "regionais_setoriais": 35
   },
   {
    "mes": "2026-07",
-   "materias": 97,
+   "materias": 99,
    "novas": 2,
    "regionais": 15,
-   "setoriais": 97,
+   "setoriais": 99,
    "regionais_setoriais": 15
   },
   {
@@ -2624,16 +2632,16 @@
   },
   {
    "mes": "2026-05",
-   "materias": 98,
-   "novas": 3,
+   "materias": 99,
+   "novas": 1,
    "regionais": 38,
-   "setoriais": 98,
+   "setoriais": 99,
    "regionais_setoriais": 38
   },
   {
    "mes": "2026-04",
    "materias": 94,
-   "novas": 1,
+   "novas": 0,
    "regionais": 41,
    "setoriais": 94,
    "regionais_setoriais": 41
@@ -2665,7 +2673,7 @@
   {
    "mes": "2025-12",
    "materias": 40,
-   "novas": 3,
+   "novas": 0,
    "regionais": 28,
    "setoriais": 40,
    "regionais_setoriais": 28
@@ -2679,24 +2687,16 @@
    "regionais_setoriais": 8
   },
   {
-   "mes": "2025-10",
-   "materias": 14,
-   "novas": 0,
-   "regionais": 2,
-   "setoriais": 14,
-   "regionais_setoriais": 2
-  },
-  {
    "mes": "anteriores",
-   "materias": 269,
+   "materias": 285,
    "novas": 2,
-   "regionais": 77,
-   "setoriais": 269,
-   "regionais_setoriais": 77
+   "regionais": 79,
+   "setoriais": 285,
+   "regionais_setoriais": 79
   }
  ],
- "descartadas": 3862,
- "veiculos": 46,
+ "descartadas": 4233,
+ "veiculos": 47,
  "coleta_desde": "2026-09",
- "janela": "2025-10"
+ "janela": "2025-11"
 }

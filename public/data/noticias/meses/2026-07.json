@@ -1,6 +1,6 @@
 {
  "mes": "2026-07",
- "materias": 97,
+ "materias": 99,
  "itens": [
   {
    "title": "ANM aprova novas alterações ao regime de Permissão de Lavra Garimpeira - demarest.com.br",
@@ -234,6 +234,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "ESPODUMÊNIO | Preços do concentrado de lítio quadriplicaram no início de 2026 - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZDlycXhCZk81YTc5dUNqbTU2bTBjNElTOGVVRkI0b2U3WHB2emwxUFMtUjl0VGtXS01WOFl5bGlKZFB2RGJXWmZ5ell4Q1U2X21LYVVFX3ZkTDl5TnBFR0ptZlVQWlplcTVWUElrX1loUncxODNUMk4tTDlwX1BzZUQweS1ETGhILUNPRGpkVVRqaF8xUndfeVpsUEdObXIyZFc0?oc=5",
+   "published_at": "2026-07-27T07:00:00+00:00",
+   "first_seen": "2026-10-01T04:09:05.004489+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "CFEM não é tributo, é compensação - Capital do Pantanal",
@@ -884,6 +899,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Governo federal publica mapa de terras raras em São Paulo, mas ignora quilombo - reporterbrasil.org.br",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbnJ2WVcybENueHVSZDA5UU5WTGVGQWhEYU03Z2NqeDlFWUdxYU9sTDZOSjBTaVU1dzgzaHZSdHZ5RDhQQjV5dXM5SUhvV1dVNXM0NEV0ZTNMLVNiUHRiM2tGVjNqb3lIWkhlQWRCOVRaSEw2WENGSzJOaTlSaUxXc1FWTGltdnY3dmJGMU9NYlVBdm1xaU1DYzRrWC1sSTQ?oc=5",
+   "published_at": "2026-07-14T07:00:00+00:00",
+   "first_seen": "2026-10-01T04:09:04.518066+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Sigma Lithium supera projeção e produz 35 mil toneladas de concentrado de lítio no 2° trimestre - Estadão Blue Studio",

@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 226,
+ "materias": 229,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -2193,7 +2193,7 @@
    "title": "Takeaways from a story on the US, Australia and others turning to Brazil for rare earth minerals - Fox 59",
    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM3pQNklma2FLd2hvc19KcElWTy1Hb2pUYThZVlptcS1acTZCLWNRcWhrSjJjeE1meFVETzRzeDU5ZzRmSVFVUXJRc3RjMU5zZzJSNEJ0cmlUSENRbXFiZ09haDJhWklHcEtFTUtxU1R3d0N0dVF0Y0s2amxPdnVJNS02dDduN2c4djdsY0ZvZXpTRDEwSUdRc1J3MGZyUUl6VEVlRDhfdXlzLTRMUUQ2dnVuYW5UX200VHpCMjR0S1BpWWpmVi1zaDZmSjBsWXNFMnBkV0FrQVLSAd4BQVVfeXFMT2o2cXdpcnV4LVdqaEpFcmZqSnpCLV9aMU1WeldIdllhdnhJOWtxMlF2TW1ndEhmYkhjdm8xRU1fZmhVN0RaLU8ybE5kcVIxV3pHY0dZWktzc0g2bDNWMTZvNklEWk9nbk5ZanNHREpHc2RMcFNzbXdZdUtIYUJXa3BWQ3pTU2ZaTnEzLUozSmdHRHVqbUFRcXhsWUFUclIwNkhMVTZfV1ZQQ2NaVEk4Rmc2R2xnbmNqblpHWHJib0JsQ1B5bDZzUDhvbTdVc2hNZU9raUpLdkF5WGZsSVBR?oc=5",
    "published_at": "2026-08-20T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.965405+00:00",
+   "first_seen": "2026-10-01T04:09:06.917263+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -2272,6 +2272,21 @@
    "setorial": 1,
    "fonte": "Busca · terras raras",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Takeaways from a story on the US, Australia and others turning to Brazil for rare earth minerals - Audacy",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYjFLcnZQaHpnZ0RiaDdOTmtDVjdZZE1UV2p2Vk9yTDI2TWx1VGhNdzRVSjM5V1c0U21zNkpnT0J4azZEM3JWcmcxTFhUT3dfYWJNNEFQek83Nndtd1FiQmJ0S2pMM3dzcGU0clByYXdHTVR3MS1WNHBzdWxtQTBsd0loSERUenBXUXNkLXNBS3VQeVJhLVZMNWZYdVB5U2FXRnQ0NmpHME41aV9vbEtVN2ROd0tWYjV3Ym41dV82OTdoTkU?oc=5",
+   "published_at": "2026-08-20T07:00:00+00:00",
+   "first_seen": "2026-10-01T04:09:06.917918+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
@@ -2595,6 +2610,21 @@
    ]
   },
   {
+   "title": "Mineração em terras raras gera medo e desconfiança entre moradores de Poços de Caldas - Portal da Assembleia Legislativa de Minas Gerais",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcWZxUzZGVWRCdXBpQ1RhcmlpS0podk5qQllWSkpEdEpQeUpUWnRvNkxDNGRjSTFfZkZMRDNTN3ZFUndyaHhiWUhscDViRE1mazFHa000WHVzTXQwMTdDVi03QWZfZHpJU0hZR1pKbzR3RGF1NXlKNVNocDV4VkNVbHUzSGFvbDdpNUhXLUNSMGNUZ1NTZ01WS3lnTEViNWdsNnp2S2o3N1lPWloxRldZbV9qeHlIekdPdW1EaXhOMExMX1daUG1jQjVDS3BIdXVGR291aExEVQ?oc=5",
+   "published_at": "2026-08-13T07:00:00+00:00",
+   "first_seen": "2026-10-01T04:09:04.517447+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnWm54TWxERXczSzA0bFJ1TWVfSUFleE9HWVZiRmY2VjlYb1BBOW43dDR6bC1LZjVkZ1JGTkRVb1VwcE9NWlZKZC1jUXEzNDA5d0FLVlZmdjhNZWZEakZRZXBMaEVMN1A5N2pxVXNLT0s?oc=5",
    "published_at": "2026-08-12T14:00:38+00:00",
@@ -2661,6 +2691,19 @@
    "regiao_termo": null,
    "setorial": 1,
    "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Nova regra da ANM eleva rigor sobre guia de utilização - Capital Aberto",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQU1lBU3Z1MTRTWk5ZVkF2dWRnWGxGdU9jWGdzTlRYU3NFbHFOTHVFc0MteUlvekU3Z0lIckViZWxHSFB1VmdaNlBJaFJaSkY0SE9wVDA0MlJ4TXhfWEo4OF9iQ2dENXNraV9PVmRvdm8tYnpOMUxQbENYOVN1R3d0UlBfeGZuRjM3MEJSWnhXWkxwMlBNcy05UE02T1RTVzNmVU4xbi1BaTlSdkFIeHNRLTg2eTRBTkpaY3lVN1VvdGZxR2NZMlNMYlYwV2tNZFk?oc=5",
+   "published_at": "2026-08-12T07:00:00+00:00",
+   "first_seen": "2026-10-01T04:09:05.954511+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
