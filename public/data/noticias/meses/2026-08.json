@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 229,
+ "materias": 231,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -1248,6 +1248,21 @@
    ]
   },
   {
+   "title": "Governo é contra a exploração de terras raras em Goiás por empresa americana e avalia como rever negócio - G1",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPR25Vb0RMUEh2SHJVMVNNblZBMDdWZjJsZUFMV1Z4RDh4azJPT0JuRFRxV3o5S20zaDU0ZDZla2FWSEpoNGc3R2xmNUxvSlJIRm1Ialg4Nm81enBadmNVU0F0NV95TUQtSGhZOHREMEZXUHVkdGF4U2pjYzl4VU9DdS1LV1k4SG4zTVEtandDY2c0V3Qwd3ZfeERCTE9HbVhNMEIwOVZLVjdzTzdZamthQzNjMTNJckU0WVhMZ0gwZ1hHZTV6TzFDdE1Gd08xMElaTDJ0cldHZlBBeWR2UlZaQldUNm9pSzZ5aGwtc2lqbTk?oc=5",
+   "published_at": "2026-08-26T07:00:00+00:00",
+   "first_seen": "2026-10-02T04:08:39.213365+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Atomic Eagle claws back Niger uranium project",
    "link": "https://www.mining.com/atomic-eagle-claws-back-niger-uranium-project/",
    "published_at": "2026-08-25T22:38:00+00:00",
@@ -1278,21 +1293,6 @@
    ]
   },
   {
-   "title": "Empresa americana compra mineradora brasileira de terras raras com financiamento do Pentágono - TVT News",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MOUlZYmVsWk90bTRfT2QtYkR3UDNkLUlwRmNvZHM3RTlCZWc3SFVHSXhvWkthbi1PQW44LXhsalJfZ1AteUE0M2JIZnhrT3RfdlpHVHRZMTZoVWZIcVNRVGs0QVV3clBueEt0UWN1WVFTS3FRNU1oNUx2c3d6bEE?oc=5",
-   "published_at": "2026-08-25T15:49:50+00:00",
-   "first_seen": "2026-09-19T19:49:01.765224+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 1,
-   "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
    "title": "Sinomine secures additional Zimbabwe lithium export quota",
    "link": "https://www.mining.com/web/sinomine-secures-additional-zimbabwe-lithium-export-quota/",
    "published_at": "2026-08-25T14:05:12+00:00",
@@ -1305,6 +1305,21 @@
    "tema": "mineracao",
    "substancias": [
     "litio"
+   ]
+  },
+  {
+   "title": "Empresa americana compra mineradora brasileira de terras raras com financiamento do Pentágono - TVT News",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MOUlZYmVsWk90bTRfT2QtYkR3UDNkLUlwRmNvZHM3RTlCZWc3SFVHSXhvWkthbi1PQW44LXhsalJfZ1AteUE0M2JIZnhrT3RfdlpHVHRZMTZoVWZIcVNRVGs0QVV3clBueEt0UWN1WVFTS3FRNU1oNUx2c3d6bEE?oc=5",
+   "published_at": "2026-08-25T07:00:00+00:00",
+   "first_seen": "2026-10-02T04:08:39.213996+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
    ]
   },
   {
@@ -2539,6 +2554,19 @@
    "substancias": []
   },
   {
+   "title": "Vale contesta cobrança de R$ 17,7 bi sobre revenda de minério no exterior - Agência iNFRA",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWm1RaG5ORmZwNzA5NHNLYl9oY1hBelZBb2pycEFYNEdEajlUTkRfVVozWlJ4cC1fMVE1Tl8ta2ktcU93YjZwX1l6c2ZUbTFQcGF2cGJVQzJXUE5HeVRGLXpTckd2R3ctQVpKZFhBWEU3VEFhTXM4c3ozMmJCeVI4enRQOTFQOVZua1FqamZWMEFPc0llcUNwZGc2V18wSTUwS2VNQg?oc=5",
+   "published_at": "2026-08-15T07:00:00+00:00",
+   "first_seen": "2026-10-02T04:08:41.468165+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQzEtYXVsX2p1UWt1VmhXYjJ4eXBBRUtURnJfZVNHN1BHeWp0a0RaZGhaU1Z4eDlJUDhTVDRib3dRTFVYR0RNTldqd2l4TndCTXRWcGZKZ3RWaHd0ODh3dC1acEk1TzlxMWJxLVAyeUhXdjE1T3o5RW5jMDMzU0lvRjFCRDVfbjl2aVdUOW9ZTkM4UQ?oc=5",
    "published_at": "2026-08-14T22:12:20+00:00",
@@ -2598,7 +2626,7 @@
    "title": "Lithium Ionic vende propriedades de lítio em Salinas para a PLS por US$ 37,5 milhões - Diário do Comércio",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9hTXZVbklzVFVsWDAyNUVYSVJJR09La1VraU9xX1ZhcEV6MUJYclMxNG9XVEdhVnhaR29meGxFRGNELVI1akV5RXA0QUx5V0F5WXVhaENYbG1RWWRfclBMWEZlcDllb3hGRHJRWXI2MnY2UW1rSEprcw?oc=5",
    "published_at": "2026-08-13T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.262595+00:00",
+   "first_seen": "2026-10-02T04:08:40.991289+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

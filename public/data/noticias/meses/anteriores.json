@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 285,
+ "materias": 289,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - diariodocomercio.com.br",
@@ -804,6 +804,21 @@
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf2e47aa114e6183356dd4d3e39449&url=https%3a%2f%2fwww.thestar.com%2fglobenewswire%2faura-minerals-agrees-to-acquire-the-minera-o-serra-grande-gold-mine-in-goi-s%2farticle_05149c3e-5765-56ae-a3c2-60f6ddc416cb.html&c=15653285175594871912&mkt=en-us",
+   "published_at": "2025-06-02T04:01:00+00:00",
+   "first_seen": "2026-10-02T04:08:40.062425+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
    "published_at": "2025-06-02T00:00:00+00:00",
    "first_seen": "2026-09-19T19:49:02.791309+00:00",
@@ -998,6 +1013,21 @@
    ]
   },
   {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf2e47aa114e6183356dd4d3e39449&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-02T04:08:40.059645+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
    "title": "Projeto Santa Anna atrai capital estrangeiro e projeta Goiás como nova fronteira em minerais críticos - Estadão Blue Studio",
    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQZXFoc3JnOVVqdy12V1RzeElQd3BfeE8ycXNwWmZRRGt3VzdkU24yX2VVTFE3SzF2U2VKbVplQV9TQUZVWUhOU0xNNUhuQ3JjdEJYbjJIcmlwamRHTVJHbGxNNlZIZDZtblp6emZIYVhGTGNfWjh0SE5TNFNoTGhrakwyVUFCUTE2SFFHV3VuNC03TE1LcEZVVDZvYnBLcVJVN0FwdngtTlpQN0JhNmNmQXc2OURLa0M4cTJ3ZGFhckl0cEUzNjlQS2VudlBiTTF5OV8zdERmRkp0RWQyWDRhWEY2N0g3UU1GNXMtWXFRUkxCUC1yNkd0c2xXTzZkOU1oT18tNWZ3SUpqNDA2enc?oc=5",
    "published_at": "2025-05-26T14:37:42+00:00",
@@ -1056,7 +1086,7 @@
    "title": "Petrobras approves tender to restart fertilizer plants in Brazil's northeast, say sources - Reuters",
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOckhsM0FJRjhMYmlqWVhkY3RWYTY3MWtKeGFrV1ZhcHk0RV81QVpHNTMyNENmbHNEdWJweEtZNktqSHhWcFdSZjE0dEN4NThLeXJqY2NkbWJUVnFLUGVuMUMtWEE1dWMxS09ucWRXX3NCM25HOENlLXljX2R3cXRtNzcyMml3bU1uTzlIV1ExVXc2cnJ6TUVxY0ZQbkRiMW9XbGR5OXhLeExVUmZja0YyUWp6R0dMSUMwQXVZZWVSVzlJQnBBeGgxaQ?oc=5",
    "published_at": "2025-04-18T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:07.600346+00:00",
+   "first_seen": "2026-10-02T04:08:43.030424+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1949,7 +1979,7 @@
    "title": "Brazil's Vale says its Sossego copper mine operating license has been suspended - Reuters",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSjI0OUhMaV9GUE53c013Y2RoTnF3S2hmWDVwUzktTjRBV3l2TTBHMzFPa3JBN1JUU2tudmg4cUhTOHZaMFBtOXlTRVJiM3Joa3Vnd3BvODRTTVc4ZHhOczJUdWswTVdVV0lhLUwtcTIxYm5DdXBVenBSN2tIUXpqa2hJTENGWVBVcXpDaTJ4bWxwLVFzR0wtckg2bnBsTnhheHIzS3dEdlhPWEtBVDhZUU4zVGd2bXBqaE4ycTBtdjh0bnRib1E?oc=5",
    "published_at": "2024-02-21T08:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:48.699743+00:00",
+   "first_seen": "2026-10-02T04:08:43.029238+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -2345,6 +2375,21 @@
    ]
   },
   {
+   "title": "Unidade de mineração de níquel em Niquelândia-GO é vendida para empresa europeia por R$ 20 milhões - blogantoniocarlos.com.br",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ0RqTHAtZTRsZGo3TVZEMVoxdzFtRmhqWEg3OUFQRXhDVXZxckVWTVlLQ1ExaERNS19XZkdNRjhYbUdFUGVKN2dQRTU5a081Z1BTRXVqQ1dLcGdDUFpZeExINmFtbTVhdEQ2dDIteTdGN2hlQ3dWMHlCaDFpRlBoT0x3QVRDYVZIWGJoY3BvT29iOGV1b0pTa1NOU2RMYktxOG5IR2dKQlllaXRIa1pOZllTTDBLVkVnQ2RxelBtODRXdEhBZ1lyYWZ5WQ?oc=5",
+   "published_at": "2023-04-13T07:00:00+00:00",
+   "first_seen": "2026-10-02T04:08:37.758393+00:00",
+   "regional": 1,
+   "regiao_termo": "niquelandia",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
    "title": "METABASE E MINERADORA CMOC AFIRMAM SEGURANÇA DE BARRAGEM APÓS TRANSBORDAMENTO DURANTE FORTE CHUVA EM CATALÃO - Blog do Badiinho",
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPb1k0eXJFLTM2aHh3eDZlY01adzBuN0g5YmRXOFFOazFDaG00T3VVdEhNUHBSc0x3Q191U0NEUVMxblVLNV91TWk1czl4RGpFWDVmTUpybzhLeGxxN3BRbS1LT1gtYXUxZzdMWkR0S05BNU1ydHVqZzV1ZE9OZUJKWE9iUmRzQkJRVFZNVU1qSUxhRmpBM2ltam55SGxCZVhUcWd3bGdfLUk3ckxyVXJHSkstQTN0UWs1czgwcTc2ZVk4Ty04WmJTNlJ5Tm1IYnhEa0t30gHYAUFVX3lxTFBmRGxLM3NNcnc0RGV0ajRkR2I3QUNTZE83UWNpOUVmWWVTaFpkOGp3WjZReHNzWmJ1MWNzNUt4dEJ1VC1EaGFwLTNBRVMwaE5EQ3NOZ0x2d24yY1ZBRXZiVlUzSDdsbFA2VUgzdnRKeUVuUlpCbE13T0NuT2xVTV9feVVvTVh3X0VZWlU2OWlTQm1lcldSUFZqU1BMUjlqbGNXTUdzbndRYmxvQzR6MnVaYVNucE5EYVZGWUFmUzFURzBqWHRsc0hMSUhyRmxteDVkbjdvbVNjSg?oc=5",
    "published_at": "2023-04-09T07:00:00+00:00",
@@ -2689,6 +2734,19 @@
    "setorial": 1,
    "fonte": "Busca · ANM (site oficial)",
    "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Brazil's Petrobras puts potash mining rights up for sale - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOVN3bm9rSl8wbXdGNzBFR2JpemJZSndPOEpkN01GaXZEZDBTZjRNeXJUVmdETE5JbUlUcnN6YjBVOHJZeW83OWlYSWhUcFNVcnp2WkFMbzNZbHB4U3pDRHRRTVpFNFdUb1hNRGhkMTB0M2x4T09mWlVlN0tULUJoRTRmbDQxbXNMRThveFctX1daeF9zV0JJbzFlVkQ0S2pKcG1pYWhLNWxwUQ?oc=5",
+   "published_at": "2022-08-11T07:00:00+00:00",
+   "first_seen": "2026-10-02T04:08:43.031349+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -3102,7 +3160,7 @@
    "title": "Estagiários — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObF8yUWROOWR2bFNLdUFydzFlblVuTk52di1JblpmTWxDb0NhaXNqaDRPLVVsOTh2VXRHcjlxT1FHMXc5YmNRTWNpNWtwaHd0cXV3YWQzbGw5aV9JeVhpSTdqOEYxTW9oT1FuY0F6bVdCSnQwbDg1WUxVaG95Q0h2akd5dkJnUHJrRTJyNzk3bHdraUh2M05XeS1ldFQ2d2VkbzV5UHhITmI2RkRV?oc=5",
    "published_at": "2021-08-02T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:52.321703+00:00",
+   "first_seen": "2026-10-02T04:08:42.178412+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

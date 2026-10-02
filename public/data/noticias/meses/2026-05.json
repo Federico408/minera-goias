@@ -1,6 +1,6 @@
 {
  "mes": "2026-05",
- "materias": 99,
+ "materias": 102,
  "itens": [
   {
    "title": "Illegal miners extract billions in Amazon gold despite Brazil crackdown, Greenpeace finds - Reuters",
@@ -154,6 +154,21 @@
    "escopo": "setorial",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "OURO | Pilar Gold avança com planos para reativar operações em Goiás - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUGp2UWNoZWxsMFA0UU9wdXQzeXlVdlhEaEJRUERUUllKa2VRYUlxbUZBME43WlNxbTZCRFZyN25nSENyaXRXMFU5Y2stTEQ2RTZCeDJxSE93ZXVUTkJZQTdLYm5tRWF6MEJTN1c3cFpsUnlNQnJqd25xR3BoRXcwWFlIbGV2WVkxVlNVZXpEbU9ZOHc2Y1c1ZWFKQ0Ntb1hQ?oc=5",
+   "published_at": "2026-05-25T07:00:00+00:00",
+   "first_seen": "2026-10-02T04:08:37.339371+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
   },
   {
    "title": "CFEM: ANM repassa mais de R$ 441 milhões da mineração a estados e municípios - capitalnews.com.br",
@@ -817,6 +832,21 @@
    ]
   },
   {
+   "title": "Brazil probes USA Rare Earth’s $2.8B deal for Serra Verde - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYlFmTU54VWcyeEdvTTZ1QnlmbnFnNlo2V0g1THlJZEx2Vkc3cGo2QW5aUXFKcnVHdmxGZURaMjRBUlhoWko5encxTlhwWU5NSTJGbHF3TnFuRlNIM3hKM0Z2RHpjRG1OWVBDaXRQbzdZRVoxTUtjYy1OWVRtZHNtWjB2M25lZGc1MkRxQm9BRUxRSGhyLWRNN0dvdHl2aWRuM0w1MW9RYzNfSzQ?oc=5",
+   "published_at": "2026-05-12T07:00:00+00:00",
+   "first_seen": "2026-10-02T04:08:42.618416+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Governo de Goiás tenta liberar mineração na Chapada dos Veadeiros - InfoMoney",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOVNEZFhva1hKc08xVk03YVQzTWtBczk5QnJWUnIxRlkxR3FyTnNjUlhjMWtEYlE4UEpRbFE1RWJ4MEhyNUt4WmFKRnpWSXNzRERxTXh5WEdZV3ZYSl8xMFcyWmQ2UmNyM0VZMGZvbUw3Y3VIM1hfWjlYSW1lMTFWakZHajl0eTZiQUt6bEMzR0d6a1RGMzRja2dwX3A0TVRId2JmT2Zrb9IBrAFBVV95cUxPMFltalJhOFJnZ1RidzdVR0plblM4eDVpcDZLRjRQR2NMNGM2Q19mRWlFN3FwY3dpR2k3SGFOek9FNTB6SjR2YnNsNlBtQXpYRWMxSzJabWlaTWdRSXZPRjM3UFg1UE12YUZUR3ZuMmtHekJVSlgwZ2t3dnhlbk03UmNOaXlfMExBaWotNDU2RGc4cWNoU3Q0dGN6ZDZGYzAxZ19LNTZGME1lZ25Q?oc=5",
    "published_at": "2026-05-11T07:00:00+00:00",
@@ -1063,6 +1093,19 @@
    "substancias": []
   },
   {
+   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf2e47aa114e6183356dd4d3e39449&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
+   "published_at": "2026-05-10T11:25:00+00:00",
+   "first_seen": "2026-10-02T04:08:40.057031+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Governo de Goiás quer liberar mineração na Chapada dos Veadeiros - Folha de S.Paulo",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcEg2aXdRSE45MUNVR2lTMGN6TnlCUTlpYmdLQjRWNDJocnJhMEJ2NTF5cVdFMEJzcmFjNGRFdkZacVVmdU80ZkpyLVg4cWRpUkRrdWtzTVhNOFUwZHJaVUtOcWZ2ZnJaaG9PR2dMVUNiZ1RoTkNqVnNPVnJmdF9ETXlib21IRklmWGthQ21nYy1KX19XbVktcndBYndKWWE0ektLR2lVTDVzZ2I1RTdCVzlFNmkxRkdM0gG-AUFVX3lxTE9EREY4VXVJYmNFTnVGLVJzZzZlU0xxQWdLWExING8ybTRkbjBQQzh5bEJUbG0wM2pFUnhERUhGeTlyWVN5bWJTRENlSnI5Q1hCNUJXUkNlSDk5V3M5cEZscTNOV3V5Q1l0MzdrRWZTU1VUMDJ5X0dpNUJaYmFORWlLTElRZ2xWNlAtMVlxMnlRVmY5VFRSbUNRM2JSVm1TQ19rQnFIX182dU56azdVOFhMZC1QbnJsQ2NyNDYwSEE?oc=5",
    "published_at": "2026-05-10T07:00:00+00:00",
@@ -1206,7 +1249,7 @@
    "title": "Mina de terras-raras em Goiás vendida aos EUA por US$ 2,8 bilhões nunca pertenceu ao Brasil, mas agora virou peça central da disputa global entre soberania mineral, influência geopolítica, indústria estratégica e corrida mundial por minerais críticos domin - CPG Click Petróleo e Gás",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMmNlZ0JQSnR0NlBQSjNuTWtoRmFfNHVOcjlsbS1wUHU5NEVFUjg2VDNUengtZnE5SlYzb09WZmhRVG5aQUYwZUhzN1Y3SldGNEwyOXhIV0QwRjNnTDZCV2VLMXlmX3hBOTBueVFRcU9GdVhjNmJVWXhqTVY4TGdySFZGcGQ4Y0E0aWxLeXl5NVhuSHF1R3BMekY5OGpFN1I0TXdHU0pFTmtsT1JtNWdQVw?oc=5",
    "published_at": "2026-05-07T07:00:00+00:00",
-   "first_seen": "2026-09-22T04:02:34.717240+00:00",
+   "first_seen": "2026-10-02T04:08:37.341469+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
