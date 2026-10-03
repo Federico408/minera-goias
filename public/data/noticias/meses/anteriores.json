@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 289,
+ "materias": 292,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - diariodocomercio.com.br",
@@ -297,6 +297,21 @@
    "first_seen": "2026-09-23T04:07:27.548967+00:00",
    "regional": 0,
    "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "R$ 2,7 bilhões: venda de minas de níquel em Goiás levanta disputa e investigação do Cade - Mais Goiás",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOXzZrRVllRGtodDhMWE9LUWd4N0l0MV9XVEFySEh0c2FZMlI3NlpMMWpIZ1dYeUlxVks0S3lnejF2ZVhCZUI0Q0MtSExULWUzZGl5LXhadEt0VXJYelZXRWd0M3hhUHpNeHFhcGVvRlgxNUVLNy1DenhQWG4zUzBiSnMwZWF2Y01VOGE3VnlCLVFXaTZsWndOT1NOR1JBMlRsUG0zR18tdU9nZGk1ZXNWZFZ1RlN0aUh6WHNjYUJoSnU?oc=5",
+   "published_at": "2025-08-29T07:00:00+00:00",
+   "first_seen": "2026-10-03T04:11:49.759966+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
    "setorial": 1,
    "fonte": "Busca · níquel e nióbio em Goiás",
    "escopo": "regional",
@@ -2474,6 +2489,19 @@
    "substancias": []
   },
   {
+   "title": "REGULAÇÃO | ANM fixa multas bilionárias para infrações na mineração - brasilmineral.com.br",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZktrbXAzX1UzWFp4eGRPc0R0NWFwZXVXTVN3RnBvbzQwUjhwWEdISlRTMjE0ZVlmaDFnS1NseFdQLTh6MHltSWZRaktWUWJSdU5mQmNQT2ZMOXZUZkd6UDlIVHRJYS14bGxUOWVyQnNiRDhVT3FmTmhEYm9wRDhjUmpOTDF4QUI3czlLalpGcDBfM3ViaXJBYQ?oc=5",
+   "published_at": "2022-12-05T08:00:00+00:00",
+   "first_seen": "2026-10-03T04:11:54.121704+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Governo deixando a mineração para trás? “Momento virtuoso em preços de commodities, mas muito deprimido em investimento”, afirma executivo",
    "link": "https://mineracaobrasil.com/governo-deixando-a-mineracao-para-tras-momento-virtuoso-em-precos-de-commodities-mas-muito-deprimido-em-investimento-afirma-executivo/?utm_source=rss&utm_medium=rss&utm_campaign=governo-deixando-a-mineracao-para-tras-momento-virtuoso-em-precos-de-commodities-mas-muito-deprimido-em-investimento-afirma-executivo",
    "published_at": "2022-11-30T13:38:27+00:00",
@@ -3817,6 +3845,19 @@
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "MPF recomenda à ANM que reserve as áreas de lavra da Coogal a pequenos garimpeiros do Lourenço (AP) - Diário do Amapá",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSEU2bGsxVmRSR1NYaWZseThvcUd2bEQxNVA4dWlmWVlicFB3bFlZTjItSDdybkZZeU4wWHpoT0tRamdOMXdvaDl5bkNrVXV4dksxX2lkeG8xTWItZHlvczVUX3VtN3hISTJQWFlFTDFlME9ldXhvaUFFTDVwVjZwSHh1YlEyS2pXVFhtR1k1NTJBYXVSeGZ5X3FPZ1NwSWVaZVdndnNyeXZURVB6M3NCRjVJYnByc0FfeUhGSEpvdjVjODQ3R1pXcllLQmppb1U5VnYwSWdBR01HNFFGS054dF9n?oc=5",
+   "published_at": "2018-04-02T07:00:00+00:00",
+   "first_seen": "2026-10-03T04:11:54.122348+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
   },

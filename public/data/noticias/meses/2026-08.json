@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 231,
+ "materias": 235,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -2308,6 +2308,34 @@
    ]
   },
   {
+   "title": "Mineradoras estrangeiras detêm 4 a cada 10 projetos de terras raras no país - UOL Notícias",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPYS13anZ4cVpqd2VENVhxSHUwTFFqUHcwYkZoVEx6N2Q4OUVCb1Z0ZHJfTDlYTzdWbURyYkoxaUVLNGVLUUpOYjZyWXhTV3BRV2tZUkNBV2dwLUJZUWZsaVV0QU9aMGRqLXkxOTYyREw1V25QRDFaNDFBM256Mms5amRQeHZlVFlITGpKZDF0WmtYU01fLVpVTzBRSWJ1SnZKWDY1SUNFcW16WlNtNF9YX01qRl9pQ0MyZ3ktNW1QclRmUkRKbmdlemNjdWlaR0d2ZS1UZEV1Vi1NUGxKdGF2SlQ4U2w0Zw?oc=5",
+   "published_at": "2026-08-20T07:00:00+00:00",
+   "first_seen": "2026-10-03T04:11:51.292751+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "CSN tem recurso negado e ANM cobra R$ 80 milhões em royalties - Agência iNFRA",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNkZxbVlVWkcxZXpaUWQ5VW9lbmVnYkhnMnJKVXV1TFJJTnNsT0JkWjdtczloRTd0SUpUUDd5T042ek45d0FnbzAzOVhrUDZPLWRYaFFiRF9FS0FBa0NYZ1pmaTZ6Sk9xUVBldGs0MnNZZnhDU3pycnNsVUVLSnEyR0lMUUhIY2lwRDFnUzRybkcwX3NGVFE?oc=5",
+   "published_at": "2026-08-19T20:09:49+00:00",
+   "first_seen": "2026-10-03T04:11:53.746671+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Carta do Encontro de Comunidades Atingidas pela Mineração em Goiás - cptnacional.org.br",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeTVlOWdteG5ZbXR4UmlWNkhObzdadGtudEJpMnlQd2d2NGZUeGd4di02ZHlOY0NnWDE1dlpYNU1FajRkZEZMcktVRE85MkFKX09iSUM1OGRkLXZIQTdhQVlBMmdGTjhsQjJjakVSaWpzMjBBVm1GdXg0LWM2NHEwTkJ0U0YyNHhqUXFwWXkxVWJZX1pfZVprRXRCX0hDYzhnSVA1YlZpZE0?oc=5",
    "published_at": "2026-08-19T13:53:51+00:00",
@@ -2496,6 +2524,32 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Prefeito Ronivon lidera comitiva que visita empresa Hochschild em Goiás e projeta crescimento da mineração no Tocantins - Porto Nacional",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQVUFVUkx4a1BkYkFZRGg5R3RSZ2k4Y1dMUjNOemREcl80ZnBOTU1GVlFIVFQ4enlCUjcyT01TYzRRVlFBNHVhZzF2ZVBVSUt0Umh2WWhXYnl5cncxN1ZMQUYtYVZNVTVfeTJfZzh6Y19rVnBtZ0dYelFiY3ppbGo5cDhZM1NLLVlMcnkzRWt1cU9iN3d5OVNPcjVCTlFIUTZjRHNoOGFiRDhsVjhxU05SSEdjYWFfMlprMFJEYlI0bG1BR0h6MndENFlLTXpnTExpOXpyTVRBUzQ2V3VxNmt6OWNhZ1lab1gxNlI0MnNTNXFhZWNrUzRHNg?oc=5",
+   "published_at": "2026-08-18T07:00:00+00:00",
+   "first_seen": "2026-10-03T04:11:49.341610+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mineração pode destravar R$ 1,3 tri em arrecadação no Brasil, aponta Vale - Exame",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNnMtNUUxVEJ5TjUzR0ZEaS1FQVB5YkJrczNEWllWZWZLRDVRclVVYTJrNkRHdXlIVjV5a1lJaVpmXy0tMkZsTS13S1p5bFlXUXVfc2MyWC1kSnotbVVHZjV5c2wyNWxyN21vd3pUR1hMbEZ3ZW5VU284WDJlWWIwbmRZbWxrUVN6OTlaMnRRdFE1V3RpUmxlODNHTE5vOTg?oc=5",
+   "published_at": "2026-08-18T07:00:00+00:00",
+   "first_seen": "2026-10-03T04:11:53.190800+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
   },

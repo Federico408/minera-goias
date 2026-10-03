@@ -1,6 +1,6 @@
 {
  "mes": "2026-05",
- "materias": 102,
+ "materias": 104,
  "itens": [
   {
    "title": "Illegal miners extract billions in Amazon gold despite Brazil crackdown, Greenpeace finds - Reuters",
@@ -22,6 +22,19 @@
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTzdGZXMwcEFUVVBMZXBqRjdQYlVQUEtzbEhTZnBaeFNMWUFNYmNXNzVwWlFDaExIVjdfUGJ3LXFIejlwUVdvR2lQTHAzUTlKejBYZ0NJcndNUnhneTlGdHlGME4xZXVMMlJORmFrX1J3UzZ0bUwtNEhMbDExUUc3RFR1ang0elFEODRVRDhoSTVPVGZ0TGNsbXo4anMwYnM?oc=5",
    "published_at": "2026-05-29T07:00:00+00:00",
    "first_seen": "2026-09-25T04:07:39.278305+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "ANM instaura processo de decaimento de títulos de lavra de mineradoras em MG e aprova fechamento da Mina Ponte Preta - atlaspublico.com.br",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNnpJSkRhT0NnZkg2QUp4UU1EY1FqNG42ZnJ1ZDZQblJON2FIRzZPMFlKZEw2Z0VSX1ZQYlRucGl5WlNJNEl4SnJrb2JTVHVDMXNpSktJMG56WDZYdHF1TFZySk5KZ1V4eE5wZU9BejB6REdHSERUZUxKNjROWEI1YUVsMUNUemdCekU0c3RMMUwyQVgxSUZkcHd4aERmOFhWUXlJ?oc=5",
+   "published_at": "2026-05-29T07:00:00+00:00",
+   "first_seen": "2026-10-03T04:11:54.120185+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1198,6 +1211,21 @@
    "tema": "mineracao",
    "substancias": [
     "litio"
+   ]
+  },
+  {
+   "title": "Entenda como a Política Nacional de Minerais Críticos e Estratégicos afeta as terras raras em Goiás - Mais Goiás",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNVBlS1B6cERRdzFPVnhJWkpHNUgtSnZHUC1LMjgtakNodUZvTWdveGdobDJMWF85VW93SXhhdlhFbXRaOHp6UUlOWkYtajFoVVBQU0g4OGdWaU5DZEstMXYwUkk3bEZHTjVnSHVidmcyamFjR0taNkhFSWRpTzRPemtuZXhzY1FDQXFveDBjQXlXOXQyc2VPdUdzRlRaR05FMHlSVzM5X0hCa3JpbTlmTFhuM3dFWXUtYjgtc0c5N2hfcDFjTjZla1EtQjN3eHpWYzlB?oc=5",
+   "published_at": "2026-05-08T07:00:00+00:00",
+   "first_seen": "2026-10-03T04:11:49.342388+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
    ]
   },
   {
