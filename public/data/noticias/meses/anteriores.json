@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 292,
+ "materias": 302,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - diariodocomercio.com.br",
@@ -111,6 +111,21 @@
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNM3VaejZmeGREWllPa1FaOW1KNkExRzRTTWxRcU5TMU1ka25MMzF0Vkl1dldMTnotVVIzRUVoMUdjbW0zYWZDdTRsNzJ0YWx1Wi1GaTFrTTV3bVB3dHprT0JVNnQwdmhpLXJEaHYxc1AwVS10Q29TNGlFMFExZ2Ruc0xRQnFTUjRsQy1BOUhOcFlBdE92cGRtdGNJcVJZSk1aWklmR1RtN3JSNXhMLUJ5aUY2UEpJdGhWVHdrOFJEVWVxUdIBxwFBVV95cUxOenNvMTlDcU9rZlBreWs1LUdiVU53TEdQZzRJYnFUSF9HVDZEU0ZBQURCSmR1bDF2M2xhdmxlV211V0VvM3kyVGFldmdpSG56c2FBelF2LWc5V21fQjFWbUc4R1FiejZJNDF5SzhrOEtiOGJOTzRsUHlDcWd1bmRZYXM3UWlQdVRHNzRQOTBwYjRxYVdoTXQzTlJNdW5DMUp1S0F2T09zTjNpRmR4MWEtRHlCUTNoYndaOE9YdFZxUGpuZm8yMF8w?oc=5",
    "published_at": "2025-10-04T07:00:00+00:00",
    "first_seen": "2026-09-23T04:07:27.539263+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "Para que serve o níquel, quem domina o mercado e qual a posição do Brasil - folha.uol.com.br",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNM3VaejZmeGREWllPa1FaOW1KNkExRzRTTWxRcU5TMU1ka25MMzF0Vkl1dldMTnotVVIzRUVoMUdjbW0zYWZDdTRsNzJ0YWx1Wi1GaTFrTTV3bVB3dHprT0JVNnQwdmhpLXJEaHYxc1AwVS10Q29TNGlFMFExZ2Ruc0xRQnFTUjRsQy1BOUhOcFlBdE92cGRtdGNJcVJZSk1aWklmR1RtN3JSNXhMLUJ5aUY2UEpJdGhWVHdrOFJEVWVxUQ?oc=5",
+   "published_at": "2025-10-04T07:00:00+00:00",
+   "first_seen": "2026-10-04T05:36:46.183673+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -834,6 +849,21 @@
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1e5f0900a47b89045290b94ac0bb4&url=https%3a%2f%2fwww.thestar.com%2fglobenewswire%2faura-minerals-agrees-to-acquire-the-minera-o-serra-grande-gold-mine-in-goi-s%2farticle_05149c3e-5765-56ae-a3c2-60f6ddc416cb.html&c=15653285175594871912&mkt=en-us",
+   "published_at": "2025-06-02T04:01:00+00:00",
+   "first_seen": "2026-10-04T05:36:48.399241+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
    "published_at": "2025-06-02T00:00:00+00:00",
    "first_seen": "2026-09-19T19:49:02.791309+00:00",
@@ -1032,6 +1062,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf2e47aa114e6183356dd4d3e39449&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-10-02T04:08:40.059645+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1e5f0900a47b89045290b94ac0bb4&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-04T05:36:48.395872+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -1562,6 +1607,19 @@
    ]
   },
   {
+   "title": "Rodadas — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9FMnlJRDZQTnJXeHhTcW10VzlyY1NxXzhHMmNEOGFGbWlDbk9xajRtSUhxQnU0UmlmTkMzdXlDbUZSb2dqNE1oWnJ1dUFpMFNOclBGWVBrN2ZDVmZQSmRGWWtYeURjWlBBNm5teGZPeEZoVGM5emdGb2JB?oc=5",
+   "published_at": "2025-01-16T20:05:44+00:00",
+   "first_seen": "2026-10-04T05:36:50.730647+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Resolução ANM nº 105, de 20 de abril de 2022 — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPbEx4eHpVRFpDSkh6Tnlvc1dwQllleVNXVTJ1YXN6SERwTU1VV1MzZ0ZsQUJ4Y0pzaWx3QTU2UXI3bGtJWVdoTENaeWp5QV9nS3hucFJZOVlYcWVrTFVRdkJMQlhNSTd6U185b19mZTRRVTZaWnp2cmFwa0hXYjctMGVsdjBtZDF4RmlSWmZIamlzRy1FZFJ2VFdJbW1QcFNhdXprNUVmWmNCV1o5WTFNYTVCRWhobkRzNVhWdkYwN3ZPc296ejZRdmhmYUV5VnlVckZHSFFrQ2t6OHc4aUVGNDk1Sm0yRzRId2RuYTB2S1lIWUxGM0xzUU8yUV9yYmNSaE9oWmo0aVllNGNTVzBOdWloV1F4dHBDbDdJVUU3M0lzcXBRQ2dqS3UwN3NFRXhUOUJUUUU4Y0NYS0xUVUF0SzlVQXotSnU0VXl1a09FSklsSzd6N3c0OA?oc=5",
    "published_at": "2025-01-15T08:00:00+00:00",
@@ -1816,6 +1874,19 @@
    ]
   },
   {
+   "title": "Global race for critical minerals… a unique opportunity for Latin America? - Economist Enterprise",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdkdTeWVTLTd3NnN1MjRFdE9YMVMxRFFLTEhONldmNVhYb1JiNTZqV2cyUVlzZnkwc01HTU5MWlJKZ3VjRGQwYXdnRHdRV2EzaTE2ZDZRTXpJN2pZU1BxY3JSTXI4eklsbjN4Rl8zV1p5ZVRxSEVxS0RvX0xySkR4Ni11cmEwc3hTWVh5OGtzS0NwY3h3RzBqOGdIV3d3dzlPb3QtcHlaUHIzdw?oc=5",
+   "published_at": "2024-06-23T07:00:00+00:00",
+   "first_seen": "2026-10-04T05:36:51.631747+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "NÍQUEL | CBA e Wave Nickel cancelam contrato de venda da unidade de Niquelândia - Brasil Mineral",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc3RwbTV6dmdvUlc0bi15YUtaWWdmQUhwbzJrSnNkcWJBNGJqT0VsUlY2WDJOeFlHM3ZoZkRDNGFqMFBPLVRsYzEzR0I2LU9ObUh5eWk0dnhNSDdsa1ZtamQ0TWlFRFVNdjRZRHU3dWhrTHpPd0NGVUZCdXVOaHJrcVNGNVF3WTVQNU1Sd1R2N1VsR1cyQTVyam5fRnVlS1U0S2xEcjI1U1lCOWFZ?oc=5",
    "published_at": "2024-06-21T07:00:00+00:00",
@@ -1896,6 +1967,19 @@
    "setorial": 1,
    "fonte": "Busca · Brazil mining (Reuters)",
    "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Recolhimento da Taxa Anual por Hectare (TAH) 2024 será em novo sistema — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbFd5TlJfb0htT3pEWkpBY05PYWh6cGlwck5HdW5CbXFyMVRZSGN3RFM4MXp3a0p3NHVTSDZLRldkQm5KT3Z4OU45RVdwemFxWnoyS2laWVBUSHdVUHhQaWZiR3o5QnR0Vl9heG50STd5U3VTVGhONklyRE14dG1oNGlfbTNrRjdCakdUVjdFNTlZa29neC00ekZvaC1ERk11RWstZnk2YXJVTHE3R0h1ZGR2VTNpUQ?oc=5",
+   "published_at": "2024-05-02T07:00:00+00:00",
+   "first_seen": "2026-10-04T05:36:50.729433+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
    "tema": "mineracao",
    "substancias": []
   },
@@ -2554,6 +2638,19 @@
    "substancias": []
   },
   {
+   "title": "Lei Geral de Proteção de Dados Pessoais (LGPD) — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN2pPTjBOZ0VMZlByMGhUTmY2RzNveTNPZ244RllJN0lRRVBwUzJlTGFVT2hnU0RPdzVYVFYyQ28wbnBQbG1fc0RoT1VCUi1HQkhvR3V2aVFKYlFBcnFxVnNPSVQ2ZmFCbFBNNWI2eVo2MkkyNlNYRzJWTFJMNmtLS1JpR19kUklsZkpWeG1PVlB4Y3Y5R3hYbm1YNHNXUjFEd3AydA?oc=5",
+   "published_at": "2022-10-23T23:58:45+00:00",
+   "first_seen": "2026-10-04T05:36:50.725269+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "ANM | Primeira Portaria de Lavra emitida num estado - Brasil Mineral",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUndYblR2OFJQTmpJV3UxYXRiR3hvRVBqc1RJNjh1dXQ1SVVYNEVHVDVKeXExNUlFWFBGMUJUdWh3OFRCYUZ2Q1pRcGQ3aGV1ckhzTXI5aEYxdHlYQTExVFp0SHNjSW5iS2RQRXFBbk50bHdaYm9JOGRGR3ozMGN5SUpEVjVYT3hHV3Nv?oc=5",
    "published_at": "2022-10-19T07:00:00+00:00",
@@ -2820,6 +2917,19 @@
    "substancias": [
     "ouro"
    ]
+  },
+  {
+   "title": "RESOLUÇÃO ANM Nº 95, DE 07 DE FEVEREIRO DE 2022 - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQlRxUkltLXkycm9oTG1INHFPREp4MlBjdmQ4OE5vbU1qbnBZZ3VQcWdZaW9KSms3Y2ZrM25zZ3lEbF9weTI4SDdLcnpCMnhwYVlNRzRUX0NJd0tJY1k0VkR3THU4aEdjREpndHV2akxKVnl3elFfVWtya2M1R1pLd2E2UFJJY3dKa1l3?oc=5",
+   "published_at": "2022-06-05T18:56:10+00:00",
+   "first_seen": "2026-10-04T05:36:50.726471+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "“CATALÃO FOI ENTREGUE”, DISSE BOLSONARO EM GOIÂNIA SOBRE EXPLORAÇÃO DE NIÓBIO - Blog do Badiinho",
@@ -3542,6 +3652,19 @@
    "substancias": []
   },
   {
+   "title": "ANM lança plano para recuperação de danos no setor mineral - Agência Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUzktc3FoOHhTeTdGMUN5Yzh6TXhMeFdTTlVvUjZGQmhtVTN2S2hBR09ybWV3YUxZb2ZTZjhLV05EV0owUjZDRVJ2ZGZNdlh0dGpILWtlN0E0WGlzMTVOZWNqYkVrSlhmWHRsY2haUXV4aGFuVFZJOWxfN2FoZ0k5eHdtMTlkT3pIOTBTUlRmTHppS21Ia0d2RTVrN0lYZEtUTzVNSkF0VjdtLUN4SG5nRnpNVQ?oc=5",
+   "published_at": "2020-05-12T07:00:00+00:00",
+   "first_seen": "2026-10-04T05:36:50.364488+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "BARULHO DE SIRENE PARTIU DE MISTURADORA DE FERTILIZANTES NO DIMIC, E FALHA NO EQUIPAMENTO CAUSOU ACIONAMENTO; MINERADORA EMITIU NOTA AO BADIINHO - Badiinho",
    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNdTQxZ0tJRzBlb2JjV3psSDBIVnRadDU2UmEwVVBWVmtZSVpMT3hjODlZUXE0eDR1VEp3UFhZVFRfd1B2OE9XVWRYcVF6SXd5bFBXZUlKU2tyOHZXdGpjR2lidm1Ddk9MSjFCd01iUjF2YTlzemR4Rk5tejMxMGpxVTl4bzhxSFBQZzMxXzFia2dPS281OVNFNjVtNzdnNDQ2OU1CT1AwcEI0MlV6WkhoMUZCcHE5RlZ5Um0zVFQweWVkUFliZlRUS0JOaEU2d0tmNnpZY0JNWjFaVEVHWWNlUmQ0Rlc4T3FoZGNpaEVUY0ttWENpM1NUMF92TGw4d3hl0gGGAkFVX3lxTE9QSEE5ZEVWU1VsT0U0eUNiS2ZES1l1RE9nNFRoXzR4cDE3aEtFYjhIUS1kZnpnVnhsWmctTXgxMHZSb3VvS0FDcWNRYzB3MlE5QkJVNEJ1T0VhYWktVnUtZWk3RW5PUzFZOVFHWUNWQjRzUTNWNFpVbi14akpiTU5wMmNGYzg3Yl8zdGNEcWVYWVlacDRFTkVUdVJrNTlPMVRJRlFjaVpNd05DRGhXSnhzcWlwRnpOckJsaWNlQWFCcHdCb0t3VGhKS1FvcXhibGh4cGFReU1fRkFVS09pUEZZWTVKMWhkQnRadTZ0TjF0bms0ZXh6aXZjV2xlSTIxeVE4R01tbFE?oc=5",
    "published_at": "2020-05-11T07:00:00+00:00",
@@ -3845,6 +3968,19 @@
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Brazil presidential decree next week to overhaul mining rules: sources - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPenZ6U2VWVzJ2ZFpHN1lyUTVFQmRSWnNXRFlqWG5nN1o2NWdaQ2pFeHU0TzJpV0Q4cnpVMGJ3NURVRTdSNGdlaEFPOFlram0wT2lxLVludTNJYXgxSWV1ZG5yMmZqcHZtbnYzcjM4cENhdWFydG9jV2lKUEg5TFpVdGJjdVlFTHMzRjhjZGNhOWNQbzdFb1RJUExIUmRIVG05SHFSSnB2RE94ak8yOUpsS3R1TjNJeEE?oc=5",
+   "published_at": "2018-06-06T07:00:00+00:00",
+   "first_seen": "2026-10-04T05:36:51.630481+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
   },

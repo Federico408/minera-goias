@@ -1,6 +1,6 @@
 {
  "mes": "2026-06",
- "materias": 74,
+ "materias": 75,
  "itens": [
   {
    "title": "Recolhimento de royalties da mineração passará a ser digital a partir de 7/7 - www.gov.br",
@@ -918,6 +918,21 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Confirmado: única mina de terras raras no Brasil terá o controle de agências do governo Trump - Hora do Povo",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaWxVQUQyLUFpMHJ5b3VkYzRwbGU5bXFEMkZkRlI2a1JMLWZBZFJVNzBsSjc4YnYwbmV4cGxVUXUzbGpiRkt3SjZETG1rTmlvZnBYSEYyLURCU0htV0t4elFzbmY3Sl9zM0tjQVZrR1c1NkIxZ1BBZFdDNzUwbldVdE9KS3MwcDZibGN1NnVEbHk5djR6NWhmemxnNjlDYWlENU85M0NBNFZiUm05VVUxRDdCQU54eEc4XzlV?oc=5",
+   "published_at": "2026-06-04T07:00:00+00:00",
+   "first_seen": "2026-10-04T05:36:47.604702+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Governo dos EUA será acionista de mineradora que comprou a Serra Verde - cnnbrasil.com.br",

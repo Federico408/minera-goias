@@ -1,6 +1,6 @@
 {
  "mes": "2026-07",
- "materias": 99,
+ "materias": 100,
  "itens": [
   {
    "title": "ANM aprova novas alterações ao regime de Permissão de Lavra Garimpeira - demarest.com.br",
@@ -789,6 +789,21 @@
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZF91TkQ0NUVKSzBHX2NtRVBteHlWekhRQk9aTHZrTk9veHBnb08yWVNObXh3N09jM1hucjFyVVl5aEV5N19hTVpOdnRvcTNJMktObVNkMUtMT2FqOUlfbHZ6Zk5FYnRodVhkTzNvcmtmSlI4RjlnSmhJRW5PcENGeUVFcFo2akZaNDVGb1BjMy1qMmZyVTBDSERQWkhrWWNxU2lwUzVqejk2VDFEUmFSdndMNk9TdmpUQ3pJ?oc=5",
    "published_at": "2026-07-16T07:00:00+00:00",
    "first_seen": "2026-09-24T04:07:24.650188+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Multinacionais disputam áreas de exploração de lítio em Minas Gerais - Diário do Comércio",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdG1aTnFaSVBEOTBwaVlPY1h2QlZHUV9IUEl0UW1tY3RhdXd0dk1jM1pyMk5yZmRmMmJZSzZfZTBPRkZzNmRSM21wa1pLcDJZUTNfMWV1cFBRb29aQ29xcGx2SVFnZWRaZkJTVDFFOWMyVUdoVDlIMmltbkVyR0pqckhzUUNfTnc?oc=5",
+   "published_at": "2026-07-16T07:00:00+00:00",
+   "first_seen": "2026-10-04T05:36:49.540108+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
