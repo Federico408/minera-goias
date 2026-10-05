@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 242,
+ "materias": 252,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -1134,10 +1134,10 @@
    "substancias": []
   },
   {
-   "title": "Departamento de Guerra dos EUA investe 750 milhões de dólares em terras raras brasileiras - apublica.org",
+   "title": "Departamento de Guerra dos EUA investe 750 milhões de dólares em terras raras brasileiras - Agência Pública",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQX0RoeUc5cGxpWDNGSXR1OHB2TGNNeDFhbmM1WTNoMl9Ud0pkbm83VGtEOV83QXktVDA4TE5zMDFyLVhKWGJwUnlpcTNzTm5wdHV6aFF4V3prbm9Xa3FMYVEzUzlaNHRwSjZCUE11bVVETFVfMVBULWxOdVdSdXZQM1Jjdms0ZkIwbWw5M2xCYzc4ZVl5QzNSUzNkRDlrSDd5cmpUSUxORGlaZlotUVQ0RXJ3MVhmaWPSAbwBQVVfeXFMTS02WXg4ek9DMC1UaGkxZDdTMmctb21GUXNFdl9jTzE1SnpLbmtQMzYwZm5nd2FtSF9uNXY4ZUlwLVg4LXA0NGJXcXA4alJZN25ZQ0laMkhhS2NkaFNmRXRpZVB1Ty1qUjByZWxOTTNlblZzY3A4S2pOLU5RZE0yTEtBa002dmQwaVhSVngtS0tnTFRjWnBiWFRLQk5GcHl1MWdTUG01N0lpTG5XcE42SERERmJtNl9yVURBMkY?oc=5",
    "published_at": "2026-08-26T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:01.764516+00:00",
+   "first_seen": "2026-10-05T04:11:28.581610+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1165,7 +1165,7 @@
    "title": "Ema Rare Earth Project, Brazil - Mining Technology",
    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85MGUtMWJqcWFYb0ZyNUtYQlRMaDNQSHRxSi1OTkE1RlJtSGRYTzl3VV9MckVDcVROQ1pESkxEdmFwcm1ISnN0bVlrRWdpSU01VVpJZVRsRWVxaENIWmxkNFlnY3NIOTEzRXppTlBWYjRKWHdVdEUtSlBuT19oQQ?oc=5",
    "published_at": "2026-08-26T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:48.289512+00:00",
+   "first_seen": "2026-10-05T04:11:32.015576+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1254,6 +1254,36 @@
    "first_seen": "2026-10-02T04:08:39.213365+00:00",
    "regional": 1,
    "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Zacharias Calil defende exploração de terras raras em Goiás pelos EUA, mas sem \"entregar de mão beijada\" - Rádio São Francisco 97.7 FM - Anápolis",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeG1XanF3bUJhVHZ1VktISmx0enZ5TGFDNlktN0MyczkydTAxRFJKSVpTQVBwSnNMemVlZFp3WlBFYnlRc1Jvc0xueFN5YS1rZG9fTWtFZXVYZnhHY1VoZzMxS3pXazlGb1BfbWw1b242ODFzMmxralRsSk1TUmc1eFNpekxjNEpFaDRTdVZVWGhrUGVKdmtKNGphVzhpSl9FdmxqODdvQUVvUktIM2ZKcktBYzNuQTRLWVdHdm5B?oc=5",
+   "published_at": "2026-08-26T07:00:00+00:00",
+   "first_seen": "2026-10-05T04:11:28.586796+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras brasileiras. O governo dos Estados Unidos aporta dinheiro diretamente na única mina que está em fase de produção no país. - JC",
+   "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPZjdpcExWekpTUUhXMm5yY0VxM2ZIeVJFN2xHVXBGYTFqTjVFSENhOFNZT09EMmpFRERyZFdVMjBMVTE3eFFPM3RPYUUwdU56QXdqbXAzc0IyblZROW5wcVNBZnNabW95WEZ1WldXeTQ2U241Y2w5S2I4Z0ptcVEzbmZ3eGtlZzNLcWNVeERIQVJZVlZwVWZWNmhzTUJscDh5cUdBZ1ZCTVBPUmVabnNBMVZtMHBlR1VYN0ppNEFMZUw2OVUwSnVSZ2ladXpOMUY1bVJJci00U0RNc0hjYWg4MXRZZ3I2VHBaWWQ0VGd6TmdOcWI4eW5mX01ndWowcFVkcVVsV3ZiYnB5eEhHc2pYOEc0RzR2VFJHTVE?oc=5",
+   "published_at": "2026-08-26T07:00:00+00:00",
+   "first_seen": "2026-10-05T04:11:28.583689+00:00",
+   "regional": 0,
+   "regiao_termo": null,
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
@@ -1455,6 +1485,21 @@
    "tema": "mineracao",
    "substancias": [
     "energia_eletrica"
+   ]
+  },
+  {
+   "title": "Agência de Comunicação - Sigma Lithium anuncia retomada de suas operações e planeja investir R$ 600 milhões para expandir produção de lítio no Vale do Jequitinhonha - Estadão Blue Studio",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUVJaV2otWFBOZ1Nfd0lkTk9OWHdmRGo3UVBzWXZSam42MnZwLUFPMmdxMnVudEhxdVVVcVFrUG1lUEcza0pHQUo1OWE5b3dCZ21TVnduMjE1djFKeTBmOFM1QmV3aUE1MVU4R1ZjLXJHbFRwRXA4N2UzeGpmVFJqTGFVZ3ZEQy1aSVp4TUktR3Q0bmVvdEZCclRYb09LM1UwVFZwdkdTV25zM3FSOTF0d0NSWVlpRWdiUEtZ?oc=5",
+   "published_at": "2026-08-24T13:21:42+00:00",
+   "first_seen": "2026-10-05T04:11:30.427743+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
    ]
   },
   {
@@ -1864,7 +1909,7 @@
    "title": "Terras raras: USA Rare Earth avança na compra da Serra Verde por US$ 1,5 bilhão - BPMoney",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcEN2Vm1SLVJVcllaZ1Z3c3hZRmNPQ3FIWTQxN0syT1FMZXFvUDlGRmctenpma3p3R2diWHJ0dHJIbWRXdmExUG9MM05Yb1NCRjRabUQ4LVFqRDR1UXVpak80V3daXzYzN3ZZMVJVV0M2SGdDSHkyWFdlUEViSkFab2U4YnU3Sm9FdTUwNlZOOUJ6dlJEZlpFSzBubllzczFqc2R6cGlVZ1NhTDF0S0E?oc=5",
    "published_at": "2026-08-24T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:44.766154+00:00",
+   "first_seen": "2026-10-05T04:11:28.582717+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1936,6 +1981,36 @@
    ]
   },
   {
+   "title": "EUA investem US$ 750 milhões em terras raras de Goiás - SBT News",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTlVRRHZSUHlfQVFHRnBPcC0zSHBYMmhnUXQtNnpkMU12dV9LVUxwMWZIZXZnWGl6RkpjMEFHSV9CWmtzamdocjlLTUFtZV9mTGlQcXQ3X0paRnY3UVVFaEhGdWtRbWlaTU02TENwUTdVSlNmOVdKTnFYc1NmaU5uSnNhZ01jdEFxTTUwMDFraUpaWjJWWjE0T2UzWlI?oc=5",
+   "published_at": "2026-08-24T07:00:00+00:00",
+   "first_seen": "2026-10-05T04:11:28.584740+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "EUA investem mais US$ 250 milhões em mineradora de terras raras do Brasil - UOL Economia",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOcnRKdnFsUzdMSGh3UklpclhRRVdTdWdCTWN4N1ZaVzVqeVlIVGVWSFB6QXM5RHIwa3VjTHVkQzdnMkcxOTVvZnYtU2hYd1BPdkk4cUxlTGRDSHlleTBPdnh1SVlrQTNxeFFWemRfTDZyTzE1VlJySERjS0dYMExwNGNLeDRsa3ZZRThNOWJxd2MwN2ZKYjNZMmVsM0t1dWY1cGREOUczdjlRWjU5YmxKdVhqTENWMEZ6ekpYSW5zQ0dDYTFtN0RnOTJxd0hmTFROaUMweW1mM2llVHNmVmdZNm14RDZ6TUN2SHl1QldKR0I4MHZxS1E?oc=5",
+   "published_at": "2026-08-24T07:00:00+00:00",
+   "first_seen": "2026-10-05T04:11:28.580688+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Niger awards former Orano-operated uranium mine to state company",
    "link": "https://www.mining.com/web/niger-awards-former-orano-operated-uranium-mine-to-state-company/",
    "published_at": "2026-08-23T17:12:23+00:00",
@@ -1962,6 +2037,21 @@
    "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "SecPower amplia industrialização com nova fábrica de baterias de lítio em MG - Canal Solar",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YSDN3Y0N3bng4LWdQdnlXdjJINVJFTzItWmUzcGljQXdSMS1WWXJOc1RybW5LY3M2Z0Z0VnZDbUF4LXBRUWNpR1BzSzNZMWIxVjRxeW50NlJLYTlraWdaWHgzdV9UcnpUQ2Z5RHNqcnhaTk1DdEpna014ZUU?oc=5",
+   "published_at": "2026-08-22T07:00:00+00:00",
+   "first_seen": "2026-10-05T04:11:30.429368+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "Changing landscapes: Resistance against Canadian copper mining faces newly elected government in Colombia",
@@ -2092,6 +2182,21 @@
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
+   ]
+  },
+  {
+   "title": "LÍTIO | Sigma Lithium retoma operações após acordo com Minas Gerais - brasilmineral.com.br",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWHYxV3BZcUUwdU9PVEk3eEFlRk9POFpGUXlsSk1vT0YzbmhvMTU2TkRBcTZ1QVFla05NZVptc09IejRZV0JKWXZ4YjVmdkhGbHJUZFQ0WWpSWVhKWmhwcWZxMDdxSDJzTDJIc2ZDNTlzeEY3cDlINVRzTVl0WkZ2aEtVcW5ibVpud0s5Ym0zZWI2ZC1fYktMdnFCOTI0Zw?oc=5",
+   "published_at": "2026-08-21T07:00:00+00:00",
+   "first_seen": "2026-10-05T04:11:30.426412+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
    ]
   },
   {
@@ -2669,7 +2774,7 @@
    "title": "Estados e municípios recebem mais de R$ 400 milhões em royalties da mineração - Brasil 61",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQjJXc2NPa3M5X1lKR3hfeldZMmV1dl9fV1FuRXdYai1wT3MtY3hJc2FxeDIxbmw2eWNPNExJZ1dNY2NESUo1WFJOWWhkNENmNmY5WXg0ZDh1S21VZEJXNFQ3MzhHeUUwZHg0aDZCRmpISlVUYU9OVE1GNjR0eUFjRzRZZ2NXRFZKdlFSRGxoNTlveFRWdVgteWlnY2hzdXZ0WDJ2ZkliTVRWUFY5anE5RdIBtgFBVV95cUxQd080NFFmdHVOSll5MUVZQV9aaWdQMFM1WklvOUUzYXByNGFtWWc5ZWVoZTlHSlBSZVZyUkZ6OTF3VmVBeVZvNFR2eW45ZXNXcTFwN1hwSGZ2T2xPODk3MGc5QXktUGtMZlpJTGpzdjRIOERQaGtmRUZUR05aWENpWUFCMmR2bVVQNWwtNVQ3ZDJKRGkxN2xxUk9IYnpYNVJwdVRfdzl0Y2tKTDBBZDhFYm9QZzRYZw?oc=5",
    "published_at": "2026-08-17T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:04.869117+00:00",
+   "first_seen": "2026-10-05T04:11:30.844961+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -2866,6 +2971,19 @@
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZzdCYlNJMHJhd2RDOHc3OENrMXVBUlQ4dFFQX004YUpiaVE5SVc1RjBIMGFfM0xOUWMtSjVfLTRLc1BldV83aW9jeFd2QTdPdGlBR1hVaXhkQTA3Z2VTb3hwQkY1b2R2dXJCN3VMdVZJMWs2T1RuZG9wVlRHbHZwYnJiaWRmSjhueXlDVEJ5RmI0LUY2Vmg1QTZjeDdYd1E?oc=5",
    "published_at": "2026-08-12T07:00:00+00:00",
    "first_seen": "2026-10-04T05:36:50.007298+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mineração no Pará cresce 8,4% no faturamento e chega a R$ 52,2 bilhões no primeiro semestre de 2026 - O Liberal",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZko4dE1GVnF5cmhsaHp2SGxsa0FNcTVPYjVibW0wTi01TlQtZHpXSUpWQ1N6M2QwMDVqTUVkNDJVaG85Z1JEeGRXSFV1ODJzU1NWYXdpX3lFTW9yT2UydzdGcFFUcGhVZGNYNHFVRnNvcmFEaGdXT1l2RXFPU25oR2g2RXJTMVdob2t5bHRQbVd6R0tmTy02MnJUcWN3a05yanZkNU04YW92QjVfTTFSTG82cHg0LUhQNkpUQ1A5YURNWURFcHBMUDFhTHlLSmktZUNkd3ppejA?oc=5",
+   "published_at": "2026-08-12T07:00:00+00:00",
+   "first_seen": "2026-10-05T04:11:30.847227+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -3199,6 +3317,19 @@
    "substancias": []
   },
   {
+   "title": "Regulador brasileiro cobra R$17,7 bi em royalties da mineradora Vale - BNamericas",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYW1JX3NTLTkybnJCeXNES1RqSFNGUHJWYk1hV2VwWGZWVjdCdWxfa2tDRi04ZERJUTdTbUJZT2JXc1VKcG5idTNqamtrT1ZFdTVhYUZKSzc2dktkUk1qLUpybnBIcTFib1ZEU0JrcEJUQkRpZnlOTFRmTGxKb2FRRjZuSVg3NUZDVHNYanUxZnh6N2w0VFhtTEh1dXJNdnQxQ2w1c2V0TWQ?oc=5",
+   "published_at": "2026-08-06T07:00:00+00:00",
+   "first_seen": "2026-10-05T04:11:30.846114+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1GajFzRmhic2hRcFA2end1ZV94OVZJNXV0NWxiUU5kNVRrcExyMFJnamxjam96SEJYOWJxZWxhNGw0OFphakd2U2J1MEIwNHpUanJwWlIwb0d4NDJBVGk2azMzY2RJamhXY3FDcUxMeC1uczNHcHc?oc=5",
    "published_at": "2026-08-06T00:49:17+00:00",
@@ -3300,6 +3431,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1e5f0900a47b89045290b94ac0bb4&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
    "published_at": "2026-08-05T03:20:00+00:00",
    "first_seen": "2026-10-04T05:36:48.397177+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac3237148de4ba5a7d3d7d0b637fc15&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
+   "published_at": "2026-08-05T03:20:00+00:00",
+   "first_seen": "2026-10-05T04:11:29.404062+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
