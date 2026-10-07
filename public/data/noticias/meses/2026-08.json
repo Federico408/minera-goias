@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 260,
+ "materias": 263,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -1349,6 +1349,35 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "Vale estuda investimentos em terras raras e lítio em meio à possibilidade de aprovação da política de minerais críticos - CBN",
+   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPSGJ3bXBBb1FNcUtydzc1ak11VHptYWVHX2tlX1ZOTkZvbTRBdzhlOWhxd1hOSThvemsxOHNuTnVJS0NEdS0xeXJnSjZtZ2dza043c3pqYm1tQVEzMTFaSmY5V09VT21PajlTQVRkR1N2NDNMejAxY3pPbEF0bHB1bmdQWnlTb2lILUNmTE54d3BPTzVVMVN4NkxqVnhHU0lkUjJ5TWxMQUIxRTBORDdMenktVkp2aklOeU5XSXdOamVVNEd2Ymw2RUlvUktOcjVJLV9aTzUwVFUtZTFzSFpqMmd5ZGEzZ3J6emhSdGVQVDJHR0V3Q18xV1RIcU01Unl5YmxQQ3Fn0gGUAkFVX3lxTFBpbC1RS3RoWlZZZzV6aEFYVzJMSVRBdzV2MUJZdEZ5OGFGUmNaMUlNa3IwcGotTDE3WlRfWGJxWVV1X01qQUVzZTZ6NVNvaE5hdGFzbjdNS0laOU5Idm5haDQzdEFIU2VNVmg5amVtYTFGdmF0NExjbEJKQ3BEdkpWQVZfRVBzeVVlbVBPTGtFeFJ5Q2VYa2FaWEc1THNhYVZTTFZmbmJkeTAxYndiSjVpUS0tRWFPQW9faGYxbmRaWDhqMUdlMXdUc184NEhoeTYwVGFaM0lVeldhR1pLaldLa0I3ZUhRTnV1TEFEcXZXOEtIbEk5QjRxaGtwdmNWU0RNbGpCdl9IMUlDRU5SNzNIRUVoag?oc=5",
+   "published_at": "2026-08-26T07:00:00+00:00",
+   "first_seen": "2026-10-07T04:08:54.813485+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio",
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Brazilian Rare Earths confirms more mineralisation at Monte Alto deposit in Brazil - Mining Weekly",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcDE5Tl9zb2VlOWZETnNUT0pLc1JHTnd2aEdURFUxRjV5WlVFUkNnYmVSQ2F1TDEwY3ZPaXlsZ0V1dThkSmVLUG5obW5vQ2MtYTJRd1kxMDRKaHVHRDFabFBmZl9LVm1iSUFDVjJJTmxrUklIWkZFZ191YjBwUG50Z1hGRkVPcjBFUXNZcEpjaTEzQXRvZWRWRGhlRVNYTFpZRlNFcnY2djNnQWVfQkJJUVlNUXNSMlgwT21hbGw1U0dHWVJyMVNCV0pzcnRkWmZR?oc=5",
+   "published_at": "2026-08-26T07:00:00+00:00",
+   "first_seen": "2026-10-07T04:08:56.785928+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Atomic Eagle claws back Niger uranium project",
@@ -3564,6 +3593,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac3237148de4ba5a7d3d7d0b637fc15&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
    "published_at": "2026-08-05T03:20:00+00:00",
    "first_seen": "2026-10-05T04:11:29.404062+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5c5d5c34a42689cbd2b7ee70dd042&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
+   "published_at": "2026-08-05T03:20:00+00:00",
+   "first_seen": "2026-10-07T04:08:53.676212+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,

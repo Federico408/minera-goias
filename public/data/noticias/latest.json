@@ -23,9 +23,54 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-10-06T04:10:29.559832+00:00",
+ "atualizado_em": "2026-10-07T04:08:58.756813+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "“Cobre do meu pai” chega a Goiânia e Luziânia com apresentações gratuitas",
+   "link": "https://www.jornalopcao.com.br/ultimas-noticias/cobre-do-meu-pai-chega-a-goiania-e-luziania-com-apresentacoes-gratuitas-876396/",
+   "published_at": "2026-10-06T21:38:46+00:00",
+   "first_seen": "2026-10-07T04:08:21.556647+00:00",
+   "regional": 1,
+   "regiao_termo": "goiania",
+   "setorial": 1,
+   "fonte": "Jornal Opção",
+   "escopo": "regional",
+   "tema": "geral",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
+   "title": "Pilar Gold projeta receita de US$ 180 milhões a partir de 2027",
+   "link": "https://revistamineracao.com.br/2026/10/06/pilar-gold-projeta-receita-de-us-180-milhoes-a-partir-de-2027/",
+   "published_at": "2026-10-06T16:57:21+00:00",
+   "first_seen": "2026-10-07T04:08:05.461307+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Revista Mineração",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Perto de uma cidade goiana, uma cúpula de rocha formada por magma há cerca de 85 milhões de anos guarda uma das maiores reservas de terras raras do Brasil - Midiamax",
+   "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQRDE1d2lMY2c4VXlEelpPU1EzWFQybjROUkhmRmxnalFET3NFZnJvTW1aYy03S2dqVDEzaTRnQTBURHdjcnE1QTZ3TnU4dmxxak5ORnZCQVlLWEZvTGpfc1RWMC1HR2xiekZVTV9pWEpsRUgxYmlXTjhxTE5JUXdfNlJaWHhpVTNmcm53Y0tKNUxHdTVxY3gzWWJKWGN5ZEZ5UmxQckNLOXR6R2xTUHd1RjFxdHhLR0RGVGgxSHpBQTN1Zk04NnNnLTBLV3ZlX09CWm0xd0VyN1d5QzJuZnhhS19DZm1vUHBZN2ZBcWtpTkh1R1piRjVoQzFTdmZEZjNCVUVqMzY3REJWUXJjT04wNFROTUExVFJzNm1mcHJ6T2hLZw?oc=5",
+   "published_at": "2026-10-06T12:05:00+00:00",
+   "first_seen": "2026-10-07T04:08:54.288031+00:00",
+   "regional": 1,
+   "regiao_termo": "goiana",
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
   {
    "title": "Traíras: povoado de Goiás que viveu esplendor na era do ouro hoje é um museu a céu aberto - Mais Goiás",
    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVkgybFNMQU1FSlNPcWxwaHo0bk9RRGdCTlNBRF9QU3ZnRTN5NWozdnVLU0VsZGJSbUFSZldYSW5XSlVJR2NhVUxyU0Z1ZWtXTVItMFhzcWE5YXVYVHJrUjNIV2tKUWNpMWd3Q1Zqa3dmLWlnNVozZzVBME5Ed2xlZGk3cHFyZnNmb3dsWGV3aFRrb1FZbUQxaUdqZ3lnekdsS0Ruckw5LVZsZHRoRVF5Qk02VGJoVnZ3RGw4WWdWVVlQRzdGNGJDY3U3bGctdTQ0eDY4VDFLck5JaFdMVXFn?oc=5",
@@ -1183,6 +1228,21 @@
    ]
   },
   {
+   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5c5d5c34a42689cbd2b7ee70dd042&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
+   "published_at": "2026-08-05T03:20:00+00:00",
+   "first_seen": "2026-10-07T04:08:53.676212+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Goiás aprova política sustentável para impulsionar a mineração de terras raras; entenda o impacto para o estado - Jornal Opção",
    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSEZGZkE5eTd4YURxa0ZHeVdfU3UybVl5aEdmb1plMmU5eGs2azJNQ2FiMFptZXhmVDdmbF9heHNMb25VcWc1VnJhQWVoSXl2akUzdGFJdnBMb011ZmFWeUswbmZWMHlWWGxZNUxVbENIVTJxSmg3Yk4xQmE1dlBWekNkMEdJNHl4T2poTGxTZDczUTRZTkRpY3B4Y2ZDdW8tNWZ2QjFXWEFJekJFWmpySkpGYjdkTUVXVHRqNUJVQWhJeHhZVjZrdEF3SHRMNE82eWIyY1daQWpqSHMtX3JyRGQwOFNETkJEb29ISW81RTVpdktURmEza1dB?oc=5",
    "published_at": "2026-08-04T07:00:00+00:00",
@@ -1906,6 +1966,19 @@
   },
   {
    "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5c5d5c34a42689cbd2b7ee70dd042&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
+   "published_at": "2026-05-10T18:38:00+00:00",
+   "first_seen": "2026-10-07T04:08:53.670753+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T11:25:00+00:00",
    "first_seen": "2026-09-19T19:49:02.787499+00:00",
@@ -2491,160 +2564,87 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Deputados tentam anular venda de mineradora de terras-raras em Goiás para empresa dos EUA - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWUlpenY0Q0thbTRRM1RDMC01eGVsTmlmbUIxMjFPTC1GUHpXOFBydUpDZDlWRU54Mi1RTXQ0WkdyQ0ZweXkxbFYtMHBELUcta01jTzhLUTBaSjdGV0FaSEFQaVIxNUt3MHJSbkxsd3ZNamJST19HY2FjdjJPQTA2VVBkbzc5R01SMmgtTGVabVUxZ2xKekN4VHFVVVN5YkQ2TnVDNlFFckgyeHRfRUVYRlVxUDNKaDRvVjVaWFFJVlR4NWh0aUFZ?oc=5",
-   "published_at": "2026-04-24T07:00:00+00:00",
-   "first_seen": "2026-09-24T04:07:21.405911+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Ministro diz que acordo de Goiás com EUA sobre terras raras não deve avançar - diaonline.ig.com.br",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR0s2ZVMzVjZaS3NMcVZpLVdXRGZNZ002enZJYzZuNm5xenFvV3JLUTZmRTBvQ0tQRFhZOHdnOW1HR1RXMlp6ZDdWN0xNNzV2elVvd1FwT1RaQUFZMVh4TFNQVnEtSUprYnR4aDREb1M3WXlSdm5sX0pYd0NQSHVRQVl4RThVdUVmUUd4MDFGNWlub1RGbzBtUWgwckZzeWVYMUFmeGQ5M0RpYkF3Zm9lNVRoRjdPUnc?oc=5",
-   "published_at": "2026-04-24T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.281613+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Deputados do PSOL pedem à PGR anulação de venda de terras raras em Goiás",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaed54effa44ed8a7cd8677eb9fc691&url=https%3a%2f%2ftribunahoje.com%2fnoticias%2fpolitica%2f2026%2f04%2f24%2f183352-deputados-do-psol-pedem-a-pgr-anulacao-de-venda-de-terras-raras-em-goias&c=7340897051136479187&mkt=pt-br",
-   "published_at": "2026-04-23T17:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:47.559427+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Terras raras: a mina em Goiás comprada por uma firma dos EUA - Nexo Jornal",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSzlqalI5RUVOQzBaUnZqbHRXalhOcFg1SGFpWExqZmQxUldmZDBYbGdrWWVkYlp3WXhRVzAwbzROVTdrRU5DUUpteGlUTDFZTHpiTjNqX040R0ZwTkFoa2tjc3RIUmswbHRnWVBrQjJOSm92S1plTGRkMEVwQUlOU1ZuVy13Rkc1eTZmQjh6SG9IR2k4N203T0FINWozODYxM1VRd0FBZWVuNS1oOF92cDRfbEZGWTFNRl9GaTJ1M2Q?oc=5",
-   "published_at": "2026-04-23T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:29.301625+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Operação identifica garimpo irregular e aplica multas no interior de Goiás - Portal Agro2",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNWkyU2ZCM1ZYOTBiSUZyZG1KczliZklfZXJlYW5kRXBCOHdpVGw1aWlPMWkybDBxdlV0dVpJUVhmNEdDQld5blFvaUVVdHZpZklScnNmZjI4ZHVINTZJSm42bjBrakdqUFZMNEVHZ2g4WkkyWmpBbEtJeGpiWDFxVDZxTXpMXzdBUUQ0Nk1kVGMzLUZNVlZSU3A2OVQwUE1qX01FU3N3dmdjUnNs?oc=5",
-   "published_at": "2026-04-23T07:00:00+00:00",
-   "first_seen": "2026-09-24T04:07:21.404418+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   }
  ],
  "tendencias": [],
- "total": 2501,
- "regionais": 364,
- "setoriais": 2501,
- "regionais_setoriais": 364,
- "fontes_vivas": 57,
+ "total": 2587,
+ "regionais": 374,
+ "setoriais": 2587,
+ "regionais_setoriais": 374,
+ "fontes_vivas": 60,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 811,
-  "ouro": 390,
-  "litio": 240,
-  "cobre": 152,
-  "niquel": 81,
-  "uranio": 42,
-  "niobio": 17,
+  "terras_raras": 830,
+  "ouro": 414,
+  "litio": 247,
+  "cobre": 162,
+  "niquel": 90,
+  "uranio": 45,
+  "niobio": 18,
   "fosfato": 10,
   "energia_eletrica": 5
  },
  "meses": [
   {
    "mes": "2026-10",
-   "materias": 238,
-   "novas": 51,
-   "regionais": 3,
-   "setoriais": 238,
-   "regionais_setoriais": 3
+   "materias": 311,
+   "novas": 73,
+   "regionais": 6,
+   "setoriais": 311,
+   "regionais_setoriais": 6
   },
   {
    "mes": "2026-09",
-   "materias": 1131,
-   "novas": 0,
+   "materias": 1133,
+   "novas": 2,
    "regionais": 38,
-   "setoriais": 1131,
+   "setoriais": 1133,
    "regionais_setoriais": 38
   },
   {
    "mes": "2026-08",
-   "materias": 260,
-   "novas": 8,
-   "regionais": 43,
-   "setoriais": 260,
-   "regionais_setoriais": 43
+   "materias": 263,
+   "novas": 3,
+   "regionais": 44,
+   "setoriais": 263,
+   "regionais_setoriais": 44
   },
   {
    "mes": "2026-07",
-   "materias": 100,
-   "novas": 0,
+   "materias": 101,
+   "novas": 1,
    "regionais": 15,
-   "setoriais": 100,
+   "setoriais": 101,
    "regionais_setoriais": 15
   },
   {
    "mes": "2026-06",
    "materias": 76,
-   "novas": 1,
+   "novas": 0,
    "regionais": 15,
    "setoriais": 76,
    "regionais_setoriais": 15
   },
   {
    "mes": "2026-05",
-   "materias": 108,
+   "materias": 109,
    "novas": 1,
-   "regionais": 45,
-   "setoriais": 108,
-   "regionais_setoriais": 45
+   "regionais": 46,
+   "setoriais": 109,
+   "regionais_setoriais": 46
   },
   {
    "mes": "2026-04",
-   "materias": 104,
+   "materias": 105,
    "novas": 1,
    "regionais": 45,
-   "setoriais": 104,
+   "setoriais": 105,
    "regionais_setoriais": 45
   },
   {
    "mes": "2026-03",
    "materias": 48,
-   "novas": 1,
+   "novas": 0,
    "regionais": 16,
    "setoriais": 48,
    "regionais_setoriais": 16
@@ -2667,31 +2667,31 @@
   },
   {
    "mes": "2025-12",
-   "materias": 52,
+   "materias": 55,
    "novas": 3,
-   "regionais": 40,
-   "setoriais": 52,
-   "regionais_setoriais": 40
+   "regionais": 43,
+   "setoriais": 55,
+   "regionais_setoriais": 43
   },
   {
    "mes": "2025-11",
    "materias": 15,
-   "novas": 1,
+   "novas": 0,
    "regionais": 9,
    "setoriais": 15,
    "regionais_setoriais": 9
   },
   {
    "mes": "anteriores",
-   "materias": 311,
-   "novas": 5,
-   "regionais": 90,
-   "setoriais": 311,
-   "regionais_setoriais": 90
+   "materias": 313,
+   "novas": 2,
+   "regionais": 92,
+   "setoriais": 313,
+   "regionais_setoriais": 92
   }
  ],
- "descartadas": 5928,
- "veiculos": 47,
+ "descartadas": 6385,
+ "veiculos": 48,
  "coleta_desde": "2026-09",
  "janela": "2025-11"
 }

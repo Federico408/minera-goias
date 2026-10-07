@@ -1,6 +1,6 @@
 {
  "mes": "2026-07",
- "materias": 100,
+ "materias": 101,
  "itens": [
   {
    "title": "ANM aprova novas alterações ao regime de Permissão de Lavra Garimpeira - demarest.com.br",
@@ -901,6 +901,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Terras raras: o que são e para o que servem? — Ministério de Minas e Energia - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOU00tWVRndURYNk43c1plV2RVSWRwdVVud0VUek00ZE5pUVB6WWxSeWhqdEQ4RkZMTEVlVHU1V0hySGlfYVlfR05oaDB0dF9TZmRQLTJKb0ctVmU4ZzlEUWRDOHRDSGtkeEd3QTlYTU9MeWxDTVFPNXppcExtMVdIWUdoWnJsZVZqYkw4LWYtckpScTg?oc=5",
+   "published_at": "2026-07-15T07:00:00+00:00",
+   "first_seen": "2026-10-07T04:08:58.750406+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · MME (site oficial)",
+   "escopo": "setorial",
+   "tema": "energia",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "ANM notifica Vale S.A. para pagar, parcelar ou recorrer de dívida de R$ 136 milhões em CFEM - atlaspublico.com.br",
