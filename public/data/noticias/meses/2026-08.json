@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 263,
+ "materias": 266,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -355,6 +355,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Terras raras: enquanto a União demorou, Goiás fez a lição de casa - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQVB0YVBDY1M1SVBSekdPcHVDYnhaSEhubnp3WHZxX2czb1hhLWQzZ2taQjF0bkRWVnRHZlpQcHNJMTBNcGJjd0VUUDU2V0lOZjNGVThjS1VtOUdVMEVGWWktY1ZLeDNtTmpRZTlaTUkxelBOajB5SWJLU0JnOFZQakJJSF95QTBqM1lMRXdBVk1QTmY2YlBMdThzQ1FfV2RGVTVDZGp3RnZyTy1YMVg3ekNwRk5rNlV5TUNSTUZHMERhN3M0TkFIbUY1c2dIM1FtR3RKeGZXbnBpM1ZFSmU5aw?oc=5",
+   "published_at": "2026-08-29T07:00:00+00:00",
+   "first_seen": "2026-10-08T04:09:15.591208+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Anfield Energy starts blasting at historic Velvet-Wood uranium mine in Utah",
@@ -748,6 +763,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Governo Lula tenta barrar venda de mina de terras raras de Minaçu a empresa dos EUA - Diário de Goiás",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPb3hqWkdXR3hhRUlvM29tMnRpTlA2VEg5TGtwWTF3VXoyUlkzNEgxR19TWEFtb1JJenFxQ1c0S0tlLURUWXd5QVBYNWlmeGlvenlLMUR0UVItUE5ER3NGT2JTYmVnYUlVQXE3d3A4YjdzLXdhbGNGb3lubnM2X2xjR1N2RktxWi1OOXRSaFRVNzhNMWtGcDlBZF9sM203czJCVzdKbTA2eVl2dmdoN2wyN0ZWNmJOV1A0RVpiag?oc=5",
+   "published_at": "2026-08-27T07:00:00+00:00",
+   "first_seen": "2026-10-08T04:09:15.591932+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Vale studies extracting rare earths, gold from mining waste",
@@ -3323,6 +3353,19 @@
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU0k1OHBIbjExcTFvb0E0V0UyYmppWVNfRmk1Z0ZWc2Q2VHdnVG1VNTBoei0yREVuMzhrVGlLN0ItbnhldXQwN2tmLVNEWnQ2TGp6SUV6bUxyMkFTeWlzNWRVQkU0QVNtQ2F5cjY4RDJjYThISHJGWTJRU3NIeS1RZG81U2F0aGRKSEliSmJ2U0d0OVoxbFZsYm5UM3hoWjFLalEwX0syYlJQM1p6Vm40V3lJdVlFMzAxYmc?oc=5",
    "published_at": "2026-08-07T07:00:00+00:00",
    "first_seen": "2026-09-30T04:08:45.609852+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "ANM prorroga divulgação da lista provisória anual da CFem e estende prazos processuais - Confederação Nacional de Municípios (CNM)",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSnh5MzgxYTJuUHlhS00tdEtHb29FNnlZaGR4bUJWTFVnX19CTWpuSFlxSEh4VUZ2NWlnRW9xaC10UVIxTXp3Mm1xeU9Lb1RRS2s3SXlXc2J4dHYwVExtVlpTZFNJbExrcXU4WjBfNTJQQ1daQklpVjhEcE43VFVCcE5JakNrR2pnWTJjSnZpRHFlaXZuaVNVcjQ4T085M3FBNjE1QWdvRkRMMWxIaVZpT1RXREVkZXpheDE3LVZMQktYNDR1?oc=5",
+   "published_at": "2026-08-07T07:00:00+00:00",
+   "first_seen": "2026-10-08T04:09:19.346513+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

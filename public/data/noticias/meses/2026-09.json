@@ -1,6 +1,6 @@
 {
  "mes": "2026-09",
- "materias": 1133,
+ "materias": 1136,
  "itens": [
   {
    "title": "Copper system larger than previously thought a welcome surprise for AZ9",
@@ -13665,6 +13665,21 @@
    "substancias": []
   },
   {
+   "title": "Terras raras: por que o Brasil está no centro da disputa global por minerais críticos - G1",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQY2dmTWxjYnJtVk5Wb0t2ZnJ6bnFKSmpWRGpjLWhDUWhlUFFXSkdDTWVTZTd6V1VDWmwyUXJiZ1BoYlRCdjNLR18tdEZGc3hRYnZ5eE5QMkItMGRFSEFYZXJQMzhtdFBiRklmRC1pMU5NZ1lfSWJtSjJpTTRsZ080eV9ubEFqNkxQTGZVVlM5Vk1RUDFoUElwY19JZUN1MTJCcmVQWHVWVXI3eGZLcnFUT0w5T0NmeFBKZmtHUlBuYW44ZHh6ZWhtdlJia0tMMG9oNE8yUUh2c0IxMkJx?oc=5",
+   "published_at": "2026-09-11T07:00:00+00:00",
+   "first_seen": "2026-10-08T04:09:18.412458+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "【SMM Rare Earth Flash】 U.S. rare earth producer USA Rare Earth (USAR) - Shanghai Metals Market",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeXhmTk5lYVQ0d084YzI5THdFYVd0a1Q5VHJfQlRPSGZEZmJseWU5RFVrRzMyMTlUcUhHZ2JTeFBfVDJLV01fR3J0TEVLcTRwSHZEVGxYbnBjbmtscEZneWVKQ2ZxY3Nkb0k2aUZDU21xSjhXbkI0OHBUcExiNXZlVkh1bld2RjhwSUJKYzV6ZHRZVzZTX1pVZURlaEJiWjMtSE9oM2RaSnhzUFN1ZTRaRU01dlh0eXpkMXZUR2lkemppaThkYVhZVHJKZDd6dGZjaHc?oc=5",
    "published_at": "2026-09-11T04:01:44+00:00",
@@ -16082,6 +16097,21 @@
    ]
   },
   {
+   "title": "Brazil’s Senate passes rare earth minerals regulation, paving the way for boosted exploration - Audacy",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVll0SDhtazVUby1ZR1VfYVhXLUc2bXRXYUFpci1XMXM5UHFnaEpLdWZvenBhWW8zUjNQclp4Z0xwSHc4cFYyUUJoSF8yMUh1enBEV0ZzbWFpMnhtaUF1X1ZMb1FHRFJiYVhRVnd4M0VMcjUxb0g2UHplcGJmMlZ5NTlDaWFmWFFENDdYTDVMTFpRcmRnYnlSbUhRdjVUbm9zejV1RGpiVkdEYTJsZXRrOGUyMU1oQQ?oc=5",
+   "published_at": "2026-09-03T07:00:00+00:00",
+   "first_seen": "2026-10-08T04:09:20.468482+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Greenland Mines closes acquisition of Sarfartoq rare earth magnet project",
    "link": "https://www.mining.com/greenland-mines-closes-acquisition-of-sarfartoq-rare-earth-magnet-project/",
    "published_at": "2026-09-02T23:48:07+00:00",
@@ -16434,6 +16464,19 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "Ministro Silveira defende aumentar royalties da mineração - Agência iNFRA",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUGdYd1JZZUNIRVNvbXpFWmNsaVNGNnVBQno1ak1qWWJYZzZmRmR4dFB5ZVFNdVlDSURGV1ZId1NrLUloY25COENNck4yX0FXaV94TEhsd3pYVDZPRzZrWjA0TGs0NEgzYmpLYlFXT1JFUktrbUJud2VyYkFsdlJOZjY4cjRfVFBQR1g4RHh1cVR1dw?oc=5",
+   "published_at": "2026-09-01T07:00:00+00:00",
+   "first_seen": "2026-10-08T04:09:19.347920+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Audiência Pública nº 2/2026 — Agência Nacional de Mineração - www.gov.br",
