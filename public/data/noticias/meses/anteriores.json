@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 316,
+ "materias": 319,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - diariodocomercio.com.br",
@@ -232,6 +232,21 @@
    "substancias": [
     "fosfato",
     "niobio"
+   ]
+  },
+  {
+   "title": "Venda de mina torna China maior fornecedor mundial de níquel - Gazeta do Povo",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLXdtem00T3NiNlNKSlRrLWdTYm5OS0dZNWx0RDA0NkxCRkdpNExRanl4c29od2U1OGd2QWZPVmw0TWZDS0YtblpMM3drYTZmYk5tS3A1RlgxNGlnNnVJWVNzQzdtYlcybTN4Z0RiaDFadlpRLWUzN1JoQWJhLTdZVWZIbzlwVG1sNEZMZkF6d245VUxuMUlybjdiV2dpNUZLQWczaHJtajdVTkl5RUtvYnRNMEdSLUw0QnVfZEdUNDNmUER1Tk95aw?oc=5",
+   "published_at": "2025-09-18T07:00:00+00:00",
+   "first_seen": "2026-10-09T11:05:31.986738+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
    ]
   },
   {
@@ -1195,6 +1210,36 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5c5d5c34a42689cbd2b7ee70dd042&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-10-07T04:08:53.674741+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8ca7e95674449a59f57faac5fb1a0&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-09T11:05:34.256456+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8ca7e95674449a59f57faac5fb1a0&url=https%3a%2f%2fwww.thestar.com%2fglobenewswire%2faura-minerals-agrees-to-acquire-the-minera-o-serra-grande-gold-mine-in-goi-s%2farticle_05149c3e-5765-56ae-a3c2-60f6ddc416cb.html&c=15653285175594871912&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-09T11:05:34.259206+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,

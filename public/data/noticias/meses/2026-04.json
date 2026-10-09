@@ -1,6 +1,6 @@
 {
  "mes": "2026-04",
- "materias": 105,
+ "materias": 108,
  "itens": [
   {
    "title": "ANM nega recurso de Abdalla; direito minerário fica com LHG, dos irmãos Batista - Agência iNFRA",
@@ -44,6 +44,21 @@
    "substancias": [
     "litio",
     "terras_raras"
+   ]
+  },
+  {
+   "title": "ANGLO AMERICAN | Produção do Minas-Rio fica estável, mas a de níquel cai 7% - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQm4zdDRNSFdCYlcyNGRTY1VhQ3Z1TWNvUVpTcUNjYXRUUmszZVp5dFNQWHhwUkdMREZZWlFpNURkZDFjR01rLU40dmVHY2tVcTd5UU5nb3dNNXZFVXFGTmpyYU9qVEhNYzN3VFlNbnVGN0R4Q0VIUnJCWEFUX19VSnczS3NuNTYtQjBuajZYazVPMXdvM251allR?oc=5",
+   "published_at": "2026-04-29T07:00:00+00:00",
+   "first_seen": "2026-10-09T11:05:31.985771+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
    ]
   },
   {
@@ -272,6 +287,21 @@
    "regiao_termo": "goias",
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras: Rede entra com ação no STF para suspender acordo com empresa dos EUA sobre mina de Goiás",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8ca7e95674449a59f57faac5fb1a0&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f04%2f25%2fterras-raras-rede-entra-com-acao-no-stf-para-suspender-acordo-com-empresa-dos-eua-sobre-mina-de-goias.ghtml&c=4719593890890591127&mkt=en-us",
+   "published_at": "2026-04-25T11:52:00+00:00",
+   "first_seen": "2026-10-09T11:05:34.254828+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": [
@@ -553,6 +583,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5c5d5c34a42689cbd2b7ee70dd042&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fserra-verde-entenda-tudo-sobre-a-venda-da-mineradora-brasileira-de-terras-raras-para-os-eua%2far-AA21F62j&c=8930522291100895173&mkt=en-us",
    "published_at": "2026-04-24T12:57:00+00:00",
    "first_seen": "2026-10-07T04:08:53.672016+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Serra Verde: entenda tudo sobre a venda da mineradora brasileira de terras raras para os EUA",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8ca7e95674449a59f57faac5fb1a0&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fserra-verde-entenda-tudo-sobre-a-venda-da-mineradora-brasileira-de-terras-raras-para-os-eua%2far-AA21F62j&c=8930522291100895173&mkt=en-us",
+   "published_at": "2026-04-24T12:57:00+00:00",
+   "first_seen": "2026-10-09T11:05:34.257457+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
