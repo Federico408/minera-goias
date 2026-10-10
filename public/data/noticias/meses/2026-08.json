@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 266,
+ "materias": 271,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -265,6 +265,21 @@
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras: projeto em MG atrai capital global às vésperas de marco legal - Brazil Journal",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMTZsclNFbmpBYndYd3lXd2ptNVduOExqaTFxdkh2V1BydUhpVUVDdGJlOWxoTGQxUDE0X2hHZVJWTFdLcGU1T1FMRlI5M2NmMUtMUk12bzlRMi1mcTNyQmlHNlVYRTNhaEI3X21MVlFRajhSZGhMRjNtaHczUmJEbDYzTTUyVGo5emFrbEpMTnljZFEzQTI4OUpVWF9pZk9qTEE?oc=5",
+   "published_at": "2026-08-31T07:00:00+00:00",
+   "first_seen": "2026-10-10T10:23:08.828422+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
@@ -1590,6 +1605,21 @@
    ]
   },
   {
+   "title": "Cientistas defendem criação de Centro de Inteligência e Tecnologia em Terras Raras - Portal da Assembleia Legislativa de Minas Gerais",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMzVaTFY2dHlMSVVRNWdkMTZsdW9WQWNhTVB6a3VqVTlwWXJsc3h1MzZkX0Rka0kyRkc5eVBVX0FXVm5jQ3ZOYXROX25yUzR3M2hPaHpBUGpyVkpRakI5MHdaQWM5NFNZSmFWX3FmUjdZNXN1WTBSYXBfZ09FQTdQVnMyMzZIZTVXZUtGMVNrNE03cS04RkVEanlXcDBsaXEwRTh6VzBSVmFmZjBsZDRvaHZqaUVsTV9XYVBQU2FtZXNIUW8xbko0THphSmtiX0ExM1RB?oc=5",
+   "published_at": "2026-08-25T07:00:00+00:00",
+   "first_seen": "2026-10-10T10:23:08.830562+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "DOD Invests $750M To Buy Rare-Earth Elements From Brazil - Law360",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdXlsLUsxNDM5UGNmQlFDSUp5bzFLR2xFTTJiRTZ6TTA3dHhlMmpKTVl1Ykhoa3ZkaS1VcHI0Y1JyeWxnUVY0Rmh5RTNsaWdGZGJqMTlMT2lnZTNtMWFmUk82bHNDVHpCbkVUWWp6YWNPd0pXZlRVQ0RhVWRpcV9SMW1wVEFlUk1pTFh6SWtEbk1mdFEtNVd4ZDJwQdIBVkFVX3lxTE1kZ1dmeDRncVliMk8teUlvUzBLUXVuZTF3a2ZiT1lzdUY3MUZnTzc0bGxvcDNWdVRXUmliUmY5VXpUV1Q4ZklQYjF5X0Q4MjVXN21ld1ZR?oc=5",
    "published_at": "2026-08-25T00:21:00+00:00",
@@ -2152,6 +2182,21 @@
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Centro de Tecnologia em Terras Raras pauta audiência pública - Portal da Assembleia Legislativa de Minas Gerais",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQTVGVmpJRlIyVUIzVTJ6c0RoNnpQZjYtX05RMWhlVjhLMXFvaDYtLUtONHBuQXcwdG9LenZod2tKNlVvNUE2b1Q5RUdoU2daaGZxclV3WUdSY05CTXBJWFpjdFROTFc4czcwOWFjR0ZhNVgxc1dJTEVyV2RFbkFwYV9DR0RHX2VicEZBUTdXUTBNRjRxMnJycG96Zk1ZTVc1X1ZNandpV1lwN2lGRGs3ckpsYVpWdw?oc=5",
+   "published_at": "2026-08-24T07:00:00+00:00",
+   "first_seen": "2026-10-10T10:23:08.831609+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
@@ -2729,7 +2774,7 @@
    "title": "Vídeo: PM explode balsas usadas para garimpo ilegal em Goiás - iG Último Segundo",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR0pFZ1hXSDRNNjNfYUpkVjA0eFNBVC1WWTBJTi1CbkVhWG5yYTludXJfVHdLdDhSNk1fV285ZnYzbkZ1eWtsNVRjUWVzdWxXb2pyeTdCRlNNMkN1NExtZGxQQkdyaW5KeU00cVZqTm5tUHJjX0JYUTRfaWdQZUg0anlXZEJuNVhqQmFBb1FMbXdLWE1IelhsV0hxNmRINTFHQjE2Q3NGakNVMlpRTzV6YzZxVDAzd9IBuwFBVV95cUxOSUFWSXB5SnpVYjVyTm52TzM1T0VYeG5zNlNGbVFjSWdKRFFFTDYzRWI2c1JDS3RNZzNieWQzS0VWT2dkTjlXa1htb1lGRzFFZnhjR0MtRnF4YllSOERiLXk3X09RY3RPVEMyUXlhdWJ6cFFzN21FUm1WWFdiclR2U2JFLW0tRnBZelppa2N1b2t3eTJ5UlFoNldnUkhVWmZDRUwzWTdpeEVVQkMzRkdBOEVOQlVvQVZHZXlj?oc=5",
    "published_at": "2026-08-18T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.245602+00:00",
+   "first_seen": "2026-10-10T10:23:05.376604+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -2862,6 +2907,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Comitê de Terras Raras recebe presidente da Comissão Especial de Terras Raras da Câmara - Prefeitura de Poços de Caldas",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbU5tWlBLTUJ4M09ZdHNpZzlZUkJVeXRWNkxxZXUtUXZSNEJ6VnUycUxCVlR4V0RoS25QeWh6dTJXeDNOWGt1RTViTDViTUxmZDV6eksyM2M3YjZxOE9SY3V0d25mc1JtRTY1WGx4ZjV4emdKTl90M2ZCUGNOck9HOHA2aEFBRk44UlBIUUVDUEM2eER3UENQV3hBUEV0RjNQZlBGZ0VaZ1BtY211N1U0aHRYV09tM25tdXZRYVg4ck5IbzBjRkhoZA?oc=5",
+   "published_at": "2026-08-18T07:00:00+00:00",
+   "first_seen": "2026-10-10T10:23:08.832614+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Mineração, vício em jogos de apostas e proteção a crianças e adolescentes estão na pauta da reunião da CCJ desta terça-feira, 18 - Portal da Alego",
@@ -3511,6 +3571,19 @@
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYW1JX3NTLTkybnJCeXNES1RqSFNGUHJWYk1hV2VwWGZWVjdCdWxfa2tDRi04ZERJUTdTbUJZT2JXc1VKcG5idTNqamtrT1ZFdTVhYUZKSzc2dktkUk1qLUpybnBIcTFib1ZEU0JrcEJUQkRpZnlOTFRmTGxKb2FRRjZuSVg3NUZDVHNYanUxZnh6N2w0VFhtTEh1dXJNdnQxQ2w1c2V0TWQ?oc=5",
    "published_at": "2026-08-06T07:00:00+00:00",
    "first_seen": "2026-10-05T04:11:30.846114+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Vale diz que efetua regularmente recolhimento de royalties de mineração - Valor Econômico",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUklIUDZGVlpfamx4ZUpYc3ZyN0Jyd0tFMXBJS1hjWnBsdlI5dVpBMVNFS2lSMGRObUxVaEVpdGpmTVZzVE5LX0d0ZXNnOWtyRzZKcmZWN1YxRW9jUXBXNlo0MC1HTUg3eGZGbmJOcDQ2X0JDU1EzMXFWNkN3b3l3alZ5c185WWtRRHRDam5nVGFkaHNUYTdwTUhvUnNBcWIyem81VUlCLTNtbzR0elJndUZ3SXViZjNDTDdfdHpWWW5uajY1T2c?oc=5",
+   "published_at": "2026-08-06T07:00:00+00:00",
+   "first_seen": "2026-10-10T10:23:09.812910+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

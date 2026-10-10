@@ -23,7 +23,7 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-10-09T11:05:38.606682+00:00",
+ "atualizado_em": "2026-10-10T10:23:13.345290+00:00",
  "ultima_execucao": "partial",
  "itens": [
   {
@@ -1089,7 +1089,7 @@
    "title": "Vídeo: PM explode balsas usadas para garimpo ilegal em Goiás - iG Último Segundo",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR0pFZ1hXSDRNNjNfYUpkVjA0eFNBVC1WWTBJTi1CbkVhWG5yYTludXJfVHdLdDhSNk1fV285ZnYzbkZ1eWtsNVRjUWVzdWxXb2pyeTdCRlNNMkN1NExtZGxQQkdyaW5KeU00cVZqTm5tUHJjX0JYUTRfaWdQZUg0anlXZEJuNVhqQmFBb1FMbXdLWE1IelhsV0hxNmRINTFHQjE2Q3NGakNVMlpRTzV6YzZxVDAzd9IBuwFBVV95cUxOSUFWSXB5SnpVYjVyTm52TzM1T0VYeG5zNlNGbVFjSWdKRFFFTDYzRWI2c1JDS3RNZzNieWQzS0VWT2dkTjlXa1htb1lGRzFFZnhjR0MtRnF4YllSOERiLXk3X09RY3RPVEMyUXlhdWJ6cFFzN21FUm1WWFdiclR2U2JFLW0tRnBZelppa2N1b2t3eTJ5UlFoNldnUkhVWmZDRUwzWTdpeEVVQkMzRkdBOEVOQlVvQVZHZXlj?oc=5",
    "published_at": "2026-08-18T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.245602+00:00",
+   "first_seen": "2026-10-10T10:23:05.376604+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -2035,6 +2035,19 @@
   },
   {
    "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca120b3cae4489b2eca900417a3f0e&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
+   "published_at": "2026-05-10T18:38:00+00:00",
+   "first_seen": "2026-10-10T10:23:08.133184+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T11:25:00+00:00",
    "first_seen": "2026-09-19T19:49:02.787499+00:00",
@@ -2545,64 +2558,49 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Terras raras: Rede entra com ação no STF para suspender acordo com empresa dos EUA sobre mina de Goiás - G1",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWkRSUmZrZlo1OEhSYnJRaEVWNXhwMmE0QWU0SUtDSDhFcXV1aHRVY3JjRW1wLVd0YTNYRFZPMm5oeW1xcnZ5MWlKZU55NmpvMUI4dlFsNXR4UVlpZ0pxUWVJVHYzYXVnb0tnZG1tQXhZc1Bod2lBX2loUXhjVVA4dkFxUkQtMkNKdTdWSGFUUEtMM3EwM0tIay1EU1R3SWtWUDI1YzV4MDVtYXZ0ZjQ5QTlhdzdSekRZb2hrZlhEbmZoSlRGVFh2TnE3M19VT2dnS2R5VW9DR2xjdEZYdXhGV3BYU3B5TkRqYTZpYtIB-wFBVV95cUxNbUhQRUlNWTVvbE1ZZndUY1FsSlNKT0xsTTB4QzM5ZVYyVHpmS25CSGlEeGdqMVMzUy1SU0hrWmtNZHZLSG1WMUc1Sl9aVnAtV2VaV0p6T2xXUU1QdGZQWklmTFFXSGtOalFSSTMtYzM2enA5bENRNkVOOXpkYlREdnlpSGNtdlRMdmNlbDAteDJxOW9sZGtWWXhzYmh0c2NzV200SFAwRjhRUmdjUXZneWdUdGdOTTV6bXJVMUVMelZOY3NoY2xtVXJ4NHFrcFd0dU5QSGp3MUdVclZhWklpZko5dmNJODIxTVVEeXBjZ2UtNlpXQUpmeGNXNA?oc=5",
-   "published_at": "2026-04-25T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.120686+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
   }
  ],
  "tendencias": [],
- "total": 2750,
- "regionais": 386,
- "setoriais": 2750,
- "regionais_setoriais": 386,
+ "total": 2821,
+ "regionais": 393,
+ "setoriais": 2821,
+ "regionais_setoriais": 393,
  "fontes_vivas": 62,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 866,
-  "ouro": 465,
-  "litio": 262,
-  "cobre": 182,
-  "niquel": 107,
-  "uranio": 49,
-  "niobio": 18,
+  "terras_raras": 886,
+  "ouro": 483,
+  "litio": 271,
+  "cobre": 193,
+  "niquel": 110,
+  "uranio": 50,
+  "niobio": 19,
   "fosfato": 11,
   "energia_eletrica": 5
  },
  "meses": [
   {
    "mes": "2026-10",
-   "materias": 448,
-   "novas": 69,
+   "materias": 501,
+   "novas": 53,
    "regionais": 6,
-   "setoriais": 448,
+   "setoriais": 501,
    "regionais_setoriais": 6
   },
   {
    "mes": "2026-09",
-   "materias": 1141,
-   "novas": 5,
+   "materias": 1144,
+   "novas": 3,
    "regionais": 39,
-   "setoriais": 1141,
+   "setoriais": 1144,
    "regionais_setoriais": 39
   },
   {
    "mes": "2026-08",
-   "materias": 266,
-   "novas": 0,
+   "materias": 271,
+   "novas": 5,
    "regionais": 46,
-   "setoriais": 266,
+   "setoriais": 271,
    "regionais_setoriais": 46
   },
   {
@@ -2623,18 +2621,18 @@
   },
   {
    "mes": "2026-05",
-   "materias": 110,
+   "materias": 111,
    "novas": 1,
-   "regionais": 47,
-   "setoriais": 110,
-   "regionais_setoriais": 47
+   "regionais": 48,
+   "setoriais": 111,
+   "regionais_setoriais": 48
   },
   {
    "mes": "2026-04",
-   "materias": 108,
-   "novas": 3,
+   "materias": 109,
+   "novas": 1,
    "regionais": 46,
-   "setoriais": 108,
+   "setoriais": 109,
    "regionais_setoriais": 46
   },
   {
@@ -2647,10 +2645,10 @@
   },
   {
    "mes": "2026-02",
-   "materias": 33,
-   "novas": 0,
+   "materias": 34,
+   "novas": 1,
    "regionais": 4,
-   "setoriais": 33,
+   "setoriais": 34,
    "regionais_setoriais": 4
   },
   {
@@ -2663,11 +2661,11 @@
   },
   {
    "mes": "2025-12",
-   "materias": 58,
-   "novas": 3,
-   "regionais": 46,
-   "setoriais": 58,
-   "regionais_setoriais": 46
+   "materias": 62,
+   "novas": 4,
+   "regionais": 49,
+   "setoriais": 62,
+   "regionais_setoriais": 49
   },
   {
    "mes": "2025-11",
@@ -2679,14 +2677,14 @@
   },
   {
    "mes": "anteriores",
-   "materias": 319,
+   "materias": 322,
    "novas": 3,
-   "regionais": 96,
-   "setoriais": 319,
-   "regionais_setoriais": 96
+   "regionais": 99,
+   "setoriais": 322,
+   "regionais_setoriais": 99
   }
  ],
- "descartadas": 7171,
+ "descartadas": 7491,
  "veiculos": 48,
  "coleta_desde": "2026-09",
  "janela": "2025-11"
