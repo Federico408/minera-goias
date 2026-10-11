@@ -1,6 +1,6 @@
 {
  "mes": "2026-07",
- "materias": 103,
+ "materias": 105,
  "itens": [
   {
    "title": "ANM aprova novas alterações ao regime de Permissão de Lavra Garimpeira - demarest.com.br",
@@ -1439,6 +1439,34 @@
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY19MZUluRVNQSXZPdTBMeWhTNzdWYWN6SGVPS05DLWE3S0hBZF8zaEN5aGZjM2VjTkJaX1B4UjhrLXZaa2dIWjR3eEZfc09XWWNNYm9YTVVhbDFXNnA0NE9mV3BQN1FYbG9xTjRGTXJDTE56ckRmTDFMdWp0YUR6XzhvZnBreXRPSFdVWUZn?oc=5",
    "published_at": "2026-07-01T07:00:00+00:00",
    "first_seen": "2026-09-30T04:08:47.189887+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "‘Zona de sacrifício’: exposição sobre impactos da mineração no Vale do Jequitinhonha (MG) chega ao Rio - Brasil de Fato",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYjVqYVRscEZfUHNmUEdaWEU0aklWS3hOMzFHSVY3N0d3MWNtYUtoN21xeVJTMU1qcU9NME54dUJyNkNZWVlTZXpwWWdFYjBKSXA5TG9oYkVvYnR6Nk0yOFhvaWRjSGFOc055bU1OeUlveGx1VGVILXhCUHo5TERFZ1p6VXJXMmlVS3JIX0J0UTh3Wk1DS0c1c2pxdHlUeW1ZLVN3MjVhWExQU1lCWGc3ajRtcTQwRmxIVzQwRUdiU3BKY1ZZdG1wdkJZdUFoOHllN1FXemNlbXU?oc=5",
+   "published_at": "2026-07-01T07:00:00+00:00",
+   "first_seen": "2026-10-11T10:31:01.150292+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Can Brazil become a key rare earth supplier for the West? - Energy Monitor",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVkw3cjVab0VCN21ZZ2EyRWxscG44ZDA1cGdUWS10Nk9KNHZyWm0xMDd5Yk1zMlR4V2dMQnBYclFlbjN3OEVvbFotNHhtLThDeTJhenllRzVsc3BtM2lEWXdndkxzam1fTmpjaERPcnYydjB6dHMtNXR6alhYem1GTDNrc3ZLdldqU2VlTVV2TC1VS3NFeWc?oc=5",
+   "published_at": "2026-07-01T07:00:00+00:00",
+   "first_seen": "2026-10-11T10:31:02.726585+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

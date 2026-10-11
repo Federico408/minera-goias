@@ -1,6 +1,6 @@
 {
  "mes": "2026-09",
- "materias": 1144,
+ "materias": 1145,
  "itens": [
   {
    "title": "Copper system larger than previously thought a welcome surprise for AZ9",
@@ -9632,6 +9632,21 @@
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
+   ]
+  },
+  {
+   "title": "Com base em Solonópole, lítio cearense reúne 30 empresas e R$ 5 mi em pesquisa - Movimento Econômico",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQT1dLVEFDWEV2T1Nuejk0emtXZ0pVOXhRWDJNcHFySmE1RDlkdzZVSlQ2dWN1NUx5TFNfYUVVZ2s1UG5CamdyWlB2eU1kOFBVcjlfUFc2QnctVTdBU19rS0lOOWt0XzRfd0UzNVNzSG9laW1pUFFWNzJraUtaUVJVT05VXzFEUzh5QUNRR01BSjRIczY4RFlRYnVxOS1OQ3F6UGVSNlZsbmNuVFpSbXk4RnlkWmJkdDdxZ0VnQ0ZMQTlfZTVhNEE0OGRncmw?oc=5",
+   "published_at": "2026-09-20T07:00:00+00:00",
+   "first_seen": "2026-10-11T10:31:01.148625+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
    ]
   },
   {
