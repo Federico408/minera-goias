@@ -1,6 +1,6 @@
 {
  "mes": "2026-09",
- "materias": 1145,
+ "materias": 1150,
  "itens": [
   {
    "title": "Copper system larger than previously thought a welcome surprise for AZ9",
@@ -4484,6 +4484,21 @@
    ]
   },
   {
+   "title": "Milei entrega terras raras da Argentina aos EUA em pacto de US$ 7 bi - Instituto Humanitas Unisinos - IHU",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdVdISGg1RmI5TkRDNC1Oek9mWGJMZG1RcHoyVnA0YXloSGotcXdCTm5QcHdIbHZiOS1iSkZULUVrV1ZmT0RMYXVMZkU2X2VlMEE5MThERXhSV2tjdWpjNk50M3ByN2ZBUE1Ta2REZ3lyYWJsOHh1U2thS25MOVFMUEd3QVVaM3RNc1pEdVZpZXBkbjRCeHd5ZS1jX1UtbHlCV0hoTmZaN1pkQVFpZ013SlJ6aw?oc=5",
+   "published_at": "2026-09-25T07:00:00+00:00",
+   "first_seen": "2026-10-12T11:35:09.151045+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Resources Top 5: Copper at centre stage as AIC Mines lands $120m deal and Anax hits high grades",
    "link": "https://stockhead.com.au/resources/resources-top-5-copper-at-centre-stage-as-aic-mines-lands-120m-deal-and-anax-hits-high-grades/",
    "published_at": "2026-09-25T06:55:34+00:00",
@@ -5551,6 +5566,51 @@
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVGllSkJCdjNDZjdJbHJXUTFzemlTN0hyekd1SG1PeGl6NVZNUXJDOXAzRzBqTXdSWlhRQlhHdHVlbmI4Rm9sN3oxSFlteHZWUTVNVmZhaVc0bHdvSlByb1BZNHotdG5zdHBEbjV2Ujdzc0x0U0RlVXFDNFFVT1hXUXI1SFFxcDQzU3IyOC10NWZodDctY3pEZ1hVbTFkQW1jYWRhZ3M2WmZJQl9XVWdwdDdPa1g3SEFudEJiY2szMkJmMi1DUTN6UTlDd2FKdE5TZDI4cjBiSdIB5gFBVV95cUxQdmRtY3lVQXpNLXJFbVVRU3pFcy16bWo2dHV5ZnhsQmlpOGNUclViVTNJX09UMzk3NjFaal9YMzVqdkpzaEJITWh3bmJPb0dLMUVma185M2V4Qm9OLUl6azBJQUhGclpuU21DMjN3bzB3MEVtVlNDX2REZEhfOUVqWmpyVGVtanBKWEpLMDZaT2V3RHNyRVYxZjlmTERVenY5bEZDcXdpbC1SS29JWDU4Um9hbXRhLXh0SnJIV2hUcWxsNVlZTmhTQ3BldHVSenQ1aGx1UFRGS2w1NjJUMlhpQ0RsUDBwZw?oc=5",
    "published_at": "2026-09-24T07:00:00+00:00",
    "first_seen": "2026-10-03T04:11:53.190062+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Dependência dos EUA de terras raras da China deve pesar sobre encontro de Trump e Xi - Valor Econômico",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPemJVV19EWVUtZlNZWTRVMUdiR01uYzdjMDBTbGpvaUVzaTlDaHQ5WkhjS3kzNDh1VV9kSGhPSWF1TWZpTzZuQWREOVotQUQtSVFNZWhicHBNa1BKT0dhSVlnbVFoUkVuVmdTelB6djdCaDNkQXUtVnhUWVFJNzZRclhpb05FQU9wV2xSMjl3eVFIY2VRdHZkakVzMVp5ZmZCYmpsa1prNmZUUEsxekxoT0w3V3R2REVpcDhVaWhYM2hfSzJmcFNtM2ljN282aWc4dXdOdw?oc=5",
+   "published_at": "2026-09-24T07:00:00+00:00",
+   "first_seen": "2026-10-12T11:35:09.153471+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "O que são terras raras e por que tão valiosas: Brasil possui a segunda maior reserva do mundo - www.jornalcruzeiro.com.br",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbjVXQnlvM0ZYQXhZZ3JFekFWYS1pT0J0ZVllQkk2d2hYZm1TMXFoaUNSMmxWcllQOEx3aE1kWDFKb1dYUzRtX0NJRzlRUW8tZ1lVQVZUYkozRGZBUXczQ0RHa0UxT0ltaHB1UUxVNG1lWjVJVjlRNmpDWnliaVdkN0JWWnJWYmQtMk16b3V4RGpFdXI5d3hySnhIZUlwTnVBVHRUNmNOSG9veE94YWpudy1SWHFHdllxSTJ5QWRXLVkxMkpheVV5bFc1NnJ1eGtqTW15dA?oc=5",
+   "published_at": "2026-09-24T07:00:00+00:00",
+   "first_seen": "2026-10-12T11:35:09.154406+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Após decisão da Justiça, Feam volta a suspender licenças da Sigma Lithium - O Fator",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX3VLTVUwOTE2U1IzSG4xTFdCVzJFUmxEdnEwSG5RVnA3TWJ2d2ZDOEFjV18yeHVXcUhlN2JHRWcyRVlnZTYxU3BhMi02RUQxMDl0SVBXTUh0dnZEWjBtWVRYWDVGbVQxSzlOdzM2YmtwVFJLN0VxeEtBOVFxU213UVJmc2lrU1ByWFd6T2U1NC1tekFCSTE5d3Q1TjB2SlNKcWg4bjVZbnpkQQ?oc=5",
+   "published_at": "2026-09-24T07:00:00+00:00",
+   "first_seen": "2026-10-12T11:35:09.689535+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -14942,7 +15002,7 @@
    "title": "USA Rare Earth conclui compra da Serra Verde por US$ 2,8 bi - Portal BE News",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYkNZQ2ZDUk9GaTl5N1FzYzg4enBhcUtNb3g5a0t5cklubXRBeVI5cjFwSW1JWVJxaVZCcDFOU3dnUUxWVWtaWHhXNzlBOGVSSlpERGlrZnFHb2dIRTBsb2h5QVN3bW1oc1F5bmx0QjBiVzVPcWhTQ3lUeWdNVl9XVHQwQ3lIeFZzRFBwbDg4V2VBQnBFRnc?oc=5",
    "published_at": "2026-09-07T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:01.763157+00:00",
+   "first_seen": "2026-10-12T11:35:07.574535+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -15730,6 +15790,21 @@
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Brazil Closes Rare Earth Legal Gap With $1.4B Law as China Suspension Clock Runs Down - Tech Times",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNalpnX1NUZ2dXQkxVYklYc3hFeFdmSUVWQTQ3cUY0T2pzNUM1S19FaHdLRjhWMzFyQXNaRVl2Tm1BcF9wYlAtWGFIalJJM0lfNDVBa2YwWVNCeExwV0lQN0V5M21keXNvRTNmc1lsOHMwRFBKZ1dVdjBaeE9TWlNUNmZYZ0RaUTZCZEpOWG1oSDZRZXlrRmRaSWlvQUNiejROaUVweU5CY0xOd09xR0JIamhnLW95N0VXWVExN25hUzIyRlNJS0ZPVWd3?oc=5",
+   "published_at": "2026-09-04T07:00:00+00:00",
+   "first_seen": "2026-10-12T11:35:11.615849+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"

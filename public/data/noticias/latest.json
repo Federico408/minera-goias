@@ -23,9 +23,39 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-10-11T10:31:04.444333+00:00",
+ "atualizado_em": "2026-10-12T11:35:13.807806+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "Goiás concentra projetos bilionários de terras raras e se torna peça-chave na disputa de empresas estrangeiras por minerais",
+   "link": "https://www.jornalopcao.com.br/ultimas-noticias/goias-concentra-projetos-bilionarios-de-terras-raras-e-se-torna-peca-chave-na-disputa-de-empresas-estrangeiras-por-minerais-878077/",
+   "published_at": "2026-10-11T14:40:17+00:00",
+   "first_seen": "2026-10-12T11:34:28.119443+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Jornal Opção",
+   "escopo": "regional",
+   "tema": "geral",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Goiás concentra projetos bilionários de terras raras e se torna peça-chave na disputa de empresas estrangeiras por minerais - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMlNFQkJRalozRkhvZml0dW9YRlQyTlREMDgtLWlXaDRUTkZXWHRnQ2tkczJrWE5xQThGWGdPTGxmWkJfSjMyOWpUTDVHVk5nVWItYXlXRmoyUDJCR2ZqYmw4Z1daQXBZMjFOcVotVWJzWG9Nd0JBeS1BOU9wZUFjUFFWODltajNoeFhhaVJob2N1QXJPTkp5ZnNRZGJLZEhmOU42QjQ5S29QTEREdE8zRWhrOVZ1NWd4RjRueFduMW0xVTBxcEt4bWMwdXRyQUhQMTVfTTRXZlhoM0JBTjZ0SGpHamloS2lndkRCbFpSQlVXbkdIb2FFZXc4V2RQQlEzVXFtSHo5REtvV2M?oc=5",
+   "published_at": "2026-10-11T14:40:00+00:00",
+   "first_seen": "2026-10-12T11:35:09.146233+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
   {
    "title": "“Cobre do meu pai” chega a Goiânia e Luziânia com apresentações gratuitas",
    "link": "https://www.jornalopcao.com.br/ultimas-noticias/cobre-do-meu-pai-chega-a-goiania-e-luziania-com-apresentacoes-gratuitas-876396/",
@@ -2061,6 +2091,19 @@
   },
   {
    "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accc5ec3e6c477fa2df7927b909423d&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
+   "published_at": "2026-05-10T18:38:00+00:00",
+   "first_seen": "2026-10-12T11:35:08.503237+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T11:25:00+00:00",
    "first_seen": "2026-09-19T19:49:02.787499+00:00",
@@ -2511,65 +2554,20 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
-  },
-  {
-   "title": "Terras raras de Goiás podem competir com a China, diz mineradora - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZUVXbkFtT0NnUHRmN05yWURVQkVVWEVkeUxhZnVXcU9UMW8wNGN0blQ3Skp4bHp1eGM3ZkxYWTNvTzJ5ZDFyNFdGWFFqaXJVbXBzbDZwaVh4S0dYS1NXQV8wd3kyWmhzRGhqRVo3el82U3NWN0hnbzhqOWxLU0c3aXBndWdrVktUclNQaVprMGw0eFFPVU55SGl0cWpQalotR0JtZXlR?oc=5",
-   "published_at": "2026-04-27T07:00:00+00:00",
-   "first_seen": "2026-10-11T10:30:57.842391+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Terras raras: Serra Verde rebate Governo Federal e garante que não exporta minério bruto de Minaçu - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPY0VIY1VoakZZbVpod09rcGFsSThxWC0xUHZZSy1WWU5jT0txSkxrUW9QVTI4TVNUTXExSDBkQjBrRjVnaXhqVTg1SnMzSmVCbnBqenFadWVzNFM1aDc2ZDVIamE0TGdIWGpTUnlDaTMzUUhOU1hldjVTa3VzRkFvRGo2T25mZS1kU1ZNb1dOemJGenlHOWQzWi1XTTV2Y3lKS3pBYVhlMmJ6NU8tTFdvNEI2SFRrRWZfMFV5M1cwUQ?oc=5",
-   "published_at": "2026-04-27T07:00:00+00:00",
-   "first_seen": "2026-10-11T10:30:57.843141+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Acordo Goiás-Estados Unidos sobre terras raras é inconstitucional - Consultor Jurídico",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS0lDdWNXQ2wydTBWQmcza3FLYWNPMVRwNWQ1YkNGU2x3aHdfQW1IaklmUm5ja3dCMUgyX3BVRWpxbGhKUEoxcmZNM3J6Q3lObWR4RWlBZ2p0cDZmVm1pRmNjSldKalpaVVhTSlBUeVR1cmpZYjlUWWpmZV9mUnk5RjMwOThnZEJrSFh5Ui1Bb3ZWOHVhZm56eDFiZEVBekQwQWpXNg?oc=5",
-   "published_at": "2026-04-26T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.107037+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
   }
  ],
  "tendencias": [],
- "total": 2850,
- "regionais": 403,
- "setoriais": 2850,
- "regionais_setoriais": 403,
+ "total": 2904,
+ "regionais": 412,
+ "setoriais": 2904,
+ "regionais_setoriais": 412,
  "fontes_vivas": 62,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 901,
-  "ouro": 489,
-  "litio": 272,
-  "cobre": 193,
+  "terras_raras": 922,
+  "ouro": 502,
+  "litio": 277,
+  "cobre": 201,
   "niquel": 110,
   "uranio": 52,
   "niobio": 19,
@@ -2579,32 +2577,32 @@
  "meses": [
   {
    "mes": "2026-10",
-   "materias": 514,
-   "novas": 13,
-   "regionais": 6,
-   "setoriais": 514,
-   "regionais_setoriais": 6
+   "materias": 552,
+   "novas": 38,
+   "regionais": 8,
+   "setoriais": 552,
+   "regionais_setoriais": 8
   },
   {
    "mes": "2026-09",
-   "materias": 1145,
-   "novas": 1,
+   "materias": 1150,
+   "novas": 5,
    "regionais": 39,
-   "setoriais": 1145,
+   "setoriais": 1150,
    "regionais_setoriais": 39
   },
   {
    "mes": "2026-08",
-   "materias": 272,
-   "novas": 1,
+   "materias": 274,
+   "novas": 2,
    "regionais": 46,
-   "setoriais": 272,
+   "setoriais": 274,
    "regionais_setoriais": 46
   },
   {
    "mes": "2026-07",
    "materias": 105,
-   "novas": 2,
+   "novas": 0,
    "regionais": 15,
    "setoriais": 105,
    "regionais_setoriais": 15
@@ -2619,18 +2617,18 @@
   },
   {
    "mes": "2026-05",
-   "materias": 112,
+   "materias": 113,
    "novas": 1,
-   "regionais": 49,
-   "setoriais": 112,
-   "regionais_setoriais": 49
+   "regionais": 50,
+   "setoriais": 113,
+   "regionais_setoriais": 50
   },
   {
    "mes": "2026-04",
-   "materias": 113,
-   "novas": 4,
+   "materias": 115,
+   "novas": 2,
    "regionais": 49,
-   "setoriais": 113,
+   "setoriais": 115,
    "regionais_setoriais": 49
   },
   {
@@ -2644,7 +2642,7 @@
   {
    "mes": "2026-02",
    "materias": 35,
-   "novas": 1,
+   "novas": 0,
    "regionais": 4,
    "setoriais": 35,
    "regionais_setoriais": 4
@@ -2659,30 +2657,30 @@
   },
   {
    "mes": "2025-12",
-   "materias": 65,
+   "materias": 68,
    "novas": 3,
-   "regionais": 52,
-   "setoriais": 65,
-   "regionais_setoriais": 52
+   "regionais": 55,
+   "setoriais": 68,
+   "regionais_setoriais": 55
   },
   {
    "mes": "2025-11",
-   "materias": 16,
+   "materias": 17,
    "novas": 1,
-   "regionais": 10,
-   "setoriais": 16,
-   "regionais_setoriais": 10
+   "regionais": 11,
+   "setoriais": 17,
+   "regionais_setoriais": 11
   },
   {
    "mes": "anteriores",
-   "materias": 324,
+   "materias": 326,
    "novas": 2,
-   "regionais": 101,
-   "setoriais": 324,
-   "regionais_setoriais": 101
+   "regionais": 103,
+   "setoriais": 326,
+   "regionais_setoriais": 103
   }
  ],
- "descartadas": 7704,
+ "descartadas": 7958,
  "veiculos": 49,
  "coleta_desde": "2026-09",
  "janela": "2025-11"
