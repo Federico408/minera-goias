@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 274,
+ "materias": 275,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -2463,21 +2463,6 @@
    "substancias": []
   },
   {
-   "title": "Mineradoras estrangeiras detêm 4 a cada 10 projetos de terras raras no país - Nexo Jornal",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM0tiQ1NTVkVFckc1b1FBLS1mUVlpZGVXV2ZCblpORTlzaUNHTEJKRFJGUjZwbGpGbjJVSHVIZ0VxRDlyM0NVelJ2V1MzcDZpc3doWl95dU1uYkJ3TTJUUzFSVF95Z013b1Z3ZTM4NGhzZktpSUgxQzFJUU53bUFyeHpVbXM5cDFZcDAwR1l1MUVIRFpRWkdod2xPR21sQWVtMDNB?oc=5",
-   "published_at": "2026-08-20T16:58:37+00:00",
-   "first_seen": "2026-09-19T19:49:01.797767+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 1,
-   "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
    "title": "Op-Ed: Europe wants critical minerals, just not the mines",
    "link": "https://www.mining.com/op-ed-europe-wants-critical-minerals-just-not-the-mines/",
    "published_at": "2026-08-20T16:22:45+00:00",
@@ -2517,6 +2502,21 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Mineradoras estrangeiras detêm 4 a cada 10 projetos de terras raras no país - Nexo Jornal",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM0tiQ1NTVkVFckc1b1FBLS1mUVlpZGVXV2ZCblpORTlzaUNHTEJKRFJGUjZwbGpGbjJVSHVIZ0VxRDlyM0NVelJ2V1MzcDZpc3doWl95dU1uYkJ3TTJUUzFSVF95Z013b1Z3ZTM4NGhzZktpSUgxQzFJUU53bUFyeHpVbXM5cDFZcDAwR1l1MUVIRFpRWkdod2xPR21sQWVtMDNB?oc=5",
+   "published_at": "2026-08-20T07:00:00+00:00",
+   "first_seen": "2026-10-13T11:21:10.723076+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "ANM conclui avaliação da CFEM e prepara repasses mais dinâmicos a municípios afetados pela mineração - Revista Amazônia",
@@ -3769,6 +3769,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5c5d5c34a42689cbd2b7ee70dd042&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
    "published_at": "2026-08-05T03:20:00+00:00",
    "first_seen": "2026-10-07T04:08:53.676212+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace1429165448e9822c71aa19c64ca0&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
+   "published_at": "2026-08-05T03:20:00+00:00",
+   "first_seen": "2026-10-13T11:21:13.355544+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,

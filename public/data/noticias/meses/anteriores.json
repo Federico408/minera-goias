@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 326,
+ "materias": 330,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - diariodocomercio.com.br",
@@ -1087,6 +1087,21 @@
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace1429165448e9822c71aa19c64ca0&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
+   "published_at": "2025-06-02T00:00:00+00:00",
+   "first_seen": "2026-10-13T11:21:13.358760+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab89686037b4cbb9d163f724403ec19&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-09-27T04:07:35.144000+00:00",
@@ -1339,6 +1354,34 @@
    "substancias": [
     "ouro"
    ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace1429165448e9822c71aa19c64ca0&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-13T11:21:13.353582+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ace1429165448e9822c71aa19c64ca0&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-13T11:21:13.356273+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Projeto Santa Anna atrai capital estrangeiro e projeta Goiás como nova fronteira em minerais críticos - Estadão Blue Studio",
@@ -4138,6 +4181,21 @@
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONkdsdk90ME9seWJ0ZUxmb2t0S2FjeExCdVlzQjF5U3AwM0N2WXpGLURHX1VqT2N2SmF6eWVpOGY2TDVPLWJuRnNlNG4wS0lTS1c1RENaUEc1RjNxY1JwNHRKazNKcnRXRVBjWF8tMi1ncHN2bjBZUXZFeU03OU43bThxNGJTVHJmUVljeFFnQlkzX0FvNnMxM0FqT0hwOXVlQ0Z6UkVDaGFOdWU1eEx2VVpORXPSAboBQVVfeXFMT001SUJoQmZkTC1XUTBRWk5vZTZ0U0ZBTXBEZ0tWVnNTSEx6NDFKd3lsYW1jckdjQU1lbzdoQUtJYU1mZWhhVC1vM3RlZWlYWXpWUlBDVHFBbUpsSDY1QUVncXh5WlNIOVVqYWZMSU9nbGlyQnBuNUk4dzlMNVR4eXdIWTczOEtQc1NldEFsUXdyVWEzMXRzNDJITjJSZV9aUjhFVFd4S1JPX1VmVjd3a2NNYUhLWFljaVdn?oc=5",
    "published_at": "2019-04-15T07:00:00+00:00",
    "first_seen": "2026-09-23T04:07:34.042843+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "fosfato"
+   ]
+  },
+  {
+   "title": "Mosaic suspends phosphate mines in Brazil after new dam rules, Reuters report - Global Mining Review",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOa2xXekVzRC1VVWVvcXZpcHRBc0lneDkyakpuTXdfRlNRdDZCcEh5NzNGMzZEMHZiOUFWckRENS1reS1ubjNSQmhMeDZNYzRGT0pMUGtjUjF3dUR4dTFNb3VfYlN1cUJiVDdEN215eFpRU1JSRFMwSnM1Z3NXTEM4Q1RTU2p2aE5UbzZNX0I3eXI5ODRjTjRLRFFJRkRmWXhDYnJaSzFxcG9CZUpoU3hGeGtOTTZvdDZscWZZdmpKZTBsOHYyM2hz0gHMAUFVX3lxTFBxeGpPSXQxYXFWUl9nXzhwSUpuWlNxcEJfSGFSU3BsZHNCTHQwWklzLU9RbEY2UU9xOVRjQUpyWmhEdTlGdU4wNWFiMWtyOVZwSHVKTUk3LVRVRkl2RGxXdXAxRTYtTDJ2djAyMDZNYzNybnA1NDI1b1VEbDNfb1dPaE5EMlVUSDZWUTh0czA5bHdGSEkzVmlTVnlWeXU3VzBRakdaX1RwQWRoczRjaGlmNEg2SGk0WXMzLXpZM09XaUtJaGVueWNLUV8xcQ?oc=5",
+   "published_at": "2019-04-15T07:00:00+00:00",
+   "first_seen": "2026-10-13T11:21:16.779220+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
