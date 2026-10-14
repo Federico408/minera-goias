@@ -23,7 +23,7 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-10-13T11:21:18.095297+00:00",
+ "atualizado_em": "2026-10-14T09:13:40.127778+00:00",
  "ultima_execucao": "partial",
  "itens": [
   {
@@ -529,6 +529,19 @@
    "regiao_termo": "catalao",
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Relatório da ANM levanta hipótese de drenagem ácida em mina da Lundin em Goiás, mas vistoria de três órgãos não coletou amostras - Observatório da Mineração",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPTzk0bnczeE55Z1lMbjBib1Vha2pFUEFFcGhMLVdMZWxMYzh4WlVieTZDVi1hY2twUGxsaFMzdjQtWnZxaUFOM2lIbGNRWVdsOXNhd2p0MVg3LU5zT1hHZ3JVN1pldHdqVTlBWGp3VG43dExZSG9WRTFVQTY1eFczd29kRWNlZlJoMG16VFBXaEtWZ2pjY3VicEI0THk5dG0ySDNLWlFCRXFEOTZmUldqXzVZVlhwQWhkdHliZmRSYkplOGk3UlBWSk5hUHRQTFJRTFdkXzlGQnp2X2tJMHNLSmdMUlRTcHpLQkRPTXUxZF8wM0xEU05WMklUZw?oc=5",
+   "published_at": "2026-09-08T12:01:58+00:00",
+   "first_seen": "2026-10-14T09:13:33.688133+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
@@ -2132,6 +2145,19 @@
   },
   {
    "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acf47bf3a5d48f59fb6ddfb7061533f&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
+   "published_at": "2026-05-10T18:38:00+00:00",
+   "first_seen": "2026-10-14T09:13:36.031553+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T11:25:00+00:00",
    "first_seen": "2026-09-19T19:49:02.787499+00:00",
@@ -2530,83 +2556,55 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Terras raras: após críticas, Serra Verde afirma que não exporta minério bruto de mina em Goiás",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6abf2e47aa114e6183356dd4d3e39449&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f04%2f28%2fterras-raras-serra-verde-afirma-que-nao-exporta-minerio-bruto-de-mina-de-goias.ghtml&c=10158231394218707355&mkt=en-us",
-   "published_at": "2026-04-28T05:24:00+00:00",
-   "first_seen": "2026-10-02T04:08:40.057966+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Goiás defende acordo com EUA para exploração de minerais críticos - Portal IN - Pompeu Vasconcelos - Balada IN",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUWU0MlBhOUlHZmw5TkVKLWRFN1o4T2ZXTkhOc0M4cDRuakpid3REaFFJYlBUUUwwdXFwTlVJZnNLXzRzVjBqZlJVMkZMQUtGTEcxNnF6ampia0RiUWVONGdKck1ERlZXbXVEV09tZ2drUENMSG5DQTlubVpvdDBXWlgyQkFZNVBYRm1lZ2tnSjVmcndyTG1nZlRsZ2NZcm90UlNDSW5B?oc=5",
-   "published_at": "2026-04-27T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.146570+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   }
  ],
  "tendencias": [],
- "total": 2967,
- "regionais": 421,
- "setoriais": 2967,
- "regionais_setoriais": 421,
+ "total": 3045,
+ "regionais": 429,
+ "setoriais": 3045,
+ "regionais_setoriais": 429,
  "fontes_vivas": 62,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 941,
-  "ouro": 522,
-  "litio": 280,
-  "cobre": 206,
-  "niquel": 110,
+  "terras_raras": 955,
+  "ouro": 546,
+  "litio": 283,
+  "cobre": 220,
+  "niquel": 113,
   "uranio": 53,
   "niobio": 21,
   "fosfato": 12,
-  "energia_eletrica": 5
+  "energia_eletrica": 6
  },
  "meses": [
   {
    "mes": "2026-10",
-   "materias": 601,
-   "novas": 49,
+   "materias": 665,
+   "novas": 64,
    "regionais": 8,
-   "setoriais": 601,
+   "setoriais": 665,
    "regionais_setoriais": 8
   },
   {
    "mes": "2026-09",
-   "materias": 1152,
-   "novas": 2,
-   "regionais": 39,
-   "setoriais": 1152,
-   "regionais_setoriais": 39
+   "materias": 1155,
+   "novas": 3,
+   "regionais": 40,
+   "setoriais": 1155,
+   "regionais_setoriais": 40
   },
   {
    "mes": "2026-08",
-   "materias": 275,
+   "materias": 276,
    "novas": 1,
    "regionais": 47,
-   "setoriais": 275,
+   "setoriais": 276,
    "regionais_setoriais": 47
   },
   {
    "mes": "2026-07",
    "materias": 106,
-   "novas": 1,
+   "novas": 0,
    "regionais": 15,
    "setoriais": 106,
    "regionais_setoriais": 15
@@ -2621,24 +2619,24 @@
   },
   {
    "mes": "2026-05",
-   "materias": 115,
+   "materias": 117,
    "novas": 2,
-   "regionais": 52,
-   "setoriais": 115,
-   "regionais_setoriais": 52
+   "regionais": 53,
+   "setoriais": 117,
+   "regionais_setoriais": 53
   },
   {
    "mes": "2026-04",
-   "materias": 115,
-   "novas": 0,
+   "materias": 117,
+   "novas": 2,
    "regionais": 49,
-   "setoriais": 115,
+   "setoriais": 117,
    "regionais_setoriais": 49
   },
   {
    "mes": "2026-03",
    "materias": 49,
-   "novas": 1,
+   "novas": 0,
    "regionais": 17,
    "setoriais": 49,
    "regionais_setoriais": 17
@@ -2661,31 +2659,31 @@
   },
   {
    "mes": "2025-12",
-   "materias": 70,
-   "novas": 2,
-   "regionais": 57,
-   "setoriais": 70,
-   "regionais_setoriais": 57
+   "materias": 73,
+   "novas": 3,
+   "regionais": 60,
+   "setoriais": 73,
+   "regionais_setoriais": 60
   },
   {
    "mes": "2025-11",
-   "materias": 18,
+   "materias": 19,
    "novas": 1,
-   "regionais": 12,
-   "setoriais": 18,
-   "regionais_setoriais": 12
+   "regionais": 13,
+   "setoriais": 19,
+   "regionais_setoriais": 13
   },
   {
    "mes": "anteriores",
-   "materias": 330,
-   "novas": 4,
-   "regionais": 105,
-   "setoriais": 330,
-   "regionais_setoriais": 105
+   "materias": 332,
+   "novas": 2,
+   "regionais": 107,
+   "setoriais": 332,
+   "regionais_setoriais": 107
   }
  ],
- "descartadas": 8236,
- "veiculos": 49,
+ "descartadas": 8585,
+ "veiculos": 50,
  "coleta_desde": "2026-09",
  "janela": "2025-11"
 }

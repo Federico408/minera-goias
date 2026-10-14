@@ -1,6 +1,6 @@
 {
  "mes": "2026-09",
- "materias": 1152,
+ "materias": 1155,
  "itens": [
   {
    "title": "Copper system larger than previously thought a welcome surprise for AZ9",
@@ -1009,6 +1009,21 @@
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
+   ]
+  },
+  {
+   "title": "ANM interdita parte da mina de lítio da Sigma em MG por risco iminente em área da operação - Brasil 247",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbElqZ0t4UFVDZFI1QTloYjQ2VlRSang1M0Q5Y3g5bWNlbEJqWHhia2Y5eUo3MkQ5dVEzYWFUOGxsTUM3enlIejdRdXlScmdfYmt3WFlsXzB6TDBSYUdyM3JDWG9tM2pYZEV2MmlUWF9xV2hHLWhKUDBmYnc1UndmTVBsVFY0YkJWSjlQRHd3OXd4eTRlaEJBVURFaWdqXzlsZC1ZdTJsUXlXSzAwUGgxLVk4aHVzcWNfQUZfRmhiWDZzZjQ?oc=5",
+   "published_at": "2026-09-30T07:00:00+00:00",
+   "first_seen": "2026-10-14T09:13:36.902039+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
    ]
   },
   {
@@ -14437,6 +14452,19 @@
    ]
   },
   {
+   "title": "Relatório da ANM levanta hipótese de drenagem ácida em mina da Lundin em Goiás, mas vistoria de três órgãos não coletou amostras - Observatório da Mineração",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPTzk0bnczeE55Z1lMbjBib1Vha2pFUEFFcGhMLVdMZWxMYzh4WlVieTZDVi1hY2twUGxsaFMzdjQtWnZxaUFOM2lIbGNRWVdsOXNhd2p0MVg3LU5zT1hHZ3JVN1pldHdqVTlBWGp3VG43dExZSG9WRTFVQTY1eFczd29kRWNlZlJoMG16VFBXaEtWZ2pjY3VicEI0THk5dG0ySDNLWlFCRXFEOTZmUldqXzVZVlhwQWhkdHliZmRSYkplOGk3UlBWSk5hUHRQTFJRTFdkXzlGQnp2X2tJMHNLSmdMUlRTcHpLQkRPTXUxZF8wM0xEU05WMklUZw?oc=5",
+   "published_at": "2026-09-08T12:01:58+00:00",
+   "first_seen": "2026-10-14T09:13:33.688133+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Mineradora canadense anuncia parceria com Japão para explorar terras raras no Brasil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaed54effa44ed8a7cd8677eb9fc691&url=https%3a%2f%2finvestnews.com.br%2fnegocios%2fmineradora-canadense-anuncia-parceria-com-japao-para-explorar-terras-raras-no-brasil%2f&c=9529335753394056207&mkt=pt-br",
    "published_at": "2026-09-08T07:59:00+00:00",
@@ -16342,6 +16370,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Brazil’s Senate passes rare earth minerals regulation, paving the way for boosted exploration - WTOP News",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbzV2Y1N2VmU0Qnc5OUdVcHJDYzFNMUljOGxBYUFBdWJfVll0RzdzX3ZHYXliLUVtNTFsWEV6X1BDQm9wTEhfWWFqVlM4OEw1eFZ3TlE4ZFRGYUxwbC1RWGYzZ2UxN0I3aXhwLUtNUS1Pc3plcHBHTk5zY0x2bTB5S1RKSEdKdUpzMDFIcXZBaUFyN3c5bV8yRzNIQks0SFFSUEhHZEFCZ1lpS2xSRUJwa0I2WVE5ZXM2UE1QYURxOWc?oc=5",
+   "published_at": "2026-09-03T07:00:00+00:00",
+   "first_seen": "2026-10-14T09:13:38.625912+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Greenland Mines closes acquisition of Sarfartoq rare earth magnet project",
