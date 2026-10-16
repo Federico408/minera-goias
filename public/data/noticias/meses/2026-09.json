@@ -1,6 +1,6 @@
 {
  "mes": "2026-09",
- "materias": 1156,
+ "materias": 1157,
  "itens": [
   {
    "title": "Copper system larger than previously thought a welcome surprise for AZ9",
@@ -11922,6 +11922,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Sedgman named preferred contractor for Colossus Rare Earth Project - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVnpqYjk0cW9QTG95UzRUazE5LTF6Si0wTEVhNGFIZXAtVDdZSEVUMDZVM2o0M3FEaUtRUmxTem5UZjhGUjRSaGppaEZBM2FEUXhmdmFVYTFKd1NLeGNrUlV5UDdaNXJsY251cC1qbFBHQ3lWcHlwZi01UVlNMERlaUNObUMzWm00NzNpb3lYb3h2U3R6aWNrWW1aZ2JrZ1BiZlE?oc=5",
+   "published_at": "2026-09-17T07:00:00+00:00",
+   "first_seen": "2026-10-16T08:42:09.369363+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Resources Top 5: Latrobe scores US$15m magnesium backing as Arrow eyes iron ore next to Rio",

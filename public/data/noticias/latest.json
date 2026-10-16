@@ -23,9 +23,22 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-10-15T08:46:31.287040+00:00",
+ "atualizado_em": "2026-10-16T08:42:11.688336+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "EMPREGOS – Lundin Mining Brasil abre vagas técnicas e operacionais para a Mina Chapada em Alto Horizonte - Excelência Notícias",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNaDA4M3hwZVVCUExFQmdTWEpWbHVDSHJreGxLZS1uWF9fVUZkRzY2NktBQVNBSXZXT3oyR214cUxrVjhLdDh1eW44YnVHLWIyTnk5QnNlaXpfV2IyckxhU0RPeU1GQk9KeHhIWElHWThoRnNFM3ZpYWFMT0pYaHJPaktxWmxjeENGcnUyUV82czZrWDFmbkQ3VEN4emJ6X2tTbzhqd1VkbWx6cldlcU0yS3hoQV9OT0ZVTzVIbEJtV21vRE1CZjhpODMxY24yRXBjQ1Z0RUZWdmpEWVJNaU1qT3pR?oc=5",
+   "published_at": "2026-10-16T03:01:09+00:00",
+   "first_seen": "2026-10-16T08:42:04.000845+00:00",
+   "regional": 1,
+   "regiao_termo": "alto horizonte",
+   "setorial": 1,
+   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
   {
    "title": "Deputada quer Iporá debatendo os efeitos das terras raras - Oeste Goiano",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPT2ZpTllmME1EWXJsQ2NxZ2xJUFVNRGhfMjRxOTA0WW1WNVVCQjd0aE1EaHdCMzdrM253MDVieTEyeXNKTmdGbkI3VUtLN2xEektjajdQSUhERHl3ekY4ZWptcGFrcVRwb3lBVzFRNTAtNVc5ZThvVWZHOEhHc3lQUmJrM29fbzVCR1YwTUFjRkM3RFBRd05wQm93?oc=5",
@@ -1374,6 +1387,21 @@
    ]
   },
   {
+   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1e35dc498422389a80eb5ecac7565&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
+   "published_at": "2026-08-05T03:20:00+00:00",
+   "first_seen": "2026-10-16T08:42:05.949884+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Goiás aprova política sustentável para impulsionar a mineração de terras raras; entenda o impacto para o estado - Jornal Opção",
    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSEZGZkE5eTd4YURxa0ZHeVdfU3UybVl5aEdmb1plMmU5eGs2azJNQ2FiMFptZXhmVDdmbF9heHNMb25VcWc1VnJhQWVoSXl2akUzdGFJdnBMb011ZmFWeUswbmZWMHlWWGxZNUxVbENIVTJxSmg3Yk4xQmE1dlBWekNkMEdJNHl4T2poTGxTZDczUTRZTkRpY3B4Y2ZDdW8tNWZ2QjFXWEFJekJFWmpySkpGYjdkTUVXVHRqNUJVQWhJeHhZVjZrdEF3SHRMNE82eWIyY1daQWpqSHMtX3JyRGQwOFNETkJEb29ISW81RTVpdktURmEza1dB?oc=5",
    "published_at": "2026-08-04T07:00:00+00:00",
@@ -2201,6 +2229,19 @@
   },
   {
    "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1e35dc498422389a80eb5ecac7565&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
+   "published_at": "2026-05-10T18:38:00+00:00",
+   "first_seen": "2026-10-16T08:42:05.944910+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T11:25:00+00:00",
    "first_seen": "2026-09-19T19:49:02.787499+00:00",
@@ -2438,6 +2479,21 @@
    ]
   },
   {
+   "title": "Ação judicial em Goiás quer barrar venda da Serra Verde à USA Rare Earth",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad1e35dc498422389a80eb5ecac7565&url=https%3a%2f%2fnoticias.r7.com%2feconomia%2facao-judicial-em-goias-quer-barrar-venda-da-serra-verde-a-usa-rare-earth-08052026%2f&c=5663708956694819986&mkt=en-us",
+   "published_at": "2026-05-08T08:17:00+00:00",
+   "first_seen": "2026-10-16T08:42:05.946838+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Terras raras colocam Goiás no centro da disputa global por minerais estratégicos - Blog do Badiinho",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02eW9FMnRCVGdrTkpaUmJBdXo5R19hT1hKeW9GMjRYR25nRTRpTUVielRMQkhoVU10UW9oOUwtN01mQUJwT2w5V3lHVmMtbHZDTFRfY1duMWE1RmF5TlMxMXpONGN2eG5VdnBsNkRKa2wwVmJGMnlQMdIBfkFVX3lxTE9SaWVCSTM3bloyenFuZ0tmOUc3Q2ppOXNjc2Ita2ZvOGJqbmU3SjJWSFMwMmtJQ1RSZmEtYUh3dFBNV19XbVFxZnd3SkNjZTVqa1pCS2NpX3lhV2JsSlE2X1lQNHlCa005Z1pyaW5obDN1SnJoQWxMWGV1aDBKdw?oc=5",
    "published_at": "2026-05-08T07:00:00+00:00",
@@ -2496,113 +2552,55 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "MINA DE TALENTOS 2026 – Anglo American abre vagas de estágio em Niquelândia e em Barro Alto - Excelência Notícias",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMjFVZC02OFZFM1l0UDNCVGdqZEZxTl9SOUJvaU8xb2RWV1lpVmI0dmpLMGlyU1BqaURxN1VRS2RGVHlKV3NXRGNJNERVaFJPV0tWUDZlSjVJc21GeV92SW9HU1VtMXNRMmNfb2J5N3hsRmJ6SVFWUUFlOTJ0SEtZeWlRZ2Y4WkdZOVhJQ3F4Qmg2a2dzMy1qcnJIdmZMTjZLNW8zdFZXaV9tVkpCNE1ncmR2RVlXbWVBZXd3VWlVWFRPWWd4T3c1bnFYZXdCZVBC?oc=5",
-   "published_at": "2026-05-06T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:28.182311+00:00",
-   "regional": 1,
-   "regiao_termo": "barro alto",
-   "setorial": 1,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Operação da única mina de terras raras do Brasil impacta córregos em Goiás - Instituto Humanitas Unisinos - IHU",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNHYzZXZiQVpoQlZTWDFNRTlSVHg1WlBpazctVmRpTzRycDdja1FmdzMzckhDMnlBRkNoY3Mwb2k1b25QdFNOUTNOWnZfNVJqUmRkdkdiRjF5Y1h2SzRlRTdCcmhuUDZQZW1qdGc0QUFMeElsUWcyQjdNTUlQVjN0WUV2SnVOdnZiZlBsdS01b2NhRmQ2dUcxZ2YybFkzRVhPTGZVU1QyUkUya0RuMEtXZzdZZ1VVRFk?oc=5",
-   "published_at": "2026-05-05T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.112666+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Única mineradora de terras raras do Brasil é autuada por poluir rios em Goiás; multa chega a R$ 12,5 milhões - Goiás 246",
-   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOWThmZDlaRkRVazVMeS1xZzNKaWRua05MdXp3cDBlRFVpOElsWjZQaFp3Yms3UEtFMm1OOUJxWHBpQUNtZ2RzY001T05HZ3RoZ0wwWFNuUlRsUzV0YllzSnZQSVpDV09faXlxNTVSdHVBS2ZNSDV5Ul9uYmdJTkFCTldDQXZRT1RhZ1d1d1BPVFRxa1Y1S3ZDa1haUWZPOUxtd2xobk9HTjc2N0t6YjJ6UWF2cHJoNnlRQmpvVTYyNFhVX0RGbzhzZWhMM2FfRkZCeWttdmZ2Y1JhazNSaHZHZFhvVVNWS1hyLXNJUXJ4YlRXMEprMVdWcHZ3?oc=5",
-   "published_at": "2026-05-05T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.149434+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Terras raras: Serra Verde impacta córregos em Goiás, diz análise de órgão ambiental - brasildefato.com.br",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZjE3NWdybTVPVDdocDBfeURqNGwzWjFzLTBTQWpsVjRiWVh0dHJhVHJDWXhwU1V5WGVZOXBSbmRuU2UtNU0tQVlZZERhQnpxd0JEMk40WVp6WGkxNElkNTZwWEo3eXEzVVh5QnQzRkQwTElBWjlKU0ZMbHVnZ19iaVB5ejJJTVNZQVZoYUJOeWw2T2ItYlJBSXFFOWtBaEJLUHVlU2dWWnpzbkF2dzZwNjR0OXA0RFJWd2lvdm4wLXRuSE0?oc=5",
-   "published_at": "2026-05-04T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.105020+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
   }
  ],
  "tendencias": [],
- "total": 3139,
- "regionais": 438,
- "setoriais": 3139,
- "regionais_setoriais": 438,
+ "total": 3274,
+ "regionais": 447,
+ "setoriais": 3274,
+ "regionais_setoriais": 447,
  "fontes_vivas": 62,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 981,
-  "ouro": 574,
-  "litio": 286,
-  "cobre": 236,
+  "terras_raras": 1005,
+  "ouro": 605,
+  "litio": 293,
+  "cobre": 255,
   "niquel": 115,
-  "uranio": 53,
-  "niobio": 22,
+  "uranio": 54,
+  "niobio": 25,
   "fosfato": 12,
   "energia_eletrica": 6
  },
  "meses": [
   {
    "mes": "2026-10",
-   "materias": 746,
-   "novas": 81,
-   "regionais": 9,
-   "setoriais": 746,
-   "regionais_setoriais": 9
+   "materias": 830,
+   "novas": 84,
+   "regionais": 10,
+   "setoriais": 830,
+   "regionais_setoriais": 10
   },
   {
    "mes": "2026-09",
-   "materias": 1156,
+   "materias": 1157,
    "novas": 1,
    "regionais": 40,
-   "setoriais": 1156,
+   "setoriais": 1157,
    "regionais_setoriais": 40
   },
   {
    "mes": "2026-08",
-   "materias": 277,
-   "novas": 1,
-   "regionais": 48,
-   "setoriais": 277,
-   "regionais_setoriais": 48
+   "materias": 280,
+   "novas": 3,
+   "regionais": 49,
+   "setoriais": 280,
+   "regionais_setoriais": 49
   },
   {
    "mes": "2026-07",
    "materias": 107,
-   "novas": 1,
+   "novas": 0,
    "regionais": 15,
    "setoriais": 107,
    "regionais_setoriais": 15
@@ -2617,70 +2615,70 @@
   },
   {
    "mes": "2026-05",
-   "materias": 119,
-   "novas": 2,
-   "regionais": 55,
-   "setoriais": 119,
-   "regionais_setoriais": 55
+   "materias": 122,
+   "novas": 3,
+   "regionais": 57,
+   "setoriais": 122,
+   "regionais_setoriais": 57
   },
   {
    "mes": "2026-04",
-   "materias": 117,
-   "novas": 0,
+   "materias": 118,
+   "novas": 1,
    "regionais": 49,
-   "setoriais": 117,
+   "setoriais": 118,
    "regionais_setoriais": 49
   },
   {
    "mes": "2026-03",
-   "materias": 49,
-   "novas": 0,
+   "materias": 50,
+   "novas": 1,
    "regionais": 17,
-   "setoriais": 49,
+   "setoriais": 50,
    "regionais_setoriais": 17
   },
   {
    "mes": "2026-02",
-   "materias": 35,
-   "novas": 0,
+   "materias": 38,
+   "novas": 3,
    "regionais": 4,
-   "setoriais": 35,
+   "setoriais": 38,
    "regionais_setoriais": 4
   },
   {
    "mes": "2026-01",
    "materias": 26,
-   "novas": 1,
+   "novas": 0,
    "regionais": 1,
    "setoriais": 26,
    "regionais_setoriais": 1
   },
   {
    "mes": "2025-12",
-   "materias": 75,
+   "materias": 77,
    "novas": 2,
-   "regionais": 62,
-   "setoriais": 75,
-   "regionais_setoriais": 62
+   "regionais": 64,
+   "setoriais": 77,
+   "regionais_setoriais": 64
   },
   {
    "mes": "2025-11",
-   "materias": 20,
+   "materias": 21,
    "novas": 1,
-   "regionais": 14,
-   "setoriais": 20,
-   "regionais_setoriais": 14
+   "regionais": 15,
+   "setoriais": 21,
+   "regionais_setoriais": 15
   },
   {
    "mes": "anteriores",
-   "materias": 336,
-   "novas": 4,
-   "regionais": 109,
-   "setoriais": 336,
-   "regionais_setoriais": 109
+   "materias": 372,
+   "novas": 36,
+   "regionais": 111,
+   "setoriais": 372,
+   "regionais_setoriais": 111
   }
  ],
- "descartadas": 8969,
+ "descartadas": 9330,
  "veiculos": 50,
  "coleta_desde": "2026-09",
  "janela": "2025-11"
