@@ -1,6 +1,6 @@
 {
  "mes": "2026-09",
- "materias": 1160,
+ "materias": 1161,
  "itens": [
   {
    "title": "Copper system larger than previously thought a welcome surprise for AZ9",
@@ -10860,6 +10860,19 @@
    "substancias": [
     "litio"
    ]
+  },
+  {
+   "title": "Cruzamento eletrônico entre DIEF-CFEM e notas fiscais entra em vigor em novembro - Sistema FENACON",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDN2d3NLWWZNWTEtMUYwZ1JLUnMwbGFYMEdtQXFzY0JYcmFoSHJ5OWRRZmtrWlVYT2pPSUd4RlhjWmNVMWN5c0ZXd203dFdLYlVZRm9WQmlKVm52TmItcE9jQmFMdTlRdXdCcFJCWXJsLVJlcnotT213UEFzZGpINlNKU3BnX2lnNWQwVVZORDhPOHBaM0dHQ0k0eGx4em5NajJXdFhNZDU1SjlySUs3bTk1Yw?oc=5",
+   "published_at": "2026-09-18T07:00:00+00:00",
+   "first_seen": "2026-10-18T08:29:34.792487+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Resources Top 5: Arrow expanding iron ore coverage, Encounter hits highest niobium grade yet",

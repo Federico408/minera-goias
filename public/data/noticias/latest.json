@@ -23,7 +23,7 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-10-17T08:12:47.768396+00:00",
+ "atualizado_em": "2026-10-18T08:29:37.754092+00:00",
  "ultima_execucao": "partial",
  "itens": [
   {
@@ -2315,6 +2315,19 @@
   },
   {
    "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad4836d13904b0cb5483971bbedf074&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
+   "published_at": "2026-05-10T18:38:00+00:00",
+   "first_seen": "2026-10-18T08:29:33.424819+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T11:25:00+00:00",
    "first_seen": "2026-09-19T19:49:02.787499+00:00",
@@ -2535,33 +2548,18 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Ação judicial em Goiás quer barrar venda da Serra Verde à USA Rare Earth",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad092e210f441e5b6385082b502b74d&url=https%3a%2f%2fnoticias.r7.com%2feconomia%2facao-judicial-em-goias-quer-barrar-venda-da-serra-verde-a-usa-rare-earth-08052026%2f&c=5663708956694819986&mkt=en-us",
-   "published_at": "2026-05-08T08:17:00+00:00",
-   "first_seen": "2026-10-15T08:46:26.904355+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
   }
  ],
  "tendencias": [],
- "total": 3339,
- "regionais": 458,
- "setoriais": 3339,
- "regionais_setoriais": 458,
- "fontes_vivas": 62,
+ "total": 3357,
+ "regionais": 466,
+ "setoriais": 3357,
+ "regionais_setoriais": 466,
+ "fontes_vivas": 61,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 1026,
-  "ouro": 616,
+  "terras_raras": 1035,
+  "ouro": 620,
   "litio": 295,
   "cobre": 265,
   "niquel": 117,
@@ -2573,24 +2571,24 @@
  "meses": [
   {
    "mes": "2026-10",
-   "materias": 883,
-   "novas": 53,
+   "materias": 891,
+   "novas": 8,
    "regionais": 13,
-   "setoriais": 883,
+   "setoriais": 891,
    "regionais_setoriais": 13
   },
   {
    "mes": "2026-09",
-   "materias": 1160,
-   "novas": 3,
+   "materias": 1161,
+   "novas": 1,
    "regionais": 40,
-   "setoriais": 1160,
+   "setoriais": 1161,
    "regionais_setoriais": 40
   },
   {
    "mes": "2026-08",
    "materias": 281,
-   "novas": 1,
+   "novas": 0,
    "regionais": 50,
    "setoriais": 281,
    "regionais_setoriais": 50
@@ -2613,11 +2611,11 @@
   },
   {
    "mes": "2026-05",
-   "materias": 124,
+   "materias": 126,
    "novas": 2,
-   "regionais": 59,
-   "setoriais": 124,
-   "regionais_setoriais": 59
+   "regionais": 61,
+   "setoriais": 126,
+   "regionais_setoriais": 61
   },
   {
    "mes": "2026-04",
@@ -2653,30 +2651,30 @@
   },
   {
    "mes": "2025-12",
-   "materias": 79,
+   "materias": 81,
    "novas": 2,
-   "regionais": 66,
-   "setoriais": 79,
-   "regionais_setoriais": 66
+   "regionais": 68,
+   "setoriais": 81,
+   "regionais_setoriais": 68
   },
   {
    "mes": "2025-11",
-   "materias": 22,
+   "materias": 23,
    "novas": 1,
-   "regionais": 16,
-   "setoriais": 22,
-   "regionais_setoriais": 16
+   "regionais": 17,
+   "setoriais": 23,
+   "regionais_setoriais": 17
   },
   {
    "mes": "anteriores",
-   "materias": 375,
-   "novas": 3,
-   "regionais": 113,
-   "setoriais": 375,
-   "regionais_setoriais": 113
+   "materias": 379,
+   "novas": 4,
+   "regionais": 116,
+   "setoriais": 379,
+   "regionais_setoriais": 116
   }
  ],
- "descartadas": 9660,
+ "descartadas": 9855,
  "veiculos": 50,
  "coleta_desde": "2026-09",
  "janela": "2025-11"
