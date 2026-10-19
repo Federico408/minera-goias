@@ -1,6 +1,6 @@
 {
  "mes": "2026-07",
- "materias": 107,
+ "materias": 108,
  "itens": [
   {
    "title": "ANM aprova novas alterações ao regime de Permissão de Lavra Garimpeira - demarest.com.br",
@@ -458,6 +458,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "USA Rare Earth troca comando após compra da única mina brasileira de terras raras - Instituto Humanitas Unisinos - IHU",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSkJKQ1FtUFgtX1pHVldWNm1EMWxFbmEtYVRRQkhqa0MtQ0x0WHhEN2VjaFRuNkJYbGE3MXRiR3hWUHhJV244SVZQbTJGcjVETDRzcm5xWndlUUc2MmVZaDVGMkdIWlc0TTQybVdsTTJlWEtOQ1dLcDFWU0MtbkMtbmoyaXJKUE1oRm1YVWtUNXdWNnoxMk80eEJtOW1FRmhwX040czgtUXR2WThVb2M0N05B?oc=5",
+   "published_at": "2026-07-23T07:00:00+00:00",
+   "first_seen": "2026-10-19T09:31:18.062154+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Mineradora é investigada após moradores denunciarem contaminação por mercúrio e chumbo, em Alto Horizonte - O Popular",

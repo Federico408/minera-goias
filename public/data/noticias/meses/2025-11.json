@@ -1,6 +1,6 @@
 {
  "mes": "2025-11",
- "materias": 23,
+ "materias": 25,
  "itens": [
   {
    "title": "Repasses da mineração ultrapassam R$ 1 bilhão em novembro — Agência Nacional de Mineração - www.gov.br",
@@ -55,6 +55,19 @@
    "setorial": 1,
    "fonte": "Busca · ANM, lavra e outorga",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Prazo para entrega da DIEF-CFEM referente a setembro/2025 encerra em 26 de novembro - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONG03Yi1LbFQzNkFqaW1Kd0Q5OENxMGlKYndVSWZmeW5pY1NDQUZZSV9HRXpydmRxVThocm1DLUp2aWE4bkh5Y1hFOHdvRUxid2ZIeGg0djYxaEEwUk1YU0g1TFZlekxKYVpHX2JheGw0SEZKcGZ1azU5ZFh1X0oyUlpwYVc5WE5MdUp3Z0Z6MmdaM1k2OGtkQmR2bG5WZEtqZTViS09VS2poYUVyblQ0MXdqN1hYMGlrRU4yZUlZSllhekZIUlloNW9R?oc=5",
+   "published_at": "2025-11-17T08:00:00+00:00",
+   "first_seen": "2026-10-19T09:31:21.174302+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
    "tema": "mineracao",
    "substancias": []
   },
@@ -288,6 +301,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad4836d13904b0cb5483971bbedf074&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
    "published_at": "2025-11-11T04:43:00+00:00",
    "first_seen": "2026-10-18T08:29:33.429836+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras: Estados Unidos financiam projeto em Goiás com até U$ 465 milhões",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5e366e6604a4d918de29e8cd4c225&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
+   "published_at": "2025-11-11T04:43:00+00:00",
+   "first_seen": "2026-10-19T09:31:18.839209+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,

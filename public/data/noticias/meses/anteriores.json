@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 379,
+ "materias": 384,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - diariodocomercio.com.br",
@@ -1214,6 +1214,21 @@
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5e366e6604a4d918de29e8cd4c225&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
+   "published_at": "2025-06-02T00:00:00+00:00",
+   "first_seen": "2026-10-19T09:31:18.843331+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab89686037b4cbb9d163f724403ec19&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-09-27T04:07:35.144000+00:00",
@@ -1629,6 +1644,34 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad4836d13904b0cb5483971bbedf074&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-10-18T08:29:33.430396+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5e366e6604a4d918de29e8cd4c225&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-19T09:31:18.837905+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5e366e6604a4d918de29e8cd4c225&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-19T09:31:18.840810+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -2343,6 +2386,19 @@
    "substancias": []
   },
   {
+   "title": "IF Goiano oferece 70 vagas para cursos técnicos de nível médio em Mineração e Informática com seleção por sorteio em Catalão - Zap Catalão",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPY2lhTVdleG1GOXNodm1oYVVLWVNad0dRT1BsdkV3YXBybVlZeTRVNHZDbVFybmhQZUFYeGd0ZnNLeGN6WWZyZnRZZWZhSUs0T0NVWk9Ja0RVYmtHelBLWjBXTkhVeTF4ZnJrY0pCTktueXlWcl9WQmNWUmx5dXNqNGVHeVZqd0MxcFRadnJsbDVmREVLMTR1SUNEdzFvTTNOSW5uT2o3LVRTTXNOTUlyNmNxc3RNSTdKYnBlbnBPMHF0LVJZUFZkZXFMTVJ3SmwwTHRjV0VSUnFpS0ItNlFNZERsUzA5dw?oc=5",
+   "published_at": "2024-09-11T07:00:00+00:00",
+   "first_seen": "2026-10-19T09:31:17.494548+00:00",
+   "regional": 1,
+   "regiao_termo": "goiano",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Anglo American contrata assessores para venda de fábricas de níquel em Goiás - InvestNews - investnews.com.br",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcUF6Vl9xajJjczJjMTV3UHJMTHIzV1hiVFROdUwyQm5HNGJZTXZHamFVNHVNTllweHQ5SXdIdWhuU3ZtNGN4eEJNNEtQLUV3STlHUDNsTjBzN2ZWV3FOT2EtWDRxUlZGZ3I1RjRoZ3EwODA1djFnYWc4QW1FOW1PUVZGckpOZ1RtOWV5aUJpVXZuZU9nR1hZRlV4VTNIVnRUbVRYdURIc0w4QVNBYzhrUl9B0gG3AUFVX3lxTE9TanlwenNZRWtZa0d4NFlzaFhRSi0wbk1tNjQxdVhQVEVudmRpQXQxYzctX0g4alg1a2plSmVEak9ydTU0RHhpT0JPZTdqLVB1MTN4XzJOaUhmSnQzWV9QR3R6MkhWRk9MZ0VjSjMydGFBZE1sVVlzTFJFUGJOU3lmNWZINlQ2REp2V2QyTjdWeGhRSzB3bU1OaEhOQkJEc3Q2LUl0b1YyaTA2Y0ZnS0hoQnFJOFB0VQ?oc=5",
    "published_at": "2024-09-09T07:00:00+00:00",
@@ -2776,6 +2832,19 @@
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb3dla2FZMHp0MXZrd3RfMUF5Q0JuTDZvN1BjUEd4QVIwbTZwcFRRY3NVekRPdWtLZ01QQ1NfWndidnJ1d2JxZjFST3BBUkx0QlQ2aE51dkJTMmh3b0lOWWFrVjF5bEczUGFha3RxRjJlcUNkc3JUeGhIVlA2ZzQ3WmV3S1hab2VselRkb2hoZDdEdmh2dDhXTjNBcGtTMUZDYWRNSlZQSHhBRjEwYmZNOXhsSHBwQmF0V0E?oc=5",
    "published_at": "2024-02-05T08:00:00+00:00",
    "first_seen": "2026-09-23T04:07:32.454801+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "ANM questiona rigor das informações que Braskem forneceu sobre minas - Agência Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUXlqcmdLeWxyR29QVjlXWDBuS3FzQjdkTUVxTTlHSzlQelZlazBFdjhVMmx0Ti1zWThfQjdOMkMxVXU0eUw5TUNGZ0diSG5ENWE3NDg5ZS1ITFBIUGV5TXRpVlZLMnNsTFo3RGZZRlAwbDJyQk9GclFQNThUMmVlM2ZpRGlfVFEtbkl2dmQ3NkxYZUZPQ0pmUTIwQnFPRTFiWjRWbW93enRtV0RhNzN2NHRpN3NSbTBscmZIR1U1aE8?oc=5",
+   "published_at": "2024-02-01T08:00:00+00:00",
+   "first_seen": "2026-10-19T09:31:20.672444+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

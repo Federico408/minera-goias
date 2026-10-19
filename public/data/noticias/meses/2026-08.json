@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 281,
+ "materias": 284,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -2263,6 +2263,21 @@
    ]
   },
   {
+   "title": "Terras raras colocam Goiás no mapa da nova economia da mineração - O Hoje",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONXR3TDZBaGgzQWg4VmM3czhieEROQUptejhaa01ucURIUkJJeVZjN2JrQ1BTWUh3VFFWUE5Oa2JpYWtLX2Q4NXBVcEY2eUc3TFNjQW5QaWM4SGxPa3RMWnVLdVRTOFdMZF83YVlpNEJxalNNZ1NqNkFkSm04QnJnOUlpVFAxUmRlcktzLTVtNjVvdmlES0l6ZVpR?oc=5",
+   "published_at": "2026-08-24T07:00:00+00:00",
+   "first_seen": "2026-10-19T09:31:16.219936+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Niger awards former Orano-operated uranium mine to state company",
    "link": "https://www.mining.com/web/niger-awards-former-orano-operated-uranium-mine-to-state-company/",
    "published_at": "2026-08-23T17:12:23+00:00",
@@ -3413,6 +3428,19 @@
    ]
   },
   {
+   "title": "Minerais críticos podem elevar PIB de Goiás em até 10% até 2050, aponta estudo - Poder Goiás",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMGFkaTdRSTEwSTNXMFJZUFpsd2d2d0NmWkJXMVVKVFVjangwZUJDcDh3cG9ZbnoxSnVhVnZfZlBXalBVZWNTZkdlalZEUTN3QjRvRmxic1FpeEp4bEZoT2tzSGlBWHB1XzNjcHppclFzZnhEYTRQYXBLTU9vYzlHMHBsb2dlXzJxS2ZvalJOMWM2d0dvNVhQR0tVa25XSG1ZZ21CN2ZZN25meXozNWhMdElIUElYbjdSWDFPNw?oc=5",
+   "published_at": "2026-08-08T07:00:00+00:00",
+   "first_seen": "2026-10-19T09:31:16.220659+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "World’s biggest mining companies now worth $2.17 trillion",
    "link": "https://www.mining.com/worlds-biggest-mining-companies-now-worth-2-17-trillion/",
    "published_at": "2026-08-08T01:11:59+00:00",
@@ -3870,6 +3898,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad32dfb63fb46a2acff993cde73062f&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
    "published_at": "2026-08-05T03:20:00+00:00",
    "first_seen": "2026-10-17T08:12:43.484754+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad5e366e6604a4d918de29e8cd4c225&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
+   "published_at": "2026-08-05T03:20:00+00:00",
+   "first_seen": "2026-10-19T09:31:18.840024+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
