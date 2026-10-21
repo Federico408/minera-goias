@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 389,
+ "materias": 406,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - diariodocomercio.com.br",
@@ -128,6 +128,19 @@
    "regiao_termo": null,
    "setorial": 1,
    "fonte": "Busca · mineradoras em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Goiás é o terceiro estado que mais recebeu royalties da mineração em outubro - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSV9MbVFXRzNWbUo0MmVzYmh1X3Y4LXdLTXBPdE9nMUdPTWJMbXYzclhIeU9NVTV0LVk1MFlTX1ZVWkc1RnNWU3oxRHNsa1JNLWMySmVRMUJHXzI5bk5ha21HbGtIdEY2dV9vUExrVXFoeE9fY2cwNE9EOXdHd011Z29FVURvWmdiejl3REFHa1ZXVnkwOWNveno0QTNXcExwcENGQ0VWeVMyWEVCaUNqM3k0UFU1dl9fTHpORlRqb3dLUTJ6WWtUVjJJUE0?oc=5",
+   "published_at": "2025-10-10T07:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:28.813699+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
@@ -356,6 +369,19 @@
    "substancias": []
   },
   {
+   "title": "Goiás cria autoridade e fundo estadual para projetos de minerais críticos - CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbVBPbGNZb2plQm1lN1dzTE5iTHJ3ZXRYLU1OYjJuVGZLN2dlN1VjZ1YyNmVUdUFDbVZzTEZvYXhOWlQzYkxudGxVRTdDVFZacG1WZGRLUXBuZXl1SHoyMnF0aHhRbTJnWi1FUTlVc0tGaTIzbEZVTTRYMzdTRjRsejdnX3VOQXY1dmI1bi1BTG9BeElqdXNYeE92RUVkZjl2aEJSM1BIODRUZnNSVmR2VG9JbjhPR0xsemVtZ0JqZ2lSc2RXcDB1d1lnV00?oc=5",
+   "published_at": "2025-09-04T07:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:28.807405+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Cade apura venda das operações de níquel da Anglo American no Brasil à chinesa MMG - Valor Econômico",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUlV1MGduX3JyWFZWcFR4cmVNaHI2eXNISGprMERwbFRJWTFkSmFCWVp2M0owMmpUOC1IVGM5QWpRb1dsMk9sczNmSUhyNVQyMXI4SUtPNUFhVnhseUp2b3pxU0pLNldtWGJ4X2lWeEpYQXJqUjY0YWUzWTA5Q3A2c0kySW5KT1ZteVJNNXMzRmVRaGdsU1VvRkU0cTVyb3ZxR0ZZMFRzSjlwUnRLTy10SG1ER0tCR1JJWnZIWS1HSjRyRlByd1dydVc1WG96eFhhTVNJadIB4wFBVV95cUxQTzdpNkd3cVZFTmxHemdBQW95ZVJFT1QtVWNQLVNOYmxfMFdsQ2FmOE9FUVBMekVETkNOZ2UweEw3d1VRYjd5akFZaHBNMGtOSkNqQlUwbGt1V3JmYWcyUFVUTVZWTW1vN3lWUURISkdKWmRBUVd1OU1QT2kzYlROcUJ2cy1NSmJxWGxULXFwSlh1dFRqOGsyYmZMVFdTZ3ZnM29GWWdWNjY1U2MtT25HeVdSc0dZbDJsaDNFUl82UXdLR254a2hmZnRnQXhOS0pQendXQm9OelhudVV4SDRiQzg3UQ?oc=5",
    "published_at": "2025-09-03T07:00:00+00:00",
@@ -369,6 +395,34 @@
    "substancias": [
     "niquel"
    ]
+  },
+  {
+   "title": "Empresa Pilar Gold anuncia retorno da mineração em Goiás com assinatura de acordo - CPG Click Petróleo e Gás",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9QdDVQZUlYLTJDSWx2RlgtcHVxUEkwSTQ0ZnRzb1AtN2pFMEJpd0ZabWpXUF9fS01ZWlZRWW9CVHJzNDlFcElISzhnSmhCZ1h1N08ybFNycXdOOTJBVUJVTFVqTHZHVHpVVFFMcHRURGphNEFFbHM5MXlnU0w?oc=5",
+   "published_at": "2025-09-02T07:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:28.820042+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "ESTADOS | Goiás aprova fundo para a cadeia de minerais críticos - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSnZNbUJuMXlXTmlqRkZmbG1sbm5kcm9QZklPV2hSS25DMGN5SmN6NThFZDRVTGMzZ1lkZ0F6SW5GV2RiMTJ0cTFkNVJsVHB3VV9wV3pJLVNJY0ZIWGJZRmlhSnU5LXFCZ3R5MXFReUd3RlZwUXZLaDRNblZ6LUFjSmJiM2NpcFcyWjFuRHQxb0c5Ui1WaGc?oc=5",
+   "published_at": "2025-09-01T07:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:28.814582+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Venda de minas de níquel em Goiás gera disputa internacional e investigação do Cade - Diário da Manhã",
@@ -414,6 +468,19 @@
    "substancias": [
     "niquel"
    ]
+  },
+  {
+   "title": "Goiás se antecipa a governo federal na criação de política para minerais críticos - Agência iNFRA",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSXBMZXNYMGxHUFZjdTd2V2JGVkVEMHNLQTd0Q09zY0QtRmlDbGhORnJwc1lUeHV1dDhYY0hOTHU1NWNDUDMwVWhYNjNBVENRQWpSR0VSUTFpWUtpZDJFd2dmQjkzNGFOOFVBVTNoYjc4VS1KZEdxVGk1VzNCd0Vha1pUV3ZRMEthT1VtTmQzT29fXzVrekRJVkRNbGtiSjF3azBqbE5Sdkw0Y2w1MUFvanFR?oc=5",
+   "published_at": "2025-08-29T07:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:28.816817+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Em comunicado, mineradora Anglo American se manifesta sobre venda de plantas em Goiás para chineses - Jornal Opção",
@@ -741,6 +808,21 @@
    ]
   },
   {
+   "title": "Terras raras: cidade em Goiás é a única fora da Ásia a produzir em escala comercial quatro elementos essenciais - G1",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNclZxc3VkLUd3cVdFT3RibDItbE5jTkVxcnZKVTBfN0xjSWc1c1lONEFhMzNqR0tRd2xRaGVUNy0zYThUN0k5STBYQWVyZEd5X3VlMWdneG81VV9hQXRHQ2FCQ3pMWkFXS3RZRDd4MFdzN1F1cWxiazVNLWxkVlo1czZsSThmTHE2SWlKcUpvZ19QS0hVZmg2NzdPNHJpZ2NlMmFEVzZPRl9QQ2xpR09kQ2k0X24wUUpubFp6ekhtZ0F6bXBYSUZlZlh5YW1BMVoxeTlGS0hnek03bzZyMXlEV0Y1T3pEcW11dEFZRW8xNTA2Z3hPUEJBdNIBhwJBVV95cUxOU0FBYWl5dlc5cUlNb0xhUXR5OFN6WUxwVXhjNzFvem5ZbmR5cDI3N19CYW9VVDYtYVpiTTVabmctelVPWVlKQkMyZzVnTTJFV3Yxd0pVU3dfQzdkaVV0cVpXUXdweTBtR213UHp6d2lrRmJDempCUDRUVlpfWWRZQTdmQ2NXSXpLLUpiWlUyamNzLXNSYzUzSDFSV08tR2xlNDUxLUprNXBIR2pHUmt1aEFCNnA5a1F4R2pvY0ZWYS1VVTNiblVpVE9WWnBZbUEydFE3MTAxSjhGSXZESUx5UFp6XzlvNzhhdUxvUHVqN1JldWhoUkJsakM3TUIxWGJQZDRQbW14aw?oc=5",
+   "published_at": "2025-07-26T07:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:28.809128+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Barragem B1-A tem nível de emergência elevado por precaução em MG — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd0ZnXzlEdDNGdW9ZdEtScGNlcTVWcF8wdk1qQ0pDWjN1a1VxS3ZPOGxDNjhXeTRfSGZhLW0tbDU4Mk9GVEQwMmhxUEVCb0ppM0l2WjdRZXoxdm9kejkyU29tUzhEb2NoNnh3cEtRMWpEUWR2OFVzMDdMX3VUakhBcVp3UWdKNFdEY1VIVFIxOFRZTlo3OFk5Q3ZRUmdVanFJeGlpMTREN0h1ZGRkWjZ5dDllNjVzNWo2Ymt1TXhYWHo?oc=5",
    "published_at": "2025-07-23T07:00:00+00:00",
@@ -767,6 +849,21 @@
    "substancias": []
   },
   {
+   "title": "Terras raras ameaçam assentamentos no Nordeste e em Goiás, incluindo área que conserva o mais antigo pau-brasil do país - Observatório da Mineração",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNHBwTHBhT3ZYc0dNcXZqdTcwdS1tSHYzbUZ2UjFIemRvU2xKS0EwT2FPZlRQRTZ4LVAxRDg1RjBBTENGaU54a1FOUVhaMHlQazZ2TU0yVk5YN3pIanJTNnBUa0VDWkppV09sbFlJMEtvQkVPSElWLXREdk9FODlMdkZxVW5rUm9qLWtKTm9naUR3TVFkanA2bzllNy1oY0plNXE4YjNlSHdjQW4zLWVNM3RrZW83NnR3YjZucGZldkt4Z0J0TU03TDRNa2J6MHpwZGJKeVdwMmhEN1BKNlIzMTE4dkxERFNSSmZtRFZYbw?oc=5",
+   "published_at": "2025-07-02T16:38:06+00:00",
+   "first_seen": "2026-10-21T09:03:28.809850+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "TCU determina que ANM feche o cerco contra lavras acima do tamanho limite e contrabando de ouro - Agência iNFRA",
    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSndHeEFORlpUVGZqR1B2eGR2N2J6ZUdiQmJ5TlotTXB1M2tOZHZtVnVkOTRyYUI0U3FwVzFhclR4TTdDRGRCeFlTTzZka2ZKbDEtX1JmbGloRFZQVW5QS09EclE4OGRDUzVxZXFpWFptanVKb3FWaFRXMkJEcEd6bzJ0UGJYM0R0UGRJMnNWUzhzcm16NkU0clJ4VUR2aWJnTkI1ckdldTR1Q0doQ3pjOEdIa3dGLVI3SW1KVE5Mb25vMWlm?oc=5",
    "published_at": "2025-07-02T07:00:00+00:00",
@@ -776,6 +873,36 @@
    "setorial": 1,
    "fonte": "Busca · ANM, lavra e outorga",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Do amianto às terras raras, cidade de Goiás vive entre passado e futuro da mineração - Agência Pública",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOV0pOdmV0S2ZUdkVxckxYOEo5Z3hSajNySVpWRFlSOHNrRGY3NVBxVTRPZTJHTmxZbTNyX1l5TGp0Q2g0a2s1SG9hcE5sLUhDMmVVdC1Pdi1mQ1RWUjJBSzZNem5JaFA3SXo5ZTFZM01Uc3VlZmVsZDY1akVDRmEyS2J6WVZyOGY5UmNLMmNQUVZOS2RXUThQdW9oaV9BeEpwbXh2bGZzU2F1X0ZqdGltUTdMc9IBuAFBVV95cUxORXduSENBWjNGUEg5cFhjMlJhMF91SjJwSjNyVGFUenZSeEZnS2ZkXzNfam15aF9Ueldqc21tV3VyTkVtU2Z5VUJpLVVTMXdOeGUzeW5KdnYxNHdvUmlkdy1IaWMtamh3RTM4UkZqTjJmaDUxZExnX1lZdGc3bWNKSHJYdHBmUjJod1ROcUFYYXJacDN5SlZiLXE3eWQweHA0WnY4ZFNlblJlU2JmVjNrZzFmOVdPQmxB?oc=5",
+   "published_at": "2025-07-01T07:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:28.808400+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Quarta maior produtora do país e 35 anos de operação: conheça mina de ouro de Goiás vendida por mais de US$ 75 milhões - G1",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNS2lUZlN3Qlo3em5NUV9kUDFtUzBrVWlUaFE5R1h2Q0JYM05taWQ4LW5oaDJBdG5mdV85M080dDRXWlVPYUQtNVpxWENNa2VhUmJrbGZBUVNrRDFrY1pWU0xvQ2gzbW5YWjBER1RQWVlYSkgyT01qeXZ1anlqUTRqOXdPMnpKalZtWldkblQ0ZldtZUlaMnlyUlpnU19BMkhvQmdFdW1CcUNMVVFucjZzWTFZRnVsVHBhN3hoVHA1by12MXYxVWpIUFU4eWJjcHNrcmJKV2gyZ1U4SXFETzNES2lkUmtySWpzeEN5aWljQ0pQZ0k3WnlnSnk3MTI1b0VX0gGPAkFVX3lxTE1lZ2YwZE0yNE9XRVg1dWVDUDJyWE9CbXRtOWFETUhOVjZwVk1Zcm1RR01tN2h3RGZ3c0ZPOENfaFhxN0NNLTJjeURmSUVFQ2tvNW5DWjBicWZyOWQzZlM0aFhNRktCSG1FZldRV3RreTFqQXFtSEFsN25GQ1YyV3JaMG93b3ZwVi0tQkdjQnBEVTFfNm4xVkpjRTJpZzRZdDhVQVl4eXF3clF0eVlaYWlhQUtvaXAxWHFsNnhUWVhobDhzS3RRU01ud0E3VFJfVng2d1dhWXJ6SmZHLWhKYUtMak5HOGhyRGE0cDZSRGJ6aTZNQmlBZ0Zvd1cyMjIyWS1hdUx4eGRfb2pEYmZfOHc?oc=5",
+   "published_at": "2025-06-26T07:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:28.815505+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
    "tema": "mineracao",
    "substancias": [
     "ouro"
@@ -1232,6 +1359,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad72e92d9d34d35808dd0ed9c7d3504&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
    "published_at": "2025-06-02T00:00:00+00:00",
    "first_seen": "2026-10-20T09:04:18.236376+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad87fe3043b4ab59d442ec5fc993325&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
+   "published_at": "2025-06-02T00:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:31.467471+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -1724,6 +1866,34 @@
    "substancias": []
   },
   {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad87fe3043b4ab59d442ec5fc993325&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:31.462176+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad87fe3043b4ab59d442ec5fc993325&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:31.464946+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Projeto Santa Anna atrai capital estrangeiro e projeta Goiás como nova fronteira em minerais críticos - Estadão Blue Studio",
    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQZXFoc3JnOVVqdy12V1RzeElQd3BfeE8ycXNwWmZRRGt3VzdkU24yX2VVTFE3SzF2U2VKbVplQV9TQUZVWUhOU0xNNUhuQ3JjdEJYbjJIcmlwamRHTVJHbGxNNlZIZDZtblp6emZIYVhGTGNfWjh0SE5TNFNoTGhrakwyVUFCUTE2SFFHV3VuNC03TE1LcEZVVDZvYnBLcVJVN0FwdngtTlpQN0JhNmNmQXc2OURLa0M4cTJ3ZGFhckl0cEUzNjlQS2VudlBiTTF5OV8zdERmRkp0RWQyWDRhWEY2N0g3UU1GNXMtWXFRUkxCUC1yNkd0c2xXTzZkOU1oT18tNWZ3SUpqNDA2enc?oc=5",
    "published_at": "2025-05-26T14:37:42+00:00",
@@ -1790,6 +1960,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Mineradora vai processar 500 toneladas de Terras Raras extraídas no norte goiano em Aparecida de Goiânia - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNndYZ3FkRG8xc1ZGSFpfZjQwX280bzU1MjJEVW5fdWkwUUdrcHpVUzJDTFJIeTdwRlZTUUZOc3lETzFpamdUVXpTV0E0TXNnT09JaVd1WTJuUEtTQTA2T0RKd1pGM3g4NmdrWXhSeXhaNDZZNlBvbVZwU2Fzdi1wczZCYVh6ZFdiV2t6TWVTSUdoTlFENFZIVUVobEVPY1NhQ2hfczFEeE5lMzdoZ3JVLV85M2NlZEJJamoxeHdma3JkV29CRlVCSHM0OG9mNjAtOUNxSlAwU04zV2Jta0I5N0tEemZjSGhLMTRmcXp5ODV5dw?oc=5",
+   "published_at": "2025-04-25T07:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:28.819307+00:00",
+   "regional": 1,
+   "regiao_termo": "goiano",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Apuração de Municípios Afetados - 2025 — Agência Nacional de Mineração - www.gov.br",
@@ -2754,6 +2939,21 @@
    "substancias": []
   },
   {
+   "title": "Tendência do futuro mundial, Goiás quer se tornar polo de destaque em terras raras - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPSE5DTEhrZ25LZzN0TDV5WW05aDllZVRSbWdwR0Z3STBfSDdsdGZlbXpIaGZTZF9veTdzaGFsX1NjVG9mX21XVy1jRTljQVpuM0FzNE1JcDZJOFpaVVhvclNGYmo2M3ZxcTYwelFoN0J1VThpdmhHTnNNSlloT1BxZEVFemtpZkxQeHhZMzRPc2RfeDdlRHFhMUp3RzFqdnZWcjN0ZjdoODRwbG9aRmdURFAxd3dpNEI2RzlNOER4N3FyUV94emNvamtWYV9WVnN4dk9YMnBpY1ZoWFR2TGZRdXZGX3VycDRUQlZ4UERtaXhjLVF4MVlPb0htcTRwVjVJUklWd2VtNjlTV2s?oc=5",
+   "published_at": "2024-05-07T07:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:28.817787+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Recolhimento da Taxa Anual por Hectare (TAH) 2024 será em novo sistema — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbFd5TlJfb0htT3pEWkpBY05PYWh6cGlwck5HdW5CbXFyMVRZSGN3RFM4MXp3a0p3NHVTSDZLRldkQm5KT3Z4OU45RVdwemFxWnoyS2laWVBUSHdVUHhQaWZiR3o5QnR0Vl9heG50STd5U3VTVGhONklyRE14dG1oNGlfbTNrRjdCakdUVjdFNTlZa29neC00ekZvaC1ERk11RWstZnk2YXJVTHE3R0h1ZGR2VTNpUQ?oc=5",
    "published_at": "2024-05-02T07:00:00+00:00",
@@ -2854,6 +3054,19 @@
    "setorial": 1,
    "fonte": "Busca · ANM (site oficial)",
    "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mineração – Secretaria de Estado de Ciência, Tecnologia e Inovação - Goias.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1wamZnZjd5WWgtVjkwN3J4ay03TklTZ25LbGxidlQtbFN3aEVkMGpfYnVYVWd0NjFBc2xlNVJiUUstakJXT2NRRGdzWTFwaURyQ1E?oc=5",
+   "published_at": "2024-02-26T22:47:47+00:00",
+   "first_seen": "2026-10-21T09:03:28.818442+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -3443,6 +3656,19 @@
    "setorial": 1,
    "fonte": "Busca · ANM, lavra e outorga",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Goiás reestrutura setor da mineração e promete crescimento com sustentabilidade - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMllOUEIyc0NSZ19DMExmajQzR25OT3dlTzVERTJLUFB5cWZodGoyNTVXMEFKUVBPX1JlLWVJSjB1akdjRFVQVGVOMFI5clBFNHN0N0syMEczS3pEc0xJRm1PVzF3cnpQSjgwMnQzbGQyWFktUzBUQ0VJY0hMRWFtaC1CV2h2Y0RDYkNmbDNyRjhHaFNmLTh1bTB3SXlpcF9tTjd0NWtxVloyMnFGeUY3cUdxSXFiQ2E0UmdmMElmNDA3dWxvVFpYY1lR?oc=5",
+   "published_at": "2022-12-25T08:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:28.821240+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -4915,6 +5141,19 @@
    "regiao_termo": null,
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Vanderlan lamenta demissões em mineradora de Minaçu, em Goiás - Senado",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUnl3bzdKOV84aGJvSlFJRUw3QXotZ0NUTFc5OEQxUExNZkRNb1g3aGktaEpXUUVJRTlPZTNrZTh3U2VhZUUtTmgtV0I0YndTdUw4OU9UczZEWEFmUUZtX0dxYmI4ellzQlM1ckxlZFJNYUNhaGR0aDB6M2tJMVBJX3BRMHZFaXc1X1ZQSGFUblBUUU95RlNNbmtXQ2ppWDlDTnVWZFJQUzIzTVJLQ3ZfRi1XYWxnZkZZ?oc=5",
+   "published_at": "2019-06-03T07:00:00+00:00",
+   "first_seen": "2026-10-21T09:03:28.822123+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
