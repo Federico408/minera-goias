@@ -23,9 +23,50 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-10-22T09:06:58.112894+00:00",
+ "atualizado_em": "2026-10-23T09:00:51.023659+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "ANM determina interdição da lavra do processo 861.162/2009, da Pilar de Goiás Desenvolvimento Mineral - atlaspublico.com.br",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWXVOb1dsUVVKaWg2b0RCNndDUXJmaWhHODhTenRDaU4xdDZXRXkxUkZ1MkkzQUV6dG1EZ2hnbUZzV0JxQ082OHczeTBZdUd0Ty14ejFiV3Joa1ZKaXZydVV3N3RZYjhlWXZ0VU9DaGswN1BNbU5JU3hJVnJJVjhxQWV6U05yOVdYWHQySVFxQXV5LXBIWldpeXROVm1KZjVEQkI0?oc=5",
+   "published_at": "2026-10-23T05:52:26+00:00",
+   "first_seen": "2026-10-23T09:00:48.486798+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Goiás vai escolher seis representantes da sociedade civil para debater impactos da mineração - GYN Noticias",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT0JadHNoYlFHLXV4VlNEYzVFX21VaGIzQlJPQmxBX3Q2WnpidlNaUkR5aXZ0N2pIQjZxbF93VG41SFU1NzBrejFJT2t3emlzZENYakNnc1oxcHFhV1FibHpyYVh1b0paZUhhNGlxbUZDaHJ0dkVNc3BwbWJBaDl0Ukx6LXB2UmhpNGdSUWdDcVZtN3BIb3V5OXItb0RRNGZwMzJVdHlnTE53aHpKTWVWSWhmdERZeUgyVnc0N3VWTkxpbmJfdnBzaC00NDdPVU1SVkE?oc=5",
+   "published_at": "2026-10-22T19:36:00+00:00",
+   "first_seen": "2026-10-23T09:00:44.350557+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mina de ouro que já produziu 257 mil onças em Goiás pode voltar com operação subterrânea - CPG Click Petróleo e Gás",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMW4wV21Cbl9rRTZ3MWM0NE5TcWxEQTFETHdvXzNwSWloMHBmWjR2N20yVVF0dE1PZ2s2UmUyVGl5Z0hVQm1ud2cwdnVjZGxZdXFlNUpvcHItdlRHaHh3bWhWdzlLTFpSc2lyRDdHUngyWThvWUJtYnBTOE5GZ0M5bkpDd1hIbmd2dHBiSE1fNWg0LTNaUWhHN0tNdGJrVHZFcnZGX3JJVXRYM1NySE9aV0w3Q3d6NFR6ajNwUDBIZlJ2TWNONDFB?oc=5",
+   "published_at": "2026-10-22T17:24:00+00:00",
+   "first_seen": "2026-10-23T09:00:44.351595+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
   {
    "title": "Goiás busca investimentos chineses em centro automotivo, mineração e hotel-cápsula para o Moto GP - A Redação",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSXVaZkp6UTBLYVppNDhCVzRBcDJiWEZPY3kxR1NOcktCcUFMUkw3Snotb3l4SGNWNTFuUmdCaE4teG9QWi1FeVQ1T1gwU1Q2aERSbV9uUDB2UEtQMFBtOGRkeUNIaTg5OG1hZ3JFWTVXU2xTUFk5ZHh0b2kwVlZRbVBPTU5fbjZhaFI0LVBmanpPUkQzQkVPc0dqR0h1SXVwQUZVWFZrWXFCanBRb2Eyb2R5RWdHN0RkbUc2TF93?oc=5",
@@ -1591,6 +1632,21 @@
    ]
   },
   {
+   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adb223ed13b44159f24ad71ac22b133&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
+   "published_at": "2026-08-05T03:20:00+00:00",
+   "first_seen": "2026-10-23T09:00:46.718626+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Goiás aprova política sustentável para impulsionar a mineração de terras raras; entenda o impacto para o estado - Jornal Opção",
    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSEZGZkE5eTd4YURxa0ZHeVdfU3UybVl5aEdmb1plMmU5eGs2azJNQ2FiMFptZXhmVDdmbF9heHNMb25VcWc1VnJhQWVoSXl2akUzdGFJdnBMb011ZmFWeUswbmZWMHlWWGxZNUxVbENIVTJxSmg3Yk4xQmE1dlBWekNkMEdJNHl4T2poTGxTZDczUTRZTkRpY3B4Y2ZDdW8tNWZ2QjFXWEFJekJFWmpySkpGYjdkTUVXVHRqNUJVQWhJeHhZVjZrdEF3SHRMNE82eWIyY1daQWpqSHMtX3JyRGQwOFNETkJEb29ISW81RTVpdktURmEza1dB?oc=5",
    "published_at": "2026-08-04T07:00:00+00:00",
@@ -2506,107 +2562,55 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
-  },
-  {
-   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
-   "published_at": "2026-05-10T11:25:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.787499+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaf5ae5e0a4470ebd1383db29da94e5&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
-   "published_at": "2026-05-10T11:25:00+00:00",
-   "first_seen": "2026-09-20T04:02:45.552565+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab0ac5e591442a89a700a0d9dc7be3c&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
-   "published_at": "2026-05-10T11:25:00+00:00",
-   "first_seen": "2026-09-21T04:02:38.591160+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab1fddc3f6a4e27b5b9a2afb3bd8b68&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
-   "published_at": "2026-05-10T11:25:00+00:00",
-   "first_seen": "2026-09-22T04:02:37.123505+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   }
  ],
  "tendencias": [],
- "total": 3695,
- "regionais": 520,
- "setoriais": 3695,
- "regionais_setoriais": 520,
- "fontes_vivas": 61,
+ "total": 3807,
+ "regionais": 531,
+ "setoriais": 3807,
+ "regionais_setoriais": 531,
+ "fontes_vivas": 62,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 1133,
-  "ouro": 710,
-  "cobre": 325,
-  "litio": 312,
-  "niquel": 121,
+  "terras_raras": 1164,
+  "ouro": 741,
+  "cobre": 337,
+  "litio": 317,
+  "niquel": 123,
   "uranio": 60,
-  "niobio": 30,
+  "niobio": 31,
   "fosfato": 18,
   "energia_eletrica": 6
  },
  "meses": [
   {
    "mes": "2026-10",
-   "materias": 1161,
-   "novas": 82,
-   "regionais": 15,
-   "setoriais": 1161,
-   "regionais_setoriais": 15
+   "materias": 1254,
+   "novas": 93,
+   "regionais": 18,
+   "setoriais": 1254,
+   "regionais_setoriais": 18
   },
   {
    "mes": "2026-09",
-   "materias": 1166,
-   "novas": 1,
+   "materias": 1173,
+   "novas": 7,
    "regionais": 41,
-   "setoriais": 1166,
+   "setoriais": 1173,
    "regionais_setoriais": 41
   },
   {
    "mes": "2026-08",
-   "materias": 289,
-   "novas": 2,
-   "regionais": 56,
-   "setoriais": 289,
-   "regionais_setoriais": 56
+   "materias": 290,
+   "novas": 1,
+   "regionais": 57,
+   "setoriais": 290,
+   "regionais_setoriais": 57
   },
   {
    "mes": "2026-07",
    "materias": 109,
-   "novas": 1,
+   "novas": 0,
    "regionais": 15,
    "setoriais": 109,
    "regionais_setoriais": 15
@@ -2621,11 +2625,11 @@
   },
   {
    "mes": "2026-05",
-   "materias": 134,
-   "novas": 2,
-   "regionais": 69,
-   "setoriais": 134,
-   "regionais_setoriais": 69
+   "materias": 135,
+   "novas": 1,
+   "regionais": 70,
+   "setoriais": 135,
+   "regionais_setoriais": 70
   },
   {
    "mes": "2026-04",
@@ -2638,7 +2642,7 @@
   {
    "mes": "2026-03",
    "materias": 51,
-   "novas": 1,
+   "novas": 0,
    "regionais": 17,
    "setoriais": 51,
    "regionais_setoriais": 17
@@ -2661,30 +2665,30 @@
   },
   {
    "mes": "2025-12",
-   "materias": 89,
+   "materias": 91,
    "novas": 2,
-   "regionais": 76,
-   "setoriais": 89,
-   "regionais_setoriais": 76
+   "regionais": 78,
+   "setoriais": 91,
+   "regionais_setoriais": 78
   },
   {
    "mes": "2025-11",
-   "materias": 28,
+   "materias": 29,
    "novas": 1,
-   "regionais": 21,
-   "setoriais": 28,
-   "regionais_setoriais": 21
+   "regionais": 22,
+   "setoriais": 29,
+   "regionais_setoriais": 22
   },
   {
    "mes": "anteriores",
-   "materias": 409,
-   "novas": 3,
-   "regionais": 140,
-   "setoriais": 409,
-   "regionais_setoriais": 140
+   "materias": 416,
+   "novas": 7,
+   "regionais": 143,
+   "setoriais": 416,
+   "regionais_setoriais": 143
   }
  ],
- "descartadas": 11169,
+ "descartadas": 11516,
  "veiculos": 52,
  "coleta_desde": "2026-09",
  "janela": "2025-11"
