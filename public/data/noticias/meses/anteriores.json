@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 416,
+ "materias": 423,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - diariodocomercio.com.br",
@@ -1416,6 +1416,21 @@
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adc6d8dfcd8481ea171cf4ec267cd0c&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
+   "published_at": "2025-06-02T00:00:00+00:00",
+   "first_seen": "2026-10-24T08:34:21.763694+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab89686037b4cbb9d163f724403ec19&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-09-27T04:07:35.144000+00:00",
@@ -1971,6 +1986,34 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adb223ed13b44159f24ad71ac22b133&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-10-23T09:00:46.719352+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adc6d8dfcd8481ea171cf4ec267cd0c&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-24T08:34:21.759205+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adc6d8dfcd8481ea171cf4ec267cd0c&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-24T08:34:21.761470+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -2715,6 +2758,19 @@
    "substancias": []
   },
   {
+   "title": "Mineradora britânica investiu R$ 1 bilhão em Goiás - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaFplZHZkaE1DMS1kYmtXMWNob1lpVEx5ZGFjLUpMNDJzWUo3REJIcEM2SkNVU3hlaE1hT1NpZ1lYLWpuLVdxaExENXBOS3duVUZtTzdJWVR2TXdNVE1MeWRoUXI2OXZodzEtN1g4Ui1RZ0NVWW5wdjhQSlE2X3hNQVNtYlQ2d0l2SGFsQ1VuZjUxYlAtUkV0anJtTk1GTVgwN0xDOVRscTc?oc=5",
+   "published_at": "2024-10-24T07:00:00+00:00",
+   "first_seen": "2026-10-24T08:34:19.591053+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Falsa mineradora que fazia campanha com atores famosos tem bens bloqueados por suspeita de pirâmide financeira em GO",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaed54effa44ed8a7cd8677eb9fc691&url=https%3a%2f%2foglobo.globo.com%2fbrasil%2fnoticia%2f2024%2f09%2f16%2ffalsa-mineradora-que-fazia-campanha-com-atores-famosos-tem-bens-bloqueados-por-suspeita-de-piramide-financeira-em-go.ghtml&c=14556133522341009099&mkt=pt-br",
    "published_at": "2024-09-16T06:24:00+00:00",
@@ -2879,6 +2935,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Saudi Arabia to visit Brazil and lithium power Chile as seeks to diversify - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNczd6aFV2anVBRk5yT0FhQy04RVNfZ1FkS3lmMzRQbWFSZ3NMUUJqWXhPS3M1M3FvTEhvWEJ0cU1zamJlSnF4SXpJcFU1OWJ3R3VRcHJKZnZXYW9yTVphakZIVHNGRFRaOXZ0NTMzVFQzQXBBT2JsalZHNmZsNWFidWtRS0UxQzVuUWNYVnFnQzI3aGkyakRQUl9YcFFrclVHMUg4MDIyalRUV3FtVG1fT0N4RGp4VnQ1?oc=5",
+   "published_at": "2024-07-21T07:00:00+00:00",
+   "first_seen": "2026-10-24T08:34:24.590095+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "Goiás se destaca na produção de fosfato, níquel e terras raras, revelam dados do Ibram - O Hoje",
@@ -5312,6 +5383,19 @@
    "substancias": []
   },
   {
+   "title": "Mosaic Fertilizantes anuncia retomada de mineração em Catalão - Terra",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaFBDNTlfTnlaQVBWLVlQYXAwNTVFMXMwWWExdjBON0FzRGY3T2ZqVUVOUHFaRURtOHVtVnExUENld2M2MTZHbmlEc0k3TEU0YnlxbGVJaFNQQWJvSE5XRDNxRUFuMzVOX1JyQ1I4a3BaRXFRVWVYWHZBZS1vcWxUb1JLVmUxQ2JEV2lGVXlrRUNUdWNJemRxc2lhV1VHUmxBaXdyMzZTN1NYOFlDRnJ2YTJRS2ptbWRYd1JTXzQ2a2VPbmFiZi15MEZ1T1REQmoyUDhTeHBBMFA?oc=5",
+   "published_at": "2019-05-28T07:00:00+00:00",
+   "first_seen": "2026-10-24T08:34:20.783783+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "MINERADORA DE FOSFATO INSTALA MAIS SIRENES EM ZONA RURAL DE CATALÃO PRÓXIMAS A BARRAGEM DE REJEITOS - Blog do Badiinho",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUktWdXhKV2VCSmxMUU16TkNnRzRNVkpVQ0dQQnpHQ29wU0lRbkNxWUQwOVlwTGk5Rmx1UHFUbUtXQTQwakNEalBHcGRkdjE3cmhza1BEdWwtWk1uWFR0UjF2UFRtZUswTzlEWERjUmdDeEkzZm95WlRJMXZ6ekxKc3A3cXBNcG1HalR3N1JHdTlTclZNOGF0eU5Yd2NLRW5iRmx3ZjdGRkhSSGV0QV9FemZCaHRQZ0Z6R3VFNXlxa1Y0cFZEUTUw0gHMAUFVX3lxTE04ZzJ2WHJOR3hkQzloYTBrWnF0MEd4SUs2VGZDOFlkUG5vb2ZzMGJGZWpmQmpBenAwTmZENTJ6eW9UV0NxeFNlSWkxdzRER2ZxLXlhRW5RTVZYLWRnV3FUTlViS2xiendvVjYxbFlDdmxiaHdnb2RCd2NwbGlyNmN5ZTdBZlktTl95S1R5TXpIaDVlVXJjSUsyZmU5cVFzaE40clBKV3RwT2h5TmZvdXJoQ1RWWTd6Ym1jN0JNdFdUd1NrSGhBd1VPd2k3bQ?oc=5",
    "published_at": "2019-05-15T07:00:00+00:00",
@@ -5593,6 +5677,22 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Marconi anuncia apoio a empresa responsável pela mineração de fosfato e nióbio em Goiás - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdVZyQ2xfVmRuc2tZMTdwZHRxSllKU3MtbnRFb1ZFZXZrZWtvX1Nwc085NEozaFlaMldITnFEbGFzUTVQaExieUJ6MHAzcGFKbUxHRERpV3pvSGNHRUhhcTB0eFNJMTBEU0p4Xy1OSkJwZndZcVl0WFZxWVFObkhZR0hMUGhNUUIyWk55WkNzblJLZGdlQTZxaUZZdy11cFVfd2taSTlvaDZGckhxeDZvQ2c1ZjRUSnNxVVVCTXVSU3p3M2tZN2hSQV8yMG1xd2xGSUE4Wk10aw?oc=5",
+   "published_at": "2016-11-09T08:00:00+00:00",
+   "first_seen": "2026-10-24T08:34:20.784638+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "fosfato",
+    "niobio"
+   ]
   },
   {
    "title": "Amônia afeta a saúde dos trabalhadores da extração de níquel - brasildefato.com.br",

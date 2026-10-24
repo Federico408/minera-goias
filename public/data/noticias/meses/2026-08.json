@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 290,
+ "materias": 292,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -3830,6 +3830,21 @@
    ]
   },
   {
+   "title": "Indústria do lítio agrega em 50 vezes o valor da sua produção no Brasil - Gazeta Norte Mineira",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTGtSaGtVY0xKblFfZzhkODMtR3RIOEhVVFdJd2VKLWNGaklKaGdXd3piRFh3YVV5WVBza3BVbzNPNUxVenlLSmVSUTlLaWdrczZlTy1GUC1sU2FsRjdjQmRjUGFVWndmSDJGS1RGWTdXemhWeG1IQkZrVUFCZk5qbDJ3WGUxbUpEaEIyTFN3RzBGMUNLR2FUU0xvTEs?oc=5",
+   "published_at": "2026-08-05T07:00:00+00:00",
+   "first_seen": "2026-10-24T08:34:22.742391+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac1e5f0900a47b89045290b94ac0bb4&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
    "published_at": "2026-08-05T03:20:00+00:00",
@@ -3999,6 +4014,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adb223ed13b44159f24ad71ac22b133&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
    "published_at": "2026-08-05T03:20:00+00:00",
    "first_seen": "2026-10-23T09:00:46.718626+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adc6d8dfcd8481ea171cf4ec267cd0c&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
+   "published_at": "2026-08-05T03:20:00+00:00",
+   "first_seen": "2026-10-24T08:34:21.760852+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
