@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 423,
+ "materias": 428,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - diariodocomercio.com.br",
@@ -334,6 +334,19 @@
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ2xjTDN3X2NCX2lQRDJrTmNjZkltWXQtOGNPSjhSZ29nZHVpeUJsMkU0dnlEZ29tVXozZi1QQkU4M1VfYzVvazBWTXQtamZ1bVRkdURCTjZfbmsybnVSMEYxN0ktV1Z1el82dUE1OXctYk93ZkNHakVlX2pkMEMwR1VheWlUTWsxeEdlb3hacWdkYmZMNWJlRTltY2didVNvVVFSOEtPS0dORWZuQkdHemZR?oc=5",
    "published_at": "2025-09-09T07:00:00+00:00",
    "first_seen": "2026-10-05T04:11:32.355781+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Anglo American and Teck Resources' key mining assets - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdE5xZlNMb1otLVNWSnEzbG10ZnpsYkJXTGdjUG50ckwyZE5vdkx0WFo2MGRnRTB5bkpCSFhvV29qWENvM2Y0MHNuQjVfXzBNN0tjZ2MyZEpoV2x2a3VlSjd4bE1YcGZkR0xHXzlERnh0YUQ5cHBlYlVfc1pSdnFUOEd1MnhXc3o5TFlLUEcxeGh4UmdfcUFJSmRzMENJSjg?oc=5",
+   "published_at": "2025-09-09T07:00:00+00:00",
+   "first_seen": "2026-10-25T08:54:03.155567+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1431,6 +1444,21 @@
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6addc3a772ad4f4fb6ba0fe4f7efeb9e&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
+   "published_at": "2025-06-02T00:00:00+00:00",
+   "first_seen": "2026-10-25T08:53:59.382771+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab89686037b4cbb9d163f724403ec19&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-09-27T04:07:35.144000+00:00",
@@ -2023,6 +2051,34 @@
    "substancias": []
   },
   {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6addc3a772ad4f4fb6ba0fe4f7efeb9e&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-25T08:53:59.377507+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6addc3a772ad4f4fb6ba0fe4f7efeb9e&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-25T08:53:59.380262+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Projeto Santa Anna atrai capital estrangeiro e projeta Goiás como nova fronteira em minerais críticos - Estadão Blue Studio",
    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQZXFoc3JnOVVqdy12V1RzeElQd3BfeE8ycXNwWmZRRGt3VzdkU24yX2VVTFE3SzF2U2VKbVplQV9TQUZVWUhOU0xNNUhuQ3JjdEJYbjJIcmlwamRHTVJHbGxNNlZIZDZtblp6emZIYVhGTGNfWjh0SE5TNFNoTGhrakwyVUFCUTE2SFFHV3VuNC03TE1LcEZVVDZvYnBLcVJVN0FwdngtTlpQN0JhNmNmQXc2OURLa0M4cTJ3ZGFhckl0cEUzNjlQS2VudlBiTTF5OV8zdERmRkp0RWQyWDRhWEY2N0g3UU1GNXMtWXFRUkxCUC1yNkd0c2xXTzZkOU1oT18tNWZ3SUpqNDA2enc?oc=5",
    "published_at": "2025-05-26T14:37:42+00:00",
@@ -2428,6 +2484,19 @@
    "substancias": [
     "niquel"
    ]
+  },
+  {
+   "title": "Composição da Comissão — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR2diM2ZSdkhsOElUN3ExNkE5VDI1bXpuNFFmVy1uTS16c1RUYUhZM3VfbmVUaDFzMEl5QXFuLXhjd0xSQll2V2tPMU9KUHJMOW5WSW5kdVlpRXJQS3BVU1lpZzNRbGZWQkY1Q2kzdk9oU0ptVEw3SWNSYmRZR1FiRmV5QlBLbmd3R29PYm5Ub2RwOHVZZ3h6UmZNTmtlQnZXR3pETkFn?oc=5",
+   "published_at": "2025-02-21T17:02:40+00:00",
+   "first_seen": "2026-10-25T08:54:02.050606+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Anglo American anuncia acordo para venda do negócio de níquel no Brasil, cujo valor pode chegar a US$ 500 milhões - Anglo American Brasil",

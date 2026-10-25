@@ -1,6 +1,6 @@
 {
  "mes": "2026-05",
- "materias": 137,
+ "materias": 139,
  "itens": [
   {
    "title": "Illegal miners extract billions in Amazon gold despite Brazil crackdown, Greenpeace finds - Reuters",
@@ -831,7 +831,7 @@
    "title": "Brazilian inspectors fine Sigma Lithium for using banned waste pile - Reuters",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUXhNVnBrUHAxZmNCMmJmQWFpektRejNNM2IweGVtNmFiN2lxRldJdnJKRmMzZG5TNm9uT2ZDWWVoZ2hhaXhnZzdRZFJWY0hSbEg3c2hyak9MblFXQUJxR0luWXVUdzAxdEVndnB5Z2hYb0V4Tl9JeUd1TzZyTVY1LXNUS3VNWkd6ejZQRDR0Rjc0MzhreXhDTWY3M0tyeVRseW01YVEwRFlGMlpxMm5MNVBwM20?oc=5",
    "published_at": "2026-05-12T07:00:00+00:00",
-   "first_seen": "2026-09-20T04:02:48.698672+00:00",
+   "first_seen": "2026-10-25T08:54:03.154323+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -1265,6 +1265,19 @@
   },
   {
    "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6addc3a772ad4f4fb6ba0fe4f7efeb9e&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
+   "published_at": "2026-05-10T18:38:00+00:00",
+   "first_seen": "2026-10-25T08:53:59.374302+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T11:25:00+00:00",
    "first_seen": "2026-09-19T19:49:02.787499+00:00",
@@ -1624,6 +1637,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adc6d8dfcd8481ea171cf4ec267cd0c&url=https%3a%2f%2fnoticias.r7.com%2feconomia%2facao-judicial-em-goias-quer-barrar-venda-da-serra-verde-a-usa-rare-earth-08052026%2f&c=5663708956694819986&mkt=en-us",
    "published_at": "2026-05-08T08:17:00+00:00",
    "first_seen": "2026-10-24T08:34:21.758574+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Ação judicial em Goiás quer barrar venda da Serra Verde à USA Rare Earth",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6addc3a772ad4f4fb6ba0fe4f7efeb9e&url=https%3a%2f%2fnoticias.r7.com%2feconomia%2facao-judicial-em-goias-quer-barrar-venda-da-serra-verde-a-usa-rare-earth-08052026%2f&c=5663708956694819986&mkt=en-us",
+   "published_at": "2026-05-08T08:17:00+00:00",
+   "first_seen": "2026-10-25T08:53:59.376753+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,

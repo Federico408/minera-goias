@@ -1,6 +1,6 @@
 {
  "mes": "2026-09",
- "materias": 1180,
+ "materias": 1181,
  "itens": [
   {
    "title": "Copper system larger than previously thought a welcome surprise for AZ9",
@@ -17106,6 +17106,21 @@
    "tema": "mineracao",
    "substancias": [
     "litio"
+   ]
+  },
+  {
+   "title": "EUA buscam garantir terras raras do Brasil antes de país aprovar marco para o setor, diz analista - Tribuna do Sertão",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZFltMWFZbm9BRzVZa0JMM3hhak5ib0NNd0YzdlN1T2ZJOWN1WTZSUEtDcF9JWkpnbllIQ0Q5SnJSS05fVDlCelFZTFc4NFM4TkZCSnR3Snhyck1RWnFjS2RuelVud3FUR1lVNFA2VHB1UDlqT2JjcEEwN1NxR3FUN0VuVkE4NmIyQW8tenptTDNLbW5kbm9vZnctZmdsTU52b0tHSU42MjV6U00wNXhER1B2WDVOTlVJRkZyNDJDS1pkVmhrNm1XVVY0QllOdWNJR3Y4ZmpBUmJCNUdodGFSNzY4b3RJb2M0RGpB?oc=5",
+   "published_at": "2026-09-01T07:00:00+00:00",
+   "first_seen": "2026-10-25T08:53:58.449072+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
    ]
   },
   {
