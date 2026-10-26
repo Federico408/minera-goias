@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 293,
+ "materias": 295,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -2480,6 +2480,19 @@
    "substancias": []
   },
   {
+   "title": "Tether abandons $120M Uruguay Bitcoin mining project after power dispute - Crypto News",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ1RUSm5CR29ERzIzQmFNZXpwZnFEdUtmZzRES21NUnpGWk5ZQlN1Nkoxbm4tTUNpTEtzU19DLTFLZ2tkNFV1VXdIenRFMXFneXVueURxczExeUozMUx1dWx6LS1ZLW5ObHRkSHB0bFVwMlVYSU5FRVByWXFvXzIyVlpWYkg2VlJlNkh1TjNERUl5MjhSMkJF?oc=5",
+   "published_at": "2026-08-21T07:00:00+00:00",
+   "first_seen": "2026-10-26T09:35:31.876439+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Avaliação de regras da CFEM é concluída e projeta sistema dinâmico para repasses a municípios afetados - ZÉ DUDU",
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObzA1TzF4LWNhcUl5S1VDT0hoX04zR0ZBMm9EOElZYklTdkEzSFpsaV8yeWQ2NWNqMmlKUXJSbkU2MW1kNjVGX3huOVh5LUF2R0xYWi1nbTRFelJMUm56X2xVMlZZNzNxZVJ5M0RNV2ZCN2lVcTdiVHEyVWNkT0NoV00zd0E5cG12UDBhSVotSG5hR0hzY1cwaEZNTXEzYWNwaHRJdVBJX2RNOU90NUhMOTRjdW9manVLTVRqeUhhaElCRGk5U085OA?oc=5",
    "published_at": "2026-08-21T02:09:00+00:00",
@@ -2751,6 +2764,19 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "Candidatos ao Senado por Minas debatem mineração, e municípios pedem CFEM acima de 9% - TV Sim Brasil",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTV92U3RaM2Qwd3RDVUxIVEQxOFlsbHZpSVVaRm1tZHVpbHVwQ3JQYmdDS0djTHctMVVndkhyV0NxRTIwRXRoYndVUEtvTFl6VnhjVzZHaGp4ODhUZEdCelZtd1FoUVJiYTFPT3FnbUtJd1M1Q2UwSzZrTk5BNzBBYlhzVjYwdlhWbmlfLVBfb2dKMDE0Qmp6RkZXc1g5aGkxenlEUTNNajdDT0VqYU8xWWExN2g?oc=5",
+   "published_at": "2026-08-20T07:00:00+00:00",
+   "first_seen": "2026-10-26T09:35:30.067581+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "CSN tem recurso negado e ANM cobra R$ 80 milhões em royalties - Agência iNFRA",

@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 428,
+ "materias": 433,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - diariodocomercio.com.br",
@@ -1459,6 +1459,21 @@
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf1ee02fa04c31a7fd629a675d50c8&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
+   "published_at": "2025-06-02T00:00:00+00:00",
+   "first_seen": "2026-10-26T09:35:28.420529+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab89686037b4cbb9d163f724403ec19&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-09-27T04:07:35.144000+00:00",
@@ -2079,6 +2094,34 @@
    "substancias": []
   },
   {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf1ee02fa04c31a7fd629a675d50c8&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-26T09:35:28.418388+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf1ee02fa04c31a7fd629a675d50c8&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-26T09:35:28.419092+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Projeto Santa Anna atrai capital estrangeiro e projeta Goiás como nova fronteira em minerais críticos - Estadão Blue Studio",
    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQZXFoc3JnOVVqdy12V1RzeElQd3BfeE8ycXNwWmZRRGt3VzdkU24yX2VVTFE3SzF2U2VKbVplQV9TQUZVWUhOU0xNNUhuQ3JjdEJYbjJIcmlwamRHTVJHbGxNNlZIZDZtblp6emZIYVhGTGNfWjh0SE5TNFNoTGhrakwyVUFCUTE2SFFHV3VuNC03TE1LcEZVVDZvYnBLcVJVN0FwdngtTlpQN0JhNmNmQXc2OURLa0M4cTJ3ZGFhckl0cEUzNjlQS2VudlBiTTF5OV8zdERmRkp0RWQyWDRhWEY2N0g3UU1GNXMtWXFRUkxCUC1yNkd0c2xXTzZkOU1oT18tNWZ3SUpqNDA2enc?oc=5",
    "published_at": "2025-05-26T14:37:42+00:00",
@@ -2455,6 +2498,21 @@
    "tema": "mineracao",
    "substancias": [
     "niquel"
+   ]
+  },
+  {
+   "title": "Chile power outage plunges capital into darkness, hits major copper mines - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSWdHOWxsU1B0eWhLcHh0QVZjMlFoblc5a1JPRFVQQ0hCUjhGQWpEdUlPY0Z0YVRmNC1FOHlUMGtUbHVpWlhlcGJ2TXBXci1YYlk1aTViQl9XcW90TUhVbHU1LWpBcWV1Q2M5aURsT0R3ODFsREVQamdQYXZwTmloYWRKVHZEcnl1U2Q1bE5tZEtvYm1EeVk4VGY3Qk1ycG1yUWhkdHdibnVoVDN5TUw4WkZ2ZENpbG9YWGc4TUw5cEE?oc=5",
+   "published_at": "2025-02-26T08:00:00+00:00",
+   "first_seen": "2026-10-26T09:35:31.875662+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
    ]
   },
   {
@@ -3875,6 +3933,21 @@
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPX2xHV041TW5jeXlKeThXWThWaFB3SkxXTW00WDQ5eFdMTGdZQ1lHZDN3YTRIam5DYWE0eVY1Z1JuWUM4bUV6azdwZ01NX0ZIVVM0elhQZC1jelJwQzlaR0xZQ3VOTURkWEhmTUF1WTNKRXBKeVZLaHctaFhuUm9MMjJMVjh6d2lLVlIzSENIeXZvbWIta1RzUGJybzV6QWFZYm5VV0ZsYWtJU1BlNlc0?oc=5",
    "published_at": "2023-02-16T08:00:00+00:00",
    "first_seen": "2026-09-23T04:07:34.008830+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Brazil agencies launch raid against illegal gold miners in Yanomami lands - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZXhHSEtjVHBITFN5d1NMNk1ES1A4eGpjVWcyMkpzdWhidFpKOFRxYTllaE1iY0ZiVWN2WlFmcl9NeWZ3b1BhdktzUzRXVUtjcFVsQ012OFdSX0VxRHhKNkxyUkd2RW56YlFXR1NRdVNwRld0eXpENVpDODNoa0VmdDU3aWRHUlhFd0hURUZLR1k2T1A2eUxCTm5XMi1zUVpjRHg3OXVGNk11RmRDbDRraS1lZ3BmSUx2eWM3VGxB?oc=5",
+   "published_at": "2023-02-08T08:00:00+00:00",
+   "first_seen": "2026-10-26T09:35:31.874753+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
