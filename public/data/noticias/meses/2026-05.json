@@ -1,6 +1,6 @@
 {
  "mes": "2026-05",
- "materias": 143,
+ "materias": 151,
  "itens": [
   {
    "title": "Illegal miners extract billions in Amazon gold despite Brazil crackdown, Greenpeace finds - Reuters",
@@ -138,6 +138,21 @@
    "tema": "mineracao",
    "substancias": [
     "litio"
+   ]
+  },
+  {
+   "title": "Soberania e custo de exploração de terras-raras são destaque em debate na CI - Senado",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVFBxNV90akV3UUNibk1CWHE3eFhSUUFMdS00SUlrU245WTdFNzV5Si02V0MxV19SMTl1S28wM0k2NktIYUNhcGhKTmpRMU9JMkpITDB6MUZTMnNaUS10eGRmSXFiX1RHVEhaaFdiQnlKbHlCWEFfYTdBSVR0MGpFNXFGOXhKZGVhWDJ5NmxHUEFGZWg5bDgwQ3ZaQ3BadG5FUDJ6SDVOTlozRWZJeFplX29xUWlkeE9QYVNpQ2pKdmQ5d0tZa04xbVRrRzZXbTM4clE?oc=5",
+   "published_at": "2026-05-27T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.768228+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
    ]
   },
   {
@@ -608,6 +623,21 @@
    "substancias": []
   },
   {
+   "title": "O que são terras raras (que não são terras nem raras)? Entenda em 10 perguntas e respostas - G1",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMThlWjVQOWFUV2djR2JjQUxsY0FuNWpRWnA5aldwcTNRdG5kdU9OS3FtblpJZTYxSlFVcTBFWVhMdEdoN2dnREJycENqY083RktRLVUtclJ2Nm5BcUp0VWxpUDJkRjlQSnZxS250ZmdNMnR6VmNIbkQ1cVZMZnZDZGFZc21Mcl9fOExxVFpyeDBpQm8xWlBKRWxNMUtCbklOclFCYXpFV0FaZw?oc=5",
+   "published_at": "2026-05-18T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.768784+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "CFEM: municípios afetados e limítrofes partilham mais de R$ 93 milhões em royalties - Brasil 61",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRVUzSnM2d0tsNlFTMzdsOWpGa05DUUItN1FKd0VQMnFZbE56MVFzZzRvU3hsWFhIUkM5Q1JKREt0Y0xkLXRxcDBGeTdvOE93cFpzOU03bVFXbkh4cXVyXzFyQlBHRFp0WFhLbXVLUXBuMVZfTjdNTG5sMEhOVXExMkNOTElCNmpuMGN3M29jSVZtdGI3X2dnRXdLYnBHQlhJSW5xR0ZjZjlHU3pLOVJJMTFtOFZ5cm_SAbwBQVVfeXFMTkJ5UjNKX0t5QS1YZ3NHOGVGSUpHYmloS2JiVU5GX2hBVmR1RkZWOGlyYVpFOGRoa3ZzQ19RQS1CanFoY3c2VUVxYXlDSWxyRUlyVDNtZG5fVVc2cGFmVDhlanpVZmlfTG92ZURTUE04QVRNUUVNOUkycXl3cWJJWlZqTThVaUhmemNxbHpEYXByT1d2Q2wzY0R1N0tiVEo2TzdJV0FsNk1ISDMwcU52amE1TDVfWDI2bWxKcXc?oc=5",
    "published_at": "2026-05-17T07:00:00+00:00",
@@ -617,6 +647,19 @@
    "setorial": 1,
    "fonte": "Busca · CFEM",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Parceria com EUA projeta Goiás no cenário global dos minerais críticos - Portal Caldas",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV01LamtUN3NRNGFvM0hPQUYtamk0MWJKbC12cXIwSnhqcHV1U0xyR3B0bG1pNVRSNjRmZkRKVzhHb0Q1cHdrbWVzS1pwUzlTSjlVZ3lSZXNrYXFoTVJrWlhyNHRVQUk0UmN6YVBWM1ljNzJka3B4TmtTNmowdWRVVmUxUEczcXA4dFdSb2tTX0QtdkkwdTdKTzN6aEl2QmdLWkphblRhWDlVQQ?oc=5",
+   "published_at": "2026-05-16T11:13:18+00:00",
+   "first_seen": "2026-10-27T09:31:46.682300+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -1071,6 +1114,21 @@
    ]
   },
   {
+   "title": "Terras raras: novos nomes, mesmo modelo de exploração - Instituto Guaicuy",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY1hCaGpZRkxIek1LRXBSd19hUXRTOGRMWDlzbHZ0WUdFRkhCSG5zWkM3WVBRNzZjd0tRYThfa1Fic3FlYXA2c1ZBVUgyRDRhdWlVb0pCbkExekJYd0lBcDJXZ2dOenpIcTNrLW9JSWdEOFJ0YWt4YXF4Q3JHT25qcw?oc=5",
+   "published_at": "2026-05-11T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.769303+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5c5d5c34a42689cbd2b7ee70dd042&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T18:38:00+00:00",
@@ -1309,6 +1367,19 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf1ee02fa04c31a7fd629a675d50c8&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
    "published_at": "2026-05-10T18:38:00+00:00",
    "first_seen": "2026-10-26T09:35:28.416652+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae06f8475f14ba092411ff02e77849f&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
+   "published_at": "2026-05-10T18:38:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.201026+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -1719,6 +1790,21 @@
    ]
   },
   {
+   "title": "Ação judicial em Goiás quer barrar venda da Serra Verde à USA Rare Earth",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae06f8475f14ba092411ff02e77849f&url=https%3a%2f%2fnoticias.r7.com%2feconomia%2facao-judicial-em-goias-quer-barrar-venda-da-serra-verde-a-usa-rare-earth-08052026%2f&c=5663708956694819986&mkt=en-us",
+   "published_at": "2026-05-08T08:17:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.202479+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Terras raras colocam Goiás no centro da disputa global por minerais estratégicos - Blog do Badiinho",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02eW9FMnRCVGdrTkpaUmJBdXo5R19hT1hKeW9GMjRYR25nRTRpTUVielRMQkhoVU10UW9oOUwtN01mQUJwT2w5V3lHVmMtbHZDTFRfY1duMWE1RmF5TlMxMXpONGN2eG5VdnBsNkRKa2wwVmJGMnlQMdIBfkFVX3lxTE9SaWVCSTM3bloyenFuZ0tmOUc3Q2ppOXNjc2Ita2ZvOGJqbmU3SjJWSFMwMmtJQ1RSZmEtYUh3dFBNV19XbVFxZnd3SkNjZTVqa1pCS2NpX3lhV2JsSlE2X1lQNHlCa005Z1pyaW5obDN1SnJoQWxMWGV1aDBKdw?oc=5",
    "published_at": "2026-05-08T07:00:00+00:00",
@@ -1758,6 +1844,36 @@
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Projeto para terras raras amplia controle estatal e cria insegurança - Consultor Jurídico",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbTBEaUtOQjIzTGVPQkFNa29rejVVWE1GcUZ2S2xFNXltUkVYdXpJcDFYUzFGcXh6V0FPZFY4cEJTWGwtaVEyRkJRZXQ4V2R4RF9sblVfZEk4TkwtXzBJZ1FJaFZlQVVhZmRYZTIzb0JrY2NxTm5JNXZzVWcwR0VuUkJCZ0ZBWmdSMU4wVnkzajI5Q0FQT0RUemUzRWEyazdJUmZnbmowZFNiTVNZbXg0?oc=5",
+   "published_at": "2026-05-08T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.769789+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras-raras: Senado analisará política estratégica para mineração — Senado Notícias - Senado",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYjhxMWhpVkw4bGFVaXRlTm9COFZ2SGhrZW9jeTJ5M1NlU3BZN2V6RHFwVU4xUC1hV3ZJd0x2MVBjZ2gtVDZXaWlRZlpLclB3dEUwQ3FVaEZyYnVVczlrT3pDbWRjVllacjVISHN1NVdPUTJpb2hOZDM5OXplVENYc19ocE9KVGRvUjRWVjU0SHNDV1pDVlYxUFl3M1ljSmgyMmNkdURYcnZVbkNybUVRc05ocWN3Z1hx?oc=5",
+   "published_at": "2026-05-08T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.770274+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"

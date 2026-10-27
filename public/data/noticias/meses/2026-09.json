@@ -1,6 +1,6 @@
 {
  "mes": "2026-09",
- "materias": 1184,
+ "materias": 1187,
  "itens": [
   {
    "title": "Copper system larger than previously thought a welcome surprise for AZ9",
@@ -1039,6 +1039,36 @@
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
+   ]
+  },
+  {
+   "title": "ANM interdita lavra em parte da mina Grota do Cirilo da Sigma Lithium em Minas Gerais - Portal do Holanda",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONEtxdHo1dms5eWxFOEVPRGZaaHNOMG53R01SRnhONFM0MU80WE1WNU9zU2RrNkZlN0xRNlFkV0tCTThKUWtvWGZZMXZDczRtSHpCV0hSVXRXYWZsRlNNTzFpZ0wzU29Sd1VPVFZqZ3hJS2FXUk5PQVF1ZnFGa2owR1p6Z3VkOXdJSUZDMUJ6dG96eHZmWktKWlVnVDJqb1ZRbVJXOTBYS3lzWWpManB1U1NIZFBJMzBFY1p1dVNmcnFyX3hp?oc=5",
+   "published_at": "2026-09-30T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:51.144612+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Brazil regulator orders partial halt at Sigma Lithium mine over ‘imminent risk’ - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRVlrMnlxbXl3enJXMk5HaTJhN2hSTXVBZGNTNWw2WFlsVzRsREJYYnFHNnZiQ0hCQmwzc2txS3pHcUhOZFVaSDVQaFpHYUxfSkNDOGx6RkVaeXNSVGtjaEpWeDJVVjZLTnRZYW5SZ1ZpN2Y2YkFnRkRvUVd1aXp3YXl1dHJ5WGZNd3ZMaTVPdTZ1dmJ4OGlKNHc2OHdubzhOQnJiV3lSZVg?oc=5",
+   "published_at": "2026-09-30T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:52.523847+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
    ]
   },
   {
@@ -3301,6 +3331,19 @@
    "substancias": [
     "litio"
    ]
+  },
+  {
+   "title": "ANM divulga lista provisória de municípios afetados pela mineração; 15 são de Alagoas - AMA - Associação dos Municípios Alagoanos",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcnZyYWZSUjUyd1NVVFBkRk5sQWJsbjFHSXh6TUV4aFI2R3dKOGppS0xTdUJkTzF4ZWc1LWFIN19LVlpIUEZuZEJHU1pqcGgxRDRQR2RIYUhlQVg0Z3lWdThRazlBcmhkRXM0cVF4NzBSQmU4T3FoRkVpZGc4ZThGZk5aY3Byd2JvZmdNSE9aaF9VUDQwY2JWdWdjUnY5UVd5LW5WTjE4MHBVV00?oc=5",
+   "published_at": "2026-09-28T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.716144+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Brazilian Critical Minerals Delivers Bankable Feasibility Study for Ema Rare Earth Project with Post-Tax NPV8 of US$1.47B - Kalkine",

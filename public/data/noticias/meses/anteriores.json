@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 433,
+ "materias": 486,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - diariodocomercio.com.br",
@@ -27,6 +27,21 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "‘Febre do lítio’ avança para Amazônia e afeta 21 áreas protegidas - Repórter Brasil",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOXJWbjAzbGZQRFRDNlZfWXVFRWlBUzI2bTdnSXNpN1hMQ3hib1oxYjFXbW5wMkM1aUZWY2RFUzhSR1BhdnZNN045TlZTazd0ZlJnb3dXVTNvdnhudnJPV3lmRUpVUVFPUXdLaU5NTDBUazZSSW0tY3B0c0ZoRHhZU1IzRQ?oc=5",
+   "published_at": "2025-10-28T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.171348+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "Como Realizar o Cadastro — Agência Nacional de Mineração - www.gov.br",
@@ -68,6 +83,22 @@
    "substancias": []
   },
   {
+   "title": "Lítio é energia limpa? Corrida pelo ‘ouro branco’ gera impactos no Brasil e no Sul Global - Brasil de Fato",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLWZBbVEyYUxvSE14RnVsRlBweGhhS1IzQnBoeVdWTHF3UDNnTFl6QVFENmJmWTNITzdEZFd2OU4tNDlhbjA5dGtrU0dpQVBsUU9LRm4zUzc4X3JrTUFXbHJBRDdCakRva1dkdlpNSXV1OG1ZMmtOd1NVRy1CemFUdE83T3dlNl9zdzVpYkpNZDRSS2M4UUFWMDUwcTRuT2FUSU9pOWprYTdDSzd2bm1F?oc=5",
+   "published_at": "2025-10-23T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.175676+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio",
+    "ouro"
+   ]
+  },
+  {
    "title": "ENERGIA SOLAR | Hochschild Mining implanta usina para suprir demanda em Mara Rosa - Brasil Mineral",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNW9jTGN5N1h5UEV3ak9EMlJCM2ZaOHZxTnZiNUFTUjhCZXNkOGtYaHZha0kyS3hxT2V5NlkyOXdFVHdBX2J5UHNmSDZoY2V3cGpzSk94enZLVjR4UG5XbjRrdUdHeWhlaldyS25xZGQ0Z1VBTkNXbUo3MmU1R2l5QlNtMUhTSnh2LXRUaFlWUGlXNVBuQ3NfVUZHUWtkNXRFOU1TRHln?oc=5",
    "published_at": "2025-10-22T07:00:00+00:00",
@@ -92,6 +123,21 @@
    "escopo": "setorial",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Brazil targets rare earth revival as mining council takes shape - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORTBJellJdXprbldpdUtmZ3dPMElyd3dQQ1FjblJpVS16SXdFdUJ0ZU42akU1T2s1Q2syZFh2dGdvdmZ1SXlta1ljQXRCNTRjVkpfZmZOQ29OSUFNeWlLWTI1RnBDejk2dlo4eENHWlhTRkdqdTdnS1hOOEk5VkdpSDF0YS1LbmU5RDJHQUw5X0g?oc=5",
+   "published_at": "2025-10-20T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:52.115358+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Agência Nacional de Mineração - www.gov.br",
@@ -133,6 +179,19 @@
    "substancias": []
   },
   {
+   "title": "Australian mining giants enter Brazilian towns for rare earths, worrying local communities - Agência Pública",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMjNmcVBGN2xoVG5jU2JGYUw3NGFXaUFhZ0VYUzc4blJCOHNCdDVheXBIeDJ1UnpIRDhEeDJVQzF2SXFsNFo5cUZ4N1pwWnVqei1PQlRTeTZ5Q0pQRkhpSEVRTlk0ZFNxeFUzTmxvZUZmM3dJdllTTXh0NktST3FCWWM0c2Juajl0NW5zOVI1dW1fLVN1ZzhJSDFBTmI3Zm9kbVdjV3NKbnYwX1hvYXc4aVhtaU9RbmYzODNz0gHAAUFVX3lxTE1tcEsyUEdtTWRpeXF3MVRLYUc3U3I3ZkRWYzRsTWxYSHZ2Y3d0UzlpSVhaNkN2RjFJdWVWQkVvZzU3Q2RpUzRRd1NTY2RiSW54YXdUZXU4X1EzdFgtYnZfSHVMeUNDeVhmS203TXk0OFpCZDhwMnpoWjM0MDdwU0VISkJoeURiWXpMMUJUR3lSRDcwbGxYMGxTMmNVc3MyRmp1UGwzMWNvWlJRSlp4TWVvTmVzbWpLbkdZajd2a2Z1dg?oc=5",
+   "published_at": "2025-10-13T15:02:08+00:00",
+   "first_seen": "2026-10-27T09:31:52.116322+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Goiás é o terceiro estado que mais recebeu royalties da mineração em outubro - Jornal Opção",
    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSV9MbVFXRzNWbUo0MmVzYmh1X3Y4LXdLTXBPdE9nMUdPTWJMbXYzclhIeU9NVTV0LVk1MFlTX1ZVWkc1RnNWU3oxRHNsa1JNLWMySmVRMUJHXzI5bk5ha21HbGtIdEY2dV9vUExrVXFoeE9fY2cwNE9EOXdHd011Z29FVURvWmdiejl3REFHa1ZXVnkwOWNveno0QTNXcExwcENGQ0VWeVMyWEVCaUNqM3k0UFU1dl9fTHpORlRqb3dLUTJ6WWtUVjJJUE0?oc=5",
    "published_at": "2025-10-10T07:00:00+00:00",
@@ -144,6 +203,51 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Para que serve o lítio, quem domina o mercado e qual a posição do Brasil - Folha de S.Paulo",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPd25qQ0FEZHJpZHoxMUE1dWpOZFZUaUZYUWxmVFlkSWdFZzVIaUhPRlVLVFBhWWdXVG9aYUZpZzRaRl9SLTVTdDlDWk9yZ21EcTlCck9MNENpWTNoaEtZUWNMLVFWdjY5NExOMGN2Qy00UjJxRFFsUTdVVlcyX09wcHdGcTFhX1YtMmZvZDdxRWJNMy1QNkpiLWE2alJFR2Jxejc5RFFhcTZDZDVrY1pFSm9SclFQbmx1UEtIZ2RyTXHSAcYBQVVfeXFMUG9ieGRMeFlWV05zanpTbHczdnMzMWExSlRGZENEenNOYURkV0QwWWdyM2VUWjU3LThneVhtWGNuVmV3OWNrYXpJZm1LSklEQlpJT21leEFlUEZyZjJqQjFEaXR0SEJLTko1RnlGcnB5NGhYd0o2OEhUQ1czaG5WSFBLZk5CQzVXZU1IamxBVW12UVc1OWNaanR2N1F4Y09FM1JxdWRQbENpUmtHUVNUV1ZNeHZjc3pYOHlVckVuS1VFeUFqa3dn?oc=5",
+   "published_at": "2025-10-10T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.179636+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Ação do MPF evidencia fragilidades em licenças de mineração de lítio em Araçuaí (MG) e região - Brasil de Fato",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTzJyZUpzdEJITDBBTUZDTGNGVFBtQ0dFeW1XY190NjZyLUVrMzlJVkQ0ZW9rNEZaek0zUVJDRTFiNHBocTJQcHlnNFhFMWNVRUszSTVZb2x6U0NEZ0UwdnF1REpVVmVYb2VNN2Z2bm5LY1ZoSUZIc2ZjUkRKakxFeElBRklfT1NyZ2x1TWxScGlhTERjYUNzSDNOa19DbmxCYmoxVThwam5OYkRxSHlKVzEzdW4yVFlxSzF5QndlZWJfT3ZKTlFuQnlNcDdKVjlF?oc=5",
+   "published_at": "2025-10-08T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.176510+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Vale do Lítio: exploração de metais críticos impacta comunidades em MG - Agência Brasil",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdnQ0VmJHTnhvME1GTllkb1ByMHhfMU1LX3M5UWJOMjNSYno4ODVSVnN6SnZKZ2k0UGpremUwclp0MmRMVkkwQU80ZExmSGVjQzY4aENIUHNOWHNOeU9STTFEaERiR1h6dXdRYm1la0ZYQk1zX2lZT3RTVzIwTjhVem42eDRYbkpFaVpCVlNxNjJnWGVUTGFSc1Qxci1ndTI0c2hLMmxiMHJJTHctci1GU0tNb3FQUXUzeXZpTmpJdFBpY052aHFzTzdVM3M?oc=5",
+   "published_at": "2025-10-05T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.170576+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "Para que serve o níquel, quem domina o mercado e qual a posição do Brasil - Folha de S.Paulo",
@@ -269,6 +373,21 @@
    ]
   },
   {
+   "title": "Para que servem as terras raras, quem domina o mercado e qual a posição do Brasil - Folha de S.Paulo",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPek5MZWw3ZEpUMXFkWmI3U1JsUDdRSWwtSVp3TGprNm5YR21jbUZLZmI4VzZ1S2k5WGxiZEotemw2WG1sTmEtZTBoZU5zLWg3RThtNElEaEhTZWpPQ0RXVXZTdUtMSW16OTlRUE1RZ1pTcjhtNDBMbmdNY2pmaVVXNVdadm9aSWF3T2RBZnZEWDVUd3BrTE5XdFNrT3JDR244ZlE2UlRlRjZ4OTdRdHUxY2VLVkJBODhud0h4bEdYSS1vSGVCcll2YW8xMELSAdIBQVVfeXFMTXgyWUJOaHFNV1pzdVZadlE0ZXk5QmZsVmVGdXJlLTBVSU5yVWItYXhJbWR6Rmlzb0FYTDY5OWt4ZnVyVkRyWXlaalVwNWNjd0ZrQTFGYUtpZk5zdjNmalNkLWtLeDVXaml0S3E4N09sbExnUHpjVHhVMnZDTzF3eDlXNHBaSXpRbTBkeHZsWFJFUTUySE8wTlR3N0I3NDVHX09jX040NXU0eWd5alU2alBUVWoxcC1BTjVYWDN3VE5IVVV6dm1SaS1ZR05NYk80Nmtn?oc=5",
+   "published_at": "2025-10-01T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.773680+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Brazilian police expand program to trace gold from illegal Amazon mines, nab smugglers - Reuters",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMWpYZkJBUlJWOVNJZG5DT1d2cFVhUUFyT0hOM1FzWkNzbGctUVlNUnFEa2UzUGY3NnNjT1h6NHc0ZGdBU1FTRUx1N0lFZTRRREh6OU1hWkJOYmRVeG1HeGtheFZfRnktOWVSSW1EdFpCeXFTVmVSTjRqMnhoYjZzcnQ1RDg1QVN0SG1FWEVJRmxyRll5aWEydjlkR0J4VHhhaUktcEZNYldLUks4eUxoYWMzZ256MFZvZktvZ0ZNUjRHdjUwbXpPZ2V6THNtczQ?oc=5",
    "published_at": "2025-09-24T07:00:00+00:00",
@@ -315,6 +434,36 @@
    ]
   },
   {
+   "title": "Rare earth rush endangers rural communities and conservation areas in Brazil - news - Mongabay",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQThSWF9lV3piY0RELWl4Ml9ZN0IwRktDOEVIVU5JRWl0Yms3cmJWN3JsNE1ySDU1YU5TenJhd2hFR0FiZUFJOFZnZjVtcHNleFlTOU9vT05Ub2xSbUZlLWYyY0tTM0JoS0x6Q0hqcUxsZzJfSFJoRUxramF1OURhdHpucmZWZGtXLWFmbjJtRVNtczhBR2FjUmRqaTlYdVJmcnNGMXN3b2c0SjRiQjJyWdIBtgFBVV95cUxPLU0tQWlweXVrN1gxTkNrN0ZncjRoRXhtQUZaVlo3NGhPYmJGS1YtLXBKZ2Z0VE5aM1pNNjVzSzlCX25MTzlNcWczcXBGYXhVMkRGZHFZN1d5SzI4ekJubnlWdDVPVEg1OFhidHJ3M0w0RXk5eDY2RUlXSDhyLVJpc0cycVU0UXMzVU5kMlhTaFY1TVN6SGpqNDhodFM5Q1padEppYnFkZGFpbl9lV0pYM2NPZWxFZw?oc=5",
+   "published_at": "2025-09-15T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:52.111817+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "MPF recomenda suspensão de mineração de lítio no Vale do Jequitinhonha (MG) - Brasil de Fato",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR1lEeEUyM0xBT3g5endhWmEzYXFZZTB6WmFvdXg3Sk5pRTRBZDJFcVRMMlhDN1VhUng0a1BxbVBjd3plT3h1ajNDTFlwd0lsWFFLSlhXTDRXUE1uMVoyb1JUV01oZm9YdHp6VWp3Wi1QSHlqcDFFclVuMk1qYnpjUng0b2h2UlhLVERKVTB4UlhMYzQ4OHFOU08wSFNNeDZCZS1JRWJFNUVQcWVTQ09pTUZBWDhyR0tF?oc=5",
+   "published_at": "2025-09-12T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.178468+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "OURO | Axía Resources obtém licença projeto em Niquelândia (GO) - Brasil Mineral",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTWtreHNjMktTdHVFaEw3aHdicHFOUWM3Wnlhb3VVanZGUThsd3dCcXQtZGdPVUpxcVloNTgyYTdyckRJYVVTTWcta0h2NGp2NmtuQmltR2dVeElMOVh0ZURBdHJ4WUNYR0JSblhJaklhT25sOWUzR3VBZjRMMndwZ1NkbUJKQTJvVGMzd3F3TmJkc0ZqSk9B?oc=5",
    "published_at": "2025-09-11T07:00:00+00:00",
@@ -327,6 +476,51 @@
    "tema": "mineracao",
    "substancias": [
     "ouro"
+   ]
+  },
+  {
+   "title": "Em voo solo, Serra Verde lidera investimentos em terras raras com fatia de 92% - Agência iNFRA",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRUZUTXVMNG1Vc05TRHRkRG1yTHEwMzJHcXYxdUVnWG11bG0yRWhlOEE0bk1VR3p0eTZTSnBBNkJNTW03N3R0d01YQ1ljRWRQMHZHeWhXUi1GSWFQdWZJUVdDd0FaYzlENkpOeHlzUlUxWW5pSV9mcjFmdGJwOHViV29UMlRKdEZlOEd6eXBYcXJBZW10X0M3RnJBXzN3d01SMjV6ZTNTWWdJZnc?oc=5",
+   "published_at": "2025-09-11T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:48.535128+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Procurador pede suspensão de mineração de lítio em Minas Gerais - Poder360",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbXVneFZIWDAzOFRHWTg1dThkZkllT0lVUkgyaC02STJXeDZuYUIyWXRfMVRMbW9aWWVTT0Fwa3FmWW14Z1B1M01OV3JiUExaT0ZMTndKUmFQaUxLdkRwNUs2NTJQUlBQLTdOZkY2UW9RTWNPM2pDM3lpYmdhejlwdlBZaFgzQ3NKeE5qa0Nmc290SWpsX1ZEMkdKTWxUeTc5c3RCU2I1NDc0dw?oc=5",
+   "published_at": "2025-09-11T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.187160+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Especialistas cobram mais investimento para pesquisas sobre terras raras - Senado",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcjkwNWtnTmRGMHlkMFZLZ0ozMzVPU254Q3IzYWI0c25qSF9kNnhuRHY1NFJVRktVSzJhdzFRVm4wVjliNHJPX1BIYUdNVDdjNzZOcm0yQVdEYzd4STJ0b0FZYmctODVLeGltSWkzX1Z5SnhXQnkxckR2ZEM3T2lnZ19sSmlZVHBWQ0VJamJhLUc3Szh5dFVkMVZOZ05pWEc5bkotRmljTldDVWZ6U3U2dy05LUY0MG5pODhENWJ5VlpzNFBuNGZfUA?oc=5",
+   "published_at": "2025-09-10T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.774782+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
    ]
   },
   {
@@ -555,6 +749,21 @@
    ]
   },
   {
+   "title": "As várias faces da questão: terras raras e a corrida pelo domínio científico-tecnológico - Governo Federal",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdmlhY0tQTXhIMWdJWExiQXV3ODIxQ0doSmNkT1JYTXdJS3h5dGF2NncwSGRFYmphcTVhbV81RE8tZDNkX1hEX2JXdlJpSGlxZGxHNFg1WE9hMFZhZWdGcXNEUW1DajhVYWtqT3kxS0hoR3JYOThJNzBnMGRTcVk4TzhXLVl6dkgtLXRiRU5DU0RWQjBVQkwzZ3Jfa3RNdmZiVlFjcmJzbEZrSmhVNWtYMjhOekFjclhkQ200ZHNZYU5rVFVMNXZmcm9HWWtJRGN6Ulh5M0hvT3RlbmFEMVMtdzE4VHlfdw?oc=5",
+   "published_at": "2025-08-27T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.774202+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Cidade do interior de Goiás vira peça-chave na disputa mundial por níquel - Mais Goiás",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNUNyOE9GLWJneVdHNkMxd0ZGUUpHWEdFTDBvNUtuaDkxMUR4STllSUlDN3RhdHFNcVR0bDhERzcwaXhBcE5wWnlnNUFJZzh0RTlwR1lRV3pJRnoyTS1yM2hxbnZPS3dYZzcwdzhHTi10Nm9ORlpSSmpXNVBaSG5DMVUyOUM3aDRCZEdYMHREV0JSQ2F4ZC1fQzR1SzlvcjBIb1lMdHRxTllYNk5zSHlWMw?oc=5",
    "published_at": "2025-08-26T07:00:00+00:00",
@@ -720,6 +929,66 @@
    ]
   },
   {
+   "title": "Brazil Wanted America’s Help Mining Rare Earths. Then Came Tariffs. (Published 2025) - The New York Times",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYUV4UHBMTkVBeVI0bEJVVlg4TUhwX1JZTTZlRUFvV0VoMzBZUXNVb2dzOEZ4c1FoU3dWRXpvd2JNenpPSDhnNzdROHV6NEJDS1pHb1pCeWdJbVp4MC1VZjNPTUE5QnFMT1l2S3hDVS1ENzFSS0RmZ1RkMWxFUEkwV2hsc2N1UE5pQnNxcDdoNVFlMWZTajAw?oc=5",
+   "published_at": "2025-08-21T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:52.114121+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Viridis unveils 200Mt initial reserve for Brazil rare earth project - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbkE0elZCaTNBYVlnR3ZuTV92d3BtZUVLMU5EQkQxR0R5WjVGZ0NMU0NVaTZUamp5WW9XXy0wR0ZaR1ZWQjRVMEUzdE5EaVpwSmEyTUVyWWxDekI4aFNGaENYcXVVQVNiNmFoS1FYR1ZtOV9hZUZQQV8zZnZ4STZDUDJxN2Vid01Nb0NORXlHNlkyNkd0LWc?oc=5",
+   "published_at": "2025-08-20T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:52.117581+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras, minerais críticos e estratégicos: entenda as diferenças e a importância para o Brasil - Agência de Notícias da Indústria",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNSFRFZzAyaFFfTVJ5ZTFzRDc2WG51bnVETmRid2s5cVYtMUJZdmpzSTI3dDU1TFYteEVuNXEwRGg4MWF2LW1qVmZxbEJHLUNQWkxHM3lKLS00dXNwaDZONGVrUkNQcWt1YkM4R240Q1JoVk1lUkVpRW03V3NET0RWZmRfWXpnNTBJeC1GMG5qT191LXZCZEszWkdEeWtVdDBVLUwtRms0VjROMWxEc0FjQkFRQzlKQXk5YkpmU0JHTFc5X0FZbU00RGxQUzRESWh5RHdjeU8zZmhRUGFpcGNHbEd6bTN3S2FTYTljV1U1elJiVG14U0JkdWkzWFZxZGJB?oc=5",
+   "published_at": "2025-08-12T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.776352+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Lítio, terras raras e cobre: o que os EUA querem do Brasil? - Jornal da USP",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTWdkZ3ZBZHJKc0xHc092dWpxQnpmUi15YXo3ZlhzR0QtWEZEbjdVeU9xUGhJeDNxeGlTQnlWanktTy1LMTR3S2ZQNE5CMnVQNHNyVTFLR0hzNzlWWi15b0VFT3VqWEwwaGtZanp2Y05CTlkyYllackxpU08zYjE5SWNXNV9LR3UtaVdkNlk2TVVzVTMyc2FqNmZhdjVZQ19yMXpqYk9TaWVYdw?oc=5",
+   "published_at": "2025-08-12T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.180263+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre",
+    "litio",
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Corrida por terras raras em Poços de Caldas atrai mais de 100 pedidos de mineração",
    "link": "https://mineracaobrasil.com/corrida-por-terras-raras-em-pocos-de-caldas-atrai-mais-de-100-pedidos-de-mineracao/?utm_source=rss&utm_medium=rss&utm_campaign=corrida-por-terras-raras-em-pocos-de-caldas-atrai-mais-de-100-pedidos-de-mineracao",
    "published_at": "2025-08-11T13:15:45+00:00",
@@ -732,6 +1001,21 @@
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
+   ]
+  },
+  {
+   "title": "Mineração de lítio no Vale do Jequitinhonha coincide com aumento de doenças e acende alerta - Brasil de Fato",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVkxLZUlfQUZ0Z1lYcWgxcDJEcWdITzVoVVN0dGN4ZVJPTkMzcXdFSDlWdFZTeEdxUFhtTmF6WElOaFRGSVBJSDJ3Nm42UWFRc3JtSEd4OEZIM0lyUXR6OEZwd3E3M1JPVVlUcW92NGFZbEc3cGx5d19CbUNTOHB0RzJVal9pTE1KWmRXUDBqdE92OXRMQzZETkE1YXUyMHZnaTNyeGNJV09BVWhjRkt5VFJhc1hiQTdadVBIYVVjZThfaWxkR1hxRUVlRG5VNHhW?oc=5",
+   "published_at": "2025-08-08T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.177147+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
    ]
   },
   {
@@ -836,6 +1120,21 @@
    ]
   },
   {
+   "title": "Terras raras: o que são, onde estão e por que os EUA se importam com elas - G1",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNUxvaTJLVlc0d3dRbmRiU05CZEs2UlQ5OUVqREgtajVBREhGbjJqZU1XV2NjQXFodlBTUXEwMU0tQXY4VU5NWnNfcENIR0J1aFI2bElDeVNlOWdENzNkWm5JRnhqanliR2pTcE5sZWE4eGdlTkFqUUctUWJYd0FPT3N30gGQAUFVX3lxTFB5YWpVVGZUcmZBWmlyVzVOM0YydV9WR1hBR3E2TkZfY2E2UGMtb1lfdkVha1E1RVBiQUZQclMxcTlRUHB2VzFHek81ZFhxN1ZiT2ZCRmdUUVpzOG5qdEdGQVNNZXI4SUstS3hkci1sRW9OTEZEdmFKdUktZTF6eGM5T1hyMkN4T3NlejNXWXZMQQ?oc=5",
+   "published_at": "2025-07-25T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.775854+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Barragem B1-A tem nível de emergência elevado por precaução em MG — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd0ZnXzlEdDNGdW9ZdEtScGNlcTVWcF8wdk1qQ0pDWjN1a1VxS3ZPOGxDNjhXeTRfSGZhLW0tbDU4Mk9GVEQwMmhxUEVCb0ppM0l2WjdRZXoxdm9kejkyU29tUzhEb2NoNnh3cEtRMWpEUWR2OFVzMDdMX3VUakhBcVp3UWdKNFdEY1VIVFIxOFRZTlo3OFk5Q3ZRUmdVanFJeGlpMTREN0h1ZGRkWjZ5dDllNjVzNWo2Ymt1TXhYWHo?oc=5",
    "published_at": "2025-07-23T07:00:00+00:00",
@@ -907,6 +1206,21 @@
    ]
   },
   {
+   "title": "Brazil’s last asbestos miners are switching to rare earth minerals. Can they offer a brighter future? - The Guardian",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ2NnRU12OUJTY1RWY1NoWEQxOTRMWTBsTHg1MU1tRTRSSDlfcUsyUXVmQVYybnoyOTZsaWtiX3pQQ3lGZFB0bVBFUUFIUHRzUFFtenVBRGJVRHJ1dmcwN3FNWGNTOExKY1JkblJhT2h4VzVUYTR3VjU4V1NORnlobWhPa084SHk1bUpQdE80cC1YUkRWb0RlZWpDZjVHQmFHakk1T2JqTE9FZXpIRnBhX3RKTThXUy1lalRJcg?oc=5",
+   "published_at": "2025-07-01T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:52.117034+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Quarta maior produtora do país e 35 anos de operação: conheça mina de ouro de Goiás vendida por mais de US$ 75 milhões - G1",
    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNS2lUZlN3Qlo3em5NUV9kUDFtUzBrVWlUaFE5R1h2Q0JYM05taWQ4LW5oaDJBdG5mdV85M080dDRXWlVPYUQtNVpxWENNa2VhUmJrbGZBUVNrRDFrY1pWU0xvQ2gzbW5YWjBER1RQWVlYSkgyT01qeXZ1anlqUTRqOXdPMnpKalZtWldkblQ0ZldtZUlaMnlyUlpnU19BMkhvQmdFdW1CcUNMVVFucjZzWTFZRnVsVHBhN3hoVHA1by12MXYxVWpIUFU4eWJjcHNrcmJKV2gyZ1U4SXFETzNES2lkUmtySWpzeEN5aWljQ0pQZ0k3WnlnSnk3MTI1b0VX0gGPAkFVX3lxTE1lZ2YwZE0yNE9XRVg1dWVDUDJyWE9CbXRtOWFETUhOVjZwVk1Zcm1RR01tN2h3RGZ3c0ZPOENfaFhxN0NNLTJjeURmSUVFQ2tvNW5DWjBicWZyOWQzZlM0aFhNRktCSG1FZldRV3RreTFqQXFtSEFsN25GQ1YyV3JaMG93b3ZwVi0tQkdjQnBEVTFfNm4xVkpjRTJpZzRZdDhVQVl4eXF3clF0eVlaYWlhQUtvaXAxWHFsNnhUWVhobDhzS3RRU01ud0E3VFJfVng2d1dhWXJ6SmZHLWhKYUtMak5HOGhyRGE0cDZSRGJ6aTZNQmlBZ0Zvd1cyMjIyWS1hdUx4eGRfb2pEYmZfOHc?oc=5",
    "published_at": "2025-06-26T07:00:00+00:00",
@@ -961,6 +1275,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Rare earth startups eye slice of $1 billion bounty from Brazil - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNzRhYW5MZXFCazVOajhSNzU0a2NxVVZ2ZmxDUzF0U0xHNnZxeW85cWlhQlZNUnJoT00wOFRPcFVBb3VmLUlWano3WDBvSHRvQTBVdkstTHRzZlNSbzNMWWxac2doaDNuQ0UzN3JnaHAtRmxNTmVDQm96dnpnVG93MnduUlRKYkYtTXNqRDQ3bHNfSU0?oc=5",
+   "published_at": "2025-06-11T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:52.115850+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
@@ -1462,6 +1791,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adf1ee02fa04c31a7fd629a675d50c8&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
    "published_at": "2025-06-02T00:00:00+00:00",
    "first_seen": "2026-10-26T09:35:28.420529+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae06f8475f14ba092411ff02e77849f&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
+   "published_at": "2025-06-02T00:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.205542+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -2122,6 +2466,34 @@
    "substancias": []
   },
   {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae06f8475f14ba092411ff02e77849f&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.202916+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae06f8475f14ba092411ff02e77849f&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.203647+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Projeto Santa Anna atrai capital estrangeiro e projeta Goiás como nova fronteira em minerais críticos - Estadão Blue Studio",
    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQZXFoc3JnOVVqdy12V1RzeElQd3BfeE8ycXNwWmZRRGt3VzdkU24yX2VVTFE3SzF2U2VKbVplQV9TQUZVWUhOU0xNNUhuQ3JjdEJYbjJIcmlwamRHTVJHbGxNNlZIZDZtblp6emZIYVhGTGNfWjh0SE5TNFNoTGhrakwyVUFCUTE2SFFHV3VuNC03TE1LcEZVVDZvYnBLcVJVN0FwdngtTlpQN0JhNmNmQXc2OURLa0M4cTJ3ZGFhckl0cEUzNjlQS2VudlBiTTF5OV8zdERmRkp0RWQyWDRhWEY2N0g3UU1GNXMtWXFRUkxCUC1yNkd0c2xXTzZkOU1oT18tNWZ3SUpqNDA2enc?oc=5",
    "published_at": "2025-05-26T14:37:42+00:00",
@@ -2133,6 +2505,21 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Minas Gerais concentra 85% do lítio brasileiro e atrai bilhões com corrida por energia limpa; ouça nova série da CBN - CBN",
+   "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPX244ZEc4RmxRYWRScTBITmZYcDhPd1k5VUJZNjExT3BOY1gzTk5zeDlscXJuNjBtajg5YlpPd1N3bWdqY0VZRFEyWW44NVM5cWMxcmQ2TTdpaGlmTXJlNzRXU1RaYnpFcjhUblVpSDZVUENkRU5BS1JXdWZJSzlQN2VjM3M0TFRMeTZvdUlYM0J5OTFRdG9kVzAzVDhGOVFwWHc3MlZHRXctSHhuUjlia0pqbDZQN2lxMENHc0N3d01ibXozOEY0dHl2RllKY1J3X04xbk1uVVNyMUEweVM1a1Z1enZaRkZfbmVYajN6X3gzYklUN2plNWxpZXZLQ1VnMnhfcWt5V3Mtd9IBmAJBVV95cUxOSHF6NjM2c3RZWDJkcTk3blpjQmpvZDhoSm51amVEdThZZnVwTUd6RjVfQzQwa21vQzlHa2lTZjByVWFoN3VoVUJmRDVtTDY3TlR5NlpjUThjSXAzUnlMNDE4TjY4WmZ0TmN2bk9aN2F4U0czU0w3THg2VVJqdmM1c2x6MEFvakF1eHJLM1dSSUJqb3pBdWlscnhLdEx3cDlKSXdieUtTX1YzeWRyX1B0dTJxOEZGM2JkSGFEWTZMeVgxQ0lIZURZclQ0a3U0SUZfa0ZsZnN0cDVHMjR4WTg3ZmhuVnpBbmJYZy1LSkhuMm5XZTF0NFBjYnoxMnBWOThXeVF0MkcxVkNmeEZlT3hLRlpBc0tzLWU2?oc=5",
+   "published_at": "2025-05-26T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.185285+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "TERRAS RARAS | Power Minerals e EDEM vão explorar carbonatito de nióbio em Goiás - Brasil Mineral",
@@ -2190,6 +2577,21 @@
    "substancias": []
   },
   {
+   "title": "A mineração de lítio e o controle empresarial sobre os territórios do Jequitinhonha - Brasil de Fato",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMzZnNUo0MDdLeVNfTEZUa09kVDBLenRDRXlJcDc2ZElGYkotTkl1QUJUREtGYUJBdnBKczBfVGxxOWtDREJzS3Q5Z1JZWl83d2ZKQkZ0bGJsU2pQTnVoS21HaXJJcmlzQnRiM0VOOVlpSkRLMGZOZ3lOOEVXVmFYVWV4QjFoX0Z2TDVDQmZZWURGV0pPZjRuR0NsSE5NVGtwSEFQeHR1anB0aDRHTG0zWVRuVXV2SFlqR001RkJWcWhXUU9kMWc?oc=5",
+   "published_at": "2025-04-29T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.175072+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Mineradora vai processar 500 toneladas de Terras Raras extraídas no norte goiano em Aparecida de Goiânia - Jornal Opção",
    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNndYZ3FkRG8xc1ZGSFpfZjQwX280bzU1MjJEVW5fdWkwUUdrcHpVUzJDTFJIeTdwRlZTUUZOc3lETzFpamdUVXpTV0E0TXNnT09JaVd1WTJuUEtTQTA2T0RKd1pGM3g4NmdrWXhSeXhaNDZZNlBvbVZwU2Fzdi1wczZCYVh6ZFdiV2t6TWVTSUdoTlFENFZIVUVobEVPY1NhQ2hfczFEeE5lMzdoZ3JVLV85M2NlZEJJamoxeHdma3JkV29CRlVCSHM0OG9mNjAtOUNxSlAwU04zV2Jta0I5N0tEemZjSGhLMTRmcXp5ODV5dw?oc=5",
    "published_at": "2025-04-25T07:00:00+00:00",
@@ -2233,6 +2635,19 @@
    ]
   },
   {
+   "title": "The Mine Is American. The Minerals Are China’s. (Published 2025) - The New York Times",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRUMxNzAtdzBYUHhIZ2p1Sks4X3R2al91QU43S01wT0NlQXJiYXJUcmU3MTJCQi1IUTZybEp0bEozR0JPLVRxWHhqaWtNUjh3ZktCVFQySWdDLVYyRVVyc0RHUGtNRUNJcG5MTHJBbjlfUnlTZnpHSDNQUnFSaElPWlF4OGM0Z3o1VUc4ZQ?oc=5",
+   "published_at": "2025-04-16T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:52.113417+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Marco para a consolidação da jurisprudência administrativa na mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYmJoaXF4NktQQ3B3MVJuRmhrWWZ4a0FPeWtyZmdmM1dReUtkOFpMUlZKZTAtMWxHTFl3NGhlUU1oR1Fpa0EyeW00d0xCVFBxcnB4bkxIaUlYYUloZlN3REtjalcwSWVjQVVmMkVmdktVb1pqdnBpeElUTUlIX19hakotSGp1dXJWc3Y3MXA4UnlRZnF4MVpidkVBRmNrV3FIRURiN0NWY2VXb0dwcXRxbjU3VG1VVDg3QXc?oc=5",
    "published_at": "2025-04-09T07:00:00+00:00",
@@ -2244,6 +2659,21 @@
    "escopo": "setorial",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "O que são terras raras e como podem impulsionar a transição energética no país? - Agência de Notícias da Indústria",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcWZFUEhDWm1aTi1fc2VXdnN6Z2dVbzBfOWNtN2hVc3gxVUZsLURiS3gwa3hydThKSnBqMTU3STdQb2ZqS2l0Ty04bDQwcXpMZmkwandhd253YWZtcC1VMnBxc1lvVWlXZmxtUEZSMmhYR0tWLW5Vd196RWg1YlJsUHZuLUVmM0t0RXMwaG80ZlZWWmtHTG9rUWFsYTFsQ3dRRWdZWVlWQ0d0a1RqNDBSVGZuSDlNc1g2MkJiY1k4d0hfNE96aVlBQ3Uxa1lJOGl1ZEdpMDNCTkQxUW5hMVRxUGZoQzI5SU84Vmg3V0hR?oc=5",
+   "published_at": "2025-04-08T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.775253+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Sumário Mineral Brasileiro 2024 — Agência Nacional de Mineração - www.gov.br",
@@ -2335,6 +2765,21 @@
    "escopo": "setorial",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Projeto do grupo americano Atlas para explorar lítio no Jequitinhonha recebeu prioridade do governo Zema em MG antes do registro da filial da empresa - Observatório da Mineração",
+   "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQVnRUeDFJV09KaDFqd3ZSZ05xM200S1pYd1VzSW85c2FwVGVrTFNjSnd3c3MwemRMTzNjOE9XSzRrN05PdVR4WXNIcmtHQ0xVYjJXY3puY0hKQ3JSNzdIVGhCOVZqVDVhbFVHdloyRXZITTQ4MU5tN3N6V2g0b3ZKSGtiTFRUbjFxNEZDNnZvSkpab2hFaVlJcDJvOFdqOVI5dkxaRDJDdTEyTS1MYVBreEp1a01ZUXVLYUhXZ3ZUREtpTkVqTWFzbW9ta2pNbFd1UU1yMTlwYmlxbGlRdURPdV9xN2l4TGZrcjJWczNFYWROMXRYUkVpTGxkcC14SldOODZ6VWxCSE1KN21RQXFaSlVrNVN1MGFx?oc=5",
+   "published_at": "2025-03-18T13:08:58+00:00",
+   "first_seen": "2026-10-27T09:31:50.181463+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "Mina de ouro chinesa pode levar a grande transformação no mercado global",
@@ -2516,6 +2961,21 @@
    ]
   },
   {
+   "title": "\"Eldorado do lítio\" brasileiro não entrega riqueza prometida - DW.com",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNelIyWkV6c3B3amhUOTkwclJOOG1Pd1JyRVp3QXItaDJxVHM5WVlmLTAyMWNfVkVoLWxiWVlBRGpZVjRrTVFFQkVPU1J0OG9CbmlNVG00ODhpaF9FODZQY2dXWUg4dFhESzN3NnE5bjhtVkRmbWJJXy0xdHh6Nkp5NEduc1NtMi1CUnZiR3cwd1FkWnl6Z0FQX2lzVTZ6QTlxbDJ3LW5yZ9IBpwFBVV95cUxPdmNxSkFiOGRYTjR4REw3OUUwYjVHY283YjA5MTdMQVl4R1VCZ2ZjdU5iTS1FeW1nVnhubUpQRDVVanVFenZWem10eUJaVUJfalp2eE11R0RBWlNHeEdUeGgxUVkxTldHTGQ3bE0wS056MzkzbzgzUXVXbEhLR1U1MS1rYjN5N1NrQkg2aEFQbi04UV94bS1HM2JiNHM1TzNhSHAzai14cw?oc=5",
+   "published_at": "2025-02-25T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.172659+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Canais de Atendimento — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMWVNajQ2emRTekJZRzJFZzYtRUtUelBqcGhnQm8zQUxTZ1BuZ1EwSmZyYjUwY2dBQWtPcDhmbFVMaVRlUGx0S0pPOHpEanVwalpqZDZOYTA4YVFWaUNnTU81S3FNM0lvUkxKSjRxaGw5OGk5N3AzXzd0UnBFQzhCWTl0RkQ?oc=5",
    "published_at": "2025-02-24T08:00:00+00:00",
@@ -2662,6 +3122,36 @@
    ]
   },
   {
+   "title": "BYD investe em mineração de lítio no Brasil para baterias de elétricos - InsideEVs Brasil",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUU81cWxQWmRsMmI3Ym1tdGFFNXotaWtlaXMzcC1JNWJFa1lJaF90MEJJRmR4SHVRT09lQVljdWE5TUd2ci1rU3E3bGpPd2tBTnQ1N3pZUFNTWW5xZ3cyaFkxM1p0Ty1CWndQUk8yODEyV2h0NGxWVVJKSVFlZnhvVQ?oc=5",
+   "published_at": "2025-02-17T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.182249+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "BYD adquiriu direitos de mineração para explorar lítio no Brasil - CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcTdieE0teERDTzB3aGdVRmRUb3diTTl5WG1jakdhbnhiT25mdmlfWmV0Smtva0tqUHNBTnMybGVhVHgxaFd0LUZaZlpFNDBPc3hOQkQ1cXN0UDFsOEJDMUFwUzZrZ0pSVlY0b2I3V1k4SWtVWjUyTjZkUk1aLWdDTC1TOUYyU2dRM0xkdFI0SHQxX3dEUnBEbTNEZkJ0UmNBTHEzOFZvN2ZkeE5ScEo5Q1Fn?oc=5",
+   "published_at": "2025-02-15T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.173234+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Agenda Regulatória — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZTE0OEZrYTF0RU0tWTFFeHRjVWdXSjRyTmpvSU5PTjZEWDhtVEE5OWhVSmF1VVhfYWZBTVZxYjREVThCcVFLeUUwZHF1NTlZWUhXRjZQOXN5VWtIaEJQVEZKTUpGUEdFVGY1eWFNeWRqSjRNMTh5OWloNlAya0dPaFdYWVhrZ1ItUm5VX3BvZkE2NWdTV2NydGZOOEZQT1VQaTBKeHBWSmF3bUhH?oc=5",
    "published_at": "2025-02-15T02:03:27+00:00",
@@ -2684,6 +3174,21 @@
    "setorial": 1,
    "fonte": "Busca · Brazil mining (Reuters)",
    "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "BYD adquiriu direitos de mineração para explorar lítio no Brasil - InvestNews - InvestNews",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdU56R1JURWhVVG5KR2VXRmNZV3R2SUpwRmZaWGVuWTFZSWNPbktnSnlrb1pVVi1GLU11Q2pPTEQ5T0d2M1pRTDdvTnJKTFB1YkF4QkpzNG81T3JiR1ZFemNvbWJ2WDVwU1hia3hZMzNDMGlUcHEwem02SDcxUUNzX3M3OU1ibjVJNVpjV3M0X1dKNF9yeGZreUpQUkxwWVJGa1dyUlhEaHZndDJNR3pucnBHM0YxcTJOWW9ISC1HNkXSAcYBQVVfeXFMTldRR3MyR3J3R2dmcmpqQktPWmV2cjVydy1EeWhkMFQxd0drdWZvNFNGeG80dVMxamc4NTZxVGQ4dGpRZk00VFd0NUI3aEZOa29OWWhieE0tOENZLTZsX3NTZ1Zqc0VwMTRqY0M0YXM1aS1ycnZfY0d3cmtwNThPaDdNZ013WVZrbmZIcE9yNFVFNW5ZUGFONXptWnJyOW5jc0RqMVlxZ3gyVmhjOVFGdTM3aTJoTEhCdFd2ZjlkaEtUalBVeTZn?oc=5",
+   "published_at": "2025-02-14T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.180891+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": [
     "litio"
@@ -2829,6 +3334,21 @@
    "substancias": []
   },
   {
+   "title": "Serra Verde, de Goiás, acelera produção de terras raras em desafio à China - InvestNews - InvestNews",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdFhETmpzOEJXZTRvTGpQT0tRRHJ6UjFDVEp2a1lNUTdLNFl0b2M1UVlYZkdGVkQxWlRETXpXeWxjUFF3Qzd2SkpmWmFnT1ZkUWhJU0NvZ3VOa1gzZG9UUWFiUXNjZWpVanNWNnBYbnctR1ZCWmp4WG93VW9FalpkN0FNeVVaRUg5VEtaOVY0X3FPMXEwRmlZdjZIaTlEMW9k0gGmAUFVX3lxTE8weTEtWEJZeWRWMmJxR2czZ2VTS3FvdTByVFVhU0EtampWQ18yRy1PQ2s2ajNlVmFyVFlEVnNzVWZXQ1J3ME1PVzdiVWdxTklOMlc4S3doVjQtblh4WE5GSmxiU3g0Wm5WTTctZ0VaYk9icnRxVy1jQVlwZVY2cXAzMkcweEVXVzlaS01JWGRJd0NrazVBcllmcFNYYm9RRGpMczUxWlE?oc=5",
+   "published_at": "2025-01-02T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:48.535648+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Pilha de estéreo: MP de Catalão fiscaliza mineradora CMOC - Blog do Badiinho",
    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMTBnaXY2eFJjWGNJajlhNjBSeE5hbVlrc3h6aFhRMkJIajMwV1JUMEtweE13djZVRVZvQTJaYkpyckIzU2dncjJ0aUlIempTOVJqaHU1OGhZMUNXM2hyR0JZM2J5eUxQVDR3VllTY2xRR2FkSEtTZmxma2tVSl9SMzVR0gGHAUFVX3lxTFBxRWhORGNLYmlOMFJYWU9EOHRMXzNBUWFhdXNSWkcxMGhHRmVSS2FHV2lmRkU4SnAtbE5SVGpGLXdySmFjUHVwLUdhdWpkRDcxQnBoOG03QUtEajFsdVRwVE5DaVhTYkFvTWJzTm5kUkpJMWd2Y1QtMGZNa0FxeHBGSEs3Y3BUUQ?oc=5",
    "published_at": "2024-12-22T08:00:00+00:00",
@@ -2885,6 +3405,36 @@
    "substancias": []
   },
   {
+   "title": "GOVERNANÇA SOCIAL | Único produtor brasileiro de terras raras, a Serra Verde é pioneira também no social - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQmJKQ3NsdFB1MDZJUVZITlhENlJYajlTYWVOVEExY1dnamVaVUlFdU9RVEhhOWJrMUpkb2FiVmd4Y3huenhMcGdLRDRPY0hIZVQ1QXpvNUtJeUY3U1loLXNQbmhhbURXVmRjXy00bUtlUm5RcGpVdEQ5UXpKbkRjMlFiWXhaSkhfc0lOTWtlWG1oclR1d1RhMTVCNmRpNW40QTctTEViZFZqbnJ2M0kzUkhoQ1RIUFBuSmZFMnl3?oc=5",
+   "published_at": "2024-11-18T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:48.536010+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Comunidade no Vale do Jequitinhonha relata doenças após chegada de mina de lítio - Mongabay Brasil",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeGVxQ0lGMkRZSjRqTHljUzlFTF9SRFN5M3RtZVk4eDN0QXFreTBCMHFTTjM2a2hmeWt3TGJFd000aWNBa3Vtd0dwd0VuNnJJSEx2Z1RmNzFLRFJGazV2QmEwREFfV1pMMVViZUxRWm1salVObG9yYmtyTHJpVXNRZUNUSnZSeTlMWTZuT1BFbDZoZ1VZU0E4SmtNbzBRLTlj?oc=5",
+   "published_at": "2024-11-08T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.173775+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Mineradora britânica investiu R$ 1 bilhão em Goiás - Jornal Opção",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaFplZHZkaE1DMS1kYmtXMWNob1lpVEx5ZGFjLUpMNDJzWUo3REJIcEM2SkNVU3hlaE1hT1NpZ1lYLWpuLVdxaExENXBOS3duVUZtTzdJWVR2TXdNVE1MeWRoUXI2OXZodzEtN1g4Ui1RZ0NVWW5wdjhQSlE2X3hNQVNtYlQ2d0l2SGFsQ1VuZjUxYlAtUkV0anJtTk1GTVgwN0xDOVRscTc?oc=5",
    "published_at": "2024-10-24T07:00:00+00:00",
@@ -2896,6 +3446,36 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "TERRAS RARAS | Serra Verde capta US$ 150 milhões e já prepara expansão - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNY0RVZmlQcGtDcThZcldaX19Wa0EzcXYwMUZZanVObnN6ejRZRnc4WUhMRG11S1VPeEFOQzBtUXFQZmZZMk5OaXlsVHRQZGt3SzBaWk9LUXIzNUZId01TQ1ZiUzEzWVRoQUlrc01xRV81bGN5SkxnZ2otUTBDSnpJRDVpcmwwdkNzdm5vdWNQNWVoX0VsbnpR?oc=5",
+   "published_at": "2024-10-21T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:48.536587+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "EUA investem US$ 150 milhões em produção de terras raras no Brasil - Poder360",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYloyWFQtWVczTzdJNktZNGJLZGpsZHhEVTM2SmRSdmhROGRwdzQzWkpzUlpDQ2JOcHlzcnZEcl9HZm9nelppdjdiOHJxSExWRUlQMG9pVFVxTEk5dXYwMi1jWFpJMWNuYTZmWUJqZ1FmUXBha2kzZFBtTnc5VHdVOEdNVzM1N3hFTk5DRmw1U3ZzMkJnRlh3MnB0bXJHTUN0NGdZUEhoNUtCQQ?oc=5",
+   "published_at": "2024-10-21T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:48.537083+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Falsa mineradora que fazia campanha com atores famosos tem bens bloqueados por suspeita de pirâmide financeira em GO",
@@ -2979,6 +3559,36 @@
    "tema": "mineracao",
    "substancias": [
     "ouro"
+   ]
+  },
+  {
+   "title": "Sigma Lithium | As Maiores Empresas do Setor Mineral 2026 - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE04LVgwYld6ZnNwMTB6anlLOFZ2amc3WUVCY1R5dUxYR19LYUl0ODQ5TFBTajJIXzhNOXd0c0poejJHLWJTV0JhaklEU2ltdjhoS19Bc2RwMWRuQ0JlVHc?oc=5",
+   "published_at": "2024-08-19T20:14:29+00:00",
+   "first_seen": "2026-10-27T09:31:50.183367+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Vale do Lítio: a região no interior de MG que despertou o interesse de empresas estrangeiras - G1",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOaU9pbElBR2RoTVpfbG1nRWtadk5aZERIMjhtSjN4aDR3NWxXWmx5VGJrUlFmTmh6X0NaMU9UcXE1ZnFpUVR5TUt5ZW9fYWRXOGg4YlhyQUR4b2c0SEVqUEFILTZDUkdROTJMQWM4a2tRa2hkTHYwZ1pES0dEc0hWT0NzbWpJeVJpZnNFaG43dGhRQnBBWTl0ZngyMTJVZDB1Y3NoZm9VaTY5a3lvcWRabU83cm92bk1OSl8wR0t3cWhwMlh1dE5iT0hzenR0c212MWlGMFdSQkYxdFZ6NlZPUFltYkdUYXMy0gH3AUFVX3lxTE5hOVB5YTg5QnNtM0FOcDdMMHBCb0p0dFZkNjlHc3gxWnFFLWdLam4yUlhqbnBkSE80OE1kTGlnSXBaVzlsb3c5T19jNm1YV0tRUUhVbjJUMkxDSWhFVEx5UFNjcWhTUzRuSzhtbWlFcE16QVA2X1BETUVuUEZ5T2Q4d25ZLTU5MjF4TGtydUhXUmpEc1VwXzJyNnFTYkNwY1draTY4bVdCMUI5WjlYbE1FUi1TRTVrQnpIbGtQNTBHUmlRU3ZaUDlMa2haWFNwUTRlcVZuUDg3WUsyRkZtUUN0b0RIcGFTNXVUNTc2Ull2SkxEa0YtOTA?oc=5",
+   "published_at": "2024-08-04T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.183972+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
    ]
   },
   {
@@ -3107,6 +3717,21 @@
    "escopo": "setorial",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "‘Vale do Lítio’: Novo polo da mineração do Brasil desperta preocupações locais - Dialogue Earth",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQclp6SEZUSEJKM1BrTjhISThrRHJwWTV2RWVNdHVqX2M4aV83THNrWDFpc0V0VEU0TDNpS3VoajVHbF8yVXU4X2xtWXZLbE02QWpFSXhSTUxXS2tHV0tYV0JmcUNnSmJiOHRZMExHaEc3NTVJdnkyVVRIM210SE1FcE5QYi15V1FGRElrZXk4VUZUU1VGdWc?oc=5",
+   "published_at": "2024-07-05T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.179048+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "Anglo American inicia venda de ativos de níquel no País e espera conclusão do negócio até 2025 - estadao.com.br",
@@ -3264,6 +3889,21 @@
    "substancias": []
   },
   {
+   "title": "Brasil possui grande potencial na extração de lítio, mas precisa aprimorar a infraestrutura - Jornal da USP",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTFhqTHQyb21EZ09GbmFRWDZyQVJZWk9tWEwyQm1yaU5BQnZzaDFqR21Vd2VRX0dKbmwxYTBMNms4NlNJYjNzSVZSQ1hfOW9XMDdmUVFDOGhfanVmTHRDMjU0SzRkYThuWDc5T19VUkFjYUR6RC1pa2FhQlA1bC1WSjBsNWlLVEl1Xy05WWFFNGs1RHp0OUZkQ2RFRGdFV0tVMlNkejJtY2M2UUFLcm9kTk8wYURIeVZUZUE?oc=5",
+   "published_at": "2024-04-30T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.174389+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Sumário Mineral Brasileiro 2018 — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR09CZjdVcjN0YzF4cFJ3TFdYNF9qdmxVUXZKa1A1bXM1bElNYW13OF9laW1oS2R3WE9VN0wycS1kd2E0aFhiQnVzZzJzb3FmM0w3VHo4Y0pvNGJGVzczYml1YXFzU21aWlpWQ0o1VDRvV2VUMDRlODd5NGVubEFxdVl4YXFQV1I4cndpVmg4UW1oWUthWm4wNVFQanV1WE5IRXpfUGNMbk1PWW1pcjAySFotdlg?oc=5",
    "published_at": "2024-04-24T07:00:00+00:00",
@@ -3381,6 +4021,21 @@
    "substancias": []
   },
   {
+   "title": "The Exploration of Rare Earth Minerals: Preservation of the Brazilian Amazon Rainforest - Harvard University",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVpGbjZKM0RVak5xT0pqVEdNTDdKRzFVRFFQZ1R1eE1VeTFWenlQV0JzQ1hXUXRiVUpEY2Zid3JJRG1HNjNnQ21iX0Z5NDJDV1RySUFoR0JaMlc2dTB0bkxlRkg5M0RvRXRIX0Rkb0Nqc0I2eHg5ZmVRTlUzdHdlZWhPdmk3MEZrbFU5REVCc29rTEppRUlJcks1WTd6MENOQnpyYkJ3cThja1Q5Z2FqQzJ5ODRmcVRTVjAzdnlhcw?oc=5",
+   "published_at": "2024-02-22T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:52.114820+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Brazil's Vale says its Sossego copper mine operating license has been suspended - Reuters",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSjI0OUhMaV9GUE53c013Y2RoTnF3S2hmWDVwUzktTjRBV3l2TTBHMzFPa3JBN1JUU2tudmg4cUhTOHZaMFBtOXlTRVJiM3Joa3Vnd3BvODRTTVc4ZHhOczJUdWswTVdVV0lhLUwtcTIxYm5DdXBVenBSN2tIUXpqa2hJTENGWVBVcXpDaTJ4bWxwLVFzR0wtckg2bnBsTnhheHIzS3dEdlhPWEtBVDhZUU4zVGd2bXBqaE4ycTBtdjh0bnRib1E?oc=5",
    "published_at": "2024-02-21T08:00:00+00:00",
@@ -3420,6 +4075,36 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "BYD conversa com a Sigma Lithium, maior mineradora de lítio no Brasil - InsideEVs Brasil",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03Y2VaQzdKZ2I5cFBxeVJZb2kxOGROUHJaczRyWWNwY0RBVXZDN1ctajJDMXR4cGpONkUxYkREeHFNQ2hoUHVESHdfZ2wtdFRZUjdLTEJ6bmhXV0RTQVROdHR4eGQ1NFpYMUZSd210MV9uWTRQY3ktVVU1S0lRZw?oc=5",
+   "published_at": "2024-01-15T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.188871+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "TERRAS RARAS | Mineração Serra Verde inicia produção comercial em Minaçu - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTjRmQmpRdWxzdmlxSnBCbE4yajJPdlB3Uzl5aUxmTjY2Nnd2QnpDcWk2Vm44eUZBSzhBOXZjNVNWZW43ZjRqX2ZFYkJNNE42ZE94VWN0alY1WmRKTmY3OERMRkxGY1E3WmFwQXJBejIzQTBfcVB1eHNtS3FXT2lqMHJUekVWUmFfZDZMLUxGTkgweG00czJlRzRySQ?oc=5",
+   "published_at": "2024-01-11T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:48.537541+00:00",
+   "regional": 1,
+   "regiao_termo": "minacu",
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Caso Braskem — Agência Nacional de Mineração - www.gov.br",
@@ -3500,6 +4185,21 @@
    "escopo": "setorial",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Onde fica a maior reserva de lítio do Brasil? Saiba como o país deve explorar e ampliar sua produção - AEPET",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTWhtcHJ1cnNud042bjVOdmhIMlctQzhwWmdNMGFwNEhpd1VidWM3YWV3YmQxWVptbE9OZG56TEotak1fWHRTSUdzTnpIWmRXbGNzS0p4NUxtZElNT0JzdjBNTXNsc1o3TVc5MTVvWl85d2ZhNjRwMFhBZ2Y0U2pXS2Y4U1J5NG9sV212S0ZJQjdZTjVBS2pDSEpCZlJ2aXJBVUdlZnJXYVRWTGVWNjRfWjljRlIzMU5leUlOU3JYQ3F3cm5oTVBNZw?oc=5",
+   "published_at": "2023-12-01T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.184594+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "Goiás detém 21% da produção de nióbio do País; minério é estratégico para transição energética - Jornal Opção",
@@ -3612,6 +4312,21 @@
    "substancias": []
   },
   {
+   "title": "Mineradora com maior reserva de lítio do Brasil avalia propostas de compra - Economia - Estado de Minas",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMzlKM1doSmdneC1GTTZ2VmpiVkw4VWVxc0hmSGk2U195bmNuZmY3Nm5lZ1k2MklNWnUxaGhFNUwzMENSSHhKaDYwWVB4Z3NUcFpkbDJmV2VqdnBlUVViTHZ5RmdXbk1WODc1S3I2OS0wTncwSG9wcVJHeFRwbFh0b004aUVpRTZTcFRZeDRzX1JNUkZZa09Oc3dYSXJzTDJKWTF4Q09iblNkdzRLSG1DS1JKdGd3RndUdHZVMUdvSzFocnJkLXk4UXd6d0pVUzlTZDROQ2U3d3JBUkFpelZYaURMRHBKT05yQTNFRVFYdHZNZw?oc=5",
+   "published_at": "2023-09-14T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.185976+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "ANM notifica PF, Semad e AGU sobre exploração de águas termais na Chapada dos Veadeiros - Jornal Opção",
    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVjNDanVUVHZYWGJLYjZQY180VElZdXZsVDJVUk5ZOWd1YnRZVC1kZl92SUdoTE93LWdZZ3ZiYnBvMlZ5dnllZi1KSm12Z1VOSFhSbXk5NWhmdzY2U3ZoQ3lpQ0RaQ2tCYmJ5LUVUbHp5NWI5N0R0SDg3ejlzVjJVcjV4Rk1UZ3F2eFhxV0tuTzRlN1BKbndUai1RbGpJRTRab0tRek9zV05GSVEtVGxDRldXRTVLeHNKYWlSMVpVc1lMZW5xRkZVQ1h4TE5YWVVnajFCcE5aVmR4QQ?oc=5",
    "published_at": "2023-09-04T07:00:00+00:00",
@@ -3651,6 +4366,51 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Extração de lítio em Minas Gerais está próxima de atingir recorde - Canal VE",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTTdoRFIyTWVTYjVNYnA5N2FOczJYSnRUU0NiTDZiNXR4ZWVhZDlsRTZUSHNGdXdGak1LdGFTNHM3QXZJa1hFRExwVkRNSXg3UC1iVmYxdWdXaWtmMGkzcTJOcy1rSnE0cFVBYnlMTEIwd3pMSWwtc1hPcjNNZ1NHMHJ5N0ZReFY5aWw0Ym9RZGMyVGM?oc=5",
+   "published_at": "2023-08-04T18:48:05+00:00",
+   "first_seen": "2026-10-27T09:31:50.188299+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Minas Gerais exporta primeiro lote de “lítio verde” do país - Agência Brasil",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYWFZUTRsalFnTXpBWFdnVVNteFE1ZnBFZVhlSlB0VnM2RDJJN3plSUwxVnF0OXBaaXdlNnh2MTVfbFFQUG1aUEE0RGd2QzZUWFNCVkNnYzYwRGdHcXNwR3BuN2VKeFBwRGd4WFc3aFNZM1dyWThWNTJrVEpWekp4Q2UzZ2tnckpGd0l2RkRGVTY1Yi13RHptOHVWY0x4eWpKd0NMSWRQcWFLYTU1T1FUZmQ4bGJFQQ?oc=5",
+   "published_at": "2023-07-27T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.186587+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Vieira e Almeida: Mineração de lítio e o potencial do Brasil - Consultor Jurídico",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQM0QwSmJJZm5uWlFqNEVOZWdKWXRxUWVaYmt6dUFfTlc1TnVqXzNTOXFEakhfTkpQRVY4OXdoU3lqU1kwdTRQemo4VERjVGNSMWxneDRGdWJJUUFJTzdNaGVZNGNYcGRSalQ3THhjNmYzYnVVdGhab2dnS2V2alVNUnBHTzhkdkNPdFRv?oc=5",
+   "published_at": "2023-06-27T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.182821+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "MINERAÇÃO NO CENTRO-OESTE | Goiás pode se consolidar como produtor de minerais para a transição energética - Brasil Mineral",
@@ -3765,6 +4525,19 @@
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQjRaRHkyNjBVaWZCZVNiUElxekQwUk9DTklZNGQzNGRDb1laR29JcTlwR3R6MVRlbndMZHd0aGJqeFZkbHFnVkF4cFlBTGNlVWY3bkFWS3VBVHk5Q0pFbmNKYWc3MmV3TVVzc1AwS3Z3YkwteW5WdmdHa25yZDRhNFNqcjVKTVlzZWRZY1FB?oc=5",
    "published_at": "2023-05-17T07:00:00+00:00",
    "first_seen": "2026-09-25T04:07:39.731282+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "ANM - Rio Grande do Sul — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY2xUc0FHVDIxQW1vcnVlT1pvR0xsOGNwWWl0SGpWSWlYdjZLbk9HUnVZWHdmQmVkbDhTQXZHQUZWbjgtMUhPVTMzc0wzS2poODVNQ1REcmZzU0pDTk5QWExZb0g0S25UM290US1ud2ZwTzFlQ1lwa2dzWTFUMmYxbERvMHBJTENZY0pWQXc0SElBRVpDa2RDWTVKd2Q?oc=5",
+   "published_at": "2023-05-17T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:51.586095+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -3962,7 +4735,7 @@
    "title": "A pequena empresa de Goiás que ‘ameaça’ a Vale em um negócio bilionário de cobre no Pará - Estadão",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOWMxY3lDNVlJTTI1SHVkeHY2dm9HWTdnRW5PMHVTb2I0VTdlcERiQXN6RDNSZjFBZEFwMHA5eVJ3SjI0N1ZJRHRqb0daelJjVElHRW1JcGN0TXl3MXhhOHZtQ2YzWTc3NlU5SkVsNXQ2bDJ4QTZfOWFMWmQ3VmxYZ19HNDU5U0pLVUxuZHNn0gGTAUFVX3lxTE5sS0trRnBVVTV5NlNIdW9WS2FRTXAzRklfdEFmSnM2VEJhOWtxbFRhYUlTMHVyWEpuS29qd1RkcXQ3dkgtWS14ekFuTDE1ajJzMkREZFNBTlZRUUFNaGVMNWlyM1lZRWlhT25GRmlTbFh5dUUyUnJUQWdwTl80SEFscW1icGI0RU1HT3FsMGN3aDB0TQ?oc=5",
    "published_at": "2023-02-06T08:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:02.561671+00:00",
+   "first_seen": "2026-10-27T09:31:48.906648+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -3998,6 +4771,21 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Sigma Lithium em MG: Mineração verde de lítio mira top 4 mundial - InvestNews - InvestNews",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbzJ0azR1TVJsZUw4RWdMSjE1S25UdnFjSnhubGVoMTZMUnNnWTdNZUhpNWxvRU9lM3dFUjlEcGU2N2VYQkhyb3dKeFJ4Y2d0VlUxb1VRSEhKN2tUdFB2ZVlldy1zdjB5aENrSkhyVjd5OWZHeFpQNVI1ZzQ0V1BuR1dES1JlZTRraHQzOWpGdHMwWnZUOVNWNUxWakZ1eEtNSlF4a0FyZ0ttN0lqd01VcEk1NNIBuAFBVV95cUxPaFJKSDhicFlIQmE3b2stWWNUQ0xrWEJUZ3hsZUZsdm1DWDRBXzBpVFg1VERfN0R1ek1kZGlkTjNSbUdIVlVDN1JVNHFkb1dud0NRNGpOZWtBcUlFMExMaFoxRWxoZmVJR2JjbTdHcnU2TTdZWmllVTVsZEhOeVhDcmd2RmIwYldjLUxwTkdmamJ6cTN1TGZhY3hYSFJJVzNxdkNoMWVtY3V3dS1MTDdCZzJCVEI4QXAx?oc=5",
+   "published_at": "2022-12-13T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.187712+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "REGULAÇÃO | ANM fixa multas bilionárias para infrações na mineração - brasilmineral.com.br",
@@ -5897,6 +6685,19 @@
    "substancias": []
   },
   {
+   "title": "Últimas Notícias — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4SkVpbkhSRWNjT1JiWXBDam52MWtka005SjRldE9nV2NJMDI1MXhUOGtHQU9KWk9uOURTWXRiWVQ2UzA1b0s1X1JiVnI0RXNtaTRQRWhxSzNDZw?oc=5",
+   "published_at": "2015-11-10T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:51.584738+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Engenheiro morre soterrado por lama em mineradora de Catalão, GO - G1",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOC1qQ0dMNml4bktsTVF3RXVOWmZWWjhjS0FtYVpYcVhMMHB3QUgyNHhVSkUxWkdtbTdLLXROeTJ2djVyVzEyYkYtNmJzOTZNRnd1Rll1aXItM3dEVGc4Wm5wRXR4aTg0bWs0Ujkyd3Z1a2Z6cnFqbnk3bU05blpXVGlHbXRnblNXVEFpclpTQ0lMZWhSem9DYVpwakpQNXJtUG5wTXprdTNmUmxJTktQWA?oc=5",
    "published_at": "2015-06-12T07:00:00+00:00",
@@ -5996,19 +6797,6 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Australian mining giants enter Brazilian towns for rare earths, worrying local communities - Agência Pública",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMjNmcVBGN2xoVG5jU2JGYUw3NGFXaUFhZ0VYUzc4blJCOHNCdDVheXBIeDJ1UnpIRDhEeDJVQzF2SXFsNFo5cUZ4N1pwWnVqei1PQlRTeTZ5Q0pQRkhpSEVRTlk0ZFNxeFUzTmxvZUZmM3dJdllTTXh0NktST3FCWWM0c2Juajl0NW5zOVI1dW1fLVN1ZzhJSDFBTmI3Zm9kbVdjV3NKbnYwX1hvYXc4aVhtaU9RbmYzODNz0gHAAUFVX3lxTE1tcEsyUEdtTWRpeXF3MVRLYUc3U3I3ZkRWYzRsTWxYSHZ2Y3d0UzlpSVhaNkN2RjFJdWVWQkVvZzU3Q2RpUzRRd1NTY2RiSW54YXdUZXU4X1EzdFgtYnZfSHVMeUNDeVhmS203TXk0OFpCZDhwMnpoWjM0MDdwU0VISkJoeURiWXpMMUJUR3lSRDcwbGxYMGxTMmNVc3MyRmp1UGwzMWNvWlJRSlp4TWVvTmVzbWpLbkdZajd2a2Z1dg?oc=5",
-   "published_at": "1970-01-01T00:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.940885+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 1,
-   "fonte": "Busca · rare earth Brazil",
-   "escopo": "internacional",
-   "tema": "mineracao",
-   "substancias": []
   }
  ]
 }

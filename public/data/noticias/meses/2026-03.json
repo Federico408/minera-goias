@@ -1,6 +1,6 @@
 {
  "mes": "2026-03",
- "materias": 51,
+ "materias": 54,
  "itens": [
   {
    "title": "Nova guia da CFEM entra em fase de testes com participação do setor mineral — Agência Nacional de Mineração - www.gov.br",
@@ -256,6 +256,21 @@
    "substancias": []
   },
   {
+   "title": "Japan’s bid to build a “de-Chinafied” rare earth supply system – with Australia and Brazil on-board - Lowy Institute",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSkU0d0JKMUZya2Q3blNCclQwbzlHdXpaSURoQUY5a2tQUHRJZUR0M3Y5MHFKXzA5NHJncVpxMXhqOHFKMmJjdlVnTTJ1TkQzdnZMVVZWa2RIY2h2TXNHTkZSc3NnbTFOQmtPRGpaS2hOVWtKYnAxZmlicEQ1eDYtV2hqSnhsMVVobkZnMW9LaGxOOUtzSFJmVGI0enpPZWgyUk00VUIxUmhLS3RMeTlnQnBTNmhpWjN0WHdGQVJaTTh2UQ?oc=5",
+   "published_at": "2026-03-19T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:52.109620+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "PGD — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vSGV5NEUtaEM1RV92S3dxY2d5S0RVakhjQTRmNVFTWmFLNU9NWjc5VDV2U2dvOFZ5ZDFzbVYxMUtySkJSS3NrbmV0NXJDLVQ3ZzV5cl9lWW42N1YxV21WOTZOZExZSVlTSzhVTHVHNEw?oc=5",
    "published_at": "2026-03-18T13:52:15+00:00",
@@ -364,6 +379,19 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "Brazil–U.S. Forum Discusses Cooperation and Investment in Critical Minerals - U.S. Embassy & Consulates in Brazil (.gov)",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPalNFb19kTDQtek1WQkw4OGt6RkRoMGJjam53dEw5eVNCa2JSQlhSYjY1d1FrLTY3UmExbjUwODBuNmZ1Ykk2SzVIajkzLUVRTk1jeXhOOThsaGFfYVJfdFk5VWFDVkQ1MGF1THFxNjVWTUt6SGJUdmZBWmxZLVA1d1lqUXk1QjIzYWY5QnZJdHBQbHBrYk5KR3FBWmd1Z0lHWHc?oc=5",
+   "published_at": "2026-03-18T07:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:52.104850+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Indianos entram no mercado de lítio do Brasil em busca de tecnologia - Folha de S.Paulo",
@@ -688,6 +716,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Terras-raras: ‘Somos o maior produtor em escala fora da Ásia’, diz presidente da brasileira Serra Verde, que pode ter EUA como sócio - O GLOBO",
+   "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNdVpscEZ4Vl9XU3BjTnZIWjhyNWJXdVlHTXV6U1otOF9JQkhxZzFtVHBuN1VLU1h3cVREdUV5X3VFai1TTklrdzVoLUdXSDJjeW12U3AyUmtLWk5pU0hueXREYTYtNlMyTHl3eU9pQVRobVVRTnNPY3dyRmh0b3Vpdm1TbHN2YW5WZGQ3cEF1VnE1S2pBZGQwYXlWeDEyVmNPM1ZkdENFWVN6V3NVbWtoZ1Zvc0dkd2wtUWl1ZEIxb0NHc3JONVVFazh5bGVCWWJrLTllNEF0TW1aMFNwSDNWclFxTU1kVUJKcmFZb2QtenpyakdkaGVPRkx3UW41Q0NZNDdSVk9vOWcyUFV6UG0xY2I5ZDgxQTc5REhacC0yMUHSAa8CQVVfeXFMTTlkRXlaOFhpRG4yaURsMl9NYnNvaWZhSnlCT0tZTnF1VnhVYU9WNGtBTUFqTkdZLW9ER2pmVkJhUmpnUUxDV0FvVmJHUFBtOXhxMWZJTXVXTk8tamRMNWhKZTdRbGp6dlVkS18ycWwtTWdCWnNfaXlRM1N4U1FFMmdHREpPdFVneVlaeVl4OUIzY0hPblJ1eUNRT3luZEJnbFhHRjNLTzh2VzNzWDlBS3pId2JGSl9FQ2x5aVRJeDlRMmIyUGxSaWtKUWZEd1JfTVlWTFZ5WFRuSVV6ckFJc3ZYMHV6d1E5X21SdkM1WXNxc2RKV0RoZzlmQjRrR1hVX09HeUg1NG5QczJJYjdqSUd1WVU5bnhEV0ZZNEZqQkt4eDJJQmY0WUVJYVNvS0Mw?oc=5",
+   "published_at": "2026-03-01T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:48.529304+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   }
  ]
 }

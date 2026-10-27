@@ -1,6 +1,6 @@
 {
  "mes": "2026-02",
- "materias": 38,
+ "materias": 48,
  "itens": [
   {
    "title": "Influência chinesa continua causando turbulências no segmento de níquel - BNamericas",
@@ -88,6 +88,21 @@
    "substancias": []
   },
   {
+   "title": "Serra Verde prevê dobrar produção de terras raras no Brasil até 2030 - BNamericas",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORFdBdTZNREtqM0QtU2xBcndWcnZVMHhoZVk0VHpyanA2aUVSWHZpTTc4MDhBdWxSVmhYTU1mVC1UR24tdGhINk83TDdfUU93N2h3dmNzU1ZvTUNHZUlfbkdvYy03UWtnYzVqYXNha1NXb0JhbzlPOGJRUXFleWJHeThzWTVhajVOU2FDd0Fqalg0NmQ2VDJSUmIxZWVMR0FpbnZQY0w1dlhodjZYTmpv?oc=5",
+   "published_at": "2026-02-23T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:48.532049+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "India, Brazil sign mining pact as Modi targets $20 billion trade in five years - Reuters",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSHp0eFBJVy1JYUJSWmlkejNXZ3Q1VXNWUXhIbFdxd3doRE9ORWpTbnRNWmVkWlM3OFJEUXpfeVR0bmVhQmM0LXZrdWl5Rk9oTjJPeU5CZzU2dzdmOUxLVkczRXdOVUs3eXlTclhhVjhFTTRJNFhiRlNkQ3ZWWnJfUHlhMUN6aFo5dkxOUVQyTTBRakE0dzdTVUUyeFRxS1F2NS03bURRR3REbkpLSmtTdEc4NTNMbUludldEQTlB?oc=5",
    "published_at": "2026-02-22T08:00:00+00:00",
@@ -113,6 +128,21 @@
    "tema": "mineracao",
    "substancias": [
     "litio"
+   ]
+  },
+  {
+   "title": "Entenda o que são terras raras e minerais críticos - G1",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMWVtMFVyQjVRTHViSjZxa1hobmdnbkEyUkNQMGVuY2dzcjNURXQtbEFINmgzdmRCQnJ6dG1WdE9YXzJtS2lnNnYxOVhfLXZrbURjUGRNcVdkYnNXU0piVURVTE16bEdyZVZROXBJcWw2VXVsNUJIX2hEOTdyU3ZXeGczQ25kcFdvUldnNnhpUUVaQ0lqYS1EbUUzeVgwRmNRRmRSc9IBswFBVV95cUxPM1BkODU0QUxDdXZEZWJpT2dZdFFxYnE4bDI4VkUyRjhvYU5vWXplVktwb2d2cHdLQ0t4SFdiaWcyazh6R3pJdFRwRlhUZnhxMlk3YWN5Zy14STVHb1FIVk9iVFNMT05jWUdSVUd2TE1WUDNfM1ZQdDd2Rmd3ZFVtYzJ5ampBRC1UYUJUalJjVjZKTFZteFZ0bExHZXdGbmE1UndnUVdoWlU0OWtmYmd2eGRlVQ?oc=5",
+   "published_at": "2026-02-21T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.772697+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
    ]
   },
   {
@@ -170,6 +200,21 @@
    "substancias": []
   },
   {
+   "title": "Rare earth projects in Brazil total R$13.2bn in investments - Valor International",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb3NnV1d3ek5HRG9nZzh2SXpLZzV1RFRLRTRGRUo2U0xESjRzLVJ6WGR6Y2pYTk03c3BYVE5xVlloUHRnY3VwWVJ6OC1FSmNFZy1OQ2lFSnpyZ09uZmdhU0dkMzJPMGI5b01NS3NOZ0VZc0w4V0I2MEVHdHNic0NaSUVHTVFkWktoaVNwQmhUUkhsRENhRTlGbkE4SjVuVkdWbHBFNGZuT3ZiUHNueU8wTzVSNDlod2JZVHZEbUZMZnpCTnPSAdIBQVVfeXFMTnNGczliMUY0RjZCMW1lMnc4R0VfaldiQVhJRDVIOXRjUzN0azF1UUNrSTRGLXcwdl9DakNYWEZiY2M4TzYyQXA2MXlTMmQyZTA1NUhMbWFrelZmSHZaNHlCdEhkTzg3WWxxOXpaMm5lWEJKSEVQY05wdXo3MG5sNW9zREwtRG1NREJsdk9YdjBvcGtwa2tGbzNlMFg2WUJWeDV4YWVkUUl2TWdEeUhlcnRpR2Y4ZmY3bTluSE5rbDEtQzZhN05hMWJwaUdZdGVQT2dn?oc=5",
+   "published_at": "2026-02-18T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:52.109109+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "CFEM: royalties da mineração somam mais R$ 546 milhões destinados a estados e municípios produtores, em fev... - Brasil 61",
    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQelIzbWFtVlRwNmpUV3Ytc2VrSVJoRk9ES1ZvZXdEWmdaa3lRa2h4LXhka1lhdlk3YXZscFlSY2ZCNUNCSEZDMXMyQjU0ODU2RDQ4VmN4d2xVd0FvNFFfT1didWhuOHg2c3lUT1ZieHJPa0Zmbno5SGh0eUNIT2pXbTdKRXBfSFdHaG5xSVFoNUhZeVZic2pJMHJGUDJqZU5ndnlhMnAtTkx0VUtBWDY1YmJPRlpFOVRVckFMelpnZmhfQzMzNF9teERJenptTzNlV3RGdTVMbGgwSFZwcEHSAeMBQVVfeXFMT0UyOUxZbW1TZ2tYdDNWZHYxLXJyNkxBeWRTZTJPY1JxVVUtYUxURkxzQnVTbWE3bTVMOFFUc1ZsWElORGo1MG1JQkJrUktNUTR2QjlpVkFwZ3R5dnNqTUQybXVsc0xiN1Exd1AwcE5Fdm1QcXAwYkN5ZThLVFpGRXFKZDNSVzlNejNwdkNESFd0WDY0eUtsYzg0MzRPTGNva2dRSVc4cVhZd3ZFLTRhelg2TXRQcFFJbmRFaVdzMjhLLVFRTTRueDNXNF9qYmhmUHY1dUNEOFpMMF9YX2pFcTBaM2c?oc=5",
    "published_at": "2026-02-17T08:00:00+00:00",
@@ -181,6 +226,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "O que são as terras-raras? - Revista Pesquisa FAPESP",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5yVER5YUprODIwNVk3alhDMFlTUVNzZGJaT0hxcnE5WE03OTNMeENmaThPcTVSNzlXeFhHZjVNeGFoNWxPdHp5WEZ5NkhwT1ZIWE16TkVoY1dGQzhCMV8tNGNKVkhLMHNpalBETA?oc=5",
+   "published_at": "2026-02-15T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.771271+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Royalties da mineração injetam mais de R$ 546 milhões em estados e municípios produtores - www.gov.br",
@@ -360,6 +420,96 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Alvo da China, terras raras de Goiás recebem US$ 565 milhões dos EUA - Brazil Journal",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTXF4b1JhZ3lGYmxuWlNIZ0Z6d1lmZ20zY0VNUjBEN1VhQXgyMHBaSDU2Tk5VLTRORzNsaUh1akhtamlYN3V1SXcybjhFZFQwZ3lDc2cteGdCS25uSnFLTTBiSWcySXhvVFhJNFhubnZKUmkzb1hfVDB1ZjJGSDE4SDdVbGozQU9PWmpmZ0dZa2JYZTFvQU5v?oc=5",
+   "published_at": "2026-02-06T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:48.532532+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Empresa de terras raras goiana que terá ajuda dos EUA aposta em 4 minérios - UOL Economia",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAzeU9DTUxjaTJiMXJub0J6RWpZdXF1bzZlNG1QZTdBXzBJN20ydk1SVGplMGcxdVpMaUo3c05UbFZkUUFONHU5NnVQSmlnazlGWVktaF9sbnQ3UGFILWFPQ0VqWVdQWkIzMXBiRFNPU0VicXllZEM4OWE4QQ?oc=5",
+   "published_at": "2026-02-06T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:48.534403+00:00",
+   "regional": 1,
+   "regiao_termo": "goiana",
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Conheça a mineradora brasileira de terras raras que fechou acordo de quase R$ 3 bi com os EUA - ISTOÉ DINHEIRO",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaDhGc3FNenU4VTZLWEtrcGxtUXBDUWwweVBqbzNhT0d0Q25odWtreGJyQ0hCeWhMdmdxaDRKd2FBVGJJalNMWUc3NnhKRnYwMlVKbzJiRDR6N2dXRUoxemZudHN4azRwN0VrR3o2bWl0OTNDcE5sZ3N3dDRCeDV0SE5R?oc=5",
+   "published_at": "2026-02-06T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:48.533370+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Serra Verde, única que produz terras-raras no Brasil, poderá ter EUA como sócio após empréstimo de R$ 3 bi - O GLOBO",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQcHJWUmpubE1vYVd1aWtMVDI1ZTl4Uk5hQjRieW5RMmZwTUV6UFlZY3ZYYTNTdDhTQXBXa1pBUm1NTnotZFoxMzE5UGZjR2M4cXhqSGJsOC05SVIyeU4xeVBCNkJ6aTdCdWg5WFVPLTRkWXgxLXlTZ284ZmNSaXJjMzhwNWVHTHgxeVBTdnhCY2ZPZzVnVFhOb0otUFZfYnNxbG80NExfMVB4eW0za3p0WFJ0ZEp6RmZSbHRua1VsNHBNb2R1VWh5RjRuMVBDdFh6eTgzc0swNlFteUtJVjczdXU3aVBORklKSkl2S01ydExyX3B00gGDAkFVX3lxTE02N25mM1cwZmpLd3FZV3QyNVZ3dmJUQ09xOUVmQzJSeVBva1RyMXBwWkRfZmFJdnJLWHk0cWk1RFJKbTF0QWg4RnhieFYtbFREMEhqT09QZ0VNdzRrLUVTWGFxQjdPa0JvdDh3Yk1PdnBHZFhSUUJfRE1YMlR1SEdnRXhNZDlQQVNiNEkwclBmX040NVlQVVBPVUs3WmhSS25aeEVNZGxqdTdZamxidmJpWnlzNTFBN3dsSTZBNHlvMWFaaDZtR1BUVnhlR0tGd25Wb1VPeXRTdGx0QXVhVzhiNV9rRHd1X05OaEp3RTFkQmlLbDU2RmNUNTRPaHVOa2k5SHM?oc=5",
+   "published_at": "2026-02-05T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:48.529956+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "TERRAS RARAS | Serra Verde garante US$ 565 milhões dos EUA para expandir capacidade - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYXV5b0RVR1JhRTdDVGtzWWF5V2EwTk01OEhRY1Noa0tKVjNmbmFOX18wNlRRdnhfeXh4T2QyRS10aWtUVVlLd0RsNXJrc1RXZE96a0hIWWxLZWRHWW5FeTlYRXRLSkZLTElpWmk0dmFXS3pHZm12dE9uSGd2MjN1MVBoM2JJNzQxekhNZll2Sy1JUmFiVEREX1dKZmY2QVhSa29zN083Znk?oc=5",
+   "published_at": "2026-02-05T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:48.531522+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Brazil’s Only Rare Earth Producer Offers US Stake Option for Loan Deal - Bloomberg.com",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOXpjR2ZncXpwNTR3dWNKNEdQa1VmN3ZGZkZNbWYzZVI5VVZxaHFIb1gxWENxaS1TYUhwakNvZG9raWRBRnROaE9NTERrczZ4aXl5SEF3b09GRkM4Y3ktVUEyTDF5bmMyU3kwRDBEQkdZSms5cGpvRjFTemExNzJQNExYR016TDFtNVdBYlRyZTdnYlJ2WVQ3TFp0dzVJZWkxTzVSQmJic2hScnFnQkJxdUxoaGJUalltYS1kOWpfYlpRMXRnYmI5ZA?oc=5",
+   "published_at": "2026-02-05T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:52.107990+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Balanço Mineral Brasileiro 2001 — Agência Nacional de Mineração - www.gov.br",

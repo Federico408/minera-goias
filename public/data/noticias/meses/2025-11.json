@@ -1,6 +1,6 @@
 {
  "mes": "2025-11",
- "materias": 32,
+ "materias": 36,
  "itens": [
   {
    "title": "Repasses da mineração ultrapassam R$ 1 bilhão em novembro — Agência Nacional de Mineração - www.gov.br",
@@ -83,6 +83,21 @@
    "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Da Sigma Lithium à CBL: com queda de 80%, lítio sai do auge, mas não perde o protagonismo - InvestNews - InvestNews",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ydkdBa1ozazlrdFowdndMVDRxOFRBTnpudnhyN2xlLU93VDkxZnJmbVJWM3ZhQ0dFVExIUVFyUUZUZzFnblJpSUtvTXUtdHEwUkxaYV9WdjhrNkJ0Q0hIa0lxRUpXU0daMkdWenROQUwtWFhL0gF6QVVfeXFMT0JhbVlMeHNCSnZqVXdPaUZRcHkxNks3UHpuVnBhYWtScnkwYkVzUjVDZFpVaTV2SzdScHBTUXBrR3JDcWdYUTllZUx2LXh5UGFUZXBuTWs1VGVuVU15NnBTZm84d2NIVkxSNjVrR1R1MERPNW1mcHM3M0E?oc=5",
+   "published_at": "2025-11-12T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:50.177772+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "Terras raras: Estados Unidos financiam projeto em Goiás com até U$ 465 milhões",
@@ -430,6 +445,36 @@
    ]
   },
   {
+   "title": "Terras raras: Estados Unidos financiam projeto em Goiás com até U$ 465 milhões",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae06f8475f14ba092411ff02e77849f&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
+   "published_at": "2025-11-11T04:43:00+00:00",
+   "first_seen": "2026-10-27T09:31:49.204345+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "EUA investem R$ 2,5 bilhões na produção de terras raras da Serra Verde, em Goiás - InvestNews - InvestNews",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGM1VlJkSUlDU3V5Qmp4SC10S3hqaEwzTmFHT3ZzY3l0d213T1ZqYlNZQkdKcTg2aUhKeGcxM3ZnWFhud0tXdU4tcFdGZ1ZONm1DMFcxMmhnc0FvMl9IVzh2NWQwSVZyUExTZ2ItZmdpWXlheHFhV0RidUo4aGZhU2FPTWRCZjBkZDkwWWVCcmg4cUtYb3pPcTFvV0hUUUJKMEdNMDBlQ2RONlg2SDl1em1Gb9IBuAFBVV95cUxNSkFTU2h6cHo5WkpoNjVpUFZrdFhTYXVJZVJGXzI0OFVoUHoxek42V2trWlVtVHZseDhxSVRUOUwzdXdBTVlkMjhkaFcxU00zaEZHQ2t3TlZoRmdkT3VmN3JqVHpCUTE2QzlKOF8zX19RRVpSTHJ3MGRwS0Jpc0Z5bXd0RXdmQnZoV0NOdnpkN1B2UlpCWTM0VTV0MzNTYVVOWVFUVldIRGdDQU1xMUkxaVQ2LWpqdWtZ?oc=5",
+   "published_at": "2025-11-08T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:48.534761+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Como a mineração ajuda o seu município a crescer — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZFBPQ3BZbkFRTmpJN3pZdnJLd3N0QkhQTzNBSVdqSWV5a1NjOS1DTkFKZzd0ZlJMV0JsSUY3SEh5NHdXeThtNVRXeGd5d3lFQXNUMy14TU5lSlJkLUktOGVBM0NIUko4MUhjbTlzZXloNXEzcVNYZDJhZHBQQ1ZUQzc4cVNoTjZEREpIak0xdE5KQlI1UG5OYzFIcw?oc=5",
    "published_at": "2025-11-07T08:00:00+00:00",
@@ -441,6 +486,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "US backs Serra Verde’s Brazilian rare earth project with $465M funding - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWGdsSjg2WWtaQ3B5QUZkRGp0bmJOV2g2V2hWTnMyTVpuM3lUZTdCNF9kVFNMOUN3ZmpZNkYxc1FoSmZNTGJQeUVLT1ZoRVhWU3Z3Y3J0bFdncXUtWkUyVUJObEJmMEZIRnMzNExwemJySUsyTi15Z2c3c1lSOUY1d25mSXB2OUdQVmlfSUlvMmFHUWNzcDQ5VjBUaG5XS0VVNFNjd3VR?oc=5",
+   "published_at": "2025-11-07T08:00:00+00:00",
+   "first_seen": "2026-10-27T09:31:52.112327+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "UE investiga venda da divisão de níquel da Anglo American no Brasil - Poder360",
