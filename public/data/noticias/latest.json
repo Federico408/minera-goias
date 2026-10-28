@@ -23,9 +23,54 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-10-27T09:31:53.972330+00:00",
+ "atualizado_em": "2026-10-28T10:16:49.803233+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "EUA investem US$ 565 milhões em terras raras extraídas em Goiás - TV Sim Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX0prbXNoVTNfT0FOcTVXQjVST1dYUlNTSEktWVFEZFNDSWVZWHYtdE5aTS0zd2wzRVVuMkswZThhRzNuVFRxQ0tCcVBBMlh6UXZXYkE5QVNmZzhseFdHeVhmX3FtWHRyTks1bHF1ZjB3Q0lraGxlUkdQQWJEUlU3SWoxVF84VlYzb0Y0Q0tySGNZTjJSaWs0d2l1cUt4angxRzdJMkhuM1IweXZrMHJnMjhtYkoydnNVLWc?oc=5",
+   "published_at": "2026-10-28T05:59:05+00:00",
+   "first_seen": "2026-10-28T10:16:46.173330+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras: o que o Brasil tem a ganhar ou perder na disputa bilionária entre China e EUA?",
+   "link": "https://g1.globo.com/g1-explica/noticia/2026/10/28/terras-raras-o-que-o-brasil-tem-a-ganhar-ou-perder-na-disputa-bilionaria-entre-china-e-eua.ghtml",
+   "published_at": "2026-10-28T05:00:00+00:00",
+   "first_seen": "2026-10-28T10:16:26.069302+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "G1 Economia",
+   "escopo": "nacional",
+   "tema": "geral",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Fornecedores de máquinas de mina subterrânea ganham contrato na volta do complexo de ouro de Pilar de Goiás, que ficou mais de 900 dias parado e tem US$ 500 milhões em estrutura instalada",
+   "link": "https://mineracaobrasil.com/pilar-gold-retoma-mina-de-ouro-pilar-de-goias-900-dias/?utm_source=rss&utm_medium=rss&utm_campaign=pilar-gold-retoma-mina-de-ouro-pilar-de-goias-900-dias",
+   "published_at": "2026-10-27T20:25:14+00:00",
+   "first_seen": "2026-10-28T10:16:08.806320+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
   {
    "title": "Pilar Gold retoma operações em Goiás e mira aumento da produção",
    "link": "https://revistamineracao.com.br/2026/10/26/pilar-gold-retoma-operacoes-em-goias-e-mira-aumento-da-producao/",
@@ -773,6 +818,19 @@
    "regiao_termo": "catalao",
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "ANM aponta drenagem ácida em mina da Lundin em Goiás - www.broadcast.com.br",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaHQ1REVJMzdxZHdTaGFQeUZaSXNINW9tR1NhOURsSkljam1zQXdtSzA1OWd1TjFXbEE5b2QxRWxFV0tKZlVGMG92RWN6Vm5UNjVSTXl4c2FCQVlQY1dtNjdFdHBlSUpOMml4OFNmUkdLNUJrSlcxTi1XNlpYYmRCbTZydllIcUxMVS02eWh1MFhrT1p0UkRaVFlRT2wtQQ?oc=5",
+   "published_at": "2026-09-09T07:00:00+00:00",
+   "first_seen": "2026-10-28T10:16:43.405120+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
@@ -1781,6 +1839,21 @@
    ]
   },
   {
+   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae1cb8dbdac41848be67cf64dd5c9de&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
+   "published_at": "2026-08-05T03:20:00+00:00",
+   "first_seen": "2026-10-28T10:16:45.720743+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Goiás aprova política sustentável para impulsionar a mineração de terras raras; entenda o impacto para o estado - Jornal Opção",
    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSEZGZkE5eTd4YURxa0ZHeVdfU3UybVl5aEdmb1plMmU5eGs2azJNQ2FiMFptZXhmVDdmbF9heHNMb25VcWc1VnJhQWVoSXl2akUzdGFJdnBMb011ZmFWeUswbmZWMHlWWGxZNUxVbENIVTJxSmg3Yk4xQmE1dlBWekNkMEdJNHl4T2poTGxTZDczUTRZTkRpY3B4Y2ZDdW8tNWZ2QjFXWEFJekJFWmpySkpGYjdkTUVXVHRqNUJVQWhJeHhZVjZrdEF3SHRMNE82eWIyY1daQWpqSHMtX3JyRGQwOFNETkJEb29ISW81RTVpdktURmEza1dB?oc=5",
    "published_at": "2026-08-04T07:00:00+00:00",
@@ -2514,115 +2587,50 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
-  },
-  {
-   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac5c5d5c34a42689cbd2b7ee70dd042&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
-   "published_at": "2026-05-10T18:38:00+00:00",
-   "first_seen": "2026-10-07T04:08:53.670753+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ac8ca7e95674449a59f57faac5fb1a0&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
-   "published_at": "2026-05-10T18:38:00+00:00",
-   "first_seen": "2026-10-09T11:05:34.253988+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aca120b3cae4489b2eca900417a3f0e&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
-   "published_at": "2026-05-10T18:38:00+00:00",
-   "first_seen": "2026-10-10T10:23:08.133184+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6acb656414db4d1dab6e703a4ffcba68&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
-   "published_at": "2026-05-10T18:38:00+00:00",
-   "first_seen": "2026-10-11T10:31:00.214938+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Governo de Goiás debate mineração na Chapada dos Veadeiros, mas decisão ainda não foi tomada",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6accc5ec3e6c477fa2df7927b909423d&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fgoverno-de-goi%25C3%25A1s-debate-minera%25C3%25A7%25C3%25A3o-na-chapada-dos-veadeiros-mas-decis%25C3%25A3o-ainda-n%25C3%25A3o-foi-tomada%2far-AA22RZ6u&c=8649397461123352240&mkt=en-us",
-   "published_at": "2026-05-10T18:38:00+00:00",
-   "first_seen": "2026-10-12T11:35:08.503237+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   }
  ],
  "tendencias": [],
- "total": 4157,
- "regionais": 577,
- "setoriais": 4157,
- "regionais_setoriais": 577,
+ "total": 4279,
+ "regionais": 591,
+ "setoriais": 4279,
+ "regionais_setoriais": 591,
  "fontes_vivas": 60,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 1281,
-  "ouro": 802,
-  "litio": 366,
-  "cobre": 363,
-  "niquel": 127,
-  "uranio": 66,
-  "niobio": 34,
-  "fosfato": 20,
+  "terras_raras": 1314,
+  "ouro": 830,
+  "cobre": 381,
+  "litio": 374,
+  "niquel": 129,
+  "uranio": 68,
+  "niobio": 35,
+  "fosfato": 21,
   "energia_eletrica": 6
  },
  "meses": [
   {
    "mes": "2026-10",
-   "materias": 1443,
-   "novas": 70,
-   "regionais": 25,
-   "setoriais": 1443,
-   "regionais_setoriais": 25
+   "materias": 1532,
+   "novas": 89,
+   "regionais": 28,
+   "setoriais": 1532,
+   "regionais_setoriais": 28
   },
   {
    "mes": "2026-09",
-   "materias": 1187,
-   "novas": 3,
-   "regionais": 41,
-   "setoriais": 1187,
-   "regionais_setoriais": 41
+   "materias": 1189,
+   "novas": 2,
+   "regionais": 42,
+   "setoriais": 1189,
+   "regionais_setoriais": 42
   },
   {
    "mes": "2026-08",
-   "materias": 298,
-   "novas": 3,
-   "regionais": 59,
-   "setoriais": 298,
-   "regionais_setoriais": 59
+   "materias": 299,
+   "novas": 1,
+   "regionais": 60,
+   "setoriais": 299,
+   "regionais_setoriais": 60
   },
   {
    "mes": "2026-07",
@@ -2635,39 +2643,39 @@
   {
    "mes": "2026-06",
    "materias": 78,
-   "novas": 2,
+   "novas": 0,
    "regionais": 15,
    "setoriais": 78,
    "regionais_setoriais": 15
   },
   {
    "mes": "2026-05",
-   "materias": 151,
-   "novas": 8,
-   "regionais": 79,
-   "setoriais": 151,
-   "regionais_setoriais": 79
+   "materias": 153,
+   "novas": 2,
+   "regionais": 81,
+   "setoriais": 153,
+   "regionais_setoriais": 81
   },
   {
    "mes": "2026-04",
-   "materias": 133,
-   "novas": 14,
+   "materias": 136,
+   "novas": 3,
    "regionais": 51,
-   "setoriais": 133,
+   "setoriais": 136,
    "regionais_setoriais": 51
   },
   {
    "mes": "2026-03",
-   "materias": 54,
-   "novas": 3,
-   "regionais": 17,
-   "setoriais": 54,
-   "regionais_setoriais": 17
+   "materias": 55,
+   "novas": 1,
+   "regionais": 18,
+   "setoriais": 55,
+   "regionais_setoriais": 18
   },
   {
    "mes": "2026-02",
    "materias": 48,
-   "novas": 10,
+   "novas": 0,
    "regionais": 6,
    "setoriais": 48,
    "regionais_setoriais": 6
@@ -2675,37 +2683,37 @@
   {
    "mes": "2026-01",
    "materias": 30,
-   "novas": 4,
+   "novas": 0,
    "regionais": 1,
    "setoriais": 30,
    "regionais_setoriais": 1
   },
   {
    "mes": "2025-12",
-   "materias": 102,
-   "novas": 5,
-   "regionais": 86,
-   "setoriais": 102,
-   "regionais_setoriais": 86
+   "materias": 104,
+   "novas": 2,
+   "regionais": 88,
+   "setoriais": 104,
+   "regionais_setoriais": 88
   },
   {
    "mes": "2025-11",
-   "materias": 36,
-   "novas": 4,
-   "regionais": 26,
-   "setoriais": 36,
-   "regionais_setoriais": 26
+   "materias": 37,
+   "novas": 1,
+   "regionais": 27,
+   "setoriais": 37,
+   "regionais_setoriais": 27
   },
   {
    "mes": "anteriores",
-   "materias": 486,
-   "novas": 53,
-   "regionais": 156,
-   "setoriais": 486,
-   "regionais_setoriais": 156
+   "materias": 507,
+   "novas": 21,
+   "regionais": 159,
+   "setoriais": 507,
+   "regionais_setoriais": 159
   }
  ],
- "descartadas": 12891,
+ "descartadas": 13273,
  "veiculos": 53,
  "coleta_desde": "2026-09",
  "janela": "2025-11"

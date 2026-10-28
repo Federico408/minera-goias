@@ -1,6 +1,6 @@
 {
  "mes": "2026-09",
- "materias": 1187,
+ "materias": 1189,
  "itens": [
   {
    "title": "Copper system larger than previously thought a welcome surprise for AZ9",
@@ -14631,6 +14631,19 @@
    "substancias": []
   },
   {
+   "title": "ANM aponta drenagem ácida em mina da Lundin em Goiás - www.broadcast.com.br",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaHQ1REVJMzdxZHdTaGFQeUZaSXNINW9tR1NhOURsSkljam1zQXdtSzA1OWd1TjFXbEE5b2QxRWxFV0tKZlVGMG92RWN6Vm5UNjVSTXl4c2FCQVlQY1dtNjdFdHBlSUpOMml4OFNmUkdLNUJrSlcxTi1XNlpYYmRCbTZydllIcUxMVS02eWh1MFhrT1p0UkRaVFlRT2wtQQ?oc=5",
+   "published_at": "2026-09-09T07:00:00+00:00",
+   "first_seen": "2026-10-28T10:16:43.405120+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Brazil funds rare-earth project in effort to tap vast reserves",
    "link": "https://www.mining.com/web/brazil-funds-rare-earth-project-in-effort-to-tap-vast-reserves/",
    "published_at": "2026-09-08T19:33:36+00:00",
@@ -15165,6 +15178,21 @@
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZDJrSGIzMzhFT2ZaOTlfZ2M4dzVGLUxhOHhjNDI3YURxamRtRi01eGdObHhhWHJaYlZweTlrOC04TTUxODRNbU1DTjV1b3FQcHZWYzNpVjhzM1pUMk02amRodlBzT0pGcF9TZV90c1dWbTZ5UmFjclhHOXFYZEsyOURra0swZFByemhzS2oyWDJFSVFfdlJIRHcxYlhDaFdHNWI2YWFxYkFYSk40WFoxcWRiSFJrNHg2UmFj?oc=5",
    "published_at": "2026-09-08T07:00:00+00:00",
    "first_seen": "2026-10-24T08:34:22.741362+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Sigma Lithium diz não ter sido notificada sobre decisão judicial e mantém operações em andamento - O Fator",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeUlKaXBhY3BaZ0VlY3dxSnI2OGZMWGU5UVczM3ZkZ1VZT3NCU0tzUWR6Z0dVRy1WbDRRV2NGUjNXSnBOejJEejZZRkd1QW44dXJUbld1MFRreEpjalllYlVweGJ6b1ZnZ0RibVEySExIV2VCazhZMFJtUVpaRmJvWHZTZ29YN2k2cXhBYmlpMkpiSEVNb2RZZ2FwSDJYbGRLZ1dteHBZNDUzUFhua18wRnF6Y2hkVWpBeENHWDRhTTVMOTRlYUl5Zm93?oc=5",
+   "published_at": "2026-09-08T07:00:00+00:00",
+   "first_seen": "2026-10-28T10:16:46.684098+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

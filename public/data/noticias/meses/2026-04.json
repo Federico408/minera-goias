@@ -1,6 +1,6 @@
 {
  "mes": "2026-04",
- "materias": 133,
+ "materias": 136,
  "itens": [
   {
    "title": "ANM nega recurso de Abdalla; direito minerário fica com LHG, dos irmãos Batista - Agência iNFRA",
@@ -1506,6 +1506,51 @@
    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNHlodW93NmZ5N0hZSEVtdmZnVkZxalRwRkdLX1ZyT3RqVE1aSlAtYWJCQklpT2JHam5WS1N1SjhNcTZ6QjBob2FyY0k3MkFvTmVpZVJYMGNZODEyQ2FDSjFoN0VLcUhCNlFOMVZRU09uRXhSSUViRXNVQ25zNmJuLVZobGtaeUhjcklseFhVR2t3c0R3SUY0Z3dZek85Z0VjQl9wR04tNTJadVN0ZExBNFJRYU9HWDl6TDlabGI2eURaMW42?oc=5",
    "published_at": "2026-04-20T07:00:00+00:00",
    "first_seen": "2026-10-27T09:31:48.530515+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Empresa dos EUA compra única mina brasileira de terras raras - Brasil de Fato",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMmIzcGNnOXFvcU10TmdXeFRiSnVOMWpZeVJPWm52dmxWYTdMSFgyTS1JUXRRVFFJZHNnZWM5c0ZfeF9VQ01pZ0NpajZ1OHkyTkNVejFHVXl4YnRwQzNzUWJjeXdpRmp0aEc3V1Iwenhoa2VUX3lLaDJ6VkEyWmlGQmotUDRMRXVJU2ZpZXl5TnlVckxGN0hibGsyZXZPcUpWSnpFMU1TNA?oc=5",
+   "published_at": "2026-04-20T07:00:00+00:00",
+   "first_seen": "2026-10-28T10:16:45.004356+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Empresa dos EUA anuncia compra de mineradora brasileira de terras raras - G1",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd0pMTkh2WlVwYUI2bjBDdTNyOUZZdWFYYjQzNVBxZ2VIR3JfZG5ZOTRndjFYREdqM3g0VTdiZ0NNdEdfR3JWRkg0RFZ2STMyc3VEdG1veklsekRhakRLbE5idEMxc2lWNFFCb0ZRMFU0dmNyams3c01JZTQzNFFQX3ZuWUptMXVfUkJtVmNIR0kwMFhNZTFUVzgtbmkyZmZ5Z3FYV19DRkFzOFZSR2VESEdsSk1RN0llQm15TmJBUi1FT1Rz0gHTAUFVX3lxTFBDS2pQcTBSQ0JhSWRWSkZ4NXBobThpSUZEYkN4TW5wODl3YzZfYUlHeUMtZ19RbzBHaTJRaXA1bVBwaWZPZXFRTFE2a3ZnQjR1VHBXZklpVEhLZHZvZjgxREhrU2N2V2YwNThJNXFqRlNwYUVZRzExY0I3U0dJZy15UlBGcS1tWjZyZjJHSjF3WmpONkdfTkZ1dzBTVmRiVjluT1hvMUYxTnJOQjhOT0JvN01kbFpiTDdaVDJpRU9ra3JheGFrN2hUNVR4Tm5QNEhxaWc?oc=5",
+   "published_at": "2026-04-20T07:00:00+00:00",
+   "first_seen": "2026-10-28T10:16:45.005258+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "USA Rare Earth adquire mineradora de terras raras Serra Verde por US$ 2,8 bi - InfoMoney",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWFoxNTRSWERtWDRVTHV0UFRjV0tjNmR6VTJaR1FUQ3VhWWF3dXlVaE8xaGp3Qng5NGhZNkFoR0pRTGE4cnRKWjYwYngyc3AxMDd2enJqc3JHUE5ndTlnLXhzUUppdzk1LXBNQk85MGFMMWttRE9EeGJXNUJKSW1oSEFZT1drRmFONXVZRkZ4SnNENnVxMHl5ekNBWk9EYldLTkRRYXVjX20tblhTTGxhaS04NNIBuAFBVV95cUxORXZBb09aN2lWLXBPeWNfaXJfWTNvc2x1emxSbjJES1Fya3Y5Qk93M1NzcGF1TkJEcjFtVk1TcElxbEQzRjdKM0EtUndOSFB0ZTBlNGowRm1GYzc0NWY1bG5HclJ0WWR2aDdwVzJLZW1pNnREWS1HUlZXcWtUam1TS2g1a0J3ckZOSjZTZmNvbWdlWGNSSE0yRGRvQmxITEo1YnRjNzN4STVPemhTUklGVjU5aGxISHda?oc=5",
+   "published_at": "2026-04-20T07:00:00+00:00",
+   "first_seen": "2026-10-28T10:16:45.006099+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
