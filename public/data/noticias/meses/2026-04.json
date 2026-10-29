@@ -1,6 +1,6 @@
 {
  "mes": "2026-04",
- "materias": 136,
+ "materias": 140,
  "itens": [
   {
    "title": "ANM nega recurso de Abdalla; direito minerário fica com LHG, dos irmãos Batista - Agência iNFRA",
@@ -1021,6 +1021,21 @@
    ]
   },
   {
+   "title": "Em entrevista exclusiva, Presidente da Serra Verde detalha venda e futuro da produção de terras raras fora da China - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOa044WHY5YUdZWFNJX0YyZkFJV3ctVjJrcTNtNS1UYzhJdzMySHVhMnp0NnRRM050bThLV3pYWTl1X3NuTzdaVHRnR2RHQy1FbFdaalRyTC1uNFRXUWJNVkV4eE9XODAzWXA4YldDZXdHVGxBNDVyVGZEMmd5S1Q4TW01elJIdHVCWFpGWnFiaWl6Y0Roa0kzNXM5WDRxVkUzeXNMdEpqMlk1ZEtSS1lNTXRsV2ZBZlRhMmotU3RQY0MzYkJZOTZDUEF0UkhxNGtacUVKRkpNUDJCaWp3aEJKUTczY0VTYXVBOGFnRHFYcjJsVjVGMlRFVTMxRUVwOVE?oc=5",
+   "published_at": "2026-04-23T07:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:44.413913+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Exclusivo: Serra Verde, primeira mineradora de terras raras no Brasil, foi multada por desmatar vegetação nativa em nascentes do Cerrado - observatoriodamineracao.com.br",
    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxONDhkX3ZUSnJ3RlMxZFpwZWdLVDhOcFZoYXlYTDR1emJTNnZFZFpUVmQ3RDAySUVrZWdhVGRNTzE1aHpxMFcxMGlJNTdaNUhBWmFKc2RwUmNVdEJ1dzRzS3VScDA3THpLSWZHcWMtTkZxRHZUaUFLS2k1S3oxdHBrNDRtMEZjMVprSW9EWkpIeF9DdnNsYjIwUXFDZnRnS1NHM1Y2UVRGc1M3eE5acmZ4RlltRXhXa3lfMUw3QmFab1lydkw5VHdnOFlYc3RWUWtLcFA1by0ydEs5cF8wdkZjTllmbS1lazVhZkRVM0syNkhLOHdxTUVTMDNGUkhKZkR1M2dB?oc=5",
    "published_at": "2026-04-23T06:05:30+00:00",
@@ -1556,6 +1571,51 @@
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Empresa dos EUA compra mineradora brasileira de terras raras - Agência Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQXFxc1VOQjk2N1ZxUlRJdVlSRUp6c3RRLUgyYkd3UUJoS1NhR3BJSWZ1YWRWNEs1QmlPTFRkU1VMd0Y0cGtrbkYwbTMtYU94S0pQLXBIOER1Wm5DR0lPeTA2MGNaS2VjZFpWQjl2Y1NfWmQ4cHpnNzE0ZnJrQlNMSlhSdzJyOXJ0cnpfeFFHTEFlNGJpTGFSTXJLVDNIcEVtUWJ2Zk15SW1VQlktc3dRM05YOGJISTU1ZFE?oc=5",
+   "published_at": "2026-04-20T07:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:42.662812+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "USA Rare Earth boosts Western supply with $2.8B Brazil deal - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS3Zpbm9vNWRJNEhhOGFqSnFPUmRNdU9FTXdtLVRqdzAzdTB0NjNrdWhUXzBGQ2g3WTFvcWp6UnRiOVlhcmFBTmllU01kM3BwbFpCQjNUaXZ3ZTZYMmpzeDBPZVY2eFZhUzgxY19qdm9IWGhEWDhiM3ROLWFJQ0QyUnNXVGpLZHhHWTV0R0pOUG9HalcwSThQWVBla3ZiUU1r?oc=5",
+   "published_at": "2026-04-20T07:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:48.077529+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "USA Rare Earth to buy Brazil’s Serra Verde in US$2.8 bil deal - Yahoo Finance Singapore",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIb0luOS05RWtDdXpnX3JnVWpDV0pwYUtaYnZPV3ZiU1o0RWJQY1VDOC1UNnZjdlE1OUVtRnA0eWFhX19nc09RRXY5TTBQdG9MRFJtazVFd0w1NFl0VHFaSG5VVjdWZk9JNF9kZjhlMWdXUDFYLVVjUTZ4dWVmem8?oc=5",
+   "published_at": "2026-04-19T07:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:48.078084+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"

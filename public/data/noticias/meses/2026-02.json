@@ -1,6 +1,6 @@
 {
  "mes": "2026-02",
- "materias": 48,
+ "materias": 50,
  "itens": [
   {
    "title": "Influência chinesa continua causando turbulências no segmento de níquel - BNamericas",
@@ -501,6 +501,36 @@
    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOXpjR2ZncXpwNTR3dWNKNEdQa1VmN3ZGZkZNbWYzZVI5VVZxaHFIb1gxWENxaS1TYUhwakNvZG9raWRBRnROaE9NTERrczZ4aXl5SEF3b09GRkM4Y3ktVUEyTDF5bmMyU3kwRDBEQkdZSms5cGpvRjFTemExNzJQNExYR016TDFtNVdBYlRyZTdnYlJ2WVQ3TFp0dzVJZWkxTzVSQmJic2hScnFnQkJxdUxoaGJUalltYS1kOWpfYlpRMXRnYmI5ZA?oc=5",
    "published_at": "2026-02-05T08:00:00+00:00",
    "first_seen": "2026-10-27T09:31:52.107990+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "EUA concedem empréstimo de US$ 565 milhões a mineradora brasileira de terras raras - G1",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYkN5Z0JhdjVKbklEc0Ywb2d3YXZiR21WOGducW1uSHIxOU9xczhpTmJGNERVZDU3b1p2R0FOeWJYX3VRWVNJV1JRVm9naHY4RlVmOHBFdG5pNkc4Tl9Jdi1VTUFFRXQ0QjFWdHFoZFhvNXFsQ0xKOXFQZHFwa2NBNm5oUzFUallJelQtelB6N1A1cWRHVUHSAaQBQVVfeXFMUFFZQ3BaaEI5dXNtcVVDZjY2NE9DNVgzSlRpU2RWSU5UWTlhM3JkTFoxZDNTMG53YjB6MlVyU2k4Y3dOUExudEs5dng2RkF6ZEoxd21fQW5keUxDbEJmTFVsN09KRUpXajB2TzhUX2czcjN3VEptS1FlUUNVMFdLVDFIQVctMzY1ZTE5SU5tVlV3UVFTVnRwQmhUTC1DWUFWRlAtU3k?oc=5",
+   "published_at": "2026-02-05T08:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:45.626177+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Brazil’s only rare earth producer offers US stake option for loan deal - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcGE4WmVpbVR6U2o0YXFTY2lnbkQ4cTNLU29Xa01iRnRhRG1qQXdMZTBqYzV2QVJGVHVCVE5LckdXRV9iRHQ1OXNRZTRJN2k3TFcxNFYwUTA3Y0hXcnFPLUNqZDVZdWtBZG9oMmZxZnBtYmZ1Zy1YU0d2U1FRbk4tNzNPUzN0NWh3Q3NUcFlnV2k1LTBURGFjMHlkMzJ0UQ?oc=5",
+   "published_at": "2026-02-05T08:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:48.078626+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

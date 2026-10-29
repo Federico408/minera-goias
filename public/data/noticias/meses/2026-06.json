@@ -1,7 +1,22 @@
 {
  "mes": "2026-06",
- "materias": 78,
+ "materias": 80,
  "itens": [
+  {
+   "title": "Atlas Lithium vai ampliar produção de lítio em Minas Gerais | Café com ESG, 30/06 - XP Investimentos",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdTFhU19UQUZNdmFPTkhkY0JMV1M3UG01cnRwR1FUcHJ3dGt3QzdCd0VuWmI5R2xBaFVpMDdRZjBHNG15SldseEdPRTJ3ckFmdnF1dzI4TzhqemlLRXRrNVVRMm0wcGNZaU95d3lGSVFxUkNPNTQ2Z1JwYVByb083NUplZ3lBdU5nTDFfeGRoMlJ4MXFYMkQzVzc4SlJtUDdJZWJCWWRkOHkzRktNQjY1OVlR?oc=5",
+   "published_at": "2026-06-30T09:33:18+00:00",
+   "first_seen": "2026-10-29T10:40:46.139259+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
   {
    "title": "Recolhimento de royalties da mineração passará a ser digital a partir de 7/7 - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZHBSQTNqX1hNSUVTT05SVk0td0ROUnFjcWFGaFRwV1FraEJvUDJtQU41NHhpY1RZMWdmVlozUE9ZdVNiZks5SncwUm42Nm5Oc1hUQVA0cVRsQS1CRF84M19TZHZJelFlc2xUVzNlU3BTRXNoMVBDVXl4cUgyUzBHbGV1b3N0LVFoTnhNUjNfXzRuYVVLUU9ZV0Y2bVdtZTVPVnp2T2VpajVzZ01kb1djTDJ2M2pzUWVqNll0NDJqbk4?oc=5",
@@ -1099,6 +1114,21 @@
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras-raras: comissão discute marco legal para minerais estratégicos - Senado",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeUluVks5ZGp2RE02ZW9IVE13Rm9wT093V2hMNTlHS3F0dElPWGxKZVhLMlFKTlBFcmpTdkZBbUlSdXRwUl9MLVRWWjA2MlYzQjRncEtQamgtOUdoaDNZazJOdThxM3E0VV82bm5QdHE4WWFXbExrMXRRX2RlM3ZFUHl6YTVOS3Z2ZG5wdGkzbXdEMTFoWjVNdGxXWE1DUTgtdGR4WU1KRUR3QzVOVXNyR0g0bEo4TlF3V0RzbQ?oc=5",
+   "published_at": "2026-06-01T07:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:45.623495+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"

@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 507,
+ "materias": 515,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - diariodocomercio.com.br",
@@ -1872,6 +1872,21 @@
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae322acd79e4e3dadaf2f24b5fcc8a0&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
+   "published_at": "2025-06-02T00:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:45.085586+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab89686037b4cbb9d163f724403ec19&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-09-27T04:07:35.144000+00:00",
@@ -2567,6 +2582,34 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae1cb8dbdac41848be67cf64dd5c9de&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-10-28T10:16:45.721512+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae322acd79e4e3dadaf2f24b5fcc8a0&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:45.082638+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae322acd79e4e3dadaf2f24b5fcc8a0&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:45.084174+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -3310,6 +3353,21 @@
    "setorial": 1,
    "fonte": "Busca · lítio no Brasil",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "BYD holds lithium mining rights in Brazil, report says - CnEVPost",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNWV3TGo0Nm5lMElBRXZvZWhTcnAxcVVseFh4WTVrRERaRS0tcEpfTkFJZU8wWVdiRHFYdFBrZVphNVBvQUVMM0NHSURxcDViRHpEdnNvN0FSNlRaQTJIRGNBVDVIdGxCMGVUeHhfWG5EM0d6eDVTOGNiZ0dDTDNOXzN3dU8?oc=5",
+   "published_at": "2025-02-13T08:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:49.245650+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": [
     "litio"
@@ -4448,6 +4506,19 @@
    ]
   },
   {
+   "title": "Moacyr Carvalho de Andrade Neto (ANM/MA) - Sinagências",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80aGdudWp4bm40N1Fkc255ZzkzcUZUWUZZYllKWHNVZTlzRV8tWThTWDNoeHlNVTJEOXJTSVJKM0xuOUJGTFoxRlNqelhaNEVqSDZJbVdkVEhneGw1YndZVklLWEN6WkxqaWozN0lCSHdHaVNY?oc=5",
+   "published_at": "2023-10-20T07:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:46.973796+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "MINERADORA CMOC BRASIL EMITE NOTA SOBRE BLOQUEIO NA RODOVIA SEBASTIÃO DE PÁDUA E EXPLICA QUESTIONAMENTOS DE DÍVIDAS DE ITBI COM A PREFEITURA DE CATALÃO - Blog do Badiinho",
    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPYVVmQ1dCRlYyTVRNMExfLXcwNnphRmV4NjJSR1hVWmZYMFZuM3Zpekg0dVR3MGltTFZvQ1g3a25MVWNsMWlHTzNHcTREQlpFTEtGX1FxQWRqQkJITzNEYjNIREhPbVhVcTROMzA4aWZwaldxLU54RWhSbU5QaDFjVE9QQUgxSFBjU2xaUkxCWmlJWEVhbnppOEFGVGl2emI5UXMzMW9nS0dSQXlGRTVUWFZWd3FQbUsyRVFqQlVnZ3dqY0ltLWxvOE5qeEdkVE03bTFBSG1UOFQ2bl82RlhwY3l3YnR6LWJNWlFjV05Rb2NpUDQ2SUktQ2pScnRDUW9wY2d0MDhKOXZXeWFD0gGSAkFVX3lxTE40c09oZW16T2lCNkNqVnNhZFpwWnBqV0E5SzlLTTQzMGNvOFIyMHQxZTlLZ09zOEo4QlFnSjFMbVY0cmw3cVU0d2FxVDVnRWFwTjBDRFRoaUI3TFRWUmdSVEk2S3dzaEQtVTBpU3JSU0ZCUmZfMll1cXZaMTg1NDNndTFIeHFualczTVpNRnlXWmNmWlFyV3AwRHBNWWdlRmRMbG9kNGRnalVIZkhMSWdJandiNXFrc2g3bUpYN2JOLXRzcUMzbWoyQlVpdUhReXRrNHQ4dFVxN1ZMUGpnYS12d3kzUVItQ2VJdVF5MUZMQ3BHV0JQc2UwOXI0QzdlUzVRMHJ0Yy1GcFRiWmFaWXI0N1E?oc=5",
    "published_at": "2023-10-10T07:00:00+00:00",
@@ -5004,6 +5075,19 @@
    ]
   },
   {
+   "title": "Brazil miner lobby seeks end to illegal mining that caused Yanomami tragedy - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTnpjLUc3clhBS0IzZXVIVzRhX0prdXF1RGxmTU5DMWNDSUhERlZqQXFxZTNfdVdnVnFDT1AwYjZxM0YzZUc2OXRublczRFRrT2xPUUloYmZIbEpLOTY4MnIzbXFpRFc0Q0JoamotblFtOXNKdko1b0N1eTM4VUZPemI2R1ptV1FKUlIzLWJKMjAyTFdrMFFMR21WcTc5LVpKcjlWcmo4d1piMC1LVHhqWkRDWkJva2JfWGtsX3prdkg3SGQtZGJNb29IOUllTDU0N2JzZg?oc=5",
+   "published_at": "2023-01-30T08:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:49.244885+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "RAL 2023 traz mudanças na declaração de recursos e reservas minerais - IBRAM - Mineração do Brasil",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZUM0LXRzT0psdVZEeGRkaGFSYVdKd1hvdjRKRlhvRDZOUjRfT1R0OUZFbmtxUnc2amFUT3NucXRVckowOEZZVnl3N3NlYkxfaW9rMmJfeTVaYUhBalF2aDFTM2lYLWZsWWZtVHI1S0sySUxRb0l3TW1WNWR5OENVTlZrWmJJVTFqRWJmVWxuX1k1OFY4TVlrMTUxd1NDbmM?oc=5",
    "published_at": "2023-01-16T08:00:00+00:00",
@@ -5492,6 +5576,19 @@
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPakFlbVUwZHRiNTc4Unp2akVXWVMxd1VvZkJxcURLMGUtTEk0UDR5NnA5STlodW5DS1ZLelBMV0xuMDdwcnZpcVlNYTliQng1VjN5cElqc3ZWdlZIRWVWdjlqdElraW9sY0dBRE1acURibmdXb1VUdFdYdGZBeUZxOTFDZW9PMHc?oc=5",
    "published_at": "2022-03-18T18:33:05+00:00",
    "first_seen": "2026-09-23T04:07:33.018819+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Relatórios Anuais de Segurança da Barragens de Mineração — Agência Nacional de Mineração - GOV.BR",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRGNESWZMeV9hQkZ4eVB3RGxvSV9vZzZyQnBXYlFRTTBRa0d3RndaWWxFd1pLZ1FBRjdoQmRER1ZiSzlPUno4MW0zbHhnUUFrNGxrZ2ZPR2oxZEI4dFBoLTNIN2ZMUEJEWWhMTkdpc1V4Sm95cVZVQTBqMThkdnRyNVNoWjY5VjR2bTJsRkpQYTJmaE9YQTNPWFBONGhZX1ZDV3p5U2g2RktfUQ?oc=5",
+   "published_at": "2022-03-17T04:17:21+00:00",
+   "first_seen": "2026-10-29T10:40:47.307557+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -6089,6 +6186,19 @@
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdTVPX1VZbk5WT0JKc3QzdkZCeW1NNE5FV2pMekFENWVCMS12SFpfQjRtZkpUU3RCLURvWFJTVUFEMThtMGRISkJacUNsNUhleUxTUkZROFBQR0Q4ZzZuU1dTbDlTZEVZSjJuZEdURGxTUWlQMHp1RlFkWmIwbjV6WlVqS3NMQQ?oc=5",
    "published_at": "2020-12-04T06:47:21+00:00",
    "first_seen": "2026-10-16T08:42:08.730849+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Pré-Requerimento Eletrônico — Agência Nacional de Mineração - GOV.BR",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRkgwX2doNnNHRGhBREJWVWxQcmRRal82YmozVVYxa0IweEQycnA3OFBJMnNjOXNkOW16cV9Oam0zZDV6T2VLVXVINzkyN2JkaHhleldYVTJkQUdKX0dwbnlFeXE4OHJPakc1VUtmeVUySi1rTGxqbkxoZm9wbUcxOUhONldQelNIZDdlTDN3?oc=5",
+   "published_at": "2020-10-19T07:14:23+00:00",
+   "first_seen": "2026-10-29T10:40:47.306817+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

@@ -1,6 +1,6 @@
 {
  "mes": "2026-03",
- "materias": 55,
+ "materias": 57,
  "itens": [
   {
    "title": "Nova guia da CFEM entra em fase de testes com participação do setor mineral — Agência Nacional de Mineração - www.gov.br",
@@ -161,6 +161,19 @@
    "setorial": 1,
    "fonte": "Busca · ANM, lavra e outorga",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Acordo entre Goiás e EUA prevê exclusividade e sigilo no fornecimento de dados de minerais críticos - Folha de S.Paulo",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOeVRVblYwWnhHdW5tMDRlaGtkM2ZDdU1CZ0ZzaW9Dc1Q2Wi12NDFSWFA3dkQzWVdvVkFtdjBhM1F4S002MWdaR01kczRwOGRiZVRKZE1pUUJnbUZuSS1CMVRwUzh2QnpGdEx3cTRRdHl2N010OHRlYUJ6WmJXYTQ4RTF6M2VoRmZ6aFJza1BjMV8teGliQ0pxWUE4VXlSblBlb2tyWnoxTmt4Vnc3ekFKWW16bkk2cGtuQ0xjWTJ0SUZxeUxKT3FhYzF1VjMxUXZQQ0Fzcm1RSFZrV0JRWkVWWGttWTZvQdIB6wFBVV95cUxORUo3bkdHbGEtNl9LNndsQjhwZU5rUG9ROWJlUGhYT196MlB5SGw4R0xEbUl1LU1pT0ZaN3RKazZWWWx5cDAzT2xEeDdTSGVRTHZCS1pwRTFlN0gxbzdhZ2dPXzd3ajhkQUY1MnhKQVItZ1hfYnhLZFBUWWxIR01oRHhPdUNjNU5YT0xNSXRWMjh5MEZPeFk5NVBqa2lKSlZGbXNKVTU3dHdETGl5bm8yaTByN2Vlam5yUWlQeU5tSmdNeHNJMGZTSU41dHdwcXBvV1E3WmVrT041TGJvalIyRnY3RGYxT1hjNUxN?oc=5",
+   "published_at": "2026-03-24T07:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:42.663301+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -673,6 +686,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Terras raras: entenda por que esses minerais são tão importantes - Agência Brasil",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUGl1ajczak5NOEJTb2NWZFR3YUVfMWk0TldIUGJWM2duQUFfR3g3WjRvOEkzUDVwb3p6MkY4MXF0SC1YSjlnQUJQbkM5d18xcVotNEl6TDRsdVFWd0NoNWIzTFQ3R3lRc0pWam5POFQzekltQ3k2Zms4eTNwa3dzcTBSM2x0WDdaTm14S0JDZUdTVDRBaXRrWkVBaUxpWTAxVlZBYU9jcEo5VmJncm1rdk50SVZIYTk5ZE52M09xWFpybVctNlBhanVseG9pZ0lra1NuR3M3VGQ?oc=5",
+   "published_at": "2026-03-09T07:00:00+00:00",
+   "first_seen": "2026-10-29T10:40:45.625677+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Terras raras em Goiás: exploração pode gerar mais de 12 mil empregos diretos - G1",
