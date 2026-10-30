@@ -1,6 +1,6 @@
 {
  "mes": "2026-05",
- "materias": 159,
+ "materias": 160,
  "itens": [
   {
    "title": "Illegal miners extract billions in Amazon gold despite Brazil crackdown, Greenpeace finds - Reuters",
@@ -2052,6 +2052,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Terras raras: veja detalhes do texto aprovado pela Câmara na véspera do encontro entre Lula e Trump; tema é considerado estratégico - G1",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQY1R3VU1fR0JNTWV3OU55UGFlWWlydmVTNTcyT1FNUm4yYjI2QVZNQlpIdDZ2OGdSTzhqUkRiS0J1bEM3dTBidHFxUUNhdzhkY2dMaE9DWUk3UmcxNU1mcktrWnNUUHFCS2FRZmgxRzZqSENrNHFWc0ZCZE50S1liZmwwckU4MEhudDlRTVdnaTJZdF9LYUJxY0RITE92SzllcERJdlVQNHFhMXVfQkgzNlJJa1dVdFkwelRqOE1ObHg5U3hvUnRDaV9ORnhGeEJrSGNvdHItWkUtRjQwTDZ4YjJHeXZpcDU0YUJudWdMN01INjF4T3YwZ1dBU1RKOW1WTWlrQmdDMFF0dEE0YmZNNEZn0gGgAkFVX3lxTE1CMU5wN0tIV1Q3NDllMjJucW5mLXVKejZlUExvcXBIYUNWaTRtNnJSd0w5NzhVZFdheTVMYVFaTndJTFdJd1ZfT0szTkxGLUFzbXkzMWRuU0FsbmNYZmJHNjFTZ3NyY2lOTFVmbGg5alA2bi1QWXl5dU9FSFFQUlVqa0Jlc2k0Zk1wSVZkeW5sNV9NUkdJMXRacm1IQzZsZmFfRm1xbXRpX2VETG1zZHlGaHFDbFZqWHdWTUFGbHQwLXBRLWp4Vm1JMUViWndELUxKUnNYYW93cXhWRGhhaVpmUjJvVmtHQTJidW1WWEYwQUhyNDBLczY1ejlHZ2RXT1c4Q040R0dVYnFZd3FfQ19LMEpOVnllMkNCM0pZSmE5YQ?oc=5",
+   "published_at": "2026-05-07T07:00:00+00:00",
+   "first_seen": "2026-10-30T10:41:19.574430+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Governo Lula não quis regular venda de terras-raras em Goiás - Poder360",

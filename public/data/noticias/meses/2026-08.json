@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 300,
+ "materias": 301,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -295,6 +295,21 @@
    "setorial": 1,
    "fonte": "Busca · terras raras",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Mina de terras-raras no Brasil evidencia desafios de se libertar da dependência da China - O GLOBO",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOOVZYX2J2b3B3TEF6TjBaR24zWG9lbUhpSWRzUWpiU0FHcFpLRVNxXzQzakJ2YmFKWXlWNFRuaGhvWUMzZm8zNWQ4aDhJQjNUUkVRYTg3MnRfcVJDTzh1eGplSkhSa0ExbVlFVHZoTzNjVXBGdzdyaGx2c2Nlbmp1SUpWUUxfNldobDBJUnNWLTNsdUhFZ2RaY1ZJTnJSbm1tbkFSMG5JQUhDMTdIalIwQmlSN1l5SzRZX2dZN3lUcVdtYXI4N0Y5MS1VMVRnVlk0b3FwTzNENmtBQWQyMDdmWg?oc=5",
+   "published_at": "2026-08-31T07:00:00+00:00",
+   "first_seen": "2026-10-30T10:41:18.722477+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"

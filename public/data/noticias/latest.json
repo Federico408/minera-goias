@@ -23,7 +23,7 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-10-29T10:40:50.570600+00:00",
+ "atualizado_em": "2026-10-30T10:41:22.910698+00:00",
  "ultima_execucao": "partial",
  "itens": [
   {
@@ -2590,30 +2590,30 @@
   }
  ],
  "tendencias": [],
- "total": 4385,
+ "total": 4464,
  "regionais": 602,
- "setoriais": 4385,
+ "setoriais": 4464,
  "regionais_setoriais": 602,
- "fontes_vivas": 61,
+ "fontes_vivas": 59,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 1345,
-  "ouro": 853,
-  "cobre": 391,
-  "litio": 380,
-  "niquel": 134,
+  "terras_raras": 1361,
+  "ouro": 879,
+  "cobre": 405,
+  "litio": 385,
+  "niquel": 139,
   "uranio": 68,
-  "niobio": 35,
-  "fosfato": 21,
+  "niobio": 36,
+  "fosfato": 22,
   "energia_eletrica": 7
  },
  "meses": [
   {
    "mes": "2026-10",
-   "materias": 1610,
-   "novas": 78,
+   "materias": 1683,
+   "novas": 73,
    "regionais": 30,
-   "setoriais": 1610,
+   "setoriais": 1683,
    "regionais_setoriais": 30
   },
   {
@@ -2626,10 +2626,10 @@
   },
   {
    "mes": "2026-08",
-   "materias": 300,
+   "materias": 301,
    "novas": 1,
    "regionais": 61,
-   "setoriais": 300,
+   "setoriais": 301,
    "regionais_setoriais": 61
   },
   {
@@ -2643,23 +2643,23 @@
   {
    "mes": "2026-06",
    "materias": 80,
-   "novas": 2,
+   "novas": 0,
    "regionais": 15,
    "setoriais": 80,
    "regionais_setoriais": 15
   },
   {
    "mes": "2026-05",
-   "materias": 159,
-   "novas": 6,
+   "materias": 160,
+   "novas": 1,
    "regionais": 83,
-   "setoriais": 159,
+   "setoriais": 160,
    "regionais_setoriais": 83
   },
   {
    "mes": "2026-04",
    "materias": 140,
-   "novas": 4,
+   "novas": 0,
    "regionais": 51,
    "setoriais": 140,
    "regionais_setoriais": 51
@@ -2667,7 +2667,7 @@
   {
    "mes": "2026-03",
    "materias": 57,
-   "novas": 2,
+   "novas": 0,
    "regionais": 19,
    "setoriais": 57,
    "regionais_setoriais": 19
@@ -2675,23 +2675,23 @@
   {
    "mes": "2026-02",
    "materias": 50,
-   "novas": 2,
+   "novas": 0,
    "regionais": 6,
    "setoriais": 50,
    "regionais_setoriais": 6
   },
   {
    "mes": "2026-01",
-   "materias": 30,
-   "novas": 0,
+   "materias": 31,
+   "novas": 1,
    "regionais": 1,
-   "setoriais": 30,
+   "setoriais": 31,
    "regionais_setoriais": 1
   },
   {
    "mes": "2025-12",
    "materias": 106,
-   "novas": 2,
+   "novas": 0,
    "regionais": 90,
    "setoriais": 106,
    "regionais_setoriais": 90
@@ -2699,21 +2699,21 @@
   {
    "mes": "2025-11",
    "materias": 38,
-   "novas": 1,
+   "novas": 0,
    "regionais": 28,
    "setoriais": 38,
    "regionais_setoriais": 28
   },
   {
    "mes": "anteriores",
-   "materias": 515,
-   "novas": 8,
+   "materias": 518,
+   "novas": 3,
    "regionais": 161,
-   "setoriais": 515,
+   "setoriais": 518,
    "regionais_setoriais": 161
   }
  ],
- "descartadas": 13683,
+ "descartadas": 14065,
  "veiculos": 53,
  "coleta_desde": "2026-09",
  "janela": "2025-11"

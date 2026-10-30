@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 515,
+ "materias": 518,
  "itens": [
   {
    "title": "Agência Nacional de Mineração reorganiza estrutura com nova coordenação em Minas - diariodocomercio.com.br",
@@ -1320,6 +1320,21 @@
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNzRhYW5MZXFCazVOajhSNzU0a2NxVVZ2ZmxDUzF0U0xHNnZxeW85cWlhQlZNUnJoT00wOFRPcFVBb3VmLUlWano3WDBvSHRvQTBVdkstTHRzZlNSbzNMWWxac2doaDNuQ0UzN3JnaHAtRmxNTmVDQm96dnpnVG93MnduUlRKYkYtTXNqRDQ3bHNfSU0?oc=5",
    "published_at": "2025-06-11T07:00:00+00:00",
    "first_seen": "2026-10-27T09:31:52.115850+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Brazil's rare earth projects seek partnerships to enhance energy security - S&P Global",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQVBZaDgybFRlZDBnVUVuaERhRWVzTWVEMVdwU05hbENXbndiRk9sTTAxeVdJQjNONWJreE9zUU4tVllrZ0ZqTXpxVGtySUg5QzR5SFZ0RkgzRXBoYWxESzNxX2ZJQWh1dnZtUFZQYUZtbmxDSW9aeXRPXy1icDNaTHhFUkNPR3FGT2lzblBvNUlKZk9VaTFvNlVmRXBTaVhsVTVodDBWb0pLNHpIeFY4VDVWNEhBVkFraTRqUFlCY2hMSzV2Y2Q5VUpMU1lfYmlqOFJJT1VJSzg1RFpub3RweQ?oc=5",
+   "published_at": "2025-06-06T07:00:00+00:00",
+   "first_seen": "2026-10-30T10:41:21.439636+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -2824,6 +2839,22 @@
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
+   ]
+  },
+  {
+   "title": "Busca por cobre e lítio na Bahia e na Paraíba ameaça a agricultura familiar - Observatório da Mineração",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUzlONEozY21mQXhhLXpDOGJCWDFEbGRPN3lJV01YUHdKU1Z0WmI2TFU0WHhHMjYzUVNPczdQT3lwR19YeVNaTG1UdjFfUkVMQTdVaFVyYXdrYVJfWjg1ajl1aVl5SkhlSUxPY1AxazJ5T3lWdnFqRG1UOHJwdFVqZkdCekMybWx0YlhWejVOLVJ4MHVlZ0ZiUTF1UDdoUXRsTmR0Rld3a01lYjQ2VThxVktXYlZ2UQ?oc=5",
+   "published_at": "2025-04-07T21:54:04+00:00",
+   "first_seen": "2026-10-30T10:41:19.897834+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre",
+    "litio"
    ]
   },
   {
@@ -6085,6 +6116,19 @@
    "setorial": 1,
    "fonte": "Busca · Brazil mining (Reuters)",
    "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Vídeos de Orientação para Cadastro — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNEpCV3BCZ2FiX0FLM2h6bDdyeHhvYTBrRXVOM1FLa0NiUVFNcEF6N3RtbTMtTE1uU3U2QndPRVNnUFExQ3E3RVhMcXloUDcyTkUtdzB1czN0TFZZd1NuVjZLVXZqalVkaGtBajlsY2c0SGtxdlE4TUVnd09aNEVtTV8wUkR5RU9xQzZSR2lFeUx6RHl2bGVXUGUxdHZKdWdKdDZnX3drT3pYODRJV1lmUjBLYmoyTEIyYThSZnNmYkNHdFU?oc=5",
+   "published_at": "2021-07-22T07:00:00+00:00",
+   "first_seen": "2026-10-30T10:41:20.186484+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
   },
