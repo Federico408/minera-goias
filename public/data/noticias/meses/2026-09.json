@@ -1,6 +1,6 @@
 {
  "mes": "2026-09",
- "materias": 1189,
+ "materias": 1191,
  "itens": [
   {
    "title": "Copper system larger than previously thought a welcome surprise for AZ9",
@@ -2081,6 +2081,19 @@
    "regiao_termo": null,
    "setorial": 1,
    "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "MUNICIPIOS - Agência Nacional de Mineração divulga lista de municípios afetados pela mineração no ciclo de distribuição da CFEM 2026/2027. - Repórter Maceió",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOUGpBU0Y4SlB4Vm1oQ1pLdTdxUXI2UkxWZ19INXF3OFlFT2h3ckNSaTBsMlB6UnpBVVM5WVNMU21zTHh3RnFSaVQ0bXBQYVRPeTU1R3NsNGRUbXl6emRrdk84RWVITkJnVVdqNWIxSGtMSjh3ak1mNGpsM2JZNlhjaVdtRWFrdnBZbmlMOXNBNXZDdFp1ZWs0dVg2M3BXaVRlUEZqV2J1Wmh0blhNRzc4bjFSNlUwWVR2cHN1S0Jmc05leXpvMWd6d0hoQlV5cU5sbDNrd3d0MUw4Uy1wd1NMZVREdUJXX0xoYUwwVXBmS0l5SlNTMl8ybWdB?oc=5",
+   "published_at": "2026-09-29T07:00:00+00:00",
+   "first_seen": "2026-10-31T10:08:13.499033+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
@@ -12389,19 +12402,6 @@
    "substancias": []
   },
   {
-   "title": "Sancionada lei que cria Política Nacional de Minerais Críticos e Estratégicos - Senado",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMW93cGtDN2VlTnI4VTNmdDJGVDRKeXZGYmlRa01yWWJwTHFBUTJxa1AxQUxQdEJJeEV6emltVGo2a3NvdFg4N2U1aVhVZU1rVklPaktnOHBfVHlJRkVtLTZ2S1h4T3pGTVJJa0hRVTNpZVN2LUo3bkhBcWlpVHpTZEJzdmRYRl8xdS1odFY5S0x0WkF0dGtKMVRHdTRud0p0SkJQbV9jTlJXdmoyeC1kN05CSmowQXYwZ2QyREdmdTRNSGlDR3JfSHBkYUo?oc=5",
-   "published_at": "2026-09-16T22:43:00+00:00",
-   "first_seen": "2026-09-19T19:49:03.272369+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 1,
-   "fonte": "Busca · terras raras",
-   "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Lula sanciona política para minerais críticos e terras raras no país - Jornal Toda Palavra",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOVBpYjV5Smcxc0VMU1RXLVlGWGpHQ2I1X1pBY3Q0Tnp0NDgxNGlUUFZZMG14eTQ2R2VHd0Y3RUpqSkZiMFBmYW4zNFRGSHJsTUVmR3JsSTNtRDNWXzh3YlkyVDBUYm43bTZwbmlWWkswTTBZVTdCMVBBR3FvOUo5Wlh3T0t6NHlHNGVzRk40LWswbUR6QS00a3JGVFIyTFVhM2w3MW9hbnNRdmlISi1sRFpJQkk3Y25nTGliRjQzNFJWZw?oc=5",
    "published_at": "2026-09-16T22:29:10+00:00",
@@ -13092,6 +13092,19 @@
    "substancias": [
     "uranio"
    ]
+  },
+  {
+   "title": "Sancionada lei que cria Política Nacional de Minerais Críticos e Estratégicos - Senado",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMW93cGtDN2VlTnI4VTNmdDJGVDRKeXZGYmlRa01yWWJwTHFBUTJxa1AxQUxQdEJJeEV6emltVGo2a3NvdFg4N2U1aVhVZU1rVklPaktnOHBfVHlJRkVtLTZ2S1h4T3pGTVJJa0hRVTNpZVN2LUo3bkhBcWlpVHpTZEJzdmRYRl8xdS1odFY5S0x0WkF0dGtKMVRHdTRud0p0SkJQbV9jTlJXdmoyeC1kN05CSmowQXYwZ2QyREdmdTRNSGlDR3JfSHBkYUo?oc=5",
+   "published_at": "2026-09-16T07:00:00+00:00",
+   "first_seen": "2026-10-31T10:08:12.494283+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Comitiva do governo federal aponta necessidade de avaliar impactos de terras raras de forma cumulativa e regional no Sul de MG - G1",
@@ -17038,6 +17051,19 @@
    "setorial": 1,
    "fonte": "Busca · rare earth Brazil",
    "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Royalties da mineração: projeto de IA para controle de prazos avança — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcWdZTVZfX3YzMjZ2NXl3QzNMY254MzlDSGRBOURvQWJLNUlqaVBvNTVoUmZVbkhqOXRCbjRBNGlQM3U5WU9yWVZFNVotaUoyT3JfRG9pZ2VYVlBFek55bkRvdVhqeWd3WUE3aDNKOUhqdFVSTFd0WXRQYXNtR3paMHJtVUJFZkRjbHZzX3czbkpJWFYxblBCTm9hUTdDNUNSVThNZDByWmJtYlZ5NTFhVi1tOGU?oc=5",
+   "published_at": "2026-09-02T07:00:00+00:00",
+   "first_seen": "2026-10-31T10:08:13.497851+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
   },
