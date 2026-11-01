@@ -23,9 +23,24 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-10-31T10:08:17.098760+00:00",
+ "atualizado_em": "2026-11-01T10:59:11.322603+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "Mineradora canadense aprova investimento de US$ 110 milhões em Goiás para ampliar extração de cobre e prevê aumentar produção em 30% até 2029 - Portal 6",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOb1FielU0dFIyTWoxVFEzRnQ0dVR0Y2pZMzUybThNU2xNRUxPLU85TVJTWktBdjlTR0NIdjJJMml5UG5ZcW0wcnRVZGdTRHZ5aGthbDdGeEZFdjNwUmxFVU5nYnlQRDVrRkViOXktQUhTdmNMYU4xQ2VjOWRkUllvdjltYWZoeUFwRUkyQjY3N0ppMkJiUlJiaFBGdVdueVpiS1hrU3lxU2hYT05oYTV4dUM1TnY4V2paVU5aVnFIWGhZNVVzcmFSSVZ3cDhxcjFUbEswNk9mZ1R3X2p3MmJnLWd4MGdWQXJvMS1tbm4wLVl0MWV6SjJZdzZjUFYzaWVUTmxtZg?oc=5",
+   "published_at": "2026-10-31T19:20:24+00:00",
+   "first_seen": "2026-11-01T10:59:05.540740+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
   {
    "title": "Mineradora reaproveita 75% da água usada no processamento de ouro e cobre em Goiás - CPG Click Petróleo e Gás",
    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeGZjRkFLMXhPT1BIYV90WFlwejA5a0hPbDRmZEdFUlRiakhwTGdrb3I0OHJLLUxsV01yU3YzVHB6cFQ2SkhXUmtGcFJrRDhDbldhMFh1Y1dzblFXR1dab3E1cG9NaDhuQ1ZrTFFBQ0V2MzVaWldsTXJJSHdER1A2SlhWcnJCdDdydUVKbExTNV83T1lYYjVoSlJjc3JVTmppMHBPeUJxZ25nOThMU3V5aUN4SmNIelotYXd3bHQ5Zw?oc=5",
@@ -2579,60 +2594,55 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
-  },
-  {
-   "title": "Governo de Goiás quer liberar mineração na Chapada dos Veadeiros - ICL Notícias",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9fU3pmbFZzVk03ZHYxdmU2S2xtazE3MFNGOU14N3NvaEZULUFLTDNUQzBodEk2WkhkVWxBUndIc0s1NnVHVUxma0R1eUxSZkxrdW9SdlFNUUJLRi1jRTR3cjNQYi1BZ1BUVEo1LWFwS29qVTNNRXRCTw?oc=5",
-   "published_at": "2026-05-12T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.150131+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   }
  ],
  "tendencias": [],
- "total": 4514,
- "regionais": 611,
- "setoriais": 4514,
- "regionais_setoriais": 611,
- "fontes_vivas": 62,
+ "total": 4541,
+ "regionais": 612,
+ "setoriais": 4541,
+ "regionais_setoriais": 612,
+ "fontes_vivas": 60,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 1372,
-  "ouro": 893,
-  "cobre": 410,
-  "litio": 387,
+  "terras_raras": 1378,
+  "ouro": 895,
+  "cobre": 411,
+  "litio": 392,
   "niquel": 139,
   "uranio": 72,
   "niobio": 36,
-  "fosfato": 23,
+  "fosfato": 24,
   "energia_eletrica": 7
  },
  "meses": [
   {
+   "mes": "2026-11",
+   "materias": 8,
+   "novas": 8,
+   "regionais": 0,
+   "setoriais": 8,
+   "regionais_setoriais": 0
+  },
+  {
    "mes": "2026-10",
-   "materias": 1721,
-   "novas": 38,
-   "regionais": 31,
-   "setoriais": 1721,
-   "regionais_setoriais": 31
+   "materias": 1735,
+   "novas": 14,
+   "regionais": 32,
+   "setoriais": 1735,
+   "regionais_setoriais": 32
   },
   {
    "mes": "2026-09",
-   "materias": 1191,
-   "novas": 2,
+   "materias": 1192,
+   "novas": 1,
    "regionais": 42,
-   "setoriais": 1191,
+   "setoriais": 1192,
    "regionais_setoriais": 42
   },
   {
    "mes": "2026-08",
    "materias": 302,
-   "novas": 1,
+   "novas": 0,
    "regionais": 62,
    "setoriais": 302,
    "regionais_setoriais": 62
@@ -2647,18 +2657,18 @@
   },
   {
    "mes": "2026-06",
-   "materias": 80,
-   "novas": 0,
+   "materias": 81,
+   "novas": 1,
    "regionais": 15,
-   "setoriais": 80,
+   "setoriais": 81,
    "regionais_setoriais": 15
   },
   {
    "mes": "2026-05",
-   "materias": 162,
-   "novas": 2,
+   "materias": 163,
+   "novas": 1,
    "regionais": 85,
-   "setoriais": 162,
+   "setoriais": 163,
    "regionais_setoriais": 85
   },
   {
@@ -2696,30 +2706,22 @@
   {
    "mes": "2025-12",
    "materias": 108,
-   "novas": 2,
+   "novas": 0,
    "regionais": 92,
    "setoriais": 108,
    "regionais_setoriais": 92
   },
   {
-   "mes": "2025-11",
-   "materias": 39,
-   "novas": 1,
-   "regionais": 29,
-   "setoriais": 39,
-   "regionais_setoriais": 29
-  },
-  {
    "mes": "anteriores",
-   "materias": 522,
-   "novas": 4,
-   "regionais": 163,
-   "setoriais": 522,
-   "regionais_setoriais": 163
+   "materias": 563,
+   "novas": 2,
+   "regionais": 192,
+   "setoriais": 563,
+   "regionais_setoriais": 192
   }
  ],
- "descartadas": 14406,
+ "descartadas": 14668,
  "veiculos": 53,
  "coleta_desde": "2026-09",
- "janela": "2025-11"
+ "janela": "2025-12"
 }

@@ -1,7 +1,128 @@
 {
  "mes": "2026-10",
- "materias": 1721,
+ "materias": 1735,
  "itens": [
+  {
+   "title": "Moradores de Caetité, na Bahia, veem a mina de ferro da Bamin, a ferrovia Fiol e o Porto Sul a caminho da portuguesa Mota-Engil, mas a troca depende de o TCU aceitar mudar o contrato e de R$ 7 bilhões da Vale",
+   "link": "https://mineracaobrasil.com/bamin-mota-engil-fiol-porto-sul-tcu-vale/?utm_source=rss&utm_medium=rss&utm_campaign=bamin-mota-engil-fiol-porto-sul-tcu-vale",
+   "published_at": "2026-10-31T20:35:29+00:00",
+   "first_seen": "2026-11-01T10:58:13.170479+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "MUNICÍPIOS MINERADORES | AMIG vê com bons olhos cruzamento de dados feito pela ANM - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc2NncDhzY3RQeHBWeGhmOFdXcEdLNE1RMVlXRWJ4UEJhaGlDbE1CQVlMN3pkOWxuVUNZU3VfRWtlMnpic3FOcWJNVGJycGFHa1U2Q25VYjBCQ3JfQ0dNUGMxUmUxVnR1SEdjZWdTMEdBOGszWlplSnllZkVuT3AyV3FqWG03dExiQ0RWRW5CbTJ0ZGpSVlMtRHFRYw?oc=5",
+   "published_at": "2026-10-31T20:19:41+00:00",
+   "first_seen": "2026-11-01T10:59:08.872814+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mineradora canadense aprova investimento de US$ 110 milhões em Goiás para ampliar extração de cobre e prevê aumentar produção em 30% até 2029 - Portal 6",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOb1FielU0dFIyTWoxVFEzRnQ0dVR0Y2pZMzUybThNU2xNRUxPLU85TVJTWktBdjlTR0NIdjJJMml5UG5ZcW0wcnRVZGdTRHZ5aGthbDdGeEZFdjNwUmxFVU5nYnlQRDVrRkViOXktQUhTdmNMYU4xQ2VjOWRkUllvdjltYWZoeUFwRUkyQjY3N0ppMkJiUlJiaFBGdVdueVpiS1hrU3lxU2hYT05oYTV4dUM1TnY4V2paVU5aVnFIWGhZNVVzcmFSSVZ3cDhxcjFUbEswNk9mZ1R3X2p3MmJnLWd4MGdWQXJvMS1tbm4wLVl0MWV6SjJZdzZjUFYzaWVUTmxtZg?oc=5",
+   "published_at": "2026-10-31T19:20:24+00:00",
+   "first_seen": "2026-11-01T10:59:05.540740+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
+   "title": "Moradores perto da Mina Fazendão, entre Mariana e Catas Altas, terão uma usina da Vale 3,6 vezes maior que a atual, ligada 24 horas por dia, com 711 trabalhadores por dia e 3.603 contratações nas obras",
+   "link": "https://mineracaobrasil.com/vale-mina-fazendao-mariana-nova-planta/?utm_source=rss&utm_medium=rss&utm_campaign=vale-mina-fazendao-mariana-nova-planta",
+   "published_at": "2026-10-31T19:05:06+00:00",
+   "first_seen": "2026-11-01T10:58:13.172395+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Geólogo que assinou relatório dizendo que uma mina em Itapoá, no litoral de Santa Catarina, seguia a licença é condenado a 4 anos depois que o IMA achou 11,38 hectares de restinga derrubados",
+   "link": "https://mineracaobrasil.com/geologo-condenado-laudo-falso-mineracao-itapoa/?utm_source=rss&utm_medium=rss&utm_campaign=geologo-condenado-laudo-falso-mineracao-itapoa",
+   "published_at": "2026-10-31T15:40:13+00:00",
+   "first_seen": "2026-11-01T10:58:13.174311+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "ANM vai cruzar notas fiscais de mineradoras com declarações da Cfem - A Província do Pará",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPamtMZUVtNGk5ZS1CclRtaGRIcVNfdUpxcVpTR2JPMnVfSkhOZVRHOHZQaWw4MzZtbnZrTVhtMkVnVXU4dl9wVDNBVUhCSXFHT0dWeU1SQmdGUTBsaGtZWG95OHRXQ1F4RG5YN1hIRmxlX09VZXZYWHQtQ25xaUM4S3NhRjFMZFo2Q2lYVDVGRHR1ZnByQ3VrMDVOZm1JQzdZdkE?oc=5",
+   "published_at": "2026-10-31T15:00:00+00:00",
+   "first_seen": "2026-11-01T10:59:08.874045+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Amargosa sediará IX Workshop de Química com debate sobre terras raras e oportunidades na Bahia - Criativa On Line",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTWttQm9ZUHJLcVR6cXFyb21tQmJOZlhVaEJRYjV5cF94UllEWE85N0NzQmdxMU5TVG1IRHJNZzQ0YmZCV3Rpc2xSTEVzaDZJR1ZzOEhlRUZlNVZETUY5SWJZSk42REhESml5RnJMLXlGbi1CblpjdXRjOTNhMVljSGFlcmNlMXpOR3pGdG00ZWItZEFZb2gtcnRUVWFVQ2lEVVhNcG4zb0tJMWFZbVZwQUhIT0JhcS1tUlZ4TkdEay1hYmc?oc=5",
+   "published_at": "2026-10-31T13:00:39+00:00",
+   "first_seen": "2026-11-01T10:59:07.928518+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Donos de mineradoras têm até este sábado (31) para corrigir a declaração dos royalties antes de a ANM começar, em 1º de novembro, a cruzar notas fiscais emitidas desde janeiro de 2025 com o que cada empresa disse ter vendido",
+   "link": "https://mineracaobrasil.com/anm-cruzamento-notas-fiscais-cfem-prazo-31-outubro/?utm_source=rss&utm_medium=rss&utm_campaign=anm-cruzamento-notas-fiscais-cfem-prazo-31-outubro",
+   "published_at": "2026-10-31T12:50:07+00:00",
+   "first_seen": "2026-11-01T10:58:13.178111+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Moradores de Itatiaiuçu veem a Usiminas usar a parada da planta de Samambaia, que custou R$ 13,9 milhões em menos de 1 mês, para reformas e esperar o frete do minério à China cair de US$ 35 por tonelada antes de religar",
+   "link": "https://mineracaobrasil.com/usiminas-planta-samambaia-itatiaiucu-parada/?utm_source=rss&utm_medium=rss&utm_campaign=usiminas-planta-samambaia-itatiaiucu-parada",
+   "published_at": "2026-10-31T12:05:10+00:00",
+   "first_seen": "2026-11-01T10:58:13.180173+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
   {
    "title": "Lodo de tratamento de água vira fertilizante de liberação lenta",
    "link": "https://www.poder360.com.br/poder-sustentavel/lodo-de-tratamento-de-agua-vira-fertilizante-de-liberacao-lenta/",
@@ -437,6 +558,19 @@
    ]
   },
   {
+   "title": "IMC Rare Earths reports yttrium discoveries at Brazil project - Mining Technology",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQXzJDUFptUzg0WWhqQU0zdXBQcjR6NDNuVXh2VjQxYVh4NjVHdXRKNUdtS0JSZjlqSmpZeTVsNlV3cVFQeVBNdHhvaDFOR29ranhKWXpyUXlYOTZHVlk1bUllbnM3cFBQTmI5WndIeVVaWWNzWVhUREViWU5hNlU2MkxIWk8?oc=5",
+   "published_at": "2026-10-30T06:40:00+00:00",
+   "first_seen": "2026-11-01T10:59:09.775063+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "A2Gold signs agreement to sell Bolo Gold project in Nevada",
    "link": "https://www.mining-technology.com/news/a2gold-bolo-gold-project-nevada/",
    "published_at": "2026-10-30T06:03:21+00:00",
@@ -702,6 +836,21 @@
    "tema": "mineracao",
    "substancias": [
     "ouro"
+   ]
+  },
+  {
+   "title": "Soja, Florestas, Combustíveis e Terras Raras: Como a Eleição no Brasil Afeta o Fluxo Global de Recursos - Forbes Brasil",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVG5sT0V2WUl3OGNLWTdGODVEMTlxYU9uVEQxcW1PLXdvVlpxbmc0SVFBSXo0ZVo2M1E3MWltQUtTbEZkb0Y0QThHQnpWRllJVE9kTEVZdUliX2lES1hCdDZLZG4zN0tvZm1ONzVSLVA2bTJNRmJBZG9pOUlBOWRnSVhSRW11WkJVMmxqZ0hkOXAxSHZiQXEtVTBqQzBNeUhLWEVBTFUxNElvOUtqdEpHTWdnSXkwU0M3aUotVWdqLUROd3Z4WFhOLTZEUmpUZTV3eDNBLUdlZTJ5dGs?oc=5",
+   "published_at": "2026-10-29T20:34:29+00:00",
+   "first_seen": "2026-11-01T10:59:07.925917+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
    ]
   },
   {
@@ -16057,6 +16206,21 @@
    "substancias": []
   },
   {
+   "title": "LÍTIO | Comissão Europeia reconhece projetos da AMG como essenciais - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYUI2Q0tVeGhSYWxtOXF0RG5JamJGSmpxQWs0R1hhc1FESFJPdlhELU1wNTQ2NVNDNUpndktBLWpZNHBrNHk5bDE3d25uMS1HM29POTFieTQyTUpseVRjRUxrQl9SdDAxZjBxOXNDbFpSUW9vdlVJeE9FWHNJNjVpWlRwRkN3SXBNdVhPeUgwaEFlcjR0TUpIMmo1ekxfdw?oc=5",
+   "published_at": "2026-10-13T07:00:00+00:00",
+   "first_seen": "2026-11-01T10:59:08.380795+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "iTech expands second Sabre gold shoot ahead of deeper drilling",
    "link": "https://stockhead.com.au/resources/itech-expands-second-sabre-gold-shoot-ahead-of-deeper-drilling/",
    "published_at": "2026-10-13T05:26:09+00:00",
@@ -17209,6 +17373,21 @@
    "setorial": 1,
    "fonte": "Busca · Mara Rosa e Serra Verde",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "USA Rare Earth's $2.8 Billion Brazil Deal vs. Its $1.2 Billion South Carolina Bet: Which One Actually Matters More? - AOL.com",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oMi1TUFkyall4ZlktdWFtTF9CWERJRlVBOU95NFZmMHNNN0d0RnpHbmYwZ1N1ZXRVX1VOM0xEZElKNVltQm5zZHB4SXRXeEx6djlvTHdTbXJxREozVDBOYXQ4VmZBR3JOaXdDUGpNOHE?oc=5",
+   "published_at": "2026-10-11T07:00:00+00:00",
+   "first_seen": "2026-11-01T10:59:09.777732+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
@@ -19262,6 +19441,21 @@
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
+   ]
+  },
+  {
+   "title": "LÍTIO | Decisão judicial faz Sigma Lithium retomar atividades no Jequitinhonha - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV2dodUNwRlRHY2RDSmYzQnBWd3Awa3QtelpwX1NXdXBxZk02MnpWc0pzbzM2d2RmRV9pQU80al82ZkxnMEhDRlFGYk5NN0VSQnk0d0VSUk40bEpGNWZweVpqb2g4NTBnc01PdHdFN0kxOFFuQnFNQm5lckQzeXNtTG0yTWNtMGdfMDZBUkdXVnJGVHdLWnhBWGJYcFVaUDQ4Zm9XNVZBVjZLSnE3?oc=5",
+   "published_at": "2026-10-08T07:00:00+00:00",
+   "first_seen": "2026-11-01T10:59:08.382053+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
    ]
   },
   {

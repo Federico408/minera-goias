@@ -1,6 +1,6 @@
 {
  "mes": "2026-09",
- "materias": 1191,
+ "materias": 1192,
  "itens": [
   {
    "title": "Copper system larger than previously thought a welcome surprise for AZ9",
@@ -15569,6 +15569,21 @@
    ]
   },
   {
+   "title": "Por que a única mineradora de terras raras do país virou americana - TV Sim Brasil",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUWdtenlkbXVNZWdGQXI5UjBNSVpHTHloRHJGaGc3cGM4US1zYUVES0dydmtWa2N3SWo1Ri1LVWJsWnZkeS1fWWlKbGkxMWlpdzNVc1NGUHdxTHRXYlgwQUp5cW4zckg5V1NQYmpGZ195NlByQzRQUGRETlJNbUdXV2ZGUGx2c0R0ZnE0ZEU1Zlh1cWlhRWl0eWV2M053VkRHdlg2RU5qWDNHbnMyVHc?oc=5",
+   "published_at": "2026-09-07T07:00:00+00:00",
+   "first_seen": "2026-11-01T10:59:07.064516+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Brazilian court suspends licenses for Sigma Lithium mine",
    "link": "https://www.mining.com/web/brazilian-court-suspends-licenses-for-sigma-lithium-mine/",
    "published_at": "2026-09-06T18:16:54+00:00",
@@ -15940,19 +15955,6 @@
    ]
   },
   {
-   "title": "Serra Verde expõe modelo que novo marco dos minerais críticos terá de enfrentar - Capital Digital",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVm5tX2NWUnNmSGs4bS1QVGc3U3IwTW9COFpsemFfSjM0dXRUZWU5TjQydzFWR0k5Vk1oWFlFM2J2TWF3bjd4V2hVaWhVejJVWkY3eDJwTU5EeEpsMjBXdl9RU2NhMTVEc3g0ZFo0aHd6QUtmQXhsa3ZES0pMQV9XNDhtUlNqa0o5WW1NZjVBRWZRQUFwWFRCUVRUSnk2YWdZSjdWTE1oamE4UkVyNE80?oc=5",
-   "published_at": "2026-09-04T11:11:45+00:00",
-   "first_seen": "2026-09-20T04:02:44.759634+00:00",
-   "regional": 0,
-   "regiao_termo": null,
-   "setorial": 1,
-   "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
    "title": "Brazil must not surrender its critical minerals - aliran.com",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTFNqVHk3OGNFbFNXZFVlU0U1ZXpka1RMWjdDekoyS0NnaHhrY1IwVW01Z1VLOF9PcnhqNVlCdUxIX3NWdktMQ2NVSGhsVThWb3o5SUNEemh5aEtDbEM1YnFBTTMzNzN0N0NzVTZnUGJFbGloM3ZKTUpkd0pmcmFsR0g1dTlPZw?oc=5",
    "published_at": "2026-09-04T08:23:46+00:00",
@@ -15979,6 +15981,19 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "Serra Verde expõe modelo que novo marco dos minerais críticos terá de enfrentar - Capital Digital",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVm5tX2NWUnNmSGs4bS1QVGc3U3IwTW9COFpsemFfSjM0dXRUZWU5TjQydzFWR0k5Vk1oWFlFM2J2TWF3bjd4V2hVaWhVejJVWkY3eDJwTU5EeEpsMjBXdl9RU2NhMTVEc3g0ZFo0aHd6QUtmQXhsa3ZES0pMQV9XNDhtUlNqa0o5WW1NZjVBRWZRQUFwWFRCUVRUSnk2YWdZSjdWTE1oamE4UkVyNE80?oc=5",
+   "published_at": "2026-09-04T07:00:00+00:00",
+   "first_seen": "2026-11-01T10:59:07.062829+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Brazil Rare Earth Mine Gets U.S. Backing Through US$1.55 Billion Offtake Vehicle - Industrial Info",
