@@ -1,6 +1,6 @@
 {
  "mes": "2026-05",
- "materias": 163,
+ "materias": 166,
  "itens": [
   {
    "title": "Illegal miners extract billions in Amazon gold despite Brazil crackdown, Greenpeace finds - Reuters",
@@ -458,6 +458,21 @@
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
    "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Governo identifica potencial para terras raras em São Paulo, Paraná e Santa Catarina - G1",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQenB5emUzRlFEU3ZnQVg2TGFOcDBNSG9qVTB4UnRmOTBZV1J2aXFvOWJfNEx3Rjg4NlBPMzBqX25KZlphT2RTN1pYY3pLNEtldHZyUXJPcUxGZ1RLRS01MS1mOHUzNndFaGxwTVRmTmg4SzVTWmloNkhIMEdNWkZVQTlLdTVKYTFteTFBY3pjNkl4RFYtenRGWWlnSnFSQU41SGpJWjVWT2M1bUU0eFFDRVlXMkVBeVpneXdsbk1vZFpsbk1kWldCeVlta05JSTRoZy1jRNIB4wFBVV95cUxNOUdlcDN5emJEU2R6S3Y1RXZrLUJ0TmVYWU81NEt6WkpXWjJoZDVUU1VzZW5MSnZmbmVaZkc3eDcxN09YcEpJZVRDOGRmZmNGQldPZjg3Vk5PZmIxc2NlOU5IdjRabXVxTlptWHV2RTh2LTRQNGhURGx5RDV3cUdINHZlbjZlQ1BYYWsteF9Ga2h4a1VVa0FoZkdqU2RZakhqVXFMdDdPaUtxVjJLVzBPcWUyekhOQXRhOUpKMWZ3TjRiM3c1WmJsRDJvNXZFS2tmaS1maHUwMkhQN21fc2tFcVpfMA?oc=5",
+   "published_at": "2026-05-20T07:00:00+00:00",
+   "first_seen": "2026-11-02T11:57:12.655370+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
@@ -2113,6 +2128,21 @@
    ]
   },
   {
+   "title": "Terras raras (que não são terras nem raras) colocam Brasil no meio de 'guerra fria' entre EUA e China; veja 10 perguntas e respostas - G1",
+   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOLURBVnlSUDVudHhGWWlpTUgxYzZVZHJkSDBCZXpBd3RGamRNOWV6amFQMURUUE1nRUhYTFQ3aEowWGJpSU1Fc0JPbW9OOUFKRUtZaUVtVW00THVOWG5hZDd6b0RUMG4yMXVndl9PT3BiSHdiLW13Tm1ZdVJSc1lNdUt6Z0IwdkE3U25rNHkwUDlDV1ZLSm02SHk3VlNBOGdDMzhvcTd2aTdDMzBqY29ybWVwTE5UNGRYRzZ6Qm9vYkhDT1prZV9rckdiLXZzdFF0MkdSaTNwUlVSM1VaWFlxRGExQlFjTnRIX0tHODlMRXdwUXVoMjZXc25qMzhsYk1rdm5Mb2lUbXAxSFFlVXc40gGeAkFVX3lxTE14MG1HWk1feFQ5THpyN3QzU0UyUjA2R1ZBR000aWdWaW5xUklDdUNsb2lJeDVaT2licTZOZlNwSXdqSG83cFhjV3hQZUdURmdsamQzVVRNN01PM2VvZERBa0xEM1h3UG1WcUV5MmlpdXBxNXlRYlk1dTFXSDRia0JJbDNBbC04TXFycC1veVJWMTVKeExvd2R2N05CQkVhbmUtcVVzRzdBNEw4c05TTlRHUmd4VjF4VDA5SVNEeWtIWHkwYXpUUmttSmVKYlRXcjZ4ems3VzJjUVkwSXlNN253LWQtb0FXaHdlQWhPMTNYLTdLOUNMMGRGdEVqRGpCVXptNDJrWkx4cnJmVDh6R21yejVxYkRVbnlYSEdjcFE?oc=5",
+   "published_at": "2026-05-07T07:00:00+00:00",
+   "first_seen": "2026-11-02T11:57:12.657217+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Governo Lula não quis regular venda de terras-raras em Goiás - Poder360",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNamxvVy16a2xIb0Jsd3VNREF0YkIxU3E5NGVHZTRiLXJWRzJXRnhtRWNRblIwUlFoNGpPZ2VQcVZkT2lvZ1ZxZGtORzZyd3lGNW1LZ2ZCNnJhWFlvcnF1RTN4UTBIc3A0S01lM0ZOM2hyMWNWaUpKRXAtaXMxWGM0V3g4bGQ3LXRGZGdFaEdrcjBSRVJfMnF6d1lvZzFZbGZ6WHgw?oc=5",
    "published_at": "2026-05-06T07:00:00+00:00",
@@ -2165,6 +2195,21 @@
    "setorial": 1,
    "fonte": "Busca · terras raras",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras: legislativo aciona Cade e governo sobre venda da Serra Verde à empresa dos EUA - Times Brasil | CNBC",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQzNTS2pfM0phSDJ4X0VOR3BOcHlVZGN4MjdHd2QybzNnRzR5aEVJcG8zVFA1VTl0SkthN1hzaG5ocUNJMHZEZ1NMbVlXWEw0aVRGN0hiWG9vZHdHNzdPNktiUlc2eHYyYXA3dV9SQ0s2T0NXU0VldVAzQktfeFR4a0JibjlrLThldDJfTi0yV3hsajV4S3FxU2M4TQ?oc=5",
+   "published_at": "2026-05-06T07:00:00+00:00",
+   "first_seen": "2026-11-02T11:57:11.667479+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"

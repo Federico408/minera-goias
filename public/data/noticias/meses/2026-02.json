@@ -1,6 +1,6 @@
 {
  "mes": "2026-02",
- "materias": 50,
+ "materias": 51,
  "itens": [
   {
    "title": "Influência chinesa continua causando turbulências no segmento de níquel - BNamericas",
@@ -135,6 +135,21 @@
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMWVtMFVyQjVRTHViSjZxa1hobmdnbkEyUkNQMGVuY2dzcjNURXQtbEFINmgzdmRCQnJ6dG1WdE9YXzJtS2lnNnYxOVhfLXZrbURjUGRNcVdkYnNXU0piVURVTE16bEdyZVZROXBJcWw2VXVsNUJIX2hEOTdyU3ZXeGczQ25kcFdvUldnNnhpUUVaQ0lqYS1EbUUzeVgwRmNRRmRSc9IBswFBVV95cUxPM1BkODU0QUxDdXZEZWJpT2dZdFFxYnE4bDI4VkUyRjhvYU5vWXplVktwb2d2cHdLQ0t4SFdiaWcyazh6R3pJdFRwRlhUZnhxMlk3YWN5Zy14STVHb1FIVk9iVFNMT05jWUdSVUd2TE1WUDNfM1ZQdDd2Rmd3ZFVtYzJ5ampBRC1UYUJUalJjVjZKTFZteFZ0bExHZXdGbmE1UndnUVdoWlU0OWtmYmd2eGRlVQ?oc=5",
    "published_at": "2026-02-21T08:00:00+00:00",
    "first_seen": "2026-10-27T09:31:49.772697+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Brasil e Índia assinam acordo sobre terras raras e minerais críticos - Agência Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSk05WXlzc0hXTlZyZXJObGVnQWFleWNNbExLQVBiT2RaSjlJeW9pbngwR0xtVkRwZENDWk9qQ0twdDBwc2thTHBjbGdJSzg4eGc3OU1TMV9Cei1ycjZGUk1qdmw1TjlWZFRIZ0daVm96cFRDM0VQSGVHbEVkaEhiNUdNZUJPM3dvaTczaTFCX3FVbFpBUVNYMHhITUhEejZnNUVudUExQTVaOEhSUm5MdXBhcjBkcXYzSmQ1SkVSVzJpcl9QbFFJWTBnWQ?oc=5",
+   "published_at": "2026-02-21T08:00:00+00:00",
+   "first_seen": "2026-11-02T11:57:12.659313+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

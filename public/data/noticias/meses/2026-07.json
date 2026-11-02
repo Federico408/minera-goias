@@ -1,6 +1,6 @@
 {
  "mes": "2026-07",
- "materias": 111,
+ "materias": 112,
  "itens": [
   {
    "title": "ANM aprova novas alterações ao regime de Permissão de Lavra Garimpeira - demarest.com.br",
@@ -643,6 +643,19 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "Concluído o ciclo 2025/2026 de repasses da CFEM a municípios afetados - Agência Gov",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbUo2MDdzU21wclJtNFZrQlJQd3F2ZnNCUUxwclhDc3VUUWNsWFBMcjJneTZSY1B2a0dHYWFYYm9BZXJBaTE3cnBqUEd5YS16cDhxeTVsODFMTk9GbmtycE1NazZlY29ENnNNOU1iRWJpRjF2VzZHZVpqQWFXbXVCV0k2b0hpOW5SdHZjSmo3N3lYUlZhR0toWHNRMnd2R2VVZHNueWwzeDY2UDNIbmFKck5WQ1htUQ?oc=5",
+   "published_at": "2026-07-21T07:00:00+00:00",
+   "first_seen": "2026-11-02T11:57:13.291612+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "How Aclara Plans to Build a Rare Earth Supply Chain Without China by 2028",
