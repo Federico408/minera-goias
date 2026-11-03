@@ -1,6 +1,6 @@
 {
  "mes": "2026-10",
- "materias": 1742,
+ "materias": 1743,
  "itens": [
   {
    "title": "Moradores de Caetité, na Bahia, veem a mina de ferro da Bamin, a ferrovia Fiol e o Porto Sul a caminho da portuguesa Mota-Engil, mas a troca depende de o TCU aceitar mudar o contrato e de R$ 7 bilhões da Vale",
@@ -255,6 +255,19 @@
    "substancias": [
     "cobre"
    ]
+  },
+  {
+   "title": "AMIG Brasil vê avanço no controle eletrônico da CFEM pela Agência Nacional de Mineração - Portal Revista Kdea 360",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaXB3RUFxR1ZTS2I1c2VlRE5ic3kxeVdaVjktRWdDdl9ubzV4ZkZWUjB5Skd3aEJYckV3YzNocVQ0cVg0dUlsSjBOeERFRVRDWXREQ3VMR2N2SHZzWEFuOHpCY3JtQUl5QThkTGtQRl9mYS1wbS1hOGZaTUlUdEpzZTNRaFRDUlB6RW42WDZBMjB5akp0NFdEaXF4T0tCbnZTZGpXU0tWZlNma0MwVUxNNXBzRVRPaE1nYUtWUEo4blk1bHNFSk5zekgxRQ?oc=5",
+   "published_at": "2026-10-30T19:21:33+00:00",
+   "first_seen": "2026-11-03T11:33:24.198519+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Sigma Lithium celebra mais de 1.174 dias sem acidentes de trabalho em Ato de Ação de Graças",
