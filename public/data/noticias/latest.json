@@ -23,9 +23,24 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-11-03T11:33:28.175579+00:00",
+ "atualizado_em": "2026-11-04T11:48:59.724363+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "Sem tecnologia, terras raras goianas rendem menos que pequi e pamonha - O Hoje",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS2dyZ2EzSjBEZjFqdm1hVUQtcHI5Zmd5UldPU2FwX2JTN2x3eEpCYWlxWVhvYXhVSDhJbU0zZFV5Vlo1dTEzTW9TVlE5MFZxaENGc3hQZm91a0hYdkRvN0ZvNFp4MDZ6X3AyRTRHb284WEhIbXFZMm5aQjh0Wnp4STkyemd0LU5DbnEtZkkxM0JxS3R1MWJBM2JGUzhJbVk?oc=5",
+   "published_at": "2026-11-03T14:00:36+00:00",
+   "first_seen": "2026-11-04T11:48:55.899418+00:00",
+   "regional": 1,
+   "regiao_termo": "goianas",
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
   {
    "title": "Moradores de Minaçu, em Goiás, onde os EUA levam quase US$ 5 bilhões à mina de terras raras da Serra Verde, vivem num dos 5 países que receberam quase 80% do que EUA e China puseram em minas fora de casa em 2025",
    "link": "https://mineracaobrasil.com/serra-verde-minacu-eua-china-investimento-minas/?utm_source=rss&utm_medium=rss&utm_campaign=serra-verde-minacu-eua-china-investimento-minas",
@@ -1986,6 +2001,21 @@
    ]
   },
   {
+   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aeb1ba7a1c9403a8efd795392d88373&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
+   "published_at": "2026-08-05T03:20:00+00:00",
+   "first_seen": "2026-11-04T11:48:55.422436+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Goiás aprova política sustentável para impulsionar a mineração de terras raras; entenda o impacto para o estado - Jornal Opção",
    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSEZGZkE5eTd4YURxa0ZHeVdfU3UybVl5aEdmb1plMmU5eGs2azJNQ2FiMFptZXhmVDdmbF9heHNMb25VcWc1VnJhQWVoSXl2akUzdGFJdnBMb011ZmFWeUswbmZWMHlWWGxZNUxVbENIVTJxSmg3Yk4xQmE1dlBWekNkMEdJNHl4T2poTGxTZDczUTRZTkRpY3B4Y2ZDdW8tNWZ2QjFXWEFJekJFWmpySkpGYjdkTUVXVHRqNUJVQWhJeHhZVjZrdEF3SHRMNE82eWIyY1daQWpqSHMtX3JyRGQwOFNETkJEb29ISW81RTVpdktURmEza1dB?oc=5",
    "published_at": "2026-08-04T07:00:00+00:00",
@@ -2568,95 +2598,65 @@
    "substancias": [
     "niquel"
    ]
-  },
-  {
-   "title": "Europeus travam venda de mina de níquel em Goiás para empresa chinesa - Mais Goiás",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQzJpeWRXQ1B5YTZ0RW52bXlORlpKLXJwUUFFdTZmSjk3d2E0VTVCRUpxWEQzVDVId09sNnZ1Qkl3TjRoZ3VvWThacm9OajF1ODVvckE2MWFQMGxKa3FXTHFQVUlfN3lCRHNjOWZUSE5HYm1tTzgyS1dtV1E1d3Rpc3ctY0h3UC1pcldOLUxXWWFnWUo2X2hCYU9YUVN0VHZ5VDNNcFVxSUZsYUk?oc=5",
-   "published_at": "2026-05-22T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:28.253469+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "niquel"
-   ]
-  },
-  {
-   "title": "Daniel Vilela quer industrializar terras raras em Goiás e mira liderança global fora da Ásia - Diário de Goiás",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT3NpR1ZUUk1FdjRleHFnU2didExlT1VFQUR4M0JtNmQ3SE0yT05wX1l3a1lBdDdfaGVqdlVMVU1PbW44aWZ1aEQwQzZfWUI2S25HT0Vhel96STJmalpUYTB6TVVQWTJTZG1VQ3VwT1YtN21ETHhXbURBN1FuZVZQSnVNVEt5cG1zdzJrY0NVSUhDOWRCSTFQUnpjb0ZremZla0thWjdxMUtNaDItempnUGVlY2dMek8zeUZ2N3I5N3lNTlE4MTd3Rg?oc=5",
-   "published_at": "2026-05-21T07:00:00+00:00",
-   "first_seen": "2026-09-24T04:07:21.397097+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
   }
  ],
  "tendencias": [],
- "total": 4659,
- "regionais": 627,
- "setoriais": 4659,
- "regionais_setoriais": 627,
- "fontes_vivas": 61,
+ "total": 4778,
+ "regionais": 637,
+ "setoriais": 4778,
+ "regionais_setoriais": 637,
+ "fontes_vivas": 62,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 1413,
-  "ouro": 931,
-  "cobre": 428,
-  "litio": 396,
-  "niquel": 141,
-  "uranio": 73,
-  "niobio": 36,
+  "terras_raras": 1446,
+  "ouro": 960,
+  "cobre": 444,
+  "litio": 405,
+  "niquel": 146,
+  "uranio": 77,
+  "niobio": 37,
   "fosfato": 25,
   "energia_eletrica": 7
  },
  "meses": [
   {
    "mes": "2026-11",
-   "materias": 90,
-   "novas": 49,
-   "regionais": 1,
-   "setoriais": 90,
-   "regionais_setoriais": 1
+   "materias": 188,
+   "novas": 98,
+   "regionais": 2,
+   "setoriais": 188,
+   "regionais_setoriais": 2
   },
   {
    "mes": "2026-10",
-   "materias": 1743,
-   "novas": 1,
+   "materias": 1750,
+   "novas": 7,
    "regionais": 32,
-   "setoriais": 1743,
+   "setoriais": 1750,
    "regionais_setoriais": 32
   },
   {
    "mes": "2026-09",
-   "materias": 1192,
-   "novas": 0,
+   "materias": 1193,
+   "novas": 1,
    "regionais": 42,
-   "setoriais": 1192,
+   "setoriais": 1193,
    "regionais_setoriais": 42
   },
   {
    "mes": "2026-08",
-   "materias": 304,
+   "materias": 306,
    "novas": 2,
-   "regionais": 64,
-   "setoriais": 304,
-   "regionais_setoriais": 64
+   "regionais": 65,
+   "setoriais": 306,
+   "regionais_setoriais": 65
   },
   {
    "mes": "2026-07",
-   "materias": 112,
-   "novas": 0,
+   "materias": 113,
+   "novas": 1,
    "regionais": 15,
-   "setoriais": 112,
+   "setoriais": 113,
    "regionais_setoriais": 15
   },
   {
@@ -2669,19 +2669,19 @@
   },
   {
    "mes": "2026-05",
-   "materias": 171,
-   "novas": 5,
-   "regionais": 90,
-   "setoriais": 171,
-   "regionais_setoriais": 90
+   "materias": 173,
+   "novas": 2,
+   "regionais": 92,
+   "setoriais": 173,
+   "regionais_setoriais": 92
   },
   {
    "mes": "2026-04",
-   "materias": 143,
+   "materias": 144,
    "novas": 1,
-   "regionais": 52,
-   "setoriais": 143,
-   "regionais_setoriais": 52
+   "regionais": 53,
+   "setoriais": 144,
+   "regionais_setoriais": 53
   },
   {
    "mes": "2026-03",
@@ -2702,29 +2702,29 @@
   {
    "mes": "2026-01",
    "materias": 32,
-   "novas": 1,
+   "novas": 0,
    "regionais": 1,
    "setoriais": 32,
    "regionais_setoriais": 1
   },
   {
    "mes": "2025-12",
-   "materias": 110,
+   "materias": 112,
    "novas": 2,
-   "regionais": 94,
-   "setoriais": 110,
-   "regionais_setoriais": 94
+   "regionais": 96,
+   "setoriais": 112,
+   "regionais_setoriais": 96
   },
   {
    "mes": "anteriores",
-   "materias": 573,
-   "novas": 6,
-   "regionais": 196,
-   "setoriais": 573,
-   "regionais_setoriais": 196
+   "materias": 578,
+   "novas": 5,
+   "regionais": 199,
+   "setoriais": 578,
+   "regionais_setoriais": 199
   }
  ],
- "descartadas": 15205,
+ "descartadas": 15593,
  "veiculos": 53,
  "coleta_desde": "2026-09",
  "janela": "2025-12"
