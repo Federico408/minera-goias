@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 578,
+ "materias": 588,
  "itens": [
   {
    "title": "Repasses da mineração ultrapassam R$ 1 bilhão em novembro — Agência Nacional de Mineração - www.gov.br",
@@ -524,6 +524,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aeb1ba7a1c9403a8efd795392d88373&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
    "published_at": "2025-11-11T04:43:00+00:00",
    "first_seen": "2026-11-04T11:48:55.421979+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras: Estados Unidos financiam projeto em Goiás com até U$ 465 milhões",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aec6cacc5394063811091cae581bdf7&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
+   "published_at": "2025-11-11T04:43:00+00:00",
+   "first_seen": "2026-11-05T11:46:52.876921+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -1749,6 +1764,21 @@
    ]
   },
   {
+   "title": "Terras raras: saiba quais os quatro elementos essenciais encontrados na única cidade fora da Ásia a produzi-los em escala comercial",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aec6cacc5394063811091cae581bdf7&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f07%2f29%2fterras-raras-saiba-quais-os-quatro-elementos-essenciais-encontrados-na-unica-cidade-fora-da-asia-a-produzi-los-em-escala-comercial.ghtml&c=1960442662833988845&mkt=en-us",
+   "published_at": "2025-07-29T09:55:00+00:00",
+   "first_seen": "2026-11-05T11:46:52.877675+00:00",
+   "regional": 1,
+   "regiao_termo": "minacu",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "CMOC é destaque nacional por melhorias na planta de nióbio em Ouvidor (GO) - Portal Serra Dourada News",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZWZ1SmNscXJLQTgtcGo3S2JvMGM0UXhTRnAyVW9mYzFNYmNzMHRtTG5rNjJWWWg3c1pFeUVHczBRNEw2NVU1R3dlLW5hbTFYUXc0a0diRFBFWFBUVzFpLUkyNXpselV2TVBIcnZvNUhkNjEzN3ZzTjNvX0pvdVQzM3RJZkFmdkMtaFp3aHZRZ1gxN3kwdmZCNDJ6NFBjb2pyZHNIc2pwS0F6bUhtOEpoOVJNUQ?oc=5",
    "published_at": "2025-07-29T07:00:00+00:00",
@@ -2595,6 +2625,21 @@
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aec6cacc5394063811091cae581bdf7&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
+   "published_at": "2025-06-02T00:00:00+00:00",
+   "first_seen": "2026-11-05T11:46:52.881073+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab89686037b4cbb9d163f724403ec19&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-09-27T04:07:35.144000+00:00",
@@ -3402,6 +3447,34 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aeb1ba7a1c9403a8efd795392d88373&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-11-04T11:48:55.422922+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aec6cacc5394063811091cae581bdf7&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-05T11:46:52.873898+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aec6cacc5394063811091cae581bdf7&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-05T11:46:52.878584+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -4945,6 +5018,19 @@
    "substancias": []
   },
   {
+   "title": "Mineradora canadense vai investir R$ 550 milhões em Goiás nos próximos 4 anos – SIC - Goias.GOV",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZVQ4bUpOai1BME9rLUNYUlZkRXU1Tzk3R3k3TlVTdHlISThEVk9ZWDVmU3NoWEwxX1hpd2c0UUQydTNfeF82U3Nqb3Z5cmpGaXhwaTQ0SThfOTJmc1lBUkZPcjhjQ2ZXaFNpY2hjS3RPQXdwSFRCZUpnY01pS0ZzXzNqeUlyU1JJTHlJbEVoMFVXZ0RDdWVMSUhYRHluWlZablNzMnQ3Mk91R0lOSmEyUzd0NFdYYzJs?oc=5",
+   "published_at": "2024-05-02T07:00:00+00:00",
+   "first_seen": "2026-11-05T11:46:50.941542+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Brasil possui grande potencial na extração de lítio, mas precisa aprimorar a infraestrutura - Jornal da USP",
    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTFhqTHQyb21EZ09GbmFRWDZyQVJZWk9tWEwyQm1yaU5BQnZzaDFqR21Vd2VRX0dKbmwxYTBMNms4NlNJYjNzSVZSQ1hfOW9XMDdmUVFDOGhfanVmTHRDMjU0SzRkYThuWDc5T19VUkFjYUR6RC1pa2FhQlA1bC1WSjBsNWlLVEl1Xy05WWFFNGs1RHp0OUZkQ2RFRGdFV0tVMlNkejJtY2M2UUFLcm9kTk8wYURIeVZUZUE?oc=5",
    "published_at": "2024-04-30T07:00:00+00:00",
@@ -5443,6 +5529,19 @@
    "regiao_termo": null,
    "setorial": 1,
    "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Decreto regulamenta repasse da Cfem e fixa alíquota para Municípios afetados - Confederação Nacional de Municípios (CNM)",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOGwyZm83X1k3QUpUNzFnS04tcWVKdld6M2lNYmxSN3BmQUpUdDRhdmpaNDNnTnJBdkxDZ1ZhRW1Zc1JxSWdDdHRRVV91RmdVSXJGanpKQ1M1QXpDZkE0VUJDTVN4OTVRMUhVNDdyVlBXTjVwbGNrVTVja3JkT2c0VkNxQzRJZjZBTmpyY1NGQ0JOTU9USWJTM3pWd3YzejlKUHBJVmJyQWFLSm8ta3FoNGxpTGw3RDQ?oc=5",
+   "published_at": "2023-08-24T07:00:00+00:00",
+   "first_seen": "2026-11-05T11:46:54.115185+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
@@ -6322,6 +6421,21 @@
    ]
   },
   {
+   "title": "Decreto libera exportação de lítio do Brasil – e pode destravar investimentos na cadeia das baterias - Capital Reset",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNamdLbkVWTXEyanY4YWZBWG9YQkl6eDJtUjhsbHlULTMySlBKU0M5QTRrVWhMLUdqcFhaTFlEclNQazhWNkczN19rV3JBUktLaThhQno4U2FPLXJCUlJ4UDJiWVRpZ1E5am9jRGRTZkVJdVVWSElzNldSS0loUFd2QV85LTBPNS1VU0JVNUp2OHFxUG8tbjhEV0dYVWJIMV9TbVFOT1hwbTRScVFQZ1lCckI4dEtqS0xVQ29iRlRlSTZmbXRZTE1BVFZkUmRlWGNTZzRocnpTekYzMlJ2UVJqMHdneDUtcDQ?oc=5",
+   "published_at": "2022-07-08T07:00:00+00:00",
+   "first_seen": "2026-11-05T11:46:53.756103+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
    "title": "Brazil police raids gang allegedly using crypto to launder illegal gold mining - Reuters",
    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcElWTTRoVTRtd0lqcnJwWlZCTV9NRl9rcnVQaGJMQlRyVXkwTTFVTk12enVTbWNxQlljNlVzVmk4WjlRWkY3VTU1OHRGUVJoaVFUblpGZl81c2lJOW1maVk0SDdKcnZjRV9WVE0yLVk1VTBUakhPcDBOU3pPa3hhZ3pjY0RNVEpoVXloU3draUg5UVplNWtUUkNuLTg1QXZLdmMyNFQweUdLRjR4U3gzak11S3BqT3VSU19DQU94dWtZVUtt?oc=5",
    "published_at": "2022-07-07T07:00:00+00:00",
@@ -6880,6 +6994,19 @@
    "setorial": 1,
    "fonte": "Busca · ANM (site oficial)",
    "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Recuperação de superfícies impactadas pela mineração de Ni em ambientes ultramáficos de Goiás utilizando a biodiversidade local - Embrapa",
+   "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNOEE4dE1WTmdlRk5TNVZPMW9fNGJYSnppczVuaXlUS1BONXYwS1kxUTdhZkpLdy01NGZPWndwMzZ4VVhIQzdCaUhaNFJEMUs4VlFHczlSTVVBT1pBa1gxRW5FUXlWeGgwb3pTdVczWWdZT1RkUGVhT3A0YVcwZnNHdndxeEQtZ1pKS01UZU5WOUE0TmxYb0NQUGxIYVNjcjh6UzFzTzc5OUsxS2ZZbHZnTElOU1c5Q2FRTUJDc09ORVEwb1phWjE5aWxzUGhlaTYwT1lhTU93UFpGMlVvUUQzNm9FVDdkSHlmMVBVdGJiUWNkb2hXdVpibE91LVkwMV9ka25wR3ZLNS1wREcxaVlPUDhfMA?oc=5",
+   "published_at": "2021-09-03T15:02:18+00:00",
+   "first_seen": "2026-11-05T11:46:51.260434+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
   },
@@ -7879,6 +8006,21 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "A verdade sobre o nióbio - Superinteressante",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hRGpiR3BiNmNxRDMwWlRXczVLQmRnT2VXeGFEWFV5bnoyZ0tSLXY5cm9pcWpUSFh2aW5Rb0Y4azVYNGd1U1R4aVJPbmpwNzFBU0dYeFB4LWgteW0taXJQb0NsSUpnSEhzYnFLMA?oc=5",
+   "published_at": "2017-10-23T07:00:00+00:00",
+   "first_seen": "2026-11-05T11:46:51.261570+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niobio"
+   ]
   },
   {
    "title": "Município recebe as chaves do Clube da Mineração para projeto educacional - Prefeitura Municipal de Catalão",

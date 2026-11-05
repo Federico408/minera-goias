@@ -23,9 +23,24 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-11-04T11:48:59.724363+00:00",
+ "atualizado_em": "2026-11-05T11:46:56.456364+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "Moradores do quilombo Família Magalhães, em Goiás, têm um pedido de terras raras da 3D Minerals, financiada pelo Banco Master, sobre o território; a empresa soma 88 áreas que tocam 127 áreas protegidas",
+   "link": "https://mineracaobrasil.com/3d-minerals-banco-master-127-areas-protegidas-quilombo/?utm_source=rss&utm_medium=rss&utm_campaign=3d-minerals-banco-master-127-areas-protegidas-quilombo",
+   "published_at": "2026-11-04T14:15:29+00:00",
+   "first_seen": "2026-11-05T11:46:24.043993+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
   {
    "title": "Sem tecnologia, terras raras goianas rendem menos que pequi e pamonha - O Hoje",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS2dyZ2EzSjBEZjFqdm1hVUQtcHI5Zmd5UldPU2FwX2JTN2x3eEpCYWlxWVhvYXhVSDhJbU0zZFV5Vlo1dTEzTW9TVlE5MFZxaENGc3hQZm91a0hYdkRvN0ZvNFp4MDZ6X3AyRTRHb284WEhIbXFZMm5aQjh0Wnp4STkyemd0LU5DbnEtZkkxM0JxS3R1MWJBM2JGUzhJbVk?oc=5",
@@ -2583,62 +2598,47 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
-  },
-  {
-   "title": "Europa tenta barrar venda de mina de níquel em Goiás para empresa chinesa - Jornal Opção",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZ3JXTzBTYm00cE52VHJxblNxQnh6Qmd2aXBpaVBqUkRwRTRkR0xCMnRkMzR5Uk9LWXR3OWFFZVFiQzFFb1pUZTlQSkM4cE5EakJfRU9aZjNxaG45OFFadDFqUkFPZ0lxSzF2Y1dUOGNsc2ZZZGo5U083Zmw1SlBxYnp5bWpndUZlZE9QZ3BKeW9PcE95ZTREdzcwWWRtS2RTbFBiTHR6azF3emhYSjByOUMzbE1pWFNkSXRURDZlSzRBcVhpNGRsTw?oc=5",
-   "published_at": "2026-05-22T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.156858+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "niquel"
-   ]
   }
  ],
  "tendencias": [],
- "total": 4778,
- "regionais": 637,
- "setoriais": 4778,
- "regionais_setoriais": 637,
+ "total": 4884,
+ "regionais": 649,
+ "setoriais": 4884,
+ "regionais_setoriais": 649,
  "fontes_vivas": 62,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 1446,
-  "ouro": 960,
-  "cobre": 444,
-  "litio": 405,
-  "niquel": 146,
-  "uranio": 77,
-  "niobio": 37,
-  "fosfato": 25,
-  "energia_eletrica": 7
+  "terras_raras": 1479,
+  "ouro": 981,
+  "cobre": 457,
+  "litio": 410,
+  "niquel": 149,
+  "uranio": 80,
+  "niobio": 39,
+  "fosfato": 27,
+  "energia_eletrica": 8
  },
  "meses": [
   {
    "mes": "2026-11",
-   "materias": 188,
-   "novas": 98,
-   "regionais": 2,
-   "setoriais": 188,
-   "regionais_setoriais": 2
+   "materias": 274,
+   "novas": 86,
+   "regionais": 3,
+   "setoriais": 274,
+   "regionais_setoriais": 3
   },
   {
    "mes": "2026-10",
-   "materias": 1750,
-   "novas": 7,
+   "materias": 1752,
+   "novas": 2,
    "regionais": 32,
-   "setoriais": 1750,
+   "setoriais": 1752,
    "regionais_setoriais": 32
   },
   {
    "mes": "2026-09",
    "materias": 1193,
-   "novas": 1,
+   "novas": 0,
    "regionais": 42,
    "setoriais": 1193,
    "regionais_setoriais": 42
@@ -2646,7 +2646,7 @@
   {
    "mes": "2026-08",
    "materias": 306,
-   "novas": 2,
+   "novas": 0,
    "regionais": 65,
    "setoriais": 306,
    "regionais_setoriais": 65
@@ -2654,7 +2654,7 @@
   {
    "mes": "2026-07",
    "materias": 113,
-   "novas": 1,
+   "novas": 0,
    "regionais": 15,
    "setoriais": 113,
    "regionais_setoriais": 15
@@ -2669,19 +2669,19 @@
   },
   {
    "mes": "2026-05",
-   "materias": 173,
-   "novas": 2,
-   "regionais": 92,
-   "setoriais": 173,
-   "regionais_setoriais": 92
+   "materias": 176,
+   "novas": 3,
+   "regionais": 94,
+   "setoriais": 176,
+   "regionais_setoriais": 94
   },
   {
    "mes": "2026-04",
-   "materias": 144,
-   "novas": 1,
-   "regionais": 53,
-   "setoriais": 144,
-   "regionais_setoriais": 53
+   "materias": 147,
+   "novas": 3,
+   "regionais": 54,
+   "setoriais": 147,
+   "regionais_setoriais": 54
   },
   {
    "mes": "2026-03",
@@ -2709,22 +2709,22 @@
   },
   {
    "mes": "2025-12",
-   "materias": 112,
+   "materias": 114,
    "novas": 2,
-   "regionais": 96,
-   "setoriais": 112,
-   "regionais_setoriais": 96
+   "regionais": 98,
+   "setoriais": 114,
+   "regionais_setoriais": 98
   },
   {
    "mes": "anteriores",
-   "materias": 578,
-   "novas": 5,
-   "regionais": 199,
-   "setoriais": 578,
-   "regionais_setoriais": 199
+   "materias": 588,
+   "novas": 10,
+   "regionais": 205,
+   "setoriais": 588,
+   "regionais_setoriais": 205
   }
  ],
- "descartadas": 15593,
+ "descartadas": 15983,
  "veiculos": 53,
  "coleta_desde": "2026-09",
  "janela": "2025-12"
