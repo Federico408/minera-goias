@@ -1,6 +1,6 @@
 {
  "mes": "2026-03",
- "materias": 57,
+ "materias": 58,
  "itens": [
   {
    "title": "Nova guia da CFEM entra em fase de testes com participação do setor mineral — Agência Nacional de Mineração - www.gov.br",
@@ -446,6 +446,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Indianos entram no mercado de lítio do Brasil em busca de tecnologia - Folha de S.Paulo",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd0hIQVhzWnNEdS12Z3B4bGU2ZmRMVFhlRG0xMGVxcWY0OURMbnl6cHo0X2thRjVrZWRiLUZucFJVS1cxNjRxQkM4TlRFTVpzWnY3SERicWc4X2lvZkV4SWlEcmlWZ3RUSnFXcGRwZnN1M1RxN0haY3NyUEFOVVRPQllJYTZ6M3U0cWR0SVc0c2NWQndNWGc3Sk9GMDNWWDN4V1cySWtUdnlPWlIzX1FURGlROTZaLU9JOUV4Mw?oc=5",
+   "published_at": "2026-03-17T07:00:00+00:00",
+   "first_seen": "2026-11-06T11:44:34.764544+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "Caiado se adianta a governo federal e vai assinar acordo de minerais críticos entre Goiás e EUA - Folha de S.Paulo",
