@@ -23,9 +23,37 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-11-06T11:44:37.712177+00:00",
+ "atualizado_em": "2026-11-07T10:51:42.261235+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "Governo define minerais críticos e estratégico para o Brasil com elementos existentes em Goiás; veja lista - O Popular",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWFUxeUdmaDBFTXZWWFNYbFZTbWtLUlAzWDNiSWFvMENNWEJOV0tsZ0hrUGJGUVFKb3dOeGF4ODhVTUhVSTRTM2JIZm9qNTVNbnJvdVMzQnQyVG1ZcGFMMnR2UG1yOG9oYWg4dENibkF5cWt4OXVBZDVpY2FreU52emZxalg3cWFNLTItZWpVUUZhc21sSzdvY1cxQm55Ql9zMTNyMGt1VF9MZ0FzanRXck0tU2Q0cnZsTVQ4WlprQU4zQ1dZenk3UXgzdzVZRk5rMFFnMjNUQnlPVE1EU01tdk1R?oc=5",
+   "published_at": "2026-11-06T22:04:07+00:00",
+   "first_seen": "2026-11-07T10:51:39.144524+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Trump chama IA de 'ouro' e defende expansão após queda de ações de tecnologia",
+   "link": "https://g1.globo.com/economia/noticia/2026/11/06/trump-chama-ia-de-ouro-e-defende-expansao-apos-queda-de-acoes-de-tecnologia.ghtml",
+   "published_at": "2026-11-06T13:11:11+00:00",
+   "first_seen": "2026-11-07T10:51:20.871149+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "G1 Economia",
+   "escopo": "nacional",
+   "tema": "geral",
+   "substancias": [
+    "ouro"
+   ]
+  },
   {
    "title": "Governo define 27 minerais críticos e estratégicos para o Brasil; veja quais estão presentes em Goiás",
    "link": "https://www.jornalopcao.com.br/ultimas-noticias/governo-define-27-minerais-criticos-e-estrategicos-para-o-brasil-veja-quais-estao-presentes-em-goias-886032/",
@@ -2570,62 +2598,34 @@
    "substancias": [
     "ouro"
    ]
-  },
-  {
-   "title": "União Europeia trava venda de mina de níquel em Goiás para chinesa - Vero Notícias",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNblYxR0piVEQxQ21XTzFoU0dUVDRUV1Q1eEg0VEt2VHZSN1FuYkFvQ0kzNEljM0FzX2loT09rZ3Uwd1VBZjZjZnNzYVAwUzdOVlUyODU4enVpN1o1Smx6bnRDVzZzRkpKU0lITzlvakFjUWNzUzlGWjJWYUk0MzQwS2F2aEcwd00yWGoxY2RKMTYxRjFRMWdkaXZaa0ozNmJaQ2NZ?oc=5",
-   "published_at": "2026-05-22T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.528480+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · níquel e nióbio em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "niquel"
-   ]
-  },
-  {
-   "title": "GOIÁS | Assembleia de Goiás debate impactos da mineração na Chapada dos Veadeiros - Brasil Mineral",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUjh3UFlIRTl2dU9CaWVJODJsczJHR2lhZG9zWDhBSC0xYkJuRHFkODZ4QkE3ZVdfQ0EtT3U0YUhiZFFiY3BheXlMVzRCTG9IeHd0NW1JdVdkWm5RMmdkMDhzQVl0aXpMS04xYUxGNEdtUkhMM1hjbUw4V003cDJyOVRuM3ZlZXF1NUh5bVdsbl9fVG9MX0tpQklQV0x0eUdKQThfaXl6dmhmUEpwR1FRZw?oc=5",
-   "published_at": "2026-05-22T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.107607+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   }
  ],
  "tendencias": [],
- "total": 4991,
- "regionais": 652,
- "setoriais": 4991,
- "regionais_setoriais": 652,
+ "total": 5057,
+ "regionais": 663,
+ "setoriais": 5057,
+ "regionais_setoriais": 663,
  "fontes_vivas": 61,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 1509,
-  "ouro": 1003,
-  "cobre": 477,
-  "litio": 420,
-  "niquel": 155,
-  "uranio": 87,
+  "terras_raras": 1539,
+  "ouro": 1013,
+  "cobre": 481,
+  "litio": 422,
+  "niquel": 156,
+  "uranio": 90,
   "niobio": 41,
-  "fosfato": 30,
+  "fosfato": 31,
   "energia_eletrica": 8
  },
  "meses": [
   {
    "mes": "2026-11",
-   "materias": 380,
-   "novas": 106,
-   "regionais": 6,
-   "setoriais": 380,
-   "regionais_setoriais": 6
+   "materias": 434,
+   "novas": 54,
+   "regionais": 8,
+   "setoriais": 434,
+   "regionais_setoriais": 8
   },
   {
    "mes": "2026-10",
@@ -2669,24 +2669,24 @@
   },
   {
    "mes": "2026-05",
-   "materias": 176,
-   "novas": 0,
-   "regionais": 94,
-   "setoriais": 176,
-   "regionais_setoriais": 94
+   "materias": 178,
+   "novas": 2,
+   "regionais": 96,
+   "setoriais": 178,
+   "regionais_setoriais": 96
   },
   {
    "mes": "2026-04",
-   "materias": 147,
-   "novas": 0,
-   "regionais": 54,
-   "setoriais": 147,
-   "regionais_setoriais": 54
+   "materias": 149,
+   "novas": 2,
+   "regionais": 55,
+   "setoriais": 149,
+   "regionais_setoriais": 55
   },
   {
    "mes": "2026-03",
    "materias": 58,
-   "novas": 1,
+   "novas": 0,
    "regionais": 19,
    "setoriais": 58,
    "regionais_setoriais": 19
@@ -2709,22 +2709,22 @@
   },
   {
    "mes": "2025-12",
-   "materias": 114,
-   "novas": 0,
-   "regionais": 98,
-   "setoriais": 114,
-   "regionais_setoriais": 98
+   "materias": 116,
+   "novas": 2,
+   "regionais": 100,
+   "setoriais": 116,
+   "regionais_setoriais": 100
   },
   {
    "mes": "anteriores",
-   "materias": 588,
-   "novas": 0,
-   "regionais": 205,
-   "setoriais": 588,
-   "regionais_setoriais": 205
+   "materias": 594,
+   "novas": 6,
+   "regionais": 209,
+   "setoriais": 594,
+   "regionais_setoriais": 209
   }
  ],
- "descartadas": 16386,
+ "descartadas": 16688,
  "veiculos": 53,
  "coleta_desde": "2026-09",
  "janela": "2025-12"
