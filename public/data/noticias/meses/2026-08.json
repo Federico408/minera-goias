@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 306,
+ "materias": 307,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -1272,7 +1272,7 @@
    "title": "St George signs MOU with Brazil’s Lima & Pergher for rare earth processing center - Mining.com",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNak1BY1lwamM3RnA4c2dacEZ1SG9zb1QwRXl5U1BuZXRtWC04MDFJbFc0bVNqR0F5czJJOURnX19pQVMwdlJJUkJiZlhmdHlJcmNwMGZ1WFIxeF9OZkJORXhCbk8xYzJKNkRFQXcxQXNqT0JRZU03MUo3b2dJV3ZIQUdsRmN6dlV5djYweFJ5TUwyUEN4aUpzRjlNeVBZSGxMRzYtNFRuREl5Zw?oc=5",
    "published_at": "2026-08-26T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:06.947140+00:00",
+   "first_seen": "2026-11-08T10:59:36.577435+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -4233,6 +4233,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aeb1ba7a1c9403a8efd795392d88373&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
    "published_at": "2026-08-05T03:20:00+00:00",
    "first_seen": "2026-11-04T11:48:55.422436+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af056161f8748f0a9eb4b209f5ed59f&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
+   "published_at": "2026-08-05T03:20:00+00:00",
+   "first_seen": "2026-11-08T10:59:34.296149+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
