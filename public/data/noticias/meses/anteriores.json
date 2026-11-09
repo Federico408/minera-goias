@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 598,
+ "materias": 604,
  "itens": [
   {
    "title": "Repasses da mineração ultrapassam R$ 1 bilhão em novembro — Agência Nacional de Mineração - www.gov.br",
@@ -569,6 +569,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af056161f8748f0a9eb4b209f5ed59f&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
    "published_at": "2025-11-11T04:43:00+00:00",
    "first_seen": "2026-11-08T10:59:34.295003+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras: Estados Unidos financiam projeto em Goiás com até U$ 465 milhões",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af1bc09966243d7a960d7666831e44e&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
+   "published_at": "2025-11-11T04:43:00+00:00",
+   "first_seen": "2026-11-09T12:26:50.053379+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -2715,6 +2730,21 @@
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af1bc09966243d7a960d7666831e44e&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
+   "published_at": "2025-06-02T00:00:00+00:00",
+   "first_seen": "2026-11-09T12:26:50.060921+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ab89686037b4cbb9d163f724403ec19&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-09-27T04:07:35.144000+00:00",
@@ -3606,6 +3636,34 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af056161f8748f0a9eb4b209f5ed59f&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-11-08T10:59:34.296855+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af1bc09966243d7a960d7666831e44e&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-09T12:26:50.057095+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af1bc09966243d7a960d7666831e44e&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-09T12:26:50.058376+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -6351,6 +6409,19 @@
    "substancias": []
   },
   {
+   "title": "Lula campaign mulls new mining royalties in Brazil, spooking industry - Reuters",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNejYyYXctYnBzdDZrUDlwdTRpYld2Q09RM2pvdHNVZ19kM2RrclJ6bmU3VExma2FRR0s2aXA1UnY5U3prdTZWVnFQU1NVeUNTZVJVUFpQQWZiVFBhR1BxZ1dqTWkwengzUlVxc3F6RUZHLVJfa21Sd0NnVzFISmJielpBeXF1SzgxenJjVDd2cWZ3eENDTDh5S3EyaDRFZTdObU9jRjRkVi1wUDk1RktoX0xTYmhnOHM?oc=5",
+   "published_at": "2022-09-16T07:00:00+00:00",
+   "first_seen": "2026-11-09T12:26:52.275396+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Indonesia, Brazil biggest culprits in tropical forest loss linked to industrial mining, study says - Reuters",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPR0VUcHh5UWRLMWRDQkV4UXViajhsekRFYVRoUXdSeXVNa09qMnQ5QXMxdXltVjFZT2RzT1JKU1ZZYW03ZGYwMy1rTjdXUWh0cjBNZE9EZ1ROMW9iUDR0TUk3NWJ4cnJVc29JV2otR3dtTGU0SVU1Q05vU2pfMmlwLVlLbU85OGxCbkJQNUVROGVVOHprLU9QdVJ3Y2ZVLXd2cTRWQ3oxdzcwQ25nNzRseHV6VllBYm13dXhfTV81WHV1TmNKQmljeWNTVnZhS0VvdEE?oc=5",
    "published_at": "2022-09-13T07:00:00+00:00",
@@ -7718,6 +7789,19 @@
    "setorial": 1,
    "fonte": "Busca · Brazil mining (Reuters)",
    "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Repertório Trimestral ANM - Demarest",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Eejg0QUQzdkNncUQwdEYzTHp2OEt0N3ctaUpQVmFNeEp6Y0ZkQVZoOXRidDRHSUJrazZKNjR5Slhsc2FTSDlHc0ZHVFNZWkd1WGktTllxRl9yUGdzSk1EeFRuRDc?oc=5",
+   "published_at": "2020-05-06T07:00:00+00:00",
+   "first_seen": "2026-11-09T12:26:51.372128+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM, lavra e outorga",
+   "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
   },

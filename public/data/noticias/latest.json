@@ -23,7 +23,7 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-11-08T10:59:37.801411+00:00",
+ "atualizado_em": "2026-11-09T12:26:53.159229+00:00",
  "ultima_execucao": "partial",
  "itens": [
   {
@@ -2156,6 +2156,21 @@
    ]
   },
   {
+   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af1bc09966243d7a960d7666831e44e&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
+   "published_at": "2026-08-05T03:20:00+00:00",
+   "first_seen": "2026-11-09T12:26:50.056344+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Goiás aprova política sustentável para impulsionar a mineração de terras raras; entenda o impacto para o estado - Jornal Opção",
    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSEZGZkE5eTd4YURxa0ZHeVdfU3UybVl5aEdmb1plMmU5eGs2azJNQ2FiMFptZXhmVDdmbF9heHNMb25VcWc1VnJhQWVoSXl2akUzdGFJdnBMb011ZmFWeUswbmZWMHlWWGxZNUxVbENIVTJxSmg3Yk4xQmE1dlBWekNkMEdJNHl4T2poTGxTZDczUTRZTkRpY3B4Y2ZDdW8tNWZ2QjFXWEFJekJFWmpySkpGYjdkTUVXVHRqNUJVQWhJeHhZVjZrdEF3SHRMNE82eWIyY1daQWpqSHMtX3JyRGQwOFNETkJEb29ISW81RTVpdktURmEza1dB?oc=5",
    "published_at": "2026-08-04T07:00:00+00:00",
@@ -2583,36 +2598,21 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
-  },
-  {
-   "title": "TERRAS RARAS – EUA podem se tornar sócio indireto da Mineração Serra Verde se Cade aprovar venda de US$ 2,8 bi em Minaçu - Excelência Notícias",
-   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPUjBoeFBYZ0ItZFd0VGg5TjJkbWZTMllfMUhjOGdnZXZzbEtVb19lY2k5bGpXLXNtMnB2bVJ4akgxcVJGQmxNLWVaS3Y3VUZLWmxDejU2OTh3aXBYREU1OFRSWjJqT0o3MDNBVVI1Yy1DM083LWFzUFNQaDFVRUtlRE83ZWJQV0w4TllfcVFBelE2SWt5TUpjR29pZzY0Z1MtWTZkOURLbExkSjBmUGNHZHA3cm93UTZFVlUwbmtFcjc1SG1HbHVKQ0JqV2tDQkJfeVZMWlhSRjdIa0dtR25SSlVjVVozZUx6NUwxMm5NNUpCRTBW?oc=5",
-   "published_at": "2026-06-07T07:00:00+00:00",
-   "first_seen": "2026-09-26T04:07:33.612190+00:00",
-   "regional": 1,
-   "regiao_termo": "minacu",
-   "setorial": 1,
-   "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
   }
  ],
  "tendencias": [],
- "total": 5087,
- "regionais": 674,
- "setoriais": 5087,
- "regionais_setoriais": 674,
+ "total": 5143,
+ "regionais": 683,
+ "setoriais": 5143,
+ "regionais_setoriais": 683,
  "fontes_vivas": 61,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 1555,
-  "ouro": 1020,
-  "cobre": 481,
-  "litio": 425,
-  "niquel": 156,
+  "terras_raras": 1588,
+  "ouro": 1036,
+  "cobre": 483,
+  "litio": 426,
+  "niquel": 157,
   "uranio": 90,
   "niobio": 44,
   "fosfato": 31,
@@ -2621,10 +2621,10 @@
  "meses": [
   {
    "mes": "2026-11",
-   "materias": 455,
-   "novas": 21,
+   "materias": 499,
+   "novas": 44,
    "regionais": 11,
-   "setoriais": 455,
+   "setoriais": 499,
    "regionais_setoriais": 11
   },
   {
@@ -2645,11 +2645,11 @@
   },
   {
    "mes": "2026-08",
-   "materias": 307,
+   "materias": 308,
    "novas": 1,
-   "regionais": 66,
-   "setoriais": 307,
-   "regionais_setoriais": 66
+   "regionais": 67,
+   "setoriais": 308,
+   "regionais_setoriais": 67
   },
   {
    "mes": "2026-07",
@@ -2669,11 +2669,11 @@
   },
   {
    "mes": "2026-05",
-   "materias": 179,
-   "novas": 1,
-   "regionais": 97,
-   "setoriais": 179,
-   "regionais_setoriais": 97
+   "materias": 181,
+   "novas": 2,
+   "regionais": 99,
+   "setoriais": 181,
+   "regionais_setoriais": 99
   },
   {
    "mes": "2026-04",
@@ -2709,23 +2709,23 @@
   },
   {
    "mes": "2025-12",
-   "materias": 119,
+   "materias": 122,
    "novas": 3,
-   "regionais": 103,
-   "setoriais": 119,
-   "regionais_setoriais": 103
+   "regionais": 106,
+   "setoriais": 122,
+   "regionais_setoriais": 106
   },
   {
    "mes": "anteriores",
-   "materias": 598,
-   "novas": 4,
-   "regionais": 212,
-   "setoriais": 598,
-   "regionais_setoriais": 212
+   "materias": 604,
+   "novas": 6,
+   "regionais": 215,
+   "setoriais": 604,
+   "regionais_setoriais": 215
   }
  ],
- "descartadas": 16901,
- "veiculos": 53,
+ "descartadas": 17202,
+ "veiculos": 54,
  "coleta_desde": "2026-09",
  "janela": "2025-12"
 }
