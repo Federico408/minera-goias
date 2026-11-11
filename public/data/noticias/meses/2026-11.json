@@ -1,7 +1,1068 @@
 {
  "mes": "2026-11",
- "materias": 569,
+ "materias": 646,
  "itens": [
+  {
+   "title": "Uru Metals begins Zone 2 drilling at South Africa’s Zeb Nickel",
+   "link": "https://www.mining-technology.com/news/uru-metals-zone-2-drilling-zeb-nickel-2/",
+   "published_at": "2026-11-11T10:53:51+00:00",
+   "first_seen": "2026-11-11T11:39:10.673941+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mining Technology",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "Quais países estão na mira do Brasil para desenvolver cadeias de minerais críticos e terras raras? - UOL Notícias",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNc2Jub2h5T19xWjd5YmduSVZGelFyd25SdElSSXNRSUlrOUJOQkZzLXQ3M0NSVnRnRmxQZ21PVjYxUDNZWmU1XzVnb0trN3N4Zkt3MU5zWUdhMTNCNjN1RWNiT0Z2TUNYck9JLXU2dklhRnIwOG1yNlpyVzNoTWY5cmxTWkNZdkhrQ041OVRjeWRUQVFNWlh6MEQ5c003dXZTMkNBaWxxeHRkeXhTaHByak8yaEhhbTBycllaRXV5SlJQUXV4YVlQZks4Vk9QUDluWG5pTWRyX181dzZGUGdxMU40TzY3LVJSSmVJMDMtWXNOMEk?oc=5",
+   "published_at": "2026-11-11T10:22:35+00:00",
+   "first_seen": "2026-11-11T11:39:19.498175+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Gold steadies after selloff as central-bank demand offsets Fed rate hike concerns",
+   "link": "https://www.investing.com/news/commodities-news/gold-steadies-near-4035-after-sharp-selloff-as-december-fed-hike-bets-firm-5017433",
+   "published_at": "2026-11-11T10:02:28+00:00",
+   "first_seen": "2026-11-11T11:39:11.260638+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Investing.com · commodities",
+   "escopo": "internacional",
+   "tema": "geral",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "A discrepância de preços dos minerais de terras raras expõe as pressões sobre a oferta global. - Vietnam.vn",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdVB6MWQzSm1McmczNEZkQkl5TnZmVjM5MkhxN1RjTXRHSWVkM29VQjgyZTRpSEZiTmxjeHY1bTRzUkZGSTBwendOVU45eXM2TzVUM0FXb2hiRW5jMmNWMGJJQktvU2drQVBfSWhDU3RvYkdETFJpd0ZfT1JFOU04RnExWnF4djAzeExha1V3?oc=5",
+   "published_at": "2026-11-11T10:02:07+00:00",
+   "first_seen": "2026-11-11T11:39:19.506367+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Empresa listada nos EUA contrata estudos para projeto de terras raras na BA - CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN21VN3dDVElVZm1HUEc0UVZsN0Y5NVRnZmYwX3kweVJUQXNQY20xQkdETXBna1JieDRTR0xiSzRiRHlQR3dkRlcxa0hUY29TZC13eWFQUzdOTElVVDkwaXNiVU1HOXJwZDA2UzB1VlIwVTFCVjNZejdzaEp0ZFVfZ1Y5a3FMRFhRLWIzSDE4YU85NjJCajJ1YWtuc24zaXNtQ3BVdE1kQkh6Q01JMGVUMA?oc=5",
+   "published_at": "2026-11-11T09:00:36+00:00",
+   "first_seen": "2026-11-11T11:39:19.497138+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Lux Copper expands Baird Project with 326 new mining claims in Alaska",
+   "link": "https://www.mining-technology.com/news/lux-copper-baird-project-326-mining-claims/",
+   "published_at": "2026-11-11T07:58:17+00:00",
+   "first_seen": "2026-11-11T11:39:10.676921+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mining Technology",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
+   "title": "Critical Metals Invests $5M in Power Minerals for Brazilian Rare Earth Project Stake - Shanghai Metals Market",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNVnM3MDlQVGViSEpqZTd6Z182S01MTmJWMm11ME9EYnZUdk1ZcE4tNnBwMkp2UXBVODNZTmdJeVYwV29hWEVCaFNwQnlHdjVBNXdJczltV0JKR3FCWWVfWWE3S1B6UGVpajdCemdPaV9oS1h6MGE1LXdtbF9zLXRKbTA1T3MtSjJfSm9JOHMyZ0tJMjdzejR5MnV2QkJ2MWZoR0RjbFNodTBoNkpzUkNMTjNxWlliYUpCNDh4VUp5WUJZSTBxbmJKLUJpMEREblFLcXE3MHhWZ2JCOWF2Tk9RVGdIRnZncEY1bUJ4dFU4VQ?oc=5",
+   "published_at": "2026-11-11T07:38:00+00:00",
+   "first_seen": "2026-11-11T11:39:21.068078+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Patronus traces 800m gold trend at Grove Hill",
+   "link": "https://stockhead.com.au/resources/patronus-traces-800m-gold-trend-at-grove-hill/",
+   "published_at": "2026-11-11T05:51:43+00:00",
+   "first_seen": "2026-11-11T11:38:52.755870+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Stockhead",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "BOA Resources maps two copper trends at Limestone Bore",
+   "link": "https://stockhead.com.au/resources/boa-resources-maps-two-copper-trends-at-limestone-bore/",
+   "published_at": "2026-11-11T02:11:21+00:00",
+   "first_seen": "2026-11-11T11:38:52.768373+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Stockhead",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
+   "title": "USA Rare Earth’s American Supply Chain Runs Through Four Countries - The Oklahoma Post",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcEVfXy1XQ1lMcWROY0QtNUt2dlZ6bGVEbDJFVGdkNnFJX2QyQmZIa2ZYbEtkNFRTWGNRa3kyWDVya256akhfc1pyaGVyOVViMlgyY21kdHJjRTUzSnVVRnBvYk5rNkNMRWJ3LTNuRXVGclpUYktOQy1WcnFOb2VuNEEySWNHZw?oc=5",
+   "published_at": "2026-11-11T02:00:38+00:00",
+   "first_seen": "2026-11-11T11:39:21.066215+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Northstone drilling firms up high-grade gold corridor at Barje",
+   "link": "https://stockhead.com.au/resources/northstone-drilling-firms-up-high-grade-gold-corridor-at-barje/",
+   "published_at": "2026-11-11T01:46:21+00:00",
+   "first_seen": "2026-11-11T11:38:52.772688+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Stockhead",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "New South Wales moves to safeguard 400 Mount Pleasant mining jobs",
+   "link": "https://www.australianmining.com.au/new-south-wales-moves-to-safeguard-400-mount-pleasant-mining-jobs/",
+   "published_at": "2026-11-11T01:39:35+00:00",
+   "first_seen": "2026-11-11T11:39:11.166676+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Australian Mining",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Brazilian Critical Minerals Reports High-Grade Leachable Rare Earth Results at Ema Wellfield 1 with Up to 1,062 ppm TREO - Kalkine",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPdkItaG5YZkFxU1VaSF9IOTgzT3AwWXJqZW9Ca0pYWm5HbnRDWVBZRHpidC1CUHVDcWhVYkw4NExVams4YUJYSUtIRS00bklkZmYyZndtVTVKeGhjaXVOaVRrYlN4cDhpcDJzS0wtSGppLTRXQmloa2RkbmhkS0g2SzlORjY1c2VYUUluajN1QTI4c3ZEdnhFdmRocEpvRm1RYUFfdkRXYXpCVHVEcERsa0ZMVEd1cjBZSnNOYm8wd1VHaUhwWERUbksxN2VqQTdiSU4xbWJ3cGc2ZG85RFFuWDlibktJYzJLMjBQaXJwbllIQlU?oc=5",
+   "published_at": "2026-11-11T01:32:27+00:00",
+   "first_seen": "2026-11-11T11:39:21.074357+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Northern Territory’s workforce plan for mining growth",
+   "link": "https://www.australianmining.com.au/northern-territorys-workforce-plan-for-mining-growth/",
+   "published_at": "2026-11-11T01:24:22+00:00",
+   "first_seen": "2026-11-11T11:39:11.168563+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Australian Mining",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Australia and US target more critical minerals investment",
+   "link": "https://www.australianmining.com.au/australia-and-us-target-more-critical-minerals-investment/",
+   "published_at": "2026-11-11T00:57:05+00:00",
+   "first_seen": "2026-11-11T11:39:11.170361+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Australian Mining",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Long Shortz with Flynn Gold: Brilliant shines for Golden Ridge",
+   "link": "https://stockhead.com.au/stockhead-tv/long-shortz-with-flynn-gold-brilliant-shines-for-golden-ridge/",
+   "published_at": "2026-11-11T00:50:50+00:00",
+   "first_seen": "2026-11-11T11:38:52.788338+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Stockhead",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Adavale looks beneath Ashes for gold-copper riches",
+   "link": "https://stockhead.com.au/resources/adavale-looks-beneath-ashes-for-gold-copper-riches/",
+   "published_at": "2026-11-11T00:45:37+00:00",
+   "first_seen": "2026-11-11T11:38:52.785491+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Stockhead",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre",
+    "ouro"
+   ]
+  },
+  {
+   "title": "Astral hits record 1146g/t gold at Theia Deeps",
+   "link": "https://www.australianmining.com.au/astral-hits-record-1146g-t-gold-at-theia-deeps/",
+   "published_at": "2026-11-11T00:29:03+00:00",
+   "first_seen": "2026-11-11T11:39:11.172251+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Australian Mining",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "True North Copper clears key environmental approvals ahead of Cloncurry PFS",
+   "link": "https://stockhead.com.au/resources/true-north-copper-clears-key-environmental-approvals-ahead-of-cloncurry-pfs/",
+   "published_at": "2026-11-11T00:28:51+00:00",
+   "first_seen": "2026-11-11T11:38:52.789889+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Stockhead",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
+   "title": "Minerals 260 secures $410m to fund Bullabulling gold",
+   "link": "https://www.australianmining.com.au/minerals-260-secures-410m-to-fund-bullabulling-gold/",
+   "published_at": "2026-11-11T00:14:17+00:00",
+   "first_seen": "2026-11-11T11:39:11.174198+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Australian Mining",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Terras raras extraídas em Goiás começam a ser vendidas a comprador financiado pelos EUA, com contrato de 15 anos que reserva 100% da produção da primeira fase da mina brasileira",
+   "link": "https://mineracaobrasil.com/terras-raras-extraidas-em-goias-comecam-a-ser-vendidas-a-comprador-financiado-pelos-eua-com-contrato-de-15-anos-que-reserva-100-da-producao-da-primeira-fase-da-mina-brasileira-fcmo87/?utm_source=rss&utm_medium=rss&utm_campaign=terras-raras-extraidas-em-goias-comecam-a-ser-vendidas-a-comprador-financiado-pelos-eua-com-contrato-de-15-anos-que-reserva-100-da-producao-da-primeira-fase-da-mina-brasileira-fcmo87",
+   "published_at": "2026-11-10T23:54:15+00:00",
+   "first_seen": "2026-11-11T11:38:34.397233+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre",
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "US critical minerals funding to withstand congressional shift, advisers say",
+   "link": "https://www.mining.com/us-critical-minerals-funding-to-withstand-congressional-shift-advisers-say/",
+   "published_at": "2026-11-10T23:16:18+00:00",
+   "first_seen": "2026-11-11T11:38:52.159301+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mining.com",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Zimbabwe investors line up for piece of Ariana’s gold future",
+   "link": "https://stockhead.com.au/resources/zimbabwe-investors-line-up-for-piece-of-arianas-gold-future/",
+   "published_at": "2026-11-10T23:15:03+00:00",
+   "first_seen": "2026-11-11T11:38:52.791619+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Stockhead",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Estrangeiros dominam 92% do investimento em terras raras na Sudene - Agência iNFRA",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSEJva2NMZTBuYVRMYlhxamVwVGlCMVZ3ZTJaQ2U3NzM3eElnWS1iczlWeEdUQUI5Snp2aXpJcDk4WHozRGtmYTZvWEM3MjZMSWE4cFR5cVFRSFJtMEhLeVg4ZVVrMnpUNDlNYmpyVlo1OVBJLWFQNUlqV0VfTWlvNHBGekgwNVBOTmdMWTJWQ3JtQnhKbDVXdTNXU0k?oc=5",
+   "published_at": "2026-11-10T21:53:34+00:00",
+   "first_seen": "2026-11-11T11:39:19.502025+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Estrangeiros dominam 92% do investimento em terras raras na Sudene - Brasil 247",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNk1SMFNYZTVJR2ZabEQ4THpDYTNsdUIwWk1PZXlGekpMV0dTNHRfb1NqZjdYS3Z0eEMzeHNZZC1icEZRMm82ejVBSE1CMGlNeU0wOGVzcFo5MWlOZUYtYW9TTU4wOWJLdU1hZGNEaGlrWi1fWHRUd05wZ1I4Y0hrV1U0RDR0TGZwN2JQdEp6NmtNbkVMVEU1ZlYyUFNzT0N5YzFv?oc=5",
+   "published_at": "2026-11-10T21:42:43+00:00",
+   "first_seen": "2026-11-11T11:39:19.500297+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Discovery beats forecasts despite higher gold costs",
+   "link": "https://www.northernminer.com/news/discovery-beats-forecasts-despite-higher-gold-costs/1003897608/",
+   "published_at": "2026-11-10T21:40:42+00:00",
+   "first_seen": "2026-11-11T11:38:53.003093+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "The Northern Miner",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "NMDC in talks with Russia’s Rosatom over lithium investments, sources say",
+   "link": "https://www.mining.com/web/nmdc-in-talks-with-russias-rosatom-over-lithium-investments-sources-say/",
+   "published_at": "2026-11-10T21:39:45+00:00",
+   "first_seen": "2026-11-11T11:39:11.924742+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mining.com · níquel",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Allied Gold pours first gold at Ethiopia’s Kurmuk mine",
+   "link": "https://www.northernminer.com/news/allied-gold-pours-first-gold-at-ethiopias-kurmuk-mine/1003897637/",
+   "published_at": "2026-11-10T21:20:00+00:00",
+   "first_seen": "2026-11-11T11:38:53.010823+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "The Northern Miner",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Gunnison hits rich copper and zinc in Arizona",
+   "link": "https://www.northernminer.com/news/gunnison-hits-rich-copper-and-zinc-in-arizona/1003897612/",
+   "published_at": "2026-11-10T21:15:02+00:00",
+   "first_seen": "2026-11-11T11:38:53.012397+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "The Northern Miner",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
+   "title": "Scorpio hits gold beyond Nevada resource",
+   "link": "https://www.northernminer.com/news/scorpio-hits-gold-beyond-nevada-resource/1003897619/",
+   "published_at": "2026-11-10T21:10:26+00:00",
+   "first_seen": "2026-11-11T11:38:53.013891+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "The Northern Miner",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Q2 maps 28-year lithium operation at Cisco",
+   "link": "https://www.northernminer.com/news/q2-maps-28-year-lithium-operation-at-cisco/1003897652/",
+   "published_at": "2026-11-10T21:05:51+00:00",
+   "first_seen": "2026-11-11T11:38:53.015359+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "The Northern Miner",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Serra Verde inicia exportação de terras raras para os EUA",
+   "link": "https://revistamineracao.com.br/2026/11/10/serra-verde-inicia-exportacao-de-terras-raras-para-os-eua/",
+   "published_at": "2026-11-10T20:50:04+00:00",
+   "first_seen": "2026-11-11T11:38:26.935954+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Revista Mineração",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "IGO ends Nova nickel run ahead of lithium switch",
+   "link": "https://www.northernminer.com/news/igo-ends-nova-nickel-run-ahead-of-lithium-switch/1003897623/",
+   "published_at": "2026-11-10T20:50:00+00:00",
+   "first_seen": "2026-11-11T11:38:53.019534+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "The Northern Miner",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio",
+    "niquel"
+   ]
+  },
+  {
+   "title": "Aston Bay’s Storm copper study puts capex at $165M",
+   "link": "https://www.northernminer.com/news/aston-bays-storm-copper-study-puts-capex-at-165m/1003897661/",
+   "published_at": "2026-11-10T20:45:35+00:00",
+   "first_seen": "2026-11-11T11:38:53.020837+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "The Northern Miner",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
+   "title": "Serra Verde inicia exportação de terras raras para os EUA após ampliação de operação em Goiás, diz controladora americana",
+   "link": "https://www.jornalopcao.com.br/ultimas-noticias/serra-verde-inicia-exportacao-de-terras-raras-para-os-eua-apos-ampliacao-de-operacao-em-goias-diz-controladora-americana-887419/",
+   "published_at": "2026-11-10T20:06:52+00:00",
+   "first_seen": "2026-11-11T11:38:37.240236+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Jornal Opção",
+   "escopo": "regional",
+   "tema": "geral",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Serra Verde inicia exportação de terras raras para os EUA após ampliação de operação em Goiás, diz controladora americana - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPVkJIVmdVVjE4bEtmYk55dl9zdFVzWFVpSWlVM2xrSTl4a1RKYjQ5WVJhTTNuZXB4OWNmVXhITVBOUmhkSWRIenhoeHlqejNwb2ZBUm1tZVVyZWEtdk9yWVRlVlBLcXA1Q0NvTl9HRmpQM0ZJU2E0cGJLTXZiU1BVZG5TVUNFaGpHZlhrdXZoRV9yZXdHeGE1akhGcUQ2amNweFJrN1lZQmFCbGJWOEN6QkNHd0w3c0NvbGJLYTgtWVVFeWRZSG51MEZvTndTSFFCQWpuVmEzWFVoZkwyTk5VLWswenZ3akVNdTktUTJaVlE5dzJTcmctdzdvbVR2ZnJoWk5hT3dCNA?oc=5",
+   "published_at": "2026-11-10T20:06:00+00:00",
+   "first_seen": "2026-11-11T11:39:17.027066+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "The Big Banana: WhiteRock aims for serious scale with Canadian lithium find",
+   "link": "https://stockhead.com.au/resources/the-big-banana-whiterock-aims-to-measure-up-to-the-big-boys-with-canadian-lithium-find/",
+   "published_at": "2026-11-10T19:40:42+00:00",
+   "first_seen": "2026-11-11T11:38:52.774247+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Stockhead",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Beyond uranium: Namibia’s next mining chapter could be copper and gold",
+   "link": "https://stockhead.com.au/resources/beyond-uranium-namibias-next-mining-chapter-could-be-copper-and-gold/",
+   "published_at": "2026-11-10T19:40:20+00:00",
+   "first_seen": "2026-11-11T11:38:52.782446+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Stockhead",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre",
+    "ouro",
+    "uranio"
+   ]
+  },
+  {
+   "title": "USA Rare Earth Sinks 11% as Q3 Miss Overshadows First Magnet Sales; Energy Fuels Retreats 8%, MP Materials Falls 5% - 24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZ0tVMVU0TmFDTzJHTDJNUEZaeDRIUzlRQ1UwS21wMnkwZ3l3dVhvREh0b2YxTnNHMHNDMFZaWFNnVFg4SmMtR3Q0Y3pPVm9ncURJMXhITXNfbFNTekhpeW5XZmZ1elVzNGFBLTNwS1pXdGJrUGRJOGxBTnd2UHN6NzhNa2E5ZVpTN21aVl9iZGFkaEZ2YTFKUVNVSjZ6LVVTVzUwLW5fZnlza0FzMXBNRW1PREptOTB6MFRxejI3TERrYmF6MGhBbi1jQXRMOG5kWE04TUl6Rld0RnR6UWhhcUo2elpRd0tja0E?oc=5",
+   "published_at": "2026-11-10T19:02:00+00:00",
+   "first_seen": "2026-11-11T11:39:21.070283+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "USA Rare Earth hits two major milestones - Metal Tech News",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTDl3eVRMaldLSUNjLTMyT3JiVmRGakJPTmNDcUVHZmVabFlwQ2ZxYkttNVpvOFpDNkp1LU1KNGJEVm41dWQ1S2hiTjc2OW9hOEpqMlNGdkFLNjVKRkswbTMyYncxVmRzNUZMckJLcFFuSndRbEdDUFhBT1JSN0pRMGEwX25tSTNCaUtnSHNzX1I3b3F2WkUwOVlOY2N3QlhULUt6RjlvSFRYQjVqQ0E?oc=5",
+   "published_at": "2026-11-10T18:59:04+00:00",
+   "first_seen": "2026-11-11T11:39:21.067270+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Gold price falls nearly 3% as CPI tops forecasts, lifting dollar and yields",
+   "link": "https://www.mining.com/web/gold-price-falls-nearly-3-as-cpi-tops-forecasts-lifting-dollar-and-yields/",
+   "published_at": "2026-11-10T18:24:43+00:00",
+   "first_seen": "2026-11-11T11:39:13.442892+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mining.com · ouro",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Market volatility adds new hurdle to critical minerals investment: report",
+   "link": "https://www.mining.com/market-volatility-adds-new-hurdle-to-critical-minerals-investment-report/",
+   "published_at": "2026-11-10T17:51:21+00:00",
+   "first_seen": "2026-11-11T11:38:52.161976+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mining.com",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "ZFM pode ganhar refinaria de terras raras de Apuí - BNC Amazonas",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUUtmNEFydjdIR2NLR3hYdWVWZkNTX2NNbExPMVQzdHJwWDlYNXBaMGxUUC1JRGJNbDZUWXppU1pBVHNQNVdkSWp5aVJVYnhVT01FNFVjQk9tVHlCdzFkanJzN2IxVS00NmtUNGJ2WmFVYXJRdzVJcnpwQ0F5Z2tRUndZelVpT05oMDhtUk16Z0tlQQ?oc=5",
+   "published_at": "2026-11-10T17:40:05+00:00",
+   "first_seen": "2026-11-11T11:39:19.501202+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Serra Verde deve vender 325 toneladas de terras-raras do Brasil no 4º tri - Poder360",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMWtyVXNOUUNMYlNuRkZCQ1B2eEdxMlNOU05GMEJPQkVyczF2ZXJMSTlsOVQ0SVpEVC05OGNDT1pFXzhvYXVWbW5hTng2RU0xWFVpeFpBVldKUWpfZGRiUzVNcHppZ2Z4UW91Q3I2WjkzWllzRG1QdVRZd1J0eFFGQ2ZtWEoxTVN6ZEZwZmxXdTFBdkhHbTFIb1JfWTVuY1Nxd0xndlJtM2pLNFpCNTc3NFJmTWt4UXBa?oc=5",
+   "published_at": "2026-11-10T17:31:24+00:00",
+   "first_seen": "2026-11-11T11:39:18.443671+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Sumitomo Metal cuts fiscal 2026 profit forecast due to loss on Philippines nickel assets",
+   "link": "https://www.mining.com/web/sumitomo-metal-cuts-fiscal-2026-profit-forecast-due-to-loss-on-philippines-nickel-assets/",
+   "published_at": "2026-11-10T17:22:59+00:00",
+   "first_seen": "2026-11-11T11:39:11.925965+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mining.com · níquel",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "Gunnison hits rich copper and zinc in Arizona",
+   "link": "https://www.mining.com/gunnison-hits-rich-copper-and-zinc-in-arizona/",
+   "published_at": "2026-11-10T17:19:00+00:00",
+   "first_seen": "2026-11-11T11:38:52.163391+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mining.com",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
+   "title": "China’s copper concentrate imports slump 11% in October as smelter woes deepen",
+   "link": "https://www.mining.com/web/chinas-copper-concentrate-imports-slump-11-in-october-as-smelter-woes-deepen/",
+   "published_at": "2026-11-10T16:59:12+00:00",
+   "first_seen": "2026-11-11T11:39:12.664540+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mining.com · cobre",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
+   "title": "Rare earth price gap flags supply strains ahead of Trump-Xi meet",
+   "link": "https://www.mining.com/web/rare-earth-price-gap-flags-supply-strains-ahead-of-trump-xi-meet/",
+   "published_at": "2026-11-10T16:54:44+00:00",
+   "first_seen": "2026-11-11T11:39:15.623912+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mining.com · terras raras",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Câmara cobra da Prefeitura fiscalização em áreas de terras raras - Jornal da Cidade",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeVRVU19tZU41aC1na3NjX2ZFY2RDNTF0cWV3LUE3WkczcFIwbjJVaVhZcFZFV1VWRE9CbVJSUE8wQ2RjazdGQlZ4Zkd0S0UtXzlIMkE3ME4xX1h3VWF1S0ZTTHN2eG02X0VHd0RCOWZKY2JobldwUDhGZ3NLU1lscl9QaE1PbVBnOF82TDY4RmhsT2NuZEl6NTBaYUxOdlJB?oc=5",
+   "published_at": "2026-11-10T16:17:00+00:00",
+   "first_seen": "2026-11-11T11:39:19.507350+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Nevada Organic Phosphate Announces Cancellation of Proposed Share Consolidation and Special Meeting",
+   "link": "https://resourceworld.com/nevada-organic-phosphate-announces-cancellation-of-proposed-share-consolidation-and-special-meeting/?utm_source=rss&utm_medium=rss&utm_campaign=nevada-organic-phosphate-announces-cancellation-of-proposed-share-consolidation-and-special-meeting",
+   "published_at": "2026-11-10T15:59:24+00:00",
+   "first_seen": "2026-11-11T11:39:10.516237+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Resource World",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "fosfato"
+   ]
+  },
+  {
+   "title": "Uzbekistan mining conference to feature 200-plus industry leaders",
+   "link": "https://www.canadianminingjournal.com/news/uzbekistan-mining-conference-to-feature-200-plus-industry-leaders/",
+   "published_at": "2026-11-10T15:31:13+00:00",
+   "first_seen": "2026-11-11T11:38:57.472662+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Canadian Mining Journal",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "AngloGold Ashanti produz no 3° tri 74 mil onças de ouro no Brasil",
+   "link": "https://revistaminerios.com.br/anglogold-ashanti-produz-74-mil-oncas-ouro-brasil/",
+   "published_at": "2026-11-10T15:15:42+00:00",
+   "first_seen": "2026-11-11T11:38:26.708872+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Revista Minérios",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Serra Verde inicia remessas de terras raras de Goiás para os Estados Unidos - SulMinasTV",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMFFxdmRBVklQYzl2MW5NZDQyQk9oZnVMYWdpb0huOFpUbllMdHJTNjJTT2FNbEt6RHFsNF9sVkstV1pTTHlpYkdrazlJZzNYTHlQWlJVaFVyYU9mZlN6M2xzcV9HXzhDZXZqeTJUMWlkR3lzdXhSdEkwdmdMRmNtSkU5Nm82WTBKOENZQkVHbnItTVVSc1hweTZLdzh3YjZOV3kwdw?oc=5",
+   "published_at": "2026-11-10T15:06:24+00:00",
+   "first_seen": "2026-11-11T11:39:18.444819+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "NHL launches 240 t battery electric rigid mining truck with fixed dual gun & dynamic charging",
+   "link": "https://im-mining.com/2026/11/10/nhl-launches-240-t-battery-electric-rigid-mining-truck-with-fixed-dual-gun-dynamic-charging/",
+   "published_at": "2026-11-10T15:02:18+00:00",
+   "first_seen": "2026-11-11T11:38:57.239233+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "International Mining",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Sponsored Xplor video: XXIX Metal launches 65,000-metre copper drill push",
+   "link": "https://www.northernminer.com/precious-metals/sponsored-xplor-video-xxix-metal-launches-65000-metre-copper-drill-push/1003897648/",
+   "published_at": "2026-11-10T15:00:10+00:00",
+   "first_seen": "2026-11-11T11:38:53.022454+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "The Northern Miner",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
+   "title": "Serra Verde inicia exportação de terras raras para os EUA - CNN Brasil",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb05lampwNHpTeTdFaEdMd1V3Vk11T0NLckFfRm5fdmc3U19XeWYtNmQydDhOLVZ3SVNIUzNLc01fM24tMU5LcEFLT3lSM1ZLSDE2YUVNR3NOeFJpdEhtdGRGVUVSRWs5SVRadkdaQjM2MDktY1Y1R0x4Yjlfc0pBdHJtNlowcjJ5MFZ6VGFtM1c5dFU3RWVPeg?oc=5",
+   "published_at": "2026-11-10T14:42:26+00:00",
+   "first_seen": "2026-11-11T11:39:18.442726+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Q2 Metals Announces PEA with C$13.5 Billion After-Tax NPV₈ for 1.7 Mtpa Cisco Lithium Project in Québec, Canada",
+   "link": "https://resourceworld.com/q2-metals-announces-pea-with-c13-5-billion-after-tax-npv%e2%82%88-for-1-7-mtpa-cisco-lithium-project-in-quebec-canada/?utm_source=rss&utm_medium=rss&utm_campaign=q2-metals-announces-pea-with-c13-5-billion-after-tax-npv%25e2%2582%2588-for-1-7-mtpa-cisco-lithium-project-in-quebec-canada",
+   "published_at": "2026-11-10T14:35:07+00:00",
+   "first_seen": "2026-11-11T11:39:10.517506+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Resource World",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Four Nines Gold Intersects 67 Metres at 1.78 g/t Gold, Reinforcing Emerging Gold Corridor at Hayden Hill",
+   "link": "https://resourceworld.com/four-nines-gold-intersects-67-metres-at-1-78-g-t-gold-reinforcing-emerging-gold-corridor-at-hayden-hill/?utm_source=rss&utm_medium=rss&utm_campaign=four-nines-gold-intersects-67-metres-at-1-78-g-t-gold-reinforcing-emerging-gold-corridor-at-hayden-hill",
+   "published_at": "2026-11-10T14:31:58+00:00",
+   "first_seen": "2026-11-11T11:39:10.518750+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Resource World",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Mineradora australiana identifica terras raras em duas cidades no sul do Tocantins - Gazeta do Cerrado",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNUFSMEZNY2MwUUNJemQ4YUl5cXlCRjR3N3hlblBBaDlXYXJuSHdleEVqODYyMG1SNHVGRWU1aU9EV0lpRHFPczBEWTZFVkY4ZFI5elpsSEp2ZllvMkY5SEo3R0V4M1I0UXJLT0dXbWRyWkdpV3NhTXRXXzJHdmswRHc4Q194N2NuVm1fUlQtYkx4RWpIZm1jTnhKN0NMeURRTlNOLXc0b0NMRkh5T25zd3l1RXpKbHNQb3FSeVNmaGZZdw?oc=5",
+   "published_at": "2026-11-10T14:27:00+00:00",
+   "first_seen": "2026-11-11T11:39:19.504422+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Professor explica lista de minerais críticos e estratégicos do governo federal - Jornal UNIFAL-MG",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS2FYV2xfVV92NmRWZ2ZxRG9mU0o3NWt5NDlQYjRBWS1HVTlKWmFJZ0JZY210em9mX18xNDNQSThELVBqcmRnTUlFdzVpOGxJQ0lCd0tzTVc0Uk1idjNBODdSQWlpQlMxcmxfZTkxQmlFdFhfMEpnZWlWcnIybDJmcDVFNUFxanY0U3BfVTNiY3hMUDJNTkpMc243ZV9ieHdua1ZaeE1qYk81T1V4NC1kXw?oc=5",
+   "published_at": "2026-11-10T14:19:00+00:00",
+   "first_seen": "2026-11-11T11:39:19.503011+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mineradora australiana encontra terras raras em duas cidades do Tocantins e prevê novos estudos até 2027; entenda o que pode acontecer - Sou de Palmas",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNeWFzR1NNeVE4UFJPWlV4U0doYWtJSXFtdTk0MnY1czJHRXR1cDZMSzdBSkFXWFFZM1dNekJfSjdmY2RQSXJuYWo4T0ZSWlJ5bDNCN2lienRZbGRjdERFZURMU3R0ZHE2YzA5STBPMnBtck54OWotVUk4c09Lb2pZWHR5d0tLcDQxTHdzU1RXS3oyVGFRcFNzckxPN2pjVUVkVUlpek5IZFEwbUl2R0xnZUhXNFBBbFp4emtlbi00U2phU1dGbXhHY3BaLUJhVEpQal8tTzVFWV9ZTG5PX2wzZkt0RWZ1UzV1VzU4X2hMV2JrT2pFNllQZkplYUM1azg?oc=5",
+   "published_at": "2026-11-10T14:09:25+00:00",
+   "first_seen": "2026-11-11T11:39:19.505310+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Sponsored Resource Review video: Newfoundland and Labrador targets mining barriers",
+   "link": "https://www.canadianminingjournal.com/news/sponsored-resource-review-video-newfoundland-and-labrador-targets-mining-barriers-2/",
+   "published_at": "2026-11-10T14:07:59+00:00",
+   "first_seen": "2026-11-11T11:38:57.476644+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Canadian Mining Journal",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "American West, Aston Bay look to pre-concentration tech for smaller Storm copper concentrator",
+   "link": "https://im-mining.com/2026/11/10/american-west-aston-bay-look-to-pre-concentration-tech-for-smaller-storm-copper-concentrator/",
+   "published_at": "2026-11-10T14:00:31+00:00",
+   "first_seen": "2026-11-11T11:38:57.243195+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "International Mining",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
+   "title": "Endurance Gold Expands Crown and Lower Imperial Zones 7.79 gpt Au & 0.26% Sb over 4.1 Metres including 48.30 gpt Au & 1.68% Sb over 0.6 m",
+   "link": "https://resourceworld.com/endurance-gold-expands-crown-and-lower-imperial-zones-7-79-gpt-au-0-26-sb-over-4-1-metres-including-48-30-gpt-au-1-68-sb-over-0-6-m/?utm_source=rss&utm_medium=rss&utm_campaign=endurance-gold-expands-crown-and-lower-imperial-zones-7-79-gpt-au-0-26-sb-over-4-1-metres-including-48-30-gpt-au-1-68-sb-over-0-6-m",
+   "published_at": "2026-11-10T13:57:55+00:00",
+   "first_seen": "2026-11-11T11:39:10.520235+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Resource World",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Zoomlion wide body truck fleet at CMOC’s Kisanfu mine in DRC passes 200",
+   "link": "https://im-mining.com/2026/11/10/zoomlion-wide-body-truck-fleet-at-cmocs-kisanfu-mine-in-drc-passes-200/",
+   "published_at": "2026-11-10T13:53:55+00:00",
+   "first_seen": "2026-11-11T11:38:57.245343+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "International Mining",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
+   "title": "Discovery beats forecasts despite higher gold costs",
+   "link": "https://www.mining.com/discovery-beats-forecasts-despite-higher-gold-costs/",
+   "published_at": "2026-11-10T13:53:42+00:00",
+   "first_seen": "2026-11-11T11:38:52.167030+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mining.com",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Gunnison Copper confirms high-grade copper-zinc-silver sulfides at Strong & Harris satellite deposit, Arizona",
+   "link": "https://resourceworld.com/gunnison-copper-confirms-high-grade-copper-zinc-silver-sulfides-at-strong-harris-satellite-deposit-arizona/?utm_source=rss&utm_medium=rss&utm_campaign=gunnison-copper-confirms-high-grade-copper-zinc-silver-sulfides-at-strong-harris-satellite-deposit-arizona",
+   "published_at": "2026-11-10T12:58:38+00:00",
+   "first_seen": "2026-11-11T11:39:10.521901+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Resource World",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
+  {
+   "title": "Agência de Comunicação - Goiás estuda criar secretaria específica para energia e minerais críticos - Estadão Blue Studio",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPX3ZEcnVUWFNhQ19uM1BfdFM0QnVwZmpHeXFSLU5PYzZNMkREdDhzaExwLWlzekIxV2h0bzB5ZDZOdUVBOFB1TW1aU1N0Z3p4MWJKQ01ZZGdVWjgtRmFHT1h5V3BWZ3Fja21pVHI4MWdRVFFpSVpCN1VURnhYYkJxS28tWkp3Z3BzaVpXd1lmdWthbHRDSk1Ua3A3VXFCNmVfd21DNW9sVzV5LXc0WWV4bmhObnhCTEh4MDdLaGV6TjdQR2N4M25rNmVEYTVkcW42R1hDbm5tV0tnaE5xYmZXUXZVUUZvd0l4?oc=5",
+   "published_at": "2026-11-10T12:36:13+00:00",
+   "first_seen": "2026-11-11T11:39:17.025911+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mineradora australiana identifica presença de terras raras em cidades do Tocantins; entenda - G1",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOTmI4NXBVRVJyaGc3ODh1aWVtTnVNYk5TaE1IdFFsUGhYUURMYk1tOWpGaDVUVEJRMmI5VC1PUXBQWnN3MVUyZzA3Skg4SmE2OTlOWllXUWxycHNGdUJBS085amJ3bzdlOW1OMlUtanJ0ZnBCbG9QYjNsSi1yVWs0VUJTRHRiSDVnWWtQSGp6X19QeUJUd2ppdXd4LWNUcnJqUk92NjNmcVlseHNxVW1CNkNpTVJtV0FRcHFWZ3Y0OUUtRC1yU1lpN0EwaW5ZRVF2Vjl3YWFOUk02dFVoczh1a1d4SdIB8gFBVV95cUxQVHZrcF9FUmk4VHpjbml6OUZqaTlfYzF0bHVYNktfaDY3OV91Wnp3T05yLTJzMDItdmJXODVIWV8teUl0ZHdLeUxsLWxSY0VEQTdYWTVYUldCcUR6NFF3ZmZCUmJuNXhETkhjQ0VHLWUyS0tCZjJWaWZ2djhrV1otU0dNbDN3NXhPYTQwWVRwVzVnRkVPMGtaT1JaWXRpQm1odG9QeDdmaDd4TlVBMFliZDRiWE1jd2I4UnFhNXpZRFJTYS1ubHpjRDl5Q1hONjlVQjRiUDZQOTdpelpJMlU1d3o1ZmlreUNVMUVlLUdpX2xJQQ?oc=5",
+   "published_at": "2026-11-10T12:34:01+00:00",
+   "first_seen": "2026-11-11T11:39:19.499335+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Allied reports first gold pour at Kurmuk mine in Ethiopia",
+   "link": "https://resourceworld.com/allied-reports-first-gold-pour-at-kurmuk-mine-in-ethiopia/?utm_source=rss&utm_medium=rss&utm_campaign=allied-reports-first-gold-pour-at-kurmuk-mine-in-ethiopia",
+   "published_at": "2026-11-10T12:17:15+00:00",
+   "first_seen": "2026-11-11T11:39:10.523411+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Resource World",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Arrow secures option to acquire Pannawonica iron ore project",
+   "link": "https://www.mining-technology.com/news/arrow-to-acquire-pannawonica-iron-ore/",
+   "published_at": "2026-11-10T12:14:28+00:00",
+   "first_seen": "2026-11-11T11:39:10.678629+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mining Technology",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Brasil precisa ampliar incentivos para atrair investimentos no refino de minerais críticos",
+   "link": "https://minerabrasil.com.br/brasil-precisa-ampliar-incentivos-para-atrair-investimentos-no-refino-de-minerais-criticos/2026/11/10/",
+   "published_at": "2026-11-10T12:13:59+00:00",
+   "first_seen": "2026-11-11T11:38:27.921584+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Minera Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
   {
    "title": "Schneider Electric explores technology convergence in mining",
    "link": "https://im-mining.com/2026/11/10/schneider-electric-explores-technology-convergence-in-mining/",
@@ -42,6 +1103,19 @@
    "substancias": []
   },
   {
+   "title": "Pasinex Resources resumes Pinargozu Zinc Mine drilling, Turkiye",
+   "link": "https://resourceworld.com/pasinex-resources-resumes-pinargozu-zinc-mine-drilling-turkiye/?utm_source=rss&utm_medium=rss&utm_campaign=pasinex-resources-resumes-pinargozu-zinc-mine-drilling-turkiye",
+   "published_at": "2026-11-10T11:11:08+00:00",
+   "first_seen": "2026-11-11T11:39:10.524705+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Resource World",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Hitachi Energy, LKAB & Scania collaborate on downward pantograph system for Malmberget mining trucks",
    "link": "https://im-mining.com/2026/11/10/hitachi-energy-lkab-scania-collaborate-on-downward-pantograph-system-for-malmberget-mining-trucks/",
    "published_at": "2026-11-10T11:02:34+00:00",
@@ -53,6 +1127,21 @@
    "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Allied Gold pours first gold at Ethiopia’s Kurmuk mine",
+   "link": "https://www.mining.com/allied-gold-pours-first-gold-at-ethiopias-kurmuk-mine/",
+   "published_at": "2026-11-10T11:02:00+00:00",
+   "first_seen": "2026-11-11T11:38:52.168355+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Mining.com",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
   },
   {
    "title": "Gold slips as investors assess hawkish Fed comments, await U.S. inflation data",
@@ -83,6 +1172,19 @@
    "substancias": [
     "cobre"
    ]
+  },
+  {
+   "title": "Brazil Lists 27 Critical Minerals, Prioritizing Rare Earths and EV Materials with $370M Funding Boost - Shanghai Metals Market",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxORWgxSV9iTXpyeHJkQWtGbHRWalVoNzlBZHV2M2hVMWNSN3puZEVyeWYxV1plSWlsYkxqdVo0TlNMajlleXd4RWZWaXdSN2JWTHg0Tk1fbU9QRG92UGVZR0dGS3lwcVhRMHhIQUw1MXFZSDdmWFVXZnNOYnVLazBjTzlkcUVrZlJPUXBvdGtOWmZiS250RW01b2Z3ODZhN3k5cFJMSnduVTNGaGNaM3VlMmhEaHB2NFZCcUJWZVFvUzlvbmFtSXVxMTVfSkJYY00yTkVZS29SN2FpT3NmY1FrZzZleFFMc1c5RjZEWENXNFZlMXlhVy16MC1ieDVoS2cyR1Uwaw?oc=5",
+   "published_at": "2026-11-10T08:07:00+00:00",
+   "first_seen": "2026-11-11T11:39:21.071432+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Allied Gold pours first gold at Ethiopia’s Kurmuk Mine",
@@ -479,6 +1581,21 @@
    "tema": "mineracao",
    "substancias": [
     "niquel"
+   ]
+  },
+  {
+   "title": "Maior produtor de cobre do mundo, país sul-americano prepara US$ 105 bilhões em projetos de mineração e mira produção de 6 milhões de toneladas anuais do metal - CPG Click Petróleo e Gás",
+   "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPNFkwVXpKclpRYWVMLXVLM2NfbXdEX1YzanBQOUtzVWtxSkh5VElmdmV4VXZjLV9lTHhGdURtR2V4OVBwcC1UaVAtRzhTQ1ByMjdoTjVwQmp1NFhIMldQUENWeklaSHIycEJYWWY4UFk0N2prQkVfdXVsam52Z3UxdGFTUXNRWmlUMkptV0s0c2pHRzFyN2cxcm5YYjlBdDJmbVczMGo0dGxaRjJFVV9ydDJSZnpRSE1uV0k3ZS1ORDQzZUVoQjRxZUxHLWZKd3BpYnVIY1B6OUtIM1paYUNNZVExS0xhLXhEZ1JLNURoNndtdGIyTmdhZzRLTUNMc2VZS21ndTM3dld5enhIWkF4ZzF3c0ZKVHA3bUlzRndOdWdVaXdkQlBVcmNfWUFPRW9uUGxvYVl6MDhlZw?oc=5",
+   "published_at": "2026-11-09T19:49:00+00:00",
+   "first_seen": "2026-11-11T11:39:19.509625+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
    ]
   },
   {
@@ -1504,6 +2621,19 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "Brazil picks 27 critical minerals in push for local supply chain - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWVlvRjU0OTF0amNDN2kwdzJDcGZ6eTN1RDh6OTJrMnZGTkQzRkxKVHBNZXNyY1lzdm1LZm5uNmMyT25oVnF2QkYwWHJKVF8tYTdQeTlCclIxbkhaVEZUY09lYjl3eEwzQXdQckk2eFJkYnRLaXlGNHM2LTBKQVF2dElLTlhPSk1JRHA1QVkzTHNuUQ?oc=5",
+   "published_at": "2026-11-08T19:43:12+00:00",
+   "first_seen": "2026-11-11T11:39:21.069083+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Terras raras, Lei Rouanet, Guerra no Irã e SUS na redação: o que caiu no 1º dia do Enem - Jovem Pan",
