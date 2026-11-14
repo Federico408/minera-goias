@@ -23,9 +23,97 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-11-13T11:48:19.173947+00:00",
+ "atualizado_em": "2026-11-14T11:09:47.575322+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "Serra Verde inicia envio de terras raras de Goiás a compradora financiada pelo governo dos EUA - Forças Terrestres",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPXzFRQm1kb25ucVVXM0tRTWU0OGVZRWZsRmlKR040eTgwcHJIRWwzaTgxVXdPSVhhMzZzd09BOF9tMG14NWlnbXZad1BlaUUxOHJMck9LMWJTb0xiZExRamdPaTl3VnhKUnMxY3c2Y2tVdXR1cV9yU1NoNVAwMVpFZUc5THpta01KSjFpSG1HUi1KdDlIYXdFVU50SEQ2TDUwSzl5RXpSZHJfQk9PSnJLVE1rYkRPdGJWVlAtX295SW44enIwN1RYQzFIcw?oc=5",
+   "published_at": "2026-11-14T01:39:05+00:00",
+   "first_seen": "2026-11-14T11:09:43.663147+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Mina de terras raras em Goiás começa a exportar produção para os Estados Unidos - GYN Noticias",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSVdtNGVxWDFXSzl1aUZaNnhKLWs4Uk53NS1hU1BiajZEWjE3VmVwLXl3Y0NxVk1UdUNNVWM2eE55LW5WUEU2M0JkOUt5N0tQN0hvdVEzamNWNWtBYkgtMTVlTTR5dlFBQWpCWTlrYzJVVDRtdDJaUWdnQkFzVHAxV0J4NTRqdmNETGFEZm1Nc1c4TE1rMXpkSVpmTWxPdjBKajdCeXBSMmtEN0RHU3EydUIyMlQyV2kyRFl2NFpR?oc=5",
+   "published_at": "2026-11-13T21:03:00+00:00",
+   "first_seen": "2026-11-14T11:09:42.516678+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Goiás envia primeira remessa comercial de terras raras aos EUA em acordo de 15 anos com o Departamento de Guerra - Tribuna do Planalto",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQV3VSeG1KQUFLTll6R2VPYmZoM21ISkEwX1k3R2RqOG9lVTQ2a3pyTGNmRENiS05qS3RBTXNVNGluS1p5N21KbC1SVG1VRFVROWswcG5yT08tOGVTdlZFV3VscDRRakVhV2xuQ1o0ZTlfRG5uWTFuUUpEYmpITU1mQ1VlRmczaktqc3lQalREOF9OblhrVjV0Uy10WEJNazliY1hGNTdDRGs0TzRsNk1LNkJValpXbFIwT0Qya0d0V3RDbW1lLUIzVGZXTXNjbEhlMWpvTkJXOFJqZTd4WGpz?oc=5",
+   "published_at": "2026-11-13T20:36:00+00:00",
+   "first_seen": "2026-11-14T11:09:44.739710+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Sondas de uma mineradora listada em Nova York acham terras raras em Goiás numa área 60% maior que a de setembro, com 4,3 km de extensão, mas só 22 de uns 180 furos já têm resultado",
+   "link": "https://mineracaobrasil.com/rare-earths-americas-homer-goias-60-mf13m-mhbb01/?utm_source=rss&utm_medium=rss&utm_campaign=rare-earths-americas-homer-goias-60-mf13m-mhbb01",
+   "published_at": "2026-11-13T19:59:37+00:00",
+   "first_seen": "2026-11-14T11:09:14.798331+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Goiás começa a exportar terras raras para os EUA em acordo de 15 anos - Mais Goiás",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdlozUGlYOFJkMWlQZzB3S2F0alUwWS1JbFVCa3otQVJSbnFFUGQ1Z3hDcWRfNkxobjVva25YSk14eWZ1dWJFdDJhNjNaWDVhYWo3UVZBb0ZfMTlKNGxENlZNb05HMzRnWVpqMVZvbEpXWUpVMzdjSmlra2pVOEhLT1JZMmdQYVZKM3I5UGk0SUJVOU5Ec09venRINGMwMFlkdExjVlU4YTZJNHRTRFpmX0hZMVJQQQ?oc=5",
+   "published_at": "2026-11-13T18:32:34+00:00",
+   "first_seen": "2026-11-14T11:09:42.518314+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Mineradora de Goiás inicia exportação comercial de minerais críticos para os Estados Unidos - Diário do Município Anápolis",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTmViaEEzMHN5Z2dETFFrTVZyZkYybnVxelNULVRlOUFlRGxvV1ZRTTA3cUFGbGJqaURtd3dGclRmMm5CLVFkVVZjblpLc3p0SzhaOEpNVm05aTBCR3hCeXZUaWdaaERvMDYyZGhxYXBCbkFyV2Vnanp1cTlqMUFMSXVaTm5XbWMwM0hjT25DZDFsb3NVRzE2bnZSVGtTMzUyUzl3dkdmcWxKd3BESkVDQ3labHhrNnRlLTdKWGZGN2wxLThweDJuX3Y3YzVjMUl0?oc=5",
+   "published_at": "2026-11-13T13:39:00+00:00",
+   "first_seen": "2026-11-14T11:09:42.517305+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
   {
    "title": "Goiás começa a exportar minérios das terras raras para os EUA - O Popular",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRXVtdnUtREE1UEp1SHdmVEVaZzE1b05mMjFHekQxQmdRbHNjb0NqSF9aeHVqY1ZrTnRva2dpbmc0YzhuLWhiZ2F2SVRqc0FqQnNISXZLZEt1aHVsNGh3VGlCMWEyTmhpUXJadEY5bVFxU3U3VTNUNjZXN1pleGNWejUwcHFjZHNhX00tUTl2MFBTcXVPLVg5ZzZGQ1FIYnZrTEtzeWhsbw?oc=5",
@@ -2467,6 +2555,21 @@
    ]
   },
   {
+   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af84178e3f14a3cbb5cc8589626b20f&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
+   "published_at": "2026-08-05T03:20:00+00:00",
+   "first_seen": "2026-11-14T11:09:44.333219+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Goiás aprova política sustentável para impulsionar a mineração de terras raras; entenda o impacto para o estado - Jornal Opção",
    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSEZGZkE5eTd4YURxa0ZHeVdfU3UybVl5aEdmb1plMmU5eGs2azJNQ2FiMFptZXhmVDdmbF9heHNMb25VcWc1VnJhQWVoSXl2akUzdGFJdnBMb011ZmFWeUswbmZWMHlWWGxZNUxVbENIVTJxSmg3Yk4xQmE1dlBWekNkMEdJNHl4T2poTGxTZDczUTRZTkRpY3B4Y2ZDdW8tNWZ2QjFXWEFJekJFWmpySkpGYjdkTUVXVHRqNUJVQWhJeHhZVjZrdEF3SHRMNE82eWIyY1daQWpqSHMtX3JyRGQwOFNETkJEb29ISW81RTVpdktURmEza1dB?oc=5",
    "published_at": "2026-08-04T07:00:00+00:00",
@@ -2523,131 +2626,34 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Maquiada de verde, mineração de terras raras impacta territórios e amplia conflitos pela água em Goiás - ((o))eco | Jornalismo Ambiental",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMWRQY29SSWRRTDk5Qzh4d0FDd0NoRTdLX0V4Uk1RMEtuaFpRZkRsejYxWVdidTFYaFVNc2VTU1h0bW9wMTBoSzJTekhtMFZOekxFa0U5ZjdRanlLcVowNjZ0NDJVTnlRVU9TQTFtTTBIcEd5LTR2Y2k0VGIxemwyLUVWRkNJYm1OQkZ5bEx2ajFFSHJVMHR1OGx5LVc0TmVhX2UxcUxIdmZyNFJZVlR1dFIyYnVCSTZ1NFlVLUVnX2ZTVWVFbUZGUnQ4Z2NYUzg?oc=5",
-   "published_at": "2026-07-27T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.087105+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Mineradora é investigada após moradores denunciarem contaminação por mercúrio e chumbo, em Alto Horizonte - Daqui",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbGk0YkRwLXdJV0M3NERkWEswQzFucUtqODdwdWZzTmhSc05YazNvNUpMemJSdlJrOG5qUXBBNHBXZ21LV3l1YUdkczVYNHFETzdCMjNIeDZfLTJFRXJsSDQ1ekhvdlJhWVRaUTEwRFAya01LUUlPeG1rbkdrRVhsV0ZaaXBLYlRhX0NMNi1CNW50Ylp2UGNVTkk1OGlNUVloVnJlb0xGMTdHTFJxSkpOTDZKQ3k5RkhtZFk5Z25jc3haZFR3d0F5dVl1UkpVNWF2UWFVMFRiQmFwbkQ0ZjNOUjIyVmI?oc=5",
-   "published_at": "2026-07-23T10:42:21+00:00",
-   "first_seen": "2026-09-27T04:07:33.433511+00:00",
-   "regional": 1,
-   "regiao_termo": "alto horizonte",
-   "setorial": 1,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Mineradora é investigada após moradores denunciarem contaminação por mercúrio e chumbo, em Alto Horizonte - O Popular",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOeGpuRUZwVGp5NDJ5SnBlMG9WQXI3cy02WGVaV05wSWdhcXh6V3FtWWFfb2ZvNzdFUHNXN3h4cVdwWE1FYmNFa3VCUC1tNDNuNnliRUljSU5vdkYwUkNGQVFFUVRyWmdOYWJfR0UzQU1wNDJjdVdQRURQS0NjRXVWVHVGVW5VcXhyNFJsM1ltMkFtcHhROWF6aC1wOW1UR1ZXWWFSeldLaHRxYWJKUUNSWGJSdEM1SmZMTm1Qd3k5VDAtT0dLQ3A2WklsNkNiTU8xdzgtSG41dXNTYmZrdWlR?oc=5",
-   "published_at": "2026-07-22T15:30:36+00:00",
-   "first_seen": "2026-09-23T04:07:28.215269+00:00",
-   "regional": 1,
-   "regiao_termo": "alto horizonte",
-   "setorial": 1,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "MPF investiga possíveis impactos ambientais e contaminação em área de mineração em Alto Horizonte - Tribuna do Planalto",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOR0pKbnB2QmxGWkRITkVNd3hKd2N6VFduUTVUbEI4NGlkeWlSR3ZIQlFxaFVpQlp0WnROWDJ6VW9hZ0NlV2NldUwtYmVneVRNcXV4MGF0V1NhUldOZWV5dkdQRmcxVG1oRmZRLWl3UktlQXNHaHZSaFRQVXRONVl1U1U2TWZ6a3d6ajVqOXF3c3FYX3QxRmE0Y0wzaVRrUjZKSW9qNnJxc2VBbF9feGRmRTdpRnBFeEJUcVVSeGl2ZFk4a1VzZzBkT2VYMA?oc=5",
-   "published_at": "2026-07-21T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:28.216255+00:00",
-   "regional": 1,
-   "regiao_termo": "alto horizonte",
-   "setorial": 1,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "O homem que colocou as terras raras de Goiás na órbita de Washington - VEJA",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUzMwVVkzVGJyeWJDSDVEblJEM25naEVwdW1uUVYtSGZUU2lNME5TUElvSjFVakpVaGUtR0lxQmpSUVVfUmhHVk1PN2J6eXBVYlg0N2I5eUJvazFVSmpjQ0VlQjVLY1BxVER1WExPb1hXVUVoZ3ZMUVJSMDZITVRvNTMxVDNCUXphdVFudlRnN0x0UHFQY1FodjgyTU8tMElJUjh1RmtTRlFxdzZIdFVrWTZWOXBLVXFhSFE?oc=5",
-   "published_at": "2026-07-21T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:29.304155+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Marco das terras raras em Goiás impõe limites à concentração da produção em um só país e condiciona benefícios - Jornal Opção",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNmI5cW5Kak5zTDl1MV9vODRJaEhDSTBOTWhzT0xjTjV4TG1wYXdvSExkc3NRclBjTjFDeEVRbEhleXJaRVBHVmZpVWtnVGFWZl9hSE5IbXExZExEZUw2WWVtdDdpbGYxTGV4bW81VHIybzlNVS0tZjlrNkdlekVvSXhsdGN4VE9Wek1pdTYyNnAtZ3dnbHMyYWU4OFp1cTRnaHJhb1hWNWxWUFctR25SOEt4YVE2ZmpiOWNrRTFRWWZzU3Q2NXFmNVNZS0NIay1abmxhVEVMdFNVcFZJS1lNYlkxY2NXaU1wa0M4YkRSdw?oc=5",
-   "published_at": "2026-07-20T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:48:59.253575+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "ALTO HORIZONTE – Lundin Mining recebe reconhecimento nacional por transparência na gestão de gases de efeito estufa - Excelência Notícias",
-   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeHZMc2Jienp0bDlCa2NVUjAxMlFiWHFzQWdoNFF1TXZ1czZZbmZiTmZ5TWtYR2xocnpuQVlWQzFGR3ptYlYxM21WaDdIR0Y5YTNmTXhUXzhsQ3hUZDdzOWtMM0UyWlBNRWkzM2QzY01uQ2lsWm0wWW5nNzBENk1FVjEwalVOQ2NCWHpSUW5sbFA5M0phS21hcV9Kd2JHUWZuZFJpeDFUWjFTMnpTSUZfX1N6SkhXaTZJcVRZb1RPTU9VNzdEVHFlVTVwZm9TY2xpX1ZnR1JFdkQzelM0VFZVTmJtTTNBcENySVdxTEVndDc?oc=5",
-   "published_at": "2026-07-20T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:28.173116+00:00",
-   "regional": 1,
-   "regiao_termo": "alto horizonte",
-   "setorial": 1,
-   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   }
  ],
  "tendencias": [],
- "total": 5500,
- "regionais": 733,
- "setoriais": 5500,
- "regionais_setoriais": 733,
- "fontes_vivas": 60,
+ "total": 5581,
+ "regionais": 747,
+ "setoriais": 5581,
+ "regionais_setoriais": 747,
+ "fontes_vivas": 59,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 1709,
-  "ouro": 1129,
-  "cobre": 520,
-  "litio": 447,
+  "terras_raras": 1726,
+  "ouro": 1154,
+  "cobre": 532,
+  "litio": 450,
   "niquel": 169,
   "uranio": 95,
   "niobio": 45,
   "fosfato": 33,
-  "energia_eletrica": 8
+  "energia_eletrica": 9
  },
  "meses": [
   {
    "mes": "2026-11",
-   "materias": 801,
-   "novas": 79,
-   "regionais": 28,
-   "setoriais": 801,
-   "regionais_setoriais": 28
+   "materias": 871,
+   "novas": 70,
+   "regionais": 34,
+   "setoriais": 871,
+   "regionais_setoriais": 34
   },
   {
    "mes": "2026-10",
@@ -2667,11 +2673,11 @@
   },
   {
    "mes": "2026-08",
-   "materias": 312,
-   "novas": 0,
-   "regionais": 70,
-   "setoriais": 312,
-   "regionais_setoriais": 70
+   "materias": 313,
+   "novas": 1,
+   "regionais": 71,
+   "setoriais": 313,
+   "regionais_setoriais": 71
   },
   {
    "mes": "2026-07",
@@ -2691,18 +2697,18 @@
   },
   {
    "mes": "2026-05",
-   "materias": 186,
-   "novas": 2,
-   "regionais": 104,
-   "setoriais": 186,
-   "regionais_setoriais": 104
+   "materias": 187,
+   "novas": 1,
+   "regionais": 105,
+   "setoriais": 187,
+   "regionais_setoriais": 105
   },
   {
    "mes": "2026-04",
-   "materias": 155,
-   "novas": 2,
+   "materias": 156,
+   "novas": 1,
    "regionais": 55,
-   "setoriais": 155,
+   "setoriais": 156,
    "regionais_setoriais": 55
   },
   {
@@ -2731,22 +2737,22 @@
   },
   {
    "mes": "2025-12",
-   "materias": 134,
+   "materias": 137,
    "novas": 3,
-   "regionais": 118,
-   "setoriais": 134,
-   "regionais_setoriais": 118
+   "regionais": 121,
+   "setoriais": 137,
+   "regionais_setoriais": 121
   },
   {
    "mes": "anteriores",
-   "materias": 623,
+   "materias": 628,
    "novas": 5,
-   "regionais": 228,
-   "setoriais": 623,
-   "regionais_setoriais": 228
+   "regionais": 231,
+   "setoriais": 628,
+   "regionais_setoriais": 231
   }
  ],
- "descartadas": 18726,
+ "descartadas": 19030,
  "veiculos": 55,
  "coleta_desde": "2026-09",
  "janela": "2025-12"
