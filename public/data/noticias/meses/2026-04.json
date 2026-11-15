@@ -1,6 +1,6 @@
 {
  "mes": "2026-04",
- "materias": 156,
+ "materias": 158,
  "itens": [
   {
    "title": "ANM nega recurso de Abdalla; direito minerário fica com LHG, dos irmãos Batista - Agência iNFRA",
@@ -595,6 +595,21 @@
   },
   {
    "title": "Serra Verde: entenda tudo sobre a venda da mineradora brasileira de terras raras para os EUA",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af99ae95ed945a4b114994b4b7ffb06&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fserra-verde-entenda-tudo-sobre-a-venda-da-mineradora-brasileira-de-terras-raras-para-os-eua%2far-AA21F62j&c=8930522291100895173&mkt=en-us",
+   "published_at": "2026-04-24T13:03:00+00:00",
+   "first_seen": "2026-11-15T11:43:37.561683+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Serra Verde: entenda tudo sobre a venda da mineradora brasileira de terras raras para os EUA",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.msn.com%2fpt-br%2fnoticias%2fbrasil%2fserra-verde-entenda-tudo-sobre-a-venda-da-mineradora-brasileira-de-terras-raras-para-os-eua%2far-AA21F62j&c=8930522291100895173&mkt=en-us",
    "published_at": "2026-04-24T12:57:00+00:00",
    "first_seen": "2026-09-19T19:49:02.790539+00:00",
@@ -1172,6 +1187,21 @@
    "setorial": 1,
    "fonte": "Busca · terras raras",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Deputados do PSOL pedem à PGR anulação de venda de terras raras em GO - Agência Brasil",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQkhIbXl3WUwxSFQtZTduXzQ3cG1JWFpUNFYzRGJNRGVOOEpLVFp6c2lGUmkyODdaSUZ1TWlmeURDNEt0bkVscjV0UENIMWpEamNBSml6TjBIeUZ5ZmR6WVlobkpJQ3ZHdGVZLWpSZXJSeE56azkxWm12REw2UFRsS1huQ0V4THRMNTVCTFcwaW1nak5mSlFKTjVxOGVvZWVrVUl2cUh2THdwYWhYR1VLbDR4eTUyYjNZblE2aFZHeU9MZlk?oc=5",
+   "published_at": "2026-04-23T07:00:00+00:00",
+   "first_seen": "2026-11-15T11:43:36.988247+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
