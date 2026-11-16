@@ -23,7 +23,7 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-11-15T11:43:40.993816+00:00",
+ "atualizado_em": "2026-11-16T12:22:53.868411+00:00",
  "ultima_execucao": "partial",
  "itens": [
   {
@@ -2615,14 +2615,14 @@
    ]
   },
   {
-   "title": "Goiás aprova política sustentável para impulsionar a mineração de terras raras; entenda o impacto para o estado - Jornal Opção",
-   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSEZGZkE5eTd4YURxa0ZHeVdfU3UybVl5aEdmb1plMmU5eGs2azJNQ2FiMFptZXhmVDdmbF9heHNMb25VcWc1VnJhQWVoSXl2akUzdGFJdnBMb011ZmFWeUswbmZWMHlWWGxZNUxVbENIVTJxSmg3Yk4xQmE1dlBWekNkMEdJNHl4T2poTGxTZDczUTRZTkRpY3B4Y2ZDdW8tNWZ2QjFXWEFJekJFWmpySkpGYjdkTUVXVHRqNUJVQWhJeHhZVjZrdEF3SHRMNE82eWIyY1daQWpqSHMtX3JyRGQwOFNETkJEb29ISW81RTVpdktURmEza1dB?oc=5",
-   "published_at": "2026-08-04T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:27.092204+00:00",
+   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6afaf59a0bca4d4f986faaf49e3a25ff&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
+   "published_at": "2026-08-05T03:20:00+00:00",
+   "first_seen": "2026-11-16T12:22:50.684723+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
+   "fonte": "Busca · Bing · mineração em Goiás",
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": [
@@ -2631,19 +2631,19 @@
   }
  ],
  "tendencias": [],
- "total": 5621,
- "regionais": 757,
- "setoriais": 5621,
- "regionais_setoriais": 757,
- "fontes_vivas": 60,
+ "total": 5698,
+ "regionais": 766,
+ "setoriais": 5698,
+ "regionais_setoriais": 766,
+ "fontes_vivas": 59,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 1746,
-  "ouro": 1164,
-  "cobre": 533,
-  "litio": 454,
-  "niquel": 170,
-  "uranio": 96,
+  "terras_raras": 1775,
+  "ouro": 1186,
+  "cobre": 536,
+  "litio": 455,
+  "niquel": 171,
+  "uranio": 98,
   "niobio": 46,
   "fosfato": 35,
   "energia_eletrica": 9
@@ -2651,10 +2651,10 @@
  "meses": [
   {
    "mes": "2026-11",
-   "materias": 897,
-   "novas": 26,
+   "materias": 956,
+   "novas": 59,
    "regionais": 36,
-   "setoriais": 897,
+   "setoriais": 956,
    "regionais_setoriais": 36
   },
   {
@@ -2675,11 +2675,11 @@
   },
   {
    "mes": "2026-08",
-   "materias": 314,
-   "novas": 1,
-   "regionais": 72,
-   "setoriais": 314,
-   "regionais_setoriais": 72
+   "materias": 316,
+   "novas": 2,
+   "regionais": 73,
+   "setoriais": 316,
+   "regionais_setoriais": 73
   },
   {
    "mes": "2026-07",
@@ -2692,25 +2692,25 @@
   {
    "mes": "2026-06",
    "materias": 82,
-   "novas": 1,
+   "novas": 0,
    "regionais": 15,
    "setoriais": 82,
    "regionais_setoriais": 15
   },
   {
    "mes": "2026-05",
-   "materias": 189,
-   "novas": 2,
-   "regionais": 107,
-   "setoriais": 189,
-   "regionais_setoriais": 107
+   "materias": 193,
+   "novas": 4,
+   "regionais": 109,
+   "setoriais": 193,
+   "regionais_setoriais": 109
   },
   {
    "mes": "2026-04",
-   "materias": 158,
-   "novas": 2,
+   "materias": 161,
+   "novas": 3,
    "regionais": 55,
-   "setoriais": 158,
+   "setoriais": 161,
    "regionais_setoriais": 55
   },
   {
@@ -2739,22 +2739,22 @@
   },
   {
    "mes": "2025-12",
-   "materias": 140,
+   "materias": 143,
    "novas": 3,
-   "regionais": 124,
-   "setoriais": 140,
-   "regionais_setoriais": 124
+   "regionais": 127,
+   "setoriais": 143,
+   "regionais_setoriais": 127
   },
   {
    "mes": "anteriores",
-   "materias": 633,
-   "novas": 5,
-   "regionais": 233,
-   "setoriais": 633,
-   "regionais_setoriais": 233
+   "materias": 639,
+   "novas": 6,
+   "regionais": 236,
+   "setoriais": 639,
+   "regionais_setoriais": 236
   }
  ],
- "descartadas": 19245,
+ "descartadas": 19498,
  "veiculos": 55,
  "coleta_desde": "2026-09",
  "janela": "2025-12"
