@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 639,
+ "materias": 645,
  "itens": [
   {
    "title": "Repasses da mineração ultrapassam R$ 1 bilhão em novembro — Agência Nacional de Mineração - www.gov.br",
@@ -659,6 +659,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af84178e3f14a3cbb5cc8589626b20f&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
    "published_at": "2025-11-11T04:43:00+00:00",
    "first_seen": "2026-11-14T11:09:44.332589+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras: Estados Unidos financiam projeto em Goiás com até U$ 465 milhões",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6afc4bb14a5a46f689e3f33f4f99e797&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
+   "published_at": "2025-11-11T04:43:00+00:00",
+   "first_seen": "2026-11-17T12:42:25.286412+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -2385,6 +2400,21 @@
   },
   {
    "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6afc4bb14a5a46f689e3f33f4f99e797&url=https%3a%2f%2fwww.thestar.com%2fglobenewswire%2faura-minerals-agrees-to-acquire-the-minera-o-serra-grande-gold-mine-in-goi-s%2farticle_05149c3e-5765-56ae-a3c2-60f6ddc416cb.html&c=15653285175594871912&mkt=en-us",
+   "published_at": "2025-06-02T04:01:00+00:00",
+   "first_seen": "2026-11-17T12:42:25.289610+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aaee72e402a4acfa6f97ce0d1b37450&url=https%3a%2f%2fwww.nasdaq.com%2fpress-release%2faura-minerals-agrees-acquire-mineracao-serra-grande-gold-mine-goias-brazil-2025-06-02&c=4849492903426942237&mkt=en-us",
    "published_at": "2025-06-02T00:00:00+00:00",
    "first_seen": "2026-09-19T19:49:02.791309+00:00",
@@ -4085,6 +4115,34 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6afaf59a0bca4d4f986faaf49e3a25ff&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-11-16T12:22:50.686311+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6afc4bb14a5a46f689e3f33f4f99e797&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-17T12:42:25.285204+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6afc4bb14a5a46f689e3f33f4f99e797&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-17T12:42:25.287142+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -6159,6 +6217,21 @@
    ]
   },
   {
+   "title": "TERRAS RARAS | Alvo Minerals acredita ter descoberto uma nova Serra Verde em Palmeirópolis-TO - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQlV6QmJObzYtaHV4UU9DWDhyQmt2WC1CdnNRYWctcVhLWTFNbkpVY3RaS2lRQklqX1pWeG5NU3Njb2RnaUw5YkV2eVZSZ2ZXOXpnMEpEdnNpQUE3cVJZaUxBT1NMd3haVjJVbDgyczFrTXU4QU1tVmpvSWZmSFVkTkt6aTZyMmctckJESXVDWXBrRkFJTmJ2YmgzMTdZQkJ5dmlaeUN0ZmJBbnlxeklxMEtYcDFvbVE?oc=5",
+   "published_at": "2023-09-28T07:00:00+00:00",
+   "first_seen": "2026-11-17T12:42:24.608274+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Mara Rosa e Serra Verde",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "Explore o mundo da mineração com a tecnologia de realidade virtual da AngloGold Ashanti em Nova Lima",
    "link": "https://mineracaobrasil.com/explore-o-mundo-da-mineracao-com-a-tecnologia-de-realidade-virtual-da-anglogold-ashanti-em-nova-lima/?utm_source=rss&utm_medium=rss&utm_campaign=explore-o-mundo-da-mineracao-com-a-tecnologia-de-realidade-virtual-da-anglogold-ashanti-em-nova-lima",
    "published_at": "2023-09-14T17:39:26+00:00",
@@ -8066,6 +8139,19 @@
    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aelYtZFRqYzgwYVdaT2JLS3ZEaWdOYlkweUdyMm5xdEpUQ0Y5ZDFlSS1BRlRLei1DdE1CVkpnX1RpZWY5bWo1eGlPa2JKd2U4LVpjNkNn?oc=5",
    "published_at": "2020-07-30T06:53:50+00:00",
    "first_seen": "2026-10-16T08:42:08.734706+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Canais de Atendimento — Agência Nacional de Mineração - GOV.BR",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FYWVaQ1pjb0dmZVcydU1DcmNwcWs1aTk1eFVWMFNoaTRsWUJEMmdzZ1BfeUc4WHh3UnBwZHNYSm1TR3RtRDFXNHh1UmYxZi1sQVRKNVhUOG54eVk?oc=5",
+   "published_at": "2020-07-30T06:37:12+00:00",
+   "first_seen": "2026-11-17T12:42:26.949517+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

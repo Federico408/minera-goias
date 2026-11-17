@@ -23,9 +23,50 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-11-16T12:22:53.868411+00:00",
+ "atualizado_em": "2026-11-17T12:42:28.828771+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "Mineração e proteção às mulheres entram no novo desenho do governo goiano - O Hoje",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNN2ZIZlpvdEF4WGQzVjJxV09Wemt6OTFnZVRmODlNOXhha0JEYXF2blhqTVF2eHFFaFJZSFluMlViRkViOF9jT0FIZnRWNTVZcWVSeEhsOVZjcEdpT1hJRTdUX2lTOWVINmY1Umt6M0VLMkhZWVdYYnFlbklZZzR2akFleDBWYkxVbTFTWG5nVjNZMklJWVBDODhBNjRVcFhJcm1MdDN3?oc=5",
+   "published_at": "2026-11-17T11:55:00+00:00",
+   "first_seen": "2026-11-17T12:42:23.314061+00:00",
+   "regional": 1,
+   "regiao_termo": "goiano",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "PORTAS ABERTAS – Lundin Mining abre 45 vagas para Jovem Aprendiz e Aprendiz PCD em Alto Horizonte - Excelência Notícias",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZGZ4Z3NtOVZMdHZjOEVMTjc5SlBmZlctM0RzVVNtNEhmWmZrZjI2V3J3QTExbU9PempsTF9FTklxcTlRb2gtd2hOdm5zU3BMc0tVZHhyc01pTkpGMUgtSE9qNjdWSlJ6UkswS1hFeW1QVTJnb19zTG5yLVdiRmRNYnl2Ym5vY3ZHVllGLXBSLXBVUkxObjQ1RWx4emNoMzdMNUt3WG1aR2RsRlBqVUgxR2JzNUoxVWIxcVZ6N3pmdjYwTDFFamFsUzBqQnF1N3RFRHpVUVhTSWw?oc=5",
+   "published_at": "2026-11-17T03:01:52+00:00",
+   "first_seen": "2026-11-17T12:42:24.019330+00:00",
+   "regional": 1,
+   "regiao_termo": "alto horizonte",
+   "setorial": 1,
+   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "‘Nossa vida não importa?’: vizinhos de mina de cobre relatam contaminação em Goiás - Nexo Jornal",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc0M2cGJ2Q2h4cWNiN1FlaTM4MkwtUVI1SE4zU09taHNwMTVWNjVfeTRvTFpKZmRQZG44RjFBcUZXYkM3TWZ6TDZZeUp3ZjRreXlWOEdiV0VtcTE4WWxpbm9VV3g5bU1vdWZYSmh6cmNmcVBqTENPT1E1ZG5lVmwzd3ZuNTdQc25KM0FLU2pSTXdkQjVUNlZtelVGMGxMWng4MFNFWURUeFVDR2NwQkVya01ybWNMZ1FPMXhLNTNuSzc?oc=5",
+   "published_at": "2026-11-16T22:43:35+00:00",
+   "first_seen": "2026-11-17T12:42:23.312570+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre"
+   ]
+  },
   {
    "title": "Serra Verde inicia envio de terras raras de Goiás a compradora financiada pelo governo dos EUA - Forças Terrestres",
    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPXzFRQm1kb25ucVVXM0tRTWU0OGVZRWZsRmlKR040eTgwcHJIRWwzaTgxVXdPSVhhMzZzd09BOF9tMG14NWlnbXZad1BlaUUxOHJMck9LMWJTb0xiZExRamdPaTl3VnhKUnMxY3c2Y2tVdXR1cV9yU1NoNVAwMVpFZUc5THpta01KSjFpSG1HUi1KdDlIYXdFVU50SEQ2TDUwSzl5RXpSZHJfQk9PSnJLVE1rYkRPdGJWVlAtX295SW44enIwN1RYQzFIcw?oc=5",
@@ -2583,67 +2624,22 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af84178e3f14a3cbb5cc8589626b20f&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-11-14T11:09:44.333219+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af99ae95ed945a4b114994b4b7ffb06&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-11-15T11:43:37.564739+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6afaf59a0bca4d4f986faaf49e3a25ff&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-11-16T12:22:50.684723+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
   }
  ],
  "tendencias": [],
- "total": 5698,
- "regionais": 766,
- "setoriais": 5698,
- "regionais_setoriais": 766,
+ "total": 5787,
+ "regionais": 777,
+ "setoriais": 5787,
+ "regionais_setoriais": 777,
  "fontes_vivas": 59,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 1775,
-  "ouro": 1186,
-  "cobre": 536,
-  "litio": 455,
+  "terras_raras": 1804,
+  "ouro": 1211,
+  "cobre": 547,
+  "litio": 463,
   "niquel": 171,
-  "uranio": 98,
+  "uranio": 99,
   "niobio": 46,
   "fosfato": 35,
   "energia_eletrica": 9
@@ -2651,11 +2647,11 @@
  "meses": [
   {
    "mes": "2026-11",
-   "materias": 956,
-   "novas": 59,
-   "regionais": 36,
-   "setoriais": 956,
-   "regionais_setoriais": 36
+   "materias": 1033,
+   "novas": 77,
+   "regionais": 39,
+   "setoriais": 1033,
+   "regionais_setoriais": 39
   },
   {
    "mes": "2026-10",
@@ -2676,7 +2672,7 @@
   {
    "mes": "2026-08",
    "materias": 316,
-   "novas": 2,
+   "novas": 0,
    "regionais": 73,
    "setoriais": 316,
    "regionais_setoriais": 73
@@ -2699,18 +2695,18 @@
   },
   {
    "mes": "2026-05",
-   "materias": 193,
-   "novas": 4,
-   "regionais": 109,
-   "setoriais": 193,
-   "regionais_setoriais": 109
+   "materias": 195,
+   "novas": 2,
+   "regionais": 111,
+   "setoriais": 195,
+   "regionais_setoriais": 111
   },
   {
    "mes": "2026-04",
-   "materias": 161,
-   "novas": 3,
+   "materias": 162,
+   "novas": 1,
    "regionais": 55,
-   "setoriais": 161,
+   "setoriais": 162,
    "regionais_setoriais": 55
   },
   {
@@ -2739,22 +2735,22 @@
   },
   {
    "mes": "2025-12",
-   "materias": 143,
+   "materias": 146,
    "novas": 3,
-   "regionais": 127,
-   "setoriais": 143,
-   "regionais_setoriais": 127
+   "regionais": 130,
+   "setoriais": 146,
+   "regionais_setoriais": 130
   },
   {
    "mes": "anteriores",
-   "materias": 639,
+   "materias": 645,
    "novas": 6,
-   "regionais": 236,
-   "setoriais": 639,
-   "regionais_setoriais": 236
+   "regionais": 239,
+   "setoriais": 645,
+   "regionais_setoriais": 239
   }
  ],
- "descartadas": 19498,
+ "descartadas": 19849,
  "veiculos": 55,
  "coleta_desde": "2026-09",
  "janela": "2025-12"
