@@ -23,9 +23,22 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-11-17T12:42:28.828771+00:00",
+ "atualizado_em": "2026-11-18T12:35:32.347585+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "Goiano ligado a Wilder é cotado para comando da Agência Nacional de Mineração - Mais Goiás",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUDV2ZFBDakhDRlZDa1B5a0h6NkVEWnpTZ0UwZmZKS3N3SjQyMEVoNVU1UGZhZmI5T1cxb2dfamtDWGotcW1YUWR4YkluMEl1QUc4a0libFpNUHVQcTFJcGJYLVZ0aHRCZEZQd1BPSXFMNmNjcUI0V1FRRlRtdGdiTkthQlB5RHdjR3o4cnp5WGM3d3hPNDVYZ2NOZmdpeEhMbDF2NjlpcnlGVWthSi15Z0RKWnVscV9NdVZLUFRXNmJnalVwdEE?oc=5",
+   "published_at": "2026-11-17T16:44:25+00:00",
+   "first_seen": "2026-11-18T12:35:24.539101+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
   {
    "title": "Mineração e proteção às mulheres entram no novo desenho do governo goiano - O Hoje",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNN2ZIZlpvdEF4WGQzVjJxV09Wemt6OTFnZVRmODlNOXhha0JEYXF2blhqTVF2eHFFaFJZSFluMlViRkViOF9jT0FIZnRWNTVZcWVSeEhsOVZjcEdpT1hJRTdUX2lTOWVINmY1Umt6M0VLMkhZWVdYYnFlbklZZzR2akFleDBWYkxVbTFTWG5nVjNZMklJWVBDODhBNjRVcFhJcm1MdDN3?oc=5",
@@ -2609,49 +2622,34 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af5ab6ca69249518a2f922180628aa1&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-11-12T12:05:00.956605+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
   }
  ],
  "tendencias": [],
- "total": 5787,
- "regionais": 777,
- "setoriais": 5787,
- "regionais_setoriais": 777,
+ "total": 5888,
+ "regionais": 786,
+ "setoriais": 5888,
+ "regionais_setoriais": 786,
  "fontes_vivas": 59,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 1804,
-  "ouro": 1211,
-  "cobre": 547,
-  "litio": 463,
-  "niquel": 171,
-  "uranio": 99,
-  "niobio": 46,
+  "terras_raras": 1839,
+  "ouro": 1231,
+  "cobre": 562,
+  "litio": 468,
+  "niquel": 173,
+  "uranio": 100,
+  "niobio": 47,
   "fosfato": 35,
-  "energia_eletrica": 9
+  "energia_eletrica": 10
  },
  "meses": [
   {
    "mes": "2026-11",
-   "materias": 1033,
-   "novas": 77,
-   "regionais": 39,
-   "setoriais": 1033,
-   "regionais_setoriais": 39
+   "materias": 1123,
+   "novas": 90,
+   "regionais": 40,
+   "setoriais": 1123,
+   "regionais_setoriais": 40
   },
   {
    "mes": "2026-10",
@@ -2671,11 +2669,11 @@
   },
   {
    "mes": "2026-08",
-   "materias": 316,
-   "novas": 0,
-   "regionais": 73,
-   "setoriais": 316,
-   "regionais_setoriais": 73
+   "materias": 317,
+   "novas": 1,
+   "regionais": 74,
+   "setoriais": 317,
+   "regionais_setoriais": 74
   },
   {
    "mes": "2026-07",
@@ -2695,18 +2693,18 @@
   },
   {
    "mes": "2026-05",
-   "materias": 195,
+   "materias": 197,
    "novas": 2,
-   "regionais": 111,
-   "setoriais": 195,
-   "regionais_setoriais": 111
+   "regionais": 113,
+   "setoriais": 197,
+   "regionais_setoriais": 113
   },
   {
    "mes": "2026-04",
-   "materias": 162,
+   "materias": 163,
    "novas": 1,
    "regionais": 55,
-   "setoriais": 162,
+   "setoriais": 163,
    "regionais_setoriais": 55
   },
   {
@@ -2735,22 +2733,22 @@
   },
   {
    "mes": "2025-12",
-   "materias": 146,
-   "novas": 3,
-   "regionais": 130,
-   "setoriais": 146,
-   "regionais_setoriais": 130
+   "materias": 148,
+   "novas": 2,
+   "regionais": 132,
+   "setoriais": 148,
+   "regionais_setoriais": 132
   },
   {
    "mes": "anteriores",
-   "materias": 645,
-   "novas": 6,
-   "regionais": 239,
-   "setoriais": 645,
-   "regionais_setoriais": 239
+   "materias": 650,
+   "novas": 5,
+   "regionais": 242,
+   "setoriais": 650,
+   "regionais_setoriais": 242
   }
  ],
- "descartadas": 19849,
+ "descartadas": 20207,
  "veiculos": 55,
  "coleta_desde": "2026-09",
  "janela": "2025-12"
