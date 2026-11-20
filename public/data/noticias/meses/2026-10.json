@@ -1,6 +1,6 @@
 {
  "mes": "2026-10",
- "materias": 1759,
+ "materias": 1760,
  "itens": [
   {
    "title": "Moradores de Caetité, na Bahia, veem a mina de ferro da Bamin, a ferrovia Fiol e o Porto Sul a caminho da portuguesa Mota-Engil, mas a troca depende de o TCU aceitar mudar o contrato e de R$ 7 bilhões da Vale",
@@ -6739,6 +6739,21 @@
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQR0ZWV1poOU5oTl9BWDBNanpiZUh1RVdVMlFaNE84S0lybVh1eXh6amJrcTFnVUg3UmE2R0hyX3F0eE1lZzJwcVRQOEo5WDBWX0tFbmdzZDlHMFBmU25CMDkzNENhWm5Ed1RzOWstOFJwdlVCRmNBN2hfTTQweVpudUlQVS16VVFPdnp1eUxPanlqdW01TTRjcktwNXZYVDdRZ3c0QnFqXzJtbDVwQnZRQTA3RFp6TENaWDJqUW9vdzg5N29IX1JtLTlwUWRkMFcyc1hWMTdEaw?oc=5",
    "published_at": "2026-10-23T07:00:00+00:00",
    "first_seen": "2026-10-23T09:00:47.204869+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Minerais estratégicos, terras raras e o papel do Brasil no cenário global - Politize!",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUWVBTlhYNXRxdV80VkFadlNQaUdZbnpKb2tpX3NlSnR2aC0yb0VjRE12bWRnT1lHS1NkZzdNZTlaRnFzSGZ1S2NOSUNhZFcyeUxXcm5JSTI4NmE4dUtrUVZJMzhYcVZ2dlotalRZUG80dUNvNDJXd1ZIX2ZpV3Joa0NqckpmSDAwQ3FrWnNOMkpVcGtpQlRNanhXNFVnR2ZRd1RF?oc=5",
+   "published_at": "2026-10-23T07:00:00+00:00",
+   "first_seen": "2026-11-20T12:25:57.812592+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,

@@ -1,6 +1,6 @@
 {
  "mes": "2026-07",
- "materias": 113,
+ "materias": 114,
  "itens": [
   {
    "title": "ANM aprova novas alterações ao regime de Permissão de Lavra Garimpeira - demarest.com.br",
@@ -516,6 +516,19 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "MPF investiga suposta contaminação na Mina Chapada - broadcast.com.br",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYk1JclZLQlRNYWVtNjBqRHZ4TmhOd0VpOUxzSjFmVFZyVHNCdUFqSGJHVGZ5NFduWU9fdUM3eENMcXVPc2ItWU9UNGJWWXVvVDdTNG9pckIwbUtUazAyLVQxSUVBclBfeGRpbVhWUVkwYU1EYUNwNmw1Z3RyZkFfMjV3TQ?oc=5",
+   "published_at": "2026-07-23T07:00:00+00:00",
+   "first_seen": "2026-11-20T12:25:54.850108+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Mineradora é investigada após moradores denunciarem contaminação por mercúrio e chumbo, em Alto Horizonte - O Popular",

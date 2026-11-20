@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 657,
+ "materias": 663,
  "itens": [
   {
    "title": "Repasses da mineração ultrapassam R$ 1 bilhão em novembro — Agência Nacional de Mineração - www.gov.br",
@@ -704,6 +704,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6afeeaa6109e4555810498971ee74333&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
    "published_at": "2025-11-11T04:43:00+00:00",
    "first_seen": "2026-11-19T12:25:10.491191+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras: Estados Unidos financiam projeto em Goiás com até U$ 465 milhões",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b003c55430c4b5285ab846dd6e681b7&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
+   "published_at": "2025-11-11T04:43:00+00:00",
+   "first_seen": "2026-11-20T12:25:57.262520+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -2463,6 +2478,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6afeeaa6109e4555810498971ee74333&url=https%3a%2f%2fwww.thestar.com%2fglobenewswire%2faura-minerals-agrees-to-acquire-the-minera-o-serra-grande-gold-mine-in-goi-s%2farticle_05149c3e-5765-56ae-a3c2-60f6ddc416cb.html&c=15653285175594871912&mkt=en-us",
    "published_at": "2025-06-02T04:01:00+00:00",
    "first_seen": "2026-11-19T12:25:10.497260+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b003c55430c4b5285ab846dd6e681b7&url=https%3a%2f%2fwww.thestar.com%2fglobenewswire%2faura-minerals-agrees-to-acquire-the-minera-o-serra-grande-gold-mine-in-goi-s%2farticle_05149c3e-5765-56ae-a3c2-60f6ddc416cb.html&c=15653285175594871912&mkt=en-us",
+   "published_at": "2025-06-02T04:01:00+00:00",
+   "first_seen": "2026-11-20T12:25:57.265019+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -4268,6 +4298,34 @@
    "substancias": []
   },
   {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b003c55430c4b5285ab846dd6e681b7&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-20T12:25:57.261575+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b003c55430c4b5285ab846dd6e681b7&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-20T12:25:57.263069+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Serpro e ANM lançam Plataforma de Gestão de Recursos Minerais — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVXh2UXZtMGZONEhMemRheHBaaGZkSU4tQXN1SUNoRW9sejN0amhTOTVpVmUxeUxwUGpFa1Z6cFVfdm9FSXRMVXpEMTZqY3hBQnhUOGZMeWNqX1ZGQXUxMkVDV1o2WGpaY2p6WU1jTm12cUVZTUxsZUt2amQxYzlmWnFlRVRRU0E2SEdVRzdzU1BQakFsV2FkOWtIaXZQVnZDSTAwOUlFSnY2SHVT?oc=5",
    "published_at": "2025-05-29T07:00:00+00:00",
@@ -5464,6 +5522,21 @@
    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE04LVgwYld6ZnNwMTB6anlLOFZ2amc3WUVCY1R5dUxYR19LYUl0ODQ5TFBTajJIXzhNOXd0c0poejJHLWJTV0JhaklEU2ltdjhoS19Bc2RwMWRuQ0JlVHc?oc=5",
    "published_at": "2024-08-19T20:14:29+00:00",
    "first_seen": "2026-10-27T09:31:50.183367+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Australiana paga US$ 370 mi e entra em mineração de lítio em MG - Capital Reset",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOTdUNF9kVjloSy1tVENGel9pcTNxR3lRU1h3X3M2WjMwV0N6OGpBc2p4VDRvNG5KSVgxTjBfbF9NTDVZM2hSam04SEUzTUdnZTJoUkl1eVE5aVNEX1k1azZFLUtyV3lCVHVPU2FwUXNaVEpCd3pUX1ZSa21raUItSFZMS2ZmX1V0aGs4Yi04UHNCT0lUMWFjZlBONFItTG5LZnZOc3ZoQUVzOGJueFZfYkJ5SGR3MFE?oc=5",
+   "published_at": "2024-08-15T07:00:00+00:00",
+   "first_seen": "2026-11-20T12:25:58.218884+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -9187,6 +9260,21 @@
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVHJQZmZNWUxYWWdNdHdvbW8yVk9UN0tHWWVNOTA5WEZwb0o2VzJIYjFhV1lqM3hpN1JzVG81NzFCaURqOHdUbVItVk00U1pGbl9mdG16T3hqcTVNdjBKa2RmNVEybnIxNHJKbkY1VWw0Sm1DSG5YdHRfNWpwZ25kZjBTWF9fcnNYWjlrOHlVcEhsc2wxcWNnRm1fenZGVlBPTjB0UXhwZGk?oc=5",
    "published_at": "2013-02-26T08:00:00+00:00",
    "first_seen": "2026-09-23T04:07:27.593169+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niobio"
+   ]
+  },
+  {
+   "title": "Anglo American aprova projeto de nióbio em Goiás - Exame",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS041b3c2S3pmaGxpdmZfNVhndjhtMkpPOHBtbE1CY2VUUUJBZEJwU21CVjRnWGhWN1JmN19pbU43YWpNLXJsdWlXaGFFSjRjbmloclhmc0ZmWWQ1bFZwNnE5WTdUQzhVdXhuQndxVXJJU2MwbnJ4d2s0YW96UjZwQ1ZnX0Q?oc=5",
+   "published_at": "2013-02-26T08:00:00+00:00",
+   "first_seen": "2026-11-20T12:25:55.247488+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,

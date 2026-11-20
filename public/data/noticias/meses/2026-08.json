@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 318,
+ "materias": 320,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -2962,6 +2962,19 @@
    ]
   },
   {
+   "title": "Garimpo ilegal termina com prisões e R$ 1 milhão em máquinas apreendidas em Goiás - Agua Boa News",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNel85aU03Rjk1Y05qeXlZTngxazlsTHMtX3Fia0VvMjAxZ3VGR01tOHQtNlplNGxFTGNyNG5xdmtHOUh5VXZfX0kxM0pYUk03Z2dXTUFiQkZhNzIzOTctSWNGQXNkYzFpVjlIRS1QQXc4RFZvc1JJX0hFWW9BUmNVdU1LbEQyQkFJWXlqbF92aWk1MVNIai1oaHRwV1JVWnhocVlYcUlTanJuNEtiRUZET1Zja3o5cHVUbGNYMWVUa2swc0xwOF9TMi1nR2tYemlaRlNSZ2JiUUxkX1R4TnpMbm9n?oc=5",
+   "published_at": "2026-08-19T07:00:00+00:00",
+   "first_seen": "2026-11-20T12:25:54.850863+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Operação contra garimpo ilegal prende três e apreende R$ 1 milhão em máquinas em Goiás - Portal PaNoRaMa",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUkxsVHZ2SEpZNjJ6cHJxSkU2Q3g0RVNUUHdtSzB3MjB1ak5YczRRV2t2bzQ4NUJ3N0ZGcVBPenZRcURXNGNBOTJxbXFaRnNtNl9DQm9USGhXR1lid3Y5aHJ5RWZoVFN3dXdtTzhxemVMUkxfNG1iRkF1RkFSOHZEdF9yT2pSYjJOdHplb2FZSW00Z3dnZnB4cXUwNE9KU1pSazlyRTFhMmw?oc=5",
    "published_at": "2026-08-18T15:18:16+00:00",
@@ -3702,6 +3715,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Estado de Goiás surge como ponto central da disputa entre Brasil e Estados Unidos em terras raras - BNamericas",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNFVxTzFyaE0tNmhVX3lQVkpxUExOSjVoZXdSQ0pOU0VvY2hNZVVZdEl6cTBYeGdMUjNaQjBwc1pSX0E3V0NuaTFzZDJ1SWx0cExYNy16aVdkdWgyRVo4cm51aGZoNEpQR3owc0pDLTV3LUNUdmlNZENSaGE4bTZyaDhLOHNZWFU2dzJnbE0wN29rUXJZb0dLdDRhaTQxRmlQVVFXT1NJVm8taV81YmlpNm1xOWlIVVY0VnRzMzdoX1R3U2V2QzAwR3pDdktPQmNU?oc=5",
+   "published_at": "2026-08-07T07:00:00+00:00",
+   "first_seen": "2026-11-20T12:25:54.848796+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Agência de Comunicação - Vale nega dívida bilionária de royalties da mineração - Estadão Blue Studio",

@@ -23,9 +23,115 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-11-19T12:25:14.457370+00:00",
+ "atualizado_em": "2026-11-20T12:26:01.406158+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "Jovens de Alto Horizonte, Nova Iguaçu de Goiás e Campinorte têm até quinta (19) para disputar 45 vagas de aprendiz na mina de cobre e ouro da Lundin, com prova marcada para 24 de novembro",
+   "link": "https://mineracaobrasil.com/lundin-jovem-aprendiz-45-vagas-alto-horizonte-chapada/?utm_source=rss&utm_medium=rss&utm_campaign=lundin-jovem-aprendiz-45-vagas-alto-horizonte-chapada",
+   "published_at": "2026-11-20T03:12:25+00:00",
+   "first_seen": "2026-11-20T12:25:12.985087+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": [
+    "cobre",
+    "ouro"
+   ]
+  },
+  {
+   "title": "Trabalhadores das minas de níquel de Barro Alto e Niquelândia, em Goiás, ouvem a Anglo American dizer que fecha as duas se a Europa barrar a venda de US$ 500 milhões à chinesa MMG",
+   "link": "https://mineracaobrasil.com/anglo-american-fechar-barro-alto-codemin-veto-ue-mmg/?utm_source=rss&utm_medium=rss&utm_campaign=anglo-american-fechar-barro-alto-codemin-veto-ue-mmg",
+   "published_at": "2026-11-20T01:12:22+00:00",
+   "first_seen": "2026-11-20T12:25:12.993202+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "Moradores de Nova Roma, em Goiás, esperam para 2029 a mina de terras raras Carina, de US$ 780 milhões, enquanto a Aclara já tira 767 quilos de metal NdPr na planta do Chile",
+   "link": "https://mineracaobrasil.com/aclara-carina-nova-roma-terras-raras-767-kg-ndpr/?utm_source=rss&utm_medium=rss&utm_campaign=aclara-carina-nova-roma-terras-raras-767-kg-ndpr",
+   "published_at": "2026-11-20T00:12:21+00:00",
+   "first_seen": "2026-11-20T12:25:12.997680+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Moradores de Goiandira, Catalão e Pires do Rio veem a ANM liberar 8 pesquisas de monazita, mineral de terras raras, em 7.670 hectares para uma empresa de investimentos, um mês depois do pedido",
+   "link": "https://mineracaobrasil.com/monazita-goiandira-catalao-lancaster-8-alvaras/?utm_source=rss&utm_medium=rss&utm_campaign=monazita-goiandira-catalao-lancaster-8-alvaras",
+   "published_at": "2026-11-19T23:42:20+00:00",
+   "first_seen": "2026-11-20T12:25:12.998502+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Pesquisa busca transformar 160 toneladas de esgoto produzidas em Goiânia em fertilizante; entenda",
+   "link": "https://www.jornalopcao.com.br/cidades/pesquisa-busca-transformar-160-toneladas-de-esgoto-produzindas-em-goiania-em-fertilizante-e-pode-gerar-novo-negocio-para-saneago-e-ufg-entenda-891541/",
+   "published_at": "2026-11-19T22:37:47+00:00",
+   "first_seen": "2026-11-20T12:25:15.722708+00:00",
+   "regional": 1,
+   "regiao_termo": "goiania",
+   "setorial": 1,
+   "fonte": "Jornal Opção",
+   "escopo": "regional",
+   "tema": "geral",
+   "substancias": [
+    "fosfato"
+   ]
+  },
+  {
+   "title": "Moradores de Uruaçu, no norte de Goiás, veem a ANM liberar pesquisa de ouro em 3 áreas que somam 5.332 hectares de uma empresa que pediu 14 áreas no estado em cinco dias de setembro",
+   "link": "https://mineracaobrasil.com/pesquisa-de-ouro-em-uruacu-anm-carrard/?utm_source=rss&utm_medium=rss&utm_campaign=pesquisa-de-ouro-em-uruacu-anm-carrard",
+   "published_at": "2026-11-19T20:12:17+00:00",
+   "first_seen": "2026-11-20T12:25:13.011545+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Quem vive em Palestina de Goiás vê uma mineradora desistir de 7 pedidos de pesquisa de fosfato que somavam quase 10,6 mil hectares no oeste goiano, mas ela segura 2 alvarás do mesmo minério na cidade",
+   "link": "https://mineracaobrasil.com/biondi-desiste-fosfato-palestina-de-goias/?utm_source=rss&utm_medium=rss&utm_campaign=biondi-desiste-fosfato-palestina-de-goias",
+   "published_at": "2026-11-19T17:10:40+00:00",
+   "first_seen": "2026-11-20T12:25:13.023552+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Mineração Brasil",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": [
+    "fosfato"
+   ]
+  },
   {
    "title": "Empresa ligada a grupo dos EUA fará pesquisa de terras raras em Goiás - Capital Digital",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb2ZBU3dhcnp1MndobC0tVnF2eXVVUkxIYjU2SmhJMHU5VE8tSXZFWGpUUDBzRWt2SGJCbXlRMHNNQnVOb1p5eEctMS1SSl9aOFA1T2xkVE01LXhlNlhKOC1nZ3BDeDE1Z290NUF0Q0dZTlNUcHd3WUVpVGVpdS1PODlnMWpaaTgzSk5IajVXVEE2UlNRWnRnVHNuV2lpcEtUMXc?oc=5",
@@ -48,6 +154,19 @@
    "first_seen": "2026-11-19T12:25:08.160860+00:00",
    "regional": 1,
    "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Lundin Mining em Alto Horizonte (GO) abre vagas para Jovem Aprendiz e Aprendiz PCD - STG News",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZzlZR0hVZ1JGei1Yb1hjYTM4TnBFNGJIb3cyeVVpQUZkRUtieXJkYmYzbl9uY1gwNDdHZWdrSWtCZWtXVkpFVi05MEVjY3ZkZGw2Nk1yTWgyVUVlQms2TFVrUWJUZUMzQTlJU0N0UEJzUDExdURjaWo5LTlUS2c0dmZ1RXBmakpoc3NsX2p0dWdwRGliOTRvcVRPRjhpUEw4QVZyeFZjSQ?oc=5",
+   "published_at": "2026-11-18T11:01:55+00:00",
+   "first_seen": "2026-11-20T12:25:54.846321+00:00",
+   "regional": 1,
+   "regiao_termo": "alto horizonte",
    "setorial": 1,
    "fonte": "Busca · mineração em Goiás",
    "escopo": "regional",
@@ -343,6 +462,34 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Lundin Mining Brasil disponibiliza inscrições para banco de talentos em Alto Horizonte (GO) - Portal SR",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSE1ieU1TSnZkVU9ibHFHMGgzdS1mT1I2THBydW9CdGFvcDdvZXFnRGwxMmxPT2otZW96Ml84ay1UTHh6WEd6WjRlUEl5SFZyUjl5Zl9fVzhuWXd1T1l0N1pZd21QV1pfVEMyeGFQMHFKM1lYSm9rY1ZtTjEtZkxOMUpQSHp2NXFLckJ4WjMyVUhVMFVvanlpVXRSemtpM2h1QjM5Sko1Q2xobUMwaWQtbnFWSEQ?oc=5",
+   "published_at": "2026-11-11T15:35:58+00:00",
+   "first_seen": "2026-11-20T12:25:55.875418+00:00",
+   "regional": 1,
+   "regiao_termo": "alto horizonte",
+   "setorial": 1,
+   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Serra Verde inicia vendas de terras raras em Goiás e mira produção de 4 mil toneladas até 2027 - Cidades e Minerais",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZzBmUWxNanBzMTVHUS1sS0NlZGs5bkdRekZyQlBfUVJMbUt3VmRwdlFRS0xsODVVc05UX3lZYW44QVRtYy01NE4tVjhDYUt5MTl5azRhSjRYWVZDd1htcG9DdzFfYVFNVXVHaDYtd2VYb0hqSlhHWmR0RnptZ3FOOGF0d1JZUXpSQUhDeEdUakVpam9KZ2pj?oc=5",
+   "published_at": "2026-11-11T14:54:00+00:00",
+   "first_seen": "2026-11-20T12:25:54.847291+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Terras raras extraídas em Goiás começam a ser vendidas a comprador financiado pelos EUA, com contrato de 15 anos que reserva 100% da produção da primeira fase da mina brasileira",
@@ -1447,6 +1594,19 @@
    "substancias": []
   },
   {
+   "title": "Goiás e Mato Grosso criam políticas para mineração em meio ao avanço da lei de minerais críticos - broadcast.com.br",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaHZfajFSMm01SWdzZzdtWllTdjBQUW85SFNHOFo1c29XV2d3Z3V1ZmlWMVBYcmNDdzhqdW5aQnBBTkpFdDB1bWJTRkpDQXNKbnFQRWVlVWNsbmRiaGxaRmltMFpERVZhSzJiTWVNSndDMVg2aHpQR1JpLWdXZkM0d1gzVHIwU3BEelFmYzY4c2dHeVhLaGJta3FQYm1yaDlEUzByTGlQWFlGdUdiTjJjbGxhSXpxdVg1M1F6MHlDdTc1S25PcHVDSVplLXJIb0V5SjdmM0hwdS0?oc=5",
+   "published_at": "2026-09-15T07:00:00+00:00",
+   "first_seen": "2026-11-20T12:25:54.849335+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Bolsa de Toronto e Braminvest selecionam ativos minerários brasileiros para investidores da TSX",
    "link": "https://brasilmineral.com.br/noticias/bolsa-de-toronto-e-braminvest-selecionam-ativos-minerarios-brasileiros-para-investidores-da-tsx",
    "published_at": "2026-09-11T23:09:10+00:00",
@@ -2113,6 +2273,19 @@
    "substancias": []
   },
   {
+   "title": "Garimpo ilegal termina com prisões e R$ 1 milhão em máquinas apreendidas em Goiás - Agua Boa News",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNel85aU03Rjk1Y05qeXlZTngxazlsTHMtX3Fia0VvMjAxZ3VGR01tOHQtNlplNGxFTGNyNG5xdmtHOUh5VXZfX0kxM0pYUk03Z2dXTUFiQkZhNzIzOTctSWNGQXNkYzFpVjlIRS1QQXc4RFZvc1JJX0hFWW9BUmNVdU1LbEQyQkFJWXlqbF92aWk1MVNIai1oaHRwV1JVWnhocVlYcUlTanJuNEtiRUZET1Zja3o5cHVUbGNYMWVUa2swc0xwOF9TMi1nR2tYemlaRlNSZ2JiUUxkX1R4TnpMbm9n?oc=5",
+   "published_at": "2026-08-19T07:00:00+00:00",
+   "first_seen": "2026-11-20T12:25:54.850863+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Operação contra garimpo ilegal prende três e apreende R$ 1 milhão em máquinas em Goiás - Portal PaNoRaMa",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUkxsVHZ2SEpZNjJ6cHJxSkU2Q3g0RVNUUHdtSzB3MjB1ak5YczRRV2t2bzQ4NUJ3N0ZGcVBPenZRcURXNGNBOTJxbXFaRnNtNl9DQm9USGhXR1lid3Y5aHJ5RWZoVFN3dXdtTzhxemVMUkxfNG1iRkF1RkFSOHZEdF9yT2pSYjJOdHplb2FZSW00Z3dnZnB4cXUwNE9KU1pSazlyRTFhMmw?oc=5",
    "published_at": "2026-08-18T15:18:16+00:00",
@@ -2251,6 +2424,21 @@
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaDRWY3ZQZ2toWnJtcW4tWWxkWkEtRDdJMTU0T2JqZ081dHJteDdGLXozb3dINXNTdzMzanhNU0hNR3Q4MWNZNXc4aUdOWWEwWGg2dk5BR3l0VnBZYTlHVERhU1Q5alpwbU5fTUxMOGlwTFhQWl9EMDkyN3d6QThmZ0hDX3ltV3c0Z0JvSUtvajVGSFNVSTRuRlY3Nk1TZ2U4dnpFQmxPbVA0Zw?oc=5",
    "published_at": "2026-08-07T19:31:12+00:00",
    "first_seen": "2026-09-26T04:07:31.324077+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Estado de Goiás surge como ponto central da disputa entre Brasil e Estados Unidos em terras raras - BNamericas",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNFVxTzFyaE0tNmhVX3lQVkpxUExOSjVoZXdSQ0pOU0VvY2hNZVVZdEl6cTBYeGdMUjNaQjBwc1pSX0E3V0NuaTFzZDJ1SWx0cExYNy16aVdkdWgyRVo4cm51aGZoNEpQR3owc0pDLTV3LUNUdmlNZENSaGE4bTZyaDhLOHNZWFU2dzJnbE0wN29rUXJZb0dLdDRhaTQxRmlQVVFXT1NJVm8taV81YmlpNm1xOWlIVVY0VnRzMzdoX1R3U2V2QzAwR3pDdktPQmNU?oc=5",
+   "published_at": "2026-08-07T07:00:00+00:00",
+   "first_seen": "2026-11-20T12:25:54.848796+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -2425,260 +2613,65 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad72e92d9d34d35808dd0ed9c7d3504&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-10-20T09:04:18.235051+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad87fe3043b4ab59d442ec5fc993325&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-10-21T09:03:31.464204+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ad9d22d1a454dcaac0488c446c8ae2d&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-10-22T09:06:53.299726+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adb223ed13b44159f24ad71ac22b133&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-10-23T09:00:46.718626+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6adc6d8dfcd8481ea171cf4ec267cd0c&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-10-24T08:34:21.760852+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6addc3a772ad4f4fb6ba0fe4f7efeb9e&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-10-25T08:53:59.379537+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae1cb8dbdac41848be67cf64dd5c9de&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-10-28T10:16:45.720743+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae322acd79e4e3dadaf2f24b5fcc8a0&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-10-29T10:40:45.083758+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae5be0bd5a94e039a66a65d7815e019&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-10-31T10:08:12.017859+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae9c6826a5d49d9957c2dfac311feeb&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-11-03T11:33:22.704081+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6aeb1ba7a1c9403a8efd795392d88373&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-11-04T11:48:55.422436+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af056161f8748f0a9eb4b209f5ed59f&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-11-08T10:59:34.296149+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Lei de exploração de terras raras em Goiás é aprovada em definitivo pela Alego; veja regras",
-   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af1bc09966243d7a960d7666831e44e&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2026%2f08%2f05%2flei-de-exploracao-de-terras-raras-em-goias-e-aprovada-em-definitivo-pela-alego-veja-regras.ghtml&c=1076418398509838897&mkt=en-us",
-   "published_at": "2026-08-05T03:20:00+00:00",
-   "first_seen": "2026-11-09T12:26:50.056344+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Bing · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
   }
  ],
  "tendencias": [],
- "total": 5983,
- "regionais": 796,
- "setoriais": 5983,
- "regionais_setoriais": 796,
+ "total": 6093,
+ "regionais": 817,
+ "setoriais": 6093,
+ "regionais_setoriais": 817,
  "fontes_vivas": 59,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 1864,
-  "ouro": 1255,
-  "cobre": 581,
-  "litio": 473,
-  "niquel": 176,
-  "uranio": 101,
-  "niobio": 48,
-  "fosfato": 36,
+  "terras_raras": 1895,
+  "ouro": 1279,
+  "cobre": 594,
+  "litio": 480,
+  "niquel": 177,
+  "uranio": 103,
+  "niobio": 50,
+  "fosfato": 41,
   "energia_eletrica": 10
  },
  "meses": [
   {
    "mes": "2026-11",
-   "materias": 1205,
-   "novas": 82,
-   "regionais": 42,
-   "setoriais": 1205,
-   "regionais_setoriais": 42
+   "materias": 1299,
+   "novas": 94,
+   "regionais": 52,
+   "setoriais": 1299,
+   "regionais_setoriais": 52
   },
   {
    "mes": "2026-10",
-   "materias": 1759,
-   "novas": 0,
+   "materias": 1760,
+   "novas": 1,
    "regionais": 32,
-   "setoriais": 1759,
+   "setoriais": 1760,
    "regionais_setoriais": 32
   },
   {
    "mes": "2026-09",
-   "materias": 1193,
-   "novas": 0,
-   "regionais": 42,
-   "setoriais": 1193,
-   "regionais_setoriais": 42
+   "materias": 1194,
+   "novas": 1,
+   "regionais": 43,
+   "setoriais": 1194,
+   "regionais_setoriais": 43
   },
   {
    "mes": "2026-08",
-   "materias": 318,
-   "novas": 1,
-   "regionais": 75,
-   "setoriais": 318,
-   "regionais_setoriais": 75
+   "materias": 320,
+   "novas": 2,
+   "regionais": 77,
+   "setoriais": 320,
+   "regionais_setoriais": 77
   },
   {
    "mes": "2026-07",
-   "materias": 113,
-   "novas": 0,
+   "materias": 114,
+   "novas": 1,
    "regionais": 15,
-   "setoriais": 113,
+   "setoriais": 114,
    "regionais_setoriais": 15
   },
   {
@@ -2691,18 +2684,18 @@
   },
   {
    "mes": "2026-05",
-   "materias": 199,
+   "materias": 201,
    "novas": 2,
-   "regionais": 115,
-   "setoriais": 199,
-   "regionais_setoriais": 115
+   "regionais": 117,
+   "setoriais": 201,
+   "regionais_setoriais": 117
   },
   {
    "mes": "2026-04",
-   "materias": 164,
+   "materias": 165,
    "novas": 1,
    "regionais": 55,
-   "setoriais": 164,
+   "setoriais": 165,
    "regionais_setoriais": 55
   },
   {
@@ -2731,22 +2724,22 @@
   },
   {
    "mes": "2025-12",
-   "materias": 150,
+   "materias": 152,
    "novas": 2,
-   "regionais": 134,
-   "setoriais": 150,
-   "regionais_setoriais": 134
+   "regionais": 136,
+   "setoriais": 152,
+   "regionais_setoriais": 136
   },
   {
    "mes": "anteriores",
-   "materias": 657,
-   "novas": 7,
-   "regionais": 245,
-   "setoriais": 657,
-   "regionais_setoriais": 245
+   "materias": 663,
+   "novas": 6,
+   "regionais": 249,
+   "setoriais": 663,
+   "regionais_setoriais": 249
   }
  ],
- "descartadas": 20558,
+ "descartadas": 20927,
  "veiculos": 55,
  "coleta_desde": "2026-09",
  "janela": "2025-12"
