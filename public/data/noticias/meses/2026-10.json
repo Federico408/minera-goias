@@ -1,6 +1,6 @@
 {
  "mes": "2026-10",
- "materias": 1760,
+ "materias": 1762,
  "itens": [
   {
    "title": "Moradores de Caetité, na Bahia, veem a mina de ferro da Bamin, a ferrovia Fiol e o Porto Sul a caminho da portuguesa Mota-Engil, mas a troca depende de o TCU aceitar mudar o contrato e de R$ 7 bilhões da Vale",
@@ -593,6 +593,21 @@
    "setorial": 1,
    "fonte": "Busca · terras raras",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Bolsonaro's Election Defeat Could Complicate U.S. Rare Earth Plans - Crude Oil Prices Today | OilPrice.com",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZkQwYzdZcEFyQ0Zsdl80dEZwUmx5aHZGaDZONFh1WUc1eGVaTmZ1R2tqdDB6RW1wQnVEQjIzMkN3VlNfS2UwU1RIX1h1ck1ES0VEUWI0ekdvSUdYVVpVOS1IaG81RlU2aHlOa2tnR1l2dENkaHI2R3BzdTdBMmltWEdQSEdTbUpZampmS19zVjVCdzVYWlV0NmJJcE54MXduU0szVmJNTC1pcjdHTDdUddIBtgFBVV95cUxQMjBIcUh0TXdwbVZaT05XUUhua0Q4OEp0R2RkdGhzTlNDTXpBVE9tb1cwWUxUM3JuQ0MyYl9JYjRaOFgtVjVwLXBvc0cyV29VNDhvMjFEWnZQY18yZXo4UVJGbmZVTF8wZXgtdHRPUVk5ZGNxOUh0WWRPOEtKeHhUeVpaYUFhT0ZubUlMbGdlbWllM3JzZjhvd3hmNjhwWjNNRDJpUEU2VnJMVGtocFRwNDNJdlZsQQ?oc=5",
+   "published_at": "2026-10-30T07:00:00+00:00",
+   "first_seen": "2026-11-21T11:59:33.804284+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
@@ -5092,6 +5107,21 @@
    "setorial": 1,
    "fonte": "Busca · terras raras",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Brazil Rare Earths After Lula Win Serra Verde Explained - Rare Earth Exchanges",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE55RFRfYkxXSXFvakJ4dGR0cG5sV1NCSVhjclBoZXVSemdJc2tZWEtDMEVKejMteVlMbFZFeWxJeFdJVllYNWhTM2Y1XzRkT3loLTNoTE9nUkhLbDVFRFBkdFl6WFUzLWtEZDc1SENDMFVON1NCaDlDLU80VVo?oc=5",
+   "published_at": "2026-10-26T07:00:00+00:00",
+   "first_seen": "2026-11-21T11:59:33.800719+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · rare earth Brazil",
+   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": [
     "terras_raras"
