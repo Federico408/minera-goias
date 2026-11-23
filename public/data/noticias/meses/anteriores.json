@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 670,
+ "materias": 675,
  "itens": [
   {
    "title": "Repasses da mineração ultrapassam R$ 1 bilhão em novembro — Agência Nacional de Mineração - www.gov.br",
@@ -719,6 +719,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b003c55430c4b5285ab846dd6e681b7&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
    "published_at": "2025-11-11T04:43:00+00:00",
    "first_seen": "2026-11-20T12:25:57.262520+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras: Estados Unidos financiam projeto em Goiás com até U$ 465 milhões",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b044635b0284c24987dbd88a85c0627&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
+   "published_at": "2025-11-11T04:43:00+00:00",
+   "first_seen": "2026-11-23T13:57:10.050635+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -1464,6 +1479,21 @@
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUlV1MGduX3JyWFZWcFR4cmVNaHI2eXNISGprMERwbFRJWTFkSmFCWVp2M0owMmpUOC1IVGM5QWpRb1dsMk9sczNmSUhyNVQyMXI4SUtPNUFhVnhseUp2b3pxU0pLNldtWGJ4X2lWeEpYQXJqUjY0YWUzWTA5Q3A2c0kySW5KT1ZteVJNNXMzRmVRaGdsU1VvRkU0cTVyb3ZxR0ZZMFRzSjlwUnRLTy10SG1ER0tCR1JJWnZIWS1HSjRyRlByd1dydVc1WG96eFhhTVNJadIB4wFBVV95cUxQTzdpNkd3cVZFTmxHemdBQW95ZVJFT1QtVWNQLVNOYmxfMFdsQ2FmOE9FUVBMekVETkNOZ2UweEw3d1VRYjd5akFZaHBNMGtOSkNqQlUwbGt1V3JmYWcyUFVUTVZWTW1vN3lWUURISkdKWmRBUVd1OU1QT2kzYlROcUJ2cy1NSmJxWGxULXFwSlh1dFRqOGsyYmZMVFdTZ3ZnM29GWWdWNjY1U2MtT25HeVdSc0dZbDJsaDNFUl82UXdLR254a2hmZnRnQXhOS0pQendXQm9OelhudVV4SDRiQzg3UQ?oc=5",
    "published_at": "2025-09-03T07:00:00+00:00",
    "first_seen": "2026-09-23T04:07:27.556079+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "Cade apura venda das operações de níquel da Anglo American no Brasil à chinesa MMG - Valor Econômico",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUlV1MGduX3JyWFZWcFR4cmVNaHI2eXNISGprMERwbFRJWTFkSmFCWVp2M0owMmpUOC1IVGM5QWpRb1dsMk9sczNmSUhyNVQyMXI4SUtPNUFhVnhseUp2b3pxU0pLNldtWGJ4X2lWeEpYQXJqUjY0YWUzWTA5Q3A2c0kySW5KT1ZteVJNNXMzRmVRaGdsU1VvRkU0cTVyb3ZxR0ZZMFRzSjlwUnRLTy10SG1ER0tCR1JJWnZIWS1HSjRyRlByd1dydVc1WG96eFhhTVNJaQ?oc=5",
+   "published_at": "2025-09-03T07:00:00+00:00",
+   "first_seen": "2026-11-23T13:57:08.258787+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -2523,6 +2553,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b02dc4a1c564d36805db4c15b3ad6f2&url=https%3a%2f%2fwww.thestar.com%2fglobenewswire%2faura-minerals-agrees-to-acquire-the-minera-o-serra-grande-gold-mine-in-goi-s%2farticle_05149c3e-5765-56ae-a3c2-60f6ddc416cb.html&c=15653285175594871912&mkt=en-us",
    "published_at": "2025-06-02T04:01:00+00:00",
    "first_seen": "2026-11-22T12:12:58.308792+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b044635b0284c24987dbd88a85c0627&url=https%3a%2f%2fwww.thestar.com%2fglobenewswire%2faura-minerals-agrees-to-acquire-the-minera-o-serra-grande-gold-mine-in-goi-s%2farticle_05149c3e-5765-56ae-a3c2-60f6ddc416cb.html&c=15653285175594871912&mkt=en-us",
+   "published_at": "2025-06-02T04:01:00+00:00",
+   "first_seen": "2026-11-23T13:57:10.053795+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -4403,6 +4448,34 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b02dc4a1c564d36805db4c15b3ad6f2&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-11-22T12:12:58.305637+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b044635b0284c24987dbd88a85c0627&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-23T13:57:10.049373+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b044635b0284c24987dbd88a85c0627&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-23T13:57:10.051324+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
