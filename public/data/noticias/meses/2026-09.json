@@ -1,6 +1,6 @@
 {
  "mes": "2026-09",
- "materias": 1194,
+ "materias": 1195,
  "itens": [
   {
    "title": "Copper system larger than previously thought a welcome surprise for AZ9",
@@ -13159,6 +13159,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "MMG banks on supply deals to get Anglo nickel deal through - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZzJBQ2tXYlpRUnpqaTh3VUo4YTdlNWd1TWtQWTdXZUlzc1ItaXlSLS12YW5BWmtHZF9qTV9UN19YT2M0bEFOM3ZCNGhMeGhIalFDLWxlWEVaQ3FTU1JSQlpIbGVvOGl1OHQ3cERlbllQR1B5Vl8wamFnbFJNNWh3YlJwaGdCTkc5eUZnRlEyVQ?oc=5",
+   "published_at": "2026-09-16T07:00:00+00:00",
+   "first_seen": "2026-11-24T14:29:54.649322+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
   },
   {
    "title": "Governo federal recomenda avaliação de impactos cumulativos de terras raras no Sul de MG - G1",

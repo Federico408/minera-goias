@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 675,
+ "materias": 687,
  "itens": [
   {
    "title": "Repasses da mineração ultrapassam R$ 1 bilhão em novembro — Agência Nacional de Mineração - www.gov.br",
@@ -745,6 +745,21 @@
    ]
   },
   {
+   "title": "Terras raras: Estados Unidos financiam projeto em Goiás com até U$ 465 milhões",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b059f5fec1f4ad0a454f29a1b369b96&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
+   "published_at": "2025-11-11T04:43:00+00:00",
+   "first_seen": "2026-11-24T14:29:51.334757+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
    "title": "EUA investem R$ 2,5 bilhões na produção de terras raras da Serra Verde, em Goiás - InvestNews - InvestNews",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVGM1VlJkSUlDU3V5Qmp4SC10S3hqaEwzTmFHT3ZzY3l0d213T1ZqYlNZQkdKcTg2aUhKeGcxM3ZnWFhud0tXdU4tcFdGZ1ZONm1DMFcxMmhnc0FvMl9IVzh2NWQwSVZyUExTZ2ItZmdpWXlheHFhV0RidUo4aGZhU2FPTWRCZjBkZDkwWWVCcmg4cUtYb3pPcTFvV0hUUUJKMEdNMDBlQ2RONlg2SDl1em1Gb9IBuAFBVV95cUxNSkFTU2h6cHo5WkpoNjVpUFZrdFhTYXVJZVJGXzI0OFVoUHoxek42V2trWlVtVHZseDhxSVRUOUwzdXdBTVlkMjhkaFcxU00zaEZHQ2t3TlZoRmdkT3VmN3JqVHpCUTE2QzlKOF8zX19RRVpSTHJ3MGRwS0Jpc0Z5bXd0RXdmQnZoV0NOdnpkN1B2UlpCWTM0VTV0MzNTYVVOWVFUVldIRGdDQU1xMUkxaVQ2LWpqdWtZ?oc=5",
    "published_at": "2025-11-08T08:00:00+00:00",
@@ -1303,6 +1318,19 @@
     "fosfato",
     "niobio"
    ]
+  },
+  {
+   "title": "Aura achieves commercial production at Borborema mine in Brazil - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZlZIRm9qT3A4bDBWdWF0c1RRdjhLZ1Q4ZGhJc002YkdoTkRncjd0NnIxdHFGc3MyUlZmeFlnTEZsLXM5WkF5MmJrUDRJR002MkRXbVlJLURTWktmMmZnbU1QNG4wcFpZa1oyVjNCVFdRd3BYQnlsV3FCUEZGY2R2VDJMUQ?oc=5",
+   "published_at": "2025-09-23T07:00:00+00:00",
+   "first_seen": "2026-11-24T14:29:54.651146+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Venda de mina torna China maior fornecedor mundial de níquel - Gazeta do Povo",
@@ -2568,6 +2596,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b044635b0284c24987dbd88a85c0627&url=https%3a%2f%2fwww.thestar.com%2fglobenewswire%2faura-minerals-agrees-to-acquire-the-minera-o-serra-grande-gold-mine-in-goi-s%2farticle_05149c3e-5765-56ae-a3c2-60f6ddc416cb.html&c=15653285175594871912&mkt=en-us",
    "published_at": "2025-06-02T04:01:00+00:00",
    "first_seen": "2026-11-23T13:57:10.053795+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b059f5fec1f4ad0a454f29a1b369b96&url=https%3a%2f%2fwww.thestar.com%2fglobenewswire%2faura-minerals-agrees-to-acquire-the-minera-o-serra-grande-gold-mine-in-goi-s%2farticle_05149c3e-5765-56ae-a3c2-60f6ddc416cb.html&c=15653285175594871912&mkt=en-us",
+   "published_at": "2025-06-02T04:01:00+00:00",
+   "first_seen": "2026-11-24T14:29:51.337650+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -4485,6 +4528,34 @@
    "substancias": []
   },
   {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b059f5fec1f4ad0a454f29a1b369b96&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-24T14:29:51.333659+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b059f5fec1f4ad0a454f29a1b369b96&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-24T14:29:51.335376+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Serpro e ANM lançam Plataforma de Gestão de Recursos Minerais — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVXh2UXZtMGZONEhMemRheHBaaGZkSU4tQXN1SUNoRW9sejN0amhTOTVpVmUxeUxwUGpFa1Z6cFVfdm9FSXRMVXpEMTZqY3hBQnhUOGZMeWNqX1ZGQXUxMkVDV1o2WGpaY2p6WU1jTm12cUVZTUxsZUt2amQxYzlmWnFlRVRRU0E2SEdVRzdzU1BQakFsV2FkOWtIaXZQVnZDSTAwOUlFSnY2SHVT?oc=5",
    "published_at": "2025-05-29T07:00:00+00:00",
@@ -4713,6 +4784,19 @@
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVFJCUHdZZC04cWxubm5HZjVuRjg5eE5XSGZ5NEVWSUdra1NFaGFKQld0NzhkQXNTU2JtLWREc1R5SEVvQXJFTWJyWEJ0OThWX2ZuckVqaWxRY2FuZngzSUdVbkh0TTN1WUhVTDZwV3BXNDlwX0tmYWtEQk9PZl9KcHZJbHRUV2JIbGw1XzBjQnVyY1J5WnoxQkNzeFRVTEVjMVVlLU1TWE4tYzhKNzdmYjJDRW4?oc=5",
    "published_at": "2025-03-27T18:21:42+00:00",
    "first_seen": "2026-09-23T04:07:32.960198+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Grafita 2024 (ano-base 2023).pdf — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTWFUX1p0RVJjVlZnc1d2ZUp6RWtISkxLUnNZNElxak11OTh3VU50YjB6VXkzTWNVd2xOclVUQjE3NjJqbG9oWW95RTFBRFJ2ZFRTMDlVNTM5S3JLOS1aZEpqNUhLS1BWLVk0TUNBLUFkNktTRy1xb3pSaHFWdndfUWRmeDYxanhSakctUm1kY3RWdnJKeGhXQnY1dE5CbnowUjRRNnRwQ0lhZkpFektvR0tWN0lwcVdUR0V1SGh0VlYyWEx1Qkp5dkhkRzJ3dWg5dWZCR192bXN0dDZYZFJ6bjBqMVU?oc=5",
+   "published_at": "2025-03-27T07:00:00+00:00",
+   "first_seen": "2026-11-24T14:29:53.666454+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -5282,6 +5366,19 @@
    "substancias": []
   },
   {
+   "title": "Vale takes full control of Baovale iron ore project - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUjc1aWdDTklRc2dreTNXdFNoN3lxV09KcGdFc2x0dW1zVVZuS2ZXckpsRC1nb0g4d3dOZ2tVNHhGSTYyZXM0bnpsS254ajE2Tkp2clVjdlZvaHNETUtjaVRyR1BEd1BxckRCYTZyR0FfTkJQZEhoTTdnYjJIMm9IYU1Zamxndw?oc=5",
+   "published_at": "2025-02-06T08:00:00+00:00",
+   "first_seen": "2026-11-24T14:29:54.650217+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Explosão de preços do ouro leva Gana a uma “crise iminente” com destruição ambiental acelerada; governo enfrenta pressão",
    "link": "https://mineracaobrasil.com/explosao-de-precos-do-ouro-leva-gana-a-uma-crise-iminente-com-destruicao-ambiental-acelerada-governo-enfrenta-pressao/?utm_source=rss&utm_medium=rss&utm_campaign=explosao-de-precos-do-ouro-leva-gana-a-uma-crise-iminente-com-destruicao-ambiental-acelerada-governo-enfrenta-pressao",
    "published_at": "2025-01-23T10:29:08+00:00",
@@ -5817,10 +5914,10 @@
    "substancias": []
   },
   {
-   "title": "ANM autorizou 870 garimpos em 18 unidades de conservação - poder360.com.br",
+   "title": "ANM autorizou 870 garimpos em 18 unidades de conservação - Poder360",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZTFNVHh2aGJGWVdXUWQzUFBrVmFmNzcwdkZQcHlWdUlRRVg3bEFNeVVaaEtzNUoxWWR0ZXFmQk5DZWZFM2xnZHVWVHNyMWI0MmY2WWN2aVpiU3dCU1dmdVo4NUd6dHBVQ3ZKVXhWZ3RqZlhXQU44NU1STUFOZG9TNXVuQUhoU1RUU3ZIc2Jiei1IN2hOM3hTQ0dMLVgzQTJy?oc=5",
    "published_at": "2024-07-21T07:00:00+00:00",
-   "first_seen": "2026-09-19T19:49:05.701585+00:00",
+   "first_seen": "2026-11-24T14:29:53.096762+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -5909,6 +6006,19 @@
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdkdTeWVTLTd3NnN1MjRFdE9YMVMxRFFLTEhONldmNVhYb1JiNTZqV2cyUVlzZnkwc01HTU5MWlJKZ3VjRGQwYXdnRHdRV2EzaTE2ZDZRTXpJN2pZU1BxY3JSTXI4eklsbjN4Rl8zV1p5ZVRxSEVxS0RvX0xySkR4Ni11cmEwc3hTWVh5OGtzS0NwY3h3RzBqOGdIV3d3dzlPb3QtcHlaUHIzdw?oc=5",
    "published_at": "2024-06-23T07:00:00+00:00",
    "first_seen": "2026-10-04T05:36:51.631747+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Global race for critical minerals… a unique opportunity for Latin America? - Economist Enterprise",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVlhQUTd0SXREVDdGZS1Vem1HVUhwWEZHZHdFVm5SMTlwZ0JXdmxHM3B5dXdpNW1fMjBmYVFHenJBQlZjd2o3OGFQcHBjOXA2cmRkbW1NbmFQTWNwT0g0b1ZtNmpmRXUxWWhRM00td1hEWUl1OTdocU42TkVKMGhER2E3M1QtVHpGbzI5NFJPX0RIczBvWGN0bmFWRkdmODhDcjhLZ3VmUzNZa2QtMmZwVFMtWmdKZ0xYOUY5QkJJaw?oc=5",
+   "published_at": "2024-06-23T07:00:00+00:00",
+   "first_seen": "2026-11-24T14:29:54.647015+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -7363,6 +7473,19 @@
    "substancias": []
   },
   {
+   "title": "Resolução ANM nº 85, 02.12.2021.pdf — Agência Nacional de Mineração - GOV.BR",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcm9mb3RKVE8wcFpWYllDMmhMWE1jVmhMR2NyRE1PU19YZnBkcnp4d2J2clNkMkpJdndwRHh4RjdBcjFZa2pZNFJ3ekNpRlpNYmVuUy1ra3NTRkIza2hwLUE4YmVyTDRDeFllV2RDRnpqSkNjblFrWVQ0bWlic0lReHl4eHZnb2FsSkQxMUtfZ2llMlFpa2J6TUo0NnBJMHR1eG9HYXQ5cFQ3WG5ZaEllXzE5eE9OQ3plczFEZmNDT0ZvVDVwd3pEUGN0d1dCVVlENTFlV0VLUzlpM1dOa3hzRQ?oc=5",
+   "published_at": "2022-09-26T07:00:00+00:00",
+   "first_seen": "2026-11-24T14:29:53.667421+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "ANM | Sexta oferta pública para áreas para lavra garimpeira - Brasil Mineral",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSzdwdGVjVC1oNDZYQUlKV0lmYXdWVGhZU2ItZXVUZTQ5MWZPbWRPcWJvNHd2T1JNYTlxS3JuSkdTVktHWTlBZzNnVG5tTmswdlN2YVhkZ1d3alBhMDRlZGRxS2stdVM2RUdMS0U4ZnFkbEFPdVNVdXpsdE1RZFFsbVU3VmE4V2tqNUtvWnEtR1VhZlo5cXc?oc=5",
    "published_at": "2022-09-16T07:00:00+00:00",
@@ -7385,6 +7508,19 @@
    "setorial": 1,
    "fonte": "Busca · Brazil mining (Reuters)",
    "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "ANM lança sexta rodada de oferta pública de áreas para mineração — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMkwySnFDYXpZUkxpM1pLWG0xWnhQa0N4V0pWM0Zqa0hhdk0xcXM2UnJQVHBYbTlPeFJOVnZrcVludy1XUDdMNkliVG90LVQ4WlFLd2p5Sy1sSFlpcFJZb3Q3WmhQZFdyQ05paElSQlRIQ3pWNXNKYXZnMGhZZmFIbnVrLXlzOVl5d1Jyd0RydmViNHdJM29FYg?oc=5",
+   "published_at": "2022-09-14T07:00:00+00:00",
+   "first_seen": "2026-11-24T14:29:53.665167+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
    "tema": "mineracao",
    "substancias": []
   },
@@ -8799,6 +8935,19 @@
    "substancias": []
   },
   {
+   "title": "Brazil shuts 47 mining dams deemed unsafe - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1MMzR2eU1GOWstd2lWMUlzWVplNllIYlI3RTJwNmRTQ3N5eFJsM3ZlQ1hOejBCajdjLWVwY1B3U1h6NG9pVVJGd2lLSlh1bnBXaVA5ZWJ4QW5tNl9COXFGZVAtT0padUpDQlhQTGZnc2RvODg?oc=5",
+   "published_at": "2020-04-03T07:00:00+00:00",
+   "first_seen": "2026-11-24T14:29:54.652103+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "'Mining was the source of life': inside a dying town - Reuters",
    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NT3ZuajQxcHpGU084Y2lEYW5CTkNmaUg3aHVjOF9tWXh1SlEwUVBUSUViUFBmWW5RWmRtN2RzTDRpSTZyRjY2Y3NvWVdFcVNvdVVBcW5VWkluZXh3?oc=5",
    "published_at": "2020-03-05T08:00:00+00:00",
@@ -9157,6 +9306,19 @@
    "first_seen": "2026-09-23T04:07:28.723988+00:00",
    "regional": 1,
    "regiao_termo": "ouvidor",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Movimento nacional que denuncia danos causados pela mineração demonstra apoio à causa em Catalão - Prefeitura Municipal de Catalão",
+   "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPdVdJeDhFbEpTNU1tbTh6eFlnend3QmhFZUdfU1o2TXZwdGZPNmZwMVprWngyOV9XS241MW03UmNicGRLUTJtMWt0enNxQ2dYS0FjeVNMb3hsaC1TSEhaMWdLUjFxdnV2QWM1RDZ1VVhsZVVwQjhFMzM3NGxPaVA1YkVKanBENUYtTXFSS0ZPVUtHc0dKeTR0STMtOGxSMVdiM0xYLVllTW9RRHdyRGJMdHBmTHVIdU02VFpScHlEWldRcW96ZUdkM21kbHU1cUgzRl9aM0o2MkdwcVUtY3VuR0dPWDRxeDRWV25KQjVVanZmaVdi?oc=5",
+   "published_at": "2018-11-12T08:00:00+00:00",
+   "first_seen": "2026-11-24T14:29:50.016903+00:00",
+   "regional": 1,
+   "regiao_termo": "catalao",
    "setorial": 1,
    "fonte": "Busca · Catalão e Ouvidor",
    "escopo": "regional",

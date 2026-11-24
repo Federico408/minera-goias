@@ -1,6 +1,6 @@
 {
  "mes": "2026-01",
- "materias": 32,
+ "materias": 33,
  "itens": [
   {
    "title": "Chinalco, Rio Tinto close to announcing purchase of Brazil’s CBA - Mining.com",
@@ -428,6 +428,19 @@
    "substancias": [
     "fosfato"
    ]
+  },
+  {
+   "title": "Brazil’s iron ore exports hit annual record in 2025 - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeGdjczFOc0NMWGJxRW5GSVZYWFFPM0FPdWZic0RSVVBmRDB0bkZ3RHVIQzJvRUxIMWQ2WGctZ0VjSXVvWVBiaWpyZGNMdUlWWmlfWFBCREpKNnlZWlkwU1NXZU9hRFk5blp5VUc0TEQ5bnQzM0F4ZWl5M2tYS0tORVBBeEY?oc=5",
+   "published_at": "2026-01-06T08:00:00+00:00",
+   "first_seen": "2026-11-24T14:29:54.645975+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "OURO | PA Gold adquire projeto Faina e planeja mina subterrânea - Brasil Mineral",
