@@ -1,6 +1,6 @@
 {
  "mes": "2026-09",
- "materias": 1195,
+ "materias": 1196,
  "itens": [
   {
    "title": "Copper system larger than previously thought a welcome surprise for AZ9",
@@ -7220,6 +7220,19 @@
     "cobre",
     "ouro"
    ]
+  },
+  {
+   "title": "Estudo mostra impacto da mineração para os municípios - O Popular",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNGdLUW9QdUZzNEt5dElDb1Y4QWpsdWxkcXh4VzJGdGVWUnlvOE1DVlZfakt1OW95dkF2VURyVG9RMUdLbzhPbEwxa1VFeUJqcFFJUmhRQkNCcEQtUWE0VW9zLU5ydU16SXVEZHBLamFBRXpPaFZ1WkJEY0gyaUE2dVc2Y3JrZ0NIX1psNDl6aEhtSm04S0h4MElBUFc?oc=5",
+   "published_at": "2026-09-23T01:57:36+00:00",
+   "first_seen": "2026-11-25T13:48:12.948969+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Adavale Resources lifts gold inventory at Parkes",

@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 687,
+ "materias": 692,
  "itens": [
   {
    "title": "Repasses da mineração ultrapassam R$ 1 bilhão em novembro — Agência Nacional de Mineração - www.gov.br",
@@ -749,6 +749,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b059f5fec1f4ad0a454f29a1b369b96&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
    "published_at": "2025-11-11T04:43:00+00:00",
    "first_seen": "2026-11-24T14:29:51.334757+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Terras raras: Estados Unidos financiam projeto em Goiás com até U$ 465 milhões",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b06e71e3629492ea22c483e54430d11&url=https%3a%2f%2fg1.globo.com%2fgo%2fgoias%2fnoticia%2f2025%2f11%2f11%2fterras-raras-estados-unidos-financiam-projeto-em-goias-com-ate-u-465-milhoes.ghtml&c=9751971250887887700&mkt=en-us",
+   "published_at": "2025-11-11T04:43:00+00:00",
+   "first_seen": "2026-11-25T13:48:15.084957+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -2611,6 +2626,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b059f5fec1f4ad0a454f29a1b369b96&url=https%3a%2f%2fwww.thestar.com%2fglobenewswire%2faura-minerals-agrees-to-acquire-the-minera-o-serra-grande-gold-mine-in-goi-s%2farticle_05149c3e-5765-56ae-a3c2-60f6ddc416cb.html&c=15653285175594871912&mkt=en-us",
    "published_at": "2025-06-02T04:01:00+00:00",
    "first_seen": "2026-11-24T14:29:51.337650+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b06e71e3629492ea22c483e54430d11&url=https%3a%2f%2fwww.thestar.com%2fglobenewswire%2faura-minerals-agrees-to-acquire-the-minera-o-serra-grande-gold-mine-in-goi-s%2farticle_05149c3e-5765-56ae-a3c2-60f6ddc416cb.html&c=15653285175594871912&mkt=en-us",
+   "published_at": "2025-06-02T04:01:00+00:00",
+   "first_seen": "2026-11-25T13:48:15.088856+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -4547,6 +4577,34 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b059f5fec1f4ad0a454f29a1b369b96&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
    "published_at": "2025-06-01T17:00:00+00:00",
    "first_seen": "2026-11-24T14:29:51.335376+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b06e71e3629492ea22c483e54430d11&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-25T13:48:15.083752+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b06e71e3629492ea22c483e54430d11&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-25T13:48:15.086369+00:00",
    "regional": 0,
    "regiao_termo": null,
    "setorial": 1,
@@ -6548,6 +6606,19 @@
    "substancias": [
     "litio"
    ]
+  },
+  {
+   "title": "Observatório da CFEM ficou em 3º lugar no Prêmio Nacional de Educação Fiscal 2023 - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVmMyTmFBTDY5UnJPQlpVY05lbUF5Umhha2RLdHpILU4zUFhiX1dWZWtHakhDQ0YxdEhhb2lMdDRsM3BVeldZem9id0hFNVA5WVNBUXp0Rk82aWNIYlBtR0M3TjR2b3k1ZTJ5R24yUnNLTlBBOXhPVGNleFZKdC1iY1Q1Tlg2eFV1ZjZnVFFhQmZ1NFZkV20tY0RKX2gtUGl1eTBnQ2lRN1ByV3FyMFQ0QnYyclc2VDZJc0RwcW8ySzR6OFh0V1JR?oc=5",
+   "published_at": "2023-12-01T08:00:00+00:00",
+   "first_seen": "2026-11-25T13:48:16.511297+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · CFEM",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Goiás detém 21% da produção de nióbio do País; minério é estratégico para transição energética - Jornal Opção",
