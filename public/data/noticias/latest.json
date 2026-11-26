@@ -23,9 +23,38 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-11-25T13:48:19.225157+00:00",
+ "atualizado_em": "2026-11-26T13:28:15.807088+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "Pesquisa inédita aumenta concentração de terras raras em rejeitos de minas de ouro, em Goiás - O Popular",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPR2FRLVRBUkRBZE40NFR5QVJkU2hjV3QwWEhrejZHa1JWY2tLNU1NSDE0QXh2YjZZanNLRDJ0ZVFaOVdsU2lMaXZFTC1YNWpHUnVZYkZxZldTWWJIVkVHUEJCTzdROE5BV3BON2U1LVhuQk4weUdmYmswSnFFMi1JSzhyR2U1dDNKU0pQUU8wc3dxenhlaG5IY1lNTG1idWpJLXNwd3ozVU1JQTBvczh0cW1Rbm01cHhCd0U4SjRnWVd3Vm5ONFVJbkRGLWNkTFk?oc=5",
+   "published_at": "2026-11-25T18:20:13+00:00",
+   "first_seen": "2026-11-26T13:28:07.988450+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro",
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "A diversificação econômica de Niquelândia já tem um projeto com pesquisa aprovada pela ANM - Jornal Opção",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNaWowMjFlV0MyUVdBVVhTRGpNS1RyeXZwaXIxVi1IQkJ4YUh6YkhCemVkN0NtcVZYR0lRLWdUbGJFNFM3dVlTazNHT1JfWFExcTZJQ2NEbGtPTFBSWThtTHlqS0Q0TE1iNUdJbUVHMjRTODAyT1F2YWF2NmxRSHR6OTdNdTJoUmhZaDV2NDBqYVNBMVVZNm5qbUdqSk1GS1JfTE9hNTRGa1gyMEpIcWsyT2tmZVItZmp1MDd6MlpmQ284ZVRFc2h1T3Z1T3JERFZ2bUx2QVJnYnRhc2R1VHo0?oc=5",
+   "published_at": "2026-11-25T15:47:00+00:00",
+   "first_seen": "2026-11-26T13:28:08.908295+00:00",
+   "regional": 1,
+   "regiao_termo": "niquelandia",
+   "setorial": 1,
+   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
   {
    "title": "Empresa quer pesquisar mais 27 mil hectares de terras raras em Goiás - O Popular",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMWNCMzdqNHNVWUVEQ1BIY0NrX29KcGRScEpUc0ppbUhRbUZxanFuaEdRZmljdWYxeDVHaHhOMVBRZHd4THh2SmZuQjBpaVF1QnM2X0lTSVVFMDhFYmZXOW5hTC13emREaVhscGxWVFVjYW1LLTNRTlVmVFJDZy1vbXFjamVodU42Tm9uLW1SdzRSMjVWT29laThGVUlFaXl3d0FiU3lETklFaUlVeFBSZQ?oc=5",
@@ -454,6 +483,19 @@
    "substancias": [
     "terras_raras"
    ]
+  },
+  {
+   "title": "45 vagas para Jovem Aprendiz e Aprendiz PCD são ofertadas na mineradora Lundin Mining em Alto Horizonte - Portal SR",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVW8zQTFMWUhqVUI5d3NqbFRzdUtqbzdxQTk2YUN4WXdKMGZIbUtWQ1YyV05kbWdhZ1dKLTJRLTJWVHVpNldyU0syYjY5bHNkV3VXVXhjQ0E5UWFJSk9GQnZSd2c2QlhMazNXUW01OHNxSmd0dlpPR2o4TmpJbWtlNnVYQTh6OGVnb283cnRRMzBoS0dnQzhZNlBKeGN2YjA5bkItMHl2TWNQWDBYRUxxbFhRS0MyS3VPeEdDV3BSVG9VRHViNmFV?oc=5",
+   "published_at": "2026-11-18T14:18:38+00:00",
+   "first_seen": "2026-11-26T13:28:08.913008+00:00",
+   "regional": 1,
+   "regiao_termo": "alto horizonte",
+   "setorial": 1,
+   "fonte": "Busca · Niquelândia, Barro Alto e Alto Horizonte",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Governo Lula pode indicar goiano para comandar agência de mineração - Poder Goiás",
@@ -2581,73 +2623,34 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
-  },
-  {
-   "title": "Em carta pública, comunidades afetadas reivindicam direito de participar de decisões que envolvem a mineração em Goiás - Comissão Pastoral da Terra - CPT",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZlBDRnBvS0V4MXhtMnZFWkdwbTFXNGVwaE9FN0k3N1dPb3NRcUg3bERnT1RVTGNjVU5EQjBmTzNrb3BmWWQxMVZxZndZVWYxY0JqNUlGazdYb3VyblBYcmxFVFZnU080dTQtLWtENmVVMUZqRDlmRVYzYi1OU2Vxc2o2Nnc1WjVaM2RqN0pUT1pVeEpkdkRSVkIya3Zoc3BzQVR4aHBCMjJscUZGaG03eEpDSmdCQU5xOEt4TXljQ2w4RjNMTHFNdVg1dHU3dEktVUFLU19R?oc=5",
-   "published_at": "2026-08-20T07:00:00+00:00",
-   "first_seen": "2026-09-24T04:07:21.393368+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Carta do Encontro de Comunidades Atingidas pela Mineração em Goiás - cptnacional.org.br",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeTVlOWdteG5ZbXR4UmlWNkhObzdadGtudEJpMnlQd2d2NGZUeGd4di02ZHlOY0NnWDE1dlpYNU1FajRkZEZMcktVRE85MkFKX09iSUM1OGRkLXZIQTdhQVlBMmdGTjhsQjJjakVSaWpzMjBBVm1GdXg0LWM2NHEwTkJ0U0YyNHhqUXFwWXkxVWJZX1pfZVprRXRCX0hDYzhnSVA1YlZpZE0?oc=5",
-   "published_at": "2026-08-19T13:53:51+00:00",
-   "first_seen": "2026-09-25T04:07:34.836909+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
-  },
-  {
-   "title": "Garimpo ilegal termina com prisões e R$ 1 milhão em máquinas apreendidas em Goiás - Agua Boa News",
-   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNel85aU03Rjk1Y05qeXlZTngxazlsTHMtX3Fia0VvMjAxZ3VGR01tOHQtNlplNGxFTGNyNG5xdmtHOUh5VXZfX0kxM0pYUk03Z2dXTUFiQkZhNzIzOTctSWNGQXNkYzFpVjlIRS1QQXc4RFZvc1JJX0hFWW9BUmNVdU1LbEQyQkFJWXlqbF92aWk1MVNIai1oaHRwV1JVWnhocVlYcUlTanJuNEtiRUZET1Zja3o5cHVUbGNYMWVUa2swc0xwOF9TMi1nR2tYemlaRlNSZ2JiUUxkX1R4TnpMbm9n?oc=5",
-   "published_at": "2026-08-19T07:00:00+00:00",
-   "first_seen": "2026-11-20T12:25:54.850863+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   }
  ],
  "tendencias": [],
- "total": 6504,
- "regionais": 873,
- "setoriais": 6504,
- "regionais_setoriais": 873,
- "fontes_vivas": 60,
+ "total": 6617,
+ "regionais": 884,
+ "setoriais": 6617,
+ "regionais_setoriais": 884,
+ "fontes_vivas": 59,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 2013,
-  "ouro": 1391,
-  "cobre": 652,
-  "litio": 504,
-  "niquel": 185,
-  "uranio": 111,
+  "terras_raras": 2044,
+  "ouro": 1429,
+  "cobre": 661,
+  "litio": 508,
+  "niquel": 188,
+  "uranio": 112,
   "niobio": 54,
-  "fosfato": 45,
+  "fosfato": 46,
   "energia_eletrica": 10
  },
  "meses": [
   {
    "mes": "2026-11",
-   "materias": 1640,
-   "novas": 95,
-   "regionais": 75,
-   "setoriais": 1640,
-   "regionais_setoriais": 75
+   "materias": 1733,
+   "novas": 93,
+   "regionais": 78,
+   "setoriais": 1733,
+   "regionais_setoriais": 78
   },
   {
    "mes": "2026-10",
@@ -2659,16 +2662,16 @@
   },
   {
    "mes": "2026-09",
-   "materias": 1196,
+   "materias": 1197,
    "novas": 1,
    "regionais": 43,
-   "setoriais": 1196,
+   "setoriais": 1197,
    "regionais_setoriais": 43
   },
   {
    "mes": "2026-08",
    "materias": 325,
-   "novas": 2,
+   "novas": 0,
    "regionais": 78,
    "setoriais": 325,
    "regionais_setoriais": 78
@@ -2684,33 +2687,33 @@
   {
    "mes": "2026-06",
    "materias": 85,
-   "novas": 1,
+   "novas": 0,
    "regionais": 15,
    "setoriais": 85,
    "regionais_setoriais": 15
   },
   {
    "mes": "2026-05",
-   "materias": 210,
-   "novas": 2,
-   "regionais": 124,
-   "setoriais": 210,
-   "regionais_setoriais": 124
+   "materias": 211,
+   "novas": 1,
+   "regionais": 125,
+   "setoriais": 211,
+   "regionais_setoriais": 125
   },
   {
    "mes": "2026-04",
-   "materias": 172,
+   "materias": 173,
    "novas": 1,
    "regionais": 55,
-   "setoriais": 172,
+   "setoriais": 173,
    "regionais_setoriais": 55
   },
   {
    "mes": "2026-03",
-   "materias": 59,
-   "novas": 0,
+   "materias": 60,
+   "novas": 1,
    "regionais": 20,
-   "setoriais": 59,
+   "setoriais": 60,
    "regionais_setoriais": 20
   },
   {
@@ -2731,22 +2734,22 @@
   },
   {
    "mes": "2025-12",
-   "materias": 163,
+   "materias": 165,
    "novas": 2,
-   "regionais": 146,
-   "setoriais": 163,
-   "regionais_setoriais": 146
+   "regionais": 148,
+   "setoriais": 165,
+   "regionais_setoriais": 148
   },
   {
    "mes": "anteriores",
-   "materias": 692,
-   "novas": 5,
-   "regionais": 263,
-   "setoriais": 692,
-   "regionais_setoriais": 263
+   "materias": 706,
+   "novas": 14,
+   "regionais": 268,
+   "setoriais": 706,
+   "regionais_setoriais": 268
   }
  ],
- "descartadas": 22297,
+ "descartadas": 22648,
  "veiculos": 55,
  "coleta_desde": "2026-09",
  "janela": "2025-12"

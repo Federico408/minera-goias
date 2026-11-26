@@ -1,6 +1,6 @@
 {
  "mes": "2026-09",
- "materias": 1196,
+ "materias": 1197,
  "itens": [
   {
    "title": "Copper system larger than previously thought a welcome surprise for AZ9",
@@ -15255,6 +15255,21 @@
    "tema": "mineracao",
    "substancias": [
     "litio"
+   ]
+  },
+  {
+   "title": "MMG faces EU antitrust warning over Anglo nickel deal - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNai01aFVDU1E2amRST0RxWnpjaWc4cG1UUVNSMFJqZGh2N2tqVERCWTU3UmdsYlZRdVVZX0w4d3Z2Sno4VzNsMFlZcEZtSmlFOEVtV2pnZ2xXb1NCVkxValNuNjdocTR0SkNYYk1TcU9kcWhxRlVxM1dYbHJ3WHo4N1BlZw?oc=5",
+   "published_at": "2026-09-08T07:00:00+00:00",
+   "first_seen": "2026-11-26T13:28:14.455385+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
    ]
   },
   {
