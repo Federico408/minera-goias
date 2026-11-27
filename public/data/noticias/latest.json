@@ -23,9 +23,70 @@
   "itumbiara": "Itumbiara",
   "quirinopolis": "Quirinópolis"
  },
- "atualizado_em": "2026-11-26T13:28:15.807088+00:00",
+ "atualizado_em": "2026-11-27T13:25:03.294711+00:00",
  "ultima_execucao": "partial",
  "itens": [
+  {
+   "title": "Entenda por que cinco cidades de Goiás receberam autorização para pesquisa de terras raras - O Popular",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOY1IyUW80TE1GS3pHTkZpLU5MWUV6bVZEX2d1TE9oMFdLeWxFNG1ZdnBUN2Jka1VwNGdhVUNBQjZwblRBUW5TSjRNQm5YUlNEMFBmTHRPTVU4SFB6UXhLLXJEZmEtQmk4TE1KTzdXbVNFMDNuMVBhdHpwS09CTlRRQjdRSnp6UkdWRWs0MmVVcGpUNzQ0R2RhTDFPcmNsM2NEUmpzRF9ya3pmbnRTbzNrdEtFN1daWmZtYlQzNUk0QmRSSW9ZcXY0WTl2cmZ3dw?oc=5",
+   "published_at": "2026-11-27T09:46:02+00:00",
+   "first_seen": "2026-11-27T13:24:59.973200+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Veto europeu pode paralisar duas minas de níquel em Goiás - Agrolink",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQ25PNHk3X2R3N0J3UlVFVTNTLVN4ejlGRUhyMWpEeXdDS0N2M1FDWEdmdTRrXzM5b0ZtM2M3OVVPSWpQZmpKdElDa21MOC1NY1h0TkJvMWdKYU5BOXd3Q01vWWpiV1ltSVBTMkFfekdTeGRaZUxmWWZmU3JvYkNOQVdVUEhoaDBEblpOZ1JzR2F1bFdtSHhHeEJQOE1IcjYwNmlGRGJWMURidw?oc=5",
+   "published_at": "2026-11-27T05:59:00+00:00",
+   "first_seen": "2026-11-27T13:24:57.262636+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · níquel e nióbio em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "niquel"
+   ]
+  },
+  {
+   "title": "Pesquisadores de Goiás criam técnica que eleva concentração de terras raras em rejeitos de ouro - Jornal Somos",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSFFqMi1ZTFpQd0ZLOVdSS3Jtc1Npd1Z3aFk4S0puaEswR3N6YmFVMVc2b2N4OXZBOXlkbmExU1pGLV9JTGJ2cF8xb3lUNmk2OHZpOE15RzFtOGFzSGdrMnpBbFhjcjBiT2ZWWEU1V3F1czV4czZWX05wTTFxcWo3eGFHVDlTMEZWdXRseXlab0xjVEpUeHV3UlFYbGJfajVDUEJjX2dVeU9qTkxOSzc4ZnlpX25hdlJCS0NORWstSDJhNF9DVWZaLWZiS2tTTjNfc2c?oc=5",
+   "published_at": "2026-11-27T01:00:57+00:00",
+   "first_seen": "2026-11-27T13:24:57.939109+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Catalão e Ouvidor",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro",
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Entenda por que cinco cidades de Goiás receberam autorização para pesquisa de terras raras - O Popular",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSHRyN1laZkNiSURPZEJBNGd5eG5UN2F6N1JrNnRmWEp6a2g3VGZRQ1Fsb3VpU18zMzlocjBRWWVnN0tOM3JtSWVMSENZQXZrRFJpb1ViNHJ0OTNNYk1wRXZib2sxNGZNLWdBQ3k4VV8zV25ZanFXOWdwUGlDak9wUWxGMHFYeU9JbWxwMy1udzZoUmx2Mk5DRFNzcDNucy01QUZsY2tTcTgySTN6SkVDc0FscVJubDJRb1dub2M1SjYyamZMMGp6cjFBN2k?oc=5",
+   "published_at": "2026-11-26T18:05:31+00:00",
+   "first_seen": "2026-11-27T13:24:59.969588+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
   {
    "title": "Pesquisa inédita aumenta concentração de terras raras em rejeitos de minas de ouro, em Goiás - O Popular",
    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPR2FRLVRBUkRBZE40NFR5QVJkU2hjV3QwWEhrejZHa1JWY2tLNU1NSDE0QXh2YjZZanNLRDJ0ZVFaOVdsU2lMaXZFTC1YNWpHUnVZYkZxZldTWWJIVkVHUEJCTzdROE5BV3BON2U1LVhuQk4weUdmYmswSnFFMi1JSzhyR2U1dDNKU0pQUU8wc3dxenhlaG5IY1lNTG1idWpJLXNwd3ozVU1JQTBvczh0cW1Rbm01cHhCd0U4SjRnWVd3Vm5ONFVJbkRGLWNkTFk?oc=5",
@@ -54,6 +115,36 @@
    "escopo": "regional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "ANM autoriza pesquisa de terras raras em mais de 7,6 mil hectares no sudeste de Goiás - POSITIVA FM",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONmRuWnZfc3E1ZHI5SlhCeXFFQzExWFNCR1pSQzRRYmRXYWQ0NE9QcktkbEk1TndHWjE0RjE1alFSeUZWSy1od1d6UllHaUVIM09NR0NtN1pYMHBIRUc3ajZ3cE5uSnRTYlJyUW96R1FqWHZoRjVuQVZuZFdYYmVJVTRqdWxiLV8wWldTTDktY1NYbTFwcGhZSnE0X0wzak9Edm5TZjYyeDVPNGs2b0ZpWUQ0eUVUUTFQZnJOWUhCR3ZENTQ?oc=5",
+   "published_at": "2026-11-25T13:54:00+00:00",
+   "first_seen": "2026-11-27T13:24:59.979387+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · terras raras",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
+  },
+  {
+   "title": "Goiás avança na corrida pelas terras raras com autorização para pesquisa mineral em mais de 7,6 mil hectares",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0984ab5729462abaa3b841e2f79f57&url=https%3a%2f%2fclickpetroleoegas.com.br%2fgoias-avanca-na-corrida-pelas-terras-raras-com-autorizacao-para-pesquisa-mineral-em-mais-de-76-mil-hectares-rss94%2f&c=10693969866305853082&mkt=en-us",
+   "published_at": "2026-11-25T11:52:00+00:00",
+   "first_seen": "2026-11-27T13:24:59.467936+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "terras_raras"
+   ]
   },
   {
    "title": "Empresa quer pesquisar mais 27 mil hectares de terras raras em Goiás - O Popular",
@@ -2535,110 +2626,22 @@
    "substancias": [
     "terras_raras"
    ]
-  },
-  {
-   "title": "EUA anunciam US$ 750 milhões para garantir terras raras de mina em Goiás - portaltela.com",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUkZrcEpwQURyUXdZd3ZkSGZtOFp2U05kVkt0bzAwa3dUWHpOMlBxNDd6LWZhYndsdVdWX25CZDhfYlV5eGtrMzlUOWVDX1E2U1k0UXBrQ19DMUZPZHB4bUJkLW8yUnlGTzhrNmFaaWV4MndRVWRrOUFTYkV1TW1yY3hKbmhIQjA4THFXdWZFUF9yN1ZRYkRMMTlNclBwMW9fU0VVWllmWlo2eXAzZEJMbUFuWndsXzhiRGRV?oc=5",
-   "published_at": "2026-08-24T07:00:00+00:00",
-   "first_seen": "2026-09-19T18:32:41.839399+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Pentágono anuncia compra de terras raras extraídas em Goiás, usadas na produção de caças, inclusive do F-35 - AEROIN",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQ2gwaUhUOHZ6enhPbWotRTFsbFJ4UWtNNVpmcUFsMmFiNlNhR3dhOE15aEJsV2xta242dDNKbkhxZXI3cmYyS1ZKSUg0d0xKODJoVDlGY25XUVdqY1dpNHlVZnpDMEpWY3M0di1RdUZyc3VRdkZldTVOa2VDX1hKOGRVWnJHZ1FXQkZOdHRjTERLNXFwbUxLb3F0ZkxKUnNta2p2Tk9lSXU1YnlnWTF4RGxrdHhBenlwTk82N1kwQ0F3VXPSAcMBQVVfeXFMTUNoMGlIVDh2enp4T21qLUUxbGxSeFFrTTVaZnFBbDJhYjZTYUd3YThNeWhCbFdsbWtuNnQzSm5IcWVyN3JmMktWSklINHdMSjgyaFQ5RmNuV1FXamNXaTR5VWZ6QzBKVmNzNHYtUXVGcnN1UXZGZXU1TmtlQ19YSjhkVVpyR2dRV0JGTnR0Y0xESzVxcG1MS29xdGZMSlJzbWtqdk5PZUl1NWJ5Z1kxeERsa3R4QXp5cE5PNjdZMENBd1Vz?oc=5",
-   "published_at": "2026-08-24T07:00:00+00:00",
-   "first_seen": "2026-09-23T04:07:30.896901+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · terras raras",
-   "escopo": "nacional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "EUA investem US$ 750 milhões em terras raras de Goiás - SBT News",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTlVRRHZSUHlfQVFHRnBPcC0zSHBYMmhnUXQtNnpkMU12dV9LVUxwMWZIZXZnWGl6RkpjMEFHSV9CWmtzamdocjlLTUFtZV9mTGlQcXQ3X0paRnY3UVVFaEhGdWtRbWlaTU02TENwUTdVSlNmOVdKTnFYc1NmaU5uSnNhZ01jdEFxTTUwMDFraUpaWjJWWjE0T2UzWlI?oc=5",
-   "published_at": "2026-08-24T07:00:00+00:00",
-   "first_seen": "2026-10-05T04:11:28.584740+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · Mara Rosa e Serra Verde",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Terras raras colocam Goiás no mapa da nova economia da mineração - O Hoje",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONXR3TDZBaGgzQWg4VmM3czhieEROQUptejhaa01ucURIUkJJeVZjN2JrQ1BTWUh3VFFWUE5Oa2JpYWtLX2Q4NXBVcEY2eUc3TFNjQW5QaWM4SGxPa3RMWnVLdVRTOFdMZF83YVlpNEJxalNNZ1NqNkFkSm04QnJnOUlpVFAxUmRlcktzLTVtNjVvdmlES0l6ZVpR?oc=5",
-   "published_at": "2026-08-24T07:00:00+00:00",
-   "first_seen": "2026-10-19T09:31:16.219936+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "A engrenagem que transformou terras raras de Goiás em ativo geopolítico dos EUA - Observatório da Mineração",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVWY0R0o4bFF4T01QS2ZHTWd0QkNhZG9UejZUb3A0cXloUElsd3doQ2VEOTc2SXN3QjRBR3lQeVF5ZU1SREVFOUF2RUVJbkswZW5fSU4yXzg1TjdrZ0F5QldZdWpRMXBveUZpOE9iT0U1WXY0Ul92Wm5uNXNYM2huZDVrQk5mSGtQR3hkbWlncFdpaHlESEN3MHJ3NU8zLUJ4VUg0SVdFVVBYdGdFdGdrdzFVc0szNk9XQmx3?oc=5",
-   "published_at": "2026-08-20T15:16:30+00:00",
-   "first_seen": "2026-09-23T04:07:27.092909+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": [
-    "terras_raras"
-   ]
-  },
-  {
-   "title": "Carta do Encontro de Comunidades Atingidas pela Mineração em Goiás - Combate Racismo Ambiental",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbmh4a1J0bHQ5d19kenZHYmxfaVpMUnRZOHAxdDh1NW5fdm4xd2U2VlZFN1B5eGNIeHNrN01BQzZ5cFRIbnZFT0t6VU5uNlliM2xFNV85eUluemVKU3NJOEswbEF4SDl1V3NYSVBSQ3dzMmRJb0wxNWFFUTBNdmlGczE1M2tTajVKb2RiMkp6Y3lQSGJsNlhpSE0zZmpDSnY4U09rSnlTelhwWEJXRG9V?oc=5",
-   "published_at": "2026-08-20T11:30:17+00:00",
-   "first_seen": "2026-09-19T19:48:59.236818+00:00",
-   "regional": 1,
-   "regiao_termo": "goias",
-   "setorial": 1,
-   "fonte": "Busca · mineração em Goiás",
-   "escopo": "regional",
-   "tema": "mineracao",
-   "substancias": []
   }
  ],
  "tendencias": [],
- "total": 6617,
- "regionais": 884,
- "setoriais": 6617,
- "regionais_setoriais": 884,
+ "total": 6701,
+ "regionais": 896,
+ "setoriais": 6701,
+ "regionais_setoriais": 896,
  "fontes_vivas": 59,
  "fontes": 63,
  "substancias": {
-  "terras_raras": 2044,
-  "ouro": 1429,
-  "cobre": 661,
-  "litio": 508,
-  "niquel": 188,
-  "uranio": 112,
+  "terras_raras": 2065,
+  "ouro": 1450,
+  "cobre": 670,
+  "litio": 515,
+  "niquel": 189,
+  "uranio": 113,
   "niobio": 54,
   "fosfato": 46,
   "energia_eletrica": 10
@@ -2646,11 +2649,11 @@
  "meses": [
   {
    "mes": "2026-11",
-   "materias": 1733,
-   "novas": 93,
-   "regionais": 78,
-   "setoriais": 1733,
-   "regionais_setoriais": 78
+   "materias": 1803,
+   "novas": 70,
+   "regionais": 84,
+   "setoriais": 1803,
+   "regionais_setoriais": 84
   },
   {
    "mes": "2026-10",
@@ -2663,7 +2666,7 @@
   {
    "mes": "2026-09",
    "materias": 1197,
-   "novas": 1,
+   "novas": 0,
    "regionais": 43,
    "setoriais": 1197,
    "regionais_setoriais": 43
@@ -2694,24 +2697,24 @@
   },
   {
    "mes": "2026-05",
-   "materias": 211,
-   "novas": 1,
-   "regionais": 125,
-   "setoriais": 211,
-   "regionais_setoriais": 125
+   "materias": 213,
+   "novas": 2,
+   "regionais": 126,
+   "setoriais": 213,
+   "regionais_setoriais": 126
   },
   {
    "mes": "2026-04",
-   "materias": 173,
+   "materias": 174,
    "novas": 1,
    "regionais": 55,
-   "setoriais": 173,
+   "setoriais": 174,
    "regionais_setoriais": 55
   },
   {
    "mes": "2026-03",
    "materias": 60,
-   "novas": 1,
+   "novas": 0,
    "regionais": 20,
    "setoriais": 60,
    "regionais_setoriais": 20
@@ -2734,22 +2737,22 @@
   },
   {
    "mes": "2025-12",
-   "materias": 165,
+   "materias": 167,
    "novas": 2,
-   "regionais": 148,
-   "setoriais": 165,
-   "regionais_setoriais": 148
+   "regionais": 150,
+   "setoriais": 167,
+   "regionais_setoriais": 150
   },
   {
    "mes": "anteriores",
-   "materias": 706,
-   "novas": 14,
-   "regionais": 268,
-   "setoriais": 706,
-   "regionais_setoriais": 268
+   "materias": 715,
+   "novas": 9,
+   "regionais": 271,
+   "setoriais": 715,
+   "regionais_setoriais": 271
   }
  ],
- "descartadas": 22648,
+ "descartadas": 23037,
  "veiculos": 55,
  "coleta_desde": "2026-09",
  "janela": "2025-12"

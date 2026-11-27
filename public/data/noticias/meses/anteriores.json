@@ -1,6 +1,6 @@
 {
  "mes": "anteriores",
- "materias": 706,
+ "materias": 715,
  "itens": [
   {
    "title": "Repasses da mineração ultrapassam R$ 1 bilhão em novembro — Agência Nacional de Mineração - www.gov.br",
@@ -1166,6 +1166,34 @@
    ]
   },
   {
+   "title": "Vale do Lítio: exploração de metais críticos impacta comunidades em MG - Brasil de Fato",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOT1lHYV84SDA5MjlkNW14M2lNaWFxYzdvY0NYVURxRFc0NDhjeWI0SXFFdFdGbnp2a0tBd0R3c21NSjlMX29VYkNydjlHXzZHTjRvd2pxNHBybjdBNGJnV05kdkxIdUV3d0ZtS3dIWHVVM3FCV0hTZzZibFpRMTE1amotS2FrT3JiMWR1RjhibjlRN0lwcDd5aXRsc2kzQzRhcUlyalNJMjRlSGRzQzh1UXI3OA?oc=5",
+   "published_at": "2025-10-05T07:00:00+00:00",
+   "first_seen": "2026-11-27T13:25:00.318159+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
+  },
+  {
+   "title": "Orientações — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTHRDWlkxMjdmX1NJRnd5XzNGaU1rSk9YUWk0amg4LWpHNHlKdUNfZDJfc1hwbklVVkI3YXRhS0hGOE5uVDhwaTZxZ0c2SlVVLUJBakZJNUJVUmxfQ0t3VFBhMmt5eFpKdVJxWUpEcTA5R2dOMEhrbW1ZNGlRUTFXbmFOYTJuWWpENzJpblZSaXloZw?oc=5",
+   "published_at": "2025-10-05T00:37:37+00:00",
+   "first_seen": "2026-11-27T13:25:01.357314+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Para que serve o níquel, quem domina o mercado e qual a posição do Brasil - Folha de S.Paulo",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNM3VaejZmeGREWllPa1FaOW1KNkExRzRTTWxRcU5TMU1ka25MMzF0Vkl1dldMTnotVVIzRUVoMUdjbW0zYWZDdTRsNzJ0YWx1Wi1GaTFrTTV3bVB3dHprT0JVNnQwdmhpLXJEaHYxc1AwVS10Q29TNGlFMFExZ2Ruc0xRQnFTUjRsQy1BOUhOcFlBdE92cGRtdGNJcVJZSk1aWklmR1RtN3JSNXhMLUJ5aUY2UEpJdGhWVHdrOFJEVWVxUdIBxwFBVV95cUxOenNvMTlDcU9rZlBreWs1LUdiVU53TEdQZzRJYnFUSF9HVDZEU0ZBQURCSmR1bDF2M2xhdmxlV211V0VvM3kyVGFldmdpSG56c2FBelF2LWc5V21fQjFWbUc4R1FiejZJNDF5SzhrOEtiOGJOTzRsUHlDcWd1bmRZYXM3UWlQdVRHNzRQOTBwYjRxYVdoTXQzTlJNdW5DMUp1S0F2T09zTjNpRmR4MWEtRHlCUTNoYndaOE9YdFZxUGpuZm8yMF8w?oc=5",
    "published_at": "2025-10-04T07:00:00+00:00",
@@ -2034,6 +2062,19 @@
    ]
   },
   {
+   "title": "GOIÁS | Lundin Mining investe US$ 100 milhões em projetos - Brasil Mineral",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUlNXalRxajBtZW4zd0xUNUNSdXo3S2NyLVpJOGxkcG9uZEJuWXpZQXhpdWt2UkNycklHcHBOTm9PUVQ1WEp5Nk1TaHlMRDJFalRFUFBnZGlINFF6QWFZaWwyeVRJd3ZSRHgtV2pYMWxMRVVGTTFXQVFZcGtEczFPc1JlTlVLX3kwZ0l2RVI0UQ?oc=5",
+   "published_at": "2025-08-07T07:00:00+00:00",
+   "first_seen": "2026-11-27T13:24:57.002548+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "ANM convoca Claúdio Freire, superintendente de outorga, para cargo de diretor substituto - Agência iNFRA",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcW1VMWhINkxMUHotNWlKb04yMnNRMm5RMHhfVjBrV2JTMzRrOWw0ZGNZWmZmRS1EUXBKNVhBUGZhU182enU1RkNSNE1aSF9OYW9SWC1VcG1OVHV1dTIzeDVBNU9ZV2lLWGFPZ08tSE92bmVfN21JazlLZFJJeXBsdDdGZlYwTjg0ZWpuSlp0RjVWYXAwdEF5anBKWHNjUQ?oc=5",
    "published_at": "2025-08-05T07:00:00+00:00",
@@ -2697,6 +2738,21 @@
    "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0833ea734541349e819d92c63f1c4e&url=https%3a%2f%2fwww.thestar.com%2fglobenewswire%2faura-minerals-agrees-to-acquire-the-minera-o-serra-grande-gold-mine-in-goi-s%2farticle_05149c3e-5765-56ae-a3c2-60f6ddc416cb.html&c=15653285175594871912&mkt=en-us",
    "published_at": "2025-06-02T04:01:00+00:00",
    "first_seen": "2026-11-26T13:28:10.697274+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0984ab5729462abaa3b841e2f79f57&url=https%3a%2f%2fwww.thestar.com%2fglobenewswire%2faura-minerals-agrees-to-acquire-the-minera-o-serra-grande-gold-mine-in-goi-s%2farticle_05149c3e-5765-56ae-a3c2-60f6ddc416cb.html&c=15653285175594871912&mkt=en-us",
+   "published_at": "2025-06-02T04:01:00+00:00",
+   "first_seen": "2026-11-27T13:24:59.474048+00:00",
    "regional": 1,
    "regiao_termo": "goias",
    "setorial": 1,
@@ -4698,6 +4754,34 @@
    "substancias": []
   },
   {
+   "title": "Aura Minerals Agrees to Acquire the Mineração Serra Grande Gold Mine in Goiás, Brazil",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0984ab5729462abaa3b841e2f79f57&url=https%3a%2f%2ffinance.yahoo.com%2fnews%2faura-minerals-agrees-acquire-minera-110000961.html&c=16821160229421033576&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-27T13:24:59.470277+00:00",
+   "regional": 1,
+   "regiao_termo": "goias",
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
+  },
+  {
+   "title": "AngloGold Ashanti Agrees to the Sale of the Mineração Serra Grande Mine",
+   "link": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6b0984ab5729462abaa3b841e2f79f57&url=https%3a%2f%2fwww.businesswire.com%2fnews%2fhome%2f20250602105815%2fen%2fAngloGold-Ashanti-Agrees-to-the-Sale-of-the-Minerao-Serra-Grande-Mine&c=1923846645354061380&mkt=en-us",
+   "published_at": "2025-06-01T17:00:00+00:00",
+   "first_seen": "2026-11-27T13:24:59.471252+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Bing · mineração em Goiás",
+   "escopo": "regional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Serpro e ANM lançam Plataforma de Gestão de Recursos Minerais — Agência Nacional de Mineração - www.gov.br",
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVXh2UXZtMGZONEhMemRheHBaaGZkSU4tQXN1SUNoRW9sejN0amhTOTVpVmUxeUxwUGpFa1Z6cFVfdm9FSXRMVXpEMTZqY3hBQnhUOGZMeWNqX1ZGQXUxMkVDV1o2WGpaY2p6WU1jTm12cUVZTUxsZUt2amQxYzlmWnFlRVRRU0E2SEdVRzdzU1BQakFsV2FkOWtIaXZQVnZDSTAwOUlFSnY2SHVT?oc=5",
    "published_at": "2025-05-29T07:00:00+00:00",
@@ -4920,6 +5004,19 @@
     "cobre",
     "litio"
    ]
+  },
+  {
+   "title": "Resoluções/Portarias — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQNHBtSWV2NGI4SE9TbUMyR0hfTDlwRVVBWVVQM0xDdzlpQ0poMlFjQ0JkSWJ0aFl6RFhxN0tWWGc3all3Y1lidVNxSmVTSUkzZ0hGTUdOX1NGZ3ZqZnNCUXVOSGllWE0zbldXYWlVT1dtNnNJN3dnVnJyNnRRajczRVA3bm9IczBmQ0w2c05DZTF4eUZpaUpiWm5GLXVCZjdCajFvaVhiTmlDS3gxdFgyRVNBLWQybnpSMzNIT2Z1blhaakJpb0xOZWVfWjZYTm5ncnhOTEJGcnRDbHRVWFl1TVl0czlodmlvUmQ3bm5lRjJfM0RhN0NsQ3VlS19HVEI5djUyODNISVljb2pSbGJvb0FCQUZ1c2xIUjBWZFFsdU13bVBXY29RV3JYRlotV21m?oc=5",
+   "published_at": "2025-04-02T01:17:10+00:00",
+   "first_seen": "2026-11-27T13:25:01.358011+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
   },
   {
    "title": "Sumário Mineral Brasileiro 2024 — Agência Nacional de Mineração - www.gov.br",
@@ -8445,6 +8542,19 @@
    "substancias": []
   },
   {
+   "title": "Atualização Cadastral — Agência Nacional de Mineração - www.gov.br",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUHlCTTVqX1JmNmNWSUZtR1duc1l4OUZYcjhNOFQweUVtUXNScGp3blg3MlZTVE5xVlY5bFIzUUhGU0pFSm5HblptQlhoVTkwNS1nU19FdElMNkpheEpwS05VclU3YkRWeEpTX3ROeGtrdFNsNzFnWWQxZVBFelB5OFpiWWItUzhVQkRmLUs2dGpwT1pRVFE?oc=5",
+   "published_at": "2021-10-31T07:00:00+00:00",
+   "first_seen": "2026-11-27T13:25:01.355565+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · ANM (site oficial)",
+   "escopo": "setorial",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
    "title": "Anglo American prevê encerrar 2021 com 44 mil toneladas de níquel produzidas nas operações de Niquelândia e Barro Alto - Excelência Notícias",
    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOUFVIeEdnWGJqd3ItbU1aaXFTdkg5SVhocHVVTEdwaHprTlQ4OU9nWEVwX1RicEJXbW80U3NJN2dvYXRoZ3M5QW9qMDlseVZqMzZBTUVLVXk2NVQ1eXFGdnozRF9WMVJzRHZkRUplLUxPOExqUExMWjBDSU1VM1VVVG5heXhhZ1J2b3JFeHVsaC1wLXBMTmJaQXFzaXc5M0dQd0hoOHAtOEM1ZW9kMC13azhVQUlrdHgxTjUzcmhUcEMxOUdXTnFvbmEtMG9UWDk1U0tmTFdTNng5S3lVMmlQV1FaV0RIZzVRbkw5SEo3LUxmeEVoZTNR?oc=5",
    "published_at": "2021-10-25T07:00:00+00:00",
@@ -9194,6 +9304,21 @@
    "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Reaproveitamente de rejeitos de lítio reforçará pauta de exportações - Agência Brasil",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU2pqUEtpOWdDeEF4eXlKQXFORWtrc1p5ejNrOGIzTkZuQjYxM093NXhnQVJhV0I3UnVPQjNzSE4xOTFNSnJ3aXhUVXFvWml1RER4SVlUcXhlSEhiTW9ZWkpiVi1WSkE5LXFTbGhOSzNXbUhHamt1SUdKMW9zRHNZb3JIWTVSN1BETVg2VTlLSGlaY2xKUUplbDdLeGtBUzN2RWZNaWFNRUd4bmctSlE2emE0VVJjcU5SNnBRSm1IN1J5Rldv?oc=5",
+   "published_at": "2020-03-15T07:00:00+00:00",
+   "first_seen": "2026-11-27T13:25:00.319127+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "'Mining was the source of life': inside a dying town - Reuters",
