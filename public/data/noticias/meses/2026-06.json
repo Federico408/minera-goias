@@ -1,6 +1,6 @@
 {
  "mes": "2026-06",
- "materias": 85,
+ "materias": 86,
  "itens": [
   {
    "title": "Atlas Lithium vai ampliar produção de lítio em Minas Gerais | Café com ESG, 30/06 - XP Investimentos",
@@ -485,6 +485,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Atlas Lithium avança na instalação de planta industrial no Brasil e prevê inauguração em 2027 - Valor Econômico",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQd3RGdlBaSzRUV3NoWDhOYjhDRU5hZzIxSl96ZkFrTFl4eHdwY25MNmJ6c0xMaVUzQnpGNTdPQUVTM1NTQ3R2cm1jY09sMS1IUGhZN0Q3cnVzWm9FNlJzcVpuSThLMHJmUHdaV1k3ZHFTMlVxQXJvNEtqczZDMDFZYUpyMDZVcHg2a25tdGFvVnFqVWd5WDFKR2Q0ci1hZnh3eVBFaWxnR0pZTmxqbVlMX0dkSFpwMU5EcTlVcW03dXRDT09uZFhIbE1uWVVCVU96SUlZSlNwdUpOaEZfOWNIeHdiWEFnUdIB9AFBVV95cUxPMFhEU1ZIWHM3OWEtcmV5ZlZYdVk2LVJiZ2MtTUdYakg5Q1dsNTIwRFRPVk4zWDJLZkJCNDB5bFpnejEzekg2dXBoVnBPdklCSnlVSFpRd3RmbkZTdG1sTDZpMnpJVlI2TE9aRDlyQ3VIQkt0ZWlXdG40TzRab3B1TDRJMTlLYnR6RkM1NWE4b191b1ZsNVVld0ZzcGFNdXVaZWMwb29LV0tQTjRaRHNBeHQtbzBnRVNqa25fb25TWmptRVJGeHh0c0NrNENud0lGaXZEZEY4eWlTakRqRzA0dUFabENGZ2tIUHNkY3JFREhvdm1P?oc=5",
+   "published_at": "2026-06-18T07:00:00+00:00",
+   "first_seen": "2026-11-28T12:39:30.371439+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · lítio no Brasil",
+   "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": [
+    "litio"
+   ]
   },
   {
    "title": "Joel Sant’Anna vai ao Chile e leva Goiás ao maior evento de mineração da América do Sul - A Redação",

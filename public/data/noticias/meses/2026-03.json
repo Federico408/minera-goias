@@ -1,6 +1,6 @@
 {
  "mes": "2026-03",
- "materias": 60,
+ "materias": 61,
  "itens": [
   {
    "title": "Nova guia da CFEM entra em fase de testes com participação do setor mineral — Agência Nacional de Mineração - www.gov.br",
@@ -798,6 +798,21 @@
    "escopo": "nacional",
    "tema": "mineracao",
    "substancias": []
+  },
+  {
+   "title": "Brazil court blocks mineral rights transfer in Equinox-CMOC gold deal - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRWtsbnNIbzUwYVBIVG4tWVRnTDhYdm50MzlEeUd5eTFZMEJLV0FEWlNPMi1xQkQzdW54WTYwMEtwS1l4S1M5cVZ4eWo2czNYY1gyU3RJekhHZHI1VTJiUC12dmtFLU9sbGJfRzBqSnJWRTBfaW1SZXBFRjlQaXMta01xNjJuRTlPZjNyc0NZVGd4cUVvZlJn?oc=5",
+   "published_at": "2026-03-03T22:40:54+00:00",
+   "first_seen": "2026-11-28T12:39:32.272929+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
+   "tema": "mineracao",
+   "substancias": [
+    "ouro"
+   ]
   },
   {
    "title": "Terras-raras: ‘Somos o maior produtor em escala fora da Ásia’, diz presidente da brasileira Serra Verde, que pode ter EUA como sócio - O GLOBO",

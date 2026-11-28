@@ -1,6 +1,6 @@
 {
  "mes": "2026-08",
- "materias": 325,
+ "materias": 326,
  "itens": [
   {
    "title": "Lithium miners post big profits as battery storage demand surges",
@@ -2590,6 +2590,19 @@
    "setorial": 1,
    "fonte": "Busca · CFEM",
    "escopo": "nacional",
+   "tema": "mineracao",
+   "substancias": []
+  },
+  {
+   "title": "Mariana, 18 more Brazil cities join Vale-BHP dam collapse compensation deal - Mining.com",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORnBSOHpaMk1BYUpoSDgwVkRlMUJGTFV5ZFozM3poWGVaRkd6WGF4OEU1OEg3WEs2MlowRDRhQUhiS0FBWjk2OGJMeWdXdFI3NzNlZ2VucUNyT0RESjBMY2pBeERIUDVpUWttQ1NkMzVKSUdmRWRSbEU0WDZfSzlLSElLNlo4X09Ia3NWRUhuZm10UTloOGU0OWJPQjlJOFVZSEUtRQ?oc=5",
+   "published_at": "2026-08-20T21:22:26+00:00",
+   "first_seen": "2026-11-28T12:39:32.274265+00:00",
+   "regional": 0,
+   "regiao_termo": null,
+   "setorial": 1,
+   "fonte": "Busca · Brazil mining (Reuters)",
+   "escopo": "internacional",
    "tema": "mineracao",
    "substancias": []
   },
